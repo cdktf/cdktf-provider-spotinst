@@ -667,7 +667,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_azure_v3',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.73.3',
+        providerVersion: '1.74.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
