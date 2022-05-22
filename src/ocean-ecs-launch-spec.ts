@@ -660,7 +660,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.73.3',
+        providerVersion: '1.74.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
