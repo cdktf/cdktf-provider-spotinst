@@ -76,6 +76,13 @@ export interface MrscalerAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly exposeClusterId?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#id MrscalerAws#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#job_flow_role MrscalerAws#job_flow_role}
   */
   readonly jobFlowRole?: string;
@@ -307,6 +314,127 @@ export function mrscalerAwsApplicationsToTerraform(struct?: MrscalerAwsApplicati
   }
 }
 
+export class MrscalerAwsApplicationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsApplications | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._args !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.args = this._args;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsApplications | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._args = undefined;
+      this._name = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._args = value.args;
+      this._name = value.name;
+      this._version = value.version;
+    }
+  }
+
+  // args - computed: false, optional: true, required: false
+  private _args?: string[]; 
+  public get args() {
+    return this.getListAttribute('args');
+  }
+  public set args(value: string[]) {
+    this._args = value;
+  }
+  public resetArgs() {
+    this._args = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get argsInput() {
+    return this._args;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class MrscalerAwsApplicationsList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsApplications[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsApplicationsOutputReference {
+    return new MrscalerAwsApplicationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsBootstrapActionsFile {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#bucket MrscalerAws#bucket}
@@ -329,6 +457,102 @@ export function mrscalerAwsBootstrapActionsFileToTerraform(struct?: MrscalerAwsB
   }
 }
 
+export class MrscalerAwsBootstrapActionsFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsBootstrapActionsFile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bucket !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bucket = this._bucket;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsBootstrapActionsFile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._bucket = undefined;
+      this._key = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._bucket = value.bucket;
+      this._key = value.key;
+    }
+  }
+
+  // bucket - computed: false, optional: false, required: true
+  private _bucket?: string; 
+  public get bucket() {
+    return this.getStringAttribute('bucket');
+  }
+  public set bucket(value: string) {
+    this._bucket = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketInput() {
+    return this._bucket;
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+}
+
+export class MrscalerAwsBootstrapActionsFileList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsBootstrapActionsFile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsBootstrapActionsFileOutputReference {
+    return new MrscalerAwsBootstrapActionsFileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsConfigurationsFile {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#bucket MrscalerAws#bucket}
@@ -351,6 +575,102 @@ export function mrscalerAwsConfigurationsFileToTerraform(struct?: MrscalerAwsCon
   }
 }
 
+export class MrscalerAwsConfigurationsFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsConfigurationsFile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bucket !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bucket = this._bucket;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsConfigurationsFile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._bucket = undefined;
+      this._key = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._bucket = value.bucket;
+      this._key = value.key;
+    }
+  }
+
+  // bucket - computed: false, optional: false, required: true
+  private _bucket?: string; 
+  public get bucket() {
+    return this.getStringAttribute('bucket');
+  }
+  public set bucket(value: string) {
+    this._bucket = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketInput() {
+    return this._bucket;
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+}
+
+export class MrscalerAwsConfigurationsFileList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsConfigurationsFile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsConfigurationsFileOutputReference {
+    return new MrscalerAwsConfigurationsFileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsCoreEbsBlockDevice {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#iops MrscalerAws#iops}
@@ -383,6 +703,146 @@ export function mrscalerAwsCoreEbsBlockDeviceToTerraform(struct?: MrscalerAwsCor
   }
 }
 
+export class MrscalerAwsCoreEbsBlockDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsCoreEbsBlockDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._iops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iops = this._iops;
+    }
+    if (this._sizeInGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeInGb = this._sizeInGb;
+    }
+    if (this._volumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeType = this._volumeType;
+    }
+    if (this._volumesPerInstance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumesPerInstance = this._volumesPerInstance;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsCoreEbsBlockDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._iops = undefined;
+      this._sizeInGb = undefined;
+      this._volumeType = undefined;
+      this._volumesPerInstance = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._iops = value.iops;
+      this._sizeInGb = value.sizeInGb;
+      this._volumeType = value.volumeType;
+      this._volumesPerInstance = value.volumesPerInstance;
+    }
+  }
+
+  // iops - computed: false, optional: true, required: false
+  private _iops?: number; 
+  public get iops() {
+    return this.getNumberAttribute('iops');
+  }
+  public set iops(value: number) {
+    this._iops = value;
+  }
+  public resetIops() {
+    this._iops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iopsInput() {
+    return this._iops;
+  }
+
+  // size_in_gb - computed: false, optional: false, required: true
+  private _sizeInGb?: number; 
+  public get sizeInGb() {
+    return this.getNumberAttribute('size_in_gb');
+  }
+  public set sizeInGb(value: number) {
+    this._sizeInGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeInGbInput() {
+    return this._sizeInGb;
+  }
+
+  // volume_type - computed: false, optional: false, required: true
+  private _volumeType?: string; 
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
+  public set volumeType(value: string) {
+    this._volumeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeTypeInput() {
+    return this._volumeType;
+  }
+
+  // volumes_per_instance - computed: false, optional: true, required: false
+  private _volumesPerInstance?: number; 
+  public get volumesPerInstance() {
+    return this.getNumberAttribute('volumes_per_instance');
+  }
+  public set volumesPerInstance(value: number) {
+    this._volumesPerInstance = value;
+  }
+  public resetVolumesPerInstance() {
+    this._volumesPerInstance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumesPerInstanceInput() {
+    return this._volumesPerInstance;
+  }
+}
+
+export class MrscalerAwsCoreEbsBlockDeviceList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsCoreEbsBlockDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsCoreEbsBlockDeviceOutputReference {
+    return new MrscalerAwsCoreEbsBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsCoreScalingDownPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#action_type MrscalerAws#action_type}
@@ -485,6 +945,445 @@ export function mrscalerAwsCoreScalingDownPolicyToTerraform(struct?: MrscalerAws
   }
 }
 
+export class MrscalerAwsCoreScalingDownPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsCoreScalingDownPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._dimensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsCoreScalingDownPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._dimensions = undefined;
+      this._evaluationPeriods = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._dimensions = value.dimensions;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: true, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions?: { [key: string]: string }; 
+  public get dimensions() {
+    return this.getStringMapAttribute('dimensions');
+  }
+  public set dimensions(value: { [key: string]: string }) {
+    this._dimensions = value;
+  }
+  public resetDimensions() {
+    this._dimensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // statistic - computed: true, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: false, required: true
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class MrscalerAwsCoreScalingDownPolicyList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsCoreScalingDownPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsCoreScalingDownPolicyOutputReference {
+    return new MrscalerAwsCoreScalingDownPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsCoreScalingUpPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#action_type MrscalerAws#action_type}
@@ -587,6 +1486,445 @@ export function mrscalerAwsCoreScalingUpPolicyToTerraform(struct?: MrscalerAwsCo
   }
 }
 
+export class MrscalerAwsCoreScalingUpPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsCoreScalingUpPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._dimensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsCoreScalingUpPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._dimensions = undefined;
+      this._evaluationPeriods = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._dimensions = value.dimensions;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: true, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions?: { [key: string]: string }; 
+  public get dimensions() {
+    return this.getStringMapAttribute('dimensions');
+  }
+  public set dimensions(value: { [key: string]: string }) {
+    this._dimensions = value;
+  }
+  public resetDimensions() {
+    this._dimensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // statistic - computed: true, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: false, required: true
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class MrscalerAwsCoreScalingUpPolicyList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsCoreScalingUpPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsCoreScalingUpPolicyOutputReference {
+    return new MrscalerAwsCoreScalingUpPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsInstanceWeights {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#instance_type MrscalerAws#instance_type}
@@ -609,6 +1947,102 @@ export function mrscalerAwsInstanceWeightsToTerraform(struct?: MrscalerAwsInstan
   }
 }
 
+export class MrscalerAwsInstanceWeightsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsInstanceWeights | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceType = this._instanceType;
+    }
+    if (this._weightedCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weightedCapacity = this._weightedCapacity;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsInstanceWeights | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._instanceType = undefined;
+      this._weightedCapacity = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._instanceType = value.instanceType;
+      this._weightedCapacity = value.weightedCapacity;
+    }
+  }
+
+  // instance_type - computed: false, optional: false, required: true
+  private _instanceType?: string; 
+  public get instanceType() {
+    return this.getStringAttribute('instance_type');
+  }
+  public set instanceType(value: string) {
+    this._instanceType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeInput() {
+    return this._instanceType;
+  }
+
+  // weighted_capacity - computed: false, optional: false, required: true
+  private _weightedCapacity?: number; 
+  public get weightedCapacity() {
+    return this.getNumberAttribute('weighted_capacity');
+  }
+  public set weightedCapacity(value: number) {
+    this._weightedCapacity = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weightedCapacityInput() {
+    return this._weightedCapacity;
+  }
+}
+
+export class MrscalerAwsInstanceWeightsList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsInstanceWeights[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsInstanceWeightsOutputReference {
+    return new MrscalerAwsInstanceWeightsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsMasterEbsBlockDevice {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#iops MrscalerAws#iops}
@@ -641,6 +2075,146 @@ export function mrscalerAwsMasterEbsBlockDeviceToTerraform(struct?: MrscalerAwsM
   }
 }
 
+export class MrscalerAwsMasterEbsBlockDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsMasterEbsBlockDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._iops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iops = this._iops;
+    }
+    if (this._sizeInGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeInGb = this._sizeInGb;
+    }
+    if (this._volumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeType = this._volumeType;
+    }
+    if (this._volumesPerInstance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumesPerInstance = this._volumesPerInstance;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsMasterEbsBlockDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._iops = undefined;
+      this._sizeInGb = undefined;
+      this._volumeType = undefined;
+      this._volumesPerInstance = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._iops = value.iops;
+      this._sizeInGb = value.sizeInGb;
+      this._volumeType = value.volumeType;
+      this._volumesPerInstance = value.volumesPerInstance;
+    }
+  }
+
+  // iops - computed: false, optional: true, required: false
+  private _iops?: number; 
+  public get iops() {
+    return this.getNumberAttribute('iops');
+  }
+  public set iops(value: number) {
+    this._iops = value;
+  }
+  public resetIops() {
+    this._iops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iopsInput() {
+    return this._iops;
+  }
+
+  // size_in_gb - computed: false, optional: false, required: true
+  private _sizeInGb?: number; 
+  public get sizeInGb() {
+    return this.getNumberAttribute('size_in_gb');
+  }
+  public set sizeInGb(value: number) {
+    this._sizeInGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeInGbInput() {
+    return this._sizeInGb;
+  }
+
+  // volume_type - computed: false, optional: false, required: true
+  private _volumeType?: string; 
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
+  public set volumeType(value: string) {
+    this._volumeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeTypeInput() {
+    return this._volumeType;
+  }
+
+  // volumes_per_instance - computed: false, optional: true, required: false
+  private _volumesPerInstance?: number; 
+  public get volumesPerInstance() {
+    return this.getNumberAttribute('volumes_per_instance');
+  }
+  public set volumesPerInstance(value: number) {
+    this._volumesPerInstance = value;
+  }
+  public resetVolumesPerInstance() {
+    this._volumesPerInstance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumesPerInstanceInput() {
+    return this._volumesPerInstance;
+  }
+}
+
+export class MrscalerAwsMasterEbsBlockDeviceList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsMasterEbsBlockDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsMasterEbsBlockDeviceOutputReference {
+    return new MrscalerAwsMasterEbsBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsProvisioningTimeout {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#timeout MrscalerAws#timeout}
@@ -774,6 +2348,209 @@ export function mrscalerAwsScheduledTaskToTerraform(struct?: MrscalerAwsSchedule
   }
 }
 
+export class MrscalerAwsScheduledTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsScheduledTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cron !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cron = this._cron;
+    }
+    if (this._desiredCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.desiredCapacity = this._desiredCapacity;
+    }
+    if (this._instanceGroupType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceGroupType = this._instanceGroupType;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._maxCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCapacity = this._maxCapacity;
+    }
+    if (this._minCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minCapacity = this._minCapacity;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsScheduledTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cron = undefined;
+      this._desiredCapacity = undefined;
+      this._instanceGroupType = undefined;
+      this._isEnabled = undefined;
+      this._maxCapacity = undefined;
+      this._minCapacity = undefined;
+      this._taskType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cron = value.cron;
+      this._desiredCapacity = value.desiredCapacity;
+      this._instanceGroupType = value.instanceGroupType;
+      this._isEnabled = value.isEnabled;
+      this._maxCapacity = value.maxCapacity;
+      this._minCapacity = value.minCapacity;
+      this._taskType = value.taskType;
+    }
+  }
+
+  // cron - computed: false, optional: false, required: true
+  private _cron?: string; 
+  public get cron() {
+    return this.getStringAttribute('cron');
+  }
+  public set cron(value: string) {
+    this._cron = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronInput() {
+    return this._cron;
+  }
+
+  // desired_capacity - computed: false, optional: true, required: false
+  private _desiredCapacity?: string; 
+  public get desiredCapacity() {
+    return this.getStringAttribute('desired_capacity');
+  }
+  public set desiredCapacity(value: string) {
+    this._desiredCapacity = value;
+  }
+  public resetDesiredCapacity() {
+    this._desiredCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get desiredCapacityInput() {
+    return this._desiredCapacity;
+  }
+
+  // instance_group_type - computed: false, optional: false, required: true
+  private _instanceGroupType?: string; 
+  public get instanceGroupType() {
+    return this.getStringAttribute('instance_group_type');
+  }
+  public set instanceGroupType(value: string) {
+    this._instanceGroupType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceGroupTypeInput() {
+    return this._instanceGroupType;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // max_capacity - computed: false, optional: true, required: false
+  private _maxCapacity?: string; 
+  public get maxCapacity() {
+    return this.getStringAttribute('max_capacity');
+  }
+  public set maxCapacity(value: string) {
+    this._maxCapacity = value;
+  }
+  public resetMaxCapacity() {
+    this._maxCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCapacityInput() {
+    return this._maxCapacity;
+  }
+
+  // min_capacity - computed: false, optional: true, required: false
+  private _minCapacity?: string; 
+  public get minCapacity() {
+    return this.getStringAttribute('min_capacity');
+  }
+  public set minCapacity(value: string) {
+    this._minCapacity = value;
+  }
+  public resetMinCapacity() {
+    this._minCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minCapacityInput() {
+    return this._minCapacity;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+}
+
+export class MrscalerAwsScheduledTaskList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsScheduledTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsScheduledTaskOutputReference {
+    return new MrscalerAwsScheduledTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsStepsFile {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#bucket MrscalerAws#bucket}
@@ -796,6 +2573,102 @@ export function mrscalerAwsStepsFileToTerraform(struct?: MrscalerAwsStepsFile | 
   }
 }
 
+export class MrscalerAwsStepsFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsStepsFile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._bucket !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bucket = this._bucket;
+    }
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsStepsFile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._bucket = undefined;
+      this._key = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._bucket = value.bucket;
+      this._key = value.key;
+    }
+  }
+
+  // bucket - computed: false, optional: false, required: true
+  private _bucket?: string; 
+  public get bucket() {
+    return this.getStringAttribute('bucket');
+  }
+  public set bucket(value: string) {
+    this._bucket = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketInput() {
+    return this._bucket;
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+}
+
+export class MrscalerAwsStepsFileList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsStepsFile[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsStepsFileOutputReference {
+    return new MrscalerAwsStepsFileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#key MrscalerAws#key}
@@ -818,6 +2691,102 @@ export function mrscalerAwsTagsToTerraform(struct?: MrscalerAwsTags | cdktf.IRes
   }
 }
 
+export class MrscalerAwsTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class MrscalerAwsTagsList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTagsOutputReference {
+    return new MrscalerAwsTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTaskEbsBlockDevice {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#iops MrscalerAws#iops}
@@ -850,6 +2819,146 @@ export function mrscalerAwsTaskEbsBlockDeviceToTerraform(struct?: MrscalerAwsTas
   }
 }
 
+export class MrscalerAwsTaskEbsBlockDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTaskEbsBlockDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._iops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iops = this._iops;
+    }
+    if (this._sizeInGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeInGb = this._sizeInGb;
+    }
+    if (this._volumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeType = this._volumeType;
+    }
+    if (this._volumesPerInstance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumesPerInstance = this._volumesPerInstance;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTaskEbsBlockDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._iops = undefined;
+      this._sizeInGb = undefined;
+      this._volumeType = undefined;
+      this._volumesPerInstance = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._iops = value.iops;
+      this._sizeInGb = value.sizeInGb;
+      this._volumeType = value.volumeType;
+      this._volumesPerInstance = value.volumesPerInstance;
+    }
+  }
+
+  // iops - computed: false, optional: true, required: false
+  private _iops?: number; 
+  public get iops() {
+    return this.getNumberAttribute('iops');
+  }
+  public set iops(value: number) {
+    this._iops = value;
+  }
+  public resetIops() {
+    this._iops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iopsInput() {
+    return this._iops;
+  }
+
+  // size_in_gb - computed: false, optional: false, required: true
+  private _sizeInGb?: number; 
+  public get sizeInGb() {
+    return this.getNumberAttribute('size_in_gb');
+  }
+  public set sizeInGb(value: number) {
+    this._sizeInGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeInGbInput() {
+    return this._sizeInGb;
+  }
+
+  // volume_type - computed: false, optional: false, required: true
+  private _volumeType?: string; 
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
+  public set volumeType(value: string) {
+    this._volumeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeTypeInput() {
+    return this._volumeType;
+  }
+
+  // volumes_per_instance - computed: false, optional: true, required: false
+  private _volumesPerInstance?: number; 
+  public get volumesPerInstance() {
+    return this.getNumberAttribute('volumes_per_instance');
+  }
+  public set volumesPerInstance(value: number) {
+    this._volumesPerInstance = value;
+  }
+  public resetVolumesPerInstance() {
+    this._volumesPerInstance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumesPerInstanceInput() {
+    return this._volumesPerInstance;
+  }
+}
+
+export class MrscalerAwsTaskEbsBlockDeviceList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTaskEbsBlockDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTaskEbsBlockDeviceOutputReference {
+    return new MrscalerAwsTaskEbsBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTaskScalingDownPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#action_type MrscalerAws#action_type}
@@ -952,6 +3061,445 @@ export function mrscalerAwsTaskScalingDownPolicyToTerraform(struct?: MrscalerAws
   }
 }
 
+export class MrscalerAwsTaskScalingDownPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTaskScalingDownPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._dimensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTaskScalingDownPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._dimensions = undefined;
+      this._evaluationPeriods = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._dimensions = value.dimensions;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: true, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions?: { [key: string]: string }; 
+  public get dimensions() {
+    return this.getStringMapAttribute('dimensions');
+  }
+  public set dimensions(value: { [key: string]: string }) {
+    this._dimensions = value;
+  }
+  public resetDimensions() {
+    this._dimensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // statistic - computed: true, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: false, required: true
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class MrscalerAwsTaskScalingDownPolicyList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTaskScalingDownPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTaskScalingDownPolicyOutputReference {
+    return new MrscalerAwsTaskScalingDownPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTaskScalingUpPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#action_type MrscalerAws#action_type}
@@ -1054,6 +3602,445 @@ export function mrscalerAwsTaskScalingUpPolicyToTerraform(struct?: MrscalerAwsTa
   }
 }
 
+export class MrscalerAwsTaskScalingUpPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTaskScalingUpPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._dimensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTaskScalingUpPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._dimensions = undefined;
+      this._evaluationPeriods = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._dimensions = value.dimensions;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: true, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions?: { [key: string]: string }; 
+  public get dimensions() {
+    return this.getStringMapAttribute('dimensions');
+  }
+  public set dimensions(value: { [key: string]: string }) {
+    this._dimensions = value;
+  }
+  public resetDimensions() {
+    this._dimensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // statistic - computed: true, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: false, required: true
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class MrscalerAwsTaskScalingUpPolicyList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTaskScalingUpPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTaskScalingUpPolicyOutputReference {
+    return new MrscalerAwsTaskScalingUpPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTerminationPoliciesStatements {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}
@@ -1106,6 +4093,231 @@ export function mrscalerAwsTerminationPoliciesStatementsToTerraform(struct?: Mrs
   }
 }
 
+export class MrscalerAwsTerminationPoliciesStatementsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTerminationPoliciesStatements | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTerminationPoliciesStatements | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._evaluationPeriods = undefined;
+      this._metricName = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._statistic = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._metricName = value.metricName;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._statistic = value.statistic;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+    }
+  }
+
+  // evaluation_periods - computed: false, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: false, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: false, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // statistic - computed: false, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+}
+
+export class MrscalerAwsTerminationPoliciesStatementsList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTerminationPoliciesStatements[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTerminationPoliciesStatementsOutputReference {
+    return new MrscalerAwsTerminationPoliciesStatementsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface MrscalerAwsTerminationPolicies {
   /**
   * statements block
@@ -1125,6 +4337,83 @@ export function mrscalerAwsTerminationPoliciesToTerraform(struct?: MrscalerAwsTe
   }
 }
 
+export class MrscalerAwsTerminationPoliciesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): MrscalerAwsTerminationPolicies | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._statements?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statements = this._statements?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MrscalerAwsTerminationPolicies | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._statements.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._statements.internalValue = value.statements;
+    }
+  }
+
+  // statements - computed: false, optional: false, required: true
+  private _statements = new MrscalerAwsTerminationPoliciesStatementsList(this, "statements", false);
+  public get statements() {
+    return this._statements;
+  }
+  public putStatements(value: MrscalerAwsTerminationPoliciesStatements[] | cdktf.IResolvable) {
+    this._statements.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statementsInput() {
+    return this._statements.internalValue;
+  }
+}
+
+export class MrscalerAwsTerminationPoliciesList extends cdktf.ComplexList {
+  public internalValue? : MrscalerAwsTerminationPolicies[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): MrscalerAwsTerminationPoliciesOutputReference {
+    return new MrscalerAwsTerminationPoliciesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/mrscaler_aws spotinst_mrscaler_aws}
@@ -1177,6 +4466,7 @@ export class MrscalerAws extends cdktf.TerraformResource {
     this._ebsRootVolumeSize = config.ebsRootVolumeSize;
     this._ec2KeyName = config.ec2KeyName;
     this._exposeClusterId = config.exposeClusterId;
+    this._id = config.id;
     this._jobFlowRole = config.jobFlowRole;
     this._keepJobFlowAlive = config.keepJobFlowAlive;
     this._logUri = config.logUri;
@@ -1204,22 +4494,22 @@ export class MrscalerAws extends cdktf.TerraformResource {
     this._taskUnit = config.taskUnit;
     this._terminationProtected = config.terminationProtected;
     this._visibleToAllUsers = config.visibleToAllUsers;
-    this._applications = config.applications;
-    this._bootstrapActionsFile = config.bootstrapActionsFile;
-    this._configurationsFile = config.configurationsFile;
-    this._coreEbsBlockDevice = config.coreEbsBlockDevice;
-    this._coreScalingDownPolicy = config.coreScalingDownPolicy;
-    this._coreScalingUpPolicy = config.coreScalingUpPolicy;
-    this._instanceWeights = config.instanceWeights;
-    this._masterEbsBlockDevice = config.masterEbsBlockDevice;
+    this._applications.internalValue = config.applications;
+    this._bootstrapActionsFile.internalValue = config.bootstrapActionsFile;
+    this._configurationsFile.internalValue = config.configurationsFile;
+    this._coreEbsBlockDevice.internalValue = config.coreEbsBlockDevice;
+    this._coreScalingDownPolicy.internalValue = config.coreScalingDownPolicy;
+    this._coreScalingUpPolicy.internalValue = config.coreScalingUpPolicy;
+    this._instanceWeights.internalValue = config.instanceWeights;
+    this._masterEbsBlockDevice.internalValue = config.masterEbsBlockDevice;
     this._provisioningTimeout.internalValue = config.provisioningTimeout;
-    this._scheduledTask = config.scheduledTask;
-    this._stepsFile = config.stepsFile;
-    this._tags = config.tags;
-    this._taskEbsBlockDevice = config.taskEbsBlockDevice;
-    this._taskScalingDownPolicy = config.taskScalingDownPolicy;
-    this._taskScalingUpPolicy = config.taskScalingUpPolicy;
-    this._terminationPolicies = config.terminationPolicies;
+    this._scheduledTask.internalValue = config.scheduledTask;
+    this._stepsFile.internalValue = config.stepsFile;
+    this._tags.internalValue = config.tags;
+    this._taskEbsBlockDevice.internalValue = config.taskEbsBlockDevice;
+    this._taskScalingDownPolicy.internalValue = config.taskScalingDownPolicy;
+    this._taskScalingUpPolicy.internalValue = config.taskScalingUpPolicy;
+    this._terminationPolicies.internalValue = config.terminationPolicies;
   }
 
   // ==========
@@ -1499,8 +4789,19 @@ export class MrscalerAws extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // job_flow_role - computed: false, optional: true, required: false
@@ -1935,139 +5236,131 @@ export class MrscalerAws extends cdktf.TerraformResource {
   }
 
   // applications - computed: false, optional: true, required: false
-  private _applications?: MrscalerAwsApplications[] | cdktf.IResolvable; 
+  private _applications = new MrscalerAwsApplicationsList(this, "applications", true);
   public get applications() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('applications')));
+    return this._applications;
   }
-  public set applications(value: MrscalerAwsApplications[] | cdktf.IResolvable) {
-    this._applications = value;
+  public putApplications(value: MrscalerAwsApplications[] | cdktf.IResolvable) {
+    this._applications.internalValue = value;
   }
   public resetApplications() {
-    this._applications = undefined;
+    this._applications.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get applicationsInput() {
-    return this._applications;
+    return this._applications.internalValue;
   }
 
   // bootstrap_actions_file - computed: false, optional: true, required: false
-  private _bootstrapActionsFile?: MrscalerAwsBootstrapActionsFile[] | cdktf.IResolvable; 
+  private _bootstrapActionsFile = new MrscalerAwsBootstrapActionsFileList(this, "bootstrap_actions_file", true);
   public get bootstrapActionsFile() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('bootstrap_actions_file')));
+    return this._bootstrapActionsFile;
   }
-  public set bootstrapActionsFile(value: MrscalerAwsBootstrapActionsFile[] | cdktf.IResolvable) {
-    this._bootstrapActionsFile = value;
+  public putBootstrapActionsFile(value: MrscalerAwsBootstrapActionsFile[] | cdktf.IResolvable) {
+    this._bootstrapActionsFile.internalValue = value;
   }
   public resetBootstrapActionsFile() {
-    this._bootstrapActionsFile = undefined;
+    this._bootstrapActionsFile.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get bootstrapActionsFileInput() {
-    return this._bootstrapActionsFile;
+    return this._bootstrapActionsFile.internalValue;
   }
 
   // configurations_file - computed: false, optional: true, required: false
-  private _configurationsFile?: MrscalerAwsConfigurationsFile[] | cdktf.IResolvable; 
+  private _configurationsFile = new MrscalerAwsConfigurationsFileList(this, "configurations_file", true);
   public get configurationsFile() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('configurations_file')));
+    return this._configurationsFile;
   }
-  public set configurationsFile(value: MrscalerAwsConfigurationsFile[] | cdktf.IResolvable) {
-    this._configurationsFile = value;
+  public putConfigurationsFile(value: MrscalerAwsConfigurationsFile[] | cdktf.IResolvable) {
+    this._configurationsFile.internalValue = value;
   }
   public resetConfigurationsFile() {
-    this._configurationsFile = undefined;
+    this._configurationsFile.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get configurationsFileInput() {
-    return this._configurationsFile;
+    return this._configurationsFile.internalValue;
   }
 
   // core_ebs_block_device - computed: false, optional: true, required: false
-  private _coreEbsBlockDevice?: MrscalerAwsCoreEbsBlockDevice[] | cdktf.IResolvable; 
+  private _coreEbsBlockDevice = new MrscalerAwsCoreEbsBlockDeviceList(this, "core_ebs_block_device", true);
   public get coreEbsBlockDevice() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('core_ebs_block_device')));
+    return this._coreEbsBlockDevice;
   }
-  public set coreEbsBlockDevice(value: MrscalerAwsCoreEbsBlockDevice[] | cdktf.IResolvable) {
-    this._coreEbsBlockDevice = value;
+  public putCoreEbsBlockDevice(value: MrscalerAwsCoreEbsBlockDevice[] | cdktf.IResolvable) {
+    this._coreEbsBlockDevice.internalValue = value;
   }
   public resetCoreEbsBlockDevice() {
-    this._coreEbsBlockDevice = undefined;
+    this._coreEbsBlockDevice.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get coreEbsBlockDeviceInput() {
-    return this._coreEbsBlockDevice;
+    return this._coreEbsBlockDevice.internalValue;
   }
 
   // core_scaling_down_policy - computed: false, optional: true, required: false
-  private _coreScalingDownPolicy?: MrscalerAwsCoreScalingDownPolicy[] | cdktf.IResolvable; 
+  private _coreScalingDownPolicy = new MrscalerAwsCoreScalingDownPolicyList(this, "core_scaling_down_policy", true);
   public get coreScalingDownPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('core_scaling_down_policy')));
+    return this._coreScalingDownPolicy;
   }
-  public set coreScalingDownPolicy(value: MrscalerAwsCoreScalingDownPolicy[] | cdktf.IResolvable) {
-    this._coreScalingDownPolicy = value;
+  public putCoreScalingDownPolicy(value: MrscalerAwsCoreScalingDownPolicy[] | cdktf.IResolvable) {
+    this._coreScalingDownPolicy.internalValue = value;
   }
   public resetCoreScalingDownPolicy() {
-    this._coreScalingDownPolicy = undefined;
+    this._coreScalingDownPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get coreScalingDownPolicyInput() {
-    return this._coreScalingDownPolicy;
+    return this._coreScalingDownPolicy.internalValue;
   }
 
   // core_scaling_up_policy - computed: false, optional: true, required: false
-  private _coreScalingUpPolicy?: MrscalerAwsCoreScalingUpPolicy[] | cdktf.IResolvable; 
+  private _coreScalingUpPolicy = new MrscalerAwsCoreScalingUpPolicyList(this, "core_scaling_up_policy", true);
   public get coreScalingUpPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('core_scaling_up_policy')));
+    return this._coreScalingUpPolicy;
   }
-  public set coreScalingUpPolicy(value: MrscalerAwsCoreScalingUpPolicy[] | cdktf.IResolvable) {
-    this._coreScalingUpPolicy = value;
+  public putCoreScalingUpPolicy(value: MrscalerAwsCoreScalingUpPolicy[] | cdktf.IResolvable) {
+    this._coreScalingUpPolicy.internalValue = value;
   }
   public resetCoreScalingUpPolicy() {
-    this._coreScalingUpPolicy = undefined;
+    this._coreScalingUpPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get coreScalingUpPolicyInput() {
-    return this._coreScalingUpPolicy;
+    return this._coreScalingUpPolicy.internalValue;
   }
 
   // instance_weights - computed: false, optional: true, required: false
-  private _instanceWeights?: MrscalerAwsInstanceWeights[] | cdktf.IResolvable; 
+  private _instanceWeights = new MrscalerAwsInstanceWeightsList(this, "instance_weights", true);
   public get instanceWeights() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('instance_weights')));
+    return this._instanceWeights;
   }
-  public set instanceWeights(value: MrscalerAwsInstanceWeights[] | cdktf.IResolvable) {
-    this._instanceWeights = value;
+  public putInstanceWeights(value: MrscalerAwsInstanceWeights[] | cdktf.IResolvable) {
+    this._instanceWeights.internalValue = value;
   }
   public resetInstanceWeights() {
-    this._instanceWeights = undefined;
+    this._instanceWeights.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceWeightsInput() {
-    return this._instanceWeights;
+    return this._instanceWeights.internalValue;
   }
 
   // master_ebs_block_device - computed: false, optional: true, required: false
-  private _masterEbsBlockDevice?: MrscalerAwsMasterEbsBlockDevice[] | cdktf.IResolvable; 
+  private _masterEbsBlockDevice = new MrscalerAwsMasterEbsBlockDeviceList(this, "master_ebs_block_device", true);
   public get masterEbsBlockDevice() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('master_ebs_block_device')));
+    return this._masterEbsBlockDevice;
   }
-  public set masterEbsBlockDevice(value: MrscalerAwsMasterEbsBlockDevice[] | cdktf.IResolvable) {
-    this._masterEbsBlockDevice = value;
+  public putMasterEbsBlockDevice(value: MrscalerAwsMasterEbsBlockDevice[] | cdktf.IResolvable) {
+    this._masterEbsBlockDevice.internalValue = value;
   }
   public resetMasterEbsBlockDevice() {
-    this._masterEbsBlockDevice = undefined;
+    this._masterEbsBlockDevice.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get masterEbsBlockDeviceInput() {
-    return this._masterEbsBlockDevice;
+    return this._masterEbsBlockDevice.internalValue;
   }
 
   // provisioning_timeout - computed: false, optional: true, required: false
@@ -2087,122 +5380,115 @@ export class MrscalerAws extends cdktf.TerraformResource {
   }
 
   // scheduled_task - computed: false, optional: true, required: false
-  private _scheduledTask?: MrscalerAwsScheduledTask[] | cdktf.IResolvable; 
+  private _scheduledTask = new MrscalerAwsScheduledTaskList(this, "scheduled_task", true);
   public get scheduledTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduled_task')));
+    return this._scheduledTask;
   }
-  public set scheduledTask(value: MrscalerAwsScheduledTask[] | cdktf.IResolvable) {
-    this._scheduledTask = value;
+  public putScheduledTask(value: MrscalerAwsScheduledTask[] | cdktf.IResolvable) {
+    this._scheduledTask.internalValue = value;
   }
   public resetScheduledTask() {
-    this._scheduledTask = undefined;
+    this._scheduledTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scheduledTaskInput() {
-    return this._scheduledTask;
+    return this._scheduledTask.internalValue;
   }
 
   // steps_file - computed: false, optional: true, required: false
-  private _stepsFile?: MrscalerAwsStepsFile[] | cdktf.IResolvable; 
+  private _stepsFile = new MrscalerAwsStepsFileList(this, "steps_file", true);
   public get stepsFile() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('steps_file')));
+    return this._stepsFile;
   }
-  public set stepsFile(value: MrscalerAwsStepsFile[] | cdktf.IResolvable) {
-    this._stepsFile = value;
+  public putStepsFile(value: MrscalerAwsStepsFile[] | cdktf.IResolvable) {
+    this._stepsFile.internalValue = value;
   }
   public resetStepsFile() {
-    this._stepsFile = undefined;
+    this._stepsFile.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get stepsFileInput() {
-    return this._stepsFile;
+    return this._stepsFile.internalValue;
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: MrscalerAwsTags[] | cdktf.IResolvable; 
+  private _tags = new MrscalerAwsTagsList(this, "tags", true);
   public get tags() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tags')));
+    return this._tags;
   }
-  public set tags(value: MrscalerAwsTags[] | cdktf.IResolvable) {
-    this._tags = value;
+  public putTags(value: MrscalerAwsTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
   }
   public resetTags() {
-    this._tags = undefined;
+    this._tags.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagsInput() {
-    return this._tags;
+    return this._tags.internalValue;
   }
 
   // task_ebs_block_device - computed: false, optional: true, required: false
-  private _taskEbsBlockDevice?: MrscalerAwsTaskEbsBlockDevice[] | cdktf.IResolvable; 
+  private _taskEbsBlockDevice = new MrscalerAwsTaskEbsBlockDeviceList(this, "task_ebs_block_device", true);
   public get taskEbsBlockDevice() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('task_ebs_block_device')));
+    return this._taskEbsBlockDevice;
   }
-  public set taskEbsBlockDevice(value: MrscalerAwsTaskEbsBlockDevice[] | cdktf.IResolvable) {
-    this._taskEbsBlockDevice = value;
+  public putTaskEbsBlockDevice(value: MrscalerAwsTaskEbsBlockDevice[] | cdktf.IResolvable) {
+    this._taskEbsBlockDevice.internalValue = value;
   }
   public resetTaskEbsBlockDevice() {
-    this._taskEbsBlockDevice = undefined;
+    this._taskEbsBlockDevice.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get taskEbsBlockDeviceInput() {
-    return this._taskEbsBlockDevice;
+    return this._taskEbsBlockDevice.internalValue;
   }
 
   // task_scaling_down_policy - computed: false, optional: true, required: false
-  private _taskScalingDownPolicy?: MrscalerAwsTaskScalingDownPolicy[] | cdktf.IResolvable; 
+  private _taskScalingDownPolicy = new MrscalerAwsTaskScalingDownPolicyList(this, "task_scaling_down_policy", true);
   public get taskScalingDownPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('task_scaling_down_policy')));
+    return this._taskScalingDownPolicy;
   }
-  public set taskScalingDownPolicy(value: MrscalerAwsTaskScalingDownPolicy[] | cdktf.IResolvable) {
-    this._taskScalingDownPolicy = value;
+  public putTaskScalingDownPolicy(value: MrscalerAwsTaskScalingDownPolicy[] | cdktf.IResolvable) {
+    this._taskScalingDownPolicy.internalValue = value;
   }
   public resetTaskScalingDownPolicy() {
-    this._taskScalingDownPolicy = undefined;
+    this._taskScalingDownPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get taskScalingDownPolicyInput() {
-    return this._taskScalingDownPolicy;
+    return this._taskScalingDownPolicy.internalValue;
   }
 
   // task_scaling_up_policy - computed: false, optional: true, required: false
-  private _taskScalingUpPolicy?: MrscalerAwsTaskScalingUpPolicy[] | cdktf.IResolvable; 
+  private _taskScalingUpPolicy = new MrscalerAwsTaskScalingUpPolicyList(this, "task_scaling_up_policy", true);
   public get taskScalingUpPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('task_scaling_up_policy')));
+    return this._taskScalingUpPolicy;
   }
-  public set taskScalingUpPolicy(value: MrscalerAwsTaskScalingUpPolicy[] | cdktf.IResolvable) {
-    this._taskScalingUpPolicy = value;
+  public putTaskScalingUpPolicy(value: MrscalerAwsTaskScalingUpPolicy[] | cdktf.IResolvable) {
+    this._taskScalingUpPolicy.internalValue = value;
   }
   public resetTaskScalingUpPolicy() {
-    this._taskScalingUpPolicy = undefined;
+    this._taskScalingUpPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get taskScalingUpPolicyInput() {
-    return this._taskScalingUpPolicy;
+    return this._taskScalingUpPolicy.internalValue;
   }
 
   // termination_policies - computed: false, optional: true, required: false
-  private _terminationPolicies?: MrscalerAwsTerminationPolicies[] | cdktf.IResolvable; 
+  private _terminationPolicies = new MrscalerAwsTerminationPoliciesList(this, "termination_policies", false);
   public get terminationPolicies() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('termination_policies');
+    return this._terminationPolicies;
   }
-  public set terminationPolicies(value: MrscalerAwsTerminationPolicies[] | cdktf.IResolvable) {
-    this._terminationPolicies = value;
+  public putTerminationPolicies(value: MrscalerAwsTerminationPolicies[] | cdktf.IResolvable) {
+    this._terminationPolicies.internalValue = value;
   }
   public resetTerminationPolicies() {
-    this._terminationPolicies = undefined;
+    this._terminationPolicies.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get terminationPoliciesInput() {
-    return this._terminationPolicies;
+    return this._terminationPolicies.internalValue;
   }
 
   // =========
@@ -2228,6 +5514,7 @@ export class MrscalerAws extends cdktf.TerraformResource {
       ebs_root_volume_size: cdktf.numberToTerraform(this._ebsRootVolumeSize),
       ec2_key_name: cdktf.stringToTerraform(this._ec2KeyName),
       expose_cluster_id: cdktf.booleanToTerraform(this._exposeClusterId),
+      id: cdktf.stringToTerraform(this._id),
       job_flow_role: cdktf.stringToTerraform(this._jobFlowRole),
       keep_job_flow_alive: cdktf.booleanToTerraform(this._keepJobFlowAlive),
       log_uri: cdktf.stringToTerraform(this._logUri),
@@ -2255,22 +5542,22 @@ export class MrscalerAws extends cdktf.TerraformResource {
       task_unit: cdktf.stringToTerraform(this._taskUnit),
       termination_protected: cdktf.booleanToTerraform(this._terminationProtected),
       visible_to_all_users: cdktf.booleanToTerraform(this._visibleToAllUsers),
-      applications: cdktf.listMapper(mrscalerAwsApplicationsToTerraform)(this._applications),
-      bootstrap_actions_file: cdktf.listMapper(mrscalerAwsBootstrapActionsFileToTerraform)(this._bootstrapActionsFile),
-      configurations_file: cdktf.listMapper(mrscalerAwsConfigurationsFileToTerraform)(this._configurationsFile),
-      core_ebs_block_device: cdktf.listMapper(mrscalerAwsCoreEbsBlockDeviceToTerraform)(this._coreEbsBlockDevice),
-      core_scaling_down_policy: cdktf.listMapper(mrscalerAwsCoreScalingDownPolicyToTerraform)(this._coreScalingDownPolicy),
-      core_scaling_up_policy: cdktf.listMapper(mrscalerAwsCoreScalingUpPolicyToTerraform)(this._coreScalingUpPolicy),
-      instance_weights: cdktf.listMapper(mrscalerAwsInstanceWeightsToTerraform)(this._instanceWeights),
-      master_ebs_block_device: cdktf.listMapper(mrscalerAwsMasterEbsBlockDeviceToTerraform)(this._masterEbsBlockDevice),
+      applications: cdktf.listMapper(mrscalerAwsApplicationsToTerraform)(this._applications.internalValue),
+      bootstrap_actions_file: cdktf.listMapper(mrscalerAwsBootstrapActionsFileToTerraform)(this._bootstrapActionsFile.internalValue),
+      configurations_file: cdktf.listMapper(mrscalerAwsConfigurationsFileToTerraform)(this._configurationsFile.internalValue),
+      core_ebs_block_device: cdktf.listMapper(mrscalerAwsCoreEbsBlockDeviceToTerraform)(this._coreEbsBlockDevice.internalValue),
+      core_scaling_down_policy: cdktf.listMapper(mrscalerAwsCoreScalingDownPolicyToTerraform)(this._coreScalingDownPolicy.internalValue),
+      core_scaling_up_policy: cdktf.listMapper(mrscalerAwsCoreScalingUpPolicyToTerraform)(this._coreScalingUpPolicy.internalValue),
+      instance_weights: cdktf.listMapper(mrscalerAwsInstanceWeightsToTerraform)(this._instanceWeights.internalValue),
+      master_ebs_block_device: cdktf.listMapper(mrscalerAwsMasterEbsBlockDeviceToTerraform)(this._masterEbsBlockDevice.internalValue),
       provisioning_timeout: mrscalerAwsProvisioningTimeoutToTerraform(this._provisioningTimeout.internalValue),
-      scheduled_task: cdktf.listMapper(mrscalerAwsScheduledTaskToTerraform)(this._scheduledTask),
-      steps_file: cdktf.listMapper(mrscalerAwsStepsFileToTerraform)(this._stepsFile),
-      tags: cdktf.listMapper(mrscalerAwsTagsToTerraform)(this._tags),
-      task_ebs_block_device: cdktf.listMapper(mrscalerAwsTaskEbsBlockDeviceToTerraform)(this._taskEbsBlockDevice),
-      task_scaling_down_policy: cdktf.listMapper(mrscalerAwsTaskScalingDownPolicyToTerraform)(this._taskScalingDownPolicy),
-      task_scaling_up_policy: cdktf.listMapper(mrscalerAwsTaskScalingUpPolicyToTerraform)(this._taskScalingUpPolicy),
-      termination_policies: cdktf.listMapper(mrscalerAwsTerminationPoliciesToTerraform)(this._terminationPolicies),
+      scheduled_task: cdktf.listMapper(mrscalerAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      steps_file: cdktf.listMapper(mrscalerAwsStepsFileToTerraform)(this._stepsFile.internalValue),
+      tags: cdktf.listMapper(mrscalerAwsTagsToTerraform)(this._tags.internalValue),
+      task_ebs_block_device: cdktf.listMapper(mrscalerAwsTaskEbsBlockDeviceToTerraform)(this._taskEbsBlockDevice.internalValue),
+      task_scaling_down_policy: cdktf.listMapper(mrscalerAwsTaskScalingDownPolicyToTerraform)(this._taskScalingDownPolicy.internalValue),
+      task_scaling_up_policy: cdktf.listMapper(mrscalerAwsTaskScalingUpPolicyToTerraform)(this._taskScalingUpPolicy.internalValue),
+      termination_policies: cdktf.listMapper(mrscalerAwsTerminationPoliciesToTerraform)(this._terminationPolicies.internalValue),
     };
   }
 }

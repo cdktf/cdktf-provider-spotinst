@@ -28,6 +28,13 @@ export interface OceanAksConfig extends cdktf.TerraformMetaArguments {
   */
   readonly customData?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#id OceanAks#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#name OceanAks#name}
   */
   readonly name: string;
@@ -615,6 +622,174 @@ export function oceanAksExtensionToTerraform(struct?: OceanAksExtension | cdktf.
   }
 }
 
+export class OceanAksExtensionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksExtension | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiVersion = this._apiVersion;
+    }
+    if (this._minorVersionAutoUpgrade !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minorVersionAutoUpgrade = this._minorVersionAutoUpgrade;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._publisher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publisher = this._publisher;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksExtension | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._apiVersion = undefined;
+      this._minorVersionAutoUpgrade = undefined;
+      this._name = undefined;
+      this._publisher = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._apiVersion = value.apiVersion;
+      this._minorVersionAutoUpgrade = value.minorVersionAutoUpgrade;
+      this._name = value.name;
+      this._publisher = value.publisher;
+      this._type = value.type;
+    }
+  }
+
+  // api_version - computed: true, optional: true, required: false
+  private _apiVersion?: string; 
+  public get apiVersion() {
+    return this.getStringAttribute('api_version');
+  }
+  public set apiVersion(value: string) {
+    this._apiVersion = value;
+  }
+  public resetApiVersion() {
+    this._apiVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiVersionInput() {
+    return this._apiVersion;
+  }
+
+  // minor_version_auto_upgrade - computed: true, optional: true, required: false
+  private _minorVersionAutoUpgrade?: boolean | cdktf.IResolvable; 
+  public get minorVersionAutoUpgrade() {
+    return this.getBooleanAttribute('minor_version_auto_upgrade');
+  }
+  public set minorVersionAutoUpgrade(value: boolean | cdktf.IResolvable) {
+    this._minorVersionAutoUpgrade = value;
+  }
+  public resetMinorVersionAutoUpgrade() {
+    this._minorVersionAutoUpgrade = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minorVersionAutoUpgradeInput() {
+    return this._minorVersionAutoUpgrade;
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // publisher - computed: true, optional: true, required: false
+  private _publisher?: string; 
+  public get publisher() {
+    return this.getStringAttribute('publisher');
+  }
+  public set publisher(value: string) {
+    this._publisher = value;
+  }
+  public resetPublisher() {
+    this._publisher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publisherInput() {
+    return this._publisher;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class OceanAksExtensionList extends cdktf.ComplexList {
+  public internalValue? : OceanAksExtension[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksExtensionOutputReference {
+    return new OceanAksExtensionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksHealth {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#grace_period OceanAks#grace_period}
@@ -712,6 +887,152 @@ export function oceanAksImageMarketplaceToTerraform(struct?: OceanAksImageMarket
   }
 }
 
+export class OceanAksImageMarketplaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksImageMarketplace | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._offer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.offer = this._offer;
+    }
+    if (this._publisher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publisher = this._publisher;
+    }
+    if (this._sku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sku = this._sku;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksImageMarketplace | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._offer = undefined;
+      this._publisher = undefined;
+      this._sku = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._offer = value.offer;
+      this._publisher = value.publisher;
+      this._sku = value.sku;
+      this._version = value.version;
+    }
+  }
+
+  // offer - computed: true, optional: true, required: false
+  private _offer?: string; 
+  public get offer() {
+    return this.getStringAttribute('offer');
+  }
+  public set offer(value: string) {
+    this._offer = value;
+  }
+  public resetOffer() {
+    this._offer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offerInput() {
+    return this._offer;
+  }
+
+  // publisher - computed: true, optional: true, required: false
+  private _publisher?: string; 
+  public get publisher() {
+    return this.getStringAttribute('publisher');
+  }
+  public set publisher(value: string) {
+    this._publisher = value;
+  }
+  public resetPublisher() {
+    this._publisher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publisherInput() {
+    return this._publisher;
+  }
+
+  // sku - computed: true, optional: true, required: false
+  private _sku?: string; 
+  public get sku() {
+    return this.getStringAttribute('sku');
+  }
+  public set sku(value: string) {
+    this._sku = value;
+  }
+  public resetSku() {
+    this._sku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skuInput() {
+    return this._sku;
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class OceanAksImageMarketplaceList extends cdktf.ComplexList {
+  public internalValue? : OceanAksImageMarketplace[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksImageMarketplaceOutputReference {
+    return new OceanAksImageMarketplaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksImage {
   /**
   * marketplace block
@@ -731,6 +1052,86 @@ export function oceanAksImageToTerraform(struct?: OceanAksImage | cdktf.IResolva
   }
 }
 
+export class OceanAksImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksImage | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._marketplace?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.marketplace = this._marketplace?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksImage | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._marketplace.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._marketplace.internalValue = value.marketplace;
+    }
+  }
+
+  // marketplace - computed: false, optional: true, required: false
+  private _marketplace = new OceanAksImageMarketplaceList(this, "marketplace", false);
+  public get marketplace() {
+    return this._marketplace;
+  }
+  public putMarketplace(value: OceanAksImageMarketplace[] | cdktf.IResolvable) {
+    this._marketplace.internalValue = value;
+  }
+  public resetMarketplace() {
+    this._marketplace.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get marketplaceInput() {
+    return this._marketplace.internalValue;
+  }
+}
+
+export class OceanAksImageList extends cdktf.ComplexList {
+  public internalValue? : OceanAksImage[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksImageOutputReference {
+    return new OceanAksImageOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksLoadBalancer {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#backend_pool_names OceanAks#backend_pool_names}
@@ -768,6 +1169,174 @@ export function oceanAksLoadBalancerToTerraform(struct?: OceanAksLoadBalancer | 
   }
 }
 
+export class OceanAksLoadBalancerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksLoadBalancer | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._backendPoolNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backendPoolNames = this._backendPoolNames;
+    }
+    if (this._loadBalancerSku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerSku = this._loadBalancerSku;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksLoadBalancer | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._backendPoolNames = undefined;
+      this._loadBalancerSku = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._backendPoolNames = value.backendPoolNames;
+      this._loadBalancerSku = value.loadBalancerSku;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+      this._type = value.type;
+    }
+  }
+
+  // backend_pool_names - computed: true, optional: true, required: false
+  private _backendPoolNames?: string[]; 
+  public get backendPoolNames() {
+    return this.getListAttribute('backend_pool_names');
+  }
+  public set backendPoolNames(value: string[]) {
+    this._backendPoolNames = value;
+  }
+  public resetBackendPoolNames() {
+    this._backendPoolNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendPoolNamesInput() {
+    return this._backendPoolNames;
+  }
+
+  // load_balancer_sku - computed: true, optional: true, required: false
+  private _loadBalancerSku?: string; 
+  public get loadBalancerSku() {
+    return this.getStringAttribute('load_balancer_sku');
+  }
+  public set loadBalancerSku(value: string) {
+    this._loadBalancerSku = value;
+  }
+  public resetLoadBalancerSku() {
+    this._loadBalancerSku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerSkuInput() {
+    return this._loadBalancerSku;
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: true, optional: true, required: false
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  public resetResourceGroupName() {
+    this._resourceGroupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class OceanAksLoadBalancerList extends cdktf.ComplexList {
+  public internalValue? : OceanAksLoadBalancer[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksLoadBalancerOutputReference {
+    return new OceanAksLoadBalancerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksManagedServiceIdentity {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#name OceanAks#name}
@@ -790,6 +1359,102 @@ export function oceanAksManagedServiceIdentityToTerraform(struct?: OceanAksManag
   }
 }
 
+export class OceanAksManagedServiceIdentityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksManagedServiceIdentity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksManagedServiceIdentity | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class OceanAksManagedServiceIdentityList extends cdktf.ComplexList {
+  public internalValue? : OceanAksManagedServiceIdentity[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksManagedServiceIdentityOutputReference {
+    return new OceanAksManagedServiceIdentityOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksNetworkNetworkInterfaceAdditionalIpConfig {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#name OceanAks#name}
@@ -812,6 +1477,108 @@ export function oceanAksNetworkNetworkInterfaceAdditionalIpConfigToTerraform(str
   }
 }
 
+export class OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksNetworkNetworkInterfaceAdditionalIpConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._privateIpVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateIpVersion = this._privateIpVersion;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNetworkNetworkInterfaceAdditionalIpConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._privateIpVersion = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._privateIpVersion = value.privateIpVersion;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // private_ip_version - computed: true, optional: true, required: false
+  private _privateIpVersion?: string; 
+  public get privateIpVersion() {
+    return this.getStringAttribute('private_ip_version');
+  }
+  public set privateIpVersion(value: string) {
+    this._privateIpVersion = value;
+  }
+  public resetPrivateIpVersion() {
+    this._privateIpVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateIpVersionInput() {
+    return this._privateIpVersion;
+  }
+}
+
+export class OceanAksNetworkNetworkInterfaceAdditionalIpConfigList extends cdktf.ComplexList {
+  public internalValue? : OceanAksNetworkNetworkInterfaceAdditionalIpConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference {
+    return new OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksNetworkNetworkInterfaceSecurityGroup {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#name OceanAks#name}
@@ -945,6 +1712,174 @@ export function oceanAksNetworkNetworkInterfaceToTerraform(struct?: OceanAksNetw
   }
 }
 
+export class OceanAksNetworkNetworkInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksNetworkNetworkInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._assignPublicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.assignPublicIp = this._assignPublicIp;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
+    }
+    if (this._subnetName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetName = this._subnetName;
+    }
+    if (this._additionalIpConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalIpConfig = this._additionalIpConfig?.internalValue;
+    }
+    if (this._securityGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.securityGroup = this._securityGroup?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNetworkNetworkInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = undefined;
+      this._isPrimary = undefined;
+      this._subnetName = undefined;
+      this._additionalIpConfig.internalValue = undefined;
+      this._securityGroup.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = value.assignPublicIp;
+      this._isPrimary = value.isPrimary;
+      this._subnetName = value.subnetName;
+      this._additionalIpConfig.internalValue = value.additionalIpConfig;
+      this._securityGroup.internalValue = value.securityGroup;
+    }
+  }
+
+  // assign_public_ip - computed: true, optional: true, required: false
+  private _assignPublicIp?: boolean | cdktf.IResolvable; 
+  public get assignPublicIp() {
+    return this.getBooleanAttribute('assign_public_ip');
+  }
+  public set assignPublicIp(value: boolean | cdktf.IResolvable) {
+    this._assignPublicIp = value;
+  }
+  public resetAssignPublicIp() {
+    this._assignPublicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get assignPublicIpInput() {
+    return this._assignPublicIp;
+  }
+
+  // is_primary - computed: true, optional: true, required: false
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  public resetIsPrimary() {
+    this._isPrimary = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
+  }
+
+  // subnet_name - computed: true, optional: true, required: false
+  private _subnetName?: string; 
+  public get subnetName() {
+    return this.getStringAttribute('subnet_name');
+  }
+  public set subnetName(value: string) {
+    this._subnetName = value;
+  }
+  public resetSubnetName() {
+    this._subnetName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetNameInput() {
+    return this._subnetName;
+  }
+
+  // additional_ip_config - computed: false, optional: true, required: false
+  private _additionalIpConfig = new OceanAksNetworkNetworkInterfaceAdditionalIpConfigList(this, "additional_ip_config", true);
+  public get additionalIpConfig() {
+    return this._additionalIpConfig;
+  }
+  public putAdditionalIpConfig(value: OceanAksNetworkNetworkInterfaceAdditionalIpConfig[] | cdktf.IResolvable) {
+    this._additionalIpConfig.internalValue = value;
+  }
+  public resetAdditionalIpConfig() {
+    this._additionalIpConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalIpConfigInput() {
+    return this._additionalIpConfig.internalValue;
+  }
+
+  // security_group - computed: false, optional: true, required: false
+  private _securityGroup = new OceanAksNetworkNetworkInterfaceSecurityGroupOutputReference(this, "security_group");
+  public get securityGroup() {
+    return this._securityGroup;
+  }
+  public putSecurityGroup(value: OceanAksNetworkNetworkInterfaceSecurityGroup) {
+    this._securityGroup.internalValue = value;
+  }
+  public resetSecurityGroup() {
+    this._securityGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityGroupInput() {
+    return this._securityGroup.internalValue;
+  }
+}
+
+export class OceanAksNetworkNetworkInterfaceList extends cdktf.ComplexList {
+  public internalValue? : OceanAksNetworkNetworkInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksNetworkNetworkInterfaceOutputReference {
+    return new OceanAksNetworkNetworkInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksNetwork {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#resource_group_name OceanAks#resource_group_name}
@@ -996,9 +1931,9 @@ export class OceanAksNetworkOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.virtualNetworkName = this._virtualNetworkName;
     }
-    if (this._networkInterface !== undefined) {
+    if (this._networkInterface?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.networkInterface = this._networkInterface;
+      internalValueResult.networkInterface = this._networkInterface?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1008,13 +1943,13 @@ export class OceanAksNetworkOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this._resourceGroupName = undefined;
       this._virtualNetworkName = undefined;
-      this._networkInterface = undefined;
+      this._networkInterface.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._resourceGroupName = value.resourceGroupName;
       this._virtualNetworkName = value.virtualNetworkName;
-      this._networkInterface = value.networkInterface;
+      this._networkInterface.internalValue = value.networkInterface;
     }
   }
 
@@ -1051,20 +1986,19 @@ export class OceanAksNetworkOutputReference extends cdktf.ComplexObject {
   }
 
   // network_interface - computed: false, optional: true, required: false
-  private _networkInterface?: OceanAksNetworkNetworkInterface[] | cdktf.IResolvable; 
+  private _networkInterface = new OceanAksNetworkNetworkInterfaceList(this, "network_interface", true);
   public get networkInterface() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('network_interface')));
+    return this._networkInterface;
   }
-  public set networkInterface(value: OceanAksNetworkNetworkInterface[] | cdktf.IResolvable) {
-    this._networkInterface = value;
+  public putNetworkInterface(value: OceanAksNetworkNetworkInterface[] | cdktf.IResolvable) {
+    this._networkInterface.internalValue = value;
   }
   public resetNetworkInterface() {
-    this._networkInterface = undefined;
+    this._networkInterface.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get networkInterfaceInput() {
-    return this._networkInterface;
+    return this._networkInterface.internalValue;
   }
 }
 export interface OceanAksOsDisk {
@@ -1178,6 +2112,108 @@ export function oceanAksStrategyToTerraform(struct?: OceanAksStrategy | cdktf.IR
   }
 }
 
+export class OceanAksStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fallbackToOndemand !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fallbackToOndemand = this._fallbackToOndemand;
+    }
+    if (this._spotPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.spotPercentage = this._spotPercentage;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fallbackToOndemand = undefined;
+      this._spotPercentage = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fallbackToOndemand = value.fallbackToOndemand;
+      this._spotPercentage = value.spotPercentage;
+    }
+  }
+
+  // fallback_to_ondemand - computed: false, optional: true, required: false
+  private _fallbackToOndemand?: boolean | cdktf.IResolvable; 
+  public get fallbackToOndemand() {
+    return this.getBooleanAttribute('fallback_to_ondemand');
+  }
+  public set fallbackToOndemand(value: boolean | cdktf.IResolvable) {
+    this._fallbackToOndemand = value;
+  }
+  public resetFallbackToOndemand() {
+    this._fallbackToOndemand = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fallbackToOndemandInput() {
+    return this._fallbackToOndemand;
+  }
+
+  // spot_percentage - computed: false, optional: true, required: false
+  private _spotPercentage?: number; 
+  public get spotPercentage() {
+    return this.getNumberAttribute('spot_percentage');
+  }
+  public set spotPercentage(value: number) {
+    this._spotPercentage = value;
+  }
+  public resetSpotPercentage() {
+    this._spotPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotPercentageInput() {
+    return this._spotPercentage;
+  }
+}
+
+export class OceanAksStrategyList extends cdktf.ComplexList {
+  public internalValue? : OceanAksStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksStrategyOutputReference {
+    return new OceanAksStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksTag {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#key OceanAks#key}
@@ -1200,6 +2236,108 @@ export function oceanAksTagToTerraform(struct?: OceanAksTag | cdktf.IResolvable)
   }
 }
 
+export class OceanAksTagOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksTag | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksTag | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class OceanAksTagList extends cdktf.ComplexList {
+  public internalValue? : OceanAksTag[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksTagOutputReference {
+    return new OceanAksTagOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanAksVmSizes {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#whitelist OceanAks#whitelist}
@@ -1217,6 +2355,86 @@ export function oceanAksVmSizesToTerraform(struct?: OceanAksVmSizes | cdktf.IRes
   }
 }
 
+export class OceanAksVmSizesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksVmSizes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._whitelist !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whitelist = this._whitelist;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksVmSizes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._whitelist = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._whitelist = value.whitelist;
+    }
+  }
+
+  // whitelist - computed: false, optional: true, required: false
+  private _whitelist?: string[]; 
+  public get whitelist() {
+    return this.getListAttribute('whitelist');
+  }
+  public set whitelist(value: string[]) {
+    this._whitelist = value;
+  }
+  public resetWhitelist() {
+    this._whitelist = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whitelistInput() {
+    return this._whitelist;
+  }
+}
+
+export class OceanAksVmSizesList extends cdktf.ComplexList {
+  public internalValue? : OceanAksVmSizes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksVmSizesOutputReference {
+    return new OceanAksVmSizesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks spotinst_ocean_aks}
@@ -1257,21 +2475,22 @@ export class OceanAks extends cdktf.TerraformResource {
     this._aksResourceGroupName = config.aksResourceGroupName;
     this._controllerClusterId = config.controllerClusterId;
     this._customData = config.customData;
+    this._id = config.id;
     this._name = config.name;
     this._resourceGroupName = config.resourceGroupName;
     this._sshPublicKey = config.sshPublicKey;
     this._userName = config.userName;
     this._autoscaler.internalValue = config.autoscaler;
-    this._extension = config.extension;
+    this._extension.internalValue = config.extension;
     this._health.internalValue = config.health;
-    this._image = config.image;
-    this._loadBalancer = config.loadBalancer;
-    this._managedServiceIdentity = config.managedServiceIdentity;
+    this._image.internalValue = config.image;
+    this._loadBalancer.internalValue = config.loadBalancer;
+    this._managedServiceIdentity.internalValue = config.managedServiceIdentity;
     this._network.internalValue = config.network;
     this._osDisk.internalValue = config.osDisk;
-    this._strategy = config.strategy;
-    this._tag = config.tag;
-    this._vmSizes = config.vmSizes;
+    this._strategy.internalValue = config.strategy;
+    this._tag.internalValue = config.tag;
+    this._vmSizes.internalValue = config.vmSizes;
   }
 
   // ==========
@@ -1350,8 +2569,19 @@ export class OceanAks extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -1429,20 +2659,19 @@ export class OceanAks extends cdktf.TerraformResource {
   }
 
   // extension - computed: false, optional: true, required: false
-  private _extension?: OceanAksExtension[] | cdktf.IResolvable; 
+  private _extension = new OceanAksExtensionList(this, "extension", true);
   public get extension() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('extension')));
+    return this._extension;
   }
-  public set extension(value: OceanAksExtension[] | cdktf.IResolvable) {
-    this._extension = value;
+  public putExtension(value: OceanAksExtension[] | cdktf.IResolvable) {
+    this._extension.internalValue = value;
   }
   public resetExtension() {
-    this._extension = undefined;
+    this._extension.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get extensionInput() {
-    return this._extension;
+    return this._extension.internalValue;
   }
 
   // health - computed: false, optional: true, required: false
@@ -1462,54 +2691,51 @@ export class OceanAks extends cdktf.TerraformResource {
   }
 
   // image - computed: false, optional: true, required: false
-  private _image?: OceanAksImage[] | cdktf.IResolvable; 
+  private _image = new OceanAksImageList(this, "image", false);
   public get image() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('image');
+    return this._image;
   }
-  public set image(value: OceanAksImage[] | cdktf.IResolvable) {
-    this._image = value;
+  public putImage(value: OceanAksImage[] | cdktf.IResolvable) {
+    this._image.internalValue = value;
   }
   public resetImage() {
-    this._image = undefined;
+    this._image.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get imageInput() {
-    return this._image;
+    return this._image.internalValue;
   }
 
   // load_balancer - computed: false, optional: true, required: false
-  private _loadBalancer?: OceanAksLoadBalancer[] | cdktf.IResolvable; 
+  private _loadBalancer = new OceanAksLoadBalancerList(this, "load_balancer", true);
   public get loadBalancer() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('load_balancer')));
+    return this._loadBalancer;
   }
-  public set loadBalancer(value: OceanAksLoadBalancer[] | cdktf.IResolvable) {
-    this._loadBalancer = value;
+  public putLoadBalancer(value: OceanAksLoadBalancer[] | cdktf.IResolvable) {
+    this._loadBalancer.internalValue = value;
   }
   public resetLoadBalancer() {
-    this._loadBalancer = undefined;
+    this._loadBalancer.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get loadBalancerInput() {
-    return this._loadBalancer;
+    return this._loadBalancer.internalValue;
   }
 
   // managed_service_identity - computed: false, optional: true, required: false
-  private _managedServiceIdentity?: OceanAksManagedServiceIdentity[] | cdktf.IResolvable; 
+  private _managedServiceIdentity = new OceanAksManagedServiceIdentityList(this, "managed_service_identity", true);
   public get managedServiceIdentity() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('managed_service_identity')));
+    return this._managedServiceIdentity;
   }
-  public set managedServiceIdentity(value: OceanAksManagedServiceIdentity[] | cdktf.IResolvable) {
-    this._managedServiceIdentity = value;
+  public putManagedServiceIdentity(value: OceanAksManagedServiceIdentity[] | cdktf.IResolvable) {
+    this._managedServiceIdentity.internalValue = value;
   }
   public resetManagedServiceIdentity() {
-    this._managedServiceIdentity = undefined;
+    this._managedServiceIdentity.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get managedServiceIdentityInput() {
-    return this._managedServiceIdentity;
+    return this._managedServiceIdentity.internalValue;
   }
 
   // network - computed: false, optional: true, required: false
@@ -1545,54 +2771,51 @@ export class OceanAks extends cdktf.TerraformResource {
   }
 
   // strategy - computed: false, optional: true, required: false
-  private _strategy?: OceanAksStrategy[] | cdktf.IResolvable; 
+  private _strategy = new OceanAksStrategyList(this, "strategy", false);
   public get strategy() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('strategy');
+    return this._strategy;
   }
-  public set strategy(value: OceanAksStrategy[] | cdktf.IResolvable) {
-    this._strategy = value;
+  public putStrategy(value: OceanAksStrategy[] | cdktf.IResolvable) {
+    this._strategy.internalValue = value;
   }
   public resetStrategy() {
-    this._strategy = undefined;
+    this._strategy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get strategyInput() {
-    return this._strategy;
+    return this._strategy.internalValue;
   }
 
   // tag - computed: false, optional: true, required: false
-  private _tag?: OceanAksTag[] | cdktf.IResolvable; 
+  private _tag = new OceanAksTagList(this, "tag", true);
   public get tag() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tag')));
+    return this._tag;
   }
-  public set tag(value: OceanAksTag[] | cdktf.IResolvable) {
-    this._tag = value;
+  public putTag(value: OceanAksTag[] | cdktf.IResolvable) {
+    this._tag.internalValue = value;
   }
   public resetTag() {
-    this._tag = undefined;
+    this._tag.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagInput() {
-    return this._tag;
+    return this._tag.internalValue;
   }
 
   // vm_sizes - computed: false, optional: true, required: false
-  private _vmSizes?: OceanAksVmSizes[] | cdktf.IResolvable; 
+  private _vmSizes = new OceanAksVmSizesList(this, "vm_sizes", false);
   public get vmSizes() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('vm_sizes');
+    return this._vmSizes;
   }
-  public set vmSizes(value: OceanAksVmSizes[] | cdktf.IResolvable) {
-    this._vmSizes = value;
+  public putVmSizes(value: OceanAksVmSizes[] | cdktf.IResolvable) {
+    this._vmSizes.internalValue = value;
   }
   public resetVmSizes() {
-    this._vmSizes = undefined;
+    this._vmSizes.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vmSizesInput() {
-    return this._vmSizes;
+    return this._vmSizes.internalValue;
   }
 
   // =========
@@ -1606,21 +2829,22 @@ export class OceanAks extends cdktf.TerraformResource {
       aks_resource_group_name: cdktf.stringToTerraform(this._aksResourceGroupName),
       controller_cluster_id: cdktf.stringToTerraform(this._controllerClusterId),
       custom_data: cdktf.stringToTerraform(this._customData),
+      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       ssh_public_key: cdktf.stringToTerraform(this._sshPublicKey),
       user_name: cdktf.stringToTerraform(this._userName),
       autoscaler: oceanAksAutoscalerToTerraform(this._autoscaler.internalValue),
-      extension: cdktf.listMapper(oceanAksExtensionToTerraform)(this._extension),
+      extension: cdktf.listMapper(oceanAksExtensionToTerraform)(this._extension.internalValue),
       health: oceanAksHealthToTerraform(this._health.internalValue),
-      image: cdktf.listMapper(oceanAksImageToTerraform)(this._image),
-      load_balancer: cdktf.listMapper(oceanAksLoadBalancerToTerraform)(this._loadBalancer),
-      managed_service_identity: cdktf.listMapper(oceanAksManagedServiceIdentityToTerraform)(this._managedServiceIdentity),
+      image: cdktf.listMapper(oceanAksImageToTerraform)(this._image.internalValue),
+      load_balancer: cdktf.listMapper(oceanAksLoadBalancerToTerraform)(this._loadBalancer.internalValue),
+      managed_service_identity: cdktf.listMapper(oceanAksManagedServiceIdentityToTerraform)(this._managedServiceIdentity.internalValue),
       network: oceanAksNetworkToTerraform(this._network.internalValue),
       os_disk: oceanAksOsDiskToTerraform(this._osDisk.internalValue),
-      strategy: cdktf.listMapper(oceanAksStrategyToTerraform)(this._strategy),
-      tag: cdktf.listMapper(oceanAksTagToTerraform)(this._tag),
-      vm_sizes: cdktf.listMapper(oceanAksVmSizesToTerraform)(this._vmSizes),
+      strategy: cdktf.listMapper(oceanAksStrategyToTerraform)(this._strategy.internalValue),
+      tag: cdktf.listMapper(oceanAksTagToTerraform)(this._tag.internalValue),
+      vm_sizes: cdktf.listMapper(oceanAksVmSizesToTerraform)(this._vmSizes.internalValue),
     };
   }
 }

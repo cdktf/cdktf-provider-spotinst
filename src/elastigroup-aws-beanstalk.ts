@@ -20,6 +20,13 @@ export interface ElastigroupAwsBeanstalkConfig extends cdktf.TerraformMetaArgume
   */
   readonly desiredCapacity: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws_beanstalk#id ElastigroupAwsBeanstalk#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws_beanstalk#instance_types_spot ElastigroupAwsBeanstalk#instance_types_spot}
   */
   readonly instanceTypesSpot: string[];
@@ -88,6 +95,108 @@ export function elastigroupAwsBeanstalkDeploymentPreferencesStrategyToTerraform(
   }
 }
 
+export class ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsBeanstalkDeploymentPreferencesStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._shouldDrainInstances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldDrainInstances = this._shouldDrainInstances;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsBeanstalkDeploymentPreferencesStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._action = undefined;
+      this._shouldDrainInstances = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._action = value.action;
+      this._shouldDrainInstances = value.shouldDrainInstances;
+    }
+  }
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // should_drain_instances - computed: false, optional: true, required: false
+  private _shouldDrainInstances?: boolean | cdktf.IResolvable; 
+  public get shouldDrainInstances() {
+    return this.getBooleanAttribute('should_drain_instances');
+  }
+  public set shouldDrainInstances(value: boolean | cdktf.IResolvable) {
+    this._shouldDrainInstances = value;
+  }
+  public resetShouldDrainInstances() {
+    this._shouldDrainInstances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldDrainInstancesInput() {
+    return this._shouldDrainInstances;
+  }
+}
+
+export class ElastigroupAwsBeanstalkDeploymentPreferencesStrategyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsBeanstalkDeploymentPreferencesStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference {
+    return new ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsBeanstalkDeploymentPreferences {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws_beanstalk#automatic_roll ElastigroupAwsBeanstalk#automatic_roll}
@@ -148,9 +257,9 @@ export class ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference extends
       hasAnyValues = true;
       internalValueResult.gracePeriod = this._gracePeriod;
     }
-    if (this._strategy !== undefined) {
+    if (this._strategy?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.strategy = this._strategy;
+      internalValueResult.strategy = this._strategy?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -161,14 +270,14 @@ export class ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference extends
       this._automaticRoll = undefined;
       this._batchSizePercentage = undefined;
       this._gracePeriod = undefined;
-      this._strategy = undefined;
+      this._strategy.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._automaticRoll = value.automaticRoll;
       this._batchSizePercentage = value.batchSizePercentage;
       this._gracePeriod = value.gracePeriod;
-      this._strategy = value.strategy;
+      this._strategy.internalValue = value.strategy;
     }
   }
 
@@ -221,20 +330,19 @@ export class ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference extends
   }
 
   // strategy - computed: false, optional: true, required: false
-  private _strategy?: ElastigroupAwsBeanstalkDeploymentPreferencesStrategy[] | cdktf.IResolvable; 
+  private _strategy = new ElastigroupAwsBeanstalkDeploymentPreferencesStrategyList(this, "strategy", false);
   public get strategy() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('strategy');
+    return this._strategy;
   }
-  public set strategy(value: ElastigroupAwsBeanstalkDeploymentPreferencesStrategy[] | cdktf.IResolvable) {
-    this._strategy = value;
+  public putStrategy(value: ElastigroupAwsBeanstalkDeploymentPreferencesStrategy[] | cdktf.IResolvable) {
+    this._strategy.internalValue = value;
   }
   public resetStrategy() {
-    this._strategy = undefined;
+    this._strategy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get strategyInput() {
-    return this._strategy;
+    return this._strategy.internalValue;
   }
 }
 export interface ElastigroupAwsBeanstalkManagedActionsPlatformUpdate {
@@ -510,6 +618,391 @@ export function elastigroupAwsBeanstalkScheduledTaskToTerraform(struct?: Elastig
   }
 }
 
+export class ElastigroupAwsBeanstalkScheduledTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsBeanstalkScheduledTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._adjustmentPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustmentPercentage = this._adjustmentPercentage;
+    }
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._frequency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.frequency = this._frequency;
+    }
+    if (this._gracePeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gracePeriod = this._gracePeriod;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._maxCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCapacity = this._maxCapacity;
+    }
+    if (this._minCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minCapacity = this._minCapacity;
+    }
+    if (this._scaleMaxCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleMaxCapacity = this._scaleMaxCapacity;
+    }
+    if (this._scaleMinCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleMinCapacity = this._scaleMinCapacity;
+    }
+    if (this._scaleTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleTargetCapacity = this._scaleTargetCapacity;
+    }
+    if (this._startTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime;
+    }
+    if (this._targetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetCapacity = this._targetCapacity;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsBeanstalkScheduledTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._adjustment = undefined;
+      this._adjustmentPercentage = undefined;
+      this._batchSizePercentage = undefined;
+      this._cronExpression = undefined;
+      this._frequency = undefined;
+      this._gracePeriod = undefined;
+      this._isEnabled = undefined;
+      this._maxCapacity = undefined;
+      this._minCapacity = undefined;
+      this._scaleMaxCapacity = undefined;
+      this._scaleMinCapacity = undefined;
+      this._scaleTargetCapacity = undefined;
+      this._startTime = undefined;
+      this._targetCapacity = undefined;
+      this._taskType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._adjustment = value.adjustment;
+      this._adjustmentPercentage = value.adjustmentPercentage;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._cronExpression = value.cronExpression;
+      this._frequency = value.frequency;
+      this._gracePeriod = value.gracePeriod;
+      this._isEnabled = value.isEnabled;
+      this._maxCapacity = value.maxCapacity;
+      this._minCapacity = value.minCapacity;
+      this._scaleMaxCapacity = value.scaleMaxCapacity;
+      this._scaleMinCapacity = value.scaleMinCapacity;
+      this._scaleTargetCapacity = value.scaleTargetCapacity;
+      this._startTime = value.startTime;
+      this._targetCapacity = value.targetCapacity;
+      this._taskType = value.taskType;
+    }
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // adjustment_percentage - computed: false, optional: true, required: false
+  private _adjustmentPercentage?: string; 
+  public get adjustmentPercentage() {
+    return this.getStringAttribute('adjustment_percentage');
+  }
+  public set adjustmentPercentage(value: string) {
+    this._adjustmentPercentage = value;
+  }
+  public resetAdjustmentPercentage() {
+    this._adjustmentPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentPercentageInput() {
+    return this._adjustmentPercentage;
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: string; 
+  public get batchSizePercentage() {
+    return this.getStringAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: string) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // cron_expression - computed: false, optional: true, required: false
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  public resetCronExpression() {
+    this._cronExpression = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // frequency - computed: false, optional: true, required: false
+  private _frequency?: string; 
+  public get frequency() {
+    return this.getStringAttribute('frequency');
+  }
+  public set frequency(value: string) {
+    this._frequency = value;
+  }
+  public resetFrequency() {
+    this._frequency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get frequencyInput() {
+    return this._frequency;
+  }
+
+  // grace_period - computed: false, optional: true, required: false
+  private _gracePeriod?: string; 
+  public get gracePeriod() {
+    return this.getStringAttribute('grace_period');
+  }
+  public set gracePeriod(value: string) {
+    this._gracePeriod = value;
+  }
+  public resetGracePeriod() {
+    this._gracePeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gracePeriodInput() {
+    return this._gracePeriod;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // max_capacity - computed: false, optional: true, required: false
+  private _maxCapacity?: string; 
+  public get maxCapacity() {
+    return this.getStringAttribute('max_capacity');
+  }
+  public set maxCapacity(value: string) {
+    this._maxCapacity = value;
+  }
+  public resetMaxCapacity() {
+    this._maxCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCapacityInput() {
+    return this._maxCapacity;
+  }
+
+  // min_capacity - computed: false, optional: true, required: false
+  private _minCapacity?: string; 
+  public get minCapacity() {
+    return this.getStringAttribute('min_capacity');
+  }
+  public set minCapacity(value: string) {
+    this._minCapacity = value;
+  }
+  public resetMinCapacity() {
+    this._minCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minCapacityInput() {
+    return this._minCapacity;
+  }
+
+  // scale_max_capacity - computed: false, optional: true, required: false
+  private _scaleMaxCapacity?: string; 
+  public get scaleMaxCapacity() {
+    return this.getStringAttribute('scale_max_capacity');
+  }
+  public set scaleMaxCapacity(value: string) {
+    this._scaleMaxCapacity = value;
+  }
+  public resetScaleMaxCapacity() {
+    this._scaleMaxCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleMaxCapacityInput() {
+    return this._scaleMaxCapacity;
+  }
+
+  // scale_min_capacity - computed: false, optional: true, required: false
+  private _scaleMinCapacity?: string; 
+  public get scaleMinCapacity() {
+    return this.getStringAttribute('scale_min_capacity');
+  }
+  public set scaleMinCapacity(value: string) {
+    this._scaleMinCapacity = value;
+  }
+  public resetScaleMinCapacity() {
+    this._scaleMinCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleMinCapacityInput() {
+    return this._scaleMinCapacity;
+  }
+
+  // scale_target_capacity - computed: false, optional: true, required: false
+  private _scaleTargetCapacity?: string; 
+  public get scaleTargetCapacity() {
+    return this.getStringAttribute('scale_target_capacity');
+  }
+  public set scaleTargetCapacity(value: string) {
+    this._scaleTargetCapacity = value;
+  }
+  public resetScaleTargetCapacity() {
+    this._scaleTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleTargetCapacityInput() {
+    return this._scaleTargetCapacity;
+  }
+
+  // start_time - computed: false, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+  public set startTime(value: string) {
+    this._startTime = value;
+  }
+  public resetStartTime() {
+    this._startTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime;
+  }
+
+  // target_capacity - computed: false, optional: true, required: false
+  private _targetCapacity?: string; 
+  public get targetCapacity() {
+    return this.getStringAttribute('target_capacity');
+  }
+  public set targetCapacity(value: string) {
+    this._targetCapacity = value;
+  }
+  public resetTargetCapacity() {
+    this._targetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetCapacityInput() {
+    return this._targetCapacity;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+}
+
+export class ElastigroupAwsBeanstalkScheduledTaskList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsBeanstalkScheduledTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsBeanstalkScheduledTaskOutputReference {
+    return new ElastigroupAwsBeanstalkScheduledTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws_beanstalk spotinst_elastigroup_aws_beanstalk}
@@ -548,6 +1041,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
     this._beanstalkEnvironmentId = config.beanstalkEnvironmentId;
     this._beanstalkEnvironmentName = config.beanstalkEnvironmentName;
     this._desiredCapacity = config.desiredCapacity;
+    this._id = config.id;
     this._instanceTypesSpot = config.instanceTypesSpot;
     this._maintenance = config.maintenance;
     this._maxSize = config.maxSize;
@@ -557,7 +1051,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
     this._region = config.region;
     this._deploymentPreferences.internalValue = config.deploymentPreferences;
     this._managedActions.internalValue = config.managedActions;
-    this._scheduledTask = config.scheduledTask;
+    this._scheduledTask.internalValue = config.scheduledTask;
   }
 
   // ==========
@@ -610,8 +1104,19 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // instance_types_spot - computed: false, optional: false, required: true
@@ -741,20 +1246,19 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
   }
 
   // scheduled_task - computed: false, optional: true, required: false
-  private _scheduledTask?: ElastigroupAwsBeanstalkScheduledTask[] | cdktf.IResolvable; 
+  private _scheduledTask = new ElastigroupAwsBeanstalkScheduledTaskList(this, "scheduled_task", true);
   public get scheduledTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduled_task')));
+    return this._scheduledTask;
   }
-  public set scheduledTask(value: ElastigroupAwsBeanstalkScheduledTask[] | cdktf.IResolvable) {
-    this._scheduledTask = value;
+  public putScheduledTask(value: ElastigroupAwsBeanstalkScheduledTask[] | cdktf.IResolvable) {
+    this._scheduledTask.internalValue = value;
   }
   public resetScheduledTask() {
-    this._scheduledTask = undefined;
+    this._scheduledTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scheduledTaskInput() {
-    return this._scheduledTask;
+    return this._scheduledTask.internalValue;
   }
 
   // =========
@@ -766,6 +1270,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       beanstalk_environment_id: cdktf.stringToTerraform(this._beanstalkEnvironmentId),
       beanstalk_environment_name: cdktf.stringToTerraform(this._beanstalkEnvironmentName),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
+      id: cdktf.stringToTerraform(this._id),
       instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesSpot),
       maintenance: cdktf.stringToTerraform(this._maintenance),
       max_size: cdktf.numberToTerraform(this._maxSize),
@@ -775,7 +1280,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       region: cdktf.stringToTerraform(this._region),
       deployment_preferences: elastigroupAwsBeanstalkDeploymentPreferencesToTerraform(this._deploymentPreferences.internalValue),
       managed_actions: elastigroupAwsBeanstalkManagedActionsToTerraform(this._managedActions.internalValue),
-      scheduled_task: cdktf.listMapper(elastigroupAwsBeanstalkScheduledTaskToTerraform)(this._scheduledTask),
+      scheduled_task: cdktf.listMapper(elastigroupAwsBeanstalkScheduledTaskToTerraform)(this._scheduledTask.internalValue),
     };
   }
 }

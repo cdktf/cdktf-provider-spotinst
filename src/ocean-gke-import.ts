@@ -20,6 +20,13 @@ export interface OceanGkeImportConfig extends cdktf.TerraformMetaArguments {
   */
   readonly desiredCapacity?: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#id OceanGkeImport#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#location OceanGkeImport#location}
   */
   readonly location: string;
@@ -688,6 +695,102 @@ export function oceanGkeImportBackendServicesNamedPortsToTerraform(struct?: Ocea
   }
 }
 
+export class OceanGkeImportBackendServicesNamedPortsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeImportBackendServicesNamedPorts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._ports !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ports = this._ports;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportBackendServicesNamedPorts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._ports = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._ports = value.ports;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // ports - computed: false, optional: false, required: true
+  private _ports?: string[]; 
+  public get ports() {
+    return this.getListAttribute('ports');
+  }
+  public set ports(value: string[]) {
+    this._ports = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsInput() {
+    return this._ports;
+  }
+}
+
+export class OceanGkeImportBackendServicesNamedPortsList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeImportBackendServicesNamedPorts[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeImportBackendServicesNamedPortsOutputReference {
+    return new OceanGkeImportBackendServicesNamedPortsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeImportBackendServices {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#location_type OceanGkeImport#location_type}
@@ -722,6 +825,149 @@ export function oceanGkeImportBackendServicesToTerraform(struct?: OceanGkeImport
   }
 }
 
+export class OceanGkeImportBackendServicesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeImportBackendServices | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._locationType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.locationType = this._locationType;
+    }
+    if (this._scheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheme = this._scheme;
+    }
+    if (this._serviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceName = this._serviceName;
+    }
+    if (this._namedPorts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namedPorts = this._namedPorts?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportBackendServices | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._locationType = undefined;
+      this._scheme = undefined;
+      this._serviceName = undefined;
+      this._namedPorts.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._locationType = value.locationType;
+      this._scheme = value.scheme;
+      this._serviceName = value.serviceName;
+      this._namedPorts.internalValue = value.namedPorts;
+    }
+  }
+
+  // location_type - computed: false, optional: true, required: false
+  private _locationType?: string; 
+  public get locationType() {
+    return this.getStringAttribute('location_type');
+  }
+  public set locationType(value: string) {
+    this._locationType = value;
+  }
+  public resetLocationType() {
+    this._locationType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationTypeInput() {
+    return this._locationType;
+  }
+
+  // scheme - computed: false, optional: true, required: false
+  private _scheme?: string; 
+  public get scheme() {
+    return this.getStringAttribute('scheme');
+  }
+  public set scheme(value: string) {
+    this._scheme = value;
+  }
+  public resetScheme() {
+    this._scheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemeInput() {
+    return this._scheme;
+  }
+
+  // service_name - computed: false, optional: false, required: true
+  private _serviceName?: string; 
+  public get serviceName() {
+    return this.getStringAttribute('service_name');
+  }
+  public set serviceName(value: string) {
+    this._serviceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceNameInput() {
+    return this._serviceName;
+  }
+
+  // named_ports - computed: false, optional: true, required: false
+  private _namedPorts = new OceanGkeImportBackendServicesNamedPortsList(this, "named_ports", true);
+  public get namedPorts() {
+    return this._namedPorts;
+  }
+  public putNamedPorts(value: OceanGkeImportBackendServicesNamedPorts[] | cdktf.IResolvable) {
+    this._namedPorts.internalValue = value;
+  }
+  public resetNamedPorts() {
+    this._namedPorts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namedPortsInput() {
+    return this._namedPorts.internalValue;
+  }
+}
+
+export class OceanGkeImportBackendServicesList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeImportBackendServices[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeImportBackendServicesOutputReference {
+    return new OceanGkeImportBackendServicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeImportScheduledTaskShutdownHours {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
@@ -843,6 +1089,143 @@ export function oceanGkeImportScheduledTaskTasksToTerraform(struct?: OceanGkeImp
   }
 }
 
+export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeImportScheduledTaskTasks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportScheduledTaskTasks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._batchSizePercentage = undefined;
+      this._cronExpression = undefined;
+      this._isEnabled = undefined;
+      this._taskType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._cronExpression = value.cronExpression;
+      this._isEnabled = value.isEnabled;
+      this._taskType = value.taskType;
+    }
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: number; 
+  public get batchSizePercentage() {
+    return this.getNumberAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: number) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // cron_expression - computed: false, optional: false, required: true
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // is_enabled - computed: false, optional: false, required: true
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+}
+
+export class OceanGkeImportScheduledTaskTasksList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeImportScheduledTaskTasks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeImportScheduledTaskTasksOutputReference {
+    return new OceanGkeImportScheduledTaskTasksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeImportScheduledTask {
   /**
   * shutdown_hours block
@@ -869,6 +1252,108 @@ export function oceanGkeImportScheduledTaskToTerraform(struct?: OceanGkeImportSc
   }
 }
 
+export class OceanGkeImportScheduledTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeImportScheduledTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._shutdownHours?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shutdownHours = this._shutdownHours?.internalValue;
+    }
+    if (this._tasks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tasks = this._tasks?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportScheduledTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._shutdownHours.internalValue = undefined;
+      this._tasks.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._shutdownHours.internalValue = value.shutdownHours;
+      this._tasks.internalValue = value.tasks;
+    }
+  }
+
+  // shutdown_hours - computed: false, optional: true, required: false
+  private _shutdownHours = new OceanGkeImportScheduledTaskShutdownHoursOutputReference(this, "shutdown_hours");
+  public get shutdownHours() {
+    return this._shutdownHours;
+  }
+  public putShutdownHours(value: OceanGkeImportScheduledTaskShutdownHours) {
+    this._shutdownHours.internalValue = value;
+  }
+  public resetShutdownHours() {
+    this._shutdownHours.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shutdownHoursInput() {
+    return this._shutdownHours.internalValue;
+  }
+
+  // tasks - computed: false, optional: true, required: false
+  private _tasks = new OceanGkeImportScheduledTaskTasksList(this, "tasks", false);
+  public get tasks() {
+    return this._tasks;
+  }
+  public putTasks(value: OceanGkeImportScheduledTaskTasks[] | cdktf.IResolvable) {
+    this._tasks.internalValue = value;
+  }
+  public resetTasks() {
+    this._tasks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tasksInput() {
+    return this._tasks.internalValue;
+  }
+}
+
+export class OceanGkeImportScheduledTaskList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeImportScheduledTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeImportScheduledTaskOutputReference {
+    return new OceanGkeImportScheduledTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeImportShieldedInstanceConfig {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}
@@ -988,6 +1473,130 @@ export function oceanGkeImportStrategyToTerraform(struct?: OceanGkeImportStrateg
   }
 }
 
+export class OceanGkeImportStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeImportStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._drainingTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drainingTimeout = this._drainingTimeout;
+    }
+    if (this._preemptiblePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preemptiblePercentage = this._preemptiblePercentage;
+    }
+    if (this._provisioningModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisioningModel = this._provisioningModel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._drainingTimeout = undefined;
+      this._preemptiblePercentage = undefined;
+      this._provisioningModel = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._drainingTimeout = value.drainingTimeout;
+      this._preemptiblePercentage = value.preemptiblePercentage;
+      this._provisioningModel = value.provisioningModel;
+    }
+  }
+
+  // draining_timeout - computed: false, optional: true, required: false
+  private _drainingTimeout?: number; 
+  public get drainingTimeout() {
+    return this.getNumberAttribute('draining_timeout');
+  }
+  public set drainingTimeout(value: number) {
+    this._drainingTimeout = value;
+  }
+  public resetDrainingTimeout() {
+    this._drainingTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get drainingTimeoutInput() {
+    return this._drainingTimeout;
+  }
+
+  // preemptible_percentage - computed: false, optional: true, required: false
+  private _preemptiblePercentage?: number; 
+  public get preemptiblePercentage() {
+    return this.getNumberAttribute('preemptible_percentage');
+  }
+  public set preemptiblePercentage(value: number) {
+    this._preemptiblePercentage = value;
+  }
+  public resetPreemptiblePercentage() {
+    this._preemptiblePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preemptiblePercentageInput() {
+    return this._preemptiblePercentage;
+  }
+
+  // provisioning_model - computed: false, optional: true, required: false
+  private _provisioningModel?: string; 
+  public get provisioningModel() {
+    return this.getStringAttribute('provisioning_model');
+  }
+  public set provisioningModel(value: string) {
+    this._provisioningModel = value;
+  }
+  public resetProvisioningModel() {
+    this._provisioningModel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisioningModelInput() {
+    return this._provisioningModel;
+  }
+}
+
+export class OceanGkeImportStrategyList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeImportStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeImportStrategyOutputReference {
+    return new OceanGkeImportStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeImportUpdatePolicyRollConfig {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
@@ -1260,16 +1869,17 @@ export class OceanGkeImport extends cdktf.TerraformResource {
     this._clusterName = config.clusterName;
     this._controllerClusterId = config.controllerClusterId;
     this._desiredCapacity = config.desiredCapacity;
+    this._id = config.id;
     this._location = config.location;
     this._maxSize = config.maxSize;
     this._minSize = config.minSize;
     this._rootVolumeType = config.rootVolumeType;
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
-    this._backendServices = config.backendServices;
-    this._scheduledTask = config.scheduledTask;
+    this._backendServices.internalValue = config.backendServices;
+    this._scheduledTask.internalValue = config.scheduledTask;
     this._shieldedInstanceConfig.internalValue = config.shieldedInstanceConfig;
-    this._strategy = config.strategy;
+    this._strategy.internalValue = config.strategy;
     this._updatePolicy.internalValue = config.updatePolicy;
   }
 
@@ -1328,8 +1938,19 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // location - computed: false, optional: false, required: true
@@ -1426,37 +2047,35 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   }
 
   // backend_services - computed: false, optional: true, required: false
-  private _backendServices?: OceanGkeImportBackendServices[] | cdktf.IResolvable; 
+  private _backendServices = new OceanGkeImportBackendServicesList(this, "backend_services", true);
   public get backendServices() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('backend_services')));
+    return this._backendServices;
   }
-  public set backendServices(value: OceanGkeImportBackendServices[] | cdktf.IResolvable) {
-    this._backendServices = value;
+  public putBackendServices(value: OceanGkeImportBackendServices[] | cdktf.IResolvable) {
+    this._backendServices.internalValue = value;
   }
   public resetBackendServices() {
-    this._backendServices = undefined;
+    this._backendServices.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get backendServicesInput() {
-    return this._backendServices;
+    return this._backendServices.internalValue;
   }
 
   // scheduled_task - computed: false, optional: true, required: false
-  private _scheduledTask?: OceanGkeImportScheduledTask[] | cdktf.IResolvable; 
+  private _scheduledTask = new OceanGkeImportScheduledTaskList(this, "scheduled_task", true);
   public get scheduledTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduled_task')));
+    return this._scheduledTask;
   }
-  public set scheduledTask(value: OceanGkeImportScheduledTask[] | cdktf.IResolvable) {
-    this._scheduledTask = value;
+  public putScheduledTask(value: OceanGkeImportScheduledTask[] | cdktf.IResolvable) {
+    this._scheduledTask.internalValue = value;
   }
   public resetScheduledTask() {
-    this._scheduledTask = undefined;
+    this._scheduledTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scheduledTaskInput() {
-    return this._scheduledTask;
+    return this._scheduledTask.internalValue;
   }
 
   // shielded_instance_config - computed: false, optional: true, required: false
@@ -1476,20 +2095,19 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   }
 
   // strategy - computed: false, optional: true, required: false
-  private _strategy?: OceanGkeImportStrategy[] | cdktf.IResolvable; 
+  private _strategy = new OceanGkeImportStrategyList(this, "strategy", false);
   public get strategy() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('strategy');
+    return this._strategy;
   }
-  public set strategy(value: OceanGkeImportStrategy[] | cdktf.IResolvable) {
-    this._strategy = value;
+  public putStrategy(value: OceanGkeImportStrategy[] | cdktf.IResolvable) {
+    this._strategy.internalValue = value;
   }
   public resetStrategy() {
-    this._strategy = undefined;
+    this._strategy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get strategyInput() {
-    return this._strategy;
+    return this._strategy.internalValue;
   }
 
   // update_policy - computed: false, optional: true, required: false
@@ -1517,16 +2135,17 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       cluster_name: cdktf.stringToTerraform(this._clusterName),
       controller_cluster_id: cdktf.stringToTerraform(this._controllerClusterId),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
+      id: cdktf.stringToTerraform(this._id),
       location: cdktf.stringToTerraform(this._location),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       root_volume_type: cdktf.stringToTerraform(this._rootVolumeType),
       whitelist: cdktf.listMapper(cdktf.stringToTerraform)(this._whitelist),
       autoscaler: oceanGkeImportAutoscalerToTerraform(this._autoscaler.internalValue),
-      backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform)(this._backendServices),
-      scheduled_task: cdktf.listMapper(oceanGkeImportScheduledTaskToTerraform)(this._scheduledTask),
+      backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform)(this._backendServices.internalValue),
+      scheduled_task: cdktf.listMapper(oceanGkeImportScheduledTaskToTerraform)(this._scheduledTask.internalValue),
       shielded_instance_config: oceanGkeImportShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
-      strategy: cdktf.listMapper(oceanGkeImportStrategyToTerraform)(this._strategy),
+      strategy: cdktf.listMapper(oceanGkeImportStrategyToTerraform)(this._strategy.internalValue),
       update_policy: oceanGkeImportUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }
