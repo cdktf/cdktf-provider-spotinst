@@ -20,6 +20,13 @@ export interface StatefulNodeAzureConfig extends cdktf.TerraformMetaArguments {
   */
   readonly description?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#id StatefulNodeAzure#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
@@ -242,6 +249,184 @@ export function statefulNodeAzureAttachDataDiskToTerraform(struct?: StatefulNode
   }
 }
 
+export class StatefulNodeAzureAttachDataDiskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureAttachDataDisk | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dataDiskName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataDiskName = this._dataDiskName;
+    }
+    if (this._dataDiskResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataDiskResourceGroupName = this._dataDiskResourceGroupName;
+    }
+    if (this._lun !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lun = this._lun;
+    }
+    if (this._sizeGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeGb = this._sizeGb;
+    }
+    if (this._storageAccountType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageAccountType = this._storageAccountType;
+    }
+    if (this._zone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zone = this._zone;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureAttachDataDisk | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dataDiskName = undefined;
+      this._dataDiskResourceGroupName = undefined;
+      this._lun = undefined;
+      this._sizeGb = undefined;
+      this._storageAccountType = undefined;
+      this._zone = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dataDiskName = value.dataDiskName;
+      this._dataDiskResourceGroupName = value.dataDiskResourceGroupName;
+      this._lun = value.lun;
+      this._sizeGb = value.sizeGb;
+      this._storageAccountType = value.storageAccountType;
+      this._zone = value.zone;
+    }
+  }
+
+  // data_disk_name - computed: false, optional: false, required: true
+  private _dataDiskName?: string; 
+  public get dataDiskName() {
+    return this.getStringAttribute('data_disk_name');
+  }
+  public set dataDiskName(value: string) {
+    this._dataDiskName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataDiskNameInput() {
+    return this._dataDiskName;
+  }
+
+  // data_disk_resource_group_name - computed: false, optional: false, required: true
+  private _dataDiskResourceGroupName?: string; 
+  public get dataDiskResourceGroupName() {
+    return this.getStringAttribute('data_disk_resource_group_name');
+  }
+  public set dataDiskResourceGroupName(value: string) {
+    this._dataDiskResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataDiskResourceGroupNameInput() {
+    return this._dataDiskResourceGroupName;
+  }
+
+  // lun - computed: false, optional: true, required: false
+  private _lun?: number; 
+  public get lun() {
+    return this.getNumberAttribute('lun');
+  }
+  public set lun(value: number) {
+    this._lun = value;
+  }
+  public resetLun() {
+    this._lun = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lunInput() {
+    return this._lun;
+  }
+
+  // size_gb - computed: false, optional: false, required: true
+  private _sizeGb?: number; 
+  public get sizeGb() {
+    return this.getNumberAttribute('size_gb');
+  }
+  public set sizeGb(value: number) {
+    this._sizeGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeGbInput() {
+    return this._sizeGb;
+  }
+
+  // storage_account_type - computed: false, optional: false, required: true
+  private _storageAccountType?: string; 
+  public get storageAccountType() {
+    return this.getStringAttribute('storage_account_type');
+  }
+  public set storageAccountType(value: string) {
+    this._storageAccountType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageAccountTypeInput() {
+    return this._storageAccountType;
+  }
+
+  // zone - computed: false, optional: true, required: false
+  private _zone?: string; 
+  public get zone() {
+    return this.getStringAttribute('zone');
+  }
+  public set zone(value: string) {
+    this._zone = value;
+  }
+  public resetZone() {
+    this._zone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneInput() {
+    return this._zone;
+  }
+}
+
+export class StatefulNodeAzureAttachDataDiskList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureAttachDataDisk[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureAttachDataDiskOutputReference {
+    return new StatefulNodeAzureAttachDataDiskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureBootDiagnostics {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}
@@ -269,6 +454,130 @@ export function statefulNodeAzureBootDiagnosticsToTerraform(struct?: StatefulNod
   }
 }
 
+export class StatefulNodeAzureBootDiagnosticsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureBootDiagnostics | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._storageUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageUrl = this._storageUrl;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureBootDiagnostics | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._isEnabled = undefined;
+      this._storageUrl = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._isEnabled = value.isEnabled;
+      this._storageUrl = value.storageUrl;
+      this._type = value.type;
+    }
+  }
+
+  // is_enabled - computed: true, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // storage_url - computed: true, optional: true, required: false
+  private _storageUrl?: string; 
+  public get storageUrl() {
+    return this.getStringAttribute('storage_url');
+  }
+  public set storageUrl(value: string) {
+    this._storageUrl = value;
+  }
+  public resetStorageUrl() {
+    this._storageUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageUrlInput() {
+    return this._storageUrl;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureBootDiagnosticsList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureBootDiagnostics[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureBootDiagnosticsOutputReference {
+    return new StatefulNodeAzureBootDiagnosticsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureDataDisk {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#lun StatefulNodeAzure#lun}
@@ -296,6 +605,121 @@ export function statefulNodeAzureDataDiskToTerraform(struct?: StatefulNodeAzureD
   }
 }
 
+export class StatefulNodeAzureDataDiskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureDataDisk | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lun !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lun = this._lun;
+    }
+    if (this._sizeGb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizeGb = this._sizeGb;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureDataDisk | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._lun = undefined;
+      this._sizeGb = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._lun = value.lun;
+      this._sizeGb = value.sizeGb;
+      this._type = value.type;
+    }
+  }
+
+  // lun - computed: false, optional: false, required: true
+  private _lun?: number; 
+  public get lun() {
+    return this.getNumberAttribute('lun');
+  }
+  public set lun(value: number) {
+    this._lun = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lunInput() {
+    return this._lun;
+  }
+
+  // size_gb - computed: false, optional: false, required: true
+  private _sizeGb?: number; 
+  public get sizeGb() {
+    return this.getNumberAttribute('size_gb');
+  }
+  public set sizeGb(value: number) {
+    this._sizeGb = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizeGbInput() {
+    return this._sizeGb;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureDataDiskList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureDataDisk[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureDataDiskOutputReference {
+    return new StatefulNodeAzureDataDiskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureDelete {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}
@@ -353,6 +777,247 @@ export function statefulNodeAzureDeleteToTerraform(struct?: StatefulNodeAzureDel
   }
 }
 
+export class StatefulNodeAzureDeleteOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureDelete | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._diskShouldDeallocate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskShouldDeallocate = this._diskShouldDeallocate;
+    }
+    if (this._diskTtlInHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskTtlInHours = this._diskTtlInHours;
+    }
+    if (this._networkShouldDeallocate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkShouldDeallocate = this._networkShouldDeallocate;
+    }
+    if (this._networkTtlInHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkTtlInHours = this._networkTtlInHours;
+    }
+    if (this._publicIpShouldDeallocate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpShouldDeallocate = this._publicIpShouldDeallocate;
+    }
+    if (this._publicIpTtlInHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpTtlInHours = this._publicIpTtlInHours;
+    }
+    if (this._shouldTerminateVm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTerminateVm = this._shouldTerminateVm;
+    }
+    if (this._snapshotShouldDeallocate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snapshotShouldDeallocate = this._snapshotShouldDeallocate;
+    }
+    if (this._snapshotTtlInHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snapshotTtlInHours = this._snapshotTtlInHours;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureDelete | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._diskShouldDeallocate = undefined;
+      this._diskTtlInHours = undefined;
+      this._networkShouldDeallocate = undefined;
+      this._networkTtlInHours = undefined;
+      this._publicIpShouldDeallocate = undefined;
+      this._publicIpTtlInHours = undefined;
+      this._shouldTerminateVm = undefined;
+      this._snapshotShouldDeallocate = undefined;
+      this._snapshotTtlInHours = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._diskShouldDeallocate = value.diskShouldDeallocate;
+      this._diskTtlInHours = value.diskTtlInHours;
+      this._networkShouldDeallocate = value.networkShouldDeallocate;
+      this._networkTtlInHours = value.networkTtlInHours;
+      this._publicIpShouldDeallocate = value.publicIpShouldDeallocate;
+      this._publicIpTtlInHours = value.publicIpTtlInHours;
+      this._shouldTerminateVm = value.shouldTerminateVm;
+      this._snapshotShouldDeallocate = value.snapshotShouldDeallocate;
+      this._snapshotTtlInHours = value.snapshotTtlInHours;
+    }
+  }
+
+  // disk_should_deallocate - computed: false, optional: false, required: true
+  private _diskShouldDeallocate?: boolean | cdktf.IResolvable; 
+  public get diskShouldDeallocate() {
+    return this.getBooleanAttribute('disk_should_deallocate');
+  }
+  public set diskShouldDeallocate(value: boolean | cdktf.IResolvable) {
+    this._diskShouldDeallocate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskShouldDeallocateInput() {
+    return this._diskShouldDeallocate;
+  }
+
+  // disk_ttl_in_hours - computed: false, optional: true, required: false
+  private _diskTtlInHours?: number; 
+  public get diskTtlInHours() {
+    return this.getNumberAttribute('disk_ttl_in_hours');
+  }
+  public set diskTtlInHours(value: number) {
+    this._diskTtlInHours = value;
+  }
+  public resetDiskTtlInHours() {
+    this._diskTtlInHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskTtlInHoursInput() {
+    return this._diskTtlInHours;
+  }
+
+  // network_should_deallocate - computed: false, optional: false, required: true
+  private _networkShouldDeallocate?: boolean | cdktf.IResolvable; 
+  public get networkShouldDeallocate() {
+    return this.getBooleanAttribute('network_should_deallocate');
+  }
+  public set networkShouldDeallocate(value: boolean | cdktf.IResolvable) {
+    this._networkShouldDeallocate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkShouldDeallocateInput() {
+    return this._networkShouldDeallocate;
+  }
+
+  // network_ttl_in_hours - computed: false, optional: true, required: false
+  private _networkTtlInHours?: number; 
+  public get networkTtlInHours() {
+    return this.getNumberAttribute('network_ttl_in_hours');
+  }
+  public set networkTtlInHours(value: number) {
+    this._networkTtlInHours = value;
+  }
+  public resetNetworkTtlInHours() {
+    this._networkTtlInHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkTtlInHoursInput() {
+    return this._networkTtlInHours;
+  }
+
+  // public_ip_should_deallocate - computed: false, optional: false, required: true
+  private _publicIpShouldDeallocate?: boolean | cdktf.IResolvable; 
+  public get publicIpShouldDeallocate() {
+    return this.getBooleanAttribute('public_ip_should_deallocate');
+  }
+  public set publicIpShouldDeallocate(value: boolean | cdktf.IResolvable) {
+    this._publicIpShouldDeallocate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpShouldDeallocateInput() {
+    return this._publicIpShouldDeallocate;
+  }
+
+  // public_ip_ttl_in_hours - computed: false, optional: true, required: false
+  private _publicIpTtlInHours?: number; 
+  public get publicIpTtlInHours() {
+    return this.getNumberAttribute('public_ip_ttl_in_hours');
+  }
+  public set publicIpTtlInHours(value: number) {
+    this._publicIpTtlInHours = value;
+  }
+  public resetPublicIpTtlInHours() {
+    this._publicIpTtlInHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpTtlInHoursInput() {
+    return this._publicIpTtlInHours;
+  }
+
+  // should_terminate_vm - computed: false, optional: false, required: true
+  private _shouldTerminateVm?: boolean | cdktf.IResolvable; 
+  public get shouldTerminateVm() {
+    return this.getBooleanAttribute('should_terminate_vm');
+  }
+  public set shouldTerminateVm(value: boolean | cdktf.IResolvable) {
+    this._shouldTerminateVm = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTerminateVmInput() {
+    return this._shouldTerminateVm;
+  }
+
+  // snapshot_should_deallocate - computed: false, optional: false, required: true
+  private _snapshotShouldDeallocate?: boolean | cdktf.IResolvable; 
+  public get snapshotShouldDeallocate() {
+    return this.getBooleanAttribute('snapshot_should_deallocate');
+  }
+  public set snapshotShouldDeallocate(value: boolean | cdktf.IResolvable) {
+    this._snapshotShouldDeallocate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snapshotShouldDeallocateInput() {
+    return this._snapshotShouldDeallocate;
+  }
+
+  // snapshot_ttl_in_hours - computed: false, optional: true, required: false
+  private _snapshotTtlInHours?: number; 
+  public get snapshotTtlInHours() {
+    return this.getNumberAttribute('snapshot_ttl_in_hours');
+  }
+  public set snapshotTtlInHours(value: number) {
+    this._snapshotTtlInHours = value;
+  }
+  public resetSnapshotTtlInHours() {
+    this._snapshotTtlInHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snapshotTtlInHoursInput() {
+    return this._snapshotTtlInHours;
+  }
+}
+
+export class StatefulNodeAzureDeleteList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureDelete[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureDeleteOutputReference {
+    return new StatefulNodeAzureDeleteOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureDetachDataDisk {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}
@@ -385,6 +1050,143 @@ export function statefulNodeAzureDetachDataDiskToTerraform(struct?: StatefulNode
   }
 }
 
+export class StatefulNodeAzureDetachDataDiskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureDetachDataDisk | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dataDiskName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataDiskName = this._dataDiskName;
+    }
+    if (this._dataDiskResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataDiskResourceGroupName = this._dataDiskResourceGroupName;
+    }
+    if (this._shouldDeallocate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldDeallocate = this._shouldDeallocate;
+    }
+    if (this._ttlInHours !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ttlInHours = this._ttlInHours;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureDetachDataDisk | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dataDiskName = undefined;
+      this._dataDiskResourceGroupName = undefined;
+      this._shouldDeallocate = undefined;
+      this._ttlInHours = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dataDiskName = value.dataDiskName;
+      this._dataDiskResourceGroupName = value.dataDiskResourceGroupName;
+      this._shouldDeallocate = value.shouldDeallocate;
+      this._ttlInHours = value.ttlInHours;
+    }
+  }
+
+  // data_disk_name - computed: false, optional: false, required: true
+  private _dataDiskName?: string; 
+  public get dataDiskName() {
+    return this.getStringAttribute('data_disk_name');
+  }
+  public set dataDiskName(value: string) {
+    this._dataDiskName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataDiskNameInput() {
+    return this._dataDiskName;
+  }
+
+  // data_disk_resource_group_name - computed: false, optional: false, required: true
+  private _dataDiskResourceGroupName?: string; 
+  public get dataDiskResourceGroupName() {
+    return this.getStringAttribute('data_disk_resource_group_name');
+  }
+  public set dataDiskResourceGroupName(value: string) {
+    this._dataDiskResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataDiskResourceGroupNameInput() {
+    return this._dataDiskResourceGroupName;
+  }
+
+  // should_deallocate - computed: false, optional: false, required: true
+  private _shouldDeallocate?: boolean | cdktf.IResolvable; 
+  public get shouldDeallocate() {
+    return this.getBooleanAttribute('should_deallocate');
+  }
+  public set shouldDeallocate(value: boolean | cdktf.IResolvable) {
+    this._shouldDeallocate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldDeallocateInput() {
+    return this._shouldDeallocate;
+  }
+
+  // ttl_in_hours - computed: false, optional: true, required: false
+  private _ttlInHours?: number; 
+  public get ttlInHours() {
+    return this.getNumberAttribute('ttl_in_hours');
+  }
+  public set ttlInHours(value: number) {
+    this._ttlInHours = value;
+  }
+  public resetTtlInHours() {
+    this._ttlInHours = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ttlInHoursInput() {
+    return this._ttlInHours;
+  }
+}
+
+export class StatefulNodeAzureDetachDataDiskList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureDetachDataDisk[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureDetachDataDiskOutputReference {
+    return new StatefulNodeAzureDetachDataDiskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureExtension {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#api_version StatefulNodeAzure#api_version}
@@ -432,6 +1234,203 @@ export function statefulNodeAzureExtensionToTerraform(struct?: StatefulNodeAzure
   }
 }
 
+export class StatefulNodeAzureExtensionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureExtension | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._apiVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apiVersion = this._apiVersion;
+    }
+    if (this._minorVersionAutoUpgrade !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minorVersionAutoUpgrade = this._minorVersionAutoUpgrade;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._protectedSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protectedSettings = this._protectedSettings;
+    }
+    if (this._publicSettings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicSettings = this._publicSettings;
+    }
+    if (this._publisher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publisher = this._publisher;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureExtension | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._apiVersion = undefined;
+      this._minorVersionAutoUpgrade = undefined;
+      this._name = undefined;
+      this._protectedSettings = undefined;
+      this._publicSettings = undefined;
+      this._publisher = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._apiVersion = value.apiVersion;
+      this._minorVersionAutoUpgrade = value.minorVersionAutoUpgrade;
+      this._name = value.name;
+      this._protectedSettings = value.protectedSettings;
+      this._publicSettings = value.publicSettings;
+      this._publisher = value.publisher;
+      this._type = value.type;
+    }
+  }
+
+  // api_version - computed: false, optional: false, required: true
+  private _apiVersion?: string; 
+  public get apiVersion() {
+    return this.getStringAttribute('api_version');
+  }
+  public set apiVersion(value: string) {
+    this._apiVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiVersionInput() {
+    return this._apiVersion;
+  }
+
+  // minor_version_auto_upgrade - computed: false, optional: false, required: true
+  private _minorVersionAutoUpgrade?: boolean | cdktf.IResolvable; 
+  public get minorVersionAutoUpgrade() {
+    return this.getBooleanAttribute('minor_version_auto_upgrade');
+  }
+  public set minorVersionAutoUpgrade(value: boolean | cdktf.IResolvable) {
+    this._minorVersionAutoUpgrade = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minorVersionAutoUpgradeInput() {
+    return this._minorVersionAutoUpgrade;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // protected_settings - computed: true, optional: true, required: false
+  private _protectedSettings?: { [key: string]: string }; 
+  public get protectedSettings() {
+    return this.getStringMapAttribute('protected_settings');
+  }
+  public set protectedSettings(value: { [key: string]: string }) {
+    this._protectedSettings = value;
+  }
+  public resetProtectedSettings() {
+    this._protectedSettings = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protectedSettingsInput() {
+    return this._protectedSettings;
+  }
+
+  // public_settings - computed: true, optional: true, required: false
+  private _publicSettings?: { [key: string]: string }; 
+  public get publicSettings() {
+    return this.getStringMapAttribute('public_settings');
+  }
+  public set publicSettings(value: { [key: string]: string }) {
+    this._publicSettings = value;
+  }
+  public resetPublicSettings() {
+    this._publicSettings = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicSettingsInput() {
+    return this._publicSettings;
+  }
+
+  // publisher - computed: false, optional: false, required: true
+  private _publisher?: string; 
+  public get publisher() {
+    return this.getStringAttribute('publisher');
+  }
+  public set publisher(value: string) {
+    this._publisher = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publisherInput() {
+    return this._publisher;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureExtensionList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureExtension[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureExtensionOutputReference {
+    return new StatefulNodeAzureExtensionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureHealth {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}
@@ -594,6 +1593,102 @@ export function statefulNodeAzureImageCustomImageToTerraform(struct?: StatefulNo
   }
 }
 
+export class StatefulNodeAzureImageCustomImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureImageCustomImage | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._customImageResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customImageResourceGroupName = this._customImageResourceGroupName;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureImageCustomImage | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._customImageResourceGroupName = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._customImageResourceGroupName = value.customImageResourceGroupName;
+      this._name = value.name;
+    }
+  }
+
+  // custom_image_resource_group_name - computed: false, optional: false, required: true
+  private _customImageResourceGroupName?: string; 
+  public get customImageResourceGroupName() {
+    return this.getStringAttribute('custom_image_resource_group_name');
+  }
+  public set customImageResourceGroupName(value: string) {
+    this._customImageResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customImageResourceGroupNameInput() {
+    return this._customImageResourceGroupName;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class StatefulNodeAzureImageCustomImageList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureImageCustomImage[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureImageCustomImageOutputReference {
+    return new StatefulNodeAzureImageCustomImageOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureImageGallery {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}
@@ -626,6 +1721,140 @@ export function statefulNodeAzureImageGalleryToTerraform(struct?: StatefulNodeAz
   }
 }
 
+export class StatefulNodeAzureImageGalleryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureImageGallery | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._galleryName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.galleryName = this._galleryName;
+    }
+    if (this._galleryResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.galleryResourceGroupName = this._galleryResourceGroupName;
+    }
+    if (this._imageName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageName = this._imageName;
+    }
+    if (this._versionName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.versionName = this._versionName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureImageGallery | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._galleryName = undefined;
+      this._galleryResourceGroupName = undefined;
+      this._imageName = undefined;
+      this._versionName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._galleryName = value.galleryName;
+      this._galleryResourceGroupName = value.galleryResourceGroupName;
+      this._imageName = value.imageName;
+      this._versionName = value.versionName;
+    }
+  }
+
+  // gallery_name - computed: false, optional: false, required: true
+  private _galleryName?: string; 
+  public get galleryName() {
+    return this.getStringAttribute('gallery_name');
+  }
+  public set galleryName(value: string) {
+    this._galleryName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get galleryNameInput() {
+    return this._galleryName;
+  }
+
+  // gallery_resource_group_name - computed: false, optional: false, required: true
+  private _galleryResourceGroupName?: string; 
+  public get galleryResourceGroupName() {
+    return this.getStringAttribute('gallery_resource_group_name');
+  }
+  public set galleryResourceGroupName(value: string) {
+    this._galleryResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get galleryResourceGroupNameInput() {
+    return this._galleryResourceGroupName;
+  }
+
+  // image_name - computed: false, optional: false, required: true
+  private _imageName?: string; 
+  public get imageName() {
+    return this.getStringAttribute('image_name');
+  }
+  public set imageName(value: string) {
+    this._imageName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageNameInput() {
+    return this._imageName;
+  }
+
+  // version_name - computed: false, optional: false, required: true
+  private _versionName?: string; 
+  public get versionName() {
+    return this.getStringAttribute('version_name');
+  }
+  public set versionName(value: string) {
+    this._versionName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionNameInput() {
+    return this._versionName;
+  }
+}
+
+export class StatefulNodeAzureImageGalleryList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureImageGallery[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureImageGalleryOutputReference {
+    return new StatefulNodeAzureImageGalleryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureImageMarketplaceImage {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#offer StatefulNodeAzure#offer}
@@ -658,6 +1887,140 @@ export function statefulNodeAzureImageMarketplaceImageToTerraform(struct?: State
   }
 }
 
+export class StatefulNodeAzureImageMarketplaceImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureImageMarketplaceImage | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._offer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.offer = this._offer;
+    }
+    if (this._publisher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publisher = this._publisher;
+    }
+    if (this._sku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sku = this._sku;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureImageMarketplaceImage | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._offer = undefined;
+      this._publisher = undefined;
+      this._sku = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._offer = value.offer;
+      this._publisher = value.publisher;
+      this._sku = value.sku;
+      this._version = value.version;
+    }
+  }
+
+  // offer - computed: false, optional: false, required: true
+  private _offer?: string; 
+  public get offer() {
+    return this.getStringAttribute('offer');
+  }
+  public set offer(value: string) {
+    this._offer = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offerInput() {
+    return this._offer;
+  }
+
+  // publisher - computed: false, optional: false, required: true
+  private _publisher?: string; 
+  public get publisher() {
+    return this.getStringAttribute('publisher');
+  }
+  public set publisher(value: string) {
+    this._publisher = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publisherInput() {
+    return this._publisher;
+  }
+
+  // sku - computed: false, optional: false, required: true
+  private _sku?: string; 
+  public get sku() {
+    return this.getStringAttribute('sku');
+  }
+  public set sku(value: string) {
+    this._sku = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skuInput() {
+    return this._sku;
+  }
+
+  // version - computed: false, optional: false, required: true
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class StatefulNodeAzureImageMarketplaceImageList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureImageMarketplaceImage[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureImageMarketplaceImageOutputReference {
+    return new StatefulNodeAzureImageMarketplaceImageOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureImage {
   /**
   * custom_image block
@@ -705,17 +2068,17 @@ export class StatefulNodeAzureImageOutputReference extends cdktf.ComplexObject {
   public get internalValue(): StatefulNodeAzureImage | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._customImage !== undefined) {
+    if (this._customImage?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.customImage = this._customImage;
+      internalValueResult.customImage = this._customImage?.internalValue;
     }
-    if (this._gallery !== undefined) {
+    if (this._gallery?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gallery = this._gallery;
+      internalValueResult.gallery = this._gallery?.internalValue;
     }
-    if (this._marketplaceImage !== undefined) {
+    if (this._marketplaceImage?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.marketplaceImage = this._marketplaceImage;
+      internalValueResult.marketplaceImage = this._marketplaceImage?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -723,67 +2086,64 @@ export class StatefulNodeAzureImageOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: StatefulNodeAzureImage | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._customImage = undefined;
-      this._gallery = undefined;
-      this._marketplaceImage = undefined;
+      this._customImage.internalValue = undefined;
+      this._gallery.internalValue = undefined;
+      this._marketplaceImage.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._customImage = value.customImage;
-      this._gallery = value.gallery;
-      this._marketplaceImage = value.marketplaceImage;
+      this._customImage.internalValue = value.customImage;
+      this._gallery.internalValue = value.gallery;
+      this._marketplaceImage.internalValue = value.marketplaceImage;
     }
   }
 
   // custom_image - computed: false, optional: true, required: false
-  private _customImage?: StatefulNodeAzureImageCustomImage[] | cdktf.IResolvable; 
+  private _customImage = new StatefulNodeAzureImageCustomImageList(this, "custom_image", false);
   public get customImage() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('custom_image');
+    return this._customImage;
   }
-  public set customImage(value: StatefulNodeAzureImageCustomImage[] | cdktf.IResolvable) {
-    this._customImage = value;
+  public putCustomImage(value: StatefulNodeAzureImageCustomImage[] | cdktf.IResolvable) {
+    this._customImage.internalValue = value;
   }
   public resetCustomImage() {
-    this._customImage = undefined;
+    this._customImage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get customImageInput() {
-    return this._customImage;
+    return this._customImage.internalValue;
   }
 
   // gallery - computed: false, optional: true, required: false
-  private _gallery?: StatefulNodeAzureImageGallery[] | cdktf.IResolvable; 
+  private _gallery = new StatefulNodeAzureImageGalleryList(this, "gallery", false);
   public get gallery() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('gallery');
+    return this._gallery;
   }
-  public set gallery(value: StatefulNodeAzureImageGallery[] | cdktf.IResolvable) {
-    this._gallery = value;
+  public putGallery(value: StatefulNodeAzureImageGallery[] | cdktf.IResolvable) {
+    this._gallery.internalValue = value;
   }
   public resetGallery() {
-    this._gallery = undefined;
+    this._gallery.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get galleryInput() {
-    return this._gallery;
+    return this._gallery.internalValue;
   }
 
   // marketplace_image - computed: false, optional: true, required: false
-  private _marketplaceImage?: StatefulNodeAzureImageMarketplaceImage[] | cdktf.IResolvable; 
+  private _marketplaceImage = new StatefulNodeAzureImageMarketplaceImageList(this, "marketplace_image", false);
   public get marketplaceImage() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('marketplace_image');
+    return this._marketplaceImage;
   }
-  public set marketplaceImage(value: StatefulNodeAzureImageMarketplaceImage[] | cdktf.IResolvable) {
-    this._marketplaceImage = value;
+  public putMarketplaceImage(value: StatefulNodeAzureImageMarketplaceImage[] | cdktf.IResolvable) {
+    this._marketplaceImage.internalValue = value;
   }
   public resetMarketplaceImage() {
-    this._marketplaceImage = undefined;
+    this._marketplaceImage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get marketplaceImageInput() {
-    return this._marketplaceImage;
+    return this._marketplaceImage.internalValue;
   }
 }
 export interface StatefulNodeAzureImportVm {
@@ -818,6 +2178,146 @@ export function statefulNodeAzureImportVmToTerraform(struct?: StatefulNodeAzureI
   }
 }
 
+export class StatefulNodeAzureImportVmOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureImportVm | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._drainingTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drainingTimeout = this._drainingTimeout;
+    }
+    if (this._originalVmName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.originalVmName = this._originalVmName;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    if (this._resourcesRetentionTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourcesRetentionTime = this._resourcesRetentionTime;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureImportVm | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._drainingTimeout = undefined;
+      this._originalVmName = undefined;
+      this._resourceGroupName = undefined;
+      this._resourcesRetentionTime = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._drainingTimeout = value.drainingTimeout;
+      this._originalVmName = value.originalVmName;
+      this._resourceGroupName = value.resourceGroupName;
+      this._resourcesRetentionTime = value.resourcesRetentionTime;
+    }
+  }
+
+  // draining_timeout - computed: false, optional: true, required: false
+  private _drainingTimeout?: number; 
+  public get drainingTimeout() {
+    return this.getNumberAttribute('draining_timeout');
+  }
+  public set drainingTimeout(value: number) {
+    this._drainingTimeout = value;
+  }
+  public resetDrainingTimeout() {
+    this._drainingTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get drainingTimeoutInput() {
+    return this._drainingTimeout;
+  }
+
+  // original_vm_name - computed: false, optional: false, required: true
+  private _originalVmName?: string; 
+  public get originalVmName() {
+    return this.getStringAttribute('original_vm_name');
+  }
+  public set originalVmName(value: string) {
+    this._originalVmName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get originalVmNameInput() {
+    return this._originalVmName;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+
+  // resources_retention_time - computed: false, optional: true, required: false
+  private _resourcesRetentionTime?: number; 
+  public get resourcesRetentionTime() {
+    return this.getNumberAttribute('resources_retention_time');
+  }
+  public set resourcesRetentionTime(value: number) {
+    this._resourcesRetentionTime = value;
+  }
+  public resetResourcesRetentionTime() {
+    this._resourcesRetentionTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcesRetentionTimeInput() {
+    return this._resourcesRetentionTime;
+  }
+}
+
+export class StatefulNodeAzureImportVmList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureImportVm[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureImportVmOutputReference {
+    return new StatefulNodeAzureImportVmOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureLoadBalancer {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}
@@ -855,6 +2355,162 @@ export function statefulNodeAzureLoadBalancerToTerraform(struct?: StatefulNodeAz
   }
 }
 
+export class StatefulNodeAzureLoadBalancerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureLoadBalancer | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._backendPoolNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backendPoolNames = this._backendPoolNames;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    if (this._sku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sku = this._sku;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureLoadBalancer | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._backendPoolNames = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+      this._sku = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._backendPoolNames = value.backendPoolNames;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+      this._sku = value.sku;
+      this._type = value.type;
+    }
+  }
+
+  // backend_pool_names - computed: false, optional: false, required: true
+  private _backendPoolNames?: string[]; 
+  public get backendPoolNames() {
+    return this.getListAttribute('backend_pool_names');
+  }
+  public set backendPoolNames(value: string[]) {
+    this._backendPoolNames = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendPoolNamesInput() {
+    return this._backendPoolNames;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+
+  // sku - computed: true, optional: true, required: false
+  private _sku?: string; 
+  public get sku() {
+    return this.getStringAttribute('sku');
+  }
+  public set sku(value: string) {
+    this._sku = value;
+  }
+  public resetSku() {
+    this._sku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skuInput() {
+    return this._sku;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureLoadBalancerList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureLoadBalancer[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureLoadBalancerOutputReference {
+    return new StatefulNodeAzureLoadBalancerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureLogin {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#password StatefulNodeAzure#password}
@@ -993,6 +2649,102 @@ export function statefulNodeAzureManagedServiceIdentitiesToTerraform(struct?: St
   }
 }
 
+export class StatefulNodeAzureManagedServiceIdentitiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureManagedServiceIdentities | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureManagedServiceIdentities | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class StatefulNodeAzureManagedServiceIdentitiesList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureManagedServiceIdentities[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureManagedServiceIdentitiesOutputReference {
+    return new StatefulNodeAzureManagedServiceIdentitiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
@@ -1015,6 +2767,102 @@ export function statefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfiguratio
   }
 }
 
+export class StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._privateIpAddressVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateIpAddressVersion = this._privateIpAddressVersion;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._privateIpAddressVersion = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._privateIpAddressVersion = value.privateIpAddressVersion;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // private_ip_address_version - computed: false, optional: false, required: true
+  private _privateIpAddressVersion?: string; 
+  public get privateIpAddressVersion() {
+    return this.getStringAttribute('private_ip_address_version');
+  }
+  public set privateIpAddressVersion(value: string) {
+    this._privateIpAddressVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateIpAddressVersionInput() {
+    return this._privateIpAddressVersion;
+  }
+}
+
+export class StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference {
+    return new StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
@@ -1037,6 +2885,102 @@ export function statefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroup
   }
 }
 
+export class StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._networkResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkResourceGroupName = this._networkResourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._networkResourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._networkResourceGroupName = value.networkResourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // network_resource_group_name - computed: false, optional: false, required: true
+  private _networkResourceGroupName?: string; 
+  public get networkResourceGroupName() {
+    return this.getStringAttribute('network_resource_group_name');
+  }
+  public set networkResourceGroupName(value: string) {
+    this._networkResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkResourceGroupNameInput() {
+    return this._networkResourceGroupName;
+  }
+}
+
+export class StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference {
+    return new StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
@@ -1059,6 +3003,108 @@ export function statefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupToTe
   }
 }
 
+export class StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._networkResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkResourceGroupName = this._networkResourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._networkResourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._networkResourceGroupName = value.networkResourceGroupName;
+    }
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // network_resource_group_name - computed: true, optional: true, required: false
+  private _networkResourceGroupName?: string; 
+  public get networkResourceGroupName() {
+    return this.getStringAttribute('network_resource_group_name');
+  }
+  public set networkResourceGroupName(value: string) {
+    this._networkResourceGroupName = value;
+  }
+  public resetNetworkResourceGroupName() {
+    this._networkResourceGroupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkResourceGroupNameInput() {
+    return this._networkResourceGroupName;
+  }
+}
+
+export class StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference {
+    return new StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetworkNetworkInterfacePublicIps {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
@@ -1081,6 +3127,102 @@ export function statefulNodeAzureNetworkNetworkInterfacePublicIpsToTerraform(str
   }
 }
 
+export class StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureNetworkNetworkInterfacePublicIps | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._networkResourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkResourceGroupName = this._networkResourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureNetworkNetworkInterfacePublicIps | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._networkResourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._networkResourceGroupName = value.networkResourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // network_resource_group_name - computed: false, optional: false, required: true
+  private _networkResourceGroupName?: string; 
+  public get networkResourceGroupName() {
+    return this.getStringAttribute('network_resource_group_name');
+  }
+  public set networkResourceGroupName(value: string) {
+    this._networkResourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkResourceGroupNameInput() {
+    return this._networkResourceGroupName;
+  }
+}
+
+export class StatefulNodeAzureNetworkNetworkInterfacePublicIpsList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureNetworkNetworkInterfacePublicIps[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference {
+    return new StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetworkNetworkInterface {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}
@@ -1151,6 +3293,278 @@ export function statefulNodeAzureNetworkNetworkInterfaceToTerraform(struct?: Sta
   }
 }
 
+export class StatefulNodeAzureNetworkNetworkInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureNetworkNetworkInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._assignPublicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.assignPublicIp = this._assignPublicIp;
+    }
+    if (this._enableIpForwarding !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableIpForwarding = this._enableIpForwarding;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
+    }
+    if (this._privateIpAddresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateIpAddresses = this._privateIpAddresses;
+    }
+    if (this._publicIpSku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpSku = this._publicIpSku;
+    }
+    if (this._subnetName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetName = this._subnetName;
+    }
+    if (this._additionalIpConfigurations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalIpConfigurations = this._additionalIpConfigurations?.internalValue;
+    }
+    if (this._applicationSecurityGroups?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationSecurityGroups = this._applicationSecurityGroups?.internalValue;
+    }
+    if (this._networkSecurityGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkSecurityGroup = this._networkSecurityGroup?.internalValue;
+    }
+    if (this._publicIps?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIps = this._publicIps?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureNetworkNetworkInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = undefined;
+      this._enableIpForwarding = undefined;
+      this._isPrimary = undefined;
+      this._privateIpAddresses = undefined;
+      this._publicIpSku = undefined;
+      this._subnetName = undefined;
+      this._additionalIpConfigurations.internalValue = undefined;
+      this._applicationSecurityGroups.internalValue = undefined;
+      this._networkSecurityGroup.internalValue = undefined;
+      this._publicIps.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = value.assignPublicIp;
+      this._enableIpForwarding = value.enableIpForwarding;
+      this._isPrimary = value.isPrimary;
+      this._privateIpAddresses = value.privateIpAddresses;
+      this._publicIpSku = value.publicIpSku;
+      this._subnetName = value.subnetName;
+      this._additionalIpConfigurations.internalValue = value.additionalIpConfigurations;
+      this._applicationSecurityGroups.internalValue = value.applicationSecurityGroups;
+      this._networkSecurityGroup.internalValue = value.networkSecurityGroup;
+      this._publicIps.internalValue = value.publicIps;
+    }
+  }
+
+  // assign_public_ip - computed: true, optional: true, required: false
+  private _assignPublicIp?: boolean | cdktf.IResolvable; 
+  public get assignPublicIp() {
+    return this.getBooleanAttribute('assign_public_ip');
+  }
+  public set assignPublicIp(value: boolean | cdktf.IResolvable) {
+    this._assignPublicIp = value;
+  }
+  public resetAssignPublicIp() {
+    this._assignPublicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get assignPublicIpInput() {
+    return this._assignPublicIp;
+  }
+
+  // enable_ip_forwarding - computed: true, optional: true, required: false
+  private _enableIpForwarding?: boolean | cdktf.IResolvable; 
+  public get enableIpForwarding() {
+    return this.getBooleanAttribute('enable_ip_forwarding');
+  }
+  public set enableIpForwarding(value: boolean | cdktf.IResolvable) {
+    this._enableIpForwarding = value;
+  }
+  public resetEnableIpForwarding() {
+    this._enableIpForwarding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpForwardingInput() {
+    return this._enableIpForwarding;
+  }
+
+  // is_primary - computed: false, optional: false, required: true
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
+  }
+
+  // private_ip_addresses - computed: true, optional: true, required: false
+  private _privateIpAddresses?: string[]; 
+  public get privateIpAddresses() {
+    return this.getListAttribute('private_ip_addresses');
+  }
+  public set privateIpAddresses(value: string[]) {
+    this._privateIpAddresses = value;
+  }
+  public resetPrivateIpAddresses() {
+    this._privateIpAddresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateIpAddressesInput() {
+    return this._privateIpAddresses;
+  }
+
+  // public_ip_sku - computed: true, optional: true, required: false
+  private _publicIpSku?: string; 
+  public get publicIpSku() {
+    return this.getStringAttribute('public_ip_sku');
+  }
+  public set publicIpSku(value: string) {
+    this._publicIpSku = value;
+  }
+  public resetPublicIpSku() {
+    this._publicIpSku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpSkuInput() {
+    return this._publicIpSku;
+  }
+
+  // subnet_name - computed: false, optional: false, required: true
+  private _subnetName?: string; 
+  public get subnetName() {
+    return this.getStringAttribute('subnet_name');
+  }
+  public set subnetName(value: string) {
+    this._subnetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetNameInput() {
+    return this._subnetName;
+  }
+
+  // additional_ip_configurations - computed: false, optional: true, required: false
+  private _additionalIpConfigurations = new StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList(this, "additional_ip_configurations", false);
+  public get additionalIpConfigurations() {
+    return this._additionalIpConfigurations;
+  }
+  public putAdditionalIpConfigurations(value: StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations[] | cdktf.IResolvable) {
+    this._additionalIpConfigurations.internalValue = value;
+  }
+  public resetAdditionalIpConfigurations() {
+    this._additionalIpConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalIpConfigurationsInput() {
+    return this._additionalIpConfigurations.internalValue;
+  }
+
+  // application_security_groups - computed: false, optional: true, required: false
+  private _applicationSecurityGroups = new StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList(this, "application_security_groups", false);
+  public get applicationSecurityGroups() {
+    return this._applicationSecurityGroups;
+  }
+  public putApplicationSecurityGroups(value: StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups[] | cdktf.IResolvable) {
+    this._applicationSecurityGroups.internalValue = value;
+  }
+  public resetApplicationSecurityGroups() {
+    this._applicationSecurityGroups.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationSecurityGroupsInput() {
+    return this._applicationSecurityGroups.internalValue;
+  }
+
+  // network_security_group - computed: false, optional: true, required: false
+  private _networkSecurityGroup = new StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList(this, "network_security_group", false);
+  public get networkSecurityGroup() {
+    return this._networkSecurityGroup;
+  }
+  public putNetworkSecurityGroup(value: StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup[] | cdktf.IResolvable) {
+    this._networkSecurityGroup.internalValue = value;
+  }
+  public resetNetworkSecurityGroup() {
+    this._networkSecurityGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkSecurityGroupInput() {
+    return this._networkSecurityGroup.internalValue;
+  }
+
+  // public_ips - computed: false, optional: true, required: false
+  private _publicIps = new StatefulNodeAzureNetworkNetworkInterfacePublicIpsList(this, "public_ips", false);
+  public get publicIps() {
+    return this._publicIps;
+  }
+  public putPublicIps(value: StatefulNodeAzureNetworkNetworkInterfacePublicIps[] | cdktf.IResolvable) {
+    this._publicIps.internalValue = value;
+  }
+  public resetPublicIps() {
+    this._publicIps.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpsInput() {
+    return this._publicIps.internalValue;
+  }
+}
+
+export class StatefulNodeAzureNetworkNetworkInterfaceList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureNetworkNetworkInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureNetworkNetworkInterfaceOutputReference {
+    return new StatefulNodeAzureNetworkNetworkInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureNetwork {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
@@ -1202,9 +3616,9 @@ export class StatefulNodeAzureNetworkOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.virtualNetworkName = this._virtualNetworkName;
     }
-    if (this._networkInterface !== undefined) {
+    if (this._networkInterface?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.networkInterface = this._networkInterface;
+      internalValueResult.networkInterface = this._networkInterface?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1214,13 +3628,13 @@ export class StatefulNodeAzureNetworkOutputReference extends cdktf.ComplexObject
       this.isEmptyObject = false;
       this._networkResourceGroupName = undefined;
       this._virtualNetworkName = undefined;
-      this._networkInterface = undefined;
+      this._networkInterface.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._networkResourceGroupName = value.networkResourceGroupName;
       this._virtualNetworkName = value.virtualNetworkName;
-      this._networkInterface = value.networkInterface;
+      this._networkInterface.internalValue = value.networkInterface;
     }
   }
 
@@ -1251,17 +3665,16 @@ export class StatefulNodeAzureNetworkOutputReference extends cdktf.ComplexObject
   }
 
   // network_interface - computed: false, optional: false, required: true
-  private _networkInterface?: StatefulNodeAzureNetworkNetworkInterface[] | cdktf.IResolvable; 
+  private _networkInterface = new StatefulNodeAzureNetworkNetworkInterfaceList(this, "network_interface", false);
   public get networkInterface() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('network_interface');
+    return this._networkInterface;
   }
-  public set networkInterface(value: StatefulNodeAzureNetworkNetworkInterface[] | cdktf.IResolvable) {
-    this._networkInterface = value;
+  public putNetworkInterface(value: StatefulNodeAzureNetworkNetworkInterface[] | cdktf.IResolvable) {
+    this._networkInterface.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
   public get networkInterfaceInput() {
-    return this._networkInterface;
+    return this._networkInterface.internalValue;
   }
 }
 export interface StatefulNodeAzureOsDisk {
@@ -1380,6 +3793,121 @@ export function statefulNodeAzureSchedulingTaskToTerraform(struct?: StatefulNode
   }
 }
 
+export class StatefulNodeAzureSchedulingTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureSchedulingTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureSchedulingTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cronExpression = undefined;
+      this._isEnabled = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cronExpression = value.cronExpression;
+      this._isEnabled = value.isEnabled;
+      this._type = value.type;
+    }
+  }
+
+  // cron_expression - computed: false, optional: false, required: true
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // is_enabled - computed: false, optional: false, required: true
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureSchedulingTaskList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureSchedulingTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureSchedulingTaskOutputReference {
+    return new StatefulNodeAzureSchedulingTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureSecretSourceVault {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#name StatefulNodeAzure#name}
@@ -1402,6 +3930,102 @@ export function statefulNodeAzureSecretSourceVaultToTerraform(struct?: StatefulN
   }
 }
 
+export class StatefulNodeAzureSecretSourceVaultOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureSecretSourceVault | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureSecretSourceVault | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class StatefulNodeAzureSecretSourceVaultList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureSecretSourceVault[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureSecretSourceVaultOutputReference {
+    return new StatefulNodeAzureSecretSourceVaultOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureSecretVaultCertificates {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}
@@ -1424,6 +4048,108 @@ export function statefulNodeAzureSecretVaultCertificatesToTerraform(struct?: Sta
   }
 }
 
+export class StatefulNodeAzureSecretVaultCertificatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureSecretVaultCertificates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._certificateStore !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateStore = this._certificateStore;
+    }
+    if (this._certificateUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.certificateUrl = this._certificateUrl;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureSecretVaultCertificates | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._certificateStore = undefined;
+      this._certificateUrl = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._certificateStore = value.certificateStore;
+      this._certificateUrl = value.certificateUrl;
+    }
+  }
+
+  // certificate_store - computed: true, optional: true, required: false
+  private _certificateStore?: string; 
+  public get certificateStore() {
+    return this.getStringAttribute('certificate_store');
+  }
+  public set certificateStore(value: string) {
+    this._certificateStore = value;
+  }
+  public resetCertificateStore() {
+    this._certificateStore = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateStoreInput() {
+    return this._certificateStore;
+  }
+
+  // certificate_url - computed: true, optional: true, required: false
+  private _certificateUrl?: string; 
+  public get certificateUrl() {
+    return this.getStringAttribute('certificate_url');
+  }
+  public set certificateUrl(value: string) {
+    this._certificateUrl = value;
+  }
+  public resetCertificateUrl() {
+    this._certificateUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUrlInput() {
+    return this._certificateUrl;
+  }
+}
+
+export class StatefulNodeAzureSecretVaultCertificatesList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureSecretVaultCertificates[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureSecretVaultCertificatesOutputReference {
+    return new StatefulNodeAzureSecretVaultCertificatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureSecret {
   /**
   * source_vault block
@@ -1450,6 +4176,102 @@ export function statefulNodeAzureSecretToTerraform(struct?: StatefulNodeAzureSec
   }
 }
 
+export class StatefulNodeAzureSecretOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureSecret | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceVault?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceVault = this._sourceVault?.internalValue;
+    }
+    if (this._vaultCertificates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultCertificates = this._vaultCertificates?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureSecret | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._sourceVault.internalValue = undefined;
+      this._vaultCertificates.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._sourceVault.internalValue = value.sourceVault;
+      this._vaultCertificates.internalValue = value.vaultCertificates;
+    }
+  }
+
+  // source_vault - computed: false, optional: false, required: true
+  private _sourceVault = new StatefulNodeAzureSecretSourceVaultList(this, "source_vault", false);
+  public get sourceVault() {
+    return this._sourceVault;
+  }
+  public putSourceVault(value: StatefulNodeAzureSecretSourceVault[] | cdktf.IResolvable) {
+    this._sourceVault.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceVaultInput() {
+    return this._sourceVault.internalValue;
+  }
+
+  // vault_certificates - computed: false, optional: false, required: true
+  private _vaultCertificates = new StatefulNodeAzureSecretVaultCertificatesList(this, "vault_certificates", false);
+  public get vaultCertificates() {
+    return this._vaultCertificates;
+  }
+  public putVaultCertificates(value: StatefulNodeAzureSecretVaultCertificates[] | cdktf.IResolvable) {
+    this._vaultCertificates.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultCertificatesInput() {
+    return this._vaultCertificates.internalValue;
+  }
+}
+
+export class StatefulNodeAzureSecretList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureSecret[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureSecretOutputReference {
+    return new StatefulNodeAzureSecretOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureSignal {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#timeout StatefulNodeAzure#timeout}
@@ -1472,6 +4294,102 @@ export function statefulNodeAzureSignalToTerraform(struct?: StatefulNodeAzureSig
   }
 }
 
+export class StatefulNodeAzureSignalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureSignal | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._timeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeout = this._timeout;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureSignal | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._timeout = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._timeout = value.timeout;
+      this._type = value.type;
+    }
+  }
+
+  // timeout - computed: false, optional: false, required: true
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class StatefulNodeAzureSignalList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureSignal[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureSignalOutputReference {
+    return new StatefulNodeAzureSignalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureStrategyRevertToSpot {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}
@@ -1728,6 +4646,105 @@ export function statefulNodeAzureTagToTerraform(struct?: StatefulNodeAzureTag | 
   }
 }
 
+export class StatefulNodeAzureTagOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureTag | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tagKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagKey = this._tagKey;
+    }
+    if (this._tagValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagValue = this._tagValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureTag | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tagKey = undefined;
+      this._tagValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tagKey = value.tagKey;
+      this._tagValue = value.tagValue;
+    }
+  }
+
+  // tag_key - computed: false, optional: false, required: true
+  private _tagKey?: string; 
+  public get tagKey() {
+    return this.getStringAttribute('tag_key');
+  }
+  public set tagKey(value: string) {
+    this._tagKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagKeyInput() {
+    return this._tagKey;
+  }
+
+  // tag_value - computed: true, optional: true, required: false
+  private _tagValue?: string; 
+  public get tagValue() {
+    return this.getStringAttribute('tag_value');
+  }
+  public set tagValue(value: string) {
+    this._tagValue = value;
+  }
+  public resetTagValue() {
+    this._tagValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagValueInput() {
+    return this._tagValue;
+  }
+}
+
+export class StatefulNodeAzureTagList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureTag[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureTagOutputReference {
+    return new StatefulNodeAzureTagOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface StatefulNodeAzureUpdateState {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure#state StatefulNodeAzure#state}
@@ -1745,6 +4762,83 @@ export function statefulNodeAzureUpdateStateToTerraform(struct?: StatefulNodeAzu
   }
 }
 
+export class StatefulNodeAzureUpdateStateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): StatefulNodeAzureUpdateState | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._state !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.state = this._state;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: StatefulNodeAzureUpdateState | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._state = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._state = value.state;
+    }
+  }
+
+  // state - computed: false, optional: false, required: true
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
+  }
+}
+
+export class StatefulNodeAzureUpdateStateList extends cdktf.ComplexList {
+  public internalValue? : StatefulNodeAzureUpdateState[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): StatefulNodeAzureUpdateStateOutputReference {
+    return new StatefulNodeAzureUpdateStateOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure spotinst_stateful_node_azure}
@@ -1783,6 +4877,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
     this._customData = config.customData;
     this._dataDisksPersistenceMode = config.dataDisksPersistenceMode;
     this._description = config.description;
+    this._id = config.id;
     this._name = config.name;
     this._odSizes = config.odSizes;
     this._os = config.os;
@@ -1798,26 +4893,26 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
     this._shutdownScript = config.shutdownScript;
     this._spotSizes = config.spotSizes;
     this._zones = config.zones;
-    this._attachDataDisk = config.attachDataDisk;
-    this._bootDiagnostics = config.bootDiagnostics;
-    this._dataDisk = config.dataDisk;
-    this._delete = config.delete;
-    this._detachDataDisk = config.detachDataDisk;
-    this._extension = config.extension;
+    this._attachDataDisk.internalValue = config.attachDataDisk;
+    this._bootDiagnostics.internalValue = config.bootDiagnostics;
+    this._dataDisk.internalValue = config.dataDisk;
+    this._delete.internalValue = config.delete;
+    this._detachDataDisk.internalValue = config.detachDataDisk;
+    this._extension.internalValue = config.extension;
     this._health.internalValue = config.health;
     this._image.internalValue = config.image;
-    this._importVm = config.importVm;
-    this._loadBalancer = config.loadBalancer;
+    this._importVm.internalValue = config.importVm;
+    this._loadBalancer.internalValue = config.loadBalancer;
     this._login.internalValue = config.login;
-    this._managedServiceIdentities = config.managedServiceIdentities;
+    this._managedServiceIdentities.internalValue = config.managedServiceIdentities;
     this._network.internalValue = config.network;
     this._osDisk.internalValue = config.osDisk;
-    this._schedulingTask = config.schedulingTask;
-    this._secret = config.secret;
-    this._signal = config.signal;
+    this._schedulingTask.internalValue = config.schedulingTask;
+    this._secret.internalValue = config.secret;
+    this._signal.internalValue = config.signal;
     this._strategy.internalValue = config.strategy;
-    this._tag = config.tag;
-    this._updateState = config.updateState;
+    this._tag.internalValue = config.tag;
+    this._updateState.internalValue = config.updateState;
   }
 
   // ==========
@@ -1873,8 +4968,19 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -2091,105 +5197,99 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // attach_data_disk - computed: false, optional: true, required: false
-  private _attachDataDisk?: StatefulNodeAzureAttachDataDisk[] | cdktf.IResolvable; 
+  private _attachDataDisk = new StatefulNodeAzureAttachDataDiskList(this, "attach_data_disk", false);
   public get attachDataDisk() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('attach_data_disk');
+    return this._attachDataDisk;
   }
-  public set attachDataDisk(value: StatefulNodeAzureAttachDataDisk[] | cdktf.IResolvable) {
-    this._attachDataDisk = value;
+  public putAttachDataDisk(value: StatefulNodeAzureAttachDataDisk[] | cdktf.IResolvable) {
+    this._attachDataDisk.internalValue = value;
   }
   public resetAttachDataDisk() {
-    this._attachDataDisk = undefined;
+    this._attachDataDisk.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get attachDataDiskInput() {
-    return this._attachDataDisk;
+    return this._attachDataDisk.internalValue;
   }
 
   // boot_diagnostics - computed: false, optional: true, required: false
-  private _bootDiagnostics?: StatefulNodeAzureBootDiagnostics[] | cdktf.IResolvable; 
+  private _bootDiagnostics = new StatefulNodeAzureBootDiagnosticsList(this, "boot_diagnostics", false);
   public get bootDiagnostics() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('boot_diagnostics');
+    return this._bootDiagnostics;
   }
-  public set bootDiagnostics(value: StatefulNodeAzureBootDiagnostics[] | cdktf.IResolvable) {
-    this._bootDiagnostics = value;
+  public putBootDiagnostics(value: StatefulNodeAzureBootDiagnostics[] | cdktf.IResolvable) {
+    this._bootDiagnostics.internalValue = value;
   }
   public resetBootDiagnostics() {
-    this._bootDiagnostics = undefined;
+    this._bootDiagnostics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get bootDiagnosticsInput() {
-    return this._bootDiagnostics;
+    return this._bootDiagnostics.internalValue;
   }
 
   // data_disk - computed: false, optional: true, required: false
-  private _dataDisk?: StatefulNodeAzureDataDisk[] | cdktf.IResolvable; 
+  private _dataDisk = new StatefulNodeAzureDataDiskList(this, "data_disk", false);
   public get dataDisk() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('data_disk');
+    return this._dataDisk;
   }
-  public set dataDisk(value: StatefulNodeAzureDataDisk[] | cdktf.IResolvable) {
-    this._dataDisk = value;
+  public putDataDisk(value: StatefulNodeAzureDataDisk[] | cdktf.IResolvable) {
+    this._dataDisk.internalValue = value;
   }
   public resetDataDisk() {
-    this._dataDisk = undefined;
+    this._dataDisk.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get dataDiskInput() {
-    return this._dataDisk;
+    return this._dataDisk.internalValue;
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: StatefulNodeAzureDelete[] | cdktf.IResolvable; 
+  private _delete = new StatefulNodeAzureDeleteList(this, "delete", false);
   public get delete() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('delete');
+    return this._delete;
   }
-  public set delete(value: StatefulNodeAzureDelete[] | cdktf.IResolvable) {
-    this._delete = value;
+  public putDelete(value: StatefulNodeAzureDelete[] | cdktf.IResolvable) {
+    this._delete.internalValue = value;
   }
   public resetDelete() {
-    this._delete = undefined;
+    this._delete.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get deleteInput() {
-    return this._delete;
+    return this._delete.internalValue;
   }
 
   // detach_data_disk - computed: false, optional: true, required: false
-  private _detachDataDisk?: StatefulNodeAzureDetachDataDisk[] | cdktf.IResolvable; 
+  private _detachDataDisk = new StatefulNodeAzureDetachDataDiskList(this, "detach_data_disk", false);
   public get detachDataDisk() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('detach_data_disk');
+    return this._detachDataDisk;
   }
-  public set detachDataDisk(value: StatefulNodeAzureDetachDataDisk[] | cdktf.IResolvable) {
-    this._detachDataDisk = value;
+  public putDetachDataDisk(value: StatefulNodeAzureDetachDataDisk[] | cdktf.IResolvable) {
+    this._detachDataDisk.internalValue = value;
   }
   public resetDetachDataDisk() {
-    this._detachDataDisk = undefined;
+    this._detachDataDisk.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get detachDataDiskInput() {
-    return this._detachDataDisk;
+    return this._detachDataDisk.internalValue;
   }
 
   // extension - computed: false, optional: true, required: false
-  private _extension?: StatefulNodeAzureExtension[] | cdktf.IResolvable; 
+  private _extension = new StatefulNodeAzureExtensionList(this, "extension", true);
   public get extension() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('extension')));
+    return this._extension;
   }
-  public set extension(value: StatefulNodeAzureExtension[] | cdktf.IResolvable) {
-    this._extension = value;
+  public putExtension(value: StatefulNodeAzureExtension[] | cdktf.IResolvable) {
+    this._extension.internalValue = value;
   }
   public resetExtension() {
-    this._extension = undefined;
+    this._extension.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get extensionInput() {
-    return this._extension;
+    return this._extension.internalValue;
   }
 
   // health - computed: false, optional: true, required: false
@@ -2222,37 +5322,35 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // import_vm - computed: false, optional: true, required: false
-  private _importVm?: StatefulNodeAzureImportVm[] | cdktf.IResolvable; 
+  private _importVm = new StatefulNodeAzureImportVmList(this, "import_vm", false);
   public get importVm() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('import_vm');
+    return this._importVm;
   }
-  public set importVm(value: StatefulNodeAzureImportVm[] | cdktf.IResolvable) {
-    this._importVm = value;
+  public putImportVm(value: StatefulNodeAzureImportVm[] | cdktf.IResolvable) {
+    this._importVm.internalValue = value;
   }
   public resetImportVm() {
-    this._importVm = undefined;
+    this._importVm.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get importVmInput() {
-    return this._importVm;
+    return this._importVm.internalValue;
   }
 
   // load_balancer - computed: false, optional: true, required: false
-  private _loadBalancer?: StatefulNodeAzureLoadBalancer[] | cdktf.IResolvable; 
+  private _loadBalancer = new StatefulNodeAzureLoadBalancerList(this, "load_balancer", true);
   public get loadBalancer() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('load_balancer')));
+    return this._loadBalancer;
   }
-  public set loadBalancer(value: StatefulNodeAzureLoadBalancer[] | cdktf.IResolvable) {
-    this._loadBalancer = value;
+  public putLoadBalancer(value: StatefulNodeAzureLoadBalancer[] | cdktf.IResolvable) {
+    this._loadBalancer.internalValue = value;
   }
   public resetLoadBalancer() {
-    this._loadBalancer = undefined;
+    this._loadBalancer.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get loadBalancerInput() {
-    return this._loadBalancer;
+    return this._loadBalancer.internalValue;
   }
 
   // login - computed: false, optional: false, required: true
@@ -2269,20 +5367,19 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // managed_service_identities - computed: false, optional: true, required: false
-  private _managedServiceIdentities?: StatefulNodeAzureManagedServiceIdentities[] | cdktf.IResolvable; 
+  private _managedServiceIdentities = new StatefulNodeAzureManagedServiceIdentitiesList(this, "managed_service_identities", true);
   public get managedServiceIdentities() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('managed_service_identities')));
+    return this._managedServiceIdentities;
   }
-  public set managedServiceIdentities(value: StatefulNodeAzureManagedServiceIdentities[] | cdktf.IResolvable) {
-    this._managedServiceIdentities = value;
+  public putManagedServiceIdentities(value: StatefulNodeAzureManagedServiceIdentities[] | cdktf.IResolvable) {
+    this._managedServiceIdentities.internalValue = value;
   }
   public resetManagedServiceIdentities() {
-    this._managedServiceIdentities = undefined;
+    this._managedServiceIdentities.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get managedServiceIdentitiesInput() {
-    return this._managedServiceIdentities;
+    return this._managedServiceIdentities.internalValue;
   }
 
   // network - computed: false, optional: false, required: true
@@ -2315,54 +5412,51 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // scheduling_task - computed: false, optional: true, required: false
-  private _schedulingTask?: StatefulNodeAzureSchedulingTask[] | cdktf.IResolvable; 
+  private _schedulingTask = new StatefulNodeAzureSchedulingTaskList(this, "scheduling_task", true);
   public get schedulingTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduling_task')));
+    return this._schedulingTask;
   }
-  public set schedulingTask(value: StatefulNodeAzureSchedulingTask[] | cdktf.IResolvable) {
-    this._schedulingTask = value;
+  public putSchedulingTask(value: StatefulNodeAzureSchedulingTask[] | cdktf.IResolvable) {
+    this._schedulingTask.internalValue = value;
   }
   public resetSchedulingTask() {
-    this._schedulingTask = undefined;
+    this._schedulingTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get schedulingTaskInput() {
-    return this._schedulingTask;
+    return this._schedulingTask.internalValue;
   }
 
   // secret - computed: false, optional: true, required: false
-  private _secret?: StatefulNodeAzureSecret[] | cdktf.IResolvable; 
+  private _secret = new StatefulNodeAzureSecretList(this, "secret", true);
   public get secret() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('secret')));
+    return this._secret;
   }
-  public set secret(value: StatefulNodeAzureSecret[] | cdktf.IResolvable) {
-    this._secret = value;
+  public putSecret(value: StatefulNodeAzureSecret[] | cdktf.IResolvable) {
+    this._secret.internalValue = value;
   }
   public resetSecret() {
-    this._secret = undefined;
+    this._secret.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get secretInput() {
-    return this._secret;
+    return this._secret.internalValue;
   }
 
   // signal - computed: false, optional: true, required: false
-  private _signal?: StatefulNodeAzureSignal[] | cdktf.IResolvable; 
+  private _signal = new StatefulNodeAzureSignalList(this, "signal", false);
   public get signal() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('signal');
+    return this._signal;
   }
-  public set signal(value: StatefulNodeAzureSignal[] | cdktf.IResolvable) {
-    this._signal = value;
+  public putSignal(value: StatefulNodeAzureSignal[] | cdktf.IResolvable) {
+    this._signal.internalValue = value;
   }
   public resetSignal() {
-    this._signal = undefined;
+    this._signal.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get signalInput() {
-    return this._signal;
+    return this._signal.internalValue;
   }
 
   // strategy - computed: false, optional: false, required: true
@@ -2379,37 +5473,35 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   }
 
   // tag - computed: false, optional: true, required: false
-  private _tag?: StatefulNodeAzureTag[] | cdktf.IResolvable; 
+  private _tag = new StatefulNodeAzureTagList(this, "tag", true);
   public get tag() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tag')));
+    return this._tag;
   }
-  public set tag(value: StatefulNodeAzureTag[] | cdktf.IResolvable) {
-    this._tag = value;
+  public putTag(value: StatefulNodeAzureTag[] | cdktf.IResolvable) {
+    this._tag.internalValue = value;
   }
   public resetTag() {
-    this._tag = undefined;
+    this._tag.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagInput() {
-    return this._tag;
+    return this._tag.internalValue;
   }
 
   // update_state - computed: false, optional: true, required: false
-  private _updateState?: StatefulNodeAzureUpdateState[] | cdktf.IResolvable; 
+  private _updateState = new StatefulNodeAzureUpdateStateList(this, "update_state", false);
   public get updateState() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('update_state');
+    return this._updateState;
   }
-  public set updateState(value: StatefulNodeAzureUpdateState[] | cdktf.IResolvable) {
-    this._updateState = value;
+  public putUpdateState(value: StatefulNodeAzureUpdateState[] | cdktf.IResolvable) {
+    this._updateState.internalValue = value;
   }
   public resetUpdateState() {
-    this._updateState = undefined;
+    this._updateState.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get updateStateInput() {
-    return this._updateState;
+    return this._updateState.internalValue;
   }
 
   // =========
@@ -2421,6 +5513,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       custom_data: cdktf.stringToTerraform(this._customData),
       data_disks_persistence_mode: cdktf.stringToTerraform(this._dataDisksPersistenceMode),
       description: cdktf.stringToTerraform(this._description),
+      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       od_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._odSizes),
       os: cdktf.stringToTerraform(this._os),
@@ -2436,26 +5529,26 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
       spot_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._spotSizes),
       zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
-      attach_data_disk: cdktf.listMapper(statefulNodeAzureAttachDataDiskToTerraform)(this._attachDataDisk),
-      boot_diagnostics: cdktf.listMapper(statefulNodeAzureBootDiagnosticsToTerraform)(this._bootDiagnostics),
-      data_disk: cdktf.listMapper(statefulNodeAzureDataDiskToTerraform)(this._dataDisk),
-      delete: cdktf.listMapper(statefulNodeAzureDeleteToTerraform)(this._delete),
-      detach_data_disk: cdktf.listMapper(statefulNodeAzureDetachDataDiskToTerraform)(this._detachDataDisk),
-      extension: cdktf.listMapper(statefulNodeAzureExtensionToTerraform)(this._extension),
+      attach_data_disk: cdktf.listMapper(statefulNodeAzureAttachDataDiskToTerraform)(this._attachDataDisk.internalValue),
+      boot_diagnostics: cdktf.listMapper(statefulNodeAzureBootDiagnosticsToTerraform)(this._bootDiagnostics.internalValue),
+      data_disk: cdktf.listMapper(statefulNodeAzureDataDiskToTerraform)(this._dataDisk.internalValue),
+      delete: cdktf.listMapper(statefulNodeAzureDeleteToTerraform)(this._delete.internalValue),
+      detach_data_disk: cdktf.listMapper(statefulNodeAzureDetachDataDiskToTerraform)(this._detachDataDisk.internalValue),
+      extension: cdktf.listMapper(statefulNodeAzureExtensionToTerraform)(this._extension.internalValue),
       health: statefulNodeAzureHealthToTerraform(this._health.internalValue),
       image: statefulNodeAzureImageToTerraform(this._image.internalValue),
-      import_vm: cdktf.listMapper(statefulNodeAzureImportVmToTerraform)(this._importVm),
-      load_balancer: cdktf.listMapper(statefulNodeAzureLoadBalancerToTerraform)(this._loadBalancer),
+      import_vm: cdktf.listMapper(statefulNodeAzureImportVmToTerraform)(this._importVm.internalValue),
+      load_balancer: cdktf.listMapper(statefulNodeAzureLoadBalancerToTerraform)(this._loadBalancer.internalValue),
       login: statefulNodeAzureLoginToTerraform(this._login.internalValue),
-      managed_service_identities: cdktf.listMapper(statefulNodeAzureManagedServiceIdentitiesToTerraform)(this._managedServiceIdentities),
+      managed_service_identities: cdktf.listMapper(statefulNodeAzureManagedServiceIdentitiesToTerraform)(this._managedServiceIdentities.internalValue),
       network: statefulNodeAzureNetworkToTerraform(this._network.internalValue),
       os_disk: statefulNodeAzureOsDiskToTerraform(this._osDisk.internalValue),
-      scheduling_task: cdktf.listMapper(statefulNodeAzureSchedulingTaskToTerraform)(this._schedulingTask),
-      secret: cdktf.listMapper(statefulNodeAzureSecretToTerraform)(this._secret),
-      signal: cdktf.listMapper(statefulNodeAzureSignalToTerraform)(this._signal),
+      scheduling_task: cdktf.listMapper(statefulNodeAzureSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
+      secret: cdktf.listMapper(statefulNodeAzureSecretToTerraform)(this._secret.internalValue),
+      signal: cdktf.listMapper(statefulNodeAzureSignalToTerraform)(this._signal.internalValue),
       strategy: statefulNodeAzureStrategyToTerraform(this._strategy.internalValue),
-      tag: cdktf.listMapper(statefulNodeAzureTagToTerraform)(this._tag),
-      update_state: cdktf.listMapper(statefulNodeAzureUpdateStateToTerraform)(this._updateState),
+      tag: cdktf.listMapper(statefulNodeAzureTagToTerraform)(this._tag.internalValue),
+      update_state: cdktf.listMapper(statefulNodeAzureUpdateStateToTerraform)(this._updateState.internalValue),
     };
   }
 }

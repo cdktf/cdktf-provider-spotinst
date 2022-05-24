@@ -72,6 +72,13 @@ export interface ElastigroupAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly iamInstanceProfile?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#id ElastigroupAws#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#image_id ElastigroupAws#image_id}
   */
   readonly imageId?: string;
@@ -503,6 +510,259 @@ export function elastigroupAwsEbsBlockDeviceToTerraform(struct?: ElastigroupAwsE
   }
 }
 
+export class ElastigroupAwsEbsBlockDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsEbsBlockDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deleteOnTermination !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteOnTermination = this._deleteOnTermination;
+    }
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._encrypted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encrypted = this._encrypted;
+    }
+    if (this._iops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iops = this._iops;
+    }
+    if (this._kmsKeyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyId = this._kmsKeyId;
+    }
+    if (this._snapshotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snapshotId = this._snapshotId;
+    }
+    if (this._throughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.throughput = this._throughput;
+    }
+    if (this._volumeSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeSize = this._volumeSize;
+    }
+    if (this._volumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeType = this._volumeType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsEbsBlockDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deleteOnTermination = undefined;
+      this._deviceName = undefined;
+      this._encrypted = undefined;
+      this._iops = undefined;
+      this._kmsKeyId = undefined;
+      this._snapshotId = undefined;
+      this._throughput = undefined;
+      this._volumeSize = undefined;
+      this._volumeType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deleteOnTermination = value.deleteOnTermination;
+      this._deviceName = value.deviceName;
+      this._encrypted = value.encrypted;
+      this._iops = value.iops;
+      this._kmsKeyId = value.kmsKeyId;
+      this._snapshotId = value.snapshotId;
+      this._throughput = value.throughput;
+      this._volumeSize = value.volumeSize;
+      this._volumeType = value.volumeType;
+    }
+  }
+
+  // delete_on_termination - computed: true, optional: true, required: false
+  private _deleteOnTermination?: boolean | cdktf.IResolvable; 
+  public get deleteOnTermination() {
+    return this.getBooleanAttribute('delete_on_termination');
+  }
+  public set deleteOnTermination(value: boolean | cdktf.IResolvable) {
+    this._deleteOnTermination = value;
+  }
+  public resetDeleteOnTermination() {
+    this._deleteOnTermination = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteOnTerminationInput() {
+    return this._deleteOnTermination;
+  }
+
+  // device_name - computed: false, optional: false, required: true
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // encrypted - computed: true, optional: true, required: false
+  private _encrypted?: boolean | cdktf.IResolvable; 
+  public get encrypted() {
+    return this.getBooleanAttribute('encrypted');
+  }
+  public set encrypted(value: boolean | cdktf.IResolvable) {
+    this._encrypted = value;
+  }
+  public resetEncrypted() {
+    this._encrypted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptedInput() {
+    return this._encrypted;
+  }
+
+  // iops - computed: false, optional: true, required: false
+  private _iops?: number; 
+  public get iops() {
+    return this.getNumberAttribute('iops');
+  }
+  public set iops(value: number) {
+    this._iops = value;
+  }
+  public resetIops() {
+    this._iops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iopsInput() {
+    return this._iops;
+  }
+
+  // kms_key_id - computed: false, optional: true, required: false
+  private _kmsKeyId?: string; 
+  public get kmsKeyId() {
+    return this.getStringAttribute('kms_key_id');
+  }
+  public set kmsKeyId(value: string) {
+    this._kmsKeyId = value;
+  }
+  public resetKmsKeyId() {
+    this._kmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyIdInput() {
+    return this._kmsKeyId;
+  }
+
+  // snapshot_id - computed: false, optional: true, required: false
+  private _snapshotId?: string; 
+  public get snapshotId() {
+    return this.getStringAttribute('snapshot_id');
+  }
+  public set snapshotId(value: string) {
+    this._snapshotId = value;
+  }
+  public resetSnapshotId() {
+    this._snapshotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snapshotIdInput() {
+    return this._snapshotId;
+  }
+
+  // throughput - computed: false, optional: true, required: false
+  private _throughput?: number; 
+  public get throughput() {
+    return this.getNumberAttribute('throughput');
+  }
+  public set throughput(value: number) {
+    this._throughput = value;
+  }
+  public resetThroughput() {
+    this._throughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get throughputInput() {
+    return this._throughput;
+  }
+
+  // volume_size - computed: false, optional: true, required: false
+  private _volumeSize?: number; 
+  public get volumeSize() {
+    return this.getNumberAttribute('volume_size');
+  }
+  public set volumeSize(value: number) {
+    this._volumeSize = value;
+  }
+  public resetVolumeSize() {
+    this._volumeSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeSizeInput() {
+    return this._volumeSize;
+  }
+
+  // volume_type - computed: true, optional: true, required: false
+  private _volumeType?: string; 
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
+  public set volumeType(value: string) {
+    this._volumeType = value;
+  }
+  public resetVolumeType() {
+    this._volumeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeTypeInput() {
+    return this._volumeType;
+  }
+}
+
+export class ElastigroupAwsEbsBlockDeviceList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsEbsBlockDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsEbsBlockDeviceOutputReference {
+    return new ElastigroupAwsEbsBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsEphemeralBlockDevice {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#device_name ElastigroupAws#device_name}
@@ -525,6 +785,102 @@ export function elastigroupAwsEphemeralBlockDeviceToTerraform(struct?: Elastigro
   }
 }
 
+export class ElastigroupAwsEphemeralBlockDeviceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsEphemeralBlockDevice | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._virtualName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualName = this._virtualName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsEphemeralBlockDevice | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deviceName = undefined;
+      this._virtualName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deviceName = value.deviceName;
+      this._virtualName = value.virtualName;
+    }
+  }
+
+  // device_name - computed: false, optional: false, required: true
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // virtual_name - computed: false, optional: false, required: true
+  private _virtualName?: string; 
+  public get virtualName() {
+    return this.getStringAttribute('virtual_name');
+  }
+  public set virtualName(value: string) {
+    this._virtualName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualNameInput() {
+    return this._virtualName;
+  }
+}
+
+export class ElastigroupAwsEphemeralBlockDeviceList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsEphemeralBlockDeviceOutputReference {
+    return new ElastigroupAwsEphemeralBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsInstanceTypesWeights {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_type ElastigroupAws#instance_type}
@@ -547,6 +903,102 @@ export function elastigroupAwsInstanceTypesWeightsToTerraform(struct?: Elastigro
   }
 }
 
+export class ElastigroupAwsInstanceTypesWeightsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsInstanceTypesWeights | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceType = this._instanceType;
+    }
+    if (this._weight !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weight = this._weight;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsInstanceTypesWeights | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._instanceType = undefined;
+      this._weight = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._instanceType = value.instanceType;
+      this._weight = value.weight;
+    }
+  }
+
+  // instance_type - computed: false, optional: false, required: true
+  private _instanceType?: string; 
+  public get instanceType() {
+    return this.getStringAttribute('instance_type');
+  }
+  public set instanceType(value: string) {
+    this._instanceType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeInput() {
+    return this._instanceType;
+  }
+
+  // weight - computed: false, optional: false, required: true
+  private _weight?: number; 
+  public get weight() {
+    return this.getNumberAttribute('weight');
+  }
+  public set weight(value: number) {
+    this._weight = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weightInput() {
+    return this._weight;
+  }
+}
+
+export class ElastigroupAwsInstanceTypesWeightsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsInstanceTypesWeights[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsInstanceTypesWeightsOutputReference {
+    return new ElastigroupAwsInstanceTypesWeightsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#action ElastigroupAws#action}
@@ -1118,6 +1570,102 @@ export function elastigroupAwsIntegrationCodedeployDeploymentGroupsToTerraform(s
   }
 }
 
+export class ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationCodedeployDeploymentGroups | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationName = this._applicationName;
+    }
+    if (this._deploymentGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deploymentGroupName = this._deploymentGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationCodedeployDeploymentGroups | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationName = undefined;
+      this._deploymentGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationName = value.applicationName;
+      this._deploymentGroupName = value.deploymentGroupName;
+    }
+  }
+
+  // application_name - computed: false, optional: false, required: true
+  private _applicationName?: string; 
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+  public set applicationName(value: string) {
+    this._applicationName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationNameInput() {
+    return this._applicationName;
+  }
+
+  // deployment_group_name - computed: false, optional: false, required: true
+  private _deploymentGroupName?: string; 
+  public get deploymentGroupName() {
+    return this.getStringAttribute('deployment_group_name');
+  }
+  public set deploymentGroupName(value: string) {
+    this._deploymentGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentGroupNameInput() {
+    return this._deploymentGroupName;
+  }
+}
+
+export class ElastigroupAwsIntegrationCodedeployDeploymentGroupsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationCodedeployDeploymentGroups[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference {
+    return new ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationCodedeploy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}
@@ -1169,9 +1717,9 @@ export class ElastigroupAwsIntegrationCodedeployOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.terminateInstanceOnFailure = this._terminateInstanceOnFailure;
     }
-    if (this._deploymentGroups !== undefined) {
+    if (this._deploymentGroups?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.deploymentGroups = this._deploymentGroups;
+      internalValueResult.deploymentGroups = this._deploymentGroups?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1181,13 +1729,13 @@ export class ElastigroupAwsIntegrationCodedeployOutputReference extends cdktf.Co
       this.isEmptyObject = false;
       this._cleanupOnFailure = undefined;
       this._terminateInstanceOnFailure = undefined;
-      this._deploymentGroups = undefined;
+      this._deploymentGroups.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._cleanupOnFailure = value.cleanupOnFailure;
       this._terminateInstanceOnFailure = value.terminateInstanceOnFailure;
-      this._deploymentGroups = value.deploymentGroups;
+      this._deploymentGroups.internalValue = value.deploymentGroups;
     }
   }
 
@@ -1218,17 +1766,16 @@ export class ElastigroupAwsIntegrationCodedeployOutputReference extends cdktf.Co
   }
 
   // deployment_groups - computed: false, optional: false, required: true
-  private _deploymentGroups?: ElastigroupAwsIntegrationCodedeployDeploymentGroups[] | cdktf.IResolvable; 
+  private _deploymentGroups = new ElastigroupAwsIntegrationCodedeployDeploymentGroupsList(this, "deployment_groups", true);
   public get deploymentGroups() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('deployment_groups')));
+    return this._deploymentGroups;
   }
-  public set deploymentGroups(value: ElastigroupAwsIntegrationCodedeployDeploymentGroups[] | cdktf.IResolvable) {
-    this._deploymentGroups = value;
+  public putDeploymentGroups(value: ElastigroupAwsIntegrationCodedeployDeploymentGroups[] | cdktf.IResolvable) {
+    this._deploymentGroups.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
   public get deploymentGroupsInput() {
-    return this._deploymentGroups;
+    return this._deploymentGroups.internalValue;
   }
 }
 export interface ElastigroupAwsIntegrationDockerSwarmAutoscaleDown {
@@ -1662,6 +2209,102 @@ export function elastigroupAwsIntegrationEcsAutoscaleAttributesToTerraform(struc
   }
 }
 
+export class ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationEcsAutoscaleAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationEcsAutoscaleAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsIntegrationEcsAutoscaleAttributesList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationEcsAutoscaleAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference {
+    return new ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationEcsAutoscaleDown {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
@@ -2034,9 +2677,9 @@ export class ElastigroupAwsIntegrationEcsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.clusterName = this._clusterName;
     }
-    if (this._autoscaleAttributes !== undefined) {
+    if (this._autoscaleAttributes?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.autoscaleAttributes = this._autoscaleAttributes;
+      internalValueResult.autoscaleAttributes = this._autoscaleAttributes?.internalValue;
     }
     if (this._autoscaleDown?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2061,7 +2704,7 @@ export class ElastigroupAwsIntegrationEcsOutputReference extends cdktf.ComplexOb
       this._autoscaleIsEnabled = undefined;
       this._autoscaleScaleDownNonServiceTasks = undefined;
       this._clusterName = undefined;
-      this._autoscaleAttributes = undefined;
+      this._autoscaleAttributes.internalValue = undefined;
       this._autoscaleDown.internalValue = undefined;
       this._autoscaleHeadroom.internalValue = undefined;
       this._batch.internalValue = undefined;
@@ -2073,7 +2716,7 @@ export class ElastigroupAwsIntegrationEcsOutputReference extends cdktf.ComplexOb
       this._autoscaleIsEnabled = value.autoscaleIsEnabled;
       this._autoscaleScaleDownNonServiceTasks = value.autoscaleScaleDownNonServiceTasks;
       this._clusterName = value.clusterName;
-      this._autoscaleAttributes = value.autoscaleAttributes;
+      this._autoscaleAttributes.internalValue = value.autoscaleAttributes;
       this._autoscaleDown.internalValue = value.autoscaleDown;
       this._autoscaleHeadroom.internalValue = value.autoscaleHeadroom;
       this._batch.internalValue = value.batch;
@@ -2158,20 +2801,19 @@ export class ElastigroupAwsIntegrationEcsOutputReference extends cdktf.ComplexOb
   }
 
   // autoscale_attributes - computed: false, optional: true, required: false
-  private _autoscaleAttributes?: ElastigroupAwsIntegrationEcsAutoscaleAttributes[] | cdktf.IResolvable; 
+  private _autoscaleAttributes = new ElastigroupAwsIntegrationEcsAutoscaleAttributesList(this, "autoscale_attributes", true);
   public get autoscaleAttributes() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('autoscale_attributes')));
+    return this._autoscaleAttributes;
   }
-  public set autoscaleAttributes(value: ElastigroupAwsIntegrationEcsAutoscaleAttributes[] | cdktf.IResolvable) {
-    this._autoscaleAttributes = value;
+  public putAutoscaleAttributes(value: ElastigroupAwsIntegrationEcsAutoscaleAttributes[] | cdktf.IResolvable) {
+    this._autoscaleAttributes.internalValue = value;
   }
   public resetAutoscaleAttributes() {
-    this._autoscaleAttributes = undefined;
+    this._autoscaleAttributes.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get autoscaleAttributesInput() {
-    return this._autoscaleAttributes;
+    return this._autoscaleAttributes.internalValue;
   }
 
   // autoscale_down - computed: false, optional: true, required: false
@@ -2560,6 +3202,102 @@ export function elastigroupAwsIntegrationKubernetesAutoscaleLabelsToTerraform(st
   }
 }
 
+export class ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationKubernetesAutoscaleLabels | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationKubernetesAutoscaleLabels | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationKubernetesAutoscaleLabels[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference {
+    return new ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationKubernetes {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#api_server ElastigroupAws#api_server}
@@ -2678,9 +3416,9 @@ export class ElastigroupAwsIntegrationKubernetesOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.autoscaleHeadroom = this._autoscaleHeadroom?.internalValue;
     }
-    if (this._autoscaleLabels !== undefined) {
+    if (this._autoscaleLabels?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.autoscaleLabels = this._autoscaleLabels;
+      internalValueResult.autoscaleLabels = this._autoscaleLabels?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2697,7 +3435,7 @@ export class ElastigroupAwsIntegrationKubernetesOutputReference extends cdktf.Co
       this._token = undefined;
       this._autoscaleDown.internalValue = undefined;
       this._autoscaleHeadroom.internalValue = undefined;
-      this._autoscaleLabels = undefined;
+      this._autoscaleLabels.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -2710,7 +3448,7 @@ export class ElastigroupAwsIntegrationKubernetesOutputReference extends cdktf.Co
       this._token = value.token;
       this._autoscaleDown.internalValue = value.autoscaleDown;
       this._autoscaleHeadroom.internalValue = value.autoscaleHeadroom;
-      this._autoscaleLabels = value.autoscaleLabels;
+      this._autoscaleLabels.internalValue = value.autoscaleLabels;
     }
   }
 
@@ -2859,20 +3597,19 @@ export class ElastigroupAwsIntegrationKubernetesOutputReference extends cdktf.Co
   }
 
   // autoscale_labels - computed: false, optional: true, required: false
-  private _autoscaleLabels?: ElastigroupAwsIntegrationKubernetesAutoscaleLabels[] | cdktf.IResolvable; 
+  private _autoscaleLabels = new ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList(this, "autoscale_labels", true);
   public get autoscaleLabels() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('autoscale_labels')));
+    return this._autoscaleLabels;
   }
-  public set autoscaleLabels(value: ElastigroupAwsIntegrationKubernetesAutoscaleLabels[] | cdktf.IResolvable) {
-    this._autoscaleLabels = value;
+  public putAutoscaleLabels(value: ElastigroupAwsIntegrationKubernetesAutoscaleLabels[] | cdktf.IResolvable) {
+    this._autoscaleLabels.internalValue = value;
   }
   public resetAutoscaleLabels() {
-    this._autoscaleLabels = undefined;
+    this._autoscaleLabels.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get autoscaleLabelsInput() {
-    return this._autoscaleLabels;
+    return this._autoscaleLabels.internalValue;
   }
 }
 export interface ElastigroupAwsIntegrationMesosphere {
@@ -3021,6 +3758,102 @@ export function elastigroupAwsIntegrationNomadAutoscaleConstraintsToTerraform(st
   }
 }
 
+export class ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationNomadAutoscaleConstraints | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationNomadAutoscaleConstraints | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsIntegrationNomadAutoscaleConstraintsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationNomadAutoscaleConstraints[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference {
+    return new ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationNomadAutoscaleDown {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
@@ -3297,9 +4130,9 @@ export class ElastigroupAwsIntegrationNomadOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.masterPort = this._masterPort;
     }
-    if (this._autoscaleConstraints !== undefined) {
+    if (this._autoscaleConstraints?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.autoscaleConstraints = this._autoscaleConstraints;
+      internalValueResult.autoscaleConstraints = this._autoscaleConstraints?.internalValue;
     }
     if (this._autoscaleDown?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -3320,7 +4153,7 @@ export class ElastigroupAwsIntegrationNomadOutputReference extends cdktf.Complex
       this._autoscaleIsEnabled = undefined;
       this._masterHost = undefined;
       this._masterPort = undefined;
-      this._autoscaleConstraints = undefined;
+      this._autoscaleConstraints.internalValue = undefined;
       this._autoscaleDown.internalValue = undefined;
       this._autoscaleHeadroom.internalValue = undefined;
     }
@@ -3331,7 +4164,7 @@ export class ElastigroupAwsIntegrationNomadOutputReference extends cdktf.Complex
       this._autoscaleIsEnabled = value.autoscaleIsEnabled;
       this._masterHost = value.masterHost;
       this._masterPort = value.masterPort;
-      this._autoscaleConstraints = value.autoscaleConstraints;
+      this._autoscaleConstraints.internalValue = value.autoscaleConstraints;
       this._autoscaleDown.internalValue = value.autoscaleDown;
       this._autoscaleHeadroom.internalValue = value.autoscaleHeadroom;
     }
@@ -3412,20 +4245,19 @@ export class ElastigroupAwsIntegrationNomadOutputReference extends cdktf.Complex
   }
 
   // autoscale_constraints - computed: false, optional: true, required: false
-  private _autoscaleConstraints?: ElastigroupAwsIntegrationNomadAutoscaleConstraints[] | cdktf.IResolvable; 
+  private _autoscaleConstraints = new ElastigroupAwsIntegrationNomadAutoscaleConstraintsList(this, "autoscale_constraints", true);
   public get autoscaleConstraints() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('autoscale_constraints')));
+    return this._autoscaleConstraints;
   }
-  public set autoscaleConstraints(value: ElastigroupAwsIntegrationNomadAutoscaleConstraints[] | cdktf.IResolvable) {
-    this._autoscaleConstraints = value;
+  public putAutoscaleConstraints(value: ElastigroupAwsIntegrationNomadAutoscaleConstraints[] | cdktf.IResolvable) {
+    this._autoscaleConstraints.internalValue = value;
   }
   public resetAutoscaleConstraints() {
-    this._autoscaleConstraints = undefined;
+    this._autoscaleConstraints.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get autoscaleConstraintsInput() {
-    return this._autoscaleConstraints;
+    return this._autoscaleConstraints.internalValue;
   }
 
   // autoscale_down - computed: false, optional: true, required: false
@@ -3624,6 +4456,127 @@ export function elastigroupAwsIntegrationRoute53DomainsRecordSetsToTerraform(str
   }
 }
 
+export class ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationRoute53DomainsRecordSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._usePublicDns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usePublicDns = this._usePublicDns;
+    }
+    if (this._usePublicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usePublicIp = this._usePublicIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationRoute53DomainsRecordSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._usePublicDns = undefined;
+      this._usePublicIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._usePublicDns = value.usePublicDns;
+      this._usePublicIp = value.usePublicIp;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // use_public_dns - computed: false, optional: true, required: false
+  private _usePublicDns?: boolean | cdktf.IResolvable; 
+  public get usePublicDns() {
+    return this.getBooleanAttribute('use_public_dns');
+  }
+  public set usePublicDns(value: boolean | cdktf.IResolvable) {
+    this._usePublicDns = value;
+  }
+  public resetUsePublicDns() {
+    this._usePublicDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usePublicDnsInput() {
+    return this._usePublicDns;
+  }
+
+  // use_public_ip - computed: false, optional: true, required: false
+  private _usePublicIp?: boolean | cdktf.IResolvable; 
+  public get usePublicIp() {
+    return this.getBooleanAttribute('use_public_ip');
+  }
+  public set usePublicIp(value: boolean | cdktf.IResolvable) {
+    this._usePublicIp = value;
+  }
+  public resetUsePublicIp() {
+    this._usePublicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usePublicIpInput() {
+    return this._usePublicIp;
+  }
+}
+
+export class ElastigroupAwsIntegrationRoute53DomainsRecordSetsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference {
+    return new ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationRoute53Domains {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}
@@ -3658,6 +4611,146 @@ export function elastigroupAwsIntegrationRoute53DomainsToTerraform(struct?: Elas
   }
 }
 
+export class ElastigroupAwsIntegrationRoute53DomainsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsIntegrationRoute53Domains | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hostedZoneId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostedZoneId = this._hostedZoneId;
+    }
+    if (this._recordSetType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.recordSetType = this._recordSetType;
+    }
+    if (this._spotinstAcctId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.spotinstAcctId = this._spotinstAcctId;
+    }
+    if (this._recordSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.recordSets = this._recordSets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsIntegrationRoute53Domains | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hostedZoneId = undefined;
+      this._recordSetType = undefined;
+      this._spotinstAcctId = undefined;
+      this._recordSets.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hostedZoneId = value.hostedZoneId;
+      this._recordSetType = value.recordSetType;
+      this._spotinstAcctId = value.spotinstAcctId;
+      this._recordSets.internalValue = value.recordSets;
+    }
+  }
+
+  // hosted_zone_id - computed: false, optional: false, required: true
+  private _hostedZoneId?: string; 
+  public get hostedZoneId() {
+    return this.getStringAttribute('hosted_zone_id');
+  }
+  public set hostedZoneId(value: string) {
+    this._hostedZoneId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostedZoneIdInput() {
+    return this._hostedZoneId;
+  }
+
+  // record_set_type - computed: false, optional: true, required: false
+  private _recordSetType?: string; 
+  public get recordSetType() {
+    return this.getStringAttribute('record_set_type');
+  }
+  public set recordSetType(value: string) {
+    this._recordSetType = value;
+  }
+  public resetRecordSetType() {
+    this._recordSetType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recordSetTypeInput() {
+    return this._recordSetType;
+  }
+
+  // spotinst_acct_id - computed: false, optional: true, required: false
+  private _spotinstAcctId?: string; 
+  public get spotinstAcctId() {
+    return this.getStringAttribute('spotinst_acct_id');
+  }
+  public set spotinstAcctId(value: string) {
+    this._spotinstAcctId = value;
+  }
+  public resetSpotinstAcctId() {
+    this._spotinstAcctId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotinstAcctIdInput() {
+    return this._spotinstAcctId;
+  }
+
+  // record_sets - computed: false, optional: false, required: true
+  private _recordSets = new ElastigroupAwsIntegrationRoute53DomainsRecordSetsList(this, "record_sets", true);
+  public get recordSets() {
+    return this._recordSets;
+  }
+  public putRecordSets(value: ElastigroupAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable) {
+    this._recordSets.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recordSetsInput() {
+    return this._recordSets.internalValue;
+  }
+}
+
+export class ElastigroupAwsIntegrationRoute53DomainsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsIntegrationRoute53Domains[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsIntegrationRoute53DomainsOutputReference {
+    return new ElastigroupAwsIntegrationRoute53DomainsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsIntegrationRoute53 {
   /**
   * domains block
@@ -3691,9 +4784,9 @@ export class ElastigroupAwsIntegrationRoute53OutputReference extends cdktf.Compl
   public get internalValue(): ElastigroupAwsIntegrationRoute53 | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._domains !== undefined) {
+    if (this._domains?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.domains = this._domains;
+      internalValueResult.domains = this._domains?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -3701,26 +4794,25 @@ export class ElastigroupAwsIntegrationRoute53OutputReference extends cdktf.Compl
   public set internalValue(value: ElastigroupAwsIntegrationRoute53 | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._domains = undefined;
+      this._domains.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._domains = value.domains;
+      this._domains.internalValue = value.domains;
     }
   }
 
   // domains - computed: false, optional: false, required: true
-  private _domains?: ElastigroupAwsIntegrationRoute53Domains[] | cdktf.IResolvable; 
+  private _domains = new ElastigroupAwsIntegrationRoute53DomainsList(this, "domains", true);
   public get domains() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('domains')));
+    return this._domains;
   }
-  public set domains(value: ElastigroupAwsIntegrationRoute53Domains[] | cdktf.IResolvable) {
-    this._domains = value;
+  public putDomains(value: ElastigroupAwsIntegrationRoute53Domains[] | cdktf.IResolvable) {
+    this._domains.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
   public get domainsInput() {
-    return this._domains;
+    return this._domains.internalValue;
   }
 }
 export interface ElastigroupAwsItfDefaultStaticTargetGroup {
@@ -3919,6 +5011,105 @@ export function elastigroupAwsItfLoadBalancerListenerRuleToTerraform(struct?: El
   }
 }
 
+export class ElastigroupAwsItfLoadBalancerListenerRuleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItfLoadBalancerListenerRule | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ruleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleArn = this._ruleArn;
+    }
+    if (this._staticTargetGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticTargetGroup = this._staticTargetGroup?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItfLoadBalancerListenerRule | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ruleArn = undefined;
+      this._staticTargetGroup.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ruleArn = value.ruleArn;
+      this._staticTargetGroup.internalValue = value.staticTargetGroup;
+    }
+  }
+
+  // rule_arn - computed: false, optional: false, required: true
+  private _ruleArn?: string; 
+  public get ruleArn() {
+    return this.getStringAttribute('rule_arn');
+  }
+  public set ruleArn(value: string) {
+    this._ruleArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleArnInput() {
+    return this._ruleArn;
+  }
+
+  // static_target_group - computed: false, optional: true, required: false
+  private _staticTargetGroup = new ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroupOutputReference(this, "static_target_group");
+  public get staticTargetGroup() {
+    return this._staticTargetGroup;
+  }
+  public putStaticTargetGroup(value: ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup) {
+    this._staticTargetGroup.internalValue = value;
+  }
+  public resetStaticTargetGroup() {
+    this._staticTargetGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticTargetGroupInput() {
+    return this._staticTargetGroup.internalValue;
+  }
+}
+
+export class ElastigroupAwsItfLoadBalancerListenerRuleList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItfLoadBalancerListenerRule[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfLoadBalancerListenerRuleOutputReference {
+    return new ElastigroupAwsItfLoadBalancerListenerRuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsItfLoadBalancer {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}
@@ -3943,6 +5134,102 @@ export function elastigroupAwsItfLoadBalancerToTerraform(struct?: ElastigroupAws
   }
 }
 
+export class ElastigroupAwsItfLoadBalancerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItfLoadBalancer | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._loadBalancerArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancerArn = this._loadBalancerArn;
+    }
+    if (this._listenerRule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.listenerRule = this._listenerRule?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItfLoadBalancer | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._loadBalancerArn = undefined;
+      this._listenerRule.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._loadBalancerArn = value.loadBalancerArn;
+      this._listenerRule.internalValue = value.listenerRule;
+    }
+  }
+
+  // load_balancer_arn - computed: false, optional: false, required: true
+  private _loadBalancerArn?: string; 
+  public get loadBalancerArn() {
+    return this.getStringAttribute('load_balancer_arn');
+  }
+  public set loadBalancerArn(value: string) {
+    this._loadBalancerArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerArnInput() {
+    return this._loadBalancerArn;
+  }
+
+  // listener_rule - computed: false, optional: false, required: true
+  private _listenerRule = new ElastigroupAwsItfLoadBalancerListenerRuleList(this, "listener_rule", true);
+  public get listenerRule() {
+    return this._listenerRule;
+  }
+  public putListenerRule(value: ElastigroupAwsItfLoadBalancerListenerRule[] | cdktf.IResolvable) {
+    this._listenerRule.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listenerRuleInput() {
+    return this._listenerRule.internalValue;
+  }
+}
+
+export class ElastigroupAwsItfLoadBalancerList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItfLoadBalancer[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfLoadBalancerOutputReference {
+    return new ElastigroupAwsItfLoadBalancerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsItfTargetGroupConfigMatcher {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}
@@ -3965,6 +5252,108 @@ export function elastigroupAwsItfTargetGroupConfigMatcherToTerraform(struct?: El
   }
 }
 
+export class ElastigroupAwsItfTargetGroupConfigMatcherOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItfTargetGroupConfigMatcher | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._grpcCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.grpcCode = this._grpcCode;
+    }
+    if (this._httpCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpCode = this._httpCode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItfTargetGroupConfigMatcher | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._grpcCode = undefined;
+      this._httpCode = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._grpcCode = value.grpcCode;
+      this._httpCode = value.httpCode;
+    }
+  }
+
+  // grpc_code - computed: false, optional: true, required: false
+  private _grpcCode?: string; 
+  public get grpcCode() {
+    return this.getStringAttribute('grpc_code');
+  }
+  public set grpcCode(value: string) {
+    this._grpcCode = value;
+  }
+  public resetGrpcCode() {
+    this._grpcCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get grpcCodeInput() {
+    return this._grpcCode;
+  }
+
+  // http_code - computed: false, optional: true, required: false
+  private _httpCode?: string; 
+  public get httpCode() {
+    return this.getStringAttribute('http_code');
+  }
+  public set httpCode(value: string) {
+    this._httpCode = value;
+  }
+  public resetHttpCode() {
+    this._httpCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpCodeInput() {
+    return this._httpCode;
+  }
+}
+
+export class ElastigroupAwsItfTargetGroupConfigMatcherList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItfTargetGroupConfigMatcher[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfTargetGroupConfigMatcherOutputReference {
+    return new ElastigroupAwsItfTargetGroupConfigMatcherOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsItfTargetGroupConfigTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#tag_key ElastigroupAws#tag_key}
@@ -3987,6 +5376,105 @@ export function elastigroupAwsItfTargetGroupConfigTagsToTerraform(struct?: Elast
   }
 }
 
+export class ElastigroupAwsItfTargetGroupConfigTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItfTargetGroupConfigTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tagKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagKey = this._tagKey;
+    }
+    if (this._tagValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagValue = this._tagValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItfTargetGroupConfigTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tagKey = undefined;
+      this._tagValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tagKey = value.tagKey;
+      this._tagValue = value.tagValue;
+    }
+  }
+
+  // tag_key - computed: false, optional: false, required: true
+  private _tagKey?: string; 
+  public get tagKey() {
+    return this.getStringAttribute('tag_key');
+  }
+  public set tagKey(value: string) {
+    this._tagKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagKeyInput() {
+    return this._tagKey;
+  }
+
+  // tag_value - computed: false, optional: true, required: false
+  private _tagValue?: string; 
+  public get tagValue() {
+    return this.getStringAttribute('tag_value');
+  }
+  public set tagValue(value: string) {
+    this._tagValue = value;
+  }
+  public resetTagValue() {
+    this._tagValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagValueInput() {
+    return this._tagValue;
+  }
+}
+
+export class ElastigroupAwsItfTargetGroupConfigTagsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItfTargetGroupConfigTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfTargetGroupConfigTagsOutputReference {
+    return new ElastigroupAwsItfTargetGroupConfigTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsItfTargetGroupConfig {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}
@@ -4068,6 +5556,338 @@ export function elastigroupAwsItfTargetGroupConfigToTerraform(struct?: Elastigro
   }
 }
 
+export class ElastigroupAwsItfTargetGroupConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItfTargetGroupConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._healthCheckIntervalSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthCheckIntervalSeconds = this._healthCheckIntervalSeconds;
+    }
+    if (this._healthCheckPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthCheckPath = this._healthCheckPath;
+    }
+    if (this._healthCheckPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthCheckPort = this._healthCheckPort;
+    }
+    if (this._healthCheckProtocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthCheckProtocol = this._healthCheckProtocol;
+    }
+    if (this._healthCheckTimeoutSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthCheckTimeoutSeconds = this._healthCheckTimeoutSeconds;
+    }
+    if (this._healthyThresholdCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.healthyThresholdCount = this._healthyThresholdCount;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    if (this._protocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocolVersion = this._protocolVersion;
+    }
+    if (this._unhealthyThresholdCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unhealthyThresholdCount = this._unhealthyThresholdCount;
+    }
+    if (this._vpcId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcId = this._vpcId;
+    }
+    if (this._matcher?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matcher = this._matcher?.internalValue;
+    }
+    if (this._tags?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItfTargetGroupConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._healthCheckIntervalSeconds = undefined;
+      this._healthCheckPath = undefined;
+      this._healthCheckPort = undefined;
+      this._healthCheckProtocol = undefined;
+      this._healthCheckTimeoutSeconds = undefined;
+      this._healthyThresholdCount = undefined;
+      this._port = undefined;
+      this._protocol = undefined;
+      this._protocolVersion = undefined;
+      this._unhealthyThresholdCount = undefined;
+      this._vpcId = undefined;
+      this._matcher.internalValue = undefined;
+      this._tags.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._healthCheckIntervalSeconds = value.healthCheckIntervalSeconds;
+      this._healthCheckPath = value.healthCheckPath;
+      this._healthCheckPort = value.healthCheckPort;
+      this._healthCheckProtocol = value.healthCheckProtocol;
+      this._healthCheckTimeoutSeconds = value.healthCheckTimeoutSeconds;
+      this._healthyThresholdCount = value.healthyThresholdCount;
+      this._port = value.port;
+      this._protocol = value.protocol;
+      this._protocolVersion = value.protocolVersion;
+      this._unhealthyThresholdCount = value.unhealthyThresholdCount;
+      this._vpcId = value.vpcId;
+      this._matcher.internalValue = value.matcher;
+      this._tags.internalValue = value.tags;
+    }
+  }
+
+  // health_check_interval_seconds - computed: false, optional: true, required: false
+  private _healthCheckIntervalSeconds?: number; 
+  public get healthCheckIntervalSeconds() {
+    return this.getNumberAttribute('health_check_interval_seconds');
+  }
+  public set healthCheckIntervalSeconds(value: number) {
+    this._healthCheckIntervalSeconds = value;
+  }
+  public resetHealthCheckIntervalSeconds() {
+    this._healthCheckIntervalSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthCheckIntervalSecondsInput() {
+    return this._healthCheckIntervalSeconds;
+  }
+
+  // health_check_path - computed: false, optional: false, required: true
+  private _healthCheckPath?: string; 
+  public get healthCheckPath() {
+    return this.getStringAttribute('health_check_path');
+  }
+  public set healthCheckPath(value: string) {
+    this._healthCheckPath = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthCheckPathInput() {
+    return this._healthCheckPath;
+  }
+
+  // health_check_port - computed: false, optional: true, required: false
+  private _healthCheckPort?: string; 
+  public get healthCheckPort() {
+    return this.getStringAttribute('health_check_port');
+  }
+  public set healthCheckPort(value: string) {
+    this._healthCheckPort = value;
+  }
+  public resetHealthCheckPort() {
+    this._healthCheckPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthCheckPortInput() {
+    return this._healthCheckPort;
+  }
+
+  // health_check_protocol - computed: false, optional: true, required: false
+  private _healthCheckProtocol?: string; 
+  public get healthCheckProtocol() {
+    return this.getStringAttribute('health_check_protocol');
+  }
+  public set healthCheckProtocol(value: string) {
+    this._healthCheckProtocol = value;
+  }
+  public resetHealthCheckProtocol() {
+    this._healthCheckProtocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthCheckProtocolInput() {
+    return this._healthCheckProtocol;
+  }
+
+  // health_check_timeout_seconds - computed: false, optional: true, required: false
+  private _healthCheckTimeoutSeconds?: number; 
+  public get healthCheckTimeoutSeconds() {
+    return this.getNumberAttribute('health_check_timeout_seconds');
+  }
+  public set healthCheckTimeoutSeconds(value: number) {
+    this._healthCheckTimeoutSeconds = value;
+  }
+  public resetHealthCheckTimeoutSeconds() {
+    this._healthCheckTimeoutSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthCheckTimeoutSecondsInput() {
+    return this._healthCheckTimeoutSeconds;
+  }
+
+  // healthy_threshold_count - computed: false, optional: true, required: false
+  private _healthyThresholdCount?: number; 
+  public get healthyThresholdCount() {
+    return this.getNumberAttribute('healthy_threshold_count');
+  }
+  public set healthyThresholdCount(value: number) {
+    this._healthyThresholdCount = value;
+  }
+  public resetHealthyThresholdCount() {
+    this._healthyThresholdCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthyThresholdCountInput() {
+    return this._healthyThresholdCount;
+  }
+
+  // port - computed: false, optional: false, required: true
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // protocol - computed: false, optional: false, required: true
+  private _protocol?: string; 
+  public get protocol() {
+    return this.getStringAttribute('protocol');
+  }
+  public set protocol(value: string) {
+    this._protocol = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+
+  // protocol_version - computed: false, optional: true, required: false
+  private _protocolVersion?: string; 
+  public get protocolVersion() {
+    return this.getStringAttribute('protocol_version');
+  }
+  public set protocolVersion(value: string) {
+    this._protocolVersion = value;
+  }
+  public resetProtocolVersion() {
+    this._protocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolVersionInput() {
+    return this._protocolVersion;
+  }
+
+  // unhealthy_threshold_count - computed: false, optional: true, required: false
+  private _unhealthyThresholdCount?: number; 
+  public get unhealthyThresholdCount() {
+    return this.getNumberAttribute('unhealthy_threshold_count');
+  }
+  public set unhealthyThresholdCount(value: number) {
+    this._unhealthyThresholdCount = value;
+  }
+  public resetUnhealthyThresholdCount() {
+    this._unhealthyThresholdCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unhealthyThresholdCountInput() {
+    return this._unhealthyThresholdCount;
+  }
+
+  // vpc_id - computed: false, optional: false, required: true
+  private _vpcId?: string; 
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+  public set vpcId(value: string) {
+    this._vpcId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdInput() {
+    return this._vpcId;
+  }
+
+  // matcher - computed: false, optional: true, required: false
+  private _matcher = new ElastigroupAwsItfTargetGroupConfigMatcherList(this, "matcher", false);
+  public get matcher() {
+    return this._matcher;
+  }
+  public putMatcher(value: ElastigroupAwsItfTargetGroupConfigMatcher[] | cdktf.IResolvable) {
+    this._matcher.internalValue = value;
+  }
+  public resetMatcher() {
+    this._matcher.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matcherInput() {
+    return this._matcher.internalValue;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags = new ElastigroupAwsItfTargetGroupConfigTagsList(this, "tags", true);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: ElastigroupAwsItfTargetGroupConfigTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+}
+
+export class ElastigroupAwsItfTargetGroupConfigList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItfTargetGroupConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfTargetGroupConfigOutputReference {
+    return new ElastigroupAwsItfTargetGroupConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsItf {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}
@@ -4116,6 +5936,184 @@ export function elastigroupAwsItfToTerraform(struct?: ElastigroupAwsItf | cdktf.
   }
 }
 
+export class ElastigroupAwsItfOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsItf | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fixedTargetGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixedTargetGroups = this._fixedTargetGroups;
+    }
+    if (this._migrationHealthinessThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.migrationHealthinessThreshold = this._migrationHealthinessThreshold;
+    }
+    if (this._weightStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weightStrategy = this._weightStrategy;
+    }
+    if (this._defaultStaticTargetGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultStaticTargetGroup = this._defaultStaticTargetGroup?.internalValue;
+    }
+    if (this._loadBalancer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancer = this._loadBalancer?.internalValue;
+    }
+    if (this._targetGroupConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetGroupConfig = this._targetGroupConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsItf | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fixedTargetGroups = undefined;
+      this._migrationHealthinessThreshold = undefined;
+      this._weightStrategy = undefined;
+      this._defaultStaticTargetGroup.internalValue = undefined;
+      this._loadBalancer.internalValue = undefined;
+      this._targetGroupConfig.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fixedTargetGroups = value.fixedTargetGroups;
+      this._migrationHealthinessThreshold = value.migrationHealthinessThreshold;
+      this._weightStrategy = value.weightStrategy;
+      this._defaultStaticTargetGroup.internalValue = value.defaultStaticTargetGroup;
+      this._loadBalancer.internalValue = value.loadBalancer;
+      this._targetGroupConfig.internalValue = value.targetGroupConfig;
+    }
+  }
+
+  // fixed_target_groups - computed: false, optional: false, required: true
+  private _fixedTargetGroups?: boolean | cdktf.IResolvable; 
+  public get fixedTargetGroups() {
+    return this.getBooleanAttribute('fixed_target_groups');
+  }
+  public set fixedTargetGroups(value: boolean | cdktf.IResolvable) {
+    this._fixedTargetGroups = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedTargetGroupsInput() {
+    return this._fixedTargetGroups;
+  }
+
+  // migration_healthiness_threshold - computed: false, optional: true, required: false
+  private _migrationHealthinessThreshold?: number; 
+  public get migrationHealthinessThreshold() {
+    return this.getNumberAttribute('migration_healthiness_threshold');
+  }
+  public set migrationHealthinessThreshold(value: number) {
+    this._migrationHealthinessThreshold = value;
+  }
+  public resetMigrationHealthinessThreshold() {
+    this._migrationHealthinessThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get migrationHealthinessThresholdInput() {
+    return this._migrationHealthinessThreshold;
+  }
+
+  // weight_strategy - computed: false, optional: false, required: true
+  private _weightStrategy?: string; 
+  public get weightStrategy() {
+    return this.getStringAttribute('weight_strategy');
+  }
+  public set weightStrategy(value: string) {
+    this._weightStrategy = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weightStrategyInput() {
+    return this._weightStrategy;
+  }
+
+  // default_static_target_group - computed: false, optional: true, required: false
+  private _defaultStaticTargetGroup = new ElastigroupAwsItfDefaultStaticTargetGroupOutputReference(this, "default_static_target_group");
+  public get defaultStaticTargetGroup() {
+    return this._defaultStaticTargetGroup;
+  }
+  public putDefaultStaticTargetGroup(value: ElastigroupAwsItfDefaultStaticTargetGroup) {
+    this._defaultStaticTargetGroup.internalValue = value;
+  }
+  public resetDefaultStaticTargetGroup() {
+    this._defaultStaticTargetGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultStaticTargetGroupInput() {
+    return this._defaultStaticTargetGroup.internalValue;
+  }
+
+  // load_balancer - computed: false, optional: false, required: true
+  private _loadBalancer = new ElastigroupAwsItfLoadBalancerList(this, "load_balancer", true);
+  public get loadBalancer() {
+    return this._loadBalancer;
+  }
+  public putLoadBalancer(value: ElastigroupAwsItfLoadBalancer[] | cdktf.IResolvable) {
+    this._loadBalancer.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerInput() {
+    return this._loadBalancer.internalValue;
+  }
+
+  // target_group_config - computed: false, optional: false, required: true
+  private _targetGroupConfig = new ElastigroupAwsItfTargetGroupConfigList(this, "target_group_config", false);
+  public get targetGroupConfig() {
+    return this._targetGroupConfig;
+  }
+  public putTargetGroupConfig(value: ElastigroupAwsItfTargetGroupConfig[] | cdktf.IResolvable) {
+    this._targetGroupConfig.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetGroupConfigInput() {
+    return this._targetGroupConfig.internalValue;
+  }
+}
+
+export class ElastigroupAwsItfList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsItf[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsItfOutputReference {
+    return new ElastigroupAwsItfOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsMetadataOptions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}
@@ -4227,6 +6225,102 @@ export function elastigroupAwsMultaiTargetSetsToTerraform(struct?: ElastigroupAw
   }
 }
 
+export class ElastigroupAwsMultaiTargetSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsMultaiTargetSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._balancerId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.balancerId = this._balancerId;
+    }
+    if (this._targetSetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetSetId = this._targetSetId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsMultaiTargetSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._balancerId = undefined;
+      this._targetSetId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._balancerId = value.balancerId;
+      this._targetSetId = value.targetSetId;
+    }
+  }
+
+  // balancer_id - computed: false, optional: false, required: true
+  private _balancerId?: string; 
+  public get balancerId() {
+    return this.getStringAttribute('balancer_id');
+  }
+  public set balancerId(value: string) {
+    this._balancerId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get balancerIdInput() {
+    return this._balancerId;
+  }
+
+  // target_set_id - computed: false, optional: false, required: true
+  private _targetSetId?: string; 
+  public get targetSetId() {
+    return this.getStringAttribute('target_set_id');
+  }
+  public set targetSetId(value: string) {
+    this._targetSetId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetSetIdInput() {
+    return this._targetSetId;
+  }
+}
+
+export class ElastigroupAwsMultaiTargetSetsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsMultaiTargetSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsMultaiTargetSetsOutputReference {
+    return new ElastigroupAwsMultaiTargetSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsMultipleMetricsExpressions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#expression ElastigroupAws#expression}
@@ -4249,6 +6343,102 @@ export function elastigroupAwsMultipleMetricsExpressionsToTerraform(struct?: Ela
   }
 }
 
+export class ElastigroupAwsMultipleMetricsExpressionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsMultipleMetricsExpressions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expression = this._expression;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsMultipleMetricsExpressions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._expression = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._expression = value.expression;
+      this._name = value.name;
+    }
+  }
+
+  // expression - computed: false, optional: false, required: true
+  private _expression?: string; 
+  public get expression() {
+    return this.getStringAttribute('expression');
+  }
+  public set expression(value: string) {
+    this._expression = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressionInput() {
+    return this._expression;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class ElastigroupAwsMultipleMetricsExpressionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsMultipleMetricsExpressions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsMultipleMetricsExpressionsOutputReference {
+    return new ElastigroupAwsMultipleMetricsExpressionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsMultipleMetricsMetricsDimensions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#name ElastigroupAws#name}
@@ -4271,6 +6461,105 @@ export function elastigroupAwsMultipleMetricsMetricsDimensionsToTerraform(struct
   }
 }
 
+export class ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsMultipleMetricsMetricsDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsMultipleMetricsMetricsDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsMultipleMetricsMetricsDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsMultipleMetricsMetricsDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference {
+    return new ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsMultipleMetricsMetrics {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}
@@ -4320,6 +6609,209 @@ export function elastigroupAwsMultipleMetricsMetricsToTerraform(struct?: Elastig
   }
 }
 
+export class ElastigroupAwsMultipleMetricsMetricsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsMultipleMetricsMetrics | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._extendedStatistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.extendedStatistic = this._extendedStatistic;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsMultipleMetricsMetrics | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._extendedStatistic = undefined;
+      this._metricName = undefined;
+      this._name = undefined;
+      this._namespace = undefined;
+      this._statistic = undefined;
+      this._unit = undefined;
+      this._dimensions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._extendedStatistic = value.extendedStatistic;
+      this._metricName = value.metricName;
+      this._name = value.name;
+      this._namespace = value.namespace;
+      this._statistic = value.statistic;
+      this._unit = value.unit;
+      this._dimensions.internalValue = value.dimensions;
+    }
+  }
+
+  // extended_statistic - computed: false, optional: true, required: false
+  private _extendedStatistic?: string; 
+  public get extendedStatistic() {
+    return this.getStringAttribute('extended_statistic');
+  }
+  public set extendedStatistic(value: string) {
+    this._extendedStatistic = value;
+  }
+  public resetExtendedStatistic() {
+    this._extendedStatistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get extendedStatisticInput() {
+    return this._extendedStatistic;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // statistic - computed: false, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAwsMultipleMetricsMetricsDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAwsMultipleMetricsMetricsDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+}
+
+export class ElastigroupAwsMultipleMetricsMetricsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsMultipleMetricsMetrics[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsMultipleMetricsMetricsOutputReference {
+    return new ElastigroupAwsMultipleMetricsMetricsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsMultipleMetrics {
   /**
   * expressions block
@@ -4360,13 +6852,13 @@ export class ElastigroupAwsMultipleMetricsOutputReference extends cdktf.ComplexO
   public get internalValue(): ElastigroupAwsMultipleMetrics | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._expressions !== undefined) {
+    if (this._expressions?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.expressions = this._expressions;
+      internalValueResult.expressions = this._expressions?.internalValue;
     }
-    if (this._metrics !== undefined) {
+    if (this._metrics?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.metrics = this._metrics;
+      internalValueResult.metrics = this._metrics?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4374,48 +6866,46 @@ export class ElastigroupAwsMultipleMetricsOutputReference extends cdktf.ComplexO
   public set internalValue(value: ElastigroupAwsMultipleMetrics | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._expressions = undefined;
-      this._metrics = undefined;
+      this._expressions.internalValue = undefined;
+      this._metrics.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._expressions = value.expressions;
-      this._metrics = value.metrics;
+      this._expressions.internalValue = value.expressions;
+      this._metrics.internalValue = value.metrics;
     }
   }
 
   // expressions - computed: false, optional: true, required: false
-  private _expressions?: ElastigroupAwsMultipleMetricsExpressions[] | cdktf.IResolvable; 
+  private _expressions = new ElastigroupAwsMultipleMetricsExpressionsList(this, "expressions", true);
   public get expressions() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('expressions')));
+    return this._expressions;
   }
-  public set expressions(value: ElastigroupAwsMultipleMetricsExpressions[] | cdktf.IResolvable) {
-    this._expressions = value;
+  public putExpressions(value: ElastigroupAwsMultipleMetricsExpressions[] | cdktf.IResolvable) {
+    this._expressions.internalValue = value;
   }
   public resetExpressions() {
-    this._expressions = undefined;
+    this._expressions.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get expressionsInput() {
-    return this._expressions;
+    return this._expressions.internalValue;
   }
 
   // metrics - computed: false, optional: true, required: false
-  private _metrics?: ElastigroupAwsMultipleMetricsMetrics[] | cdktf.IResolvable; 
+  private _metrics = new ElastigroupAwsMultipleMetricsMetricsList(this, "metrics", true);
   public get metrics() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('metrics')));
+    return this._metrics;
   }
-  public set metrics(value: ElastigroupAwsMultipleMetricsMetrics[] | cdktf.IResolvable) {
-    this._metrics = value;
+  public putMetrics(value: ElastigroupAwsMultipleMetricsMetrics[] | cdktf.IResolvable) {
+    this._metrics.internalValue = value;
   }
   public resetMetrics() {
-    this._metrics = undefined;
+    this._metrics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get metricsInput() {
-    return this._metrics;
+    return this._metrics.internalValue;
   }
 }
 export interface ElastigroupAwsNetworkInterface {
@@ -4470,6 +6960,237 @@ export function elastigroupAwsNetworkInterfaceToTerraform(struct?: ElastigroupAw
   }
 }
 
+export class ElastigroupAwsNetworkInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsNetworkInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._associateIpv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.associateIpv6Address = this._associateIpv6Address;
+    }
+    if (this._associatePublicIpAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.associatePublicIpAddress = this._associatePublicIpAddress;
+    }
+    if (this._deleteOnTermination !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteOnTermination = this._deleteOnTermination;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._deviceIndex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceIndex = this._deviceIndex;
+    }
+    if (this._networkInterfaceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkInterfaceId = this._networkInterfaceId;
+    }
+    if (this._privateIpAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateIpAddress = this._privateIpAddress;
+    }
+    if (this._secondaryPrivateIpAddressCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secondaryPrivateIpAddressCount = this._secondaryPrivateIpAddressCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsNetworkInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._associateIpv6Address = undefined;
+      this._associatePublicIpAddress = undefined;
+      this._deleteOnTermination = undefined;
+      this._description = undefined;
+      this._deviceIndex = undefined;
+      this._networkInterfaceId = undefined;
+      this._privateIpAddress = undefined;
+      this._secondaryPrivateIpAddressCount = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._associateIpv6Address = value.associateIpv6Address;
+      this._associatePublicIpAddress = value.associatePublicIpAddress;
+      this._deleteOnTermination = value.deleteOnTermination;
+      this._description = value.description;
+      this._deviceIndex = value.deviceIndex;
+      this._networkInterfaceId = value.networkInterfaceId;
+      this._privateIpAddress = value.privateIpAddress;
+      this._secondaryPrivateIpAddressCount = value.secondaryPrivateIpAddressCount;
+    }
+  }
+
+  // associate_ipv6_address - computed: false, optional: true, required: false
+  private _associateIpv6Address?: boolean | cdktf.IResolvable; 
+  public get associateIpv6Address() {
+    return this.getBooleanAttribute('associate_ipv6_address');
+  }
+  public set associateIpv6Address(value: boolean | cdktf.IResolvable) {
+    this._associateIpv6Address = value;
+  }
+  public resetAssociateIpv6Address() {
+    this._associateIpv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associateIpv6AddressInput() {
+    return this._associateIpv6Address;
+  }
+
+  // associate_public_ip_address - computed: false, optional: true, required: false
+  private _associatePublicIpAddress?: boolean | cdktf.IResolvable; 
+  public get associatePublicIpAddress() {
+    return this.getBooleanAttribute('associate_public_ip_address');
+  }
+  public set associatePublicIpAddress(value: boolean | cdktf.IResolvable) {
+    this._associatePublicIpAddress = value;
+  }
+  public resetAssociatePublicIpAddress() {
+    this._associatePublicIpAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associatePublicIpAddressInput() {
+    return this._associatePublicIpAddress;
+  }
+
+  // delete_on_termination - computed: true, optional: true, required: false
+  private _deleteOnTermination?: boolean | cdktf.IResolvable; 
+  public get deleteOnTermination() {
+    return this.getBooleanAttribute('delete_on_termination');
+  }
+  public set deleteOnTermination(value: boolean | cdktf.IResolvable) {
+    this._deleteOnTermination = value;
+  }
+  public resetDeleteOnTermination() {
+    this._deleteOnTermination = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteOnTerminationInput() {
+    return this._deleteOnTermination;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // device_index - computed: false, optional: false, required: true
+  private _deviceIndex?: string; 
+  public get deviceIndex() {
+    return this.getStringAttribute('device_index');
+  }
+  public set deviceIndex(value: string) {
+    this._deviceIndex = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceIndexInput() {
+    return this._deviceIndex;
+  }
+
+  // network_interface_id - computed: false, optional: true, required: false
+  private _networkInterfaceId?: string; 
+  public get networkInterfaceId() {
+    return this.getStringAttribute('network_interface_id');
+  }
+  public set networkInterfaceId(value: string) {
+    this._networkInterfaceId = value;
+  }
+  public resetNetworkInterfaceId() {
+    this._networkInterfaceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInterfaceIdInput() {
+    return this._networkInterfaceId;
+  }
+
+  // private_ip_address - computed: false, optional: true, required: false
+  private _privateIpAddress?: string; 
+  public get privateIpAddress() {
+    return this.getStringAttribute('private_ip_address');
+  }
+  public set privateIpAddress(value: string) {
+    this._privateIpAddress = value;
+  }
+  public resetPrivateIpAddress() {
+    this._privateIpAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateIpAddressInput() {
+    return this._privateIpAddress;
+  }
+
+  // secondary_private_ip_address_count - computed: false, optional: true, required: false
+  private _secondaryPrivateIpAddressCount?: string; 
+  public get secondaryPrivateIpAddressCount() {
+    return this.getStringAttribute('secondary_private_ip_address_count');
+  }
+  public set secondaryPrivateIpAddressCount(value: string) {
+    this._secondaryPrivateIpAddressCount = value;
+  }
+  public resetSecondaryPrivateIpAddressCount() {
+    this._secondaryPrivateIpAddressCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondaryPrivateIpAddressCountInput() {
+    return this._secondaryPrivateIpAddressCount;
+  }
+}
+
+export class ElastigroupAwsNetworkInterfaceList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsNetworkInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsNetworkInterfaceOutputReference {
+    return new ElastigroupAwsNetworkInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsResourceTagSpecification {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}
@@ -4502,6 +7223,152 @@ export function elastigroupAwsResourceTagSpecificationToTerraform(struct?: Elast
   }
 }
 
+export class ElastigroupAwsResourceTagSpecificationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsResourceTagSpecification | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._shouldTagAmis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagAmis = this._shouldTagAmis;
+    }
+    if (this._shouldTagEnis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagEnis = this._shouldTagEnis;
+    }
+    if (this._shouldTagSnapshots !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagSnapshots = this._shouldTagSnapshots;
+    }
+    if (this._shouldTagVolumes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagVolumes = this._shouldTagVolumes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsResourceTagSpecification | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._shouldTagAmis = undefined;
+      this._shouldTagEnis = undefined;
+      this._shouldTagSnapshots = undefined;
+      this._shouldTagVolumes = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._shouldTagAmis = value.shouldTagAmis;
+      this._shouldTagEnis = value.shouldTagEnis;
+      this._shouldTagSnapshots = value.shouldTagSnapshots;
+      this._shouldTagVolumes = value.shouldTagVolumes;
+    }
+  }
+
+  // should_tag_amis - computed: false, optional: true, required: false
+  private _shouldTagAmis?: boolean | cdktf.IResolvable; 
+  public get shouldTagAmis() {
+    return this.getBooleanAttribute('should_tag_amis');
+  }
+  public set shouldTagAmis(value: boolean | cdktf.IResolvable) {
+    this._shouldTagAmis = value;
+  }
+  public resetShouldTagAmis() {
+    this._shouldTagAmis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagAmisInput() {
+    return this._shouldTagAmis;
+  }
+
+  // should_tag_enis - computed: false, optional: true, required: false
+  private _shouldTagEnis?: boolean | cdktf.IResolvable; 
+  public get shouldTagEnis() {
+    return this.getBooleanAttribute('should_tag_enis');
+  }
+  public set shouldTagEnis(value: boolean | cdktf.IResolvable) {
+    this._shouldTagEnis = value;
+  }
+  public resetShouldTagEnis() {
+    this._shouldTagEnis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagEnisInput() {
+    return this._shouldTagEnis;
+  }
+
+  // should_tag_snapshots - computed: false, optional: true, required: false
+  private _shouldTagSnapshots?: boolean | cdktf.IResolvable; 
+  public get shouldTagSnapshots() {
+    return this.getBooleanAttribute('should_tag_snapshots');
+  }
+  public set shouldTagSnapshots(value: boolean | cdktf.IResolvable) {
+    this._shouldTagSnapshots = value;
+  }
+  public resetShouldTagSnapshots() {
+    this._shouldTagSnapshots = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagSnapshotsInput() {
+    return this._shouldTagSnapshots;
+  }
+
+  // should_tag_volumes - computed: false, optional: true, required: false
+  private _shouldTagVolumes?: boolean | cdktf.IResolvable; 
+  public get shouldTagVolumes() {
+    return this.getBooleanAttribute('should_tag_volumes');
+  }
+  public set shouldTagVolumes(value: boolean | cdktf.IResolvable) {
+    this._shouldTagVolumes = value;
+  }
+  public resetShouldTagVolumes() {
+    this._shouldTagVolumes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagVolumesInput() {
+    return this._shouldTagVolumes;
+  }
+}
+
+export class ElastigroupAwsResourceTagSpecificationList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsResourceTagSpecification[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsResourceTagSpecificationOutputReference {
+    return new ElastigroupAwsResourceTagSpecificationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsRevertToSpot {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#perform_at ElastigroupAws#perform_at}
@@ -4613,6 +7480,105 @@ export function elastigroupAwsScalingDownPolicyDimensionsToTerraform(struct?: El
   }
 }
 
+export class ElastigroupAwsScalingDownPolicyDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingDownPolicyDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingDownPolicyDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsScalingDownPolicyDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingDownPolicyDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingDownPolicyDimensionsOutputReference {
+    return new ElastigroupAwsScalingDownPolicyDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingDownPolicyStepAdjustmentsAction {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#adjustment ElastigroupAws#adjustment}
@@ -4861,6 +7827,102 @@ export function elastigroupAwsScalingDownPolicyStepAdjustmentsToTerraform(struct
   }
 }
 
+export class ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingDownPolicyStepAdjustments | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._action?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingDownPolicyStepAdjustments | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._threshold = undefined;
+      this._action.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._threshold = value.threshold;
+      this._action.internalValue = value.action;
+    }
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // action - computed: false, optional: false, required: true
+  private _action = new ElastigroupAwsScalingDownPolicyStepAdjustmentsActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+  public putAction(value: ElastigroupAwsScalingDownPolicyStepAdjustmentsAction) {
+    this._action.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action.internalValue;
+  }
+}
+
+export class ElastigroupAwsScalingDownPolicyStepAdjustmentsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingDownPolicyStepAdjustments[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference {
+    return new ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingDownPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#action_type ElastigroupAws#action_type}
@@ -4982,6 +8044,517 @@ export function elastigroupAwsScalingDownPolicyToTerraform(struct?: ElastigroupA
   }
 }
 
+export class ElastigroupAwsScalingDownPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingDownPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    if (this._stepAdjustments?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stepAdjustments = this._stepAdjustments?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingDownPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._evaluationPeriods = undefined;
+      this._isEnabled = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._source = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+      this._dimensions.internalValue = undefined;
+      this._stepAdjustments.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._isEnabled = value.isEnabled;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._source = value.source;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+      this._dimensions.internalValue = value.dimensions;
+      this._stepAdjustments.internalValue = value.stepAdjustments;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: false, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // statistic - computed: false, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: true, required: false
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  public resetThreshold() {
+    this._threshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAwsScalingDownPolicyDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAwsScalingDownPolicyDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+
+  // step_adjustments - computed: false, optional: true, required: false
+  private _stepAdjustments = new ElastigroupAwsScalingDownPolicyStepAdjustmentsList(this, "step_adjustments", true);
+  public get stepAdjustments() {
+    return this._stepAdjustments;
+  }
+  public putStepAdjustments(value: ElastigroupAwsScalingDownPolicyStepAdjustments[] | cdktf.IResolvable) {
+    this._stepAdjustments.internalValue = value;
+  }
+  public resetStepAdjustments() {
+    this._stepAdjustments.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stepAdjustmentsInput() {
+    return this._stepAdjustments.internalValue;
+  }
+}
+
+export class ElastigroupAwsScalingDownPolicyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingDownPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingDownPolicyOutputReference {
+    return new ElastigroupAwsScalingDownPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingStrategy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}
@@ -5004,6 +8577,108 @@ export function elastigroupAwsScalingStrategyToTerraform(struct?: ElastigroupAws
   }
 }
 
+export class ElastigroupAwsScalingStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._terminateAtEndOfBillingHour !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.terminateAtEndOfBillingHour = this._terminateAtEndOfBillingHour;
+    }
+    if (this._terminationPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.terminationPolicy = this._terminationPolicy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._terminateAtEndOfBillingHour = undefined;
+      this._terminationPolicy = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._terminateAtEndOfBillingHour = value.terminateAtEndOfBillingHour;
+      this._terminationPolicy = value.terminationPolicy;
+    }
+  }
+
+  // terminate_at_end_of_billing_hour - computed: false, optional: true, required: false
+  private _terminateAtEndOfBillingHour?: boolean | cdktf.IResolvable; 
+  public get terminateAtEndOfBillingHour() {
+    return this.getBooleanAttribute('terminate_at_end_of_billing_hour');
+  }
+  public set terminateAtEndOfBillingHour(value: boolean | cdktf.IResolvable) {
+    this._terminateAtEndOfBillingHour = value;
+  }
+  public resetTerminateAtEndOfBillingHour() {
+    this._terminateAtEndOfBillingHour = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get terminateAtEndOfBillingHourInput() {
+    return this._terminateAtEndOfBillingHour;
+  }
+
+  // termination_policy - computed: false, optional: true, required: false
+  private _terminationPolicy?: string; 
+  public get terminationPolicy() {
+    return this.getStringAttribute('termination_policy');
+  }
+  public set terminationPolicy(value: string) {
+    this._terminationPolicy = value;
+  }
+  public resetTerminationPolicy() {
+    this._terminationPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get terminationPolicyInput() {
+    return this._terminationPolicy;
+  }
+}
+
+export class ElastigroupAwsScalingStrategyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingStrategyOutputReference {
+    return new ElastigroupAwsScalingStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingTargetPolicyDimensions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#name ElastigroupAws#name}
@@ -5026,6 +8701,105 @@ export function elastigroupAwsScalingTargetPolicyDimensionsToTerraform(struct?: 
   }
 }
 
+export class ElastigroupAwsScalingTargetPolicyDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingTargetPolicyDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingTargetPolicyDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsScalingTargetPolicyDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingTargetPolicyDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingTargetPolicyDimensionsOutputReference {
+    return new ElastigroupAwsScalingTargetPolicyDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingTargetPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#cooldown ElastigroupAws#cooldown}
@@ -5105,6 +8879,338 @@ export function elastigroupAwsScalingTargetPolicyToTerraform(struct?: Elastigrou
   }
 }
 
+export class ElastigroupAwsScalingTargetPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingTargetPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._maxCapacityPerScale !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCapacityPerScale = this._maxCapacityPerScale;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._predictiveMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.predictiveMode = this._predictiveMode;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingTargetPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cooldown = undefined;
+      this._evaluationPeriods = undefined;
+      this._maxCapacityPerScale = undefined;
+      this._metricName = undefined;
+      this._namespace = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._predictiveMode = undefined;
+      this._source = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._unit = undefined;
+      this._dimensions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cooldown = value.cooldown;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._maxCapacityPerScale = value.maxCapacityPerScale;
+      this._metricName = value.metricName;
+      this._namespace = value.namespace;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._predictiveMode = value.predictiveMode;
+      this._source = value.source;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._unit = value.unit;
+      this._dimensions.internalValue = value.dimensions;
+    }
+  }
+
+  // cooldown - computed: false, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // evaluation_periods - computed: false, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // max_capacity_per_scale - computed: false, optional: true, required: false
+  private _maxCapacityPerScale?: string; 
+  public get maxCapacityPerScale() {
+    return this.getStringAttribute('max_capacity_per_scale');
+  }
+  public set maxCapacityPerScale(value: string) {
+    this._maxCapacityPerScale = value;
+  }
+  public resetMaxCapacityPerScale() {
+    this._maxCapacityPerScale = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCapacityPerScaleInput() {
+    return this._maxCapacityPerScale;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // period - computed: false, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // predictive_mode - computed: false, optional: true, required: false
+  private _predictiveMode?: string; 
+  public get predictiveMode() {
+    return this.getStringAttribute('predictive_mode');
+  }
+  public set predictiveMode(value: string) {
+    this._predictiveMode = value;
+  }
+  public resetPredictiveMode() {
+    this._predictiveMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get predictiveModeInput() {
+    return this._predictiveMode;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // statistic - computed: false, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: false, required: true
+  private _target?: number; 
+  public get target() {
+    return this.getNumberAttribute('target');
+  }
+  public set target(value: number) {
+    this._target = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAwsScalingTargetPolicyDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAwsScalingTargetPolicyDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+}
+
+export class ElastigroupAwsScalingTargetPolicyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingTargetPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingTargetPolicyOutputReference {
+    return new ElastigroupAwsScalingTargetPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingUpPolicyDimensions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#name ElastigroupAws#name}
@@ -5127,6 +9233,105 @@ export function elastigroupAwsScalingUpPolicyDimensionsToTerraform(struct?: Elas
   }
 }
 
+export class ElastigroupAwsScalingUpPolicyDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingUpPolicyDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingUpPolicyDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsScalingUpPolicyDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingUpPolicyDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingUpPolicyDimensionsOutputReference {
+    return new ElastigroupAwsScalingUpPolicyDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingUpPolicyStepAdjustmentsAction {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#adjustment ElastigroupAws#adjustment}
@@ -5375,6 +9580,102 @@ export function elastigroupAwsScalingUpPolicyStepAdjustmentsToTerraform(struct?:
   }
 }
 
+export class ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingUpPolicyStepAdjustments | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._action?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingUpPolicyStepAdjustments | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._threshold = undefined;
+      this._action.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._threshold = value.threshold;
+      this._action.internalValue = value.action;
+    }
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // action - computed: false, optional: false, required: true
+  private _action = new ElastigroupAwsScalingUpPolicyStepAdjustmentsActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+  public putAction(value: ElastigroupAwsScalingUpPolicyStepAdjustmentsAction) {
+    this._action.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action.internalValue;
+  }
+}
+
+export class ElastigroupAwsScalingUpPolicyStepAdjustmentsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingUpPolicyStepAdjustments[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference {
+    return new ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScalingUpPolicy {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#action_type ElastigroupAws#action_type}
@@ -5496,6 +9797,517 @@ export function elastigroupAwsScalingUpPolicyToTerraform(struct?: ElastigroupAws
   }
 }
 
+export class ElastigroupAwsScalingUpPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScalingUpPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actionType = this._actionType;
+    }
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._maxTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTargetCapacity = this._maxTargetCapacity;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._minTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minTargetCapacity = this._minTargetCapacity;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    if (this._stepAdjustments?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stepAdjustments = this._stepAdjustments?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScalingUpPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actionType = undefined;
+      this._adjustment = undefined;
+      this._cooldown = undefined;
+      this._evaluationPeriods = undefined;
+      this._isEnabled = undefined;
+      this._maxTargetCapacity = undefined;
+      this._maximum = undefined;
+      this._metricName = undefined;
+      this._minTargetCapacity = undefined;
+      this._minimum = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._source = undefined;
+      this._statistic = undefined;
+      this._target = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+      this._dimensions.internalValue = undefined;
+      this._stepAdjustments.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actionType = value.actionType;
+      this._adjustment = value.adjustment;
+      this._cooldown = value.cooldown;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._isEnabled = value.isEnabled;
+      this._maxTargetCapacity = value.maxTargetCapacity;
+      this._maximum = value.maximum;
+      this._metricName = value.metricName;
+      this._minTargetCapacity = value.minTargetCapacity;
+      this._minimum = value.minimum;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._source = value.source;
+      this._statistic = value.statistic;
+      this._target = value.target;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+      this._dimensions.internalValue = value.dimensions;
+      this._stepAdjustments.internalValue = value.stepAdjustments;
+    }
+  }
+
+  // action_type - computed: false, optional: true, required: false
+  private _actionType?: string; 
+  public get actionType() {
+    return this.getStringAttribute('action_type');
+  }
+  public set actionType(value: string) {
+    this._actionType = value;
+  }
+  public resetActionType() {
+    this._actionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionTypeInput() {
+    return this._actionType;
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // cooldown - computed: false, optional: true, required: false
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  public resetCooldown() {
+    this._cooldown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // evaluation_periods - computed: true, optional: true, required: false
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  public resetEvaluationPeriods() {
+    this._evaluationPeriods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // max_target_capacity - computed: false, optional: true, required: false
+  private _maxTargetCapacity?: string; 
+  public get maxTargetCapacity() {
+    return this.getStringAttribute('max_target_capacity');
+  }
+  public set maxTargetCapacity(value: string) {
+    this._maxTargetCapacity = value;
+  }
+  public resetMaxTargetCapacity() {
+    this._maxTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTargetCapacityInput() {
+    return this._maxTargetCapacity;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // min_target_capacity - computed: false, optional: true, required: false
+  private _minTargetCapacity?: string; 
+  public get minTargetCapacity() {
+    return this.getStringAttribute('min_target_capacity');
+  }
+  public set minTargetCapacity(value: string) {
+    this._minTargetCapacity = value;
+  }
+  public resetMinTargetCapacity() {
+    this._minTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minTargetCapacityInput() {
+    return this._minTargetCapacity;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: true, optional: true, required: false
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  public resetOperator() {
+    this._operator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: true, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // statistic - computed: false, optional: true, required: false
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  public resetStatistic() {
+    this._statistic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // threshold - computed: false, optional: true, required: false
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  public resetThreshold() {
+    this._threshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAwsScalingUpPolicyDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAwsScalingUpPolicyDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+
+  // step_adjustments - computed: false, optional: true, required: false
+  private _stepAdjustments = new ElastigroupAwsScalingUpPolicyStepAdjustmentsList(this, "step_adjustments", true);
+  public get stepAdjustments() {
+    return this._stepAdjustments;
+  }
+  public putStepAdjustments(value: ElastigroupAwsScalingUpPolicyStepAdjustments[] | cdktf.IResolvable) {
+    this._stepAdjustments.internalValue = value;
+  }
+  public resetStepAdjustments() {
+    this._stepAdjustments.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stepAdjustmentsInput() {
+    return this._stepAdjustments.internalValue;
+  }
+}
+
+export class ElastigroupAwsScalingUpPolicyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScalingUpPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScalingUpPolicyOutputReference {
+    return new ElastigroupAwsScalingUpPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsScheduledTask {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#adjustment ElastigroupAws#adjustment}
@@ -5583,6 +10395,391 @@ export function elastigroupAwsScheduledTaskToTerraform(struct?: ElastigroupAwsSc
   }
 }
 
+export class ElastigroupAwsScheduledTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsScheduledTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._adjustmentPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustmentPercentage = this._adjustmentPercentage;
+    }
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._frequency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.frequency = this._frequency;
+    }
+    if (this._gracePeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gracePeriod = this._gracePeriod;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._maxCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCapacity = this._maxCapacity;
+    }
+    if (this._minCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minCapacity = this._minCapacity;
+    }
+    if (this._scaleMaxCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleMaxCapacity = this._scaleMaxCapacity;
+    }
+    if (this._scaleMinCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleMinCapacity = this._scaleMinCapacity;
+    }
+    if (this._scaleTargetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleTargetCapacity = this._scaleTargetCapacity;
+    }
+    if (this._startTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime;
+    }
+    if (this._targetCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetCapacity = this._targetCapacity;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsScheduledTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._adjustment = undefined;
+      this._adjustmentPercentage = undefined;
+      this._batchSizePercentage = undefined;
+      this._cronExpression = undefined;
+      this._frequency = undefined;
+      this._gracePeriod = undefined;
+      this._isEnabled = undefined;
+      this._maxCapacity = undefined;
+      this._minCapacity = undefined;
+      this._scaleMaxCapacity = undefined;
+      this._scaleMinCapacity = undefined;
+      this._scaleTargetCapacity = undefined;
+      this._startTime = undefined;
+      this._targetCapacity = undefined;
+      this._taskType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._adjustment = value.adjustment;
+      this._adjustmentPercentage = value.adjustmentPercentage;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._cronExpression = value.cronExpression;
+      this._frequency = value.frequency;
+      this._gracePeriod = value.gracePeriod;
+      this._isEnabled = value.isEnabled;
+      this._maxCapacity = value.maxCapacity;
+      this._minCapacity = value.minCapacity;
+      this._scaleMaxCapacity = value.scaleMaxCapacity;
+      this._scaleMinCapacity = value.scaleMinCapacity;
+      this._scaleTargetCapacity = value.scaleTargetCapacity;
+      this._startTime = value.startTime;
+      this._targetCapacity = value.targetCapacity;
+      this._taskType = value.taskType;
+    }
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // adjustment_percentage - computed: false, optional: true, required: false
+  private _adjustmentPercentage?: string; 
+  public get adjustmentPercentage() {
+    return this.getStringAttribute('adjustment_percentage');
+  }
+  public set adjustmentPercentage(value: string) {
+    this._adjustmentPercentage = value;
+  }
+  public resetAdjustmentPercentage() {
+    this._adjustmentPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentPercentageInput() {
+    return this._adjustmentPercentage;
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: string; 
+  public get batchSizePercentage() {
+    return this.getStringAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: string) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // cron_expression - computed: false, optional: true, required: false
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  public resetCronExpression() {
+    this._cronExpression = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // frequency - computed: false, optional: true, required: false
+  private _frequency?: string; 
+  public get frequency() {
+    return this.getStringAttribute('frequency');
+  }
+  public set frequency(value: string) {
+    this._frequency = value;
+  }
+  public resetFrequency() {
+    this._frequency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get frequencyInput() {
+    return this._frequency;
+  }
+
+  // grace_period - computed: false, optional: true, required: false
+  private _gracePeriod?: string; 
+  public get gracePeriod() {
+    return this.getStringAttribute('grace_period');
+  }
+  public set gracePeriod(value: string) {
+    this._gracePeriod = value;
+  }
+  public resetGracePeriod() {
+    this._gracePeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gracePeriodInput() {
+    return this._gracePeriod;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // max_capacity - computed: false, optional: true, required: false
+  private _maxCapacity?: string; 
+  public get maxCapacity() {
+    return this.getStringAttribute('max_capacity');
+  }
+  public set maxCapacity(value: string) {
+    this._maxCapacity = value;
+  }
+  public resetMaxCapacity() {
+    this._maxCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCapacityInput() {
+    return this._maxCapacity;
+  }
+
+  // min_capacity - computed: false, optional: true, required: false
+  private _minCapacity?: string; 
+  public get minCapacity() {
+    return this.getStringAttribute('min_capacity');
+  }
+  public set minCapacity(value: string) {
+    this._minCapacity = value;
+  }
+  public resetMinCapacity() {
+    this._minCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minCapacityInput() {
+    return this._minCapacity;
+  }
+
+  // scale_max_capacity - computed: false, optional: true, required: false
+  private _scaleMaxCapacity?: string; 
+  public get scaleMaxCapacity() {
+    return this.getStringAttribute('scale_max_capacity');
+  }
+  public set scaleMaxCapacity(value: string) {
+    this._scaleMaxCapacity = value;
+  }
+  public resetScaleMaxCapacity() {
+    this._scaleMaxCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleMaxCapacityInput() {
+    return this._scaleMaxCapacity;
+  }
+
+  // scale_min_capacity - computed: false, optional: true, required: false
+  private _scaleMinCapacity?: string; 
+  public get scaleMinCapacity() {
+    return this.getStringAttribute('scale_min_capacity');
+  }
+  public set scaleMinCapacity(value: string) {
+    this._scaleMinCapacity = value;
+  }
+  public resetScaleMinCapacity() {
+    this._scaleMinCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleMinCapacityInput() {
+    return this._scaleMinCapacity;
+  }
+
+  // scale_target_capacity - computed: false, optional: true, required: false
+  private _scaleTargetCapacity?: string; 
+  public get scaleTargetCapacity() {
+    return this.getStringAttribute('scale_target_capacity');
+  }
+  public set scaleTargetCapacity(value: string) {
+    this._scaleTargetCapacity = value;
+  }
+  public resetScaleTargetCapacity() {
+    this._scaleTargetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleTargetCapacityInput() {
+    return this._scaleTargetCapacity;
+  }
+
+  // start_time - computed: false, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+  public set startTime(value: string) {
+    this._startTime = value;
+  }
+  public resetStartTime() {
+    this._startTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime;
+  }
+
+  // target_capacity - computed: false, optional: true, required: false
+  private _targetCapacity?: string; 
+  public get targetCapacity() {
+    return this.getStringAttribute('target_capacity');
+  }
+  public set targetCapacity(value: string) {
+    this._targetCapacity = value;
+  }
+  public resetTargetCapacity() {
+    this._targetCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetCapacityInput() {
+    return this._targetCapacity;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+}
+
+export class ElastigroupAwsScheduledTaskList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsScheduledTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsScheduledTaskOutputReference {
+    return new ElastigroupAwsScheduledTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsSignal {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#name ElastigroupAws#name}
@@ -5605,6 +10802,105 @@ export function elastigroupAwsSignalToTerraform(struct?: ElastigroupAwsSignal | 
   }
 }
 
+export class ElastigroupAwsSignalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsSignal | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._timeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeout = this._timeout;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsSignal | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._timeout = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._timeout = value.timeout;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // timeout - computed: false, optional: true, required: false
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+}
+
+export class ElastigroupAwsSignalList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsSignal[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsSignalOutputReference {
+    return new ElastigroupAwsSignalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsStatefulDeallocation {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}
@@ -5773,6 +11069,102 @@ export function elastigroupAwsStatefulInstanceActionToTerraform(struct?: Elastig
   }
 }
 
+export class ElastigroupAwsStatefulInstanceActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsStatefulInstanceAction | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._statefulInstanceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statefulInstanceId = this._statefulInstanceId;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsStatefulInstanceAction | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._statefulInstanceId = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._statefulInstanceId = value.statefulInstanceId;
+      this._type = value.type;
+    }
+  }
+
+  // stateful_instance_id - computed: false, optional: false, required: true
+  private _statefulInstanceId?: string; 
+  public get statefulInstanceId() {
+    return this.getStringAttribute('stateful_instance_id');
+  }
+  public set statefulInstanceId(value: string) {
+    this._statefulInstanceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statefulInstanceIdInput() {
+    return this._statefulInstanceId;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class ElastigroupAwsStatefulInstanceActionList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsStatefulInstanceAction[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsStatefulInstanceActionOutputReference {
+    return new ElastigroupAwsStatefulInstanceActionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#key ElastigroupAws#key}
@@ -5795,6 +11187,108 @@ export function elastigroupAwsTagsToTerraform(struct?: ElastigroupAwsTags | cdkt
   }
 }
 
+export class ElastigroupAwsTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAwsTagsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsTagsOutputReference {
+    return new ElastigroupAwsTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#action_type ElastigroupAws#action_type}
@@ -6502,6 +11996,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._healthCheckType = config.healthCheckType;
     this._healthCheckUnhealthyDurationBeforeReplacement = config.healthCheckUnhealthyDurationBeforeReplacement;
     this._iamInstanceProfile = config.iamInstanceProfile;
+    this._id = config.id;
     this._imageId = config.imageId;
     this._instanceTypesOndemand = config.instanceTypesOndemand;
     this._instanceTypesPreferredSpot = config.instanceTypesPreferredSpot;
@@ -6533,9 +12028,9 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._waitForCapacity = config.waitForCapacity;
     this._waitForCapacityTimeout = config.waitForCapacityTimeout;
     this._cpuOptions.internalValue = config.cpuOptions;
-    this._ebsBlockDevice = config.ebsBlockDevice;
-    this._ephemeralBlockDevice = config.ephemeralBlockDevice;
-    this._instanceTypesWeights = config.instanceTypesWeights;
+    this._ebsBlockDevice.internalValue = config.ebsBlockDevice;
+    this._ephemeralBlockDevice.internalValue = config.ephemeralBlockDevice;
+    this._instanceTypesWeights.internalValue = config.instanceTypesWeights;
     this._integrationBeanstalk.internalValue = config.integrationBeanstalk;
     this._integrationCodedeploy.internalValue = config.integrationCodedeploy;
     this._integrationDockerSwarm.internalValue = config.integrationDockerSwarm;
@@ -6547,22 +12042,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._integrationNomad.internalValue = config.integrationNomad;
     this._integrationRancher.internalValue = config.integrationRancher;
     this._integrationRoute53.internalValue = config.integrationRoute53;
-    this._itf = config.itf;
+    this._itf.internalValue = config.itf;
     this._metadataOptions.internalValue = config.metadataOptions;
-    this._multaiTargetSets = config.multaiTargetSets;
+    this._multaiTargetSets.internalValue = config.multaiTargetSets;
     this._multipleMetrics.internalValue = config.multipleMetrics;
-    this._networkInterface = config.networkInterface;
-    this._resourceTagSpecification = config.resourceTagSpecification;
+    this._networkInterface.internalValue = config.networkInterface;
+    this._resourceTagSpecification.internalValue = config.resourceTagSpecification;
     this._revertToSpot.internalValue = config.revertToSpot;
-    this._scalingDownPolicy = config.scalingDownPolicy;
-    this._scalingStrategy = config.scalingStrategy;
-    this._scalingTargetPolicy = config.scalingTargetPolicy;
-    this._scalingUpPolicy = config.scalingUpPolicy;
-    this._scheduledTask = config.scheduledTask;
-    this._signal = config.signal;
+    this._scalingDownPolicy.internalValue = config.scalingDownPolicy;
+    this._scalingStrategy.internalValue = config.scalingStrategy;
+    this._scalingTargetPolicy.internalValue = config.scalingTargetPolicy;
+    this._scalingUpPolicy.internalValue = config.scalingUpPolicy;
+    this._scheduledTask.internalValue = config.scheduledTask;
+    this._signal.internalValue = config.signal;
     this._statefulDeallocation.internalValue = config.statefulDeallocation;
-    this._statefulInstanceAction = config.statefulInstanceAction;
-    this._tags = config.tags;
+    this._statefulInstanceAction.internalValue = config.statefulInstanceAction;
+    this._tags.internalValue = config.tags;
     this._updatePolicy.internalValue = config.updatePolicy;
   }
 
@@ -6824,8 +12319,19 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // image_id - computed: false, optional: true, required: false
@@ -7307,54 +12813,51 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // ebs_block_device - computed: false, optional: true, required: false
-  private _ebsBlockDevice?: ElastigroupAwsEbsBlockDevice[] | cdktf.IResolvable; 
+  private _ebsBlockDevice = new ElastigroupAwsEbsBlockDeviceList(this, "ebs_block_device", true);
   public get ebsBlockDevice() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('ebs_block_device')));
+    return this._ebsBlockDevice;
   }
-  public set ebsBlockDevice(value: ElastigroupAwsEbsBlockDevice[] | cdktf.IResolvable) {
-    this._ebsBlockDevice = value;
+  public putEbsBlockDevice(value: ElastigroupAwsEbsBlockDevice[] | cdktf.IResolvable) {
+    this._ebsBlockDevice.internalValue = value;
   }
   public resetEbsBlockDevice() {
-    this._ebsBlockDevice = undefined;
+    this._ebsBlockDevice.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get ebsBlockDeviceInput() {
-    return this._ebsBlockDevice;
+    return this._ebsBlockDevice.internalValue;
   }
 
   // ephemeral_block_device - computed: false, optional: true, required: false
-  private _ephemeralBlockDevice?: ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable; 
+  private _ephemeralBlockDevice = new ElastigroupAwsEphemeralBlockDeviceList(this, "ephemeral_block_device", true);
   public get ephemeralBlockDevice() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('ephemeral_block_device')));
+    return this._ephemeralBlockDevice;
   }
-  public set ephemeralBlockDevice(value: ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable) {
-    this._ephemeralBlockDevice = value;
+  public putEphemeralBlockDevice(value: ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable) {
+    this._ephemeralBlockDevice.internalValue = value;
   }
   public resetEphemeralBlockDevice() {
-    this._ephemeralBlockDevice = undefined;
+    this._ephemeralBlockDevice.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get ephemeralBlockDeviceInput() {
-    return this._ephemeralBlockDevice;
+    return this._ephemeralBlockDevice.internalValue;
   }
 
   // instance_types_weights - computed: false, optional: true, required: false
-  private _instanceTypesWeights?: ElastigroupAwsInstanceTypesWeights[] | cdktf.IResolvable; 
+  private _instanceTypesWeights = new ElastigroupAwsInstanceTypesWeightsList(this, "instance_types_weights", true);
   public get instanceTypesWeights() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('instance_types_weights')));
+    return this._instanceTypesWeights;
   }
-  public set instanceTypesWeights(value: ElastigroupAwsInstanceTypesWeights[] | cdktf.IResolvable) {
-    this._instanceTypesWeights = value;
+  public putInstanceTypesWeights(value: ElastigroupAwsInstanceTypesWeights[] | cdktf.IResolvable) {
+    this._instanceTypesWeights.internalValue = value;
   }
   public resetInstanceTypesWeights() {
-    this._instanceTypesWeights = undefined;
+    this._instanceTypesWeights.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceTypesWeightsInput() {
-    return this._instanceTypesWeights;
+    return this._instanceTypesWeights.internalValue;
   }
 
   // integration_beanstalk - computed: false, optional: true, required: false
@@ -7534,20 +13037,19 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // itf - computed: false, optional: true, required: false
-  private _itf?: ElastigroupAwsItf[] | cdktf.IResolvable; 
+  private _itf = new ElastigroupAwsItfList(this, "itf", false);
   public get itf() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('itf');
+    return this._itf;
   }
-  public set itf(value: ElastigroupAwsItf[] | cdktf.IResolvable) {
-    this._itf = value;
+  public putItf(value: ElastigroupAwsItf[] | cdktf.IResolvable) {
+    this._itf.internalValue = value;
   }
   public resetItf() {
-    this._itf = undefined;
+    this._itf.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get itfInput() {
-    return this._itf;
+    return this._itf.internalValue;
   }
 
   // metadata_options - computed: false, optional: true, required: false
@@ -7567,20 +13069,19 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // multai_target_sets - computed: false, optional: true, required: false
-  private _multaiTargetSets?: ElastigroupAwsMultaiTargetSets[] | cdktf.IResolvable; 
+  private _multaiTargetSets = new ElastigroupAwsMultaiTargetSetsList(this, "multai_target_sets", true);
   public get multaiTargetSets() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('multai_target_sets')));
+    return this._multaiTargetSets;
   }
-  public set multaiTargetSets(value: ElastigroupAwsMultaiTargetSets[] | cdktf.IResolvable) {
-    this._multaiTargetSets = value;
+  public putMultaiTargetSets(value: ElastigroupAwsMultaiTargetSets[] | cdktf.IResolvable) {
+    this._multaiTargetSets.internalValue = value;
   }
   public resetMultaiTargetSets() {
-    this._multaiTargetSets = undefined;
+    this._multaiTargetSets.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get multaiTargetSetsInput() {
-    return this._multaiTargetSets;
+    return this._multaiTargetSets.internalValue;
   }
 
   // multiple_metrics - computed: false, optional: true, required: false
@@ -7600,37 +13101,35 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // network_interface - computed: false, optional: true, required: false
-  private _networkInterface?: ElastigroupAwsNetworkInterface[] | cdktf.IResolvable; 
+  private _networkInterface = new ElastigroupAwsNetworkInterfaceList(this, "network_interface", true);
   public get networkInterface() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('network_interface')));
+    return this._networkInterface;
   }
-  public set networkInterface(value: ElastigroupAwsNetworkInterface[] | cdktf.IResolvable) {
-    this._networkInterface = value;
+  public putNetworkInterface(value: ElastigroupAwsNetworkInterface[] | cdktf.IResolvable) {
+    this._networkInterface.internalValue = value;
   }
   public resetNetworkInterface() {
-    this._networkInterface = undefined;
+    this._networkInterface.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get networkInterfaceInput() {
-    return this._networkInterface;
+    return this._networkInterface.internalValue;
   }
 
   // resource_tag_specification - computed: false, optional: true, required: false
-  private _resourceTagSpecification?: ElastigroupAwsResourceTagSpecification[] | cdktf.IResolvable; 
+  private _resourceTagSpecification = new ElastigroupAwsResourceTagSpecificationList(this, "resource_tag_specification", false);
   public get resourceTagSpecification() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('resource_tag_specification');
+    return this._resourceTagSpecification;
   }
-  public set resourceTagSpecification(value: ElastigroupAwsResourceTagSpecification[] | cdktf.IResolvable) {
-    this._resourceTagSpecification = value;
+  public putResourceTagSpecification(value: ElastigroupAwsResourceTagSpecification[] | cdktf.IResolvable) {
+    this._resourceTagSpecification.internalValue = value;
   }
   public resetResourceTagSpecification() {
-    this._resourceTagSpecification = undefined;
+    this._resourceTagSpecification.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get resourceTagSpecificationInput() {
-    return this._resourceTagSpecification;
+    return this._resourceTagSpecification.internalValue;
   }
 
   // revert_to_spot - computed: false, optional: true, required: false
@@ -7650,105 +13149,99 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // scaling_down_policy - computed: false, optional: true, required: false
-  private _scalingDownPolicy?: ElastigroupAwsScalingDownPolicy[] | cdktf.IResolvable; 
+  private _scalingDownPolicy = new ElastigroupAwsScalingDownPolicyList(this, "scaling_down_policy", true);
   public get scalingDownPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scaling_down_policy')));
+    return this._scalingDownPolicy;
   }
-  public set scalingDownPolicy(value: ElastigroupAwsScalingDownPolicy[] | cdktf.IResolvable) {
-    this._scalingDownPolicy = value;
+  public putScalingDownPolicy(value: ElastigroupAwsScalingDownPolicy[] | cdktf.IResolvable) {
+    this._scalingDownPolicy.internalValue = value;
   }
   public resetScalingDownPolicy() {
-    this._scalingDownPolicy = undefined;
+    this._scalingDownPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scalingDownPolicyInput() {
-    return this._scalingDownPolicy;
+    return this._scalingDownPolicy.internalValue;
   }
 
   // scaling_strategy - computed: false, optional: true, required: false
-  private _scalingStrategy?: ElastigroupAwsScalingStrategy[] | cdktf.IResolvable; 
+  private _scalingStrategy = new ElastigroupAwsScalingStrategyList(this, "scaling_strategy", false);
   public get scalingStrategy() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('scaling_strategy');
+    return this._scalingStrategy;
   }
-  public set scalingStrategy(value: ElastigroupAwsScalingStrategy[] | cdktf.IResolvable) {
-    this._scalingStrategy = value;
+  public putScalingStrategy(value: ElastigroupAwsScalingStrategy[] | cdktf.IResolvable) {
+    this._scalingStrategy.internalValue = value;
   }
   public resetScalingStrategy() {
-    this._scalingStrategy = undefined;
+    this._scalingStrategy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scalingStrategyInput() {
-    return this._scalingStrategy;
+    return this._scalingStrategy.internalValue;
   }
 
   // scaling_target_policy - computed: false, optional: true, required: false
-  private _scalingTargetPolicy?: ElastigroupAwsScalingTargetPolicy[] | cdktf.IResolvable; 
+  private _scalingTargetPolicy = new ElastigroupAwsScalingTargetPolicyList(this, "scaling_target_policy", true);
   public get scalingTargetPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scaling_target_policy')));
+    return this._scalingTargetPolicy;
   }
-  public set scalingTargetPolicy(value: ElastigroupAwsScalingTargetPolicy[] | cdktf.IResolvable) {
-    this._scalingTargetPolicy = value;
+  public putScalingTargetPolicy(value: ElastigroupAwsScalingTargetPolicy[] | cdktf.IResolvable) {
+    this._scalingTargetPolicy.internalValue = value;
   }
   public resetScalingTargetPolicy() {
-    this._scalingTargetPolicy = undefined;
+    this._scalingTargetPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scalingTargetPolicyInput() {
-    return this._scalingTargetPolicy;
+    return this._scalingTargetPolicy.internalValue;
   }
 
   // scaling_up_policy - computed: false, optional: true, required: false
-  private _scalingUpPolicy?: ElastigroupAwsScalingUpPolicy[] | cdktf.IResolvable; 
+  private _scalingUpPolicy = new ElastigroupAwsScalingUpPolicyList(this, "scaling_up_policy", true);
   public get scalingUpPolicy() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scaling_up_policy')));
+    return this._scalingUpPolicy;
   }
-  public set scalingUpPolicy(value: ElastigroupAwsScalingUpPolicy[] | cdktf.IResolvable) {
-    this._scalingUpPolicy = value;
+  public putScalingUpPolicy(value: ElastigroupAwsScalingUpPolicy[] | cdktf.IResolvable) {
+    this._scalingUpPolicy.internalValue = value;
   }
   public resetScalingUpPolicy() {
-    this._scalingUpPolicy = undefined;
+    this._scalingUpPolicy.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scalingUpPolicyInput() {
-    return this._scalingUpPolicy;
+    return this._scalingUpPolicy.internalValue;
   }
 
   // scheduled_task - computed: false, optional: true, required: false
-  private _scheduledTask?: ElastigroupAwsScheduledTask[] | cdktf.IResolvable; 
+  private _scheduledTask = new ElastigroupAwsScheduledTaskList(this, "scheduled_task", true);
   public get scheduledTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduled_task')));
+    return this._scheduledTask;
   }
-  public set scheduledTask(value: ElastigroupAwsScheduledTask[] | cdktf.IResolvable) {
-    this._scheduledTask = value;
+  public putScheduledTask(value: ElastigroupAwsScheduledTask[] | cdktf.IResolvable) {
+    this._scheduledTask.internalValue = value;
   }
   public resetScheduledTask() {
-    this._scheduledTask = undefined;
+    this._scheduledTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scheduledTaskInput() {
-    return this._scheduledTask;
+    return this._scheduledTask.internalValue;
   }
 
   // signal - computed: false, optional: true, required: false
-  private _signal?: ElastigroupAwsSignal[] | cdktf.IResolvable; 
+  private _signal = new ElastigroupAwsSignalList(this, "signal", true);
   public get signal() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('signal')));
+    return this._signal;
   }
-  public set signal(value: ElastigroupAwsSignal[] | cdktf.IResolvable) {
-    this._signal = value;
+  public putSignal(value: ElastigroupAwsSignal[] | cdktf.IResolvable) {
+    this._signal.internalValue = value;
   }
   public resetSignal() {
-    this._signal = undefined;
+    this._signal.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get signalInput() {
-    return this._signal;
+    return this._signal.internalValue;
   }
 
   // stateful_deallocation - computed: false, optional: true, required: false
@@ -7768,37 +13261,35 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   }
 
   // stateful_instance_action - computed: false, optional: true, required: false
-  private _statefulInstanceAction?: ElastigroupAwsStatefulInstanceAction[] | cdktf.IResolvable; 
+  private _statefulInstanceAction = new ElastigroupAwsStatefulInstanceActionList(this, "stateful_instance_action", false);
   public get statefulInstanceAction() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('stateful_instance_action');
+    return this._statefulInstanceAction;
   }
-  public set statefulInstanceAction(value: ElastigroupAwsStatefulInstanceAction[] | cdktf.IResolvable) {
-    this._statefulInstanceAction = value;
+  public putStatefulInstanceAction(value: ElastigroupAwsStatefulInstanceAction[] | cdktf.IResolvable) {
+    this._statefulInstanceAction.internalValue = value;
   }
   public resetStatefulInstanceAction() {
-    this._statefulInstanceAction = undefined;
+    this._statefulInstanceAction.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get statefulInstanceActionInput() {
-    return this._statefulInstanceAction;
+    return this._statefulInstanceAction.internalValue;
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: ElastigroupAwsTags[] | cdktf.IResolvable; 
+  private _tags = new ElastigroupAwsTagsList(this, "tags", true);
   public get tags() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tags')));
+    return this._tags;
   }
-  public set tags(value: ElastigroupAwsTags[] | cdktf.IResolvable) {
-    this._tags = value;
+  public putTags(value: ElastigroupAwsTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
   }
   public resetTags() {
-    this._tags = undefined;
+    this._tags.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagsInput() {
-    return this._tags;
+    return this._tags.internalValue;
   }
 
   // update_policy - computed: false, optional: true, required: false
@@ -7839,6 +13330,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       health_check_type: cdktf.stringToTerraform(this._healthCheckType),
       health_check_unhealthy_duration_before_replacement: cdktf.numberToTerraform(this._healthCheckUnhealthyDurationBeforeReplacement),
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
+      id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       instance_types_ondemand: cdktf.stringToTerraform(this._instanceTypesOndemand),
       instance_types_preferred_spot: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesPreferredSpot),
@@ -7870,9 +13362,9 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       wait_for_capacity: cdktf.numberToTerraform(this._waitForCapacity),
       wait_for_capacity_timeout: cdktf.numberToTerraform(this._waitForCapacityTimeout),
       cpu_options: elastigroupAwsCpuOptionsToTerraform(this._cpuOptions.internalValue),
-      ebs_block_device: cdktf.listMapper(elastigroupAwsEbsBlockDeviceToTerraform)(this._ebsBlockDevice),
-      ephemeral_block_device: cdktf.listMapper(elastigroupAwsEphemeralBlockDeviceToTerraform)(this._ephemeralBlockDevice),
-      instance_types_weights: cdktf.listMapper(elastigroupAwsInstanceTypesWeightsToTerraform)(this._instanceTypesWeights),
+      ebs_block_device: cdktf.listMapper(elastigroupAwsEbsBlockDeviceToTerraform)(this._ebsBlockDevice.internalValue),
+      ephemeral_block_device: cdktf.listMapper(elastigroupAwsEphemeralBlockDeviceToTerraform)(this._ephemeralBlockDevice.internalValue),
+      instance_types_weights: cdktf.listMapper(elastigroupAwsInstanceTypesWeightsToTerraform)(this._instanceTypesWeights.internalValue),
       integration_beanstalk: elastigroupAwsIntegrationBeanstalkToTerraform(this._integrationBeanstalk.internalValue),
       integration_codedeploy: elastigroupAwsIntegrationCodedeployToTerraform(this._integrationCodedeploy.internalValue),
       integration_docker_swarm: elastigroupAwsIntegrationDockerSwarmToTerraform(this._integrationDockerSwarm.internalValue),
@@ -7884,22 +13376,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       integration_nomad: elastigroupAwsIntegrationNomadToTerraform(this._integrationNomad.internalValue),
       integration_rancher: elastigroupAwsIntegrationRancherToTerraform(this._integrationRancher.internalValue),
       integration_route53: elastigroupAwsIntegrationRoute53ToTerraform(this._integrationRoute53.internalValue),
-      itf: cdktf.listMapper(elastigroupAwsItfToTerraform)(this._itf),
+      itf: cdktf.listMapper(elastigroupAwsItfToTerraform)(this._itf.internalValue),
       metadata_options: elastigroupAwsMetadataOptionsToTerraform(this._metadataOptions.internalValue),
-      multai_target_sets: cdktf.listMapper(elastigroupAwsMultaiTargetSetsToTerraform)(this._multaiTargetSets),
+      multai_target_sets: cdktf.listMapper(elastigroupAwsMultaiTargetSetsToTerraform)(this._multaiTargetSets.internalValue),
       multiple_metrics: elastigroupAwsMultipleMetricsToTerraform(this._multipleMetrics.internalValue),
-      network_interface: cdktf.listMapper(elastigroupAwsNetworkInterfaceToTerraform)(this._networkInterface),
-      resource_tag_specification: cdktf.listMapper(elastigroupAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification),
+      network_interface: cdktf.listMapper(elastigroupAwsNetworkInterfaceToTerraform)(this._networkInterface.internalValue),
+      resource_tag_specification: cdktf.listMapper(elastigroupAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification.internalValue),
       revert_to_spot: elastigroupAwsRevertToSpotToTerraform(this._revertToSpot.internalValue),
-      scaling_down_policy: cdktf.listMapper(elastigroupAwsScalingDownPolicyToTerraform)(this._scalingDownPolicy),
-      scaling_strategy: cdktf.listMapper(elastigroupAwsScalingStrategyToTerraform)(this._scalingStrategy),
-      scaling_target_policy: cdktf.listMapper(elastigroupAwsScalingTargetPolicyToTerraform)(this._scalingTargetPolicy),
-      scaling_up_policy: cdktf.listMapper(elastigroupAwsScalingUpPolicyToTerraform)(this._scalingUpPolicy),
-      scheduled_task: cdktf.listMapper(elastigroupAwsScheduledTaskToTerraform)(this._scheduledTask),
-      signal: cdktf.listMapper(elastigroupAwsSignalToTerraform)(this._signal),
+      scaling_down_policy: cdktf.listMapper(elastigroupAwsScalingDownPolicyToTerraform)(this._scalingDownPolicy.internalValue),
+      scaling_strategy: cdktf.listMapper(elastigroupAwsScalingStrategyToTerraform)(this._scalingStrategy.internalValue),
+      scaling_target_policy: cdktf.listMapper(elastigroupAwsScalingTargetPolicyToTerraform)(this._scalingTargetPolicy.internalValue),
+      scaling_up_policy: cdktf.listMapper(elastigroupAwsScalingUpPolicyToTerraform)(this._scalingUpPolicy.internalValue),
+      scheduled_task: cdktf.listMapper(elastigroupAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      signal: cdktf.listMapper(elastigroupAwsSignalToTerraform)(this._signal.internalValue),
       stateful_deallocation: elastigroupAwsStatefulDeallocationToTerraform(this._statefulDeallocation.internalValue),
-      stateful_instance_action: cdktf.listMapper(elastigroupAwsStatefulInstanceActionToTerraform)(this._statefulInstanceAction),
-      tags: cdktf.listMapper(elastigroupAwsTagsToTerraform)(this._tags),
+      stateful_instance_action: cdktf.listMapper(elastigroupAwsStatefulInstanceActionToTerraform)(this._statefulInstanceAction.internalValue),
+      tags: cdktf.listMapper(elastigroupAwsTagsToTerraform)(this._tags.internalValue),
       update_policy: elastigroupAwsUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }

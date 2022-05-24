@@ -56,6 +56,13 @@ export interface ManagedInstanceAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly iamInstanceProfile?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#id ManagedInstanceAws#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#image_id ManagedInstanceAws#image_id}
   */
   readonly imageId: string;
@@ -399,6 +406,105 @@ export function managedInstanceAwsBlockDeviceMappingsToTerraform(struct?: Manage
   }
 }
 
+export class ManagedInstanceAwsBlockDeviceMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsBlockDeviceMappings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._ebs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ebs = this._ebs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsBlockDeviceMappings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deviceName = undefined;
+      this._ebs.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deviceName = value.deviceName;
+      this._ebs.internalValue = value.ebs;
+    }
+  }
+
+  // device_name - computed: false, optional: false, required: true
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // ebs - computed: false, optional: true, required: false
+  private _ebs = new ManagedInstanceAwsBlockDeviceMappingsEbsOutputReference(this, "ebs");
+  public get ebs() {
+    return this._ebs;
+  }
+  public putEbs(value: ManagedInstanceAwsBlockDeviceMappingsEbs) {
+    this._ebs.internalValue = value;
+  }
+  public resetEbs() {
+    this._ebs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ebsInput() {
+    return this._ebs.internalValue;
+  }
+}
+
+export class ManagedInstanceAwsBlockDeviceMappingsList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsBlockDeviceMappings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsBlockDeviceMappingsOutputReference {
+    return new ManagedInstanceAwsBlockDeviceMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsIntegrationRoute53DomainsRecordSets {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#name ManagedInstanceAws#name}
@@ -426,6 +532,127 @@ export function managedInstanceAwsIntegrationRoute53DomainsRecordSetsToTerraform
   }
 }
 
+export class ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsIntegrationRoute53DomainsRecordSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._usePublicDns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usePublicDns = this._usePublicDns;
+    }
+    if (this._usePublicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usePublicIp = this._usePublicIp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsIntegrationRoute53DomainsRecordSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._usePublicDns = undefined;
+      this._usePublicIp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._usePublicDns = value.usePublicDns;
+      this._usePublicIp = value.usePublicIp;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // use_public_dns - computed: false, optional: true, required: false
+  private _usePublicDns?: boolean | cdktf.IResolvable; 
+  public get usePublicDns() {
+    return this.getBooleanAttribute('use_public_dns');
+  }
+  public set usePublicDns(value: boolean | cdktf.IResolvable) {
+    this._usePublicDns = value;
+  }
+  public resetUsePublicDns() {
+    this._usePublicDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usePublicDnsInput() {
+    return this._usePublicDns;
+  }
+
+  // use_public_ip - computed: false, optional: true, required: false
+  private _usePublicIp?: boolean | cdktf.IResolvable; 
+  public get usePublicIp() {
+    return this.getBooleanAttribute('use_public_ip');
+  }
+  public set usePublicIp(value: boolean | cdktf.IResolvable) {
+    this._usePublicIp = value;
+  }
+  public resetUsePublicIp() {
+    this._usePublicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usePublicIpInput() {
+    return this._usePublicIp;
+  }
+}
+
+export class ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference {
+    return new ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsIntegrationRoute53Domains {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#hosted_zone_id ManagedInstanceAws#hosted_zone_id}
@@ -460,6 +687,146 @@ export function managedInstanceAwsIntegrationRoute53DomainsToTerraform(struct?: 
   }
 }
 
+export class ManagedInstanceAwsIntegrationRoute53DomainsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsIntegrationRoute53Domains | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hostedZoneId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostedZoneId = this._hostedZoneId;
+    }
+    if (this._recordSetType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.recordSetType = this._recordSetType;
+    }
+    if (this._spotinstAcctId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.spotinstAcctId = this._spotinstAcctId;
+    }
+    if (this._recordSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.recordSets = this._recordSets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsIntegrationRoute53Domains | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hostedZoneId = undefined;
+      this._recordSetType = undefined;
+      this._spotinstAcctId = undefined;
+      this._recordSets.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hostedZoneId = value.hostedZoneId;
+      this._recordSetType = value.recordSetType;
+      this._spotinstAcctId = value.spotinstAcctId;
+      this._recordSets.internalValue = value.recordSets;
+    }
+  }
+
+  // hosted_zone_id - computed: false, optional: false, required: true
+  private _hostedZoneId?: string; 
+  public get hostedZoneId() {
+    return this.getStringAttribute('hosted_zone_id');
+  }
+  public set hostedZoneId(value: string) {
+    this._hostedZoneId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostedZoneIdInput() {
+    return this._hostedZoneId;
+  }
+
+  // record_set_type - computed: false, optional: true, required: false
+  private _recordSetType?: string; 
+  public get recordSetType() {
+    return this.getStringAttribute('record_set_type');
+  }
+  public set recordSetType(value: string) {
+    this._recordSetType = value;
+  }
+  public resetRecordSetType() {
+    this._recordSetType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recordSetTypeInput() {
+    return this._recordSetType;
+  }
+
+  // spotinst_acct_id - computed: false, optional: true, required: false
+  private _spotinstAcctId?: string; 
+  public get spotinstAcctId() {
+    return this.getStringAttribute('spotinst_acct_id');
+  }
+  public set spotinstAcctId(value: string) {
+    this._spotinstAcctId = value;
+  }
+  public resetSpotinstAcctId() {
+    this._spotinstAcctId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotinstAcctIdInput() {
+    return this._spotinstAcctId;
+  }
+
+  // record_sets - computed: false, optional: false, required: true
+  private _recordSets = new ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList(this, "record_sets", true);
+  public get recordSets() {
+    return this._recordSets;
+  }
+  public putRecordSets(value: ManagedInstanceAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable) {
+    this._recordSets.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recordSetsInput() {
+    return this._recordSets.internalValue;
+  }
+}
+
+export class ManagedInstanceAwsIntegrationRoute53DomainsList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsIntegrationRoute53Domains[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsIntegrationRoute53DomainsOutputReference {
+    return new ManagedInstanceAwsIntegrationRoute53DomainsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsIntegrationRoute53 {
   /**
   * domains block
@@ -493,9 +860,9 @@ export class ManagedInstanceAwsIntegrationRoute53OutputReference extends cdktf.C
   public get internalValue(): ManagedInstanceAwsIntegrationRoute53 | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._domains !== undefined) {
+    if (this._domains?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.domains = this._domains;
+      internalValueResult.domains = this._domains?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -503,26 +870,25 @@ export class ManagedInstanceAwsIntegrationRoute53OutputReference extends cdktf.C
   public set internalValue(value: ManagedInstanceAwsIntegrationRoute53 | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._domains = undefined;
+      this._domains.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._domains = value.domains;
+      this._domains.internalValue = value.domains;
     }
   }
 
   // domains - computed: false, optional: false, required: true
-  private _domains?: ManagedInstanceAwsIntegrationRoute53Domains[] | cdktf.IResolvable; 
+  private _domains = new ManagedInstanceAwsIntegrationRoute53DomainsList(this, "domains", true);
   public get domains() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('domains')));
+    return this._domains;
   }
-  public set domains(value: ManagedInstanceAwsIntegrationRoute53Domains[] | cdktf.IResolvable) {
-    this._domains = value;
+  public putDomains(value: ManagedInstanceAwsIntegrationRoute53Domains[] | cdktf.IResolvable) {
+    this._domains.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
   public get domainsInput() {
-    return this._domains;
+    return this._domains.internalValue;
   }
 }
 export interface ManagedInstanceAwsLoadBalancers {
@@ -572,6 +938,215 @@ export function managedInstanceAwsLoadBalancersToTerraform(struct?: ManagedInsta
   }
 }
 
+export class ManagedInstanceAwsLoadBalancersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsLoadBalancers | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._arn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.arn = this._arn;
+    }
+    if (this._autoWeight !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoWeight = this._autoWeight;
+    }
+    if (this._azAwareness !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azAwareness = this._azAwareness;
+    }
+    if (this._balancerId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.balancerId = this._balancerId;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._targetSetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetSetId = this._targetSetId;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsLoadBalancers | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._arn = undefined;
+      this._autoWeight = undefined;
+      this._azAwareness = undefined;
+      this._balancerId = undefined;
+      this._name = undefined;
+      this._targetSetId = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._arn = value.arn;
+      this._autoWeight = value.autoWeight;
+      this._azAwareness = value.azAwareness;
+      this._balancerId = value.balancerId;
+      this._name = value.name;
+      this._targetSetId = value.targetSetId;
+      this._type = value.type;
+    }
+  }
+
+  // arn - computed: false, optional: true, required: false
+  private _arn?: string; 
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+  public set arn(value: string) {
+    this._arn = value;
+  }
+  public resetArn() {
+    this._arn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get arnInput() {
+    return this._arn;
+  }
+
+  // auto_weight - computed: false, optional: true, required: false
+  private _autoWeight?: boolean | cdktf.IResolvable; 
+  public get autoWeight() {
+    return this.getBooleanAttribute('auto_weight');
+  }
+  public set autoWeight(value: boolean | cdktf.IResolvable) {
+    this._autoWeight = value;
+  }
+  public resetAutoWeight() {
+    this._autoWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoWeightInput() {
+    return this._autoWeight;
+  }
+
+  // az_awareness - computed: false, optional: true, required: false
+  private _azAwareness?: boolean | cdktf.IResolvable; 
+  public get azAwareness() {
+    return this.getBooleanAttribute('az_awareness');
+  }
+  public set azAwareness(value: boolean | cdktf.IResolvable) {
+    this._azAwareness = value;
+  }
+  public resetAzAwareness() {
+    this._azAwareness = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azAwarenessInput() {
+    return this._azAwareness;
+  }
+
+  // balancer_id - computed: false, optional: true, required: false
+  private _balancerId?: string; 
+  public get balancerId() {
+    return this.getStringAttribute('balancer_id');
+  }
+  public set balancerId(value: string) {
+    this._balancerId = value;
+  }
+  public resetBalancerId() {
+    this._balancerId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get balancerIdInput() {
+    return this._balancerId;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // target_set_id - computed: false, optional: true, required: false
+  private _targetSetId?: string; 
+  public get targetSetId() {
+    return this.getStringAttribute('target_set_id');
+  }
+  public set targetSetId(value: string) {
+    this._targetSetId = value;
+  }
+  public resetTargetSetId() {
+    this._targetSetId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetSetIdInput() {
+    return this._targetSetId;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class ManagedInstanceAwsLoadBalancersList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsLoadBalancers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsLoadBalancersOutputReference {
+    return new ManagedInstanceAwsLoadBalancersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsManagedInstanceAction {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#type ManagedInstanceAws#type}
@@ -661,6 +1236,127 @@ export function managedInstanceAwsNetworkInterfaceToTerraform(struct?: ManagedIn
   }
 }
 
+export class ManagedInstanceAwsNetworkInterfaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsNetworkInterface | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._associateIpv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.associateIpv6Address = this._associateIpv6Address;
+    }
+    if (this._associatePublicIpAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.associatePublicIpAddress = this._associatePublicIpAddress;
+    }
+    if (this._deviceIndex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceIndex = this._deviceIndex;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsNetworkInterface | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._associateIpv6Address = undefined;
+      this._associatePublicIpAddress = undefined;
+      this._deviceIndex = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._associateIpv6Address = value.associateIpv6Address;
+      this._associatePublicIpAddress = value.associatePublicIpAddress;
+      this._deviceIndex = value.deviceIndex;
+    }
+  }
+
+  // associate_ipv6_address - computed: false, optional: true, required: false
+  private _associateIpv6Address?: boolean | cdktf.IResolvable; 
+  public get associateIpv6Address() {
+    return this.getBooleanAttribute('associate_ipv6_address');
+  }
+  public set associateIpv6Address(value: boolean | cdktf.IResolvable) {
+    this._associateIpv6Address = value;
+  }
+  public resetAssociateIpv6Address() {
+    this._associateIpv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associateIpv6AddressInput() {
+    return this._associateIpv6Address;
+  }
+
+  // associate_public_ip_address - computed: false, optional: true, required: false
+  private _associatePublicIpAddress?: boolean | cdktf.IResolvable; 
+  public get associatePublicIpAddress() {
+    return this.getBooleanAttribute('associate_public_ip_address');
+  }
+  public set associatePublicIpAddress(value: boolean | cdktf.IResolvable) {
+    this._associatePublicIpAddress = value;
+  }
+  public resetAssociatePublicIpAddress() {
+    this._associatePublicIpAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associatePublicIpAddressInput() {
+    return this._associatePublicIpAddress;
+  }
+
+  // device_index - computed: false, optional: false, required: true
+  private _deviceIndex?: string; 
+  public get deviceIndex() {
+    return this.getStringAttribute('device_index');
+  }
+  public set deviceIndex(value: string) {
+    this._deviceIndex = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceIndexInput() {
+    return this._deviceIndex;
+  }
+}
+
+export class ManagedInstanceAwsNetworkInterfaceList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsNetworkInterface[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsNetworkInterfaceOutputReference {
+    return new ManagedInstanceAwsNetworkInterfaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsResourceTagSpecification {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#should_tag_amis ManagedInstanceAws#should_tag_amis}
@@ -693,6 +1389,152 @@ export function managedInstanceAwsResourceTagSpecificationToTerraform(struct?: M
   }
 }
 
+export class ManagedInstanceAwsResourceTagSpecificationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsResourceTagSpecification | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._shouldTagAmis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagAmis = this._shouldTagAmis;
+    }
+    if (this._shouldTagEnis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagEnis = this._shouldTagEnis;
+    }
+    if (this._shouldTagSnapshots !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagSnapshots = this._shouldTagSnapshots;
+    }
+    if (this._shouldTagVolumes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldTagVolumes = this._shouldTagVolumes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsResourceTagSpecification | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._shouldTagAmis = undefined;
+      this._shouldTagEnis = undefined;
+      this._shouldTagSnapshots = undefined;
+      this._shouldTagVolumes = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._shouldTagAmis = value.shouldTagAmis;
+      this._shouldTagEnis = value.shouldTagEnis;
+      this._shouldTagSnapshots = value.shouldTagSnapshots;
+      this._shouldTagVolumes = value.shouldTagVolumes;
+    }
+  }
+
+  // should_tag_amis - computed: false, optional: true, required: false
+  private _shouldTagAmis?: boolean | cdktf.IResolvable; 
+  public get shouldTagAmis() {
+    return this.getBooleanAttribute('should_tag_amis');
+  }
+  public set shouldTagAmis(value: boolean | cdktf.IResolvable) {
+    this._shouldTagAmis = value;
+  }
+  public resetShouldTagAmis() {
+    this._shouldTagAmis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagAmisInput() {
+    return this._shouldTagAmis;
+  }
+
+  // should_tag_enis - computed: false, optional: true, required: false
+  private _shouldTagEnis?: boolean | cdktf.IResolvable; 
+  public get shouldTagEnis() {
+    return this.getBooleanAttribute('should_tag_enis');
+  }
+  public set shouldTagEnis(value: boolean | cdktf.IResolvable) {
+    this._shouldTagEnis = value;
+  }
+  public resetShouldTagEnis() {
+    this._shouldTagEnis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagEnisInput() {
+    return this._shouldTagEnis;
+  }
+
+  // should_tag_snapshots - computed: false, optional: true, required: false
+  private _shouldTagSnapshots?: boolean | cdktf.IResolvable; 
+  public get shouldTagSnapshots() {
+    return this.getBooleanAttribute('should_tag_snapshots');
+  }
+  public set shouldTagSnapshots(value: boolean | cdktf.IResolvable) {
+    this._shouldTagSnapshots = value;
+  }
+  public resetShouldTagSnapshots() {
+    this._shouldTagSnapshots = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagSnapshotsInput() {
+    return this._shouldTagSnapshots;
+  }
+
+  // should_tag_volumes - computed: false, optional: true, required: false
+  private _shouldTagVolumes?: boolean | cdktf.IResolvable; 
+  public get shouldTagVolumes() {
+    return this.getBooleanAttribute('should_tag_volumes');
+  }
+  public set shouldTagVolumes(value: boolean | cdktf.IResolvable) {
+    this._shouldTagVolumes = value;
+  }
+  public resetShouldTagVolumes() {
+    this._shouldTagVolumes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldTagVolumesInput() {
+    return this._shouldTagVolumes;
+  }
+}
+
+export class ManagedInstanceAwsResourceTagSpecificationList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsResourceTagSpecification[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsResourceTagSpecificationOutputReference {
+    return new ManagedInstanceAwsResourceTagSpecificationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsRevertToSpot {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#perform_at ManagedInstanceAws#perform_at}
@@ -792,6 +1634,171 @@ export function managedInstanceAwsScheduledTaskToTerraform(struct?: ManagedInsta
   }
 }
 
+export class ManagedInstanceAwsScheduledTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsScheduledTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._frequency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.frequency = this._frequency;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._startTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsScheduledTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cronExpression = undefined;
+      this._frequency = undefined;
+      this._isEnabled = undefined;
+      this._startTime = undefined;
+      this._taskType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cronExpression = value.cronExpression;
+      this._frequency = value.frequency;
+      this._isEnabled = value.isEnabled;
+      this._startTime = value.startTime;
+      this._taskType = value.taskType;
+    }
+  }
+
+  // cron_expression - computed: false, optional: true, required: false
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  public resetCronExpression() {
+    this._cronExpression = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // frequency - computed: false, optional: true, required: false
+  private _frequency?: string; 
+  public get frequency() {
+    return this.getStringAttribute('frequency');
+  }
+  public set frequency(value: string) {
+    this._frequency = value;
+  }
+  public resetFrequency() {
+    this._frequency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get frequencyInput() {
+    return this._frequency;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // start_time - computed: false, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+  public set startTime(value: string) {
+    this._startTime = value;
+  }
+  public resetStartTime() {
+    this._startTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+}
+
+export class ManagedInstanceAwsScheduledTaskList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsScheduledTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsScheduledTaskOutputReference {
+    return new ManagedInstanceAwsScheduledTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ManagedInstanceAwsTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws#key ManagedInstanceAws#key}
@@ -814,6 +1821,108 @@ export function managedInstanceAwsTagsToTerraform(struct?: ManagedInstanceAwsTag
   }
 }
 
+export class ManagedInstanceAwsTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ManagedInstanceAwsTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagedInstanceAwsTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ManagedInstanceAwsTagsList extends cdktf.ComplexList {
+  public internalValue? : ManagedInstanceAwsTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ManagedInstanceAwsTagsOutputReference {
+    return new ManagedInstanceAwsTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws spotinst_managed_instance_aws}
@@ -861,6 +1970,7 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
     this._gracePeriod = config.gracePeriod;
     this._healthCheckType = config.healthCheckType;
     this._iamInstanceProfile = config.iamInstanceProfile;
+    this._id = config.id;
     this._imageId = config.imageId;
     this._instanceTypes = config.instanceTypes;
     this._keyPair = config.keyPair;
@@ -884,15 +1994,15 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
     this._userData = config.userData;
     this._utilizeReservedInstances = config.utilizeReservedInstances;
     this._vpcId = config.vpcId;
-    this._blockDeviceMappings = config.blockDeviceMappings;
+    this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
     this._integrationRoute53.internalValue = config.integrationRoute53;
-    this._loadBalancers = config.loadBalancers;
+    this._loadBalancers.internalValue = config.loadBalancers;
     this._managedInstanceAction.internalValue = config.managedInstanceAction;
-    this._networkInterface = config.networkInterface;
-    this._resourceTagSpecification = config.resourceTagSpecification;
+    this._networkInterface.internalValue = config.networkInterface;
+    this._resourceTagSpecification.internalValue = config.resourceTagSpecification;
     this._revertToSpot.internalValue = config.revertToSpot;
-    this._scheduledTask = config.scheduledTask;
-    this._tags = config.tags;
+    this._scheduledTask.internalValue = config.scheduledTask;
+    this._tags.internalValue = config.tags;
   }
 
   // ==========
@@ -1092,8 +2202,19 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // image_id - computed: false, optional: false, required: true
@@ -1444,20 +2565,19 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   }
 
   // block_device_mappings - computed: false, optional: true, required: false
-  private _blockDeviceMappings?: ManagedInstanceAwsBlockDeviceMappings[] | cdktf.IResolvable; 
+  private _blockDeviceMappings = new ManagedInstanceAwsBlockDeviceMappingsList(this, "block_device_mappings", false);
   public get blockDeviceMappings() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('block_device_mappings');
+    return this._blockDeviceMappings;
   }
-  public set blockDeviceMappings(value: ManagedInstanceAwsBlockDeviceMappings[] | cdktf.IResolvable) {
-    this._blockDeviceMappings = value;
+  public putBlockDeviceMappings(value: ManagedInstanceAwsBlockDeviceMappings[] | cdktf.IResolvable) {
+    this._blockDeviceMappings.internalValue = value;
   }
   public resetBlockDeviceMappings() {
-    this._blockDeviceMappings = undefined;
+    this._blockDeviceMappings.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get blockDeviceMappingsInput() {
-    return this._blockDeviceMappings;
+    return this._blockDeviceMappings.internalValue;
   }
 
   // integration_route53 - computed: false, optional: true, required: false
@@ -1477,20 +2597,19 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   }
 
   // load_balancers - computed: false, optional: true, required: false
-  private _loadBalancers?: ManagedInstanceAwsLoadBalancers[] | cdktf.IResolvable; 
+  private _loadBalancers = new ManagedInstanceAwsLoadBalancersList(this, "load_balancers", true);
   public get loadBalancers() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('load_balancers')));
+    return this._loadBalancers;
   }
-  public set loadBalancers(value: ManagedInstanceAwsLoadBalancers[] | cdktf.IResolvable) {
-    this._loadBalancers = value;
+  public putLoadBalancers(value: ManagedInstanceAwsLoadBalancers[] | cdktf.IResolvable) {
+    this._loadBalancers.internalValue = value;
   }
   public resetLoadBalancers() {
-    this._loadBalancers = undefined;
+    this._loadBalancers.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get loadBalancersInput() {
-    return this._loadBalancers;
+    return this._loadBalancers.internalValue;
   }
 
   // managed_instance_action - computed: false, optional: true, required: false
@@ -1510,37 +2629,35 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   }
 
   // network_interface - computed: false, optional: true, required: false
-  private _networkInterface?: ManagedInstanceAwsNetworkInterface[] | cdktf.IResolvable; 
+  private _networkInterface = new ManagedInstanceAwsNetworkInterfaceList(this, "network_interface", true);
   public get networkInterface() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('network_interface')));
+    return this._networkInterface;
   }
-  public set networkInterface(value: ManagedInstanceAwsNetworkInterface[] | cdktf.IResolvable) {
-    this._networkInterface = value;
+  public putNetworkInterface(value: ManagedInstanceAwsNetworkInterface[] | cdktf.IResolvable) {
+    this._networkInterface.internalValue = value;
   }
   public resetNetworkInterface() {
-    this._networkInterface = undefined;
+    this._networkInterface.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get networkInterfaceInput() {
-    return this._networkInterface;
+    return this._networkInterface.internalValue;
   }
 
   // resource_tag_specification - computed: false, optional: true, required: false
-  private _resourceTagSpecification?: ManagedInstanceAwsResourceTagSpecification[] | cdktf.IResolvable; 
+  private _resourceTagSpecification = new ManagedInstanceAwsResourceTagSpecificationList(this, "resource_tag_specification", false);
   public get resourceTagSpecification() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('resource_tag_specification');
+    return this._resourceTagSpecification;
   }
-  public set resourceTagSpecification(value: ManagedInstanceAwsResourceTagSpecification[] | cdktf.IResolvable) {
-    this._resourceTagSpecification = value;
+  public putResourceTagSpecification(value: ManagedInstanceAwsResourceTagSpecification[] | cdktf.IResolvable) {
+    this._resourceTagSpecification.internalValue = value;
   }
   public resetResourceTagSpecification() {
-    this._resourceTagSpecification = undefined;
+    this._resourceTagSpecification.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get resourceTagSpecificationInput() {
-    return this._resourceTagSpecification;
+    return this._resourceTagSpecification.internalValue;
   }
 
   // revert_to_spot - computed: false, optional: true, required: false
@@ -1560,37 +2677,35 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   }
 
   // scheduled_task - computed: false, optional: true, required: false
-  private _scheduledTask?: ManagedInstanceAwsScheduledTask[] | cdktf.IResolvable; 
+  private _scheduledTask = new ManagedInstanceAwsScheduledTaskList(this, "scheduled_task", true);
   public get scheduledTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduled_task')));
+    return this._scheduledTask;
   }
-  public set scheduledTask(value: ManagedInstanceAwsScheduledTask[] | cdktf.IResolvable) {
-    this._scheduledTask = value;
+  public putScheduledTask(value: ManagedInstanceAwsScheduledTask[] | cdktf.IResolvable) {
+    this._scheduledTask.internalValue = value;
   }
   public resetScheduledTask() {
-    this._scheduledTask = undefined;
+    this._scheduledTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scheduledTaskInput() {
-    return this._scheduledTask;
+    return this._scheduledTask.internalValue;
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: ManagedInstanceAwsTags[] | cdktf.IResolvable; 
+  private _tags = new ManagedInstanceAwsTagsList(this, "tags", true);
   public get tags() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tags')));
+    return this._tags;
   }
-  public set tags(value: ManagedInstanceAwsTags[] | cdktf.IResolvable) {
-    this._tags = value;
+  public putTags(value: ManagedInstanceAwsTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
   }
   public resetTags() {
-    this._tags = undefined;
+    this._tags.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagsInput() {
-    return this._tags;
+    return this._tags.internalValue;
   }
 
   // =========
@@ -1611,6 +2726,7 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       grace_period: cdktf.numberToTerraform(this._gracePeriod),
       health_check_type: cdktf.stringToTerraform(this._healthCheckType),
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
+      id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
       key_pair: cdktf.stringToTerraform(this._keyPair),
@@ -1634,15 +2750,15 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       user_data: cdktf.stringToTerraform(this._userData),
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
-      block_device_mappings: cdktf.listMapper(managedInstanceAwsBlockDeviceMappingsToTerraform)(this._blockDeviceMappings),
+      block_device_mappings: cdktf.listMapper(managedInstanceAwsBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
       integration_route53: managedInstanceAwsIntegrationRoute53ToTerraform(this._integrationRoute53.internalValue),
-      load_balancers: cdktf.listMapper(managedInstanceAwsLoadBalancersToTerraform)(this._loadBalancers),
+      load_balancers: cdktf.listMapper(managedInstanceAwsLoadBalancersToTerraform)(this._loadBalancers.internalValue),
       managed_instance_action: managedInstanceAwsManagedInstanceActionToTerraform(this._managedInstanceAction.internalValue),
-      network_interface: cdktf.listMapper(managedInstanceAwsNetworkInterfaceToTerraform)(this._networkInterface),
-      resource_tag_specification: cdktf.listMapper(managedInstanceAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification),
+      network_interface: cdktf.listMapper(managedInstanceAwsNetworkInterfaceToTerraform)(this._networkInterface.internalValue),
+      resource_tag_specification: cdktf.listMapper(managedInstanceAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification.internalValue),
       revert_to_spot: managedInstanceAwsRevertToSpotToTerraform(this._revertToSpot.internalValue),
-      scheduled_task: cdktf.listMapper(managedInstanceAwsScheduledTaskToTerraform)(this._scheduledTask),
-      tags: cdktf.listMapper(managedInstanceAwsTagsToTerraform)(this._tags),
+      scheduled_task: cdktf.listMapper(managedInstanceAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      tags: cdktf.listMapper(managedInstanceAwsTagsToTerraform)(this._tags.internalValue),
     };
   }
 }

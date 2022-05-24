@@ -12,6 +12,13 @@ export interface OceanEcsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly iamInstanceProfile?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#id OceanEcsLaunchSpec#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#image_id OceanEcsLaunchSpec#image_id}
   */
   readonly imageId?: string;
@@ -96,6 +103,102 @@ export function oceanEcsLaunchSpecAttributesToTerraform(struct?: OceanEcsLaunchS
   }
 }
 
+export class OceanEcsLaunchSpecAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class OceanEcsLaunchSpecAttributesList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecAttributesOutputReference {
+    return new OceanEcsLaunchSpecAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecAutoscaleHeadrooms {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#cpu_per_unit OceanEcsLaunchSpec#cpu_per_unit}
@@ -123,6 +226,127 @@ export function oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform(struct?: OceanEc
   }
 }
 
+export class OceanEcsLaunchSpecAutoscaleHeadroomsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecAutoscaleHeadrooms | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cpuPerUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuPerUnit = this._cpuPerUnit;
+    }
+    if (this._memoryPerUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryPerUnit = this._memoryPerUnit;
+    }
+    if (this._numOfUnits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numOfUnits = this._numOfUnits;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecAutoscaleHeadrooms | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cpuPerUnit = undefined;
+      this._memoryPerUnit = undefined;
+      this._numOfUnits = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cpuPerUnit = value.cpuPerUnit;
+      this._memoryPerUnit = value.memoryPerUnit;
+      this._numOfUnits = value.numOfUnits;
+    }
+  }
+
+  // cpu_per_unit - computed: false, optional: true, required: false
+  private _cpuPerUnit?: number; 
+  public get cpuPerUnit() {
+    return this.getNumberAttribute('cpu_per_unit');
+  }
+  public set cpuPerUnit(value: number) {
+    this._cpuPerUnit = value;
+  }
+  public resetCpuPerUnit() {
+    this._cpuPerUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuPerUnitInput() {
+    return this._cpuPerUnit;
+  }
+
+  // memory_per_unit - computed: false, optional: true, required: false
+  private _memoryPerUnit?: number; 
+  public get memoryPerUnit() {
+    return this.getNumberAttribute('memory_per_unit');
+  }
+  public set memoryPerUnit(value: number) {
+    this._memoryPerUnit = value;
+  }
+  public resetMemoryPerUnit() {
+    this._memoryPerUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryPerUnitInput() {
+    return this._memoryPerUnit;
+  }
+
+  // num_of_units - computed: false, optional: false, required: true
+  private _numOfUnits?: number; 
+  public get numOfUnits() {
+    return this.getNumberAttribute('num_of_units');
+  }
+  public set numOfUnits(value: number) {
+    this._numOfUnits = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numOfUnitsInput() {
+    return this._numOfUnits;
+  }
+}
+
+export class OceanEcsLaunchSpecAutoscaleHeadroomsList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecAutoscaleHeadroomsOutputReference {
+    return new OceanEcsLaunchSpecAutoscaleHeadroomsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#base_size OceanEcsLaunchSpec#base_size}
@@ -550,6 +774,149 @@ export function oceanEcsLaunchSpecBlockDeviceMappingsToTerraform(struct?: OceanE
   }
 }
 
+export class OceanEcsLaunchSpecBlockDeviceMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecBlockDeviceMappings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._noDevice !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noDevice = this._noDevice;
+    }
+    if (this._virtualName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualName = this._virtualName;
+    }
+    if (this._ebs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ebs = this._ebs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecBlockDeviceMappings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deviceName = undefined;
+      this._noDevice = undefined;
+      this._virtualName = undefined;
+      this._ebs.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deviceName = value.deviceName;
+      this._noDevice = value.noDevice;
+      this._virtualName = value.virtualName;
+      this._ebs.internalValue = value.ebs;
+    }
+  }
+
+  // device_name - computed: false, optional: false, required: true
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // no_device - computed: false, optional: true, required: false
+  private _noDevice?: string; 
+  public get noDevice() {
+    return this.getStringAttribute('no_device');
+  }
+  public set noDevice(value: string) {
+    this._noDevice = value;
+  }
+  public resetNoDevice() {
+    this._noDevice = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noDeviceInput() {
+    return this._noDevice;
+  }
+
+  // virtual_name - computed: false, optional: true, required: false
+  private _virtualName?: string; 
+  public get virtualName() {
+    return this.getStringAttribute('virtual_name');
+  }
+  public set virtualName(value: string) {
+    this._virtualName = value;
+  }
+  public resetVirtualName() {
+    this._virtualName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualNameInput() {
+    return this._virtualName;
+  }
+
+  // ebs - computed: false, optional: true, required: false
+  private _ebs = new OceanEcsLaunchSpecBlockDeviceMappingsEbsOutputReference(this, "ebs");
+  public get ebs() {
+    return this._ebs;
+  }
+  public putEbs(value: OceanEcsLaunchSpecBlockDeviceMappingsEbs) {
+    this._ebs.internalValue = value;
+  }
+  public resetEbs() {
+    this._ebs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ebsInput() {
+    return this._ebs.internalValue;
+  }
+}
+
+export class OceanEcsLaunchSpecBlockDeviceMappingsList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecBlockDeviceMappingsOutputReference {
+    return new OceanEcsLaunchSpecBlockDeviceMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecSchedulingTaskTaskHeadroom {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#cpu_per_unit OceanEcsLaunchSpec#cpu_per_unit}
@@ -577,6 +944,127 @@ export function oceanEcsLaunchSpecSchedulingTaskTaskHeadroomToTerraform(struct?:
   }
 }
 
+export class OceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecSchedulingTaskTaskHeadroom | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cpuPerUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuPerUnit = this._cpuPerUnit;
+    }
+    if (this._memoryPerUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryPerUnit = this._memoryPerUnit;
+    }
+    if (this._numOfUnits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numOfUnits = this._numOfUnits;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecSchedulingTaskTaskHeadroom | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cpuPerUnit = undefined;
+      this._memoryPerUnit = undefined;
+      this._numOfUnits = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cpuPerUnit = value.cpuPerUnit;
+      this._memoryPerUnit = value.memoryPerUnit;
+      this._numOfUnits = value.numOfUnits;
+    }
+  }
+
+  // cpu_per_unit - computed: false, optional: true, required: false
+  private _cpuPerUnit?: number; 
+  public get cpuPerUnit() {
+    return this.getNumberAttribute('cpu_per_unit');
+  }
+  public set cpuPerUnit(value: number) {
+    this._cpuPerUnit = value;
+  }
+  public resetCpuPerUnit() {
+    this._cpuPerUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuPerUnitInput() {
+    return this._cpuPerUnit;
+  }
+
+  // memory_per_unit - computed: false, optional: true, required: false
+  private _memoryPerUnit?: number; 
+  public get memoryPerUnit() {
+    return this.getNumberAttribute('memory_per_unit');
+  }
+  public set memoryPerUnit(value: number) {
+    this._memoryPerUnit = value;
+  }
+  public resetMemoryPerUnit() {
+    this._memoryPerUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryPerUnitInput() {
+    return this._memoryPerUnit;
+  }
+
+  // num_of_units - computed: false, optional: false, required: true
+  private _numOfUnits?: number; 
+  public get numOfUnits() {
+    return this.getNumberAttribute('num_of_units');
+  }
+  public set numOfUnits(value: number) {
+    this._numOfUnits = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numOfUnitsInput() {
+    return this._numOfUnits;
+  }
+}
+
+export class OceanEcsLaunchSpecSchedulingTaskTaskHeadroomList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecSchedulingTaskTaskHeadroom[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference {
+    return new OceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecSchedulingTask {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#cron_expression OceanEcsLaunchSpec#cron_expression}
@@ -611,6 +1099,143 @@ export function oceanEcsLaunchSpecSchedulingTaskToTerraform(struct?: OceanEcsLau
   }
 }
 
+export class OceanEcsLaunchSpecSchedulingTaskOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecSchedulingTask | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cronExpression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cronExpression = this._cronExpression;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._taskType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskType = this._taskType;
+    }
+    if (this._taskHeadroom?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskHeadroom = this._taskHeadroom?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecSchedulingTask | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cronExpression = undefined;
+      this._isEnabled = undefined;
+      this._taskType = undefined;
+      this._taskHeadroom.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cronExpression = value.cronExpression;
+      this._isEnabled = value.isEnabled;
+      this._taskType = value.taskType;
+      this._taskHeadroom.internalValue = value.taskHeadroom;
+    }
+  }
+
+  // cron_expression - computed: false, optional: false, required: true
+  private _cronExpression?: string; 
+  public get cronExpression() {
+    return this.getStringAttribute('cron_expression');
+  }
+  public set cronExpression(value: string) {
+    this._cronExpression = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronExpressionInput() {
+    return this._cronExpression;
+  }
+
+  // is_enabled - computed: false, optional: false, required: true
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // task_type - computed: false, optional: false, required: true
+  private _taskType?: string; 
+  public get taskType() {
+    return this.getStringAttribute('task_type');
+  }
+  public set taskType(value: string) {
+    this._taskType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskTypeInput() {
+    return this._taskType;
+  }
+
+  // task_headroom - computed: false, optional: true, required: false
+  private _taskHeadroom = new OceanEcsLaunchSpecSchedulingTaskTaskHeadroomList(this, "task_headroom", true);
+  public get taskHeadroom() {
+    return this._taskHeadroom;
+  }
+  public putTaskHeadroom(value: OceanEcsLaunchSpecSchedulingTaskTaskHeadroom[] | cdktf.IResolvable) {
+    this._taskHeadroom.internalValue = value;
+  }
+  public resetTaskHeadroom() {
+    this._taskHeadroom.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskHeadroomInput() {
+    return this._taskHeadroom.internalValue;
+  }
+}
+
+export class OceanEcsLaunchSpecSchedulingTaskList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecSchedulingTask[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecSchedulingTaskOutputReference {
+    return new OceanEcsLaunchSpecSchedulingTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#key OceanEcsLaunchSpec#key}
@@ -633,6 +1258,102 @@ export function oceanEcsLaunchSpecTagsToTerraform(struct?: OceanEcsLaunchSpecTag
   }
 }
 
+export class OceanEcsLaunchSpecTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecTags | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecTags | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class OceanEcsLaunchSpecTagsList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecTags[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecTagsOutputReference {
+    return new OceanEcsLaunchSpecTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec spotinst_ocean_ecs_launch_spec}
@@ -669,6 +1390,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       lifecycle: config.lifecycle
     });
     this._iamInstanceProfile = config.iamInstanceProfile;
+    this._id = config.id;
     this._imageId = config.imageId;
     this._instanceTypes = config.instanceTypes;
     this._name = config.name;
@@ -677,11 +1399,11 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     this._securityGroupIds = config.securityGroupIds;
     this._subnetIds = config.subnetIds;
     this._userData = config.userData;
-    this._attributes = config.attributes;
-    this._autoscaleHeadrooms = config.autoscaleHeadrooms;
-    this._blockDeviceMappings = config.blockDeviceMappings;
-    this._schedulingTask = config.schedulingTask;
-    this._tags = config.tags;
+    this._attributes.internalValue = config.attributes;
+    this._autoscaleHeadrooms.internalValue = config.autoscaleHeadrooms;
+    this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
+    this._schedulingTask.internalValue = config.schedulingTask;
+    this._tags.internalValue = config.tags;
   }
 
   // ==========
@@ -705,8 +1427,19 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // image_id - computed: false, optional: true, required: false
@@ -832,88 +1565,83 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: OceanEcsLaunchSpecAttributes[] | cdktf.IResolvable; 
+  private _attributes = new OceanEcsLaunchSpecAttributesList(this, "attributes", true);
   public get attributes() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('attributes')));
+    return this._attributes;
   }
-  public set attributes(value: OceanEcsLaunchSpecAttributes[] | cdktf.IResolvable) {
-    this._attributes = value;
+  public putAttributes(value: OceanEcsLaunchSpecAttributes[] | cdktf.IResolvable) {
+    this._attributes.internalValue = value;
   }
   public resetAttributes() {
-    this._attributes = undefined;
+    this._attributes.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get attributesInput() {
-    return this._attributes;
+    return this._attributes.internalValue;
   }
 
   // autoscale_headrooms - computed: false, optional: true, required: false
-  private _autoscaleHeadrooms?: OceanEcsLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable; 
+  private _autoscaleHeadrooms = new OceanEcsLaunchSpecAutoscaleHeadroomsList(this, "autoscale_headrooms", true);
   public get autoscaleHeadrooms() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('autoscale_headrooms')));
+    return this._autoscaleHeadrooms;
   }
-  public set autoscaleHeadrooms(value: OceanEcsLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable) {
-    this._autoscaleHeadrooms = value;
+  public putAutoscaleHeadrooms(value: OceanEcsLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable) {
+    this._autoscaleHeadrooms.internalValue = value;
   }
   public resetAutoscaleHeadrooms() {
-    this._autoscaleHeadrooms = undefined;
+    this._autoscaleHeadrooms.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get autoscaleHeadroomsInput() {
-    return this._autoscaleHeadrooms;
+    return this._autoscaleHeadrooms.internalValue;
   }
 
   // block_device_mappings - computed: false, optional: true, required: false
-  private _blockDeviceMappings?: OceanEcsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable; 
+  private _blockDeviceMappings = new OceanEcsLaunchSpecBlockDeviceMappingsList(this, "block_device_mappings", false);
   public get blockDeviceMappings() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('block_device_mappings');
+    return this._blockDeviceMappings;
   }
-  public set blockDeviceMappings(value: OceanEcsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable) {
-    this._blockDeviceMappings = value;
+  public putBlockDeviceMappings(value: OceanEcsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable) {
+    this._blockDeviceMappings.internalValue = value;
   }
   public resetBlockDeviceMappings() {
-    this._blockDeviceMappings = undefined;
+    this._blockDeviceMappings.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get blockDeviceMappingsInput() {
-    return this._blockDeviceMappings;
+    return this._blockDeviceMappings.internalValue;
   }
 
   // scheduling_task - computed: false, optional: true, required: false
-  private _schedulingTask?: OceanEcsLaunchSpecSchedulingTask[] | cdktf.IResolvable; 
+  private _schedulingTask = new OceanEcsLaunchSpecSchedulingTaskList(this, "scheduling_task", true);
   public get schedulingTask() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('scheduling_task')));
+    return this._schedulingTask;
   }
-  public set schedulingTask(value: OceanEcsLaunchSpecSchedulingTask[] | cdktf.IResolvable) {
-    this._schedulingTask = value;
+  public putSchedulingTask(value: OceanEcsLaunchSpecSchedulingTask[] | cdktf.IResolvable) {
+    this._schedulingTask.internalValue = value;
   }
   public resetSchedulingTask() {
-    this._schedulingTask = undefined;
+    this._schedulingTask.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get schedulingTaskInput() {
-    return this._schedulingTask;
+    return this._schedulingTask.internalValue;
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: OceanEcsLaunchSpecTags[] | cdktf.IResolvable; 
+  private _tags = new OceanEcsLaunchSpecTagsList(this, "tags", true);
   public get tags() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('tags')));
+    return this._tags;
   }
-  public set tags(value: OceanEcsLaunchSpecTags[] | cdktf.IResolvable) {
-    this._tags = value;
+  public putTags(value: OceanEcsLaunchSpecTags[] | cdktf.IResolvable) {
+    this._tags.internalValue = value;
   }
   public resetTags() {
-    this._tags = undefined;
+    this._tags.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tagsInput() {
-    return this._tags;
+    return this._tags.internalValue;
   }
 
   // =========
@@ -923,6 +1651,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
+      id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
       name: cdktf.stringToTerraform(this._name),
@@ -931,11 +1660,11 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroupIds),
       subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
       user_data: cdktf.stringToTerraform(this._userData),
-      attributes: cdktf.listMapper(oceanEcsLaunchSpecAttributesToTerraform)(this._attributes),
-      autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform)(this._autoscaleHeadrooms),
-      block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform)(this._blockDeviceMappings),
-      scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform)(this._schedulingTask),
-      tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform)(this._tags),
+      attributes: cdktf.listMapper(oceanEcsLaunchSpecAttributesToTerraform)(this._attributes.internalValue),
+      autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform)(this._autoscaleHeadrooms.internalValue),
+      block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
+      scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
+      tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform)(this._tags.internalValue),
     };
   }
 }

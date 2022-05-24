@@ -16,6 +16,13 @@ export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   */
   readonly desiredCapacity?: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#id ElastigroupAzureV3#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}
   */
   readonly maxSize?: number;
@@ -100,6 +107,102 @@ export function elastigroupAzureV3ImageCustomToTerraform(struct?: ElastigroupAzu
   }
 }
 
+export class ElastigroupAzureV3ImageCustomOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ImageCustom | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._imageName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageName = this._imageName;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ImageCustom | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._imageName = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._imageName = value.imageName;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // image_name - computed: false, optional: false, required: true
+  private _imageName?: string; 
+  public get imageName() {
+    return this.getStringAttribute('image_name');
+  }
+  public set imageName(value: string) {
+    this._imageName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageNameInput() {
+    return this._imageName;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class ElastigroupAzureV3ImageCustomList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ImageCustom[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ImageCustomOutputReference {
+    return new ElastigroupAzureV3ImageCustomOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3ImageMarketplace {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}
@@ -132,6 +235,140 @@ export function elastigroupAzureV3ImageMarketplaceToTerraform(struct?: Elastigro
   }
 }
 
+export class ElastigroupAzureV3ImageMarketplaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ImageMarketplace | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._offer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.offer = this._offer;
+    }
+    if (this._publisher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publisher = this._publisher;
+    }
+    if (this._sku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sku = this._sku;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ImageMarketplace | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._offer = undefined;
+      this._publisher = undefined;
+      this._sku = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._offer = value.offer;
+      this._publisher = value.publisher;
+      this._sku = value.sku;
+      this._version = value.version;
+    }
+  }
+
+  // offer - computed: false, optional: false, required: true
+  private _offer?: string; 
+  public get offer() {
+    return this.getStringAttribute('offer');
+  }
+  public set offer(value: string) {
+    this._offer = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offerInput() {
+    return this._offer;
+  }
+
+  // publisher - computed: false, optional: false, required: true
+  private _publisher?: string; 
+  public get publisher() {
+    return this.getStringAttribute('publisher');
+  }
+  public set publisher(value: string) {
+    this._publisher = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publisherInput() {
+    return this._publisher;
+  }
+
+  // sku - computed: false, optional: false, required: true
+  private _sku?: string; 
+  public get sku() {
+    return this.getStringAttribute('sku');
+  }
+  public set sku(value: string) {
+    this._sku = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skuInput() {
+    return this._sku;
+  }
+
+  // version - computed: false, optional: false, required: true
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class ElastigroupAzureV3ImageMarketplaceList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ImageMarketplace[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ImageMarketplaceOutputReference {
+    return new ElastigroupAzureV3ImageMarketplaceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3Image {
   /**
   * custom block
@@ -158,6 +395,108 @@ export function elastigroupAzureV3ImageToTerraform(struct?: ElastigroupAzureV3Im
   }
 }
 
+export class ElastigroupAzureV3ImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3Image | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._custom?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.custom = this._custom?.internalValue;
+    }
+    if (this._marketplace?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.marketplace = this._marketplace?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3Image | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._custom.internalValue = undefined;
+      this._marketplace.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._custom.internalValue = value.custom;
+      this._marketplace.internalValue = value.marketplace;
+    }
+  }
+
+  // custom - computed: false, optional: true, required: false
+  private _custom = new ElastigroupAzureV3ImageCustomList(this, "custom", false);
+  public get custom() {
+    return this._custom;
+  }
+  public putCustom(value: ElastigroupAzureV3ImageCustom[] | cdktf.IResolvable) {
+    this._custom.internalValue = value;
+  }
+  public resetCustom() {
+    this._custom.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customInput() {
+    return this._custom.internalValue;
+  }
+
+  // marketplace - computed: false, optional: true, required: false
+  private _marketplace = new ElastigroupAzureV3ImageMarketplaceList(this, "marketplace", false);
+  public get marketplace() {
+    return this._marketplace;
+  }
+  public putMarketplace(value: ElastigroupAzureV3ImageMarketplace[] | cdktf.IResolvable) {
+    this._marketplace.internalValue = value;
+  }
+  public resetMarketplace() {
+    this._marketplace.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get marketplaceInput() {
+    return this._marketplace.internalValue;
+  }
+}
+
+export class ElastigroupAzureV3ImageList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3Image[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ImageOutputReference {
+    return new ElastigroupAzureV3ImageOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3Login {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#password ElastigroupAzureV3#password}
@@ -296,6 +635,102 @@ export function elastigroupAzureV3ManagedServiceIdentityToTerraform(struct?: Ela
   }
 }
 
+export class ElastigroupAzureV3ManagedServiceIdentityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ManagedServiceIdentity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ManagedServiceIdentity | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class ElastigroupAzureV3ManagedServiceIdentityList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ManagedServiceIdentity[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ManagedServiceIdentityOutputReference {
+    return new ElastigroupAzureV3ManagedServiceIdentityOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#name ElastigroupAzureV3#name}
@@ -318,6 +753,105 @@ export function elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToT
   }
 }
 
+export class ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._privateIpVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateIpVersion = this._privateIpVersion;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._privateIpVersion = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._privateIpVersion = value.privateIpVersion;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // private_ip_version - computed: false, optional: true, required: false
+  private _privateIpVersion?: string; 
+  public get privateIpVersion() {
+    return this.getStringAttribute('private_ip_version');
+  }
+  public set privateIpVersion(value: string) {
+    this._privateIpVersion = value;
+  }
+  public resetPrivateIpVersion() {
+    this._privateIpVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateIpVersionInput() {
+    return this._privateIpVersion;
+  }
+}
+
+export class ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference {
+    return new ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#name ElastigroupAzureV3#name}
@@ -340,6 +874,102 @@ export function elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGro
   }
 }
 
+export class ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._resourceGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceGroupName = this._resourceGroupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._resourceGroupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._resourceGroupName = value.resourceGroupName;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // resource_group_name - computed: false, optional: false, required: true
+  private _resourceGroupName?: string; 
+  public get resourceGroupName() {
+    return this.getStringAttribute('resource_group_name');
+  }
+  public set resourceGroupName(value: string) {
+    this._resourceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceGroupNameInput() {
+    return this._resourceGroupName;
+  }
+}
+
+export class ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference {
+    return new ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3NetworkNetworkInterfaces {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}
@@ -381,6 +1011,165 @@ export function elastigroupAzureV3NetworkNetworkInterfacesToTerraform(struct?: E
   }
 }
 
+export class ElastigroupAzureV3NetworkNetworkInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3NetworkNetworkInterfaces | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._assignPublicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.assignPublicIp = this._assignPublicIp;
+    }
+    if (this._isPrimary !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrimary = this._isPrimary;
+    }
+    if (this._subnetName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetName = this._subnetName;
+    }
+    if (this._additionalIpConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalIpConfigs = this._additionalIpConfigs?.internalValue;
+    }
+    if (this._applicationSecurityGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationSecurityGroup = this._applicationSecurityGroup?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3NetworkNetworkInterfaces | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = undefined;
+      this._isPrimary = undefined;
+      this._subnetName = undefined;
+      this._additionalIpConfigs.internalValue = undefined;
+      this._applicationSecurityGroup.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._assignPublicIp = value.assignPublicIp;
+      this._isPrimary = value.isPrimary;
+      this._subnetName = value.subnetName;
+      this._additionalIpConfigs.internalValue = value.additionalIpConfigs;
+      this._applicationSecurityGroup.internalValue = value.applicationSecurityGroup;
+    }
+  }
+
+  // assign_public_ip - computed: false, optional: false, required: true
+  private _assignPublicIp?: boolean | cdktf.IResolvable; 
+  public get assignPublicIp() {
+    return this.getBooleanAttribute('assign_public_ip');
+  }
+  public set assignPublicIp(value: boolean | cdktf.IResolvable) {
+    this._assignPublicIp = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get assignPublicIpInput() {
+    return this._assignPublicIp;
+  }
+
+  // is_primary - computed: false, optional: false, required: true
+  private _isPrimary?: boolean | cdktf.IResolvable; 
+  public get isPrimary() {
+    return this.getBooleanAttribute('is_primary');
+  }
+  public set isPrimary(value: boolean | cdktf.IResolvable) {
+    this._isPrimary = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrimaryInput() {
+    return this._isPrimary;
+  }
+
+  // subnet_name - computed: false, optional: false, required: true
+  private _subnetName?: string; 
+  public get subnetName() {
+    return this.getStringAttribute('subnet_name');
+  }
+  public set subnetName(value: string) {
+    this._subnetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetNameInput() {
+    return this._subnetName;
+  }
+
+  // additional_ip_configs - computed: false, optional: true, required: false
+  private _additionalIpConfigs = new ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList(this, "additional_ip_configs", false);
+  public get additionalIpConfigs() {
+    return this._additionalIpConfigs;
+  }
+  public putAdditionalIpConfigs(value: ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs[] | cdktf.IResolvable) {
+    this._additionalIpConfigs.internalValue = value;
+  }
+  public resetAdditionalIpConfigs() {
+    this._additionalIpConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalIpConfigsInput() {
+    return this._additionalIpConfigs.internalValue;
+  }
+
+  // application_security_group - computed: false, optional: true, required: false
+  private _applicationSecurityGroup = new ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList(this, "application_security_group", true);
+  public get applicationSecurityGroup() {
+    return this._applicationSecurityGroup;
+  }
+  public putApplicationSecurityGroup(value: ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup[] | cdktf.IResolvable) {
+    this._applicationSecurityGroup.internalValue = value;
+  }
+  public resetApplicationSecurityGroup() {
+    this._applicationSecurityGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationSecurityGroupInput() {
+    return this._applicationSecurityGroup.internalValue;
+  }
+}
+
+export class ElastigroupAzureV3NetworkNetworkInterfacesList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3NetworkNetworkInterfaces[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3NetworkNetworkInterfacesOutputReference {
+    return new ElastigroupAzureV3NetworkNetworkInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3Network {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
@@ -432,9 +1221,9 @@ export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.virtualNetworkName = this._virtualNetworkName;
     }
-    if (this._networkInterfaces !== undefined) {
+    if (this._networkInterfaces?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.networkInterfaces = this._networkInterfaces;
+      internalValueResult.networkInterfaces = this._networkInterfaces?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -444,13 +1233,13 @@ export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = false;
       this._resourceGroupName = undefined;
       this._virtualNetworkName = undefined;
-      this._networkInterfaces = undefined;
+      this._networkInterfaces.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._resourceGroupName = value.resourceGroupName;
       this._virtualNetworkName = value.virtualNetworkName;
-      this._networkInterfaces = value.networkInterfaces;
+      this._networkInterfaces.internalValue = value.networkInterfaces;
     }
   }
 
@@ -481,17 +1270,16 @@ export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObjec
   }
 
   // network_interfaces - computed: false, optional: false, required: true
-  private _networkInterfaces?: ElastigroupAzureV3NetworkNetworkInterfaces[] | cdktf.IResolvable; 
+  private _networkInterfaces = new ElastigroupAzureV3NetworkNetworkInterfacesList(this, "network_interfaces", false);
   public get networkInterfaces() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('network_interfaces');
+    return this._networkInterfaces;
   }
-  public set networkInterfaces(value: ElastigroupAzureV3NetworkNetworkInterfaces[] | cdktf.IResolvable) {
-    this._networkInterfaces = value;
+  public putNetworkInterfaces(value: ElastigroupAzureV3NetworkNetworkInterfaces[] | cdktf.IResolvable) {
+    this._networkInterfaces.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
   public get networkInterfacesInput() {
-    return this._networkInterfaces;
+    return this._networkInterfaces.internalValue;
   }
 }
 export interface ElastigroupAzureV3Strategy {
@@ -677,6 +1465,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     });
     this._customData = config.customData;
     this._desiredCapacity = config.desiredCapacity;
+    this._id = config.id;
     this._maxSize = config.maxSize;
     this._minSize = config.minSize;
     this._name = config.name;
@@ -685,9 +1474,9 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     this._region = config.region;
     this._resourceGroupName = config.resourceGroupName;
     this._spotSizes = config.spotSizes;
-    this._image = config.image;
+    this._image.internalValue = config.image;
     this._login.internalValue = config.login;
-    this._managedServiceIdentity = config.managedServiceIdentity;
+    this._managedServiceIdentity.internalValue = config.managedServiceIdentity;
     this._network.internalValue = config.network;
     this._strategy.internalValue = config.strategy;
   }
@@ -729,8 +1518,19 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
   }
 
   // max_size - computed: true, optional: true, required: false
@@ -844,20 +1644,19 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   }
 
   // image - computed: false, optional: true, required: false
-  private _image?: ElastigroupAzureV3Image[] | cdktf.IResolvable; 
+  private _image = new ElastigroupAzureV3ImageList(this, "image", false);
   public get image() {
-    // Getting the computed value is not yet implemented
-    return this.interpolationForAttribute('image');
+    return this._image;
   }
-  public set image(value: ElastigroupAzureV3Image[] | cdktf.IResolvable) {
-    this._image = value;
+  public putImage(value: ElastigroupAzureV3Image[] | cdktf.IResolvable) {
+    this._image.internalValue = value;
   }
   public resetImage() {
-    this._image = undefined;
+    this._image.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get imageInput() {
-    return this._image;
+    return this._image.internalValue;
   }
 
   // login - computed: false, optional: true, required: false
@@ -877,20 +1676,19 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   }
 
   // managed_service_identity - computed: false, optional: true, required: false
-  private _managedServiceIdentity?: ElastigroupAzureV3ManagedServiceIdentity[] | cdktf.IResolvable; 
+  private _managedServiceIdentity = new ElastigroupAzureV3ManagedServiceIdentityList(this, "managed_service_identity", true);
   public get managedServiceIdentity() {
-    // Getting the computed value is not yet implemented
-    return cdktf.Token.asAny(cdktf.Fn.tolist(this.interpolationForAttribute('managed_service_identity')));
+    return this._managedServiceIdentity;
   }
-  public set managedServiceIdentity(value: ElastigroupAzureV3ManagedServiceIdentity[] | cdktf.IResolvable) {
-    this._managedServiceIdentity = value;
+  public putManagedServiceIdentity(value: ElastigroupAzureV3ManagedServiceIdentity[] | cdktf.IResolvable) {
+    this._managedServiceIdentity.internalValue = value;
   }
   public resetManagedServiceIdentity() {
-    this._managedServiceIdentity = undefined;
+    this._managedServiceIdentity.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get managedServiceIdentityInput() {
-    return this._managedServiceIdentity;
+    return this._managedServiceIdentity.internalValue;
   }
 
   // network - computed: false, optional: false, required: true
@@ -927,6 +1725,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     return {
       custom_data: cdktf.stringToTerraform(this._customData),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
+      id: cdktf.stringToTerraform(this._id),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       name: cdktf.stringToTerraform(this._name),
@@ -935,9 +1734,9 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       region: cdktf.stringToTerraform(this._region),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       spot_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._spotSizes),
-      image: cdktf.listMapper(elastigroupAzureV3ImageToTerraform)(this._image),
+      image: cdktf.listMapper(elastigroupAzureV3ImageToTerraform)(this._image.internalValue),
       login: elastigroupAzureV3LoginToTerraform(this._login.internalValue),
-      managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform)(this._managedServiceIdentity),
+      managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform)(this._managedServiceIdentity.internalValue),
       network: elastigroupAzureV3NetworkToTerraform(this._network.internalValue),
       strategy: elastigroupAzureV3StrategyToTerraform(this._strategy.internalValue),
     };
