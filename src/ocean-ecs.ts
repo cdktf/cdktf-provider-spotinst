@@ -113,6 +113,12 @@ export interface OceanEcsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly instanceMetadataOptions?: OceanEcsInstanceMetadataOptions;
   /**
+  * logging block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#logging OceanEcs#logging}
+  */
+  readonly logging?: OceanEcsLogging;
+  /**
   * optimize_images block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#optimize_images OceanEcs#optimize_images}
@@ -1305,6 +1311,237 @@ export class OceanEcsInstanceMetadataOptionsOutputReference extends cdktf.Comple
     return this._httpTokens;
   }
 }
+export interface OceanEcsLoggingExportS3 {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#id OceanEcs#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+}
+
+export function oceanEcsLoggingExportS3ToTerraform(struct?: OceanEcsLoggingExportS3 | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+export class OceanEcsLoggingExportS3OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLoggingExportS3 | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLoggingExportS3 | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class OceanEcsLoggingExportS3List extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLoggingExportS3[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLoggingExportS3OutputReference {
+    return new OceanEcsLoggingExportS3OutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OceanEcsLoggingExport {
+  /**
+  * s3 block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#s3 OceanEcs#s3}
+  */
+  readonly s3?: OceanEcsLoggingExportS3[] | cdktf.IResolvable;
+}
+
+export function oceanEcsLoggingExportToTerraform(struct?: OceanEcsLoggingExportOutputReference | OceanEcsLoggingExport): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    s3: cdktf.listMapper(oceanEcsLoggingExportS3ToTerraform)(struct!.s3),
+  }
+}
+
+export class OceanEcsLoggingExportOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanEcsLoggingExport | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._s3?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3 = this._s3?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLoggingExport | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._s3.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._s3.internalValue = value.s3;
+    }
+  }
+
+  // s3 - computed: false, optional: true, required: false
+  private _s3 = new OceanEcsLoggingExportS3List(this, "s3", false);
+  public get s3() {
+    return this._s3;
+  }
+  public putS3(value: OceanEcsLoggingExportS3[] | cdktf.IResolvable) {
+    this._s3.internalValue = value;
+  }
+  public resetS3() {
+    this._s3.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3Input() {
+    return this._s3.internalValue;
+  }
+}
+export interface OceanEcsLogging {
+  /**
+  * export block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#export OceanEcs#export}
+  */
+  readonly export?: OceanEcsLoggingExport;
+}
+
+export function oceanEcsLoggingToTerraform(struct?: OceanEcsLoggingOutputReference | OceanEcsLogging): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    export: oceanEcsLoggingExportToTerraform(struct!.export),
+  }
+}
+
+export class OceanEcsLoggingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanEcsLogging | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._export?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.export = this._export?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLogging | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._export.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._export.internalValue = value.export;
+    }
+  }
+
+  // export - computed: false, optional: true, required: false
+  private _export = new OceanEcsLoggingExportOutputReference(this, "export");
+  public get export() {
+    return this._export;
+  }
+  public putExport(value: OceanEcsLoggingExport) {
+    this._export.internalValue = value;
+  }
+  public resetExport() {
+    this._export.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exportInput() {
+    return this._export.internalValue;
+  }
+}
 export interface OceanEcsOptimizeImages {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#perform_at OceanEcs#perform_at}
@@ -2156,7 +2393,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.74.0',
+        providerVersion: '1.75.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2188,6 +2425,7 @@ export class OceanEcs extends cdktf.TerraformResource {
     this._autoscaler.internalValue = config.autoscaler;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
+    this._logging.internalValue = config.logging;
     this._optimizeImages.internalValue = config.optimizeImages;
     this._scheduledTask.internalValue = config.scheduledTask;
     this._tags.internalValue = config.tags;
@@ -2567,6 +2805,22 @@ export class OceanEcs extends cdktf.TerraformResource {
     return this._instanceMetadataOptions.internalValue;
   }
 
+  // logging - computed: false, optional: true, required: false
+  private _logging = new OceanEcsLoggingOutputReference(this, "logging");
+  public get logging() {
+    return this._logging;
+  }
+  public putLogging(value: OceanEcsLogging) {
+    this._logging.internalValue = value;
+  }
+  public resetLogging() {
+    this._logging.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingInput() {
+    return this._logging.internalValue;
+  }
+
   // optimize_images - computed: false, optional: true, required: false
   private _optimizeImages = new OceanEcsOptimizeImagesOutputReference(this, "optimize_images");
   public get optimizeImages() {
@@ -2661,6 +2915,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       autoscaler: oceanEcsAutoscalerToTerraform(this._autoscaler.internalValue),
       block_device_mappings: cdktf.listMapper(oceanEcsBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
       instance_metadata_options: oceanEcsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
+      logging: oceanEcsLoggingToTerraform(this._logging.internalValue),
       optimize_images: oceanEcsOptimizeImagesToTerraform(this._optimizeImages.internalValue),
       scheduled_task: cdktf.listMapper(oceanEcsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
       tags: cdktf.listMapper(oceanEcsTagsToTerraform)(this._tags.internalValue),

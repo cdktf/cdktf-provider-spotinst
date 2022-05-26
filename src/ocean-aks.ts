@@ -51,6 +51,10 @@ export interface OceanAksConfig extends cdktf.TerraformMetaArguments {
   */
   readonly userName?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#zones OceanAks#zones}
+  */
+  readonly zones?: string[];
+  /**
   * autoscaler block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#autoscaler OceanAks#autoscaler}
@@ -2462,7 +2466,7 @@ export class OceanAks extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.74.0',
+        providerVersion: '1.75.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2480,6 +2484,7 @@ export class OceanAks extends cdktf.TerraformResource {
     this._resourceGroupName = config.resourceGroupName;
     this._sshPublicKey = config.sshPublicKey;
     this._userName = config.userName;
+    this._zones = config.zones;
     this._autoscaler.internalValue = config.autoscaler;
     this._extension.internalValue = config.extension;
     this._health.internalValue = config.health;
@@ -2640,6 +2645,22 @@ export class OceanAks extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get userNameInput() {
     return this._userName;
+  }
+
+  // zones - computed: true, optional: true, required: false
+  private _zones?: string[]; 
+  public get zones() {
+    return this.getListAttribute('zones');
+  }
+  public set zones(value: string[]) {
+    this._zones = value;
+  }
+  public resetZones() {
+    this._zones = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zonesInput() {
+    return this._zones;
   }
 
   // autoscaler - computed: false, optional: true, required: false
@@ -2834,6 +2855,7 @@ export class OceanAks extends cdktf.TerraformResource {
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       ssh_public_key: cdktf.stringToTerraform(this._sshPublicKey),
       user_name: cdktf.stringToTerraform(this._userName),
+      zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
       autoscaler: oceanAksAutoscalerToTerraform(this._autoscaler.internalValue),
       extension: cdktf.listMapper(oceanAksExtensionToTerraform)(this._extension.internalValue),
       health: oceanAksHealthToTerraform(this._health.internalValue),
