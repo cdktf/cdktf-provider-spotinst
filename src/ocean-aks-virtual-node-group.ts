@@ -23,6 +23,10 @@ export interface OceanAksVirtualNodeGroupConfig extends cdktf.TerraformMetaArgum
   */
   readonly oceanId: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#zones OceanAksVirtualNodeGroup#zones}
+  */
+  readonly zones?: string[];
+  /**
   * autoscale block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#autoscale OceanAksVirtualNodeGroup#autoscale}
@@ -484,6 +488,10 @@ export interface OceanAksVirtualNodeGroupLaunchSpecificationOsDisk {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#type OceanAksVirtualNodeGroup#type}
   */
   readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#utilize_ephemeral_storage OceanAksVirtualNodeGroup#utilize_ephemeral_storage}
+  */
+  readonly utilizeEphemeralStorage?: boolean | cdktf.IResolvable;
 }
 
 export function oceanAksVirtualNodeGroupLaunchSpecificationOsDiskToTerraform(struct?: OceanAksVirtualNodeGroupLaunchSpecificationOsDiskOutputReference | OceanAksVirtualNodeGroupLaunchSpecificationOsDisk): any {
@@ -494,6 +502,7 @@ export function oceanAksVirtualNodeGroupLaunchSpecificationOsDiskToTerraform(str
   return {
     size_gb: cdktf.numberToTerraform(struct!.sizeGb),
     type: cdktf.stringToTerraform(struct!.type),
+    utilize_ephemeral_storage: cdktf.booleanToTerraform(struct!.utilizeEphemeralStorage),
   }
 }
 
@@ -519,6 +528,10 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOsDiskOutputReference ex
       hasAnyValues = true;
       internalValueResult.type = this._type;
     }
+    if (this._utilizeEphemeralStorage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.utilizeEphemeralStorage = this._utilizeEphemeralStorage;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -527,11 +540,13 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOsDiskOutputReference ex
       this.isEmptyObject = false;
       this._sizeGb = undefined;
       this._type = undefined;
+      this._utilizeEphemeralStorage = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._sizeGb = value.sizeGb;
       this._type = value.type;
+      this._utilizeEphemeralStorage = value.utilizeEphemeralStorage;
     }
   }
 
@@ -562,6 +577,22 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOsDiskOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get typeInput() {
     return this._type;
+  }
+
+  // utilize_ephemeral_storage - computed: false, optional: true, required: false
+  private _utilizeEphemeralStorage?: boolean | cdktf.IResolvable; 
+  public get utilizeEphemeralStorage() {
+    return this.getBooleanAttribute('utilize_ephemeral_storage');
+  }
+  public set utilizeEphemeralStorage(value: boolean | cdktf.IResolvable) {
+    this._utilizeEphemeralStorage = value;
+  }
+  public resetUtilizeEphemeralStorage() {
+    this._utilizeEphemeralStorage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get utilizeEphemeralStorageInput() {
+    return this._utilizeEphemeralStorage;
   }
 }
 export interface OceanAksVirtualNodeGroupLaunchSpecificationTag {
@@ -1082,7 +1113,7 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_virtual_node_group',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.74.0',
+        providerVersion: '1.75.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1093,6 +1124,7 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
     this._id = config.id;
     this._name = config.name;
     this._oceanId = config.oceanId;
+    this._zones = config.zones;
     this._autoscale.internalValue = config.autoscale;
     this._label.internalValue = config.label;
     this._launchSpecification.internalValue = config.launchSpecification;
@@ -1144,6 +1176,22 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get oceanIdInput() {
     return this._oceanId;
+  }
+
+  // zones - computed: false, optional: true, required: false
+  private _zones?: string[]; 
+  public get zones() {
+    return this.getListAttribute('zones');
+  }
+  public set zones(value: string[]) {
+    this._zones = value;
+  }
+  public resetZones() {
+    this._zones = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zonesInput() {
+    return this._zones;
   }
 
   // autoscale - computed: false, optional: true, required: false
@@ -1235,6 +1283,7 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
+      zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
       autoscale: cdktf.listMapper(oceanAksVirtualNodeGroupAutoscaleToTerraform)(this._autoscale.internalValue),
       label: cdktf.listMapper(oceanAksVirtualNodeGroupLabelToTerraform)(this._label.internalValue),
       launch_specification: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationToTerraform)(this._launchSpecification.internalValue),
