@@ -4709,7 +4709,7 @@ export class StatefulNodeAzureTagOutputReference extends cdktf.ComplexObject {
     return this._tagKey;
   }
 
-  // tag_value - computed: true, optional: true, required: false
+  // tag_value - computed: false, optional: true, required: false
   private _tagValue?: string; 
   public get tagValue() {
     return this.getStringAttribute('tag_value');
@@ -4866,7 +4866,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_stateful_node_azure',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.75.0',
+        providerVersion: '1.76.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
