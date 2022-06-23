@@ -46,7 +46,7 @@ export class MultaiDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_deployment',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.76.0',
+        providerVersion: '1.77.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
