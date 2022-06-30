@@ -79,6 +79,10 @@ export interface OceanEcsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly subnetIds: string[];
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}
+  */
+  readonly useAsTemplateOnly?: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#user_data OceanEcs#user_data}
   */
   readonly userData?: string;
@@ -2393,7 +2397,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.77.0',
+        providerVersion: '1.78.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2418,6 +2422,7 @@ export class OceanEcs extends cdktf.TerraformResource {
     this._securityGroupIds = config.securityGroupIds;
     this._spotPercentage = config.spotPercentage;
     this._subnetIds = config.subnetIds;
+    this._useAsTemplateOnly = config.useAsTemplateOnly;
     this._userData = config.userData;
     this._utilizeCommitments = config.utilizeCommitments;
     this._utilizeReservedInstances = config.utilizeReservedInstances;
@@ -2693,6 +2698,22 @@ export class OceanEcs extends cdktf.TerraformResource {
     return this._subnetIds;
   }
 
+  // use_as_template_only - computed: false, optional: true, required: false
+  private _useAsTemplateOnly?: boolean | cdktf.IResolvable; 
+  public get useAsTemplateOnly() {
+    return this.getBooleanAttribute('use_as_template_only');
+  }
+  public set useAsTemplateOnly(value: boolean | cdktf.IResolvable) {
+    this._useAsTemplateOnly = value;
+  }
+  public resetUseAsTemplateOnly() {
+    this._useAsTemplateOnly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useAsTemplateOnlyInput() {
+    return this._useAsTemplateOnly;
+  }
+
   // user_data - computed: false, optional: true, required: false
   private _userData?: string; 
   public get userData() {
@@ -2908,6 +2929,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroupIds),
       spot_percentage: cdktf.numberToTerraform(this._spotPercentage),
       subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
+      use_as_template_only: cdktf.booleanToTerraform(this._useAsTemplateOnly),
       user_data: cdktf.stringToTerraform(this._userData),
       utilize_commitments: cdktf.booleanToTerraform(this._utilizeCommitments),
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),

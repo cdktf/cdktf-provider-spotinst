@@ -43,6 +43,10 @@ export interface OceanGkeImportConfig extends cdktf.TerraformMetaArguments {
   */
   readonly rootVolumeType?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}
+  */
+  readonly useAsTemplateOnly?: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#whitelist OceanGkeImport#whitelist}
   */
   readonly whitelist?: string[];
@@ -1858,7 +1862,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_import',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.77.0',
+        providerVersion: '1.78.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1874,6 +1878,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
     this._maxSize = config.maxSize;
     this._minSize = config.minSize;
     this._rootVolumeType = config.rootVolumeType;
+    this._useAsTemplateOnly = config.useAsTemplateOnly;
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
     this._backendServices.internalValue = config.backendServices;
@@ -2014,6 +2019,22 @@ export class OceanGkeImport extends cdktf.TerraformResource {
     return this._rootVolumeType;
   }
 
+  // use_as_template_only - computed: false, optional: true, required: false
+  private _useAsTemplateOnly?: boolean | cdktf.IResolvable; 
+  public get useAsTemplateOnly() {
+    return this.getBooleanAttribute('use_as_template_only');
+  }
+  public set useAsTemplateOnly(value: boolean | cdktf.IResolvable) {
+    this._useAsTemplateOnly = value;
+  }
+  public resetUseAsTemplateOnly() {
+    this._useAsTemplateOnly = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useAsTemplateOnlyInput() {
+    return this._useAsTemplateOnly;
+  }
+
   // whitelist - computed: false, optional: true, required: false
   private _whitelist?: string[]; 
   public get whitelist() {
@@ -2140,6 +2161,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       root_volume_type: cdktf.stringToTerraform(this._rootVolumeType),
+      use_as_template_only: cdktf.booleanToTerraform(this._useAsTemplateOnly),
       whitelist: cdktf.listMapper(cdktf.stringToTerraform)(this._whitelist),
       autoscaler: oceanGkeImportAutoscalerToTerraform(this._autoscaler.internalValue),
       backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform)(this._backendServices.internalValue),
