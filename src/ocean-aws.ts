@@ -1735,6 +1735,10 @@ export interface OceanAwsUpdatePolicyRollConfig {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#launch_spec_ids OceanAws#launch_spec_ids}
   */
   readonly launchSpecIds?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#respect_pdb OceanAws#respect_pdb}
+  */
+  readonly respectPdb?: boolean | cdktf.IResolvable;
 }
 
 export function oceanAwsUpdatePolicyRollConfigToTerraform(struct?: OceanAwsUpdatePolicyRollConfigOutputReference | OceanAwsUpdatePolicyRollConfig): any {
@@ -1746,6 +1750,7 @@ export function oceanAwsUpdatePolicyRollConfigToTerraform(struct?: OceanAwsUpdat
     batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
     batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
     launch_spec_ids: cdktf.listMapper(cdktf.stringToTerraform)(struct!.launchSpecIds),
+    respect_pdb: cdktf.booleanToTerraform(struct!.respectPdb),
   }
 }
 
@@ -1775,6 +1780,10 @@ export class OceanAwsUpdatePolicyRollConfigOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.launchSpecIds = this._launchSpecIds;
     }
+    if (this._respectPdb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectPdb = this._respectPdb;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1784,12 +1793,14 @@ export class OceanAwsUpdatePolicyRollConfigOutputReference extends cdktf.Complex
       this._batchMinHealthyPercentage = undefined;
       this._batchSizePercentage = undefined;
       this._launchSpecIds = undefined;
+      this._respectPdb = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._batchMinHealthyPercentage = value.batchMinHealthyPercentage;
       this._batchSizePercentage = value.batchSizePercentage;
       this._launchSpecIds = value.launchSpecIds;
+      this._respectPdb = value.respectPdb;
     }
   }
 
@@ -1836,6 +1847,22 @@ export class OceanAwsUpdatePolicyRollConfigOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get launchSpecIdsInput() {
     return this._launchSpecIds;
+  }
+
+  // respect_pdb - computed: false, optional: true, required: false
+  private _respectPdb?: boolean | cdktf.IResolvable; 
+  public get respectPdb() {
+    return this.getBooleanAttribute('respect_pdb');
+  }
+  public set respectPdb(value: boolean | cdktf.IResolvable) {
+    this._respectPdb = value;
+  }
+  public resetRespectPdb() {
+    this._respectPdb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectPdbInput() {
+    return this._respectPdb;
   }
 }
 export interface OceanAwsUpdatePolicy {
@@ -2010,7 +2037,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.78.0',
+        providerVersion: '1.79.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
