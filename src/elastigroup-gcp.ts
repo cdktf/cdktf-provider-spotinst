@@ -199,7 +199,7 @@ export function elastigroupGcpBackendServicesNamedPortsToTerraform(struct?: Elas
   }
   return {
     name: cdktf.stringToTerraform(struct!.name),
-    ports: cdktf.listMapper(cdktf.stringToTerraform)(struct!.ports),
+    ports: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ports),
   }
 }
 
@@ -329,7 +329,7 @@ export function elastigroupGcpBackendServicesToTerraform(struct?: ElastigroupGcp
     location_type: cdktf.stringToTerraform(struct!.locationType),
     scheme: cdktf.stringToTerraform(struct!.scheme),
     service_name: cdktf.stringToTerraform(struct!.serviceName),
-    named_ports: cdktf.listMapper(elastigroupGcpBackendServicesNamedPortsToTerraform)(struct!.namedPorts),
+    named_ports: cdktf.listMapper(elastigroupGcpBackendServicesNamedPortsToTerraform, true)(struct!.namedPorts),
   }
 }
 
@@ -674,7 +674,7 @@ export function elastigroupGcpDiskToTerraform(struct?: ElastigroupGcpDisk | cdkt
     mode: cdktf.stringToTerraform(struct!.mode),
     source: cdktf.stringToTerraform(struct!.source),
     type: cdktf.stringToTerraform(struct!.type),
-    initialize_params: cdktf.listMapper(elastigroupGcpDiskInitializeParamsToTerraform)(struct!.initializeParams),
+    initialize_params: cdktf.listMapper(elastigroupGcpDiskInitializeParamsToTerraform, true)(struct!.initializeParams),
   }
 }
 
@@ -1595,7 +1595,7 @@ export function elastigroupGcpIntegrationGkeToTerraform(struct?: ElastigroupGcpI
     location: cdktf.stringToTerraform(struct!.location),
     autoscale_down: elastigroupGcpIntegrationGkeAutoscaleDownToTerraform(struct!.autoscaleDown),
     autoscale_headroom: elastigroupGcpIntegrationGkeAutoscaleHeadroomToTerraform(struct!.autoscaleHeadroom),
-    autoscale_labels: cdktf.listMapper(elastigroupGcpIntegrationGkeAutoscaleLabelsToTerraform)(struct!.autoscaleLabels),
+    autoscale_labels: cdktf.listMapper(elastigroupGcpIntegrationGkeAutoscaleLabelsToTerraform, true)(struct!.autoscaleLabels),
   }
 }
 
@@ -2327,8 +2327,8 @@ export function elastigroupGcpNetworkInterfaceToTerraform(struct?: ElastigroupGc
   }
   return {
     network: cdktf.stringToTerraform(struct!.network),
-    access_configs: cdktf.listMapper(elastigroupGcpNetworkInterfaceAccessConfigsToTerraform)(struct!.accessConfigs),
-    alias_ip_ranges: cdktf.listMapper(elastigroupGcpNetworkInterfaceAliasIpRangesToTerraform)(struct!.aliasIpRanges),
+    access_configs: cdktf.listMapper(elastigroupGcpNetworkInterfaceAccessConfigsToTerraform, true)(struct!.accessConfigs),
+    alias_ip_ranges: cdktf.listMapper(elastigroupGcpNetworkInterfaceAliasIpRangesToTerraform, true)(struct!.aliasIpRanges),
   }
 }
 
@@ -2654,7 +2654,7 @@ export function elastigroupGcpScalingDownPolicyToTerraform(struct?: ElastigroupG
     statistic: cdktf.stringToTerraform(struct!.statistic),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupGcpScalingDownPolicyDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupGcpScalingDownPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -3210,7 +3210,7 @@ export function elastigroupGcpScalingUpPolicyToTerraform(struct?: ElastigroupGcp
     statistic: cdktf.stringToTerraform(struct!.statistic),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupGcpScalingUpPolicyDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupGcpScalingUpPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -3812,7 +3812,7 @@ export function elastigroupGcpSubnetsToTerraform(struct?: ElastigroupGcpSubnets 
   }
   return {
     region: cdktf.stringToTerraform(struct!.region),
-    subnet_names: cdktf.listMapper(cdktf.stringToTerraform)(struct!.subnetNames),
+    subnet_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subnetNames),
   }
 }
 
@@ -3945,7 +3945,10 @@ export class ElastigroupGcp extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._autoHealing = config.autoHealing;
     this._availabilityZones = config.availabilityZones;
@@ -4566,7 +4569,7 @@ export class ElastigroupGcp extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       auto_healing: cdktf.booleanToTerraform(this._autoHealing),
-      availability_zones: cdktf.listMapper(cdktf.stringToTerraform)(this._availabilityZones),
+      availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._availabilityZones),
       description: cdktf.stringToTerraform(this._description),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
       draining_timeout: cdktf.numberToTerraform(this._drainingTimeout),
@@ -4575,7 +4578,7 @@ export class ElastigroupGcp extends cdktf.TerraformResource {
       health_check_type: cdktf.stringToTerraform(this._healthCheckType),
       id: cdktf.stringToTerraform(this._id),
       instance_types_ondemand: cdktf.stringToTerraform(this._instanceTypesOndemand),
-      instance_types_preemptible: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesPreemptible),
+      instance_types_preemptible: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesPreemptible),
       ip_forwarding: cdktf.booleanToTerraform(this._ipForwarding),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
@@ -4586,21 +4589,21 @@ export class ElastigroupGcp extends cdktf.TerraformResource {
       service_account: cdktf.stringToTerraform(this._serviceAccount),
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
       startup_script: cdktf.stringToTerraform(this._startupScript),
-      tags: cdktf.listMapper(cdktf.stringToTerraform)(this._tags),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
       unhealthy_duration: cdktf.numberToTerraform(this._unhealthyDuration),
-      backend_services: cdktf.listMapper(elastigroupGcpBackendServicesToTerraform)(this._backendServices.internalValue),
-      disk: cdktf.listMapper(elastigroupGcpDiskToTerraform)(this._disk.internalValue),
-      gpu: cdktf.listMapper(elastigroupGcpGpuToTerraform)(this._gpu.internalValue),
-      instance_types_custom: cdktf.listMapper(elastigroupGcpInstanceTypesCustomToTerraform)(this._instanceTypesCustom.internalValue),
+      backend_services: cdktf.listMapper(elastigroupGcpBackendServicesToTerraform, true)(this._backendServices.internalValue),
+      disk: cdktf.listMapper(elastigroupGcpDiskToTerraform, true)(this._disk.internalValue),
+      gpu: cdktf.listMapper(elastigroupGcpGpuToTerraform, true)(this._gpu.internalValue),
+      instance_types_custom: cdktf.listMapper(elastigroupGcpInstanceTypesCustomToTerraform, true)(this._instanceTypesCustom.internalValue),
       integration_docker_swarm: elastigroupGcpIntegrationDockerSwarmToTerraform(this._integrationDockerSwarm.internalValue),
       integration_gke: elastigroupGcpIntegrationGkeToTerraform(this._integrationGke.internalValue),
-      labels: cdktf.listMapper(elastigroupGcpLabelsToTerraform)(this._labels.internalValue),
-      metadata: cdktf.listMapper(elastigroupGcpMetadataToTerraform)(this._metadata.internalValue),
-      network_interface: cdktf.listMapper(elastigroupGcpNetworkInterfaceToTerraform)(this._networkInterface.internalValue),
-      scaling_down_policy: cdktf.listMapper(elastigroupGcpScalingDownPolicyToTerraform)(this._scalingDownPolicy.internalValue),
-      scaling_up_policy: cdktf.listMapper(elastigroupGcpScalingUpPolicyToTerraform)(this._scalingUpPolicy.internalValue),
-      scheduled_task: cdktf.listMapper(elastigroupGcpScheduledTaskToTerraform)(this._scheduledTask.internalValue),
-      subnets: cdktf.listMapper(elastigroupGcpSubnetsToTerraform)(this._subnets.internalValue),
+      labels: cdktf.listMapper(elastigroupGcpLabelsToTerraform, true)(this._labels.internalValue),
+      metadata: cdktf.listMapper(elastigroupGcpMetadataToTerraform, true)(this._metadata.internalValue),
+      network_interface: cdktf.listMapper(elastigroupGcpNetworkInterfaceToTerraform, true)(this._networkInterface.internalValue),
+      scaling_down_policy: cdktf.listMapper(elastigroupGcpScalingDownPolicyToTerraform, true)(this._scalingDownPolicy.internalValue),
+      scaling_up_policy: cdktf.listMapper(elastigroupGcpScalingUpPolicyToTerraform, true)(this._scalingUpPolicy.internalValue),
+      scheduled_task: cdktf.listMapper(elastigroupGcpScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
+      subnets: cdktf.listMapper(elastigroupGcpSubnetsToTerraform, true)(this._subnets.internalValue),
     };
   }
 }

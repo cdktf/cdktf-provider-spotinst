@@ -538,8 +538,8 @@ export function elastigroupAzureImageToTerraform(struct?: ElastigroupAzureImage 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    custom: cdktf.listMapper(elastigroupAzureImageCustomToTerraform)(struct!.custom),
-    marketplace: cdktf.listMapper(elastigroupAzureImageMarketplaceToTerraform)(struct!.marketplace),
+    custom: cdktf.listMapper(elastigroupAzureImageCustomToTerraform, true)(struct!.custom),
+    marketplace: cdktf.listMapper(elastigroupAzureImageMarketplaceToTerraform, true)(struct!.marketplace),
   }
 }
 
@@ -1334,7 +1334,7 @@ export function elastigroupAzureNetworkToTerraform(struct?: ElastigroupAzureNetw
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
     subnet_name: cdktf.stringToTerraform(struct!.subnetName),
     virtual_network_name: cdktf.stringToTerraform(struct!.virtualNetworkName),
-    additional_ip_configs: cdktf.listMapper(elastigroupAzureNetworkAdditionalIpConfigsToTerraform)(struct!.additionalIpConfigs),
+    additional_ip_configs: cdktf.listMapper(elastigroupAzureNetworkAdditionalIpConfigsToTerraform, true)(struct!.additionalIpConfigs),
   }
 }
 
@@ -1686,7 +1686,7 @@ export function elastigroupAzureScalingDownPolicyToTerraform(struct?: Elastigrou
     target: cdktf.stringToTerraform(struct!.target),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAzureScalingDownPolicyDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupAzureScalingDownPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -2353,7 +2353,7 @@ export function elastigroupAzureScalingUpPolicyToTerraform(struct?: ElastigroupA
     target: cdktf.stringToTerraform(struct!.target),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAzureScalingUpPolicyDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupAzureScalingUpPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -3492,7 +3492,10 @@ export class ElastigroupAzure extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._customData = config.customData;
     this._desiredCapacity = config.desiredCapacity;
@@ -3927,27 +3930,27 @@ export class ElastigroupAzure extends cdktf.TerraformResource {
       custom_data: cdktf.stringToTerraform(this._customData),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
       id: cdktf.stringToTerraform(this._id),
-      low_priority_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._lowPrioritySizes),
+      low_priority_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._lowPrioritySizes),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       name: cdktf.stringToTerraform(this._name),
-      od_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._odSizes),
+      od_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._odSizes),
       product: cdktf.stringToTerraform(this._product),
       region: cdktf.stringToTerraform(this._region),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
       user_data: cdktf.stringToTerraform(this._userData),
       health_check: elastigroupAzureHealthCheckToTerraform(this._healthCheck.internalValue),
-      image: cdktf.listMapper(elastigroupAzureImageToTerraform)(this._image.internalValue),
+      image: cdktf.listMapper(elastigroupAzureImageToTerraform, true)(this._image.internalValue),
       integration_kubernetes: elastigroupAzureIntegrationKubernetesToTerraform(this._integrationKubernetes.internalValue),
       integration_multai_runtime: elastigroupAzureIntegrationMultaiRuntimeToTerraform(this._integrationMultaiRuntime.internalValue),
-      load_balancers: cdktf.listMapper(elastigroupAzureLoadBalancersToTerraform)(this._loadBalancers.internalValue),
+      load_balancers: cdktf.listMapper(elastigroupAzureLoadBalancersToTerraform, true)(this._loadBalancers.internalValue),
       login: elastigroupAzureLoginToTerraform(this._login.internalValue),
-      managed_service_identities: cdktf.listMapper(elastigroupAzureManagedServiceIdentitiesToTerraform)(this._managedServiceIdentities.internalValue),
+      managed_service_identities: cdktf.listMapper(elastigroupAzureManagedServiceIdentitiesToTerraform, true)(this._managedServiceIdentities.internalValue),
       network: elastigroupAzureNetworkToTerraform(this._network.internalValue),
-      scaling_down_policy: cdktf.listMapper(elastigroupAzureScalingDownPolicyToTerraform)(this._scalingDownPolicy.internalValue),
-      scaling_up_policy: cdktf.listMapper(elastigroupAzureScalingUpPolicyToTerraform)(this._scalingUpPolicy.internalValue),
-      scheduled_task: cdktf.listMapper(elastigroupAzureScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      scaling_down_policy: cdktf.listMapper(elastigroupAzureScalingDownPolicyToTerraform, true)(this._scalingDownPolicy.internalValue),
+      scaling_up_policy: cdktf.listMapper(elastigroupAzureScalingUpPolicyToTerraform, true)(this._scalingUpPolicy.internalValue),
+      scheduled_task: cdktf.listMapper(elastigroupAzureScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
       strategy: elastigroupAzureStrategyToTerraform(this._strategy.internalValue),
       update_policy: elastigroupAzureUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };

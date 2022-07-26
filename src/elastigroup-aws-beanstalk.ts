@@ -227,7 +227,7 @@ export function elastigroupAwsBeanstalkDeploymentPreferencesToTerraform(struct?:
     automatic_roll: cdktf.booleanToTerraform(struct!.automaticRoll),
     batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
     grace_period: cdktf.numberToTerraform(struct!.gracePeriod),
-    strategy: cdktf.listMapper(elastigroupAwsBeanstalkDeploymentPreferencesStrategyToTerraform)(struct!.strategy),
+    strategy: cdktf.listMapper(elastigroupAwsBeanstalkDeploymentPreferencesStrategyToTerraform, true)(struct!.strategy),
   }
 }
 
@@ -1036,7 +1036,10 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._beanstalkEnvironmentId = config.beanstalkEnvironmentId;
     this._beanstalkEnvironmentName = config.beanstalkEnvironmentName;
@@ -1271,7 +1274,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       beanstalk_environment_name: cdktf.stringToTerraform(this._beanstalkEnvironmentName),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
       id: cdktf.stringToTerraform(this._id),
-      instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesSpot),
+      instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesSpot),
       maintenance: cdktf.stringToTerraform(this._maintenance),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
@@ -1280,7 +1283,7 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       region: cdktf.stringToTerraform(this._region),
       deployment_preferences: elastigroupAwsBeanstalkDeploymentPreferencesToTerraform(this._deploymentPreferences.internalValue),
       managed_actions: elastigroupAwsBeanstalkManagedActionsToTerraform(this._managedActions.internalValue),
-      scheduled_task: cdktf.listMapper(elastigroupAwsBeanstalkScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      scheduled_task: cdktf.listMapper(elastigroupAwsBeanstalkScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
     };
   }
 }

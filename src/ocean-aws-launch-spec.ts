@@ -1564,7 +1564,7 @@ export function oceanAwsLaunchSpecSchedulingShutdownHoursToTerraform(struct?: Oc
   }
   return {
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
-    time_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.timeWindows),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
 }
 
@@ -1840,7 +1840,7 @@ export function oceanAwsLaunchSpecSchedulingTaskToTerraform(struct?: OceanAwsLau
     cron_expression: cdktf.stringToTerraform(struct!.cronExpression),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     task_type: cdktf.stringToTerraform(struct!.taskType),
-    task_headroom: cdktf.listMapper(oceanAwsLaunchSpecSchedulingTaskTaskHeadroomToTerraform)(struct!.taskHeadroom),
+    task_headroom: cdktf.listMapper(oceanAwsLaunchSpecSchedulingTaskTaskHeadroomToTerraform, true)(struct!.taskHeadroom),
   }
 }
 
@@ -2524,7 +2524,10 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._associatePublicIpAddress = config.associatePublicIpAddress;
     this._iamInstanceProfile = config.iamInstanceProfile;
@@ -2998,28 +3001,28 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
-      instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
+      instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypes),
       name: cdktf.stringToTerraform(this._name),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
-      preferred_spot_types: cdktf.listMapper(cdktf.stringToTerraform)(this._preferredSpotTypes),
+      preferred_spot_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._preferredSpotTypes),
       restrict_scale_down: cdktf.booleanToTerraform(this._restrictScaleDown),
       root_volume_size: cdktf.numberToTerraform(this._rootVolumeSize),
-      security_groups: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroups),
-      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
+      security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroups),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       user_data: cdktf.stringToTerraform(this._userData),
-      autoscale_headrooms: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsToTerraform)(this._autoscaleHeadrooms.internalValue),
-      autoscale_headrooms_automatic: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsAutomaticToTerraform)(this._autoscaleHeadroomsAutomatic.internalValue),
-      block_device_mappings: cdktf.listMapper(oceanAwsLaunchSpecBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
+      autoscale_headrooms: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
+      autoscale_headrooms_automatic: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsAutomaticToTerraform, true)(this._autoscaleHeadroomsAutomatic.internalValue),
+      block_device_mappings: cdktf.listMapper(oceanAwsLaunchSpecBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
       create_options: oceanAwsLaunchSpecCreateOptionsToTerraform(this._createOptions.internalValue),
       delete_options: oceanAwsLaunchSpecDeleteOptionsToTerraform(this._deleteOptions.internalValue),
-      elastic_ip_pool: cdktf.listMapper(oceanAwsLaunchSpecElasticIpPoolToTerraform)(this._elasticIpPool.internalValue),
-      labels: cdktf.listMapper(oceanAwsLaunchSpecLabelsToTerraform)(this._labels.internalValue),
-      resource_limits: cdktf.listMapper(oceanAwsLaunchSpecResourceLimitsToTerraform)(this._resourceLimits.internalValue),
+      elastic_ip_pool: cdktf.listMapper(oceanAwsLaunchSpecElasticIpPoolToTerraform, true)(this._elasticIpPool.internalValue),
+      labels: cdktf.listMapper(oceanAwsLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),
+      resource_limits: cdktf.listMapper(oceanAwsLaunchSpecResourceLimitsToTerraform, true)(this._resourceLimits.internalValue),
       scheduling_shutdown_hours: oceanAwsLaunchSpecSchedulingShutdownHoursToTerraform(this._schedulingShutdownHours.internalValue),
-      scheduling_task: cdktf.listMapper(oceanAwsLaunchSpecSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
-      strategy: cdktf.listMapper(oceanAwsLaunchSpecStrategyToTerraform)(this._strategy.internalValue),
-      tags: cdktf.listMapper(oceanAwsLaunchSpecTagsToTerraform)(this._tags.internalValue),
-      taints: cdktf.listMapper(oceanAwsLaunchSpecTaintsToTerraform)(this._taints.internalValue),
+      scheduling_task: cdktf.listMapper(oceanAwsLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
+      strategy: cdktf.listMapper(oceanAwsLaunchSpecStrategyToTerraform, true)(this._strategy.internalValue),
+      tags: cdktf.listMapper(oceanAwsLaunchSpecTagsToTerraform, true)(this._tags.internalValue),
+      taints: cdktf.listMapper(oceanAwsLaunchSpecTaintsToTerraform, true)(this._taints.internalValue),
       update_policy: oceanAwsLaunchSpecUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }

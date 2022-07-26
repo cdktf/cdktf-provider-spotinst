@@ -152,7 +152,10 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._groupId = config.groupId;
     this._id = config.id;
@@ -213,7 +216,7 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
     return {
       group_id: cdktf.stringToTerraform(this._groupId),
       id: cdktf.stringToTerraform(this._id),
-      suspension: cdktf.listMapper(elastigroupAwsSuspensionSuspensionToTerraform)(this._suspension.internalValue),
+      suspension: cdktf.listMapper(elastigroupAwsSuspensionSuspensionToTerraform, true)(this._suspension.internalValue),
     };
   }
 }

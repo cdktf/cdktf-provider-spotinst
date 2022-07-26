@@ -1095,7 +1095,7 @@ export function oceanEcsLaunchSpecSchedulingTaskToTerraform(struct?: OceanEcsLau
     cron_expression: cdktf.stringToTerraform(struct!.cronExpression),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     task_type: cdktf.stringToTerraform(struct!.taskType),
-    task_headroom: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskTaskHeadroomToTerraform)(struct!.taskHeadroom),
+    task_headroom: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskTaskHeadroomToTerraform, true)(struct!.taskHeadroom),
   }
 }
 
@@ -1387,7 +1387,10 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._iamInstanceProfile = config.iamInstanceProfile;
     this._id = config.id;
@@ -1653,18 +1656,18 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
-      instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
+      instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypes),
       name: cdktf.stringToTerraform(this._name),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
       restrict_scale_down: cdktf.booleanToTerraform(this._restrictScaleDown),
-      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroupIds),
-      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
+      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       user_data: cdktf.stringToTerraform(this._userData),
-      attributes: cdktf.listMapper(oceanEcsLaunchSpecAttributesToTerraform)(this._attributes.internalValue),
-      autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform)(this._autoscaleHeadrooms.internalValue),
-      block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
-      scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
-      tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform)(this._tags.internalValue),
+      attributes: cdktf.listMapper(oceanEcsLaunchSpecAttributesToTerraform, true)(this._attributes.internalValue),
+      autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
+      block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
+      scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
+      tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 }

@@ -252,7 +252,7 @@ export function oceanAksVirtualNodeGroupAutoscaleToTerraform(struct?: OceanAksVi
   }
   return {
     auto_headroom_percentage: cdktf.numberToTerraform(struct!.autoHeadroomPercentage),
-    autoscale_headroom: cdktf.listMapper(oceanAksVirtualNodeGroupAutoscaleAutoscaleHeadroomToTerraform)(struct!.autoscaleHeadroom),
+    autoscale_headroom: cdktf.listMapper(oceanAksVirtualNodeGroupAutoscaleAutoscaleHeadroomToTerraform, true)(struct!.autoscaleHeadroom),
   }
 }
 
@@ -741,7 +741,7 @@ export function oceanAksVirtualNodeGroupLaunchSpecificationToTerraform(struct?: 
   }
   return {
     os_disk: oceanAksVirtualNodeGroupLaunchSpecificationOsDiskToTerraform(struct!.osDisk),
-    tag: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationTagToTerraform)(struct!.tag),
+    tag: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationTagToTerraform, true)(struct!.tag),
   }
 }
 
@@ -1119,7 +1119,10 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._id = config.id;
     this._name = config.name;
@@ -1283,12 +1286,12 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
-      zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
-      autoscale: cdktf.listMapper(oceanAksVirtualNodeGroupAutoscaleToTerraform)(this._autoscale.internalValue),
-      label: cdktf.listMapper(oceanAksVirtualNodeGroupLabelToTerraform)(this._label.internalValue),
-      launch_specification: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationToTerraform)(this._launchSpecification.internalValue),
-      resource_limits: cdktf.listMapper(oceanAksVirtualNodeGroupResourceLimitsToTerraform)(this._resourceLimits.internalValue),
-      taint: cdktf.listMapper(oceanAksVirtualNodeGroupTaintToTerraform)(this._taint.internalValue),
+      zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._zones),
+      autoscale: cdktf.listMapper(oceanAksVirtualNodeGroupAutoscaleToTerraform, true)(this._autoscale.internalValue),
+      label: cdktf.listMapper(oceanAksVirtualNodeGroupLabelToTerraform, true)(this._label.internalValue),
+      launch_specification: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationToTerraform, true)(this._launchSpecification.internalValue),
+      resource_limits: cdktf.listMapper(oceanAksVirtualNodeGroupResourceLimitsToTerraform, true)(this._resourceLimits.internalValue),
+      taint: cdktf.listMapper(oceanAksVirtualNodeGroupTaintToTerraform, true)(this._taint.internalValue),
     };
   }
 }

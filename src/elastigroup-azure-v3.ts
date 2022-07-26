@@ -390,8 +390,8 @@ export function elastigroupAzureV3ImageToTerraform(struct?: ElastigroupAzureV3Im
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    custom: cdktf.listMapper(elastigroupAzureV3ImageCustomToTerraform)(struct!.custom),
-    marketplace: cdktf.listMapper(elastigroupAzureV3ImageMarketplaceToTerraform)(struct!.marketplace),
+    custom: cdktf.listMapper(elastigroupAzureV3ImageCustomToTerraform, true)(struct!.custom),
+    marketplace: cdktf.listMapper(elastigroupAzureV3ImageMarketplaceToTerraform, true)(struct!.marketplace),
   }
 }
 
@@ -1006,8 +1006,8 @@ export function elastigroupAzureV3NetworkNetworkInterfacesToTerraform(struct?: E
     assign_public_ip: cdktf.booleanToTerraform(struct!.assignPublicIp),
     is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
     subnet_name: cdktf.stringToTerraform(struct!.subnetName),
-    additional_ip_configs: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToTerraform)(struct!.additionalIpConfigs),
-    application_security_group: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupToTerraform)(struct!.applicationSecurityGroup),
+    additional_ip_configs: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToTerraform, true)(struct!.additionalIpConfigs),
+    application_security_group: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupToTerraform, true)(struct!.applicationSecurityGroup),
   }
 }
 
@@ -1195,7 +1195,7 @@ export function elastigroupAzureV3NetworkToTerraform(struct?: ElastigroupAzureV3
   return {
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
     virtual_network_name: cdktf.stringToTerraform(struct!.virtualNetworkName),
-    network_interfaces: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesToTerraform)(struct!.networkInterfaces),
+    network_interfaces: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesToTerraform, true)(struct!.networkInterfaces),
   }
 }
 
@@ -1461,7 +1461,10 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._customData = config.customData;
     this._desiredCapacity = config.desiredCapacity;
@@ -1729,14 +1732,14 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       name: cdktf.stringToTerraform(this._name),
-      od_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._odSizes),
+      od_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._odSizes),
       os: cdktf.stringToTerraform(this._os),
       region: cdktf.stringToTerraform(this._region),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
-      spot_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._spotSizes),
-      image: cdktf.listMapper(elastigroupAzureV3ImageToTerraform)(this._image.internalValue),
+      spot_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spotSizes),
+      image: cdktf.listMapper(elastigroupAzureV3ImageToTerraform, true)(this._image.internalValue),
       login: elastigroupAzureV3LoginToTerraform(this._login.internalValue),
-      managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform)(this._managedServiceIdentity.internalValue),
+      managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform, true)(this._managedServiceIdentity.internalValue),
       network: elastigroupAzureV3NetworkToTerraform(this._network.internalValue),
       strategy: elastigroupAzureV3StrategyToTerraform(this._strategy.internalValue),
     };

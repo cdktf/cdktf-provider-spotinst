@@ -699,7 +699,7 @@ export function oceanGkeImportBackendServicesNamedPortsToTerraform(struct?: Ocea
   }
   return {
     name: cdktf.stringToTerraform(struct!.name),
-    ports: cdktf.listMapper(cdktf.stringToTerraform)(struct!.ports),
+    ports: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ports),
   }
 }
 
@@ -829,7 +829,7 @@ export function oceanGkeImportBackendServicesToTerraform(struct?: OceanGkeImport
     location_type: cdktf.stringToTerraform(struct!.locationType),
     scheme: cdktf.stringToTerraform(struct!.scheme),
     service_name: cdktf.stringToTerraform(struct!.serviceName),
-    named_ports: cdktf.listMapper(oceanGkeImportBackendServicesNamedPortsToTerraform)(struct!.namedPorts),
+    named_ports: cdktf.listMapper(oceanGkeImportBackendServicesNamedPortsToTerraform, true)(struct!.namedPorts),
   }
 }
 
@@ -994,7 +994,7 @@ export function oceanGkeImportScheduledTaskShutdownHoursToTerraform(struct?: Oce
   }
   return {
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
-    time_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.timeWindows),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
 }
 
@@ -1256,7 +1256,7 @@ export function oceanGkeImportScheduledTaskToTerraform(struct?: OceanGkeImportSc
   }
   return {
     shutdown_hours: oceanGkeImportScheduledTaskShutdownHoursToTerraform(struct!.shutdownHours),
-    tasks: cdktf.listMapper(oceanGkeImportScheduledTaskTasksToTerraform)(struct!.tasks),
+    tasks: cdktf.listMapper(oceanGkeImportScheduledTaskTasksToTerraform, true)(struct!.tasks),
   }
 }
 
@@ -1628,7 +1628,7 @@ export function oceanGkeImportUpdatePolicyRollConfigToTerraform(struct?: OceanGk
   return {
     batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
     batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
-    launch_spec_ids: cdktf.listMapper(cdktf.stringToTerraform)(struct!.launchSpecIds),
+    launch_spec_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.launchSpecIds),
   }
 }
 
@@ -1872,7 +1872,10 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._blacklist = config.blacklist;
     this._clusterName = config.clusterName;
@@ -2174,7 +2177,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      blacklist: cdktf.listMapper(cdktf.stringToTerraform)(this._blacklist),
+      blacklist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._blacklist),
       cluster_name: cdktf.stringToTerraform(this._clusterName),
       controller_cluster_id: cdktf.stringToTerraform(this._controllerClusterId),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
@@ -2184,12 +2187,12 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       min_size: cdktf.numberToTerraform(this._minSize),
       root_volume_type: cdktf.stringToTerraform(this._rootVolumeType),
       use_as_template_only: cdktf.booleanToTerraform(this._useAsTemplateOnly),
-      whitelist: cdktf.listMapper(cdktf.stringToTerraform)(this._whitelist),
+      whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanGkeImportAutoscalerToTerraform(this._autoscaler.internalValue),
-      backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform)(this._backendServices.internalValue),
-      scheduled_task: cdktf.listMapper(oceanGkeImportScheduledTaskToTerraform)(this._scheduledTask.internalValue),
+      backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform, true)(this._backendServices.internalValue),
+      scheduled_task: cdktf.listMapper(oceanGkeImportScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
       shielded_instance_config: oceanGkeImportShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
-      strategy: cdktf.listMapper(oceanGkeImportStrategyToTerraform)(this._strategy.internalValue),
+      strategy: cdktf.listMapper(oceanGkeImportStrategyToTerraform, true)(this._strategy.internalValue),
       update_policy: oceanGkeImportUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }
