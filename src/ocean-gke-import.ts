@@ -8,6 +8,10 @@ import * as cdktf from 'cdktf';
 
 export interface OceanGkeImportConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#blacklist OceanGkeImport#blacklist}
+  */
+  readonly blacklist?: string[];
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}
   */
   readonly clusterName: string;
@@ -1862,7 +1866,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_import',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.79.0',
+        providerVersion: '1.80.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1870,6 +1874,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       count: config.count,
       lifecycle: config.lifecycle
     });
+    this._blacklist = config.blacklist;
     this._clusterName = config.clusterName;
     this._controllerClusterId = config.controllerClusterId;
     this._desiredCapacity = config.desiredCapacity;
@@ -1891,6 +1896,22 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // blacklist - computed: false, optional: true, required: false
+  private _blacklist?: string[]; 
+  public get blacklist() {
+    return this.getListAttribute('blacklist');
+  }
+  public set blacklist(value: string[]) {
+    this._blacklist = value;
+  }
+  public resetBlacklist() {
+    this._blacklist = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blacklistInput() {
+    return this._blacklist;
+  }
 
   // cluster_controller_id - computed: true, optional: false, required: false
   public get clusterControllerId() {
@@ -2153,6 +2174,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      blacklist: cdktf.listMapper(cdktf.stringToTerraform)(this._blacklist),
       cluster_name: cdktf.stringToTerraform(this._clusterName),
       controller_cluster_id: cdktf.stringToTerraform(this._controllerClusterId),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
