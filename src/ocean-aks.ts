@@ -1052,7 +1052,7 @@ export function oceanAksImageToTerraform(struct?: OceanAksImage | cdktf.IResolva
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    marketplace: cdktf.listMapper(oceanAksImageMarketplaceToTerraform)(struct!.marketplace),
+    marketplace: cdktf.listMapper(oceanAksImageMarketplaceToTerraform, true)(struct!.marketplace),
   }
 }
 
@@ -1165,7 +1165,7 @@ export function oceanAksLoadBalancerToTerraform(struct?: OceanAksLoadBalancer | 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_pool_names: cdktf.listMapper(cdktf.stringToTerraform)(struct!.backendPoolNames),
+    backend_pool_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.backendPoolNames),
     load_balancer_sku: cdktf.stringToTerraform(struct!.loadBalancerSku),
     name: cdktf.stringToTerraform(struct!.name),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
@@ -1711,7 +1711,7 @@ export function oceanAksNetworkNetworkInterfaceToTerraform(struct?: OceanAksNetw
     assign_public_ip: cdktf.booleanToTerraform(struct!.assignPublicIp),
     is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
     subnet_name: cdktf.stringToTerraform(struct!.subnetName),
-    additional_ip_config: cdktf.listMapper(oceanAksNetworkNetworkInterfaceAdditionalIpConfigToTerraform)(struct!.additionalIpConfig),
+    additional_ip_config: cdktf.listMapper(oceanAksNetworkNetworkInterfaceAdditionalIpConfigToTerraform, true)(struct!.additionalIpConfig),
     security_group: oceanAksNetworkNetworkInterfaceSecurityGroupToTerraform(struct!.securityGroup),
   }
 }
@@ -1909,7 +1909,7 @@ export function oceanAksNetworkToTerraform(struct?: OceanAksNetworkOutputReferen
   return {
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
     virtual_network_name: cdktf.stringToTerraform(struct!.virtualNetworkName),
-    network_interface: cdktf.listMapper(oceanAksNetworkNetworkInterfaceToTerraform)(struct!.networkInterface),
+    network_interface: cdktf.listMapper(oceanAksNetworkNetworkInterfaceToTerraform, true)(struct!.networkInterface),
   }
 }
 
@@ -2355,7 +2355,7 @@ export function oceanAksVmSizesToTerraform(struct?: OceanAksVmSizes | cdktf.IRes
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    whitelist: cdktf.listMapper(cdktf.stringToTerraform)(struct!.whitelist),
+    whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.whitelist),
   }
 }
 
@@ -2472,7 +2472,10 @@ export class OceanAks extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._acdIdentifier = config.acdIdentifier;
     this._aksName = config.aksName;
@@ -2855,18 +2858,18 @@ export class OceanAks extends cdktf.TerraformResource {
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       ssh_public_key: cdktf.stringToTerraform(this._sshPublicKey),
       user_name: cdktf.stringToTerraform(this._userName),
-      zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
+      zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._zones),
       autoscaler: oceanAksAutoscalerToTerraform(this._autoscaler.internalValue),
-      extension: cdktf.listMapper(oceanAksExtensionToTerraform)(this._extension.internalValue),
+      extension: cdktf.listMapper(oceanAksExtensionToTerraform, true)(this._extension.internalValue),
       health: oceanAksHealthToTerraform(this._health.internalValue),
-      image: cdktf.listMapper(oceanAksImageToTerraform)(this._image.internalValue),
-      load_balancer: cdktf.listMapper(oceanAksLoadBalancerToTerraform)(this._loadBalancer.internalValue),
-      managed_service_identity: cdktf.listMapper(oceanAksManagedServiceIdentityToTerraform)(this._managedServiceIdentity.internalValue),
+      image: cdktf.listMapper(oceanAksImageToTerraform, true)(this._image.internalValue),
+      load_balancer: cdktf.listMapper(oceanAksLoadBalancerToTerraform, true)(this._loadBalancer.internalValue),
+      managed_service_identity: cdktf.listMapper(oceanAksManagedServiceIdentityToTerraform, true)(this._managedServiceIdentity.internalValue),
       network: oceanAksNetworkToTerraform(this._network.internalValue),
       os_disk: oceanAksOsDiskToTerraform(this._osDisk.internalValue),
-      strategy: cdktf.listMapper(oceanAksStrategyToTerraform)(this._strategy.internalValue),
-      tag: cdktf.listMapper(oceanAksTagToTerraform)(this._tag.internalValue),
-      vm_sizes: cdktf.listMapper(oceanAksVmSizesToTerraform)(this._vmSizes.internalValue),
+      strategy: cdktf.listMapper(oceanAksStrategyToTerraform, true)(this._strategy.internalValue),
+      tag: cdktf.listMapper(oceanAksTagToTerraform, true)(this._tag.internalValue),
+      vm_sizes: cdktf.listMapper(oceanAksVmSizesToTerraform, true)(this._vmSizes.internalValue),
     };
   }
 }

@@ -1458,7 +1458,7 @@ export function statefulNodeAzureHealthToTerraform(struct?: StatefulNodeAzureHea
   return {
     auto_healing: cdktf.booleanToTerraform(struct!.autoHealing),
     grace_period: cdktf.numberToTerraform(struct!.gracePeriod),
-    health_check_types: cdktf.listMapper(cdktf.stringToTerraform)(struct!.healthCheckTypes),
+    health_check_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.healthCheckTypes),
     unhealthy_duration: cdktf.numberToTerraform(struct!.unhealthyDuration),
   }
 }
@@ -2048,9 +2048,9 @@ export function statefulNodeAzureImageToTerraform(struct?: StatefulNodeAzureImag
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    custom_image: cdktf.listMapper(statefulNodeAzureImageCustomImageToTerraform)(struct!.customImage),
-    gallery: cdktf.listMapper(statefulNodeAzureImageGalleryToTerraform)(struct!.gallery),
-    marketplace_image: cdktf.listMapper(statefulNodeAzureImageMarketplaceImageToTerraform)(struct!.marketplaceImage),
+    custom_image: cdktf.listMapper(statefulNodeAzureImageCustomImageToTerraform, true)(struct!.customImage),
+    gallery: cdktf.listMapper(statefulNodeAzureImageGalleryToTerraform, true)(struct!.gallery),
+    marketplace_image: cdktf.listMapper(statefulNodeAzureImageMarketplaceImageToTerraform, true)(struct!.marketplaceImage),
   }
 }
 
@@ -2347,7 +2347,7 @@ export function statefulNodeAzureLoadBalancerToTerraform(struct?: StatefulNodeAz
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backend_pool_names: cdktf.listMapper(cdktf.stringToTerraform)(struct!.backendPoolNames),
+    backend_pool_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.backendPoolNames),
     name: cdktf.stringToTerraform(struct!.name),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
     sku: cdktf.stringToTerraform(struct!.sku),
@@ -3283,13 +3283,13 @@ export function statefulNodeAzureNetworkNetworkInterfaceToTerraform(struct?: Sta
     assign_public_ip: cdktf.booleanToTerraform(struct!.assignPublicIp),
     enable_ip_forwarding: cdktf.booleanToTerraform(struct!.enableIpForwarding),
     is_primary: cdktf.booleanToTerraform(struct!.isPrimary),
-    private_ip_addresses: cdktf.listMapper(cdktf.stringToTerraform)(struct!.privateIpAddresses),
+    private_ip_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.privateIpAddresses),
     public_ip_sku: cdktf.stringToTerraform(struct!.publicIpSku),
     subnet_name: cdktf.stringToTerraform(struct!.subnetName),
-    additional_ip_configurations: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsToTerraform)(struct!.additionalIpConfigurations),
-    application_security_groups: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsToTerraform)(struct!.applicationSecurityGroups),
-    network_security_group: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupToTerraform)(struct!.networkSecurityGroup),
-    public_ips: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfacePublicIpsToTerraform)(struct!.publicIps),
+    additional_ip_configurations: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsToTerraform, true)(struct!.additionalIpConfigurations),
+    application_security_groups: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsToTerraform, true)(struct!.applicationSecurityGroups),
+    network_security_group: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupToTerraform, true)(struct!.networkSecurityGroup),
+    public_ips: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfacePublicIpsToTerraform, true)(struct!.publicIps),
   }
 }
 
@@ -3590,7 +3590,7 @@ export function statefulNodeAzureNetworkToTerraform(struct?: StatefulNodeAzureNe
   return {
     network_resource_group_name: cdktf.stringToTerraform(struct!.networkResourceGroupName),
     virtual_network_name: cdktf.stringToTerraform(struct!.virtualNetworkName),
-    network_interface: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceToTerraform)(struct!.networkInterface),
+    network_interface: cdktf.listMapper(statefulNodeAzureNetworkNetworkInterfaceToTerraform, true)(struct!.networkInterface),
   }
 }
 
@@ -4171,8 +4171,8 @@ export function statefulNodeAzureSecretToTerraform(struct?: StatefulNodeAzureSec
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    source_vault: cdktf.listMapper(statefulNodeAzureSecretSourceVaultToTerraform)(struct!.sourceVault),
-    vault_certificates: cdktf.listMapper(statefulNodeAzureSecretVaultCertificatesToTerraform)(struct!.vaultCertificates),
+    source_vault: cdktf.listMapper(statefulNodeAzureSecretSourceVaultToTerraform, true)(struct!.sourceVault),
+    vault_certificates: cdktf.listMapper(statefulNodeAzureSecretVaultCertificatesToTerraform, true)(struct!.vaultCertificates),
   }
 }
 
@@ -4485,7 +4485,7 @@ export function statefulNodeAzureStrategyToTerraform(struct?: StatefulNodeAzureS
   return {
     draining_timeout: cdktf.numberToTerraform(struct!.drainingTimeout),
     fallback_to_on_demand: cdktf.booleanToTerraform(struct!.fallbackToOnDemand),
-    optimization_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.optimizationWindows),
+    optimization_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.optimizationWindows),
     preferred_life_cycle: cdktf.stringToTerraform(struct!.preferredLifeCycle),
     revert_to_spot: statefulNodeAzureStrategyRevertToSpotToTerraform(struct!.revertToSpot),
   }
@@ -4872,7 +4872,10 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._customData = config.customData;
     this._dataDisksPersistenceMode = config.dataDisksPersistenceMode;
@@ -5515,10 +5518,10 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
-      od_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._odSizes),
+      od_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._odSizes),
       os: cdktf.stringToTerraform(this._os),
       os_disk_persistence_mode: cdktf.stringToTerraform(this._osDiskPersistenceMode),
-      preferred_spot_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._preferredSpotSizes),
+      preferred_spot_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._preferredSpotSizes),
       preferred_zones: cdktf.stringToTerraform(this._preferredZones),
       region: cdktf.stringToTerraform(this._region),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
@@ -5527,28 +5530,28 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       should_persist_os_disk: cdktf.booleanToTerraform(this._shouldPersistOsDisk),
       should_persist_vm: cdktf.booleanToTerraform(this._shouldPersistVm),
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
-      spot_sizes: cdktf.listMapper(cdktf.stringToTerraform)(this._spotSizes),
-      zones: cdktf.listMapper(cdktf.stringToTerraform)(this._zones),
-      attach_data_disk: cdktf.listMapper(statefulNodeAzureAttachDataDiskToTerraform)(this._attachDataDisk.internalValue),
-      boot_diagnostics: cdktf.listMapper(statefulNodeAzureBootDiagnosticsToTerraform)(this._bootDiagnostics.internalValue),
-      data_disk: cdktf.listMapper(statefulNodeAzureDataDiskToTerraform)(this._dataDisk.internalValue),
-      delete: cdktf.listMapper(statefulNodeAzureDeleteToTerraform)(this._delete.internalValue),
-      detach_data_disk: cdktf.listMapper(statefulNodeAzureDetachDataDiskToTerraform)(this._detachDataDisk.internalValue),
-      extension: cdktf.listMapper(statefulNodeAzureExtensionToTerraform)(this._extension.internalValue),
+      spot_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spotSizes),
+      zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._zones),
+      attach_data_disk: cdktf.listMapper(statefulNodeAzureAttachDataDiskToTerraform, true)(this._attachDataDisk.internalValue),
+      boot_diagnostics: cdktf.listMapper(statefulNodeAzureBootDiagnosticsToTerraform, true)(this._bootDiagnostics.internalValue),
+      data_disk: cdktf.listMapper(statefulNodeAzureDataDiskToTerraform, true)(this._dataDisk.internalValue),
+      delete: cdktf.listMapper(statefulNodeAzureDeleteToTerraform, true)(this._delete.internalValue),
+      detach_data_disk: cdktf.listMapper(statefulNodeAzureDetachDataDiskToTerraform, true)(this._detachDataDisk.internalValue),
+      extension: cdktf.listMapper(statefulNodeAzureExtensionToTerraform, true)(this._extension.internalValue),
       health: statefulNodeAzureHealthToTerraform(this._health.internalValue),
       image: statefulNodeAzureImageToTerraform(this._image.internalValue),
-      import_vm: cdktf.listMapper(statefulNodeAzureImportVmToTerraform)(this._importVm.internalValue),
-      load_balancer: cdktf.listMapper(statefulNodeAzureLoadBalancerToTerraform)(this._loadBalancer.internalValue),
+      import_vm: cdktf.listMapper(statefulNodeAzureImportVmToTerraform, true)(this._importVm.internalValue),
+      load_balancer: cdktf.listMapper(statefulNodeAzureLoadBalancerToTerraform, true)(this._loadBalancer.internalValue),
       login: statefulNodeAzureLoginToTerraform(this._login.internalValue),
-      managed_service_identities: cdktf.listMapper(statefulNodeAzureManagedServiceIdentitiesToTerraform)(this._managedServiceIdentities.internalValue),
+      managed_service_identities: cdktf.listMapper(statefulNodeAzureManagedServiceIdentitiesToTerraform, true)(this._managedServiceIdentities.internalValue),
       network: statefulNodeAzureNetworkToTerraform(this._network.internalValue),
       os_disk: statefulNodeAzureOsDiskToTerraform(this._osDisk.internalValue),
-      scheduling_task: cdktf.listMapper(statefulNodeAzureSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
-      secret: cdktf.listMapper(statefulNodeAzureSecretToTerraform)(this._secret.internalValue),
-      signal: cdktf.listMapper(statefulNodeAzureSignalToTerraform)(this._signal.internalValue),
+      scheduling_task: cdktf.listMapper(statefulNodeAzureSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
+      secret: cdktf.listMapper(statefulNodeAzureSecretToTerraform, true)(this._secret.internalValue),
+      signal: cdktf.listMapper(statefulNodeAzureSignalToTerraform, true)(this._signal.internalValue),
       strategy: statefulNodeAzureStrategyToTerraform(this._strategy.internalValue),
-      tag: cdktf.listMapper(statefulNodeAzureTagToTerraform)(this._tag.internalValue),
-      update_state: cdktf.listMapper(statefulNodeAzureUpdateStateToTerraform)(this._updateState.internalValue),
+      tag: cdktf.listMapper(statefulNodeAzureTagToTerraform, true)(this._tag.internalValue),
+      update_state: cdktf.listMapper(statefulNodeAzureUpdateStateToTerraform, true)(this._updateState.internalValue),
     };
   }
 }

@@ -1427,7 +1427,7 @@ export function oceanEcsLoggingExportToTerraform(struct?: OceanEcsLoggingExportO
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    s3: cdktf.listMapper(oceanEcsLoggingExportS3ToTerraform)(struct!.s3),
+    s3: cdktf.listMapper(oceanEcsLoggingExportS3ToTerraform, true)(struct!.s3),
   }
 }
 
@@ -1569,7 +1569,7 @@ export function oceanEcsOptimizeImagesToTerraform(struct?: OceanEcsOptimizeImage
   return {
     perform_at: cdktf.stringToTerraform(struct!.performAt),
     should_optimize_ecs_ami: cdktf.booleanToTerraform(struct!.shouldOptimizeEcsAmi),
-    time_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.timeWindows),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
 }
 
@@ -1677,7 +1677,7 @@ export function oceanEcsScheduledTaskShutdownHoursToTerraform(struct?: OceanEcsS
   }
   return {
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
-    time_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.timeWindows),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
 }
 
@@ -1912,7 +1912,7 @@ export function oceanEcsScheduledTaskToTerraform(struct?: OceanEcsScheduledTask 
   }
   return {
     shutdown_hours: oceanEcsScheduledTaskShutdownHoursToTerraform(struct!.shutdownHours),
-    tasks: cdktf.listMapper(oceanEcsScheduledTaskTasksToTerraform)(struct!.tasks),
+    tasks: cdktf.listMapper(oceanEcsScheduledTaskTasksToTerraform, true)(struct!.tasks),
   }
 }
 
@@ -2403,7 +2403,10 @@ export class OceanEcs extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._associatePublicIpAddress = config.associatePublicIpAddress;
     this._clusterName = config.clusterName;
@@ -2926,21 +2929,21 @@ export class OceanEcs extends cdktf.TerraformResource {
       monitoring: cdktf.booleanToTerraform(this._monitoring),
       name: cdktf.stringToTerraform(this._name),
       region: cdktf.stringToTerraform(this._region),
-      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroupIds),
+      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       spot_percentage: cdktf.numberToTerraform(this._spotPercentage),
-      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       use_as_template_only: cdktf.booleanToTerraform(this._useAsTemplateOnly),
       user_data: cdktf.stringToTerraform(this._userData),
       utilize_commitments: cdktf.booleanToTerraform(this._utilizeCommitments),
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
-      whitelist: cdktf.listMapper(cdktf.stringToTerraform)(this._whitelist),
+      whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanEcsAutoscalerToTerraform(this._autoscaler.internalValue),
-      block_device_mappings: cdktf.listMapper(oceanEcsBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
+      block_device_mappings: cdktf.listMapper(oceanEcsBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
       instance_metadata_options: oceanEcsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       logging: oceanEcsLoggingToTerraform(this._logging.internalValue),
       optimize_images: oceanEcsOptimizeImagesToTerraform(this._optimizeImages.internalValue),
-      scheduled_task: cdktf.listMapper(oceanEcsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
-      tags: cdktf.listMapper(oceanEcsTagsToTerraform)(this._tags.internalValue),
+      scheduled_task: cdktf.listMapper(oceanEcsScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
+      tags: cdktf.listMapper(oceanEcsTagsToTerraform, true)(this._tags.internalValue),
       update_policy: oceanEcsUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }

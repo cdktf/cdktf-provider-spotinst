@@ -190,8 +190,8 @@ export function multaiListenerTlsConfigToTerraform(struct?: MultaiListenerTlsCon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    certificate_ids: cdktf.listMapper(cdktf.stringToTerraform)(struct!.certificateIds),
-    cipher_suites: cdktf.listMapper(cdktf.stringToTerraform)(struct!.cipherSuites),
+    certificate_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.certificateIds),
+    cipher_suites: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cipherSuites),
     max_version: cdktf.stringToTerraform(struct!.maxVersion),
     min_version: cdktf.stringToTerraform(struct!.minVersion),
     prefer_server_cipher_suites: cdktf.booleanToTerraform(struct!.preferServerCipherSuites),
@@ -372,7 +372,10 @@ export class MultaiListener extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._balancerId = config.balancerId;
     this._id = config.id;
@@ -483,7 +486,7 @@ export class MultaiListener extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       port: cdktf.numberToTerraform(this._port),
       protocol: cdktf.stringToTerraform(this._protocol),
-      tags: cdktf.listMapper(multaiListenerTagsToTerraform)(this._tags.internalValue),
+      tags: cdktf.listMapper(multaiListenerTagsToTerraform, true)(this._tags.internalValue),
       tls_config: multaiListenerTlsConfigToTerraform(this._tlsConfig.internalValue),
     };
   }

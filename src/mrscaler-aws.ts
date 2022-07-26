@@ -308,7 +308,7 @@ export function mrscalerAwsApplicationsToTerraform(struct?: MrscalerAwsApplicati
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    args: cdktf.listMapper(cdktf.stringToTerraform)(struct!.args),
+    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
     name: cdktf.stringToTerraform(struct!.name),
     version: cdktf.stringToTerraform(struct!.version),
   }
@@ -4333,7 +4333,7 @@ export function mrscalerAwsTerminationPoliciesToTerraform(struct?: MrscalerAwsTe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    statements: cdktf.listMapper(mrscalerAwsTerminationPoliciesStatementsToTerraform)(struct!.statements),
+    statements: cdktf.listMapper(mrscalerAwsTerminationPoliciesStatementsToTerraform, true)(struct!.statements),
   }
 }
 
@@ -4447,7 +4447,10 @@ export class MrscalerAws extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._additionalInfo = config.additionalInfo;
     this._additionalPrimarySecurityGroups = config.additionalPrimarySecurityGroups;
@@ -5498,13 +5501,13 @@ export class MrscalerAws extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       additional_info: cdktf.stringToTerraform(this._additionalInfo),
-      additional_primary_security_groups: cdktf.listMapper(cdktf.stringToTerraform)(this._additionalPrimarySecurityGroups),
-      additional_replica_security_groups: cdktf.listMapper(cdktf.stringToTerraform)(this._additionalReplicaSecurityGroups),
-      availability_zones: cdktf.listMapper(cdktf.stringToTerraform)(this._availabilityZones),
+      additional_primary_security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._additionalPrimarySecurityGroups),
+      additional_replica_security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._additionalReplicaSecurityGroups),
+      availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._availabilityZones),
       cluster_id: cdktf.stringToTerraform(this._clusterId),
       core_desired_capacity: cdktf.numberToTerraform(this._coreDesiredCapacity),
       core_ebs_optimized: cdktf.booleanToTerraform(this._coreEbsOptimized),
-      core_instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._coreInstanceTypes),
+      core_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._coreInstanceTypes),
       core_lifecycle: cdktf.stringToTerraform(this._coreLifecycle),
       core_max_size: cdktf.numberToTerraform(this._coreMaxSize),
       core_min_size: cdktf.numberToTerraform(this._coreMinSize),
@@ -5521,7 +5524,7 @@ export class MrscalerAws extends cdktf.TerraformResource {
       managed_primary_security_group: cdktf.stringToTerraform(this._managedPrimarySecurityGroup),
       managed_replica_security_group: cdktf.stringToTerraform(this._managedReplicaSecurityGroup),
       master_ebs_optimized: cdktf.booleanToTerraform(this._masterEbsOptimized),
-      master_instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._masterInstanceTypes),
+      master_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._masterInstanceTypes),
       master_lifecycle: cdktf.stringToTerraform(this._masterLifecycle),
       master_target: cdktf.numberToTerraform(this._masterTarget),
       name: cdktf.stringToTerraform(this._name),
@@ -5535,29 +5538,29 @@ export class MrscalerAws extends cdktf.TerraformResource {
       strategy: cdktf.stringToTerraform(this._strategy),
       task_desired_capacity: cdktf.numberToTerraform(this._taskDesiredCapacity),
       task_ebs_optimized: cdktf.booleanToTerraform(this._taskEbsOptimized),
-      task_instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._taskInstanceTypes),
+      task_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._taskInstanceTypes),
       task_lifecycle: cdktf.stringToTerraform(this._taskLifecycle),
       task_max_size: cdktf.numberToTerraform(this._taskMaxSize),
       task_min_size: cdktf.numberToTerraform(this._taskMinSize),
       task_unit: cdktf.stringToTerraform(this._taskUnit),
       termination_protected: cdktf.booleanToTerraform(this._terminationProtected),
       visible_to_all_users: cdktf.booleanToTerraform(this._visibleToAllUsers),
-      applications: cdktf.listMapper(mrscalerAwsApplicationsToTerraform)(this._applications.internalValue),
-      bootstrap_actions_file: cdktf.listMapper(mrscalerAwsBootstrapActionsFileToTerraform)(this._bootstrapActionsFile.internalValue),
-      configurations_file: cdktf.listMapper(mrscalerAwsConfigurationsFileToTerraform)(this._configurationsFile.internalValue),
-      core_ebs_block_device: cdktf.listMapper(mrscalerAwsCoreEbsBlockDeviceToTerraform)(this._coreEbsBlockDevice.internalValue),
-      core_scaling_down_policy: cdktf.listMapper(mrscalerAwsCoreScalingDownPolicyToTerraform)(this._coreScalingDownPolicy.internalValue),
-      core_scaling_up_policy: cdktf.listMapper(mrscalerAwsCoreScalingUpPolicyToTerraform)(this._coreScalingUpPolicy.internalValue),
-      instance_weights: cdktf.listMapper(mrscalerAwsInstanceWeightsToTerraform)(this._instanceWeights.internalValue),
-      master_ebs_block_device: cdktf.listMapper(mrscalerAwsMasterEbsBlockDeviceToTerraform)(this._masterEbsBlockDevice.internalValue),
+      applications: cdktf.listMapper(mrscalerAwsApplicationsToTerraform, true)(this._applications.internalValue),
+      bootstrap_actions_file: cdktf.listMapper(mrscalerAwsBootstrapActionsFileToTerraform, true)(this._bootstrapActionsFile.internalValue),
+      configurations_file: cdktf.listMapper(mrscalerAwsConfigurationsFileToTerraform, true)(this._configurationsFile.internalValue),
+      core_ebs_block_device: cdktf.listMapper(mrscalerAwsCoreEbsBlockDeviceToTerraform, true)(this._coreEbsBlockDevice.internalValue),
+      core_scaling_down_policy: cdktf.listMapper(mrscalerAwsCoreScalingDownPolicyToTerraform, true)(this._coreScalingDownPolicy.internalValue),
+      core_scaling_up_policy: cdktf.listMapper(mrscalerAwsCoreScalingUpPolicyToTerraform, true)(this._coreScalingUpPolicy.internalValue),
+      instance_weights: cdktf.listMapper(mrscalerAwsInstanceWeightsToTerraform, true)(this._instanceWeights.internalValue),
+      master_ebs_block_device: cdktf.listMapper(mrscalerAwsMasterEbsBlockDeviceToTerraform, true)(this._masterEbsBlockDevice.internalValue),
       provisioning_timeout: mrscalerAwsProvisioningTimeoutToTerraform(this._provisioningTimeout.internalValue),
-      scheduled_task: cdktf.listMapper(mrscalerAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
-      steps_file: cdktf.listMapper(mrscalerAwsStepsFileToTerraform)(this._stepsFile.internalValue),
-      tags: cdktf.listMapper(mrscalerAwsTagsToTerraform)(this._tags.internalValue),
-      task_ebs_block_device: cdktf.listMapper(mrscalerAwsTaskEbsBlockDeviceToTerraform)(this._taskEbsBlockDevice.internalValue),
-      task_scaling_down_policy: cdktf.listMapper(mrscalerAwsTaskScalingDownPolicyToTerraform)(this._taskScalingDownPolicy.internalValue),
-      task_scaling_up_policy: cdktf.listMapper(mrscalerAwsTaskScalingUpPolicyToTerraform)(this._taskScalingUpPolicy.internalValue),
-      termination_policies: cdktf.listMapper(mrscalerAwsTerminationPoliciesToTerraform)(this._terminationPolicies.internalValue),
+      scheduled_task: cdktf.listMapper(mrscalerAwsScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
+      steps_file: cdktf.listMapper(mrscalerAwsStepsFileToTerraform, true)(this._stepsFile.internalValue),
+      tags: cdktf.listMapper(mrscalerAwsTagsToTerraform, true)(this._tags.internalValue),
+      task_ebs_block_device: cdktf.listMapper(mrscalerAwsTaskEbsBlockDeviceToTerraform, true)(this._taskEbsBlockDevice.internalValue),
+      task_scaling_down_policy: cdktf.listMapper(mrscalerAwsTaskScalingDownPolicyToTerraform, true)(this._taskScalingDownPolicy.internalValue),
+      task_scaling_up_policy: cdktf.listMapper(mrscalerAwsTaskScalingUpPolicyToTerraform, true)(this._taskScalingUpPolicy.internalValue),
+      termination_policies: cdktf.listMapper(mrscalerAwsTerminationPoliciesToTerraform, true)(this._terminationPolicies.internalValue),
     };
   }
 }

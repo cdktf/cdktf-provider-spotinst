@@ -411,7 +411,10 @@ export class MultaiTargetSet extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._balancerId = config.balancerId;
     this._deploymentId = config.deploymentId;
@@ -571,7 +574,7 @@ export class MultaiTargetSet extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       weight: cdktf.numberToTerraform(this._weight),
       health_check: multaiTargetSetHealthCheckToTerraform(this._healthCheck.internalValue),
-      tags: cdktf.listMapper(multaiTargetSetTagsToTerraform)(this._tags.internalValue),
+      tags: cdktf.listMapper(multaiTargetSetTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 }

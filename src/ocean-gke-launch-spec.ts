@@ -934,7 +934,7 @@ export function oceanGkeLaunchSpecSchedulingTaskToTerraform(struct?: OceanGkeLau
     cron_expression: cdktf.stringToTerraform(struct!.cronExpression),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     task_type: cdktf.stringToTerraform(struct!.taskType),
-    task_headroom: cdktf.listMapper(oceanGkeLaunchSpecSchedulingTaskTaskHeadroomToTerraform)(struct!.taskHeadroom),
+    task_headroom: cdktf.listMapper(oceanGkeLaunchSpecSchedulingTaskTaskHeadroomToTerraform, true)(struct!.taskHeadroom),
   }
 }
 
@@ -1666,7 +1666,10 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._id = config.id;
     this._instanceTypes = config.instanceTypes;
@@ -2035,7 +2038,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
+      instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypes),
       name: cdktf.stringToTerraform(this._name),
       node_pool_name: cdktf.stringToTerraform(this._nodePoolName),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
@@ -2044,16 +2047,16 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       root_volume_type: cdktf.stringToTerraform(this._rootVolumeType),
       service_account: cdktf.stringToTerraform(this._serviceAccount),
       source_image: cdktf.stringToTerraform(this._sourceImage),
-      autoscale_headrooms: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsToTerraform)(this._autoscaleHeadrooms.internalValue),
-      autoscale_headrooms_automatic: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsAutomaticToTerraform)(this._autoscaleHeadroomsAutomatic.internalValue),
-      labels: cdktf.listMapper(oceanGkeLaunchSpecLabelsToTerraform)(this._labels.internalValue),
-      metadata: cdktf.listMapper(oceanGkeLaunchSpecMetadataToTerraform)(this._metadata.internalValue),
+      autoscale_headrooms: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
+      autoscale_headrooms_automatic: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsAutomaticToTerraform, true)(this._autoscaleHeadroomsAutomatic.internalValue),
+      labels: cdktf.listMapper(oceanGkeLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),
+      metadata: cdktf.listMapper(oceanGkeLaunchSpecMetadataToTerraform, true)(this._metadata.internalValue),
       resource_limits: oceanGkeLaunchSpecResourceLimitsToTerraform(this._resourceLimits.internalValue),
-      scheduling_task: cdktf.listMapper(oceanGkeLaunchSpecSchedulingTaskToTerraform)(this._schedulingTask.internalValue),
+      scheduling_task: cdktf.listMapper(oceanGkeLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
       shielded_instance_config: oceanGkeLaunchSpecShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
       storage: oceanGkeLaunchSpecStorageToTerraform(this._storage.internalValue),
-      strategy: cdktf.listMapper(oceanGkeLaunchSpecStrategyToTerraform)(this._strategy.internalValue),
-      taints: cdktf.listMapper(oceanGkeLaunchSpecTaintsToTerraform)(this._taints.internalValue),
+      strategy: cdktf.listMapper(oceanGkeLaunchSpecStrategyToTerraform, true)(this._strategy.internalValue),
+      taints: cdktf.listMapper(oceanGkeLaunchSpecTaintsToTerraform, true)(this._taints.internalValue),
       update_policy: oceanGkeLaunchSpecUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }

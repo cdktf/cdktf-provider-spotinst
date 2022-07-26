@@ -200,7 +200,10 @@ export class MultaiRoutingRule extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._balancerId = config.balancerId;
     this._id = config.id;
@@ -358,12 +361,12 @@ export class MultaiRoutingRule extends cdktf.TerraformResource {
       balancer_id: cdktf.stringToTerraform(this._balancerId),
       id: cdktf.stringToTerraform(this._id),
       listener_id: cdktf.stringToTerraform(this._listenerId),
-      middleware_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._middlewareIds),
+      middleware_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._middlewareIds),
       priority: cdktf.numberToTerraform(this._priority),
       route: cdktf.stringToTerraform(this._route),
       strategy: cdktf.stringToTerraform(this._strategy),
-      target_set_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._targetSetIds),
-      tags: cdktf.listMapper(multaiRoutingRuleTagsToTerraform)(this._tags.internalValue),
+      target_set_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._targetSetIds),
+      tags: cdktf.listMapper(multaiRoutingRuleTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 }

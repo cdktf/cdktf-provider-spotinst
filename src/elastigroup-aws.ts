@@ -1691,7 +1691,7 @@ export function elastigroupAwsIntegrationCodedeployToTerraform(struct?: Elastigr
   return {
     cleanup_on_failure: cdktf.booleanToTerraform(struct!.cleanupOnFailure),
     terminate_instance_on_failure: cdktf.booleanToTerraform(struct!.terminateInstanceOnFailure),
-    deployment_groups: cdktf.listMapper(elastigroupAwsIntegrationCodedeployDeploymentGroupsToTerraform)(struct!.deploymentGroups),
+    deployment_groups: cdktf.listMapper(elastigroupAwsIntegrationCodedeployDeploymentGroupsToTerraform, true)(struct!.deploymentGroups),
   }
 }
 
@@ -2529,7 +2529,7 @@ export function elastigroupAwsIntegrationEcsBatchToTerraform(struct?: Elastigrou
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    job_queue_names: cdktf.listMapper(cdktf.stringToTerraform)(struct!.jobQueueNames),
+    job_queue_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jobQueueNames),
   }
 }
 
@@ -2636,7 +2636,7 @@ export function elastigroupAwsIntegrationEcsToTerraform(struct?: ElastigroupAwsI
     autoscale_is_enabled: cdktf.booleanToTerraform(struct!.autoscaleIsEnabled),
     autoscale_scale_down_non_service_tasks: cdktf.booleanToTerraform(struct!.autoscaleScaleDownNonServiceTasks),
     cluster_name: cdktf.stringToTerraform(struct!.clusterName),
-    autoscale_attributes: cdktf.listMapper(elastigroupAwsIntegrationEcsAutoscaleAttributesToTerraform)(struct!.autoscaleAttributes),
+    autoscale_attributes: cdktf.listMapper(elastigroupAwsIntegrationEcsAutoscaleAttributesToTerraform, true)(struct!.autoscaleAttributes),
     autoscale_down: elastigroupAwsIntegrationEcsAutoscaleDownToTerraform(struct!.autoscaleDown),
     autoscale_headroom: elastigroupAwsIntegrationEcsAutoscaleHeadroomToTerraform(struct!.autoscaleHeadroom),
     batch: elastigroupAwsIntegrationEcsBatchToTerraform(struct!.batch),
@@ -3362,7 +3362,7 @@ export function elastigroupAwsIntegrationKubernetesToTerraform(struct?: Elastigr
     token: cdktf.stringToTerraform(struct!.token),
     autoscale_down: elastigroupAwsIntegrationKubernetesAutoscaleDownToTerraform(struct!.autoscaleDown),
     autoscale_headroom: elastigroupAwsIntegrationKubernetesAutoscaleHeadroomToTerraform(struct!.autoscaleHeadroom),
-    autoscale_labels: cdktf.listMapper(elastigroupAwsIntegrationKubernetesAutoscaleLabelsToTerraform)(struct!.autoscaleLabels),
+    autoscale_labels: cdktf.listMapper(elastigroupAwsIntegrationKubernetesAutoscaleLabelsToTerraform, true)(struct!.autoscaleLabels),
   }
 }
 
@@ -4090,7 +4090,7 @@ export function elastigroupAwsIntegrationNomadToTerraform(struct?: ElastigroupAw
     autoscale_is_enabled: cdktf.booleanToTerraform(struct!.autoscaleIsEnabled),
     master_host: cdktf.stringToTerraform(struct!.masterHost),
     master_port: cdktf.numberToTerraform(struct!.masterPort),
-    autoscale_constraints: cdktf.listMapper(elastigroupAwsIntegrationNomadAutoscaleConstraintsToTerraform)(struct!.autoscaleConstraints),
+    autoscale_constraints: cdktf.listMapper(elastigroupAwsIntegrationNomadAutoscaleConstraintsToTerraform, true)(struct!.autoscaleConstraints),
     autoscale_down: elastigroupAwsIntegrationNomadAutoscaleDownToTerraform(struct!.autoscaleDown),
     autoscale_headroom: elastigroupAwsIntegrationNomadAutoscaleHeadroomToTerraform(struct!.autoscaleHeadroom),
   }
@@ -4607,7 +4607,7 @@ export function elastigroupAwsIntegrationRoute53DomainsToTerraform(struct?: Elas
     hosted_zone_id: cdktf.stringToTerraform(struct!.hostedZoneId),
     record_set_type: cdktf.stringToTerraform(struct!.recordSetType),
     spotinst_acct_id: cdktf.stringToTerraform(struct!.spotinstAcctId),
-    record_sets: cdktf.listMapper(elastigroupAwsIntegrationRoute53DomainsRecordSetsToTerraform)(struct!.recordSets),
+    record_sets: cdktf.listMapper(elastigroupAwsIntegrationRoute53DomainsRecordSetsToTerraform, true)(struct!.recordSets),
   }
 }
 
@@ -4766,7 +4766,7 @@ export function elastigroupAwsIntegrationRoute53ToTerraform(struct?: Elastigroup
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    domains: cdktf.listMapper(elastigroupAwsIntegrationRoute53DomainsToTerraform)(struct!.domains),
+    domains: cdktf.listMapper(elastigroupAwsIntegrationRoute53DomainsToTerraform, true)(struct!.domains),
   }
 }
 
@@ -5130,7 +5130,7 @@ export function elastigroupAwsItfLoadBalancerToTerraform(struct?: ElastigroupAws
   }
   return {
     load_balancer_arn: cdktf.stringToTerraform(struct!.loadBalancerArn),
-    listener_rule: cdktf.listMapper(elastigroupAwsItfLoadBalancerListenerRuleToTerraform)(struct!.listenerRule),
+    listener_rule: cdktf.listMapper(elastigroupAwsItfLoadBalancerListenerRuleToTerraform, true)(struct!.listenerRule),
   }
 }
 
@@ -5551,8 +5551,8 @@ export function elastigroupAwsItfTargetGroupConfigToTerraform(struct?: Elastigro
     protocol_version: cdktf.stringToTerraform(struct!.protocolVersion),
     unhealthy_threshold_count: cdktf.numberToTerraform(struct!.unhealthyThresholdCount),
     vpc_id: cdktf.stringToTerraform(struct!.vpcId),
-    matcher: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigMatcherToTerraform)(struct!.matcher),
-    tags: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigTagsToTerraform)(struct!.tags),
+    matcher: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigMatcherToTerraform, true)(struct!.matcher),
+    tags: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigTagsToTerraform, true)(struct!.tags),
   }
 }
 
@@ -5931,8 +5931,8 @@ export function elastigroupAwsItfToTerraform(struct?: ElastigroupAwsItf | cdktf.
     migration_healthiness_threshold: cdktf.numberToTerraform(struct!.migrationHealthinessThreshold),
     weight_strategy: cdktf.stringToTerraform(struct!.weightStrategy),
     default_static_target_group: elastigroupAwsItfDefaultStaticTargetGroupToTerraform(struct!.defaultStaticTargetGroup),
-    load_balancer: cdktf.listMapper(elastigroupAwsItfLoadBalancerToTerraform)(struct!.loadBalancer),
-    target_group_config: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigToTerraform)(struct!.targetGroupConfig),
+    load_balancer: cdktf.listMapper(elastigroupAwsItfLoadBalancerToTerraform, true)(struct!.loadBalancer),
+    target_group_config: cdktf.listMapper(elastigroupAwsItfTargetGroupConfigToTerraform, true)(struct!.targetGroupConfig),
   }
 }
 
@@ -6605,7 +6605,7 @@ export function elastigroupAwsMultipleMetricsMetricsToTerraform(struct?: Elastig
     namespace: cdktf.stringToTerraform(struct!.namespace),
     statistic: cdktf.stringToTerraform(struct!.statistic),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAwsMultipleMetricsMetricsDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupAwsMultipleMetricsMetricsDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -6833,8 +6833,8 @@ export function elastigroupAwsMultipleMetricsToTerraform(struct?: ElastigroupAws
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    expressions: cdktf.listMapper(elastigroupAwsMultipleMetricsExpressionsToTerraform)(struct!.expressions),
-    metrics: cdktf.listMapper(elastigroupAwsMultipleMetricsMetricsToTerraform)(struct!.metrics),
+    expressions: cdktf.listMapper(elastigroupAwsMultipleMetricsExpressionsToTerraform, true)(struct!.expressions),
+    metrics: cdktf.listMapper(elastigroupAwsMultipleMetricsMetricsToTerraform, true)(struct!.metrics),
   }
 }
 
@@ -7387,7 +7387,7 @@ export function elastigroupAwsRevertToSpotToTerraform(struct?: ElastigroupAwsRev
   }
   return {
     perform_at: cdktf.stringToTerraform(struct!.performAt),
-    time_windows: cdktf.listMapper(cdktf.stringToTerraform)(struct!.timeWindows),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
 }
 
@@ -8039,8 +8039,8 @@ export function elastigroupAwsScalingDownPolicyToTerraform(struct?: ElastigroupA
     target: cdktf.stringToTerraform(struct!.target),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAwsScalingDownPolicyDimensionsToTerraform)(struct!.dimensions),
-    step_adjustments: cdktf.listMapper(elastigroupAwsScalingDownPolicyStepAdjustmentsToTerraform)(struct!.stepAdjustments),
+    dimensions: cdktf.listMapper(elastigroupAwsScalingDownPolicyDimensionsToTerraform, true)(struct!.dimensions),
+    step_adjustments: cdktf.listMapper(elastigroupAwsScalingDownPolicyStepAdjustmentsToTerraform, true)(struct!.stepAdjustments),
   }
 }
 
@@ -8875,7 +8875,7 @@ export function elastigroupAwsScalingTargetPolicyToTerraform(struct?: Elastigrou
     statistic: cdktf.stringToTerraform(struct!.statistic),
     target: cdktf.numberToTerraform(struct!.target),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAwsScalingTargetPolicyDimensionsToTerraform)(struct!.dimensions),
+    dimensions: cdktf.listMapper(elastigroupAwsScalingTargetPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
 }
 
@@ -9792,8 +9792,8 @@ export function elastigroupAwsScalingUpPolicyToTerraform(struct?: ElastigroupAws
     target: cdktf.stringToTerraform(struct!.target),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     unit: cdktf.stringToTerraform(struct!.unit),
-    dimensions: cdktf.listMapper(elastigroupAwsScalingUpPolicyDimensionsToTerraform)(struct!.dimensions),
-    step_adjustments: cdktf.listMapper(elastigroupAwsScalingUpPolicyStepAdjustmentsToTerraform)(struct!.stepAdjustments),
+    dimensions: cdktf.listMapper(elastigroupAwsScalingUpPolicyDimensionsToTerraform, true)(struct!.dimensions),
+    step_adjustments: cdktf.listMapper(elastigroupAwsScalingUpPolicyStepAdjustmentsToTerraform, true)(struct!.stepAdjustments),
   }
 }
 
@@ -11978,7 +11978,10 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._availabilityZones = config.availabilityZones;
     this._blockDevicesMode = config.blockDevicesMode;
@@ -13314,7 +13317,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      availability_zones: cdktf.listMapper(cdktf.stringToTerraform)(this._availabilityZones),
+      availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._availabilityZones),
       block_devices_mode: cdktf.stringToTerraform(this._blockDevicesMode),
       capacity_unit: cdktf.stringToTerraform(this._capacityUnit),
       cpu_credits: cdktf.stringToTerraform(this._cpuCredits),
@@ -13322,8 +13325,8 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
       draining_timeout: cdktf.numberToTerraform(this._drainingTimeout),
       ebs_optimized: cdktf.booleanToTerraform(this._ebsOptimized),
-      elastic_ips: cdktf.listMapper(cdktf.stringToTerraform)(this._elasticIps),
-      elastic_load_balancers: cdktf.listMapper(cdktf.stringToTerraform)(this._elasticLoadBalancers),
+      elastic_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._elasticIps),
+      elastic_load_balancers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._elasticLoadBalancers),
       enable_monitoring: cdktf.booleanToTerraform(this._enableMonitoring),
       fallback_to_ondemand: cdktf.booleanToTerraform(this._fallbackToOndemand),
       health_check_grace_period: cdktf.numberToTerraform(this._healthCheckGracePeriod),
@@ -13333,8 +13336,8 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       instance_types_ondemand: cdktf.stringToTerraform(this._instanceTypesOndemand),
-      instance_types_preferred_spot: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesPreferredSpot),
-      instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypesSpot),
+      instance_types_preferred_spot: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesPreferredSpot),
+      instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesSpot),
       key_name: cdktf.stringToTerraform(this._keyName),
       lifetime_period: cdktf.stringToTerraform(this._lifetimePeriod),
       max_size: cdktf.numberToTerraform(this._maxSize),
@@ -13347,24 +13350,24 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       persist_private_ip: cdktf.booleanToTerraform(this._persistPrivateIp),
       persist_root_device: cdktf.booleanToTerraform(this._persistRootDevice),
       placement_tenancy: cdktf.stringToTerraform(this._placementTenancy),
-      preferred_availability_zones: cdktf.listMapper(cdktf.stringToTerraform)(this._preferredAvailabilityZones),
-      private_ips: cdktf.listMapper(cdktf.stringToTerraform)(this._privateIps),
+      preferred_availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._preferredAvailabilityZones),
+      private_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._privateIps),
       product: cdktf.stringToTerraform(this._product),
       region: cdktf.stringToTerraform(this._region),
-      security_groups: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroups),
+      security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroups),
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
       spot_percentage: cdktf.numberToTerraform(this._spotPercentage),
-      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
-      target_group_arns: cdktf.listMapper(cdktf.stringToTerraform)(this._targetGroupArns),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
+      target_group_arns: cdktf.listMapper(cdktf.stringToTerraform, false)(this._targetGroupArns),
       user_data: cdktf.stringToTerraform(this._userData),
       utilize_commitments: cdktf.booleanToTerraform(this._utilizeCommitments),
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       wait_for_capacity: cdktf.numberToTerraform(this._waitForCapacity),
       wait_for_capacity_timeout: cdktf.numberToTerraform(this._waitForCapacityTimeout),
       cpu_options: elastigroupAwsCpuOptionsToTerraform(this._cpuOptions.internalValue),
-      ebs_block_device: cdktf.listMapper(elastigroupAwsEbsBlockDeviceToTerraform)(this._ebsBlockDevice.internalValue),
-      ephemeral_block_device: cdktf.listMapper(elastigroupAwsEphemeralBlockDeviceToTerraform)(this._ephemeralBlockDevice.internalValue),
-      instance_types_weights: cdktf.listMapper(elastigroupAwsInstanceTypesWeightsToTerraform)(this._instanceTypesWeights.internalValue),
+      ebs_block_device: cdktf.listMapper(elastigroupAwsEbsBlockDeviceToTerraform, true)(this._ebsBlockDevice.internalValue),
+      ephemeral_block_device: cdktf.listMapper(elastigroupAwsEphemeralBlockDeviceToTerraform, true)(this._ephemeralBlockDevice.internalValue),
+      instance_types_weights: cdktf.listMapper(elastigroupAwsInstanceTypesWeightsToTerraform, true)(this._instanceTypesWeights.internalValue),
       integration_beanstalk: elastigroupAwsIntegrationBeanstalkToTerraform(this._integrationBeanstalk.internalValue),
       integration_codedeploy: elastigroupAwsIntegrationCodedeployToTerraform(this._integrationCodedeploy.internalValue),
       integration_docker_swarm: elastigroupAwsIntegrationDockerSwarmToTerraform(this._integrationDockerSwarm.internalValue),
@@ -13376,22 +13379,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       integration_nomad: elastigroupAwsIntegrationNomadToTerraform(this._integrationNomad.internalValue),
       integration_rancher: elastigroupAwsIntegrationRancherToTerraform(this._integrationRancher.internalValue),
       integration_route53: elastigroupAwsIntegrationRoute53ToTerraform(this._integrationRoute53.internalValue),
-      itf: cdktf.listMapper(elastigroupAwsItfToTerraform)(this._itf.internalValue),
+      itf: cdktf.listMapper(elastigroupAwsItfToTerraform, true)(this._itf.internalValue),
       metadata_options: elastigroupAwsMetadataOptionsToTerraform(this._metadataOptions.internalValue),
-      multai_target_sets: cdktf.listMapper(elastigroupAwsMultaiTargetSetsToTerraform)(this._multaiTargetSets.internalValue),
+      multai_target_sets: cdktf.listMapper(elastigroupAwsMultaiTargetSetsToTerraform, true)(this._multaiTargetSets.internalValue),
       multiple_metrics: elastigroupAwsMultipleMetricsToTerraform(this._multipleMetrics.internalValue),
-      network_interface: cdktf.listMapper(elastigroupAwsNetworkInterfaceToTerraform)(this._networkInterface.internalValue),
-      resource_tag_specification: cdktf.listMapper(elastigroupAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification.internalValue),
+      network_interface: cdktf.listMapper(elastigroupAwsNetworkInterfaceToTerraform, true)(this._networkInterface.internalValue),
+      resource_tag_specification: cdktf.listMapper(elastigroupAwsResourceTagSpecificationToTerraform, true)(this._resourceTagSpecification.internalValue),
       revert_to_spot: elastigroupAwsRevertToSpotToTerraform(this._revertToSpot.internalValue),
-      scaling_down_policy: cdktf.listMapper(elastigroupAwsScalingDownPolicyToTerraform)(this._scalingDownPolicy.internalValue),
-      scaling_strategy: cdktf.listMapper(elastigroupAwsScalingStrategyToTerraform)(this._scalingStrategy.internalValue),
-      scaling_target_policy: cdktf.listMapper(elastigroupAwsScalingTargetPolicyToTerraform)(this._scalingTargetPolicy.internalValue),
-      scaling_up_policy: cdktf.listMapper(elastigroupAwsScalingUpPolicyToTerraform)(this._scalingUpPolicy.internalValue),
-      scheduled_task: cdktf.listMapper(elastigroupAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
-      signal: cdktf.listMapper(elastigroupAwsSignalToTerraform)(this._signal.internalValue),
+      scaling_down_policy: cdktf.listMapper(elastigroupAwsScalingDownPolicyToTerraform, true)(this._scalingDownPolicy.internalValue),
+      scaling_strategy: cdktf.listMapper(elastigroupAwsScalingStrategyToTerraform, true)(this._scalingStrategy.internalValue),
+      scaling_target_policy: cdktf.listMapper(elastigroupAwsScalingTargetPolicyToTerraform, true)(this._scalingTargetPolicy.internalValue),
+      scaling_up_policy: cdktf.listMapper(elastigroupAwsScalingUpPolicyToTerraform, true)(this._scalingUpPolicy.internalValue),
+      scheduled_task: cdktf.listMapper(elastigroupAwsScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
+      signal: cdktf.listMapper(elastigroupAwsSignalToTerraform, true)(this._signal.internalValue),
       stateful_deallocation: elastigroupAwsStatefulDeallocationToTerraform(this._statefulDeallocation.internalValue),
-      stateful_instance_action: cdktf.listMapper(elastigroupAwsStatefulInstanceActionToTerraform)(this._statefulInstanceAction.internalValue),
-      tags: cdktf.listMapper(elastigroupAwsTagsToTerraform)(this._tags.internalValue),
+      stateful_instance_action: cdktf.listMapper(elastigroupAwsStatefulInstanceActionToTerraform, true)(this._statefulInstanceAction.internalValue),
+      tags: cdktf.listMapper(elastigroupAwsTagsToTerraform, true)(this._tags.internalValue),
       update_policy: elastigroupAwsUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }

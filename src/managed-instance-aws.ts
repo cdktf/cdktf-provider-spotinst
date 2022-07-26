@@ -683,7 +683,7 @@ export function managedInstanceAwsIntegrationRoute53DomainsToTerraform(struct?: 
     hosted_zone_id: cdktf.stringToTerraform(struct!.hostedZoneId),
     record_set_type: cdktf.stringToTerraform(struct!.recordSetType),
     spotinst_acct_id: cdktf.stringToTerraform(struct!.spotinstAcctId),
-    record_sets: cdktf.listMapper(managedInstanceAwsIntegrationRoute53DomainsRecordSetsToTerraform)(struct!.recordSets),
+    record_sets: cdktf.listMapper(managedInstanceAwsIntegrationRoute53DomainsRecordSetsToTerraform, true)(struct!.recordSets),
   }
 }
 
@@ -842,7 +842,7 @@ export function managedInstanceAwsIntegrationRoute53ToTerraform(struct?: Managed
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    domains: cdktf.listMapper(managedInstanceAwsIntegrationRoute53DomainsToTerraform)(struct!.domains),
+    domains: cdktf.listMapper(managedInstanceAwsIntegrationRoute53DomainsToTerraform, true)(struct!.domains),
   }
 }
 
@@ -1956,7 +1956,10 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._autoHealing = config.autoHealing;
     this._blockDevicesMode = config.blockDevicesMode;
@@ -2728,12 +2731,12 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
-      instance_types: cdktf.listMapper(cdktf.stringToTerraform)(this._instanceTypes),
+      instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypes),
       key_pair: cdktf.stringToTerraform(this._keyPair),
       life_cycle: cdktf.stringToTerraform(this._lifeCycle),
       minimum_instance_lifetime: cdktf.numberToTerraform(this._minimumInstanceLifetime),
       name: cdktf.stringToTerraform(this._name),
-      optimization_windows: cdktf.listMapper(cdktf.stringToTerraform)(this._optimizationWindows),
+      optimization_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(this._optimizationWindows),
       orientation: cdktf.stringToTerraform(this._orientation),
       persist_block_devices: cdktf.booleanToTerraform(this._persistBlockDevices),
       persist_private_ip: cdktf.booleanToTerraform(this._persistPrivateIp),
@@ -2743,22 +2746,22 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       private_ip: cdktf.stringToTerraform(this._privateIp),
       product: cdktf.stringToTerraform(this._product),
       region: cdktf.stringToTerraform(this._region),
-      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._securityGroupIds),
+      security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       shutdown_script: cdktf.stringToTerraform(this._shutdownScript),
-      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform)(this._subnetIds),
+      subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       unhealthy_duration: cdktf.numberToTerraform(this._unhealthyDuration),
       user_data: cdktf.stringToTerraform(this._userData),
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
-      block_device_mappings: cdktf.listMapper(managedInstanceAwsBlockDeviceMappingsToTerraform)(this._blockDeviceMappings.internalValue),
+      block_device_mappings: cdktf.listMapper(managedInstanceAwsBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
       integration_route53: managedInstanceAwsIntegrationRoute53ToTerraform(this._integrationRoute53.internalValue),
-      load_balancers: cdktf.listMapper(managedInstanceAwsLoadBalancersToTerraform)(this._loadBalancers.internalValue),
+      load_balancers: cdktf.listMapper(managedInstanceAwsLoadBalancersToTerraform, true)(this._loadBalancers.internalValue),
       managed_instance_action: managedInstanceAwsManagedInstanceActionToTerraform(this._managedInstanceAction.internalValue),
-      network_interface: cdktf.listMapper(managedInstanceAwsNetworkInterfaceToTerraform)(this._networkInterface.internalValue),
-      resource_tag_specification: cdktf.listMapper(managedInstanceAwsResourceTagSpecificationToTerraform)(this._resourceTagSpecification.internalValue),
+      network_interface: cdktf.listMapper(managedInstanceAwsNetworkInterfaceToTerraform, true)(this._networkInterface.internalValue),
+      resource_tag_specification: cdktf.listMapper(managedInstanceAwsResourceTagSpecificationToTerraform, true)(this._resourceTagSpecification.internalValue),
       revert_to_spot: managedInstanceAwsRevertToSpotToTerraform(this._revertToSpot.internalValue),
-      scheduled_task: cdktf.listMapper(managedInstanceAwsScheduledTaskToTerraform)(this._scheduledTask.internalValue),
-      tags: cdktf.listMapper(managedInstanceAwsTagsToTerraform)(this._tags.internalValue),
+      scheduled_task: cdktf.listMapper(managedInstanceAwsScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
+      tags: cdktf.listMapper(managedInstanceAwsTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 }

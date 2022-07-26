@@ -282,7 +282,10 @@ export class MultaiBalancer extends cdktf.TerraformResource {
       provider: config.provider,
       dependsOn: config.dependsOn,
       count: config.count,
-      lifecycle: config.lifecycle
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
     });
     this._dnsCnameAliases = config.dnsCnameAliases;
     this._id = config.id;
@@ -395,12 +398,12 @@ export class MultaiBalancer extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dns_cname_aliases: cdktf.listMapper(cdktf.stringToTerraform)(this._dnsCnameAliases),
+      dns_cname_aliases: cdktf.listMapper(cdktf.stringToTerraform, false)(this._dnsCnameAliases),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       scheme: cdktf.stringToTerraform(this._scheme),
       connection_timeouts: multaiBalancerConnectionTimeoutsToTerraform(this._connectionTimeouts.internalValue),
-      tags: cdktf.listMapper(multaiBalancerTagsToTerraform)(this._tags.internalValue),
+      tags: cdktf.listMapper(multaiBalancerTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 }
