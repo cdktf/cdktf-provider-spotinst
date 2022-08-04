@@ -38,7 +38,7 @@ The Maven package is available at [https://mvnrepository.com/artifact/com.hashic
 
 ### Go
 
-The go package is generated into the [`github.com/hashicorp/cdktf-provider-spotinst-go`]https://github.com/hashicorp/cdktf-provider-spotinst-go) package.
+The go package is generated into the [`github.com/hashicorp/cdktf-provider-spotinst-go`](https://github.com/hashicorp/cdktf-provider-spotinst-go) package.
 
 `go get github.com/hashicorp/cdktf-provider-spotinst-go/spotinst`
 
