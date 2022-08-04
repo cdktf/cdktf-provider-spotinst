@@ -35,6 +35,10 @@ export interface OceanAksConfig extends cdktf.TerraformMetaArguments {
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#max_pods OceanAks#max_pods}
+  */
+  readonly maxPods?: number;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks#name OceanAks#name}
   */
   readonly name: string;
@@ -2466,7 +2470,7 @@ export class OceanAks extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.80.0',
+        providerVersion: '1.81.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2483,6 +2487,7 @@ export class OceanAks extends cdktf.TerraformResource {
     this._controllerClusterId = config.controllerClusterId;
     this._customData = config.customData;
     this._id = config.id;
+    this._maxPods = config.maxPods;
     this._name = config.name;
     this._resourceGroupName = config.resourceGroupName;
     this._sshPublicKey = config.sshPublicKey;
@@ -2590,6 +2595,22 @@ export class OceanAks extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // max_pods - computed: false, optional: true, required: false
+  private _maxPods?: number; 
+  public get maxPods() {
+    return this.getNumberAttribute('max_pods');
+  }
+  public set maxPods(value: number) {
+    this._maxPods = value;
+  }
+  public resetMaxPods() {
+    this._maxPods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxPodsInput() {
+    return this._maxPods;
   }
 
   // name - computed: false, optional: false, required: true
@@ -2854,6 +2875,7 @@ export class OceanAks extends cdktf.TerraformResource {
       controller_cluster_id: cdktf.stringToTerraform(this._controllerClusterId),
       custom_data: cdktf.stringToTerraform(this._customData),
       id: cdktf.stringToTerraform(this._id),
+      max_pods: cdktf.numberToTerraform(this._maxPods),
       name: cdktf.stringToTerraform(this._name),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
       ssh_public_key: cdktf.stringToTerraform(this._sshPublicKey),
