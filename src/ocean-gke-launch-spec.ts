@@ -51,6 +51,10 @@ export interface OceanGkeLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly sourceImage?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_launch_spec#tags OceanGkeLaunchSpec#tags}
+  */
+  readonly tags?: string[];
+  /**
   * autoscale_headrooms block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_launch_spec#autoscale_headrooms OceanGkeLaunchSpec#autoscale_headrooms}
@@ -1660,7 +1664,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.80.0',
+        providerVersion: '1.81.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1681,6 +1685,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
     this._rootVolumeType = config.rootVolumeType;
     this._serviceAccount = config.serviceAccount;
     this._sourceImage = config.sourceImage;
+    this._tags = config.tags;
     this._autoscaleHeadrooms.internalValue = config.autoscaleHeadrooms;
     this._autoscaleHeadroomsAutomatic.internalValue = config.autoscaleHeadroomsAutomatic;
     this._labels.internalValue = config.labels;
@@ -1853,6 +1858,22 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sourceImageInput() {
     return this._sourceImage;
+  }
+
+  // tags - computed: true, optional: true, required: false
+  private _tags?: string[]; 
+  public get tags() {
+    return this.getListAttribute('tags');
+  }
+  public set tags(value: string[]) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
   }
 
   // autoscale_headrooms - computed: false, optional: true, required: false
@@ -2047,6 +2068,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       root_volume_type: cdktf.stringToTerraform(this._rootVolumeType),
       service_account: cdktf.stringToTerraform(this._serviceAccount),
       source_image: cdktf.stringToTerraform(this._sourceImage),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
       autoscale_headrooms: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
       autoscale_headrooms_automatic: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsAutomaticToTerraform, true)(this._autoscaleHeadroomsAutomatic.internalValue),
       labels: cdktf.listMapper(oceanGkeLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),

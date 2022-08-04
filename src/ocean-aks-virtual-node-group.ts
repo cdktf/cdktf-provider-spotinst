@@ -721,6 +721,10 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationTagList extends cdktf.Co
 }
 export interface OceanAksVirtualNodeGroupLaunchSpecification {
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#max_pods OceanAksVirtualNodeGroup#max_pods}
+  */
+  readonly maxPods?: number;
+  /**
   * os_disk block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aks_virtual_node_group#os_disk OceanAksVirtualNodeGroup#os_disk}
@@ -740,6 +744,7 @@ export function oceanAksVirtualNodeGroupLaunchSpecificationToTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_pods: cdktf.numberToTerraform(struct!.maxPods),
     os_disk: oceanAksVirtualNodeGroupLaunchSpecificationOsDiskToTerraform(struct!.osDisk),
     tag: cdktf.listMapper(oceanAksVirtualNodeGroupLaunchSpecificationTagToTerraform, true)(struct!.tag),
   }
@@ -765,6 +770,10 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOutputReference extends 
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxPods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxPods = this._maxPods;
+    }
     if (this._osDisk?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.osDisk = this._osDisk?.internalValue;
@@ -780,6 +789,7 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOutputReference extends 
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxPods = undefined;
       this._osDisk.internalValue = undefined;
       this._tag.internalValue = undefined;
     }
@@ -790,9 +800,26 @@ export class OceanAksVirtualNodeGroupLaunchSpecificationOutputReference extends 
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxPods = value.maxPods;
       this._osDisk.internalValue = value.osDisk;
       this._tag.internalValue = value.tag;
     }
+  }
+
+  // max_pods - computed: false, optional: true, required: false
+  private _maxPods?: number; 
+  public get maxPods() {
+    return this.getNumberAttribute('max_pods');
+  }
+  public set maxPods(value: number) {
+    this._maxPods = value;
+  }
+  public resetMaxPods() {
+    this._maxPods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxPodsInput() {
+    return this._maxPods;
   }
 
   // os_disk - computed: false, optional: true, required: false
@@ -1113,7 +1140,7 @@ export class OceanAksVirtualNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_virtual_node_group',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.80.0',
+        providerVersion: '1.81.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
