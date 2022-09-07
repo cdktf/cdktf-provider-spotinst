@@ -217,6 +217,12 @@ export interface ElastigroupAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly ephemeralBlockDevice?: ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable;
   /**
+  * images block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#images ElastigroupAws#images}
+  */
+  readonly images?: ElastigroupAwsImages[] | cdktf.IResolvable;
+  /**
   * instance_types_weights block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
@@ -879,6 +885,199 @@ export class ElastigroupAwsEphemeralBlockDeviceList extends cdktf.ComplexList {
   */
   public get(index: number): ElastigroupAwsEphemeralBlockDeviceOutputReference {
     return new ElastigroupAwsEphemeralBlockDeviceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ElastigroupAwsImagesImage {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#id ElastigroupAws#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+}
+
+export function elastigroupAwsImagesImageToTerraform(struct?: ElastigroupAwsImagesImage | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+export class ElastigroupAwsImagesImageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsImagesImage | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsImagesImage | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class ElastigroupAwsImagesImageList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsImagesImage[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsImagesImageOutputReference {
+    return new ElastigroupAwsImagesImageOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ElastigroupAwsImages {
+  /**
+  * image block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#image ElastigroupAws#image}
+  */
+  readonly image: ElastigroupAwsImagesImage[] | cdktf.IResolvable;
+}
+
+export function elastigroupAwsImagesToTerraform(struct?: ElastigroupAwsImages | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    image: cdktf.listMapper(elastigroupAwsImagesImageToTerraform, true)(struct!.image),
+  }
+}
+
+export class ElastigroupAwsImagesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAwsImages | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._image?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.image = this._image?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAwsImages | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._image.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._image.internalValue = value.image;
+    }
+  }
+
+  // image - computed: false, optional: false, required: true
+  private _image = new ElastigroupAwsImagesImageList(this, "image", true);
+  public get image() {
+    return this._image;
+  }
+  public putImage(value: ElastigroupAwsImagesImage[] | cdktf.IResolvable) {
+    this._image.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageInput() {
+    return this._image.internalValue;
+  }
+}
+
+export class ElastigroupAwsImagesList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAwsImages[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAwsImagesOutputReference {
+    return new ElastigroupAwsImagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface ElastigroupAwsInstanceTypesWeights {
@@ -11972,7 +12171,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.81.0',
+        providerVersion: '1.82.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -12033,6 +12232,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._cpuOptions.internalValue = config.cpuOptions;
     this._ebsBlockDevice.internalValue = config.ebsBlockDevice;
     this._ephemeralBlockDevice.internalValue = config.ephemeralBlockDevice;
+    this._images.internalValue = config.images;
     this._instanceTypesWeights.internalValue = config.instanceTypesWeights;
     this._integrationBeanstalk.internalValue = config.integrationBeanstalk;
     this._integrationCodedeploy.internalValue = config.integrationCodedeploy;
@@ -12847,6 +13047,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     return this._ephemeralBlockDevice.internalValue;
   }
 
+  // images - computed: false, optional: true, required: false
+  private _images = new ElastigroupAwsImagesList(this, "images", false);
+  public get images() {
+    return this._images;
+  }
+  public putImages(value: ElastigroupAwsImages[] | cdktf.IResolvable) {
+    this._images.internalValue = value;
+  }
+  public resetImages() {
+    this._images.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imagesInput() {
+    return this._images.internalValue;
+  }
+
   // instance_types_weights - computed: false, optional: true, required: false
   private _instanceTypesWeights = new ElastigroupAwsInstanceTypesWeightsList(this, "instance_types_weights", true);
   public get instanceTypesWeights() {
@@ -13367,6 +13583,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       cpu_options: elastigroupAwsCpuOptionsToTerraform(this._cpuOptions.internalValue),
       ebs_block_device: cdktf.listMapper(elastigroupAwsEbsBlockDeviceToTerraform, true)(this._ebsBlockDevice.internalValue),
       ephemeral_block_device: cdktf.listMapper(elastigroupAwsEphemeralBlockDeviceToTerraform, true)(this._ephemeralBlockDevice.internalValue),
+      images: cdktf.listMapper(elastigroupAwsImagesToTerraform, true)(this._images.internalValue),
       instance_types_weights: cdktf.listMapper(elastigroupAwsInstanceTypesWeightsToTerraform, true)(this._instanceTypesWeights.internalValue),
       integration_beanstalk: elastigroupAwsIntegrationBeanstalkToTerraform(this._integrationBeanstalk.internalValue),
       integration_codedeploy: elastigroupAwsIntegrationCodedeployToTerraform(this._integrationCodedeploy.internalValue),
