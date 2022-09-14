@@ -2037,7 +2037,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.82.0',
+        providerVersion: '1.83.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

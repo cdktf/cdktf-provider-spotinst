@@ -26,6 +26,7 @@ export * from './ocean-ecs-launch-spec';
 export * from './ocean-gke-import';
 export * from './ocean-gke-launch-spec';
 export * from './ocean-gke-launch-spec-import';
+export * from './ocean-spark';
 export * from './stateful-node-azure';
 export * from './subscription';
 export * from './spotinst-provider';
