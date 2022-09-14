@@ -35,6 +35,10 @@ export interface OceanEcsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly oceanId: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#preferred_spot_types OceanEcsLaunchSpec#preferred_spot_types}
+  */
+  readonly preferredSpotTypes?: string[];
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#restrict_scale_down OceanEcsLaunchSpec#restrict_scale_down}
   */
   readonly restrictScaleDown?: boolean | cdktf.IResolvable;
@@ -1381,7 +1385,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.82.0',
+        providerVersion: '1.83.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1398,6 +1402,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     this._instanceTypes = config.instanceTypes;
     this._name = config.name;
     this._oceanId = config.oceanId;
+    this._preferredSpotTypes = config.preferredSpotTypes;
     this._restrictScaleDown = config.restrictScaleDown;
     this._securityGroupIds = config.securityGroupIds;
     this._subnetIds = config.subnetIds;
@@ -1501,6 +1506,22 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get oceanIdInput() {
     return this._oceanId;
+  }
+
+  // preferred_spot_types - computed: false, optional: true, required: false
+  private _preferredSpotTypes?: string[]; 
+  public get preferredSpotTypes() {
+    return this.getListAttribute('preferred_spot_types');
+  }
+  public set preferredSpotTypes(value: string[]) {
+    this._preferredSpotTypes = value;
+  }
+  public resetPreferredSpotTypes() {
+    this._preferredSpotTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferredSpotTypesInput() {
+    return this._preferredSpotTypes;
   }
 
   // restrict_scale_down - computed: false, optional: true, required: false
@@ -1659,6 +1680,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypes),
       name: cdktf.stringToTerraform(this._name),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
+      preferred_spot_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._preferredSpotTypes),
       restrict_scale_down: cdktf.booleanToTerraform(this._restrictScaleDown),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
       subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
