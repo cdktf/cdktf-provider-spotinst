@@ -2470,7 +2470,7 @@ export class OceanAks extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.84.0',
+        providerVersion: '1.85.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
