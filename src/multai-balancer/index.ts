@@ -276,7 +276,7 @@ export class MultaiBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_balancer',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.85.0',
+        providerVersion: '1.85.1',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
