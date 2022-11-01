@@ -113,7 +113,7 @@
   "cdktf": {
     "provider": {
       "name": "registry.terraform.io/spotinst/spotinst",
-      "version": "1.85.1"
+      "version": "1.86.0"
     }
   },
   "resolutions": {
