@@ -996,7 +996,7 @@ export interface OceanAwsLaunchSpecCreateOptions {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#initial_nodes OceanAwsLaunchSpec#initial_nodes}
   */
-  readonly initialNodes: number;
+  readonly initialNodes?: number;
 }
 
 export function oceanAwsLaunchSpecCreateOptionsToTerraform(struct?: OceanAwsLaunchSpecCreateOptionsOutputReference | OceanAwsLaunchSpecCreateOptions): any {
@@ -1041,7 +1041,7 @@ export class OceanAwsLaunchSpecCreateOptionsOutputReference extends cdktf.Comple
     }
   }
 
-  // initial_nodes - computed: false, optional: false, required: true
+  // initial_nodes - computed: false, optional: true, required: false
   private _initialNodes?: number; 
   public get initialNodes() {
     return this.getNumberAttribute('initial_nodes');
@@ -1049,12 +1049,19 @@ export class OceanAwsLaunchSpecCreateOptionsOutputReference extends cdktf.Comple
   public set initialNodes(value: number) {
     this._initialNodes = value;
   }
+  public resetInitialNodes() {
+    this._initialNodes = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get initialNodesInput() {
     return this._initialNodes;
   }
 }
 export interface OceanAwsLaunchSpecDeleteOptions {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#delete_nodes OceanAwsLaunchSpec#delete_nodes}
+  */
+  readonly deleteNodes?: boolean | cdktf.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#force_delete OceanAwsLaunchSpec#force_delete}
   */
@@ -1067,6 +1074,7 @@ export function oceanAwsLaunchSpecDeleteOptionsToTerraform(struct?: OceanAwsLaun
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    delete_nodes: cdktf.booleanToTerraform(struct!.deleteNodes),
     force_delete: cdktf.booleanToTerraform(struct!.forceDelete),
   }
 }
@@ -1085,6 +1093,10 @@ export class OceanAwsLaunchSpecDeleteOptionsOutputReference extends cdktf.Comple
   public get internalValue(): OceanAwsLaunchSpecDeleteOptions | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._deleteNodes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteNodes = this._deleteNodes;
+    }
     if (this._forceDelete !== undefined) {
       hasAnyValues = true;
       internalValueResult.forceDelete = this._forceDelete;
@@ -1095,12 +1107,30 @@ export class OceanAwsLaunchSpecDeleteOptionsOutputReference extends cdktf.Comple
   public set internalValue(value: OceanAwsLaunchSpecDeleteOptions | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._deleteNodes = undefined;
       this._forceDelete = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._deleteNodes = value.deleteNodes;
       this._forceDelete = value.forceDelete;
     }
+  }
+
+  // delete_nodes - computed: false, optional: true, required: false
+  private _deleteNodes?: boolean | cdktf.IResolvable; 
+  public get deleteNodes() {
+    return this.getBooleanAttribute('delete_nodes');
+  }
+  public set deleteNodes(value: boolean | cdktf.IResolvable) {
+    this._deleteNodes = value;
+  }
+  public resetDeleteNodes() {
+    this._deleteNodes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteNodesInput() {
+    return this._deleteNodes;
   }
 
   // force_delete - computed: false, optional: false, required: true
@@ -2518,7 +2548,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.85.1',
+        providerVersion: '1.86.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

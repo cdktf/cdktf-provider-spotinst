@@ -50,7 +50,7 @@ export class OceanGkeLaunchSpecImport extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_launch_spec_import',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.85.1',
+        providerVersion: '1.86.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
