@@ -79,6 +79,12 @@ export interface OceanEcsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly schedulingTask?: OceanEcsLaunchSpecSchedulingTask[] | cdktf.IResolvable;
   /**
+  * strategy block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#strategy OceanEcsLaunchSpec#strategy}
+  */
+  readonly strategy?: OceanEcsLaunchSpecStrategy[] | cdktf.IResolvable;
+  /**
   * tags block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#tags OceanEcsLaunchSpec#tags}
@@ -1240,6 +1246,103 @@ export class OceanEcsLaunchSpecSchedulingTaskList extends cdktf.ComplexList {
     return new OceanEcsLaunchSpecSchedulingTaskOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanEcsLaunchSpecStrategy {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#spot_percentage OceanEcsLaunchSpec#spot_percentage}
+  */
+  readonly spotPercentage?: number;
+}
+
+export function oceanEcsLaunchSpecStrategyToTerraform(struct?: OceanEcsLaunchSpecStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    spot_percentage: cdktf.numberToTerraform(struct!.spotPercentage),
+  }
+}
+
+export class OceanEcsLaunchSpecStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._spotPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.spotPercentage = this._spotPercentage;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._spotPercentage = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._spotPercentage = value.spotPercentage;
+    }
+  }
+
+  // spot_percentage - computed: false, optional: true, required: false
+  private _spotPercentage?: number; 
+  public get spotPercentage() {
+    return this.getNumberAttribute('spot_percentage');
+  }
+  public set spotPercentage(value: number) {
+    this._spotPercentage = value;
+  }
+  public resetSpotPercentage() {
+    this._spotPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotPercentageInput() {
+    return this._spotPercentage;
+  }
+}
+
+export class OceanEcsLaunchSpecStrategyList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsLaunchSpecStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsLaunchSpecStrategyOutputReference {
+    return new OceanEcsLaunchSpecStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanEcsLaunchSpecTags {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#key OceanEcsLaunchSpec#key}
@@ -1385,7 +1488,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.86.0',
+        providerVersion: '1.87.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1411,6 +1514,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     this._autoscaleHeadrooms.internalValue = config.autoscaleHeadrooms;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
     this._schedulingTask.internalValue = config.schedulingTask;
+    this._strategy.internalValue = config.strategy;
     this._tags.internalValue = config.tags;
   }
 
@@ -1652,6 +1756,22 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     return this._schedulingTask.internalValue;
   }
 
+  // strategy - computed: false, optional: true, required: false
+  private _strategy = new OceanEcsLaunchSpecStrategyList(this, "strategy", true);
+  public get strategy() {
+    return this._strategy;
+  }
+  public putStrategy(value: OceanEcsLaunchSpecStrategy[] | cdktf.IResolvable) {
+    this._strategy.internalValue = value;
+  }
+  public resetStrategy() {
+    this._strategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get strategyInput() {
+    return this._strategy.internalValue;
+  }
+
   // tags - computed: false, optional: true, required: false
   private _tags = new OceanEcsLaunchSpecTagsList(this, "tags", true);
   public get tags() {
@@ -1689,6 +1809,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
       block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
       scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
+      strategy: cdktf.listMapper(oceanEcsLaunchSpecStrategyToTerraform, true)(this._strategy.internalValue),
       tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform, true)(this._tags.internalValue),
     };
   }
