@@ -2548,7 +2548,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.87.0',
+        providerVersion: '1.87.1',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2910,7 +2910,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
   }
 
   // resource_limits - computed: false, optional: true, required: false
-  private _resourceLimits = new OceanAwsLaunchSpecResourceLimitsList(this, "resource_limits", true);
+  private _resourceLimits = new OceanAwsLaunchSpecResourceLimitsList(this, "resource_limits", false);
   public get resourceLimits() {
     return this._resourceLimits;
   }
