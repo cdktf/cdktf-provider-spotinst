@@ -121,6 +121,12 @@ export interface OceanAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly autoscaler?: OceanAwsAutoscaler;
   /**
+  * filters block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#filters OceanAws#filters}
+  */
+  readonly filters?: OceanAwsFilters;
+  /**
   * instance_metadata_options block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#instance_metadata_options OceanAws#instance_metadata_options}
@@ -772,6 +778,557 @@ export class OceanAwsAutoscalerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get resourceLimitsInput() {
     return this._resourceLimits.internalValue;
+  }
+}
+export interface OceanAwsFilters {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#architectures OceanAws#architectures}
+  */
+  readonly architectures?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#categories OceanAws#categories}
+  */
+  readonly categories?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#disk_types OceanAws#disk_types}
+  */
+  readonly diskTypes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#exclude_families OceanAws#exclude_families}
+  */
+  readonly excludeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#exclude_metal OceanAws#exclude_metal}
+  */
+  readonly excludeMetal?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#hypervisor OceanAws#hypervisor}
+  */
+  readonly hypervisor?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#include_families OceanAws#include_families}
+  */
+  readonly includeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#is_ena_supported OceanAws#is_ena_supported}
+  */
+  readonly isEnaSupported?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#max_gpu OceanAws#max_gpu}
+  */
+  readonly maxGpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#max_memory_gib OceanAws#max_memory_gib}
+  */
+  readonly maxMemoryGib?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#max_network_performance OceanAws#max_network_performance}
+  */
+  readonly maxNetworkPerformance?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#max_vcpu OceanAws#max_vcpu}
+  */
+  readonly maxVcpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#min_enis OceanAws#min_enis}
+  */
+  readonly minEnis?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#min_gpu OceanAws#min_gpu}
+  */
+  readonly minGpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#min_memory_gib OceanAws#min_memory_gib}
+  */
+  readonly minMemoryGib?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#min_network_performance OceanAws#min_network_performance}
+  */
+  readonly minNetworkPerformance?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#min_vcpu OceanAws#min_vcpu}
+  */
+  readonly minVcpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#root_device_types OceanAws#root_device_types}
+  */
+  readonly rootDeviceTypes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#virtualization_types OceanAws#virtualization_types}
+  */
+  readonly virtualizationTypes?: string[];
+}
+
+export function oceanAwsFiltersToTerraform(struct?: OceanAwsFiltersOutputReference | OceanAwsFilters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    architectures: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.architectures),
+    categories: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.categories),
+    disk_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.diskTypes),
+    exclude_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeFamilies),
+    exclude_metal: cdktf.booleanToTerraform(struct!.excludeMetal),
+    hypervisor: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hypervisor),
+    include_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includeFamilies),
+    is_ena_supported: cdktf.booleanToTerraform(struct!.isEnaSupported),
+    max_gpu: cdktf.numberToTerraform(struct!.maxGpu),
+    max_memory_gib: cdktf.numberToTerraform(struct!.maxMemoryGib),
+    max_network_performance: cdktf.numberToTerraform(struct!.maxNetworkPerformance),
+    max_vcpu: cdktf.numberToTerraform(struct!.maxVcpu),
+    min_enis: cdktf.numberToTerraform(struct!.minEnis),
+    min_gpu: cdktf.numberToTerraform(struct!.minGpu),
+    min_memory_gib: cdktf.numberToTerraform(struct!.minMemoryGib),
+    min_network_performance: cdktf.numberToTerraform(struct!.minNetworkPerformance),
+    min_vcpu: cdktf.numberToTerraform(struct!.minVcpu),
+    root_device_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.rootDeviceTypes),
+    virtualization_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.virtualizationTypes),
+  }
+}
+
+export class OceanAwsFiltersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAwsFilters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._architectures !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.architectures = this._architectures;
+    }
+    if (this._categories !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.categories = this._categories;
+    }
+    if (this._diskTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskTypes = this._diskTypes;
+    }
+    if (this._excludeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeFamilies = this._excludeFamilies;
+    }
+    if (this._excludeMetal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeMetal = this._excludeMetal;
+    }
+    if (this._hypervisor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hypervisor = this._hypervisor;
+    }
+    if (this._includeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeFamilies = this._includeFamilies;
+    }
+    if (this._isEnaSupported !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnaSupported = this._isEnaSupported;
+    }
+    if (this._maxGpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxGpu = this._maxGpu;
+    }
+    if (this._maxMemoryGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxMemoryGib = this._maxMemoryGib;
+    }
+    if (this._maxNetworkPerformance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxNetworkPerformance = this._maxNetworkPerformance;
+    }
+    if (this._maxVcpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxVcpu = this._maxVcpu;
+    }
+    if (this._minEnis !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minEnis = this._minEnis;
+    }
+    if (this._minGpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minGpu = this._minGpu;
+    }
+    if (this._minMemoryGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minMemoryGib = this._minMemoryGib;
+    }
+    if (this._minNetworkPerformance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minNetworkPerformance = this._minNetworkPerformance;
+    }
+    if (this._minVcpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minVcpu = this._minVcpu;
+    }
+    if (this._rootDeviceTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootDeviceTypes = this._rootDeviceTypes;
+    }
+    if (this._virtualizationTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualizationTypes = this._virtualizationTypes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsFilters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._architectures = undefined;
+      this._categories = undefined;
+      this._diskTypes = undefined;
+      this._excludeFamilies = undefined;
+      this._excludeMetal = undefined;
+      this._hypervisor = undefined;
+      this._includeFamilies = undefined;
+      this._isEnaSupported = undefined;
+      this._maxGpu = undefined;
+      this._maxMemoryGib = undefined;
+      this._maxNetworkPerformance = undefined;
+      this._maxVcpu = undefined;
+      this._minEnis = undefined;
+      this._minGpu = undefined;
+      this._minMemoryGib = undefined;
+      this._minNetworkPerformance = undefined;
+      this._minVcpu = undefined;
+      this._rootDeviceTypes = undefined;
+      this._virtualizationTypes = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._architectures = value.architectures;
+      this._categories = value.categories;
+      this._diskTypes = value.diskTypes;
+      this._excludeFamilies = value.excludeFamilies;
+      this._excludeMetal = value.excludeMetal;
+      this._hypervisor = value.hypervisor;
+      this._includeFamilies = value.includeFamilies;
+      this._isEnaSupported = value.isEnaSupported;
+      this._maxGpu = value.maxGpu;
+      this._maxMemoryGib = value.maxMemoryGib;
+      this._maxNetworkPerformance = value.maxNetworkPerformance;
+      this._maxVcpu = value.maxVcpu;
+      this._minEnis = value.minEnis;
+      this._minGpu = value.minGpu;
+      this._minMemoryGib = value.minMemoryGib;
+      this._minNetworkPerformance = value.minNetworkPerformance;
+      this._minVcpu = value.minVcpu;
+      this._rootDeviceTypes = value.rootDeviceTypes;
+      this._virtualizationTypes = value.virtualizationTypes;
+    }
+  }
+
+  // architectures - computed: false, optional: true, required: false
+  private _architectures?: string[]; 
+  public get architectures() {
+    return cdktf.Fn.tolist(this.getListAttribute('architectures'));
+  }
+  public set architectures(value: string[]) {
+    this._architectures = value;
+  }
+  public resetArchitectures() {
+    this._architectures = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get architecturesInput() {
+    return this._architectures;
+  }
+
+  // categories - computed: false, optional: true, required: false
+  private _categories?: string[]; 
+  public get categories() {
+    return cdktf.Fn.tolist(this.getListAttribute('categories'));
+  }
+  public set categories(value: string[]) {
+    this._categories = value;
+  }
+  public resetCategories() {
+    this._categories = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoriesInput() {
+    return this._categories;
+  }
+
+  // disk_types - computed: false, optional: true, required: false
+  private _diskTypes?: string[]; 
+  public get diskTypes() {
+    return cdktf.Fn.tolist(this.getListAttribute('disk_types'));
+  }
+  public set diskTypes(value: string[]) {
+    this._diskTypes = value;
+  }
+  public resetDiskTypes() {
+    this._diskTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskTypesInput() {
+    return this._diskTypes;
+  }
+
+  // exclude_families - computed: false, optional: true, required: false
+  private _excludeFamilies?: string[]; 
+  public get excludeFamilies() {
+    return cdktf.Fn.tolist(this.getListAttribute('exclude_families'));
+  }
+  public set excludeFamilies(value: string[]) {
+    this._excludeFamilies = value;
+  }
+  public resetExcludeFamilies() {
+    this._excludeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeFamiliesInput() {
+    return this._excludeFamilies;
+  }
+
+  // exclude_metal - computed: false, optional: true, required: false
+  private _excludeMetal?: boolean | cdktf.IResolvable; 
+  public get excludeMetal() {
+    return this.getBooleanAttribute('exclude_metal');
+  }
+  public set excludeMetal(value: boolean | cdktf.IResolvable) {
+    this._excludeMetal = value;
+  }
+  public resetExcludeMetal() {
+    this._excludeMetal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeMetalInput() {
+    return this._excludeMetal;
+  }
+
+  // hypervisor - computed: false, optional: true, required: false
+  private _hypervisor?: string[]; 
+  public get hypervisor() {
+    return cdktf.Fn.tolist(this.getListAttribute('hypervisor'));
+  }
+  public set hypervisor(value: string[]) {
+    this._hypervisor = value;
+  }
+  public resetHypervisor() {
+    this._hypervisor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hypervisorInput() {
+    return this._hypervisor;
+  }
+
+  // include_families - computed: false, optional: true, required: false
+  private _includeFamilies?: string[]; 
+  public get includeFamilies() {
+    return cdktf.Fn.tolist(this.getListAttribute('include_families'));
+  }
+  public set includeFamilies(value: string[]) {
+    this._includeFamilies = value;
+  }
+  public resetIncludeFamilies() {
+    this._includeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeFamiliesInput() {
+    return this._includeFamilies;
+  }
+
+  // is_ena_supported - computed: false, optional: true, required: false
+  private _isEnaSupported?: boolean | cdktf.IResolvable; 
+  public get isEnaSupported() {
+    return this.getBooleanAttribute('is_ena_supported');
+  }
+  public set isEnaSupported(value: boolean | cdktf.IResolvable) {
+    this._isEnaSupported = value;
+  }
+  public resetIsEnaSupported() {
+    this._isEnaSupported = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnaSupportedInput() {
+    return this._isEnaSupported;
+  }
+
+  // max_gpu - computed: false, optional: true, required: false
+  private _maxGpu?: number; 
+  public get maxGpu() {
+    return this.getNumberAttribute('max_gpu');
+  }
+  public set maxGpu(value: number) {
+    this._maxGpu = value;
+  }
+  public resetMaxGpu() {
+    this._maxGpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxGpuInput() {
+    return this._maxGpu;
+  }
+
+  // max_memory_gib - computed: false, optional: true, required: false
+  private _maxMemoryGib?: number; 
+  public get maxMemoryGib() {
+    return this.getNumberAttribute('max_memory_gib');
+  }
+  public set maxMemoryGib(value: number) {
+    this._maxMemoryGib = value;
+  }
+  public resetMaxMemoryGib() {
+    this._maxMemoryGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMemoryGibInput() {
+    return this._maxMemoryGib;
+  }
+
+  // max_network_performance - computed: false, optional: true, required: false
+  private _maxNetworkPerformance?: number; 
+  public get maxNetworkPerformance() {
+    return this.getNumberAttribute('max_network_performance');
+  }
+  public set maxNetworkPerformance(value: number) {
+    this._maxNetworkPerformance = value;
+  }
+  public resetMaxNetworkPerformance() {
+    this._maxNetworkPerformance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxNetworkPerformanceInput() {
+    return this._maxNetworkPerformance;
+  }
+
+  // max_vcpu - computed: false, optional: true, required: false
+  private _maxVcpu?: number; 
+  public get maxVcpu() {
+    return this.getNumberAttribute('max_vcpu');
+  }
+  public set maxVcpu(value: number) {
+    this._maxVcpu = value;
+  }
+  public resetMaxVcpu() {
+    this._maxVcpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxVcpuInput() {
+    return this._maxVcpu;
+  }
+
+  // min_enis - computed: false, optional: true, required: false
+  private _minEnis?: number; 
+  public get minEnis() {
+    return this.getNumberAttribute('min_enis');
+  }
+  public set minEnis(value: number) {
+    this._minEnis = value;
+  }
+  public resetMinEnis() {
+    this._minEnis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minEnisInput() {
+    return this._minEnis;
+  }
+
+  // min_gpu - computed: false, optional: true, required: false
+  private _minGpu?: number; 
+  public get minGpu() {
+    return this.getNumberAttribute('min_gpu');
+  }
+  public set minGpu(value: number) {
+    this._minGpu = value;
+  }
+  public resetMinGpu() {
+    this._minGpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minGpuInput() {
+    return this._minGpu;
+  }
+
+  // min_memory_gib - computed: false, optional: true, required: false
+  private _minMemoryGib?: number; 
+  public get minMemoryGib() {
+    return this.getNumberAttribute('min_memory_gib');
+  }
+  public set minMemoryGib(value: number) {
+    this._minMemoryGib = value;
+  }
+  public resetMinMemoryGib() {
+    this._minMemoryGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minMemoryGibInput() {
+    return this._minMemoryGib;
+  }
+
+  // min_network_performance - computed: false, optional: true, required: false
+  private _minNetworkPerformance?: number; 
+  public get minNetworkPerformance() {
+    return this.getNumberAttribute('min_network_performance');
+  }
+  public set minNetworkPerformance(value: number) {
+    this._minNetworkPerformance = value;
+  }
+  public resetMinNetworkPerformance() {
+    this._minNetworkPerformance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minNetworkPerformanceInput() {
+    return this._minNetworkPerformance;
+  }
+
+  // min_vcpu - computed: false, optional: true, required: false
+  private _minVcpu?: number; 
+  public get minVcpu() {
+    return this.getNumberAttribute('min_vcpu');
+  }
+  public set minVcpu(value: number) {
+    this._minVcpu = value;
+  }
+  public resetMinVcpu() {
+    this._minVcpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minVcpuInput() {
+    return this._minVcpu;
+  }
+
+  // root_device_types - computed: false, optional: true, required: false
+  private _rootDeviceTypes?: string[]; 
+  public get rootDeviceTypes() {
+    return cdktf.Fn.tolist(this.getListAttribute('root_device_types'));
+  }
+  public set rootDeviceTypes(value: string[]) {
+    this._rootDeviceTypes = value;
+  }
+  public resetRootDeviceTypes() {
+    this._rootDeviceTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootDeviceTypesInput() {
+    return this._rootDeviceTypes;
+  }
+
+  // virtualization_types - computed: false, optional: true, required: false
+  private _virtualizationTypes?: string[]; 
+  public get virtualizationTypes() {
+    return cdktf.Fn.tolist(this.getListAttribute('virtualization_types'));
+  }
+  public set virtualizationTypes(value: string[]) {
+    this._virtualizationTypes = value;
+  }
+  public resetVirtualizationTypes() {
+    this._virtualizationTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualizationTypesInput() {
+    return this._virtualizationTypes;
   }
 }
 export interface OceanAwsInstanceMetadataOptions {
@@ -2037,7 +2594,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.87.1',
+        providerVersion: '1.90.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2075,6 +2632,7 @@ export class OceanAws extends cdktf.TerraformResource {
     this._utilizeReservedInstances = config.utilizeReservedInstances;
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
+    this._filters.internalValue = config.filters;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
     this._loadBalancers.internalValue = config.loadBalancers;
     this._logging.internalValue = config.logging;
@@ -2513,6 +3071,22 @@ export class OceanAws extends cdktf.TerraformResource {
     return this._autoscaler.internalValue;
   }
 
+  // filters - computed: false, optional: true, required: false
+  private _filters = new OceanAwsFiltersOutputReference(this, "filters");
+  public get filters() {
+    return this._filters;
+  }
+  public putFilters(value: OceanAwsFilters) {
+    this._filters.internalValue = value;
+  }
+  public resetFilters() {
+    this._filters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filtersInput() {
+    return this._filters.internalValue;
+  }
+
   // instance_metadata_options - computed: false, optional: true, required: false
   private _instanceMetadataOptions = new OceanAwsInstanceMetadataOptionsOutputReference(this, "instance_metadata_options");
   public get instanceMetadataOptions() {
@@ -2642,6 +3216,7 @@ export class OceanAws extends cdktf.TerraformResource {
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanAwsAutoscalerToTerraform(this._autoscaler.internalValue),
+      filters: oceanAwsFiltersToTerraform(this._filters.internalValue),
       instance_metadata_options: oceanAwsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       load_balancers: cdktf.listMapper(oceanAwsLoadBalancersToTerraform, true)(this._loadBalancers.internalValue),
       logging: oceanAwsLoggingToTerraform(this._logging.internalValue),

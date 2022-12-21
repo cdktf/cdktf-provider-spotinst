@@ -62,7 +62,7 @@ export class Subscription extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_subscription',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.87.1',
+        providerVersion: '1.90.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

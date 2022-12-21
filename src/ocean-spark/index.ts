@@ -135,11 +135,403 @@ export class OceanSparkComputeOutputReference extends cdktf.ComplexObject {
     return this._useTaints;
   }
 }
+export interface OceanSparkIngressController {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#managed OceanSpark#managed}
+  */
+  readonly managed?: boolean | cdktf.IResolvable;
+}
+
+export function oceanSparkIngressControllerToTerraform(struct?: OceanSparkIngressControllerOutputReference | OceanSparkIngressController): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    managed: cdktf.booleanToTerraform(struct!.managed),
+  }
+}
+
+export class OceanSparkIngressControllerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanSparkIngressController | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._managed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managed = this._managed;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanSparkIngressController | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._managed = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._managed = value.managed;
+    }
+  }
+
+  // managed - computed: false, optional: true, required: false
+  private _managed?: boolean | cdktf.IResolvable; 
+  public get managed() {
+    return this.getBooleanAttribute('managed');
+  }
+  public set managed(value: boolean | cdktf.IResolvable) {
+    this._managed = value;
+  }
+  public resetManaged() {
+    this._managed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedInput() {
+    return this._managed;
+  }
+}
+export interface OceanSparkIngressCustomEndpoint {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#address OceanSpark#address}
+  */
+  readonly address?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#enabled OceanSpark#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+}
+
+export function oceanSparkIngressCustomEndpointToTerraform(struct?: OceanSparkIngressCustomEndpointOutputReference | OceanSparkIngressCustomEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.stringToTerraform(struct!.address),
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+  }
+}
+
+export class OceanSparkIngressCustomEndpointOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanSparkIngressCustomEndpoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address;
+    }
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanSparkIngressCustomEndpoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._address = undefined;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._address = value.address;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  public resetAddress() {
+    this._address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+export interface OceanSparkIngressLoadBalancer {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#managed OceanSpark#managed}
+  */
+  readonly managed?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#service_annotations OceanSpark#service_annotations}
+  */
+  readonly serviceAnnotations?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#target_group_arn OceanSpark#target_group_arn}
+  */
+  readonly targetGroupArn?: string;
+}
+
+export function oceanSparkIngressLoadBalancerToTerraform(struct?: OceanSparkIngressLoadBalancerOutputReference | OceanSparkIngressLoadBalancer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    managed: cdktf.booleanToTerraform(struct!.managed),
+    service_annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.serviceAnnotations),
+    target_group_arn: cdktf.stringToTerraform(struct!.targetGroupArn),
+  }
+}
+
+export class OceanSparkIngressLoadBalancerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanSparkIngressLoadBalancer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._managed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managed = this._managed;
+    }
+    if (this._serviceAnnotations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAnnotations = this._serviceAnnotations;
+    }
+    if (this._targetGroupArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetGroupArn = this._targetGroupArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanSparkIngressLoadBalancer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._managed = undefined;
+      this._serviceAnnotations = undefined;
+      this._targetGroupArn = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._managed = value.managed;
+      this._serviceAnnotations = value.serviceAnnotations;
+      this._targetGroupArn = value.targetGroupArn;
+    }
+  }
+
+  // managed - computed: false, optional: true, required: false
+  private _managed?: boolean | cdktf.IResolvable; 
+  public get managed() {
+    return this.getBooleanAttribute('managed');
+  }
+  public set managed(value: boolean | cdktf.IResolvable) {
+    this._managed = value;
+  }
+  public resetManaged() {
+    this._managed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedInput() {
+    return this._managed;
+  }
+
+  // service_annotations - computed: false, optional: true, required: false
+  private _serviceAnnotations?: { [key: string]: string }; 
+  public get serviceAnnotations() {
+    return this.getStringMapAttribute('service_annotations');
+  }
+  public set serviceAnnotations(value: { [key: string]: string }) {
+    this._serviceAnnotations = value;
+  }
+  public resetServiceAnnotations() {
+    this._serviceAnnotations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAnnotationsInput() {
+    return this._serviceAnnotations;
+  }
+
+  // target_group_arn - computed: false, optional: true, required: false
+  private _targetGroupArn?: string; 
+  public get targetGroupArn() {
+    return this.getStringAttribute('target_group_arn');
+  }
+  public set targetGroupArn(value: string) {
+    this._targetGroupArn = value;
+  }
+  public resetTargetGroupArn() {
+    this._targetGroupArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetGroupArnInput() {
+    return this._targetGroupArn;
+  }
+}
+export interface OceanSparkIngressPrivateLink {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#enabled OceanSpark#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}
+  */
+  readonly vpcEndpointService?: string;
+}
+
+export function oceanSparkIngressPrivateLinkToTerraform(struct?: OceanSparkIngressPrivateLinkOutputReference | OceanSparkIngressPrivateLink): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    vpc_endpoint_service: cdktf.stringToTerraform(struct!.vpcEndpointService),
+  }
+}
+
+export class OceanSparkIngressPrivateLinkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanSparkIngressPrivateLink | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._vpcEndpointService !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcEndpointService = this._vpcEndpointService;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanSparkIngressPrivateLink | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._vpcEndpointService = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._vpcEndpointService = value.vpcEndpointService;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // vpc_endpoint_service - computed: false, optional: true, required: false
+  private _vpcEndpointService?: string; 
+  public get vpcEndpointService() {
+    return this.getStringAttribute('vpc_endpoint_service');
+  }
+  public set vpcEndpointService(value: string) {
+    this._vpcEndpointService = value;
+  }
+  public resetVpcEndpointService() {
+    this._vpcEndpointService = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcEndpointServiceInput() {
+    return this._vpcEndpointService;
+  }
+}
 export interface OceanSparkIngress {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#service_annotations OceanSpark#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
+  /**
+  * controller block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#controller OceanSpark#controller}
+  */
+  readonly controller?: OceanSparkIngressController;
+  /**
+  * custom_endpoint block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
+  */
+  readonly customEndpoint?: OceanSparkIngressCustomEndpoint;
+  /**
+  * load_balancer block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#load_balancer OceanSpark#load_balancer}
+  */
+  readonly loadBalancer?: OceanSparkIngressLoadBalancer;
+  /**
+  * private_link block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#private_link OceanSpark#private_link}
+  */
+  readonly privateLink?: OceanSparkIngressPrivateLink;
 }
 
 export function oceanSparkIngressToTerraform(struct?: OceanSparkIngressOutputReference | OceanSparkIngress): any {
@@ -149,6 +541,10 @@ export function oceanSparkIngressToTerraform(struct?: OceanSparkIngressOutputRef
   }
   return {
     service_annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.serviceAnnotations),
+    controller: oceanSparkIngressControllerToTerraform(struct!.controller),
+    custom_endpoint: oceanSparkIngressCustomEndpointToTerraform(struct!.customEndpoint),
+    load_balancer: oceanSparkIngressLoadBalancerToTerraform(struct!.loadBalancer),
+    private_link: oceanSparkIngressPrivateLinkToTerraform(struct!.privateLink),
   }
 }
 
@@ -170,6 +566,22 @@ export class OceanSparkIngressOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.serviceAnnotations = this._serviceAnnotations;
     }
+    if (this._controller?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controller = this._controller?.internalValue;
+    }
+    if (this._customEndpoint?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customEndpoint = this._customEndpoint?.internalValue;
+    }
+    if (this._loadBalancer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.loadBalancer = this._loadBalancer?.internalValue;
+    }
+    if (this._privateLink?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateLink = this._privateLink?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -177,10 +589,18 @@ export class OceanSparkIngressOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._serviceAnnotations = undefined;
+      this._controller.internalValue = undefined;
+      this._customEndpoint.internalValue = undefined;
+      this._loadBalancer.internalValue = undefined;
+      this._privateLink.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._serviceAnnotations = value.serviceAnnotations;
+      this._controller.internalValue = value.controller;
+      this._customEndpoint.internalValue = value.customEndpoint;
+      this._loadBalancer.internalValue = value.loadBalancer;
+      this._privateLink.internalValue = value.privateLink;
     }
   }
 
@@ -198,6 +618,70 @@ export class OceanSparkIngressOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get serviceAnnotationsInput() {
     return this._serviceAnnotations;
+  }
+
+  // controller - computed: false, optional: true, required: false
+  private _controller = new OceanSparkIngressControllerOutputReference(this, "controller");
+  public get controller() {
+    return this._controller;
+  }
+  public putController(value: OceanSparkIngressController) {
+    this._controller.internalValue = value;
+  }
+  public resetController() {
+    this._controller.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controllerInput() {
+    return this._controller.internalValue;
+  }
+
+  // custom_endpoint - computed: false, optional: true, required: false
+  private _customEndpoint = new OceanSparkIngressCustomEndpointOutputReference(this, "custom_endpoint");
+  public get customEndpoint() {
+    return this._customEndpoint;
+  }
+  public putCustomEndpoint(value: OceanSparkIngressCustomEndpoint) {
+    this._customEndpoint.internalValue = value;
+  }
+  public resetCustomEndpoint() {
+    this._customEndpoint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customEndpointInput() {
+    return this._customEndpoint.internalValue;
+  }
+
+  // load_balancer - computed: false, optional: true, required: false
+  private _loadBalancer = new OceanSparkIngressLoadBalancerOutputReference(this, "load_balancer");
+  public get loadBalancer() {
+    return this._loadBalancer;
+  }
+  public putLoadBalancer(value: OceanSparkIngressLoadBalancer) {
+    this._loadBalancer.internalValue = value;
+  }
+  public resetLoadBalancer() {
+    this._loadBalancer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loadBalancerInput() {
+    return this._loadBalancer.internalValue;
+  }
+
+  // private_link - computed: false, optional: true, required: false
+  private _privateLink = new OceanSparkIngressPrivateLinkOutputReference(this, "private_link");
+  public get privateLink() {
+    return this._privateLink;
+  }
+  public putPrivateLink(value: OceanSparkIngressPrivateLink) {
+    this._privateLink.internalValue = value;
+  }
+  public resetPrivateLink() {
+    this._privateLink.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateLinkInput() {
+    return this._privateLink.internalValue;
   }
 }
 export interface OceanSparkLogCollection {
@@ -384,7 +868,7 @@ export class OceanSpark extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_spark',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.87.1',
+        providerVersion: '1.90.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
