@@ -4866,7 +4866,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_stateful_node_azure',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.87.1',
+        providerVersion: '1.90.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
