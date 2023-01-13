@@ -20,6 +20,10 @@ export interface ElastigroupAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly capacityUnit?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}
+  */
+  readonly considerOdPricing?: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}
   */
   readonly cpuCredits?: string;
@@ -12171,7 +12175,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.90.0',
+        providerVersion: '1.91.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -12185,6 +12189,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._availabilityZones = config.availabilityZones;
     this._blockDevicesMode = config.blockDevicesMode;
     this._capacityUnit = config.capacityUnit;
+    this._considerOdPricing = config.considerOdPricing;
     this._cpuCredits = config.cpuCredits;
     this._description = config.description;
     this._desiredCapacity = config.desiredCapacity;
@@ -12314,6 +12319,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get capacityUnitInput() {
     return this._capacityUnit;
+  }
+
+  // consider_od_pricing - computed: false, optional: true, required: false
+  private _considerOdPricing?: boolean | cdktf.IResolvable; 
+  public get considerOdPricing() {
+    return this.getBooleanAttribute('consider_od_pricing');
+  }
+  public set considerOdPricing(value: boolean | cdktf.IResolvable) {
+    this._considerOdPricing = value;
+  }
+  public resetConsiderOdPricing() {
+    this._considerOdPricing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get considerOdPricingInput() {
+    return this._considerOdPricing;
   }
 
   // cpu_credits - computed: false, optional: true, required: false
@@ -13536,6 +13557,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._availabilityZones),
       block_devices_mode: cdktf.stringToTerraform(this._blockDevicesMode),
       capacity_unit: cdktf.stringToTerraform(this._capacityUnit),
+      consider_od_pricing: cdktf.booleanToTerraform(this._considerOdPricing),
       cpu_credits: cdktf.stringToTerraform(this._cpuCredits),
       description: cdktf.stringToTerraform(this._description),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
