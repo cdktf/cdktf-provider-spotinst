@@ -121,6 +121,12 @@ export interface OceanAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly autoscaler?: OceanAwsAutoscaler;
   /**
+  * cluster_orientation block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#cluster_orientation OceanAws#cluster_orientation}
+  */
+  readonly clusterOrientation?: OceanAwsClusterOrientation[] | cdktf.IResolvable;
+  /**
   * filters block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#filters OceanAws#filters}
@@ -778,6 +784,103 @@ export class OceanAwsAutoscalerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get resourceLimitsInput() {
     return this._resourceLimits.internalValue;
+  }
+}
+export interface OceanAwsClusterOrientation {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#availability_vs_cost OceanAws#availability_vs_cost}
+  */
+  readonly availabilityVsCost?: string;
+}
+
+export function oceanAwsClusterOrientationToTerraform(struct?: OceanAwsClusterOrientation | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    availability_vs_cost: cdktf.stringToTerraform(struct!.availabilityVsCost),
+  }
+}
+
+export class OceanAwsClusterOrientationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAwsClusterOrientation | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._availabilityVsCost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.availabilityVsCost = this._availabilityVsCost;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsClusterOrientation | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._availabilityVsCost = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._availabilityVsCost = value.availabilityVsCost;
+    }
+  }
+
+  // availability_vs_cost - computed: false, optional: true, required: false
+  private _availabilityVsCost?: string; 
+  public get availabilityVsCost() {
+    return this.getStringAttribute('availability_vs_cost');
+  }
+  public set availabilityVsCost(value: string) {
+    this._availabilityVsCost = value;
+  }
+  public resetAvailabilityVsCost() {
+    this._availabilityVsCost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get availabilityVsCostInput() {
+    return this._availabilityVsCost;
+  }
+}
+
+export class OceanAwsClusterOrientationList extends cdktf.ComplexList {
+  public internalValue? : OceanAwsClusterOrientation[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAwsClusterOrientationOutputReference {
+    return new OceanAwsClusterOrientationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface OceanAwsFilters {
@@ -2594,7 +2697,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.91.0',
+        providerVersion: '1.92.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2632,6 +2735,7 @@ export class OceanAws extends cdktf.TerraformResource {
     this._utilizeReservedInstances = config.utilizeReservedInstances;
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
+    this._clusterOrientation.internalValue = config.clusterOrientation;
     this._filters.internalValue = config.filters;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
     this._loadBalancers.internalValue = config.loadBalancers;
@@ -3071,6 +3175,22 @@ export class OceanAws extends cdktf.TerraformResource {
     return this._autoscaler.internalValue;
   }
 
+  // cluster_orientation - computed: false, optional: true, required: false
+  private _clusterOrientation = new OceanAwsClusterOrientationList(this, "cluster_orientation", false);
+  public get clusterOrientation() {
+    return this._clusterOrientation;
+  }
+  public putClusterOrientation(value: OceanAwsClusterOrientation[] | cdktf.IResolvable) {
+    this._clusterOrientation.internalValue = value;
+  }
+  public resetClusterOrientation() {
+    this._clusterOrientation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterOrientationInput() {
+    return this._clusterOrientation.internalValue;
+  }
+
   // filters - computed: false, optional: true, required: false
   private _filters = new OceanAwsFiltersOutputReference(this, "filters");
   public get filters() {
@@ -3216,6 +3336,7 @@ export class OceanAws extends cdktf.TerraformResource {
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanAwsAutoscalerToTerraform(this._autoscaler.internalValue),
+      cluster_orientation: cdktf.listMapper(oceanAwsClusterOrientationToTerraform, true)(this._clusterOrientation.internalValue),
       filters: oceanAwsFiltersToTerraform(this._filters.internalValue),
       instance_metadata_options: oceanAwsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       load_balancers: cdktf.listMapper(oceanAwsLoadBalancersToTerraform, true)(this._loadBalancers.internalValue),
