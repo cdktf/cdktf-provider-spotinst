@@ -87,6 +87,10 @@ export interface ElastigroupAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly imageId?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}
+  */
+  readonly immediateOdRecoverThreshold?: number;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}
   */
   readonly instanceTypesOndemand: string;
@@ -12175,7 +12179,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.92.0',
+        providerVersion: '1.94.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -12205,6 +12209,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
     this._iamInstanceProfile = config.iamInstanceProfile;
     this._id = config.id;
     this._imageId = config.imageId;
+    this._immediateOdRecoverThreshold = config.immediateOdRecoverThreshold;
     this._instanceTypesOndemand = config.instanceTypesOndemand;
     this._instanceTypesPreferredSpot = config.instanceTypesPreferredSpot;
     this._instanceTypesSpot = config.instanceTypesSpot;
@@ -12572,6 +12577,22 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get imageIdInput() {
     return this._imageId;
+  }
+
+  // immediate_od_recover_threshold - computed: false, optional: true, required: false
+  private _immediateOdRecoverThreshold?: number; 
+  public get immediateOdRecoverThreshold() {
+    return this.getNumberAttribute('immediate_od_recover_threshold');
+  }
+  public set immediateOdRecoverThreshold(value: number) {
+    this._immediateOdRecoverThreshold = value;
+  }
+  public resetImmediateOdRecoverThreshold() {
+    this._immediateOdRecoverThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get immediateOdRecoverThresholdInput() {
+    return this._immediateOdRecoverThreshold;
   }
 
   // instance_types_ondemand - computed: false, optional: false, required: true
@@ -13573,6 +13594,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       iam_instance_profile: cdktf.stringToTerraform(this._iamInstanceProfile),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
+      immediate_od_recover_threshold: cdktf.numberToTerraform(this._immediateOdRecoverThreshold),
       instance_types_ondemand: cdktf.stringToTerraform(this._instanceTypesOndemand),
       instance_types_preferred_spot: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesPreferredSpot),
       instance_types_spot: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesSpot),

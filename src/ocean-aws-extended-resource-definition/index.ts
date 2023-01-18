@@ -50,7 +50,7 @@ export class OceanAwsExtendedResourceDefinition extends cdktf.TerraformResource 
       terraformResourceType: 'spotinst_ocean_aws_extended_resource_definition',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.92.0',
+        providerVersion: '1.94.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
