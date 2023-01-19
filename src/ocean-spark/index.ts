@@ -868,7 +868,7 @@ export class OceanSpark extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_spark',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.94.0',
+        providerVersion: '1.95.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -915,7 +915,7 @@ export interface OceanAwsFilters {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#is_ena_supported OceanAws#is_ena_supported}
   */
-  readonly isEnaSupported?: boolean | cdktf.IResolvable;
+  readonly isEnaSupported?: string;
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#max_gpu OceanAws#max_gpu}
   */
@@ -975,7 +975,7 @@ export function oceanAwsFiltersToTerraform(struct?: OceanAwsFiltersOutputReferen
     exclude_metal: cdktf.booleanToTerraform(struct!.excludeMetal),
     hypervisor: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.hypervisor),
     include_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includeFamilies),
-    is_ena_supported: cdktf.booleanToTerraform(struct!.isEnaSupported),
+    is_ena_supported: cdktf.stringToTerraform(struct!.isEnaSupported),
     max_gpu: cdktf.numberToTerraform(struct!.maxGpu),
     max_memory_gib: cdktf.numberToTerraform(struct!.maxMemoryGib),
     max_network_performance: cdktf.numberToTerraform(struct!.maxNetworkPerformance),
@@ -1243,11 +1243,11 @@ export class OceanAwsFiltersOutputReference extends cdktf.ComplexObject {
   }
 
   // is_ena_supported - computed: false, optional: true, required: false
-  private _isEnaSupported?: boolean | cdktf.IResolvable; 
+  private _isEnaSupported?: string; 
   public get isEnaSupported() {
-    return this.getBooleanAttribute('is_ena_supported');
+    return this.getStringAttribute('is_ena_supported');
   }
-  public set isEnaSupported(value: boolean | cdktf.IResolvable) {
+  public set isEnaSupported(value: string) {
     this._isEnaSupported = value;
   }
   public resetIsEnaSupported() {
@@ -2697,7 +2697,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.94.0',
+        providerVersion: '1.95.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
