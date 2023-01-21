@@ -330,7 +330,7 @@ export class HealthCheck extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_health_check',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.95.1',
+        providerVersion: '1.95.2',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
