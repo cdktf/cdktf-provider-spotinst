@@ -63,6 +63,12 @@ export interface OceanAwsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly userData?: string;
   /**
+  * autoscale_down block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#autoscale_down OceanAwsLaunchSpec#autoscale_down}
+  */
+  readonly autoscaleDown?: OceanAwsLaunchSpecAutoscaleDown[] | cdktf.IResolvable;
+  /**
   * autoscale_headrooms block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#autoscale_headrooms OceanAwsLaunchSpec#autoscale_headrooms}
@@ -146,6 +152,103 @@ export interface OceanAwsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#update_policy OceanAwsLaunchSpec#update_policy}
   */
   readonly updatePolicy?: OceanAwsLaunchSpecUpdatePolicy;
+}
+export interface OceanAwsLaunchSpecAutoscaleDown {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#max_scale_down_percentage OceanAwsLaunchSpec#max_scale_down_percentage}
+  */
+  readonly maxScaleDownPercentage?: number;
+}
+
+export function oceanAwsLaunchSpecAutoscaleDownToTerraform(struct?: OceanAwsLaunchSpecAutoscaleDown | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_scale_down_percentage: cdktf.numberToTerraform(struct!.maxScaleDownPercentage),
+  }
+}
+
+export class OceanAwsLaunchSpecAutoscaleDownOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAwsLaunchSpecAutoscaleDown | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxScaleDownPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxScaleDownPercentage = this._maxScaleDownPercentage;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsLaunchSpecAutoscaleDown | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._maxScaleDownPercentage = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._maxScaleDownPercentage = value.maxScaleDownPercentage;
+    }
+  }
+
+  // max_scale_down_percentage - computed: false, optional: true, required: false
+  private _maxScaleDownPercentage?: number; 
+  public get maxScaleDownPercentage() {
+    return this.getNumberAttribute('max_scale_down_percentage');
+  }
+  public set maxScaleDownPercentage(value: number) {
+    this._maxScaleDownPercentage = value;
+  }
+  public resetMaxScaleDownPercentage() {
+    this._maxScaleDownPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxScaleDownPercentageInput() {
+    return this._maxScaleDownPercentage;
+  }
+}
+
+export class OceanAwsLaunchSpecAutoscaleDownList extends cdktf.ComplexList {
+  public internalValue? : OceanAwsLaunchSpecAutoscaleDown[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAwsLaunchSpecAutoscaleDownOutputReference {
+    return new OceanAwsLaunchSpecAutoscaleDownOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface OceanAwsLaunchSpecAutoscaleHeadrooms {
   /**
@@ -2548,7 +2651,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.95.2',
+        providerVersion: '1.96.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2572,6 +2675,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
     this._securityGroups = config.securityGroups;
     this._subnetIds = config.subnetIds;
     this._userData = config.userData;
+    this._autoscaleDown.internalValue = config.autoscaleDown;
     this._autoscaleHeadrooms.internalValue = config.autoscaleHeadrooms;
     this._autoscaleHeadroomsAutomatic.internalValue = config.autoscaleHeadroomsAutomatic;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
@@ -2795,6 +2899,22 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get userDataInput() {
     return this._userData;
+  }
+
+  // autoscale_down - computed: false, optional: true, required: false
+  private _autoscaleDown = new OceanAwsLaunchSpecAutoscaleDownList(this, "autoscale_down", false);
+  public get autoscaleDown() {
+    return this._autoscaleDown;
+  }
+  public putAutoscaleDown(value: OceanAwsLaunchSpecAutoscaleDown[] | cdktf.IResolvable) {
+    this._autoscaleDown.internalValue = value;
+  }
+  public resetAutoscaleDown() {
+    this._autoscaleDown.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoscaleDownInput() {
+    return this._autoscaleDown.internalValue;
   }
 
   // autoscale_headrooms - computed: false, optional: true, required: false
@@ -3040,6 +3160,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroups),
       subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       user_data: cdktf.stringToTerraform(this._userData),
+      autoscale_down: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleDownToTerraform, true)(this._autoscaleDown.internalValue),
       autoscale_headrooms: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
       autoscale_headrooms_automatic: cdktf.listMapper(oceanAwsLaunchSpecAutoscaleHeadroomsAutomaticToTerraform, true)(this._autoscaleHeadroomsAutomatic.internalValue),
       block_device_mappings: cdktf.listMapper(oceanAwsLaunchSpecBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
