@@ -115,6 +115,12 @@ export interface OceanEcsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly blockDeviceMappings?: OceanEcsBlockDeviceMappings[] | cdktf.IResolvable;
   /**
+  * cluster_orientation block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#cluster_orientation OceanEcs#cluster_orientation}
+  */
+  readonly clusterOrientation?: OceanEcsClusterOrientation[] | cdktf.IResolvable;
+  /**
   * filters block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#filters OceanEcs#filters}
@@ -1234,6 +1240,103 @@ export class OceanEcsBlockDeviceMappingsList extends cdktf.ComplexList {
   */
   public get(index: number): OceanEcsBlockDeviceMappingsOutputReference {
     return new OceanEcsBlockDeviceMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OceanEcsClusterOrientation {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}
+  */
+  readonly availabilityVsCost?: string;
+}
+
+export function oceanEcsClusterOrientationToTerraform(struct?: OceanEcsClusterOrientation | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    availability_vs_cost: cdktf.stringToTerraform(struct!.availabilityVsCost),
+  }
+}
+
+export class OceanEcsClusterOrientationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanEcsClusterOrientation | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._availabilityVsCost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.availabilityVsCost = this._availabilityVsCost;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsClusterOrientation | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._availabilityVsCost = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._availabilityVsCost = value.availabilityVsCost;
+    }
+  }
+
+  // availability_vs_cost - computed: false, optional: true, required: false
+  private _availabilityVsCost?: string; 
+  public get availabilityVsCost() {
+    return this.getStringAttribute('availability_vs_cost');
+  }
+  public set availabilityVsCost(value: string) {
+    this._availabilityVsCost = value;
+  }
+  public resetAvailabilityVsCost() {
+    this._availabilityVsCost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get availabilityVsCostInput() {
+    return this._availabilityVsCost;
+  }
+}
+
+export class OceanEcsClusterOrientationList extends cdktf.ComplexList {
+  public internalValue? : OceanEcsClusterOrientation[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanEcsClusterOrientationOutputReference {
+    return new OceanEcsClusterOrientationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface OceanEcsFilters {
@@ -2958,7 +3061,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2994,6 +3097,7 @@ export class OceanEcs extends cdktf.TerraformResource {
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
+    this._clusterOrientation.internalValue = config.clusterOrientation;
     this._filters.internalValue = config.filters;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
     this._logging.internalValue = config.logging;
@@ -3392,6 +3496,22 @@ export class OceanEcs extends cdktf.TerraformResource {
     return this._blockDeviceMappings.internalValue;
   }
 
+  // cluster_orientation - computed: false, optional: true, required: false
+  private _clusterOrientation = new OceanEcsClusterOrientationList(this, "cluster_orientation", false);
+  public get clusterOrientation() {
+    return this._clusterOrientation;
+  }
+  public putClusterOrientation(value: OceanEcsClusterOrientation[] | cdktf.IResolvable) {
+    this._clusterOrientation.internalValue = value;
+  }
+  public resetClusterOrientation() {
+    this._clusterOrientation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterOrientationInput() {
+    return this._clusterOrientation.internalValue;
+  }
+
   // filters - computed: false, optional: true, required: false
   private _filters = new OceanEcsFiltersOutputReference(this, "filters");
   public get filters() {
@@ -3535,6 +3655,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanEcsAutoscalerToTerraform(this._autoscaler.internalValue),
       block_device_mappings: cdktf.listMapper(oceanEcsBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
+      cluster_orientation: cdktf.listMapper(oceanEcsClusterOrientationToTerraform, true)(this._clusterOrientation.internalValue),
       filters: oceanEcsFiltersToTerraform(this._filters.internalValue),
       instance_metadata_options: oceanEcsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       logging: oceanEcsLoggingToTerraform(this._logging.internalValue),
