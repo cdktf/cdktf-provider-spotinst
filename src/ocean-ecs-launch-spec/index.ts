@@ -73,6 +73,12 @@ export interface OceanEcsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly blockDeviceMappings?: OceanEcsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable;
   /**
+  * instance_metadata_options block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#instance_metadata_options OceanEcsLaunchSpec#instance_metadata_options}
+  */
+  readonly instanceMetadataOptions?: OceanEcsLaunchSpecInstanceMetadataOptions;
+  /**
   * scheduling_task block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#scheduling_task OceanEcsLaunchSpec#scheduling_task}
@@ -927,6 +933,95 @@ export class OceanEcsLaunchSpecBlockDeviceMappingsList extends cdktf.ComplexList
     return new OceanEcsLaunchSpecBlockDeviceMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanEcsLaunchSpecInstanceMetadataOptions {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#http_put_response_hop_limit OceanEcsLaunchSpec#http_put_response_hop_limit}
+  */
+  readonly httpPutResponseHopLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#http_tokens OceanEcsLaunchSpec#http_tokens}
+  */
+  readonly httpTokens: string;
+}
+
+export function oceanEcsLaunchSpecInstanceMetadataOptionsToTerraform(struct?: OceanEcsLaunchSpecInstanceMetadataOptionsOutputReference | OceanEcsLaunchSpecInstanceMetadataOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    http_put_response_hop_limit: cdktf.numberToTerraform(struct!.httpPutResponseHopLimit),
+    http_tokens: cdktf.stringToTerraform(struct!.httpTokens),
+  }
+}
+
+export class OceanEcsLaunchSpecInstanceMetadataOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanEcsLaunchSpecInstanceMetadataOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._httpPutResponseHopLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpPutResponseHopLimit = this._httpPutResponseHopLimit;
+    }
+    if (this._httpTokens !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpTokens = this._httpTokens;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanEcsLaunchSpecInstanceMetadataOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._httpPutResponseHopLimit = undefined;
+      this._httpTokens = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._httpPutResponseHopLimit = value.httpPutResponseHopLimit;
+      this._httpTokens = value.httpTokens;
+    }
+  }
+
+  // http_put_response_hop_limit - computed: false, optional: true, required: false
+  private _httpPutResponseHopLimit?: number; 
+  public get httpPutResponseHopLimit() {
+    return this.getNumberAttribute('http_put_response_hop_limit');
+  }
+  public set httpPutResponseHopLimit(value: number) {
+    this._httpPutResponseHopLimit = value;
+  }
+  public resetHttpPutResponseHopLimit() {
+    this._httpPutResponseHopLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpPutResponseHopLimitInput() {
+    return this._httpPutResponseHopLimit;
+  }
+
+  // http_tokens - computed: false, optional: false, required: true
+  private _httpTokens?: string; 
+  public get httpTokens() {
+    return this.getStringAttribute('http_tokens');
+  }
+  public set httpTokens(value: string) {
+    this._httpTokens = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpTokensInput() {
+    return this._httpTokens;
+  }
+}
 export interface OceanEcsLaunchSpecSchedulingTaskTaskHeadroom {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs_launch_spec#cpu_per_unit OceanEcsLaunchSpec#cpu_per_unit}
@@ -1488,7 +1583,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.97.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1513,6 +1608,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     this._attributes.internalValue = config.attributes;
     this._autoscaleHeadrooms.internalValue = config.autoscaleHeadrooms;
     this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
+    this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
     this._schedulingTask.internalValue = config.schedulingTask;
     this._strategy.internalValue = config.strategy;
     this._tags.internalValue = config.tags;
@@ -1740,6 +1836,22 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
     return this._blockDeviceMappings.internalValue;
   }
 
+  // instance_metadata_options - computed: false, optional: true, required: false
+  private _instanceMetadataOptions = new OceanEcsLaunchSpecInstanceMetadataOptionsOutputReference(this, "instance_metadata_options");
+  public get instanceMetadataOptions() {
+    return this._instanceMetadataOptions;
+  }
+  public putInstanceMetadataOptions(value: OceanEcsLaunchSpecInstanceMetadataOptions) {
+    this._instanceMetadataOptions.internalValue = value;
+  }
+  public resetInstanceMetadataOptions() {
+    this._instanceMetadataOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceMetadataOptionsInput() {
+    return this._instanceMetadataOptions.internalValue;
+  }
+
   // scheduling_task - computed: false, optional: true, required: false
   private _schedulingTask = new OceanEcsLaunchSpecSchedulingTaskList(this, "scheduling_task", true);
   public get schedulingTask() {
@@ -1808,6 +1920,7 @@ export class OceanEcsLaunchSpec extends cdktf.TerraformResource {
       attributes: cdktf.listMapper(oceanEcsLaunchSpecAttributesToTerraform, true)(this._attributes.internalValue),
       autoscale_headrooms: cdktf.listMapper(oceanEcsLaunchSpecAutoscaleHeadroomsToTerraform, true)(this._autoscaleHeadrooms.internalValue),
       block_device_mappings: cdktf.listMapper(oceanEcsLaunchSpecBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
+      instance_metadata_options: oceanEcsLaunchSpecInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       scheduling_task: cdktf.listMapper(oceanEcsLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
       strategy: cdktf.listMapper(oceanEcsLaunchSpecStrategyToTerraform, true)(this._strategy.internalValue),
       tags: cdktf.listMapper(oceanEcsLaunchSpecTagsToTerraform, true)(this._tags.internalValue),

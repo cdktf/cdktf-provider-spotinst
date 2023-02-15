@@ -105,6 +105,12 @@ export interface OceanAwsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   */
   readonly elasticIpPool?: OceanAwsLaunchSpecElasticIpPool[] | cdktf.IResolvable;
   /**
+  * instance_metadata_options block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#instance_metadata_options OceanAwsLaunchSpec#instance_metadata_options}
+  */
+  readonly instanceMetadataOptions?: OceanAwsLaunchSpecInstanceMetadataOptions;
+  /**
   * labels block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#labels OceanAwsLaunchSpec#labels}
@@ -1437,6 +1443,95 @@ export class OceanAwsLaunchSpecElasticIpPoolList extends cdktf.ComplexList {
     return new OceanAwsLaunchSpecElasticIpPoolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanAwsLaunchSpecInstanceMetadataOptions {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#http_put_response_hop_limit OceanAwsLaunchSpec#http_put_response_hop_limit}
+  */
+  readonly httpPutResponseHopLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#http_tokens OceanAwsLaunchSpec#http_tokens}
+  */
+  readonly httpTokens: string;
+}
+
+export function oceanAwsLaunchSpecInstanceMetadataOptionsToTerraform(struct?: OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference | OceanAwsLaunchSpecInstanceMetadataOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    http_put_response_hop_limit: cdktf.numberToTerraform(struct!.httpPutResponseHopLimit),
+    http_tokens: cdktf.stringToTerraform(struct!.httpTokens),
+  }
+}
+
+export class OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAwsLaunchSpecInstanceMetadataOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._httpPutResponseHopLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpPutResponseHopLimit = this._httpPutResponseHopLimit;
+    }
+    if (this._httpTokens !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpTokens = this._httpTokens;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsLaunchSpecInstanceMetadataOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._httpPutResponseHopLimit = undefined;
+      this._httpTokens = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._httpPutResponseHopLimit = value.httpPutResponseHopLimit;
+      this._httpTokens = value.httpTokens;
+    }
+  }
+
+  // http_put_response_hop_limit - computed: false, optional: true, required: false
+  private _httpPutResponseHopLimit?: number; 
+  public get httpPutResponseHopLimit() {
+    return this.getNumberAttribute('http_put_response_hop_limit');
+  }
+  public set httpPutResponseHopLimit(value: number) {
+    this._httpPutResponseHopLimit = value;
+  }
+  public resetHttpPutResponseHopLimit() {
+    this._httpPutResponseHopLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpPutResponseHopLimitInput() {
+    return this._httpPutResponseHopLimit;
+  }
+
+  // http_tokens - computed: false, optional: false, required: true
+  private _httpTokens?: string; 
+  public get httpTokens() {
+    return this.getStringAttribute('http_tokens');
+  }
+  public set httpTokens(value: string) {
+    this._httpTokens = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpTokensInput() {
+    return this._httpTokens;
+  }
+}
 export interface OceanAwsLaunchSpecLabels {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
@@ -2651,7 +2746,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.97.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2682,6 +2777,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
     this._createOptions.internalValue = config.createOptions;
     this._deleteOptions.internalValue = config.deleteOptions;
     this._elasticIpPool.internalValue = config.elasticIpPool;
+    this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
     this._labels.internalValue = config.labels;
     this._resourceLimits.internalValue = config.resourceLimits;
     this._schedulingShutdownHours.internalValue = config.schedulingShutdownHours;
@@ -3013,6 +3109,22 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
     return this._elasticIpPool.internalValue;
   }
 
+  // instance_metadata_options - computed: false, optional: true, required: false
+  private _instanceMetadataOptions = new OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference(this, "instance_metadata_options");
+  public get instanceMetadataOptions() {
+    return this._instanceMetadataOptions;
+  }
+  public putInstanceMetadataOptions(value: OceanAwsLaunchSpecInstanceMetadataOptions) {
+    this._instanceMetadataOptions.internalValue = value;
+  }
+  public resetInstanceMetadataOptions() {
+    this._instanceMetadataOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceMetadataOptionsInput() {
+    return this._instanceMetadataOptions.internalValue;
+  }
+
   // labels - computed: false, optional: true, required: false
   private _labels = new OceanAwsLaunchSpecLabelsList(this, "labels", true);
   public get labels() {
@@ -3167,6 +3279,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       create_options: oceanAwsLaunchSpecCreateOptionsToTerraform(this._createOptions.internalValue),
       delete_options: oceanAwsLaunchSpecDeleteOptionsToTerraform(this._deleteOptions.internalValue),
       elastic_ip_pool: cdktf.listMapper(oceanAwsLaunchSpecElasticIpPoolToTerraform, true)(this._elasticIpPool.internalValue),
+      instance_metadata_options: oceanAwsLaunchSpecInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
       labels: cdktf.listMapper(oceanAwsLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),
       resource_limits: cdktf.listMapper(oceanAwsLaunchSpecResourceLimitsToTerraform, true)(this._resourceLimits.internalValue),
       scheduling_shutdown_hours: oceanAwsLaunchSpecSchedulingShutdownHoursToTerraform(this._schedulingShutdownHours.internalValue),
