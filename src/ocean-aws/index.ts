@@ -91,6 +91,10 @@ export interface OceanAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly spotPercentage?: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#spread_nodes_by OceanAws#spread_nodes_by}
+  */
+  readonly spreadNodesBy?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#subnet_ids OceanAws#subnet_ids}
   */
   readonly subnetIds: string[];
@@ -2697,7 +2701,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.99.0',
+        providerVersion: '1.100.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2728,6 +2732,7 @@ export class OceanAws extends cdktf.TerraformResource {
     this._rootVolumeSize = config.rootVolumeSize;
     this._securityGroups = config.securityGroups;
     this._spotPercentage = config.spotPercentage;
+    this._spreadNodesBy = config.spreadNodesBy;
     this._subnetIds = config.subnetIds;
     this._useAsTemplateOnly = config.useAsTemplateOnly;
     this._userData = config.userData;
@@ -3066,6 +3071,22 @@ export class OceanAws extends cdktf.TerraformResource {
     return this._spotPercentage;
   }
 
+  // spread_nodes_by - computed: false, optional: true, required: false
+  private _spreadNodesBy?: string; 
+  public get spreadNodesBy() {
+    return this.getStringAttribute('spread_nodes_by');
+  }
+  public set spreadNodesBy(value: string) {
+    this._spreadNodesBy = value;
+  }
+  public resetSpreadNodesBy() {
+    this._spreadNodesBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spreadNodesByInput() {
+    return this._spreadNodesBy;
+  }
+
   // subnet_ids - computed: false, optional: false, required: true
   private _subnetIds?: string[]; 
   public get subnetIds() {
@@ -3329,6 +3350,7 @@ export class OceanAws extends cdktf.TerraformResource {
       root_volume_size: cdktf.numberToTerraform(this._rootVolumeSize),
       security_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroups),
       spot_percentage: cdktf.numberToTerraform(this._spotPercentage),
+      spread_nodes_by: cdktf.stringToTerraform(this._spreadNodesBy),
       subnet_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnetIds),
       use_as_template_only: cdktf.booleanToTerraform(this._useAsTemplateOnly),
       user_data: cdktf.stringToTerraform(this._userData),
