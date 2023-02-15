@@ -457,6 +457,10 @@ export interface OceanEcsAutoscaler {
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}
+  */
+  readonly shouldScaleDownNonServiceTasks?: boolean | cdktf.IResolvable;
+  /**
   * down block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#down OceanEcs#down}
@@ -486,6 +490,7 @@ export function oceanEcsAutoscalerToTerraform(struct?: OceanEcsAutoscalerOutputR
     cooldown: cdktf.numberToTerraform(struct!.cooldown),
     is_auto_config: cdktf.booleanToTerraform(struct!.isAutoConfig),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
+    should_scale_down_non_service_tasks: cdktf.booleanToTerraform(struct!.shouldScaleDownNonServiceTasks),
     down: oceanEcsAutoscalerDownToTerraform(struct!.down),
     headroom: oceanEcsAutoscalerHeadroomToTerraform(struct!.headroom),
     resource_limits: oceanEcsAutoscalerResourceLimitsToTerraform(struct!.resourceLimits),
@@ -522,6 +527,10 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.isEnabled = this._isEnabled;
     }
+    if (this._shouldScaleDownNonServiceTasks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldScaleDownNonServiceTasks = this._shouldScaleDownNonServiceTasks;
+    }
     if (this._down?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.down = this._down?.internalValue;
@@ -544,6 +553,7 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
       this._cooldown = undefined;
       this._isAutoConfig = undefined;
       this._isEnabled = undefined;
+      this._shouldScaleDownNonServiceTasks = undefined;
       this._down.internalValue = undefined;
       this._headroom.internalValue = undefined;
       this._resourceLimits.internalValue = undefined;
@@ -554,6 +564,7 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
       this._cooldown = value.cooldown;
       this._isAutoConfig = value.isAutoConfig;
       this._isEnabled = value.isEnabled;
+      this._shouldScaleDownNonServiceTasks = value.shouldScaleDownNonServiceTasks;
       this._down.internalValue = value.down;
       this._headroom.internalValue = value.headroom;
       this._resourceLimits.internalValue = value.resourceLimits;
@@ -622,6 +633,22 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get isEnabledInput() {
     return this._isEnabled;
+  }
+
+  // should_scale_down_non_service_tasks - computed: false, optional: true, required: false
+  private _shouldScaleDownNonServiceTasks?: boolean | cdktf.IResolvable; 
+  public get shouldScaleDownNonServiceTasks() {
+    return this.getBooleanAttribute('should_scale_down_non_service_tasks');
+  }
+  public set shouldScaleDownNonServiceTasks(value: boolean | cdktf.IResolvable) {
+    this._shouldScaleDownNonServiceTasks = value;
+  }
+  public resetShouldScaleDownNonServiceTasks() {
+    this._shouldScaleDownNonServiceTasks = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldScaleDownNonServiceTasksInput() {
+    return this._shouldScaleDownNonServiceTasks;
   }
 
   // down - computed: false, optional: true, required: false
@@ -3061,7 +3088,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.97.0',
+        providerVersion: '1.99.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
