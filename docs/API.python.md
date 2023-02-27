@@ -29,6 +29,7 @@ The following submodules are available:
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.python.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.python.md)
 - [oceanSpark](./oceanSpark.python.md)
+- [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.python.md)
 - [provider](./provider.python.md)
 - [statefulNodeAzure](./statefulNodeAzure.python.md)
 - [subscription](./subscription.python.md)

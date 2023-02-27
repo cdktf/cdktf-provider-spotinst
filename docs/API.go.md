@@ -29,6 +29,7 @@ The following submodules are available:
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.go.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.go.md)
 - [oceanSpark](./oceanSpark.go.md)
+- [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.go.md)
 - [provider](./provider.go.md)
 - [statefulNodeAzure](./statefulNodeAzure.go.md)
 - [subscription](./subscription.go.md)

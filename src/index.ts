@@ -27,6 +27,7 @@ export * as oceanGkeImport from './ocean-gke-import';
 export * as oceanGkeLaunchSpec from './ocean-gke-launch-spec';
 export * as oceanGkeLaunchSpecImport from './ocean-gke-launch-spec-import';
 export * as oceanSpark from './ocean-spark';
+export * as oceanSparkVirtualNodeGroup from './ocean-spark-virtual-node-group';
 export * as statefulNodeAzure from './stateful-node-azure';
 export * as subscription from './subscription';
 export * as provider from './provider';
