@@ -26,6 +26,7 @@ oceanSpark.OceanSpark(
   id: str = None,
   ingress: OceanSparkIngress = None,
   log_collection: OceanSparkLogCollection = None,
+  spark: OceanSparkSpark = None,
   webhook: OceanSparkWebhook = None
 )
 ```
@@ -46,6 +47,7 @@ oceanSpark.OceanSpark(
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#id OceanSpark#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.ingress">ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | ingress block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.logCollection">log_collection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | log_collection block. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | spark block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | webhook block. |
 
 ---
@@ -159,6 +161,16 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
+##### `spark`<sup>Optional</sup> <a name="spark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.spark"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a>
+
+spark block.
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#spark OceanSpark#spark}
+
+---
+
 ##### `webhook`<sup>Optional</sup> <a name="webhook" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.webhook"></a>
 
 - *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a>
@@ -192,11 +204,13 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putCompute">put_compute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putIngress">put_ingress</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putLogCollection">put_log_collection</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putSpark">put_spark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWebhook">put_webhook</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetCompute">reset_compute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetIngress">reset_ingress</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetLogCollection">reset_log_collection</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetSpark">reset_spark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetWebhook">reset_webhook</a></code> | *No description.* |
 
 ---
@@ -511,6 +525,22 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
+##### `put_spark` <a name="put_spark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.putSpark"></a>
+
+```python
+def put_spark(
+  additional_app_namespaces: typing.List[str] = None
+) -> None
+```
+
+###### `additional_app_namespaces`<sup>Optional</sup> <a name="additional_app_namespaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.putSpark.parameter.additionalAppNamespaces"></a>
+
+- *Type:* typing.List[str]
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
+
+---
+
 ##### `put_webhook` <a name="put_webhook" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWebhook"></a>
 
 ```python
@@ -558,6 +588,12 @@ def reset_ingress() -> None
 
 ```python
 def reset_log_collection() -> None
+```
+
+##### `reset_spark` <a name="reset_spark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetSpark"></a>
+
+```python
+def reset_spark() -> None
 ```
 
 ##### `reset_webhook` <a name="reset_webhook" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetWebhook"></a>
@@ -663,12 +699,14 @@ oceanSpark.OceanSpark.is_terraform_resource(
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.compute">compute</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkComputeOutputReference">OceanSparkComputeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.ingress">ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressOutputReference">OceanSparkIngressOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.logCollection">log_collection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollectionOutputReference">OceanSparkLogCollectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference">OceanSparkSparkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhookOutputReference">OceanSparkWebhookOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.computeInput">compute_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute">OceanSparkCompute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.ingressInput">ingress_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.logCollectionInput">log_collection_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.oceanClusterIdInput">ocean_cluster_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.sparkInput">spark_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.webhookInput">webhook_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.oceanClusterId">ocean_cluster_id</a></code> | <code>str</code> | *No description.* |
@@ -847,6 +885,16 @@ log_collection: OceanSparkLogCollectionOutputReference
 
 ---
 
+##### `spark`<sup>Required</sup> <a name="spark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.spark"></a>
+
+```python
+spark: OceanSparkSparkOutputReference
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference">OceanSparkSparkOutputReference</a>
+
+---
+
 ##### `webhook`<sup>Required</sup> <a name="webhook" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.webhook"></a>
 
 ```python
@@ -904,6 +952,16 @@ ocean_cluster_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `spark_input`<sup>Optional</sup> <a name="spark_input" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.sparkInput"></a>
+
+```python
+spark_input: OceanSparkSpark
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a>
 
 ---
 
@@ -1023,6 +1081,7 @@ oceanSpark.OceanSparkConfig(
   id: str = None,
   ingress: OceanSparkIngress = None,
   log_collection: OceanSparkLogCollection = None,
+  spark: OceanSparkSpark = None,
   webhook: OceanSparkWebhook = None
 )
 ```
@@ -1043,6 +1102,7 @@ oceanSpark.OceanSparkConfig(
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#id OceanSpark#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.ingress">ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | ingress block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.logCollection">log_collection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | log_collection block. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | spark block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | webhook block. |
 
 ---
@@ -1183,6 +1243,20 @@ log_collection: OceanSparkLogCollection
 log_collection block.
 
 Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#log_collection OceanSpark#log_collection}
+
+---
+
+##### `spark`<sup>Optional</sup> <a name="spark" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.spark"></a>
+
+```python
+spark: OceanSparkSpark
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a>
+
+spark block.
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#spark OceanSpark#spark}
 
 ---
 
@@ -1509,6 +1583,38 @@ collect_driver_logs: typing.Union[bool, IResolvable]
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
 Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#collect_driver_logs OceanSpark#collect_driver_logs}.
+
+---
+
+### OceanSparkSpark <a name="OceanSparkSpark" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.Initializer"></a>
+
+```python
+from cdktf_cdktf_provider_spotinst import ocean_spark
+
+oceanSpark.OceanSparkSpark(
+  additional_app_namespaces: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces">additional_app_namespaces</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}. |
+
+---
+
+##### `additional_app_namespaces`<sup>Optional</sup> <a name="additional_app_namespaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces"></a>
+
+```python
+additional_app_namespaces: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
 
 ---
 
@@ -4042,6 +4148,309 @@ internal_value: OceanSparkLogCollection
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a>
+
+---
+
+
+### OceanSparkSparkOutputReference <a name="OceanSparkSparkOutputReference" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer"></a>
+
+```python
+from cdktf_cdktf_provider_spotinst import ocean_spark
+
+oceanSpark.OceanSparkSparkOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.resetAdditionalAppNamespaces">reset_additional_app_namespaces</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktf.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_additional_app_namespaces` <a name="reset_additional_app_namespaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.resetAdditionalAppNamespaces"></a>
+
+```python
+def reset_additional_app_namespaces() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.additionalAppNamespacesInput">additional_app_namespaces_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.additionalAppNamespaces">additional_app_namespaces</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `additional_app_namespaces_input`<sup>Optional</sup> <a name="additional_app_namespaces_input" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.additionalAppNamespacesInput"></a>
+
+```python
+additional_app_namespaces_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `additional_app_namespaces`<sup>Required</sup> <a name="additional_app_namespaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.additionalAppNamespaces"></a>
+
+```python
+additional_app_namespaces: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.property.internalValue"></a>
+
+```python
+internal_value: OceanSparkSpark
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a>
 
 ---
 

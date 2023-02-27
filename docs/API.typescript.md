@@ -29,6 +29,7 @@ The following submodules are available:
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.typescript.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.typescript.md)
 - [oceanSpark](./oceanSpark.typescript.md)
+- [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.typescript.md)
 - [provider](./provider.typescript.md)
 - [statefulNodeAzure](./statefulNodeAzure.typescript.md)
 - [subscription](./subscription.typescript.md)

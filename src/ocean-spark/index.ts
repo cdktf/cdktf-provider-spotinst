@@ -37,6 +37,12 @@ export interface OceanSparkConfig extends cdktf.TerraformMetaArguments {
   */
   readonly logCollection?: OceanSparkLogCollection;
   /**
+  * spark block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#spark OceanSpark#spark}
+  */
+  readonly spark?: OceanSparkSpark;
+  /**
   * webhook block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#webhook OceanSpark#webhook}
@@ -749,6 +755,71 @@ export class OceanSparkLogCollectionOutputReference extends cdktf.ComplexObject 
     return this._collectDriverLogs;
   }
 }
+export interface OceanSparkSpark {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}
+  */
+  readonly additionalAppNamespaces?: string[];
+}
+
+export function oceanSparkSparkToTerraform(struct?: OceanSparkSparkOutputReference | OceanSparkSpark): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_app_namespaces: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.additionalAppNamespaces),
+  }
+}
+
+export class OceanSparkSparkOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanSparkSpark | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalAppNamespaces !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalAppNamespaces = this._additionalAppNamespaces;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanSparkSpark | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalAppNamespaces = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalAppNamespaces = value.additionalAppNamespaces;
+    }
+  }
+
+  // additional_app_namespaces - computed: true, optional: true, required: false
+  private _additionalAppNamespaces?: string[]; 
+  public get additionalAppNamespaces() {
+    return cdktf.Fn.tolist(this.getListAttribute('additional_app_namespaces'));
+  }
+  public set additionalAppNamespaces(value: string[]) {
+    this._additionalAppNamespaces = value;
+  }
+  public resetAdditionalAppNamespaces() {
+    this._additionalAppNamespaces = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalAppNamespacesInput() {
+    return this._additionalAppNamespaces;
+  }
+}
 export interface OceanSparkWebhook {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_spark#host_network_ports OceanSpark#host_network_ports}
@@ -868,7 +939,7 @@ export class OceanSpark extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_spark',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -884,6 +955,7 @@ export class OceanSpark extends cdktf.TerraformResource {
     this._compute.internalValue = config.compute;
     this._ingress.internalValue = config.ingress;
     this._logCollection.internalValue = config.logCollection;
+    this._spark.internalValue = config.spark;
     this._webhook.internalValue = config.webhook;
   }
 
@@ -968,6 +1040,22 @@ export class OceanSpark extends cdktf.TerraformResource {
     return this._logCollection.internalValue;
   }
 
+  // spark - computed: false, optional: true, required: false
+  private _spark = new OceanSparkSparkOutputReference(this, "spark");
+  public get spark() {
+    return this._spark;
+  }
+  public putSpark(value: OceanSparkSpark) {
+    this._spark.internalValue = value;
+  }
+  public resetSpark() {
+    this._spark.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sparkInput() {
+    return this._spark.internalValue;
+  }
+
   // webhook - computed: false, optional: true, required: false
   private _webhook = new OceanSparkWebhookOutputReference(this, "webhook");
   public get webhook() {
@@ -995,6 +1083,7 @@ export class OceanSpark extends cdktf.TerraformResource {
       compute: oceanSparkComputeToTerraform(this._compute.internalValue),
       ingress: oceanSparkIngressToTerraform(this._ingress.internalValue),
       log_collection: oceanSparkLogCollectionToTerraform(this._logCollection.internalValue),
+      spark: oceanSparkSparkToTerraform(this._spark.internalValue),
       webhook: oceanSparkWebhookToTerraform(this._webhook.internalValue),
     };
   }

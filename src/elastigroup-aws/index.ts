@@ -12179,7 +12179,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.100.0',
+        providerVersion: '1.101.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
