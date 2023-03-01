@@ -19,6 +19,7 @@ The following submodules are available:
 - [multaiTarget](./multaiTarget.csharp.md)
 - [multaiTargetSet](./multaiTargetSet.csharp.md)
 - [oceanAks](./oceanAks.csharp.md)
+- [oceanAksNp](./oceanAksNp.csharp.md)
 - [oceanAksVirtualNodeGroup](./oceanAksVirtualNodeGroup.csharp.md)
 - [oceanAws](./oceanAws.csharp.md)
 - [oceanAwsExtendedResourceDefinition](./oceanAwsExtendedResourceDefinition.csharp.md)

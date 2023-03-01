@@ -405,7 +405,7 @@ export class MultaiTargetSet extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_target_set',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.101.0',
+        providerVersion: '1.102.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
