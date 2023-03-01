@@ -19,6 +19,7 @@ The following submodules are available:
 - [multaiTarget](./multaiTarget.java.md)
 - [multaiTargetSet](./multaiTargetSet.java.md)
 - [oceanAks](./oceanAks.java.md)
+- [oceanAksNp](./oceanAksNp.java.md)
 - [oceanAksVirtualNodeGroup](./oceanAksVirtualNodeGroup.java.md)
 - [oceanAws](./oceanAws.java.md)
 - [oceanAwsExtendedResourceDefinition](./oceanAwsExtendedResourceDefinition.java.md)
