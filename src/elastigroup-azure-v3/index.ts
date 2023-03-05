@@ -16,6 +16,14 @@ export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   */
   readonly desiredCapacity?: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}
+  */
+  readonly drainingTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}
+  */
+  readonly fallbackToOnDemand: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#id ElastigroupAzureV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
@@ -39,6 +47,10 @@ export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   */
   readonly odSizes: string[];
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}
+  */
+  readonly onDemandCount?: number;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#os ElastigroupAzureV3#os}
   */
   readonly os: string;
@@ -50,6 +62,10 @@ export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}
+  */
+  readonly spotPercentage?: number;
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}
   */
@@ -78,12 +94,6 @@ export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#network ElastigroupAzureV3#network}
   */
   readonly network: ElastigroupAzureV3Network;
-  /**
-  * strategy block
-  * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#strategy ElastigroupAzureV3#strategy}
-  */
-  readonly strategy: ElastigroupAzureV3Strategy;
 }
 export interface ElastigroupAzureV3ImageCustom {
   /**
@@ -1282,152 +1292,6 @@ export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObjec
     return this._networkInterfaces.internalValue;
   }
 }
-export interface ElastigroupAzureV3Strategy {
-  /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}
-  */
-  readonly drainingTimeout?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}
-  */
-  readonly fallbackToOnDemand?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#od_count ElastigroupAzureV3#od_count}
-  */
-  readonly odCount?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}
-  */
-  readonly spotPercentage?: number;
-}
-
-export function elastigroupAzureV3StrategyToTerraform(struct?: ElastigroupAzureV3StrategyOutputReference | ElastigroupAzureV3Strategy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    draining_timeout: cdktf.numberToTerraform(struct!.drainingTimeout),
-    fallback_to_on_demand: cdktf.booleanToTerraform(struct!.fallbackToOnDemand),
-    od_count: cdktf.numberToTerraform(struct!.odCount),
-    spot_percentage: cdktf.numberToTerraform(struct!.spotPercentage),
-  }
-}
-
-export class ElastigroupAzureV3StrategyOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): ElastigroupAzureV3Strategy | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._drainingTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drainingTimeout = this._drainingTimeout;
-    }
-    if (this._fallbackToOnDemand !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fallbackToOnDemand = this._fallbackToOnDemand;
-    }
-    if (this._odCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.odCount = this._odCount;
-    }
-    if (this._spotPercentage !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.spotPercentage = this._spotPercentage;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ElastigroupAzureV3Strategy | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._drainingTimeout = undefined;
-      this._fallbackToOnDemand = undefined;
-      this._odCount = undefined;
-      this._spotPercentage = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._drainingTimeout = value.drainingTimeout;
-      this._fallbackToOnDemand = value.fallbackToOnDemand;
-      this._odCount = value.odCount;
-      this._spotPercentage = value.spotPercentage;
-    }
-  }
-
-  // draining_timeout - computed: false, optional: true, required: false
-  private _drainingTimeout?: number; 
-  public get drainingTimeout() {
-    return this.getNumberAttribute('draining_timeout');
-  }
-  public set drainingTimeout(value: number) {
-    this._drainingTimeout = value;
-  }
-  public resetDrainingTimeout() {
-    this._drainingTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get drainingTimeoutInput() {
-    return this._drainingTimeout;
-  }
-
-  // fallback_to_on_demand - computed: false, optional: true, required: false
-  private _fallbackToOnDemand?: boolean | cdktf.IResolvable; 
-  public get fallbackToOnDemand() {
-    return this.getBooleanAttribute('fallback_to_on_demand');
-  }
-  public set fallbackToOnDemand(value: boolean | cdktf.IResolvable) {
-    this._fallbackToOnDemand = value;
-  }
-  public resetFallbackToOnDemand() {
-    this._fallbackToOnDemand = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fallbackToOnDemandInput() {
-    return this._fallbackToOnDemand;
-  }
-
-  // od_count - computed: false, optional: true, required: false
-  private _odCount?: number; 
-  public get odCount() {
-    return this.getNumberAttribute('od_count');
-  }
-  public set odCount(value: number) {
-    this._odCount = value;
-  }
-  public resetOdCount() {
-    this._odCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get odCountInput() {
-    return this._odCount;
-  }
-
-  // spot_percentage - computed: false, optional: true, required: false
-  private _spotPercentage?: number; 
-  public get spotPercentage() {
-    return this.getNumberAttribute('spot_percentage');
-  }
-  public set spotPercentage(value: number) {
-    this._spotPercentage = value;
-  }
-  public resetSpotPercentage() {
-    this._spotPercentage = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get spotPercentageInput() {
-    return this._spotPercentage;
-  }
-}
 
 /**
 * Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3 spotinst_elastigroup_azure_v3}
@@ -1455,7 +1319,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_azure_v3',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1468,20 +1332,23 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     });
     this._customData = config.customData;
     this._desiredCapacity = config.desiredCapacity;
+    this._drainingTimeout = config.drainingTimeout;
+    this._fallbackToOnDemand = config.fallbackToOnDemand;
     this._id = config.id;
     this._maxSize = config.maxSize;
     this._minSize = config.minSize;
     this._name = config.name;
     this._odSizes = config.odSizes;
+    this._onDemandCount = config.onDemandCount;
     this._os = config.os;
     this._region = config.region;
     this._resourceGroupName = config.resourceGroupName;
+    this._spotPercentage = config.spotPercentage;
     this._spotSizes = config.spotSizes;
     this._image.internalValue = config.image;
     this._login.internalValue = config.login;
     this._managedServiceIdentity.internalValue = config.managedServiceIdentity;
     this._network.internalValue = config.network;
-    this._strategy.internalValue = config.strategy;
   }
 
   // ==========
@@ -1518,6 +1385,35 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get desiredCapacityInput() {
     return this._desiredCapacity;
+  }
+
+  // draining_timeout - computed: true, optional: true, required: false
+  private _drainingTimeout?: number; 
+  public get drainingTimeout() {
+    return this.getNumberAttribute('draining_timeout');
+  }
+  public set drainingTimeout(value: number) {
+    this._drainingTimeout = value;
+  }
+  public resetDrainingTimeout() {
+    this._drainingTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get drainingTimeoutInput() {
+    return this._drainingTimeout;
+  }
+
+  // fallback_to_on_demand - computed: false, optional: false, required: true
+  private _fallbackToOnDemand?: boolean | cdktf.IResolvable; 
+  public get fallbackToOnDemand() {
+    return this.getBooleanAttribute('fallback_to_on_demand');
+  }
+  public set fallbackToOnDemand(value: boolean | cdktf.IResolvable) {
+    this._fallbackToOnDemand = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fallbackToOnDemandInput() {
+    return this._fallbackToOnDemand;
   }
 
   // id - computed: true, optional: true, required: false
@@ -1594,6 +1490,22 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     return this._odSizes;
   }
 
+  // on_demand_count - computed: false, optional: true, required: false
+  private _onDemandCount?: number; 
+  public get onDemandCount() {
+    return this.getNumberAttribute('on_demand_count');
+  }
+  public set onDemandCount(value: number) {
+    this._onDemandCount = value;
+  }
+  public resetOnDemandCount() {
+    this._onDemandCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onDemandCountInput() {
+    return this._onDemandCount;
+  }
+
   // os - computed: false, optional: false, required: true
   private _os?: string; 
   public get os() {
@@ -1631,6 +1543,22 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get resourceGroupNameInput() {
     return this._resourceGroupName;
+  }
+
+  // spot_percentage - computed: false, optional: true, required: false
+  private _spotPercentage?: number; 
+  public get spotPercentage() {
+    return this.getNumberAttribute('spot_percentage');
+  }
+  public set spotPercentage(value: number) {
+    this._spotPercentage = value;
+  }
+  public resetSpotPercentage() {
+    this._spotPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotPercentageInput() {
+    return this._spotPercentage;
   }
 
   // spot_sizes - computed: false, optional: false, required: true
@@ -1707,19 +1635,6 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     return this._network.internalValue;
   }
 
-  // strategy - computed: false, optional: false, required: true
-  private _strategy = new ElastigroupAzureV3StrategyOutputReference(this, "strategy");
-  public get strategy() {
-    return this._strategy;
-  }
-  public putStrategy(value: ElastigroupAzureV3Strategy) {
-    this._strategy.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get strategyInput() {
-    return this._strategy.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -1728,20 +1643,23 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     return {
       custom_data: cdktf.stringToTerraform(this._customData),
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
+      draining_timeout: cdktf.numberToTerraform(this._drainingTimeout),
+      fallback_to_on_demand: cdktf.booleanToTerraform(this._fallbackToOnDemand),
       id: cdktf.stringToTerraform(this._id),
       max_size: cdktf.numberToTerraform(this._maxSize),
       min_size: cdktf.numberToTerraform(this._minSize),
       name: cdktf.stringToTerraform(this._name),
       od_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._odSizes),
+      on_demand_count: cdktf.numberToTerraform(this._onDemandCount),
       os: cdktf.stringToTerraform(this._os),
       region: cdktf.stringToTerraform(this._region),
       resource_group_name: cdktf.stringToTerraform(this._resourceGroupName),
+      spot_percentage: cdktf.numberToTerraform(this._spotPercentage),
       spot_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spotSizes),
       image: cdktf.listMapper(elastigroupAzureV3ImageToTerraform, true)(this._image.internalValue),
       login: elastigroupAzureV3LoginToTerraform(this._login.internalValue),
       managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform, true)(this._managedServiceIdentity.internalValue),
       network: elastigroupAzureV3NetworkToTerraform(this._network.internalValue),
-      strategy: elastigroupAzureV3StrategyToTerraform(this._strategy.internalValue),
     };
   }
 }

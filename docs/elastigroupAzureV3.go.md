@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/elastigro
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3(scope Construct, id *string, config ElastigroupAzureV3Config) ElastigroupAzureV3
 ```
@@ -70,15 +70,17 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putLogin">PutLogin</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putManagedServiceIdentity">PutManagedServiceIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putNetwork">PutNetwork</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putStrategy">PutStrategy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCustomData">ResetCustomData</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDesiredCapacity">ResetDesiredCapacity</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDrainingTimeout">ResetDrainingTimeout</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetImage">ResetImage</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetLogin">ResetLogin</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetManagedServiceIdentity">ResetManagedServiceIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetMaxSize">ResetMaxSize</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetMinSize">ResetMinSize</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOnDemandCount">ResetOnDemandCount</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSpotPercentage">ResetSpotPercentage</a></code> | *No description.* |
 
 ---
 
@@ -314,18 +316,6 @@ func PutNetwork(value ElastigroupAzureV3Network)
 
 ---
 
-##### `PutStrategy` <a name="PutStrategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putStrategy"></a>
-
-```go
-func PutStrategy(value ElastigroupAzureV3Strategy)
-```
-
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putStrategy.parameter.value"></a>
-
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a>
-
----
-
 ##### `ResetCustomData` <a name="ResetCustomData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCustomData"></a>
 
 ```go
@@ -336,6 +326,12 @@ func ResetCustomData()
 
 ```go
 func ResetDesiredCapacity()
+```
+
+##### `ResetDrainingTimeout` <a name="ResetDrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDrainingTimeout"></a>
+
+```go
+func ResetDrainingTimeout()
 ```
 
 ##### `ResetId` <a name="ResetId" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetId"></a>
@@ -374,6 +370,18 @@ func ResetMaxSize()
 func ResetMinSize()
 ```
 
+##### `ResetOnDemandCount` <a name="ResetOnDemandCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOnDemandCount"></a>
+
+```go
+func ResetOnDemandCount()
+```
+
+##### `ResetSpotPercentage` <a name="ResetSpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSpotPercentage"></a>
+
+```go
+func ResetSpotPercentage()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -387,7 +395,7 @@ func ResetMinSize()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.ElastigroupAzureV3_IsConstruct(x interface{}) *bool
 ```
@@ -419,7 +427,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.ElastigroupAzureV3_IsTerraformElement(x interface{}) *bool
 ```
@@ -433,7 +441,7 @@ elastigroupazurev3.ElastigroupAzureV3_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.ElastigroupAzureV3_IsTerraformResource(x interface{}) *bool
 ```
@@ -466,9 +474,10 @@ elastigroupazurev3.ElastigroupAzureV3_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoginOutputReference">ElastigroupAzureV3LoginOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.managedServiceIdentity">ManagedServiceIdentity</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentityList">ElastigroupAzureV3ManagedServiceIdentityList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkOutputReference">ElastigroupAzureV3NetworkOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.strategy">Strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference">ElastigroupAzureV3StrategyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customDataInput">CustomDataInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.desiredCapacityInput">DesiredCapacityInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeoutInput">DrainingTimeoutInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemandInput">FallbackToOnDemandInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.imageInput">ImageInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loginInput">LoginInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login">ElastigroupAzureV3Login</a></code> | *No description.* |
@@ -478,21 +487,26 @@ elastigroupazurev3.ElastigroupAzureV3_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.networkInput">NetworkInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.odSizesInput">OdSizesInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCountInput">OnDemandCountInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osInput">OsInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.regionInput">RegionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentageInput">SpotPercentageInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotSizesInput">SpotSizesInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.strategyInput">StrategyInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customData">CustomData</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.maxSize">MaxSize</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.minSize">MinSize</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.name">Name</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.odSizes">OdSizes</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCount">OnDemandCount</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.os">Os</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.region">Region</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotSizes">SpotSizes</a></code> | <code>*[]*string</code> | *No description.* |
 
 ---
@@ -679,16 +693,6 @@ func Network() ElastigroupAzureV3NetworkOutputReference
 
 ---
 
-##### `Strategy`<sup>Required</sup> <a name="Strategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.strategy"></a>
-
-```go
-func Strategy() ElastigroupAzureV3StrategyOutputReference
-```
-
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference">ElastigroupAzureV3StrategyOutputReference</a>
-
----
-
 ##### `CustomDataInput`<sup>Optional</sup> <a name="CustomDataInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customDataInput"></a>
 
 ```go
@@ -706,6 +710,26 @@ func DesiredCapacityInput() *f64
 ```
 
 - *Type:* *f64
+
+---
+
+##### `DrainingTimeoutInput`<sup>Optional</sup> <a name="DrainingTimeoutInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeoutInput"></a>
+
+```go
+func DrainingTimeoutInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `FallbackToOnDemandInput`<sup>Optional</sup> <a name="FallbackToOnDemandInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemandInput"></a>
+
+```go
+func FallbackToOnDemandInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -799,6 +823,16 @@ func OdSizesInput() *[]*string
 
 ---
 
+##### `OnDemandCountInput`<sup>Optional</sup> <a name="OnDemandCountInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCountInput"></a>
+
+```go
+func OnDemandCountInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `OsInput`<sup>Optional</sup> <a name="OsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osInput"></a>
 
 ```go
@@ -829,6 +863,16 @@ func ResourceGroupNameInput() *string
 
 ---
 
+##### `SpotPercentageInput`<sup>Optional</sup> <a name="SpotPercentageInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentageInput"></a>
+
+```go
+func SpotPercentageInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `SpotSizesInput`<sup>Optional</sup> <a name="SpotSizesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotSizesInput"></a>
 
 ```go
@@ -836,16 +880,6 @@ func SpotSizesInput() *[]*string
 ```
 
 - *Type:* *[]*string
-
----
-
-##### `StrategyInput`<sup>Optional</sup> <a name="StrategyInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.strategyInput"></a>
-
-```go
-func StrategyInput() ElastigroupAzureV3Strategy
-```
-
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a>
 
 ---
 
@@ -866,6 +900,26 @@ func DesiredCapacity() *f64
 ```
 
 - *Type:* *f64
+
+---
+
+##### `DrainingTimeout`<sup>Required</sup> <a name="DrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeout"></a>
+
+```go
+func DrainingTimeout() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `FallbackToOnDemand`<sup>Required</sup> <a name="FallbackToOnDemand" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemand"></a>
+
+```go
+func FallbackToOnDemand() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -919,6 +973,16 @@ func OdSizes() *[]*string
 
 ---
 
+##### `OnDemandCount`<sup>Required</sup> <a name="OnDemandCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCount"></a>
+
+```go
+func OnDemandCount() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `Os`<sup>Required</sup> <a name="Os" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.os"></a>
 
 ```go
@@ -946,6 +1010,16 @@ func ResourceGroupName() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `SpotPercentage`<sup>Required</sup> <a name="SpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentage"></a>
+
+```go
+func SpotPercentage() *f64
+```
+
+- *Type:* *f64
 
 ---
 
@@ -984,7 +1058,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3Config {
 	Connection: interface{},
@@ -994,22 +1068,25 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazure
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
+	FallbackToOnDemand: interface{},
 	Name: *string,
-	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupAzureV3.ElastigroupAzureV3Network,
+	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupAzureV3.ElastigroupAzureV3Network,
 	OdSizes: *[]*string,
 	Os: *string,
 	Region: *string,
 	ResourceGroupName: *string,
 	SpotSizes: *[]*string,
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupAzureV3.ElastigroupAzureV3Strategy,
 	CustomData: *string,
 	DesiredCapacity: *f64,
+	DrainingTimeout: *f64,
 	Id: *string,
 	Image: interface{},
-	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupAzureV3.ElastigroupAzureV3Login,
+	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupAzureV3.ElastigroupAzureV3Login,
 	ManagedServiceIdentity: interface{},
 	MaxSize: *f64,
 	MinSize: *f64,
+	OnDemandCount: *f64,
+	SpotPercentage: *f64,
 }
 ```
 
@@ -1024,6 +1101,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazure
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.odSizes">OdSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}. |
@@ -1031,15 +1109,17 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazure
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#region ElastigroupAzureV3#region}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.spotSizes">SpotSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.strategy">Strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a></code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.customData">CustomData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#id ElastigroupAzureV3#id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.image">Image</a></code> | <code>interface{}</code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login">ElastigroupAzureV3Login</a></code> | login block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.managedServiceIdentity">ManagedServiceIdentity</a></code> | <code>interface{}</code> | managed_service_identity block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.maxSize">MaxSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.minSize">MinSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.onDemandCount">OnDemandCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}. |
 
 ---
 
@@ -1110,6 +1190,18 @@ Provisioners *[]interface{}
 ```
 
 - *Type:* *[]interface{}
+
+---
+
+##### `FallbackToOnDemand`<sup>Required</sup> <a name="FallbackToOnDemand" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.fallbackToOnDemand"></a>
+
+```go
+FallbackToOnDemand interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}.
 
 ---
 
@@ -1199,20 +1291,6 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
-##### `Strategy`<sup>Required</sup> <a name="Strategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.strategy"></a>
-
-```go
-Strategy ElastigroupAzureV3Strategy
-```
-
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a>
-
-strategy block.
-
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#strategy ElastigroupAzureV3#strategy}
-
----
-
 ##### `CustomData`<sup>Optional</sup> <a name="CustomData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.customData"></a>
 
 ```go
@@ -1234,6 +1312,18 @@ DesiredCapacity *f64
 - *Type:* *f64
 
 Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}.
+
+---
+
+##### `DrainingTimeout`<sup>Optional</sup> <a name="DrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.drainingTimeout"></a>
+
+```go
+DrainingTimeout *f64
+```
+
+- *Type:* *f64
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}.
 
 ---
 
@@ -1318,12 +1408,36 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
+##### `OnDemandCount`<sup>Optional</sup> <a name="OnDemandCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.onDemandCount"></a>
+
+```go
+OnDemandCount *f64
+```
+
+- *Type:* *f64
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}.
+
+---
+
+##### `SpotPercentage`<sup>Optional</sup> <a name="SpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.spotPercentage"></a>
+
+```go
+SpotPercentage *f64
+```
+
+- *Type:* *f64
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}.
+
+---
+
 ### ElastigroupAzureV3Image <a name="ElastigroupAzureV3Image" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Image"></a>
 
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Image.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3Image {
 	Custom: interface{},
@@ -1373,7 +1487,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3ImageCustom {
 	ImageName: *string,
@@ -1419,7 +1533,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3ImageMarketplace {
 	Offer: *string,
@@ -1493,7 +1607,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3Login {
 	UserName: *string,
@@ -1553,7 +1667,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3ManagedServiceIdentity {
 	Name: *string,
@@ -1599,7 +1713,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3Network {
 	NetworkInterfaces: interface{},
@@ -1661,7 +1775,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3NetworkNetworkInterfaces {
 	AssignPublicIp: interface{},
@@ -1753,7 +1867,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs {
 	Name: *string,
@@ -1799,7 +1913,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 &elastigroupazurev3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup {
 	Name: *string,
@@ -1840,80 +1954,6 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
-### ElastigroupAzureV3Strategy <a name="ElastigroupAzureV3Strategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy"></a>
-
-#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.Initializer"></a>
-
-```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
-
-&elastigroupazurev3.ElastigroupAzureV3Strategy {
-	DrainingTimeout: *f64,
-	FallbackToOnDemand: interface{},
-	OdCount: *f64,
-	SpotPercentage: *f64,
-}
-```
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.odCount">OdCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#od_count ElastigroupAzureV3#od_count}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}. |
-
----
-
-##### `DrainingTimeout`<sup>Optional</sup> <a name="DrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.drainingTimeout"></a>
-
-```go
-DrainingTimeout *f64
-```
-
-- *Type:* *f64
-
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}.
-
----
-
-##### `FallbackToOnDemand`<sup>Optional</sup> <a name="FallbackToOnDemand" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.fallbackToOnDemand"></a>
-
-```go
-FallbackToOnDemand interface{}
-```
-
-- *Type:* interface{}
-
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}.
-
----
-
-##### `OdCount`<sup>Optional</sup> <a name="OdCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.odCount"></a>
-
-```go
-OdCount *f64
-```
-
-- *Type:* *f64
-
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#od_count ElastigroupAzureV3#od_count}.
-
----
-
-##### `SpotPercentage`<sup>Optional</sup> <a name="SpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy.property.spotPercentage"></a>
-
-```go
-SpotPercentage *f64
-```
-
-- *Type:* *f64
-
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}.
-
----
-
 ## Classes <a name="Classes" id="Classes"></a>
 
 ### ElastigroupAzureV3ImageCustomList <a name="ElastigroupAzureV3ImageCustomList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustomList"></a>
@@ -1921,7 +1961,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustomList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageCustomList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3ImageCustomList
 ```
@@ -2064,7 +2104,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageCustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3ImageCustomOutputReference
 ```
@@ -2375,7 +2415,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3ImageList
 ```
@@ -2518,7 +2558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageMarketplaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3ImageMarketplaceList
 ```
@@ -2661,7 +2701,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageMarketplaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3ImageMarketplaceOutputReference
 ```
@@ -3016,7 +3056,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3ImageOutputReference
 ```
@@ -3367,7 +3407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3LoginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAzureV3LoginOutputReference
 ```
@@ -3696,7 +3736,7 @@ func InternalValue() ElastigroupAzureV3Login
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentityList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ManagedServiceIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3ManagedServiceIdentityList
 ```
@@ -3839,7 +3879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3ManagedServiceIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3ManagedServiceIdentityOutputReference
 ```
@@ -4150,7 +4190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList
 ```
@@ -4293,7 +4333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference
 ```
@@ -4611,7 +4651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList
 ```
@@ -4754,7 +4794,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference
 ```
@@ -5065,7 +5105,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesList
 ```
@@ -5208,7 +5248,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAzureV3NetworkNetworkInterfacesOutputReference
 ```
@@ -5625,7 +5665,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupazurev3"
 
 elastigroupazurev3.NewElastigroupAzureV3NetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAzureV3NetworkOutputReference
 ```
@@ -5944,371 +5984,6 @@ func InternalValue() ElastigroupAzureV3Network
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a>
-
----
-
-
-### ElastigroupAzureV3StrategyOutputReference <a name="ElastigroupAzureV3StrategyOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference"></a>
-
-#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.Initializer"></a>
-
-```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupazurev3"
-
-elastigroupazurev3.NewElastigroupAzureV3StrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAzureV3StrategyOutputReference
-```
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-
----
-
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.Initializer.parameter.terraformResource"></a>
-
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
-
-The parent resource.
-
----
-
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.Initializer.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
-The attribute on the parent resource this class is referencing.
-
----
-
-#### Methods <a name="Methods" id="Methods"></a>
-
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetDrainingTimeout">ResetDrainingTimeout</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetFallbackToOnDemand">ResetFallbackToOnDemand</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetOdCount">ResetOdCount</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetSpotPercentage">ResetSpotPercentage</a></code> | *No description.* |
-
----
-
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.computeFqn"></a>
-
-```go
-func ComputeFqn() *string
-```
-
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getAnyMapAttribute"></a>
-
-```go
-func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanAttribute"></a>
-
-```go
-func GetBooleanAttribute(terraformAttribute *string) IResolvable
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanMapAttribute"></a>
-
-```go
-func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getListAttribute"></a>
-
-```go
-func GetListAttribute(terraformAttribute *string) *[]*string
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberAttribute"></a>
-
-```go
-func GetNumberAttribute(terraformAttribute *string) *f64
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberListAttribute"></a>
-
-```go
-func GetNumberListAttribute(terraformAttribute *string) *[]*f64
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberMapAttribute"></a>
-
-```go
-func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringAttribute"></a>
-
-```go
-func GetStringAttribute(terraformAttribute *string) *string
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringMapAttribute"></a>
-
-```go
-func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
-```
-
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
----
-
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.interpolationForAttribute"></a>
-
-```go
-func InterpolationForAttribute(property *string) IResolvable
-```
-
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.interpolationForAttribute.parameter.property"></a>
-
-- *Type:* *string
-
----
-
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resolve"></a>
-
-```go
-func Resolve(_context IResolveContext) interface{}
-```
-
-Produce the Token's value at resolution time.
-
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resolve.parameter._context"></a>
-
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
-
----
-
-##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.toString"></a>
-
-```go
-func ToString() *string
-```
-
-Return a string representation of this resolvable object.
-
-Returns a reversible string representation.
-
-##### `ResetDrainingTimeout` <a name="ResetDrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetDrainingTimeout"></a>
-
-```go
-func ResetDrainingTimeout()
-```
-
-##### `ResetFallbackToOnDemand` <a name="ResetFallbackToOnDemand" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetFallbackToOnDemand"></a>
-
-```go
-func ResetFallbackToOnDemand()
-```
-
-##### `ResetOdCount` <a name="ResetOdCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetOdCount"></a>
-
-```go
-func ResetOdCount()
-```
-
-##### `ResetSpotPercentage` <a name="ResetSpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.resetSpotPercentage"></a>
-
-```go
-func ResetSpotPercentage()
-```
-
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.drainingTimeoutInput">DrainingTimeoutInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fallbackToOnDemandInput">FallbackToOnDemandInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.odCountInput">OdCountInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.spotPercentageInput">SpotPercentageInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.odCount">OdCount</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a></code> | *No description.* |
-
----
-
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.creationStack"></a>
-
-```go
-func CreationStack() *[]*string
-```
-
-- *Type:* *[]*string
-
-The creation stack of this resolvable which will be appended to errors thrown during resolution.
-
-If this returns an empty array the stack will not be attached.
-
----
-
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fqn"></a>
-
-```go
-func Fqn() *string
-```
-
-- *Type:* *string
-
----
-
-##### `DrainingTimeoutInput`<sup>Optional</sup> <a name="DrainingTimeoutInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.drainingTimeoutInput"></a>
-
-```go
-func DrainingTimeoutInput() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `FallbackToOnDemandInput`<sup>Optional</sup> <a name="FallbackToOnDemandInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fallbackToOnDemandInput"></a>
-
-```go
-func FallbackToOnDemandInput() interface{}
-```
-
-- *Type:* interface{}
-
----
-
-##### `OdCountInput`<sup>Optional</sup> <a name="OdCountInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.odCountInput"></a>
-
-```go
-func OdCountInput() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `SpotPercentageInput`<sup>Optional</sup> <a name="SpotPercentageInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.spotPercentageInput"></a>
-
-```go
-func SpotPercentageInput() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `DrainingTimeout`<sup>Required</sup> <a name="DrainingTimeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.drainingTimeout"></a>
-
-```go
-func DrainingTimeout() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `FallbackToOnDemand`<sup>Required</sup> <a name="FallbackToOnDemand" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.fallbackToOnDemand"></a>
-
-```go
-func FallbackToOnDemand() interface{}
-```
-
-- *Type:* interface{}
-
----
-
-##### `OdCount`<sup>Required</sup> <a name="OdCount" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.odCount"></a>
-
-```go
-func OdCount() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `SpotPercentage`<sup>Required</sup> <a name="SpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.spotPercentage"></a>
-
-```go
-func SpotPercentage() *f64
-```
-
-- *Type:* *f64
-
----
-
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3StrategyOutputReference.property.internalValue"></a>
-
-```go
-func InternalValue() ElastigroupAzureV3Strategy
-```
-
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Strategy">ElastigroupAzureV3Strategy</a>
 
 ---
 
