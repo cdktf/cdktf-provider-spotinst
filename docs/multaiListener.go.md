@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/multai_li
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.NewMultaiListener(scope Construct, id *string, config MultaiListenerConfig) MultaiListener
 ```
@@ -313,7 +313,7 @@ func ResetTlsConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiListener.MultaiListener.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.MultaiListener_IsConstruct(x interface{}) *bool
 ```
@@ -345,7 +345,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiListener.MultaiListener.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.MultaiListener_IsTerraformElement(x interface{}) *bool
 ```
@@ -359,7 +359,7 @@ multailistener.MultaiListener_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiListener.MultaiListener.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.MultaiListener_IsTerraformResource(x interface{}) *bool
 ```
@@ -690,7 +690,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 &multailistener.MultaiListenerConfig {
 	Connection: interface{},
@@ -705,7 +705,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
 	Protocol: *string,
 	Id: *string,
 	Tags: interface{},
-	TlsConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.multaiListener.MultaiListenerTlsConfig,
+	TlsConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.multaiListener.MultaiListenerTlsConfig,
 }
 ```
 
@@ -883,7 +883,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 &multailistener.MultaiListenerTags {
 	Key: *string,
@@ -929,7 +929,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 &multailistener.MultaiListenerTlsConfig {
 	CertificateIds: *[]*string,
@@ -1033,7 +1033,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.NewMultaiListenerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiListenerTagsList
 ```
@@ -1176,7 +1176,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.NewMultaiListenerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiListenerTagsOutputReference
 ```
@@ -1487,7 +1487,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multailistener"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multailistener"
 
 multailistener.NewMultaiListenerTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MultaiListenerTlsConfigOutputReference
 ```
