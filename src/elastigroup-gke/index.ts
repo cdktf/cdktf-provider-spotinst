@@ -3568,7 +3568,7 @@ export class ElastigroupGke extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_gke',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

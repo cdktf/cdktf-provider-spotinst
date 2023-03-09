@@ -8,6 +8,10 @@ import * as cdktf from 'cdktf';
 
 export interface OceanAwsConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#associate_ipv6_address OceanAws#associate_ipv6_address}
+  */
+  readonly associateIpv6Address?: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#associate_public_ip_address OceanAws#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
@@ -2701,7 +2705,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2712,6 +2716,7 @@ export class OceanAws extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._associateIpv6Address = config.associateIpv6Address;
     this._associatePublicIpAddress = config.associatePublicIpAddress;
     this._blacklist = config.blacklist;
     this._controllerId = config.controllerId;
@@ -2753,6 +2758,22 @@ export class OceanAws extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // associate_ipv6_address - computed: false, optional: true, required: false
+  private _associateIpv6Address?: boolean | cdktf.IResolvable; 
+  public get associateIpv6Address() {
+    return this.getBooleanAttribute('associate_ipv6_address');
+  }
+  public set associateIpv6Address(value: boolean | cdktf.IResolvable) {
+    this._associateIpv6Address = value;
+  }
+  public resetAssociateIpv6Address() {
+    this._associateIpv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associateIpv6AddressInput() {
+    return this._associateIpv6Address;
+  }
 
   // associate_public_ip_address - computed: false, optional: true, required: false
   private _associatePublicIpAddress?: boolean | cdktf.IResolvable; 
@@ -3330,6 +3351,7 @@ export class OceanAws extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      associate_ipv6_address: cdktf.booleanToTerraform(this._associateIpv6Address),
       associate_public_ip_address: cdktf.booleanToTerraform(this._associatePublicIpAddress),
       blacklist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._blacklist),
       controller_id: cdktf.stringToTerraform(this._controllerId),
