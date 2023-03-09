@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst spotinst}.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/provider"
 
 provider.NewSpotinstProvider(scope Construct, id *string, config SpotinstProviderConfig) SpotinstProvider
 ```
@@ -164,7 +164,7 @@ func ResetToken()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/provider"
 
 provider.SpotinstProvider_IsConstruct(x interface{}) *bool
 ```
@@ -196,7 +196,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/provider"
 
 provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -210,7 +210,7 @@ provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/provider"
 
 provider.SpotinstProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/provider"
 
 &provider.SpotinstProviderConfig {
 	Account: *string,

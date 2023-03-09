@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/multai_ta
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.NewMultaiTarget(scope Construct, id *string, config MultaiTargetConfig) MultaiTarget
 ```
@@ -307,7 +307,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.MultaiTarget_IsConstruct(x interface{}) *bool
 ```
@@ -339,7 +339,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.MultaiTarget_IsTerraformElement(x interface{}) *bool
 ```
@@ -353,7 +353,7 @@ multaitarget.MultaiTarget_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.MultaiTarget_IsTerraformResource(x interface{}) *bool
 ```
@@ -728,7 +728,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 &multaitarget.MultaiTargetConfig {
 	Connection: interface{},
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTarget.MultaiTargetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 &multaitarget.MultaiTargetTags {
 	Key: *string,
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTarget.MultaiTargetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.NewMultaiTargetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiTargetTagsList
 ```
@@ -1138,7 +1138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTarget.MultaiTargetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitarget"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/multaitarget"
 
 multaitarget.NewMultaiTargetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiTargetTagsOutputReference
 ```
