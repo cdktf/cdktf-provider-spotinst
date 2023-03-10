@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/subscript
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.subscription.Subscription.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.NewSubscription(scope Construct, id *string, config SubscriptionConfig) Subscription
 ```
@@ -280,7 +280,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.subscription.Subscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsConstruct(x interface{}) *bool
 ```
@@ -312,7 +312,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.subscription.Subscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -326,7 +326,7 @@ subscription.Subscription_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.subscription.Subscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -657,7 +657,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.subscription.SubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 &subscription.SubscriptionConfig {
 	Connection: interface{},

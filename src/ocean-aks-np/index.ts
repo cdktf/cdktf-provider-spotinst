@@ -807,7 +807,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_np',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

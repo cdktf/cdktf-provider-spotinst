@@ -20,6 +20,7 @@ The following submodules are available:
 - [multaiTargetSet](./multaiTargetSet.typescript.md)
 - [oceanAks](./oceanAks.typescript.md)
 - [oceanAksNp](./oceanAksNp.typescript.md)
+- [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.typescript.md)
 - [oceanAksVirtualNodeGroup](./oceanAksVirtualNodeGroup.typescript.md)
 - [oceanAws](./oceanAws.typescript.md)
 - [oceanAwsExtendedResourceDefinition](./oceanAwsExtendedResourceDefinition.typescript.md)
