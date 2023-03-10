@@ -18,6 +18,7 @@ export * as multaiTarget from './multai-target';
 export * as multaiTargetSet from './multai-target-set';
 export * as oceanAks from './ocean-aks';
 export * as oceanAksNp from './ocean-aks-np';
+export * as oceanAksNpVirtualNodeGroup from './ocean-aks-np-virtual-node-group';
 export * as oceanAksVirtualNodeGroup from './ocean-aks-virtual-node-group';
 export * as oceanAws from './ocean-aws';
 export * as oceanAwsExtendedResourceDefinition from './ocean-aws-extended-resource-definition';

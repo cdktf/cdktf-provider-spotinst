@@ -20,6 +20,7 @@ The following submodules are available:
 - [multaiTargetSet](./multaiTargetSet.python.md)
 - [oceanAks](./oceanAks.python.md)
 - [oceanAksNp](./oceanAksNp.python.md)
+- [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.python.md)
 - [oceanAksVirtualNodeGroup](./oceanAksVirtualNodeGroup.python.md)
 - [oceanAws](./oceanAws.python.md)
 - [oceanAwsExtendedResourceDefinition](./oceanAwsExtendedResourceDefinition.python.md)
