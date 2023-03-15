@@ -7407,7 +7407,8 @@ using HashiCorp.Cdktf.Providers.Spotinst;
 
 new ElastigroupAwsMetadataOptions {
     string HttpTokens,
-    double HttpPutResponseHopLimit = null
+    double HttpPutResponseHopLimit = null,
+    string InstanceMetadataTags = null
 };
 ```
 
@@ -7417,6 +7418,7 @@ new ElastigroupAwsMetadataOptions {
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">HttpTokens</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">HttpPutResponseHopLimit</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">InstanceMetadataTags</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
 
 ---
 
@@ -7441,6 +7443,18 @@ public double HttpPutResponseHopLimit { get; set; }
 - *Type:* double
 
 Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
+
+---
+
+##### `InstanceMetadataTags`<sup>Optional</sup> <a name="InstanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags"></a>
+
+```csharp
+public string InstanceMetadataTags { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
 
 ---
 
@@ -28170,6 +28184,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetHttpPutResponseHopLimit">ResetHttpPutResponseHopLimit</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetInstanceMetadataTags">ResetInstanceMetadataTags</a></code> | *No description.* |
 
 ---
 
@@ -28329,6 +28344,12 @@ Returns a reversible string representation.
 private void ResetHttpPutResponseHopLimit()
 ```
 
+##### `ResetInstanceMetadataTags` <a name="ResetInstanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetInstanceMetadataTags"></a>
+
+```csharp
+private void ResetInstanceMetadataTags()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -28338,8 +28359,10 @@ private void ResetHttpPutResponseHopLimit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimitInput">HttpPutResponseHopLimitInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpTokensInput">HttpTokensInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTagsInput">InstanceMetadataTagsInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimit">HttpPutResponseHopLimit</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpTokens">HttpTokens</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTags">InstanceMetadataTags</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | *No description.* |
 
 ---
@@ -28388,6 +28411,16 @@ public string HttpTokensInput { get; }
 
 ---
 
+##### `InstanceMetadataTagsInput`<sup>Optional</sup> <a name="InstanceMetadataTagsInput" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTagsInput"></a>
+
+```csharp
+public string InstanceMetadataTagsInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `HttpPutResponseHopLimit`<sup>Required</sup> <a name="HttpPutResponseHopLimit" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimit"></a>
 
 ```csharp
@@ -28402,6 +28435,16 @@ public double HttpPutResponseHopLimit { get; }
 
 ```csharp
 public string HttpTokens { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InstanceMetadataTags`<sup>Required</sup> <a name="InstanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTags"></a>
+
+```csharp
+public string InstanceMetadataTags { get; }
 ```
 
 - *Type:* string
