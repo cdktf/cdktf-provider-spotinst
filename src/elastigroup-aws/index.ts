@@ -6330,6 +6330,10 @@ export interface ElastigroupAwsMetadataOptions {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}
   */
   readonly httpTokens: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}
+  */
+  readonly instanceMetadataTags?: string;
 }
 
 export function elastigroupAwsMetadataOptionsToTerraform(struct?: ElastigroupAwsMetadataOptionsOutputReference | ElastigroupAwsMetadataOptions): any {
@@ -6340,6 +6344,7 @@ export function elastigroupAwsMetadataOptionsToTerraform(struct?: ElastigroupAws
   return {
     http_put_response_hop_limit: cdktf.numberToTerraform(struct!.httpPutResponseHopLimit),
     http_tokens: cdktf.stringToTerraform(struct!.httpTokens),
+    instance_metadata_tags: cdktf.stringToTerraform(struct!.instanceMetadataTags),
   }
 }
 
@@ -6365,6 +6370,10 @@ export class ElastigroupAwsMetadataOptionsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.httpTokens = this._httpTokens;
     }
+    if (this._instanceMetadataTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceMetadataTags = this._instanceMetadataTags;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -6373,11 +6382,13 @@ export class ElastigroupAwsMetadataOptionsOutputReference extends cdktf.ComplexO
       this.isEmptyObject = false;
       this._httpPutResponseHopLimit = undefined;
       this._httpTokens = undefined;
+      this._instanceMetadataTags = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._httpPutResponseHopLimit = value.httpPutResponseHopLimit;
       this._httpTokens = value.httpTokens;
+      this._instanceMetadataTags = value.instanceMetadataTags;
     }
   }
 
@@ -6408,6 +6419,22 @@ export class ElastigroupAwsMetadataOptionsOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get httpTokensInput() {
     return this._httpTokens;
+  }
+
+  // instance_metadata_tags - computed: false, optional: true, required: false
+  private _instanceMetadataTags?: string; 
+  public get instanceMetadataTags() {
+    return this.getStringAttribute('instance_metadata_tags');
+  }
+  public set instanceMetadataTags(value: string) {
+    this._instanceMetadataTags = value;
+  }
+  public resetInstanceMetadataTags() {
+    this._instanceMetadataTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceMetadataTagsInput() {
+    return this._instanceMetadataTags;
   }
 }
 export interface ElastigroupAwsMultaiTargetSets {
@@ -12179,7 +12206,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

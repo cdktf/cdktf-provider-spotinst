@@ -8432,6 +8432,7 @@ import com.hashicorp.cdktf.providers.spotinst.elastigroup_aws.ElastigroupAwsMeta
 ElastigroupAwsMetadataOptions.builder()
     .httpTokens(java.lang.String)
 //  .httpPutResponseHopLimit(java.lang.Number)
+//  .instanceMetadataTags(java.lang.String)
     .build();
 ```
 
@@ -8441,6 +8442,7 @@ ElastigroupAwsMetadataOptions.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">httpTokens</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">httpPutResponseHopLimit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">instanceMetadataTags</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
 
 ---
 
@@ -8465,6 +8467,18 @@ public java.lang.Number getHttpPutResponseHopLimit();
 - *Type:* java.lang.Number
 
 Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
+
+---
+
+##### `instanceMetadataTags`<sup>Optional</sup> <a name="instanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags"></a>
+
+```java
+public java.lang.String getInstanceMetadataTags();
+```
+
+- *Type:* java.lang.String
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
 
 ---
 
@@ -29223,6 +29237,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetHttpPutResponseHopLimit">resetHttpPutResponseHopLimit</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetInstanceMetadataTags">resetInstanceMetadataTags</a></code> | *No description.* |
 
 ---
 
@@ -29382,6 +29397,12 @@ Returns a reversible string representation.
 public void resetHttpPutResponseHopLimit()
 ```
 
+##### `resetInstanceMetadataTags` <a name="resetInstanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.resetInstanceMetadataTags"></a>
+
+```java
+public void resetInstanceMetadataTags()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -29391,8 +29412,10 @@ public void resetHttpPutResponseHopLimit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimitInput">httpPutResponseHopLimitInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpTokensInput">httpTokensInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTagsInput">instanceMetadataTagsInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimit">httpPutResponseHopLimit</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpTokens">httpTokens</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTags">instanceMetadataTags</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | *No description.* |
 
 ---
@@ -29441,6 +29464,16 @@ public java.lang.String getHttpTokensInput();
 
 ---
 
+##### `instanceMetadataTagsInput`<sup>Optional</sup> <a name="instanceMetadataTagsInput" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTagsInput"></a>
+
+```java
+public java.lang.String getInstanceMetadataTagsInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `httpPutResponseHopLimit`<sup>Required</sup> <a name="httpPutResponseHopLimit" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.httpPutResponseHopLimit"></a>
 
 ```java
@@ -29455,6 +29488,16 @@ public java.lang.Number getHttpPutResponseHopLimit();
 
 ```java
 public java.lang.String getHttpTokens();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `instanceMetadataTags`<sup>Required</sup> <a name="instanceMetadataTags" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.property.instanceMetadataTags"></a>
+
+```java
+public java.lang.String getInstanceMetadataTags();
 ```
 
 - *Type:* java.lang.String
