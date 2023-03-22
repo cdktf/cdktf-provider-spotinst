@@ -366,7 +366,7 @@ export class MultaiListener extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_listener',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.106.0',
+        providerVersion: '1.106.1',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
