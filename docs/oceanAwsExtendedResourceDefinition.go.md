@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition.OceanAwsExtendedResourceDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawsextendedresourcedefinition"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawsextendedresourcedefinition"
 
 oceanawsextendedresourcedefinition.NewOceanAwsExtendedResourceDefinition(scope Construct, id *string, config OceanAwsExtendedResourceDefinitionConfig) OceanAwsExtendedResourceDefinition
 ```
@@ -273,7 +273,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition.OceanAwsExtendedResourceDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawsextendedresourcedefinition"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawsextendedresourcedefinition"
 
 oceanawsextendedresourcedefinition.OceanAwsExtendedResourceDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -305,7 +305,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition.OceanAwsExtendedResourceDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawsextendedresourcedefinition"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawsextendedresourcedefinition"
 
 oceanawsextendedresourcedefinition.OceanAwsExtendedResourceDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -319,7 +319,7 @@ oceanawsextendedresourcedefinition.OceanAwsExtendedResourceDefinition_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition.OceanAwsExtendedResourceDefinition.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawsextendedresourcedefinition"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawsextendedresourcedefinition"
 
 oceanawsextendedresourcedefinition.OceanAwsExtendedResourceDefinition_IsTerraformResource(x interface{}) *bool
 ```
@@ -584,7 +584,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition.OceanAwsExtendedResourceDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawsextendedresourcedefinition"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawsextendedresourcedefinition"
 
 &oceanawsextendedresourcedefinition.OceanAwsExtendedResourceDefinitionConfig {
 	Connection: interface{},
