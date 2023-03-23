@@ -129,6 +129,12 @@ export interface OceanAwsConfig extends cdktf.TerraformMetaArguments {
   */
   readonly autoscaler?: OceanAwsAutoscaler;
   /**
+  * block_device_mappings block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#block_device_mappings OceanAws#block_device_mappings}
+  */
+  readonly blockDeviceMappings?: OceanAwsBlockDeviceMappings[] | cdktf.IResolvable;
+  /**
   * cluster_orientation block
   * 
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#cluster_orientation OceanAws#cluster_orientation}
@@ -792,6 +798,525 @@ export class OceanAwsAutoscalerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get resourceLimitsInput() {
     return this._resourceLimits.internalValue;
+  }
+}
+export interface OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#base_size OceanAws#base_size}
+  */
+  readonly baseSize: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#resource OceanAws#resource}
+  */
+  readonly resource: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#size_per_resource_unit OceanAws#size_per_resource_unit}
+  */
+  readonly sizePerResourceUnit: number;
+}
+
+export function oceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeToTerraform(struct?: OceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference | OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    base_size: cdktf.numberToTerraform(struct!.baseSize),
+    resource: cdktf.stringToTerraform(struct!.resource),
+    size_per_resource_unit: cdktf.numberToTerraform(struct!.sizePerResourceUnit),
+  }
+}
+
+export class OceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._baseSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.baseSize = this._baseSize;
+    }
+    if (this._resource !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resource = this._resource;
+    }
+    if (this._sizePerResourceUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sizePerResourceUnit = this._sizePerResourceUnit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._baseSize = undefined;
+      this._resource = undefined;
+      this._sizePerResourceUnit = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._baseSize = value.baseSize;
+      this._resource = value.resource;
+      this._sizePerResourceUnit = value.sizePerResourceUnit;
+    }
+  }
+
+  // base_size - computed: false, optional: false, required: true
+  private _baseSize?: number; 
+  public get baseSize() {
+    return this.getNumberAttribute('base_size');
+  }
+  public set baseSize(value: number) {
+    this._baseSize = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get baseSizeInput() {
+    return this._baseSize;
+  }
+
+  // resource - computed: false, optional: false, required: true
+  private _resource?: string; 
+  public get resource() {
+    return this.getStringAttribute('resource');
+  }
+  public set resource(value: string) {
+    this._resource = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceInput() {
+    return this._resource;
+  }
+
+  // size_per_resource_unit - computed: false, optional: false, required: true
+  private _sizePerResourceUnit?: number; 
+  public get sizePerResourceUnit() {
+    return this.getNumberAttribute('size_per_resource_unit');
+  }
+  public set sizePerResourceUnit(value: number) {
+    this._sizePerResourceUnit = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sizePerResourceUnitInput() {
+    return this._sizePerResourceUnit;
+  }
+}
+export interface OceanAwsBlockDeviceMappingsEbs {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#delete_on_termination OceanAws#delete_on_termination}
+  */
+  readonly deleteOnTermination?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#encrypted OceanAws#encrypted}
+  */
+  readonly encrypted?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#iops OceanAws#iops}
+  */
+  readonly iops?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#kms_key_id OceanAws#kms_key_id}
+  */
+  readonly kmsKeyId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#snapshot_id OceanAws#snapshot_id}
+  */
+  readonly snapshotId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#throughput OceanAws#throughput}
+  */
+  readonly throughput?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#volume_size OceanAws#volume_size}
+  */
+  readonly volumeSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#volume_type OceanAws#volume_type}
+  */
+  readonly volumeType?: string;
+  /**
+  * dynamic_volume_size block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#dynamic_volume_size OceanAws#dynamic_volume_size}
+  */
+  readonly dynamicVolumeSize?: OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize;
+}
+
+export function oceanAwsBlockDeviceMappingsEbsToTerraform(struct?: OceanAwsBlockDeviceMappingsEbsOutputReference | OceanAwsBlockDeviceMappingsEbs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    delete_on_termination: cdktf.booleanToTerraform(struct!.deleteOnTermination),
+    encrypted: cdktf.booleanToTerraform(struct!.encrypted),
+    iops: cdktf.numberToTerraform(struct!.iops),
+    kms_key_id: cdktf.stringToTerraform(struct!.kmsKeyId),
+    snapshot_id: cdktf.stringToTerraform(struct!.snapshotId),
+    throughput: cdktf.numberToTerraform(struct!.throughput),
+    volume_size: cdktf.numberToTerraform(struct!.volumeSize),
+    volume_type: cdktf.stringToTerraform(struct!.volumeType),
+    dynamic_volume_size: oceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeToTerraform(struct!.dynamicVolumeSize),
+  }
+}
+
+export class OceanAwsBlockDeviceMappingsEbsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAwsBlockDeviceMappingsEbs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deleteOnTermination !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteOnTermination = this._deleteOnTermination;
+    }
+    if (this._encrypted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encrypted = this._encrypted;
+    }
+    if (this._iops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iops = this._iops;
+    }
+    if (this._kmsKeyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyId = this._kmsKeyId;
+    }
+    if (this._snapshotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snapshotId = this._snapshotId;
+    }
+    if (this._throughput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.throughput = this._throughput;
+    }
+    if (this._volumeSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeSize = this._volumeSize;
+    }
+    if (this._volumeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeType = this._volumeType;
+    }
+    if (this._dynamicVolumeSize?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicVolumeSize = this._dynamicVolumeSize?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsBlockDeviceMappingsEbs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._deleteOnTermination = undefined;
+      this._encrypted = undefined;
+      this._iops = undefined;
+      this._kmsKeyId = undefined;
+      this._snapshotId = undefined;
+      this._throughput = undefined;
+      this._volumeSize = undefined;
+      this._volumeType = undefined;
+      this._dynamicVolumeSize.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._deleteOnTermination = value.deleteOnTermination;
+      this._encrypted = value.encrypted;
+      this._iops = value.iops;
+      this._kmsKeyId = value.kmsKeyId;
+      this._snapshotId = value.snapshotId;
+      this._throughput = value.throughput;
+      this._volumeSize = value.volumeSize;
+      this._volumeType = value.volumeType;
+      this._dynamicVolumeSize.internalValue = value.dynamicVolumeSize;
+    }
+  }
+
+  // delete_on_termination - computed: true, optional: true, required: false
+  private _deleteOnTermination?: boolean | cdktf.IResolvable; 
+  public get deleteOnTermination() {
+    return this.getBooleanAttribute('delete_on_termination');
+  }
+  public set deleteOnTermination(value: boolean | cdktf.IResolvable) {
+    this._deleteOnTermination = value;
+  }
+  public resetDeleteOnTermination() {
+    this._deleteOnTermination = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteOnTerminationInput() {
+    return this._deleteOnTermination;
+  }
+
+  // encrypted - computed: true, optional: true, required: false
+  private _encrypted?: boolean | cdktf.IResolvable; 
+  public get encrypted() {
+    return this.getBooleanAttribute('encrypted');
+  }
+  public set encrypted(value: boolean | cdktf.IResolvable) {
+    this._encrypted = value;
+  }
+  public resetEncrypted() {
+    this._encrypted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptedInput() {
+    return this._encrypted;
+  }
+
+  // iops - computed: false, optional: true, required: false
+  private _iops?: number; 
+  public get iops() {
+    return this.getNumberAttribute('iops');
+  }
+  public set iops(value: number) {
+    this._iops = value;
+  }
+  public resetIops() {
+    this._iops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iopsInput() {
+    return this._iops;
+  }
+
+  // kms_key_id - computed: false, optional: true, required: false
+  private _kmsKeyId?: string; 
+  public get kmsKeyId() {
+    return this.getStringAttribute('kms_key_id');
+  }
+  public set kmsKeyId(value: string) {
+    this._kmsKeyId = value;
+  }
+  public resetKmsKeyId() {
+    this._kmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyIdInput() {
+    return this._kmsKeyId;
+  }
+
+  // snapshot_id - computed: false, optional: true, required: false
+  private _snapshotId?: string; 
+  public get snapshotId() {
+    return this.getStringAttribute('snapshot_id');
+  }
+  public set snapshotId(value: string) {
+    this._snapshotId = value;
+  }
+  public resetSnapshotId() {
+    this._snapshotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snapshotIdInput() {
+    return this._snapshotId;
+  }
+
+  // throughput - computed: false, optional: true, required: false
+  private _throughput?: number; 
+  public get throughput() {
+    return this.getNumberAttribute('throughput');
+  }
+  public set throughput(value: number) {
+    this._throughput = value;
+  }
+  public resetThroughput() {
+    this._throughput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get throughputInput() {
+    return this._throughput;
+  }
+
+  // volume_size - computed: false, optional: true, required: false
+  private _volumeSize?: number; 
+  public get volumeSize() {
+    return this.getNumberAttribute('volume_size');
+  }
+  public set volumeSize(value: number) {
+    this._volumeSize = value;
+  }
+  public resetVolumeSize() {
+    this._volumeSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeSizeInput() {
+    return this._volumeSize;
+  }
+
+  // volume_type - computed: true, optional: true, required: false
+  private _volumeType?: string; 
+  public get volumeType() {
+    return this.getStringAttribute('volume_type');
+  }
+  public set volumeType(value: string) {
+    this._volumeType = value;
+  }
+  public resetVolumeType() {
+    this._volumeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeTypeInput() {
+    return this._volumeType;
+  }
+
+  // dynamic_volume_size - computed: false, optional: true, required: false
+  private _dynamicVolumeSize = new OceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference(this, "dynamic_volume_size");
+  public get dynamicVolumeSize() {
+    return this._dynamicVolumeSize;
+  }
+  public putDynamicVolumeSize(value: OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize) {
+    this._dynamicVolumeSize.internalValue = value;
+  }
+  public resetDynamicVolumeSize() {
+    this._dynamicVolumeSize.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicVolumeSizeInput() {
+    return this._dynamicVolumeSize.internalValue;
+  }
+}
+export interface OceanAwsBlockDeviceMappings {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#device_name OceanAws#device_name}
+  */
+  readonly deviceName?: string;
+  /**
+  * ebs block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws#ebs OceanAws#ebs}
+  */
+  readonly ebs?: OceanAwsBlockDeviceMappingsEbs;
+}
+
+export function oceanAwsBlockDeviceMappingsToTerraform(struct?: OceanAwsBlockDeviceMappings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    device_name: cdktf.stringToTerraform(struct!.deviceName),
+    ebs: oceanAwsBlockDeviceMappingsEbsToTerraform(struct!.ebs),
+  }
+}
+
+export class OceanAwsBlockDeviceMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAwsBlockDeviceMappings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceName = this._deviceName;
+    }
+    if (this._ebs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ebs = this._ebs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsBlockDeviceMappings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deviceName = undefined;
+      this._ebs.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deviceName = value.deviceName;
+      this._ebs.internalValue = value.ebs;
+    }
+  }
+
+  // device_name - computed: false, optional: true, required: false
+  private _deviceName?: string; 
+  public get deviceName() {
+    return this.getStringAttribute('device_name');
+  }
+  public set deviceName(value: string) {
+    this._deviceName = value;
+  }
+  public resetDeviceName() {
+    this._deviceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceNameInput() {
+    return this._deviceName;
+  }
+
+  // ebs - computed: false, optional: true, required: false
+  private _ebs = new OceanAwsBlockDeviceMappingsEbsOutputReference(this, "ebs");
+  public get ebs() {
+    return this._ebs;
+  }
+  public putEbs(value: OceanAwsBlockDeviceMappingsEbs) {
+    this._ebs.internalValue = value;
+  }
+  public resetEbs() {
+    this._ebs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ebsInput() {
+    return this._ebs.internalValue;
+  }
+}
+
+export class OceanAwsBlockDeviceMappingsList extends cdktf.ComplexList {
+  public internalValue? : OceanAwsBlockDeviceMappings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAwsBlockDeviceMappingsOutputReference {
+    return new OceanAwsBlockDeviceMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface OceanAwsClusterOrientation {
@@ -2705,7 +3230,7 @@ export class OceanAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.106.1',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2745,6 +3270,7 @@ export class OceanAws extends cdktf.TerraformResource {
     this._utilizeReservedInstances = config.utilizeReservedInstances;
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
+    this._blockDeviceMappings.internalValue = config.blockDeviceMappings;
     this._clusterOrientation.internalValue = config.clusterOrientation;
     this._filters.internalValue = config.filters;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
@@ -3217,6 +3743,22 @@ export class OceanAws extends cdktf.TerraformResource {
     return this._autoscaler.internalValue;
   }
 
+  // block_device_mappings - computed: false, optional: true, required: false
+  private _blockDeviceMappings = new OceanAwsBlockDeviceMappingsList(this, "block_device_mappings", false);
+  public get blockDeviceMappings() {
+    return this._blockDeviceMappings;
+  }
+  public putBlockDeviceMappings(value: OceanAwsBlockDeviceMappings[] | cdktf.IResolvable) {
+    this._blockDeviceMappings.internalValue = value;
+  }
+  public resetBlockDeviceMappings() {
+    this._blockDeviceMappings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blockDeviceMappingsInput() {
+    return this._blockDeviceMappings.internalValue;
+  }
+
   // cluster_orientation - computed: false, optional: true, required: false
   private _clusterOrientation = new OceanAwsClusterOrientationList(this, "cluster_orientation", false);
   public get clusterOrientation() {
@@ -3380,6 +3922,7 @@ export class OceanAws extends cdktf.TerraformResource {
       utilize_reserved_instances: cdktf.booleanToTerraform(this._utilizeReservedInstances),
       whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanAwsAutoscalerToTerraform(this._autoscaler.internalValue),
+      block_device_mappings: cdktf.listMapper(oceanAwsBlockDeviceMappingsToTerraform, true)(this._blockDeviceMappings.internalValue),
       cluster_orientation: cdktf.listMapper(oceanAwsClusterOrientationToTerraform, true)(this._clusterOrientation.internalValue),
       filters: oceanAwsFiltersToTerraform(this._filters.internalValue),
       instance_metadata_options: oceanAwsInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
