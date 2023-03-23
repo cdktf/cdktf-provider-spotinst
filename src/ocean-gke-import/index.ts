@@ -1065,11 +1065,220 @@ export class OceanGkeImportScheduledTaskShutdownHoursOutputReference extends cdk
     return this._timeWindows;
   }
 }
-export interface OceanGkeImportScheduledTaskTasks {
+export interface OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
+  */
+  readonly batchMinHealthyPercentage?: number;
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}
   */
   readonly batchSizePercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#comment OceanGkeImport#comment}
+  */
+  readonly comment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
+  */
+  readonly respectPdb?: boolean | cdktf.IResolvable;
+}
+
+export function oceanGkeImportScheduledTaskTasksTaskParametersClusterRollToTerraform(struct?: OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference | OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
+    batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
+    comment: cdktf.stringToTerraform(struct!.comment),
+    respect_pdb: cdktf.booleanToTerraform(struct!.respectPdb),
+  }
+}
+
+export class OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._batchMinHealthyPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchMinHealthyPercentage = this._batchMinHealthyPercentage;
+    }
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._comment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comment = this._comment;
+    }
+    if (this._respectPdb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectPdb = this._respectPdb;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._batchMinHealthyPercentage = undefined;
+      this._batchSizePercentage = undefined;
+      this._comment = undefined;
+      this._respectPdb = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._batchMinHealthyPercentage = value.batchMinHealthyPercentage;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._comment = value.comment;
+      this._respectPdb = value.respectPdb;
+    }
+  }
+
+  // batch_min_healthy_percentage - computed: false, optional: true, required: false
+  private _batchMinHealthyPercentage?: number; 
+  public get batchMinHealthyPercentage() {
+    return this.getNumberAttribute('batch_min_healthy_percentage');
+  }
+  public set batchMinHealthyPercentage(value: number) {
+    this._batchMinHealthyPercentage = value;
+  }
+  public resetBatchMinHealthyPercentage() {
+    this._batchMinHealthyPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchMinHealthyPercentageInput() {
+    return this._batchMinHealthyPercentage;
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: number; 
+  public get batchSizePercentage() {
+    return this.getNumberAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: number) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // comment - computed: false, optional: true, required: false
+  private _comment?: string; 
+  public get comment() {
+    return this.getStringAttribute('comment');
+  }
+  public set comment(value: string) {
+    this._comment = value;
+  }
+  public resetComment() {
+    this._comment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentInput() {
+    return this._comment;
+  }
+
+  // respect_pdb - computed: false, optional: true, required: false
+  private _respectPdb?: boolean | cdktf.IResolvable; 
+  public get respectPdb() {
+    return this.getBooleanAttribute('respect_pdb');
+  }
+  public set respectPdb(value: boolean | cdktf.IResolvable) {
+    this._respectPdb = value;
+  }
+  public resetRespectPdb() {
+    this._respectPdb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectPdbInput() {
+    return this._respectPdb;
+  }
+}
+export interface OceanGkeImportScheduledTaskTasksTaskParameters {
+  /**
+  * cluster_roll block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#cluster_roll OceanGkeImport#cluster_roll}
+  */
+  readonly clusterRoll?: OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll;
+}
+
+export function oceanGkeImportScheduledTaskTasksTaskParametersToTerraform(struct?: OceanGkeImportScheduledTaskTasksTaskParametersOutputReference | OceanGkeImportScheduledTaskTasksTaskParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cluster_roll: oceanGkeImportScheduledTaskTasksTaskParametersClusterRollToTerraform(struct!.clusterRoll),
+  }
+}
+
+export class OceanGkeImportScheduledTaskTasksTaskParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanGkeImportScheduledTaskTasksTaskParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clusterRoll?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterRoll = this._clusterRoll?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportScheduledTaskTasksTaskParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clusterRoll.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clusterRoll.internalValue = value.clusterRoll;
+    }
+  }
+
+  // cluster_roll - computed: false, optional: true, required: false
+  private _clusterRoll = new OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference(this, "cluster_roll");
+  public get clusterRoll() {
+    return this._clusterRoll;
+  }
+  public putClusterRoll(value: OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll) {
+    this._clusterRoll.internalValue = value;
+  }
+  public resetClusterRoll() {
+    this._clusterRoll.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterRollInput() {
+    return this._clusterRoll.internalValue;
+  }
+}
+export interface OceanGkeImportScheduledTaskTasks {
   /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}
   */
@@ -1082,6 +1291,12 @@ export interface OceanGkeImportScheduledTaskTasks {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#task_type OceanGkeImport#task_type}
   */
   readonly taskType: string;
+  /**
+  * task_parameters block
+  * 
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#task_parameters OceanGkeImport#task_parameters}
+  */
+  readonly taskParameters?: OceanGkeImportScheduledTaskTasksTaskParameters;
 }
 
 export function oceanGkeImportScheduledTaskTasksToTerraform(struct?: OceanGkeImportScheduledTaskTasks | cdktf.IResolvable): any {
@@ -1090,10 +1305,10 @@ export function oceanGkeImportScheduledTaskTasksToTerraform(struct?: OceanGkeImp
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
     cron_expression: cdktf.stringToTerraform(struct!.cronExpression),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     task_type: cdktf.stringToTerraform(struct!.taskType),
+    task_parameters: oceanGkeImportScheduledTaskTasksTaskParametersToTerraform(struct!.taskParameters),
   }
 }
 
@@ -1117,10 +1332,6 @@ export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.Compl
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._batchSizePercentage !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.batchSizePercentage = this._batchSizePercentage;
-    }
     if (this._cronExpression !== undefined) {
       hasAnyValues = true;
       internalValueResult.cronExpression = this._cronExpression;
@@ -1133,6 +1344,10 @@ export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.taskType = this._taskType;
     }
+    if (this._taskParameters?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskParameters = this._taskParameters?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1140,10 +1355,10 @@ export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._batchSizePercentage = undefined;
       this._cronExpression = undefined;
       this._isEnabled = undefined;
       this._taskType = undefined;
+      this._taskParameters.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1152,27 +1367,11 @@ export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.Compl
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._batchSizePercentage = value.batchSizePercentage;
       this._cronExpression = value.cronExpression;
       this._isEnabled = value.isEnabled;
       this._taskType = value.taskType;
+      this._taskParameters.internalValue = value.taskParameters;
     }
-  }
-
-  // batch_size_percentage - computed: false, optional: true, required: false
-  private _batchSizePercentage?: number; 
-  public get batchSizePercentage() {
-    return this.getNumberAttribute('batch_size_percentage');
-  }
-  public set batchSizePercentage(value: number) {
-    this._batchSizePercentage = value;
-  }
-  public resetBatchSizePercentage() {
-    this._batchSizePercentage = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get batchSizePercentageInput() {
-    return this._batchSizePercentage;
   }
 
   // cron_expression - computed: false, optional: false, required: true
@@ -1212,6 +1411,22 @@ export class OceanGkeImportScheduledTaskTasksOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get taskTypeInput() {
     return this._taskType;
+  }
+
+  // task_parameters - computed: false, optional: true, required: false
+  private _taskParameters = new OceanGkeImportScheduledTaskTasksTaskParametersOutputReference(this, "task_parameters");
+  public get taskParameters() {
+    return this._taskParameters;
+  }
+  public putTaskParameters(value: OceanGkeImportScheduledTaskTasksTaskParameters) {
+    this._taskParameters.internalValue = value;
+  }
+  public resetTaskParameters() {
+    this._taskParameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskParametersInput() {
+    return this._taskParameters.internalValue;
   }
 }
 
@@ -1618,6 +1833,10 @@ export interface OceanGkeImportUpdatePolicyRollConfig {
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}
   */
   readonly launchSpecIds?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
+  */
+  readonly respectPdb?: boolean | cdktf.IResolvable;
 }
 
 export function oceanGkeImportUpdatePolicyRollConfigToTerraform(struct?: OceanGkeImportUpdatePolicyRollConfigOutputReference | OceanGkeImportUpdatePolicyRollConfig): any {
@@ -1629,6 +1848,7 @@ export function oceanGkeImportUpdatePolicyRollConfigToTerraform(struct?: OceanGk
     batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
     batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
     launch_spec_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.launchSpecIds),
+    respect_pdb: cdktf.booleanToTerraform(struct!.respectPdb),
   }
 }
 
@@ -1658,6 +1878,10 @@ export class OceanGkeImportUpdatePolicyRollConfigOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.launchSpecIds = this._launchSpecIds;
     }
+    if (this._respectPdb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectPdb = this._respectPdb;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1667,12 +1891,14 @@ export class OceanGkeImportUpdatePolicyRollConfigOutputReference extends cdktf.C
       this._batchMinHealthyPercentage = undefined;
       this._batchSizePercentage = undefined;
       this._launchSpecIds = undefined;
+      this._respectPdb = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._batchMinHealthyPercentage = value.batchMinHealthyPercentage;
       this._batchSizePercentage = value.batchSizePercentage;
       this._launchSpecIds = value.launchSpecIds;
+      this._respectPdb = value.respectPdb;
     }
   }
 
@@ -1719,6 +1945,22 @@ export class OceanGkeImportUpdatePolicyRollConfigOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get launchSpecIdsInput() {
     return this._launchSpecIds;
+  }
+
+  // respect_pdb - computed: false, optional: true, required: false
+  private _respectPdb?: boolean | cdktf.IResolvable; 
+  public get respectPdb() {
+    return this.getBooleanAttribute('respect_pdb');
+  }
+  public set respectPdb(value: boolean | cdktf.IResolvable) {
+    this._respectPdb = value;
+  }
+  public resetRespectPdb() {
+    this._respectPdb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectPdbInput() {
+    return this._respectPdb;
   }
 }
 export interface OceanGkeImportUpdatePolicy {
@@ -1866,7 +2108,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_import',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.106.1',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

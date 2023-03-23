@@ -59,7 +59,7 @@ export class SpotinstProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spotinst',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.106.1',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       terraformProviderSource: 'spotinst/spotinst'
