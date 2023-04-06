@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/elastigro
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGke(scope Construct, id *string, config ElastigroupGkeConfig) ElastigroupGke
 ```
@@ -84,6 +84,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetFallbackToOndemand">ResetFallbackToOndemand</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetGpu">ResetGpu</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceNamePrefix">ResetInstanceNamePrefix</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesCustom">ResetInstanceTypesCustom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesOndemand">ResetInstanceTypesOndemand</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesPreemptible">ResetInstanceTypesPreemptible</a></code> | *No description.* |
@@ -466,6 +467,12 @@ func ResetGpu()
 func ResetId()
 ```
 
+##### `ResetInstanceNamePrefix` <a name="ResetInstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceNamePrefix"></a>
+
+```go
+func ResetInstanceNamePrefix()
+```
+
 ##### `ResetInstanceTypesCustom` <a name="ResetInstanceTypesCustom" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesCustom"></a>
 
 ```go
@@ -605,7 +612,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.ElastigroupGke_IsConstruct(x interface{}) *bool
 ```
@@ -637,7 +644,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.ElastigroupGke_IsTerraformElement(x interface{}) *bool
 ```
@@ -651,7 +658,7 @@ elastigroupgke.ElastigroupGke_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.ElastigroupGke_IsTerraformResource(x interface{}) *bool
 ```
@@ -700,6 +707,7 @@ elastigroupgke.ElastigroupGke_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.fallbackToOndemandInput">FallbackToOndemandInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.gpuInput">GpuInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefixInput">InstanceNamePrefixInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesCustomInput">InstanceTypesCustomInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesOndemandInput">InstanceTypesOndemandInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesPreemptibleInput">InstanceTypesPreemptibleInput</a></code> | <code>*[]*string</code> | *No description.* |
@@ -728,6 +736,7 @@ elastigroupgke.ElastigroupGke_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefix">InstanceNamePrefix</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesOndemand">InstanceTypesOndemand</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesPreemptible">InstanceTypesPreemptible</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.ipForwarding">IpForwarding</a></code> | <code>interface{}</code> | *No description.* |
@@ -1087,6 +1096,16 @@ func IdInput() *string
 
 ---
 
+##### `InstanceNamePrefixInput`<sup>Optional</sup> <a name="InstanceNamePrefixInput" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefixInput"></a>
+
+```go
+func InstanceNamePrefixInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InstanceTypesCustomInput`<sup>Optional</sup> <a name="InstanceTypesCustomInput" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesCustomInput"></a>
 
 ```go
@@ -1367,6 +1386,16 @@ func Id() *string
 
 ---
 
+##### `InstanceNamePrefix`<sup>Required</sup> <a name="InstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefix"></a>
+
+```go
+func InstanceNamePrefix() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InstanceTypesOndemand`<sup>Required</sup> <a name="InstanceTypesOndemand" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesOndemand"></a>
 
 ```go
@@ -1532,7 +1561,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeBackendServices {
 	ServiceName: *string,
@@ -1608,7 +1637,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeBackendServicesNamedPorts {
 	Name: *string,
@@ -1654,7 +1683,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeConfig {
 	Connection: interface{},
@@ -1674,11 +1703,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
 	FallbackToOndemand: interface{},
 	Gpu: interface{},
 	Id: *string,
+	InstanceNamePrefix: *string,
 	InstanceTypesCustom: interface{},
 	InstanceTypesOndemand: *string,
 	InstanceTypesPreemptible: *[]*string,
-	IntegrationDockerSwarm: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupGke.ElastigroupGkeIntegrationDockerSwarm,
-	IntegrationGke: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupGke.ElastigroupGkeIntegrationGke,
+	IntegrationDockerSwarm: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupGke.ElastigroupGkeIntegrationDockerSwarm,
+	IntegrationGke: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupGke.ElastigroupGkeIntegrationGke,
 	IpForwarding: interface{},
 	Labels: interface{},
 	MaxSize: *f64,
@@ -1719,6 +1749,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#fallback_to_ondemand ElastigroupGke#fallback_to_ondemand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.gpu">Gpu</a></code> | <code>interface{}</code> | gpu block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#id ElastigroupGke#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceNamePrefix">InstanceNamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_name_prefix ElastigroupGke#instance_name_prefix}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesCustom">InstanceTypesCustom</a></code> | <code>interface{}</code> | instance_types_custom block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesOndemand">InstanceTypesOndemand</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_types_ondemand ElastigroupGke#instance_types_ondemand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesPreemptible">InstanceTypesPreemptible</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_types_preemptible ElastigroupGke#instance_types_preemptible}. |
@@ -1939,6 +1970,18 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `InstanceNamePrefix`<sup>Optional</sup> <a name="InstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceNamePrefix"></a>
+
+```go
+InstanceNamePrefix *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_name_prefix ElastigroupGke#instance_name_prefix}.
 
 ---
 
@@ -2215,7 +2258,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeDisk {
 	AutoDelete: interface{},
@@ -2347,7 +2390,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParams.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeDiskInitializeParams {
 	SourceImage: *string,
@@ -2407,7 +2450,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpu.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeGpu {
 	Count: *f64,
@@ -2453,7 +2496,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeInstanceTypesCustom {
 	MemoryGib: *f64,
@@ -2499,7 +2542,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationDockerSwarm.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeIntegrationDockerSwarm {
 	MasterHost: *string,
@@ -2545,12 +2588,12 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGke.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeIntegrationGke {
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleHeadroom,
 	AutoscaleIsAutoConfig: interface{},
 	AutoscaleIsEnabled: interface{},
 	AutoscaleLabels: interface{},
@@ -2695,7 +2738,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeIntegrationGkeAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -2727,7 +2770,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeIntegrationGkeAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -2787,7 +2830,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeIntegrationGkeAutoscaleLabels {
 	Key: *string,
@@ -2833,7 +2876,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeLabels {
 	Key: *string,
@@ -2879,7 +2922,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeMetadata {
 	Key: *string,
@@ -2925,7 +2968,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeNetworkInterface {
 	Network: *string,
@@ -2989,7 +3032,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeNetworkInterfaceAccessConfigs {
 	Name: *string,
@@ -3035,7 +3078,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeNetworkInterfaceAliasIpRanges {
 	IpCidrRange: *string,
@@ -3081,7 +3124,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeScalingDownPolicy {
 	MetricName: *string,
@@ -3297,7 +3340,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeScalingDownPolicyDimensions {
 	Name: *string,
@@ -3343,7 +3386,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeScalingUpPolicy {
 	MetricName: *string,
@@ -3559,7 +3602,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 &elastigroupgke.ElastigroupGkeScalingUpPolicyDimensions {
 	Name: *string,
@@ -3607,7 +3650,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeBackendServicesList
 ```
@@ -3750,7 +3793,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeBackendServicesNamedPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeBackendServicesNamedPortsList
 ```
@@ -3893,7 +3936,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeBackendServicesNamedPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeBackendServicesNamedPortsOutputReference
 ```
@@ -4204,7 +4247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeBackendServicesOutputReference
 ```
@@ -4593,7 +4636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeDiskInitializeParamsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeDiskInitializeParamsList
 ```
@@ -4736,7 +4779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeDiskInitializeParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeDiskInitializeParamsOutputReference
 ```
@@ -5083,7 +5126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeDiskList
 ```
@@ -5226,7 +5269,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeDiskOutputReference
 ```
@@ -5738,7 +5781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeGpuList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeGpuList
 ```
@@ -5881,7 +5924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeGpuOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeGpuOutputReference
 ```
@@ -6192,7 +6235,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeInstanceTypesCustomList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeInstanceTypesCustomList
 ```
@@ -6335,7 +6378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeInstanceTypesCustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeInstanceTypesCustomOutputReference
 ```
@@ -6646,7 +6689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationDockerSwarmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationDockerSwarmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupGkeIntegrationDockerSwarmOutputReference
 ```
@@ -6939,7 +6982,7 @@ func InternalValue() ElastigroupGkeIntegrationDockerSwarm
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationGkeAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupGkeIntegrationGkeAutoscaleDownOutputReference
 ```
@@ -7217,7 +7260,7 @@ func InternalValue() ElastigroupGkeIntegrationGkeAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationGkeAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupGkeIntegrationGkeAutoscaleHeadroomOutputReference
 ```
@@ -7553,7 +7596,7 @@ func InternalValue() ElastigroupGkeIntegrationGkeAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationGkeAutoscaleLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeIntegrationGkeAutoscaleLabelsList
 ```
@@ -7696,7 +7739,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference
 ```
@@ -8007,7 +8050,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeIntegrationGkeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupGkeIntegrationGkeOutputReference
 ```
@@ -8556,7 +8599,7 @@ func InternalValue() ElastigroupGkeIntegrationGke
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeLabelsList
 ```
@@ -8699,7 +8742,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeLabelsOutputReference
 ```
@@ -9010,7 +9053,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeMetadataList
 ```
@@ -9153,7 +9196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeMetadataOutputReference
 ```
@@ -9464,7 +9507,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceAccessConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeNetworkInterfaceAccessConfigsList
 ```
@@ -9607,7 +9650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceAccessConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference
 ```
@@ -9932,7 +9975,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceAliasIpRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeNetworkInterfaceAliasIpRangesList
 ```
@@ -10075,7 +10118,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference
 ```
@@ -10386,7 +10429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeNetworkInterfaceList
 ```
@@ -10529,7 +10572,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeNetworkInterfaceOutputReference
 ```
@@ -10902,7 +10945,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingDownPolicyDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeScalingDownPolicyDimensionsList
 ```
@@ -11045,7 +11088,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingDownPolicyDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeScalingDownPolicyDimensionsOutputReference
 ```
@@ -11363,7 +11406,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingDownPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeScalingDownPolicyList
 ```
@@ -11506,7 +11549,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingDownPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeScalingDownPolicyOutputReference
 ```
@@ -12157,7 +12200,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingUpPolicyDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeScalingUpPolicyDimensionsList
 ```
@@ -12300,7 +12343,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingUpPolicyDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeScalingUpPolicyDimensionsOutputReference
 ```
@@ -12618,7 +12661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingUpPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupGkeScalingUpPolicyList
 ```
@@ -12761,7 +12804,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupgke"
 
 elastigroupgke.NewElastigroupGkeScalingUpPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupGkeScalingUpPolicyOutputReference
 ```

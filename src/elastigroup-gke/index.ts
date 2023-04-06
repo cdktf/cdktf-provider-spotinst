@@ -35,6 +35,10 @@ export interface ElastigroupGkeConfig extends cdktf.TerraformMetaArguments {
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_name_prefix ElastigroupGke#instance_name_prefix}
+  */
+  readonly instanceNamePrefix?: string;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_types_ondemand ElastigroupGke#instance_types_ondemand}
   */
   readonly instanceTypesOndemand?: string;
@@ -3568,7 +3572,7 @@ export class ElastigroupGke extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_gke',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.108.0',
+        providerVersion: '1.109.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3585,6 +3589,7 @@ export class ElastigroupGke extends cdktf.TerraformResource {
     this._drainingTimeout = config.drainingTimeout;
     this._fallbackToOndemand = config.fallbackToOndemand;
     this._id = config.id;
+    this._instanceNamePrefix = config.instanceNamePrefix;
     this._instanceTypesOndemand = config.instanceTypesOndemand;
     this._instanceTypesPreemptible = config.instanceTypesPreemptible;
     this._ipForwarding = config.ipForwarding;
@@ -3704,6 +3709,22 @@ export class ElastigroupGke extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // instance_name_prefix - computed: false, optional: true, required: false
+  private _instanceNamePrefix?: string; 
+  public get instanceNamePrefix() {
+    return this.getStringAttribute('instance_name_prefix');
+  }
+  public set instanceNamePrefix(value: string) {
+    this._instanceNamePrefix = value;
+  }
+  public resetInstanceNamePrefix() {
+    this._instanceNamePrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceNamePrefixInput() {
+    return this._instanceNamePrefix;
   }
 
   // instance_types_ondemand - computed: false, optional: true, required: false
@@ -4115,6 +4136,7 @@ export class ElastigroupGke extends cdktf.TerraformResource {
       draining_timeout: cdktf.numberToTerraform(this._drainingTimeout),
       fallback_to_ondemand: cdktf.booleanToTerraform(this._fallbackToOndemand),
       id: cdktf.stringToTerraform(this._id),
+      instance_name_prefix: cdktf.stringToTerraform(this._instanceNamePrefix),
       instance_types_ondemand: cdktf.stringToTerraform(this._instanceTypesOndemand),
       instance_types_preemptible: cdktf.listMapper(cdktf.stringToTerraform, false)(this._instanceTypesPreemptible),
       ip_forwarding: cdktf.booleanToTerraform(this._ipForwarding),
