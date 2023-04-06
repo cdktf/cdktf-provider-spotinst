@@ -84,6 +84,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetFallbackToOndemand">ResetFallbackToOndemand</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetGpu">ResetGpu</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceNamePrefix">ResetInstanceNamePrefix</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesCustom">ResetInstanceTypesCustom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesOndemand">ResetInstanceTypesOndemand</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesPreemptible">ResetInstanceTypesPreemptible</a></code> | *No description.* |
@@ -466,6 +467,12 @@ func ResetGpu()
 func ResetId()
 ```
 
+##### `ResetInstanceNamePrefix` <a name="ResetInstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceNamePrefix"></a>
+
+```go
+func ResetInstanceNamePrefix()
+```
+
 ##### `ResetInstanceTypesCustom` <a name="ResetInstanceTypesCustom" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.resetInstanceTypesCustom"></a>
 
 ```go
@@ -700,6 +707,7 @@ elastigroupgke.ElastigroupGke_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.fallbackToOndemandInput">FallbackToOndemandInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.gpuInput">GpuInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefixInput">InstanceNamePrefixInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesCustomInput">InstanceTypesCustomInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesOndemandInput">InstanceTypesOndemandInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesPreemptibleInput">InstanceTypesPreemptibleInput</a></code> | <code>*[]*string</code> | *No description.* |
@@ -728,6 +736,7 @@ elastigroupgke.ElastigroupGke_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefix">InstanceNamePrefix</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesOndemand">InstanceTypesOndemand</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesPreemptible">InstanceTypesPreemptible</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.ipForwarding">IpForwarding</a></code> | <code>interface{}</code> | *No description.* |
@@ -1087,6 +1096,16 @@ func IdInput() *string
 
 ---
 
+##### `InstanceNamePrefixInput`<sup>Optional</sup> <a name="InstanceNamePrefixInput" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefixInput"></a>
+
+```go
+func InstanceNamePrefixInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `InstanceTypesCustomInput`<sup>Optional</sup> <a name="InstanceTypesCustomInput" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceTypesCustomInput"></a>
 
 ```go
@@ -1361,6 +1380,16 @@ func FallbackToOndemand() interface{}
 
 ```go
 func Id() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InstanceNamePrefix`<sup>Required</sup> <a name="InstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGke.property.instanceNamePrefix"></a>
+
+```go
+func InstanceNamePrefix() *string
 ```
 
 - *Type:* *string
@@ -1674,6 +1703,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
 	FallbackToOndemand: interface{},
 	Gpu: interface{},
 	Id: *string,
+	InstanceNamePrefix: *string,
 	InstanceTypesCustom: interface{},
 	InstanceTypesOndemand: *string,
 	InstanceTypesPreemptible: *[]*string,
@@ -1719,6 +1749,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/elastigroupgke"
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#fallback_to_ondemand ElastigroupGke#fallback_to_ondemand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.gpu">Gpu</a></code> | <code>interface{}</code> | gpu block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#id ElastigroupGke#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceNamePrefix">InstanceNamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_name_prefix ElastigroupGke#instance_name_prefix}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesCustom">InstanceTypesCustom</a></code> | <code>interface{}</code> | instance_types_custom block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesOndemand">InstanceTypesOndemand</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_types_ondemand ElastigroupGke#instance_types_ondemand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceTypesPreemptible">InstanceTypesPreemptible</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_types_preemptible ElastigroupGke#instance_types_preemptible}. |
@@ -1939,6 +1970,18 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `InstanceNamePrefix`<sup>Optional</sup> <a name="InstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeConfig.property.instanceNamePrefix"></a>
+
+```go
+InstanceNamePrefix *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke#instance_name_prefix ElastigroupGke#instance_name_prefix}.
 
 ---
 

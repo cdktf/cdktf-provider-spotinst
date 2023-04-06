@@ -90,6 +90,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetHealthCheckGracePeriod">resetHealthCheckGracePeriod</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetHealthCheckType">resetHealthCheckType</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceNamePrefix">resetInstanceNamePrefix</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceTypesCustom">resetInstanceTypesCustom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceTypesOndemand">resetInstanceTypesOndemand</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceTypesPreemptible">resetInstanceTypesPreemptible</a></code> | *No description.* |
@@ -522,6 +523,12 @@ public resetHealthCheckType(): void
 public resetId(): void
 ```
 
+##### `resetInstanceNamePrefix` <a name="resetInstanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceNamePrefix"></a>
+
+```typescript
+public resetInstanceNamePrefix(): void
+```
+
 ##### `resetInstanceTypesCustom` <a name="resetInstanceTypesCustom" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.resetInstanceTypesCustom"></a>
 
 ```typescript
@@ -773,6 +780,7 @@ elastigroupGcp.ElastigroupGcp.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.healthCheckGracePeriodInput">healthCheckGracePeriodInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.healthCheckTypeInput">healthCheckTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceNamePrefixInput">instanceNamePrefixInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesCustomInput">instanceTypesCustomInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpInstanceTypesCustom">ElastigroupGcpInstanceTypesCustom</a>[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesOndemandInput">instanceTypesOndemandInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesPreemptibleInput">instanceTypesPreemptibleInput</a></code> | <code>string[]</code> | *No description.* |
@@ -806,6 +814,7 @@ elastigroupGcp.ElastigroupGcp.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceNamePrefix">instanceNamePrefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesPreemptible">instanceTypesPreemptible</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.ipForwarding">ipForwarding</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
@@ -1215,6 +1224,16 @@ public readonly idInput: string;
 
 ---
 
+##### `instanceNamePrefixInput`<sup>Optional</sup> <a name="instanceNamePrefixInput" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceNamePrefixInput"></a>
+
+```typescript
+public readonly instanceNamePrefixInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `instanceTypesCustomInput`<sup>Optional</sup> <a name="instanceTypesCustomInput" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesCustomInput"></a>
 
 ```typescript
@@ -1545,6 +1564,16 @@ public readonly id: string;
 
 ---
 
+##### `instanceNamePrefix`<sup>Required</sup> <a name="instanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceNamePrefix"></a>
+
+```typescript
+public readonly instanceNamePrefix: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `instanceTypesOndemand`<sup>Required</sup> <a name="instanceTypesOndemand" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcp.property.instanceTypesOndemand"></a>
 
 ```typescript
@@ -1853,6 +1882,7 @@ const elastigroupGcpConfig: elastigroupGcp.ElastigroupGcpConfig = { ... }
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#health_check_grace_period ElastigroupGcp#health_check_grace_period}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.healthCheckType">healthCheckType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#health_check_type ElastigroupGcp#health_check_type}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#id ElastigroupGcp#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.instanceNamePrefix">instanceNamePrefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#instance_name_prefix ElastigroupGcp#instance_name_prefix}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.instanceTypesCustom">instanceTypesCustom</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpInstanceTypesCustom">ElastigroupGcpInstanceTypesCustom</a>[]</code> | instance_types_custom block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#instance_types_ondemand ElastigroupGcp#instance_types_ondemand}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.instanceTypesPreemptible">instanceTypesPreemptible</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#instance_types_preemptible ElastigroupGcp#instance_types_preemptible}. |
@@ -2111,6 +2141,18 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `instanceNamePrefix`<sup>Optional</sup> <a name="instanceNamePrefix" id="@cdktf/provider-spotinst.elastigroupGcp.ElastigroupGcpConfig.property.instanceNamePrefix"></a>
+
+```typescript
+public readonly instanceNamePrefix: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp#instance_name_prefix ElastigroupGcp#instance_name_prefix}.
 
 ---
 
