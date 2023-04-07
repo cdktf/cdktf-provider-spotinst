@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpec(scope Construct, id *string, config OceanAwsLaunchSpecConfig) OceanAwsLaunchSpec
 ```
@@ -73,6 +73,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putCreateOptions">PutCreateOptions</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putDeleteOptions">PutDeleteOptions</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putElasticIpPool">PutElasticIpPool</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putImages">PutImages</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putInstanceMetadataOptions">PutInstanceMetadataOptions</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putLabels">PutLabels</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putResourceLimits">PutResourceLimits</a></code> | *No description.* |
@@ -93,6 +94,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetIamInstanceProfile">ResetIamInstanceProfile</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetImageId">ResetImageId</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetImages">ResetImages</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetInstanceMetadataOptions">ResetInstanceMetadataOptions</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetInstanceTypes">ResetInstanceTypes</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -381,6 +383,18 @@ func PutElasticIpPool(value interface{})
 
 ---
 
+##### `PutImages` <a name="PutImages" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putImages"></a>
+
+```go
+func PutImages(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putImages.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
 ##### `PutInstanceMetadataOptions` <a name="PutInstanceMetadataOptions" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.putInstanceMetadataOptions"></a>
 
 ```go
@@ -555,6 +569,12 @@ func ResetId()
 func ResetImageId()
 ```
 
+##### `ResetImages` <a name="ResetImages" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetImages"></a>
+
+```go
+func ResetImages()
+```
+
 ##### `ResetInstanceMetadataOptions` <a name="ResetInstanceMetadataOptions" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.resetInstanceMetadataOptions"></a>
 
 ```go
@@ -670,7 +690,7 @@ func ResetUserData()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.OceanAwsLaunchSpec_IsConstruct(x interface{}) *bool
 ```
@@ -702,7 +722,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.OceanAwsLaunchSpec_IsTerraformElement(x interface{}) *bool
 ```
@@ -716,7 +736,7 @@ oceanawslaunchspec.OceanAwsLaunchSpec_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.OceanAwsLaunchSpec_IsTerraformResource(x interface{}) *bool
 ```
@@ -752,6 +772,7 @@ oceanawslaunchspec.OceanAwsLaunchSpec_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.createOptions">CreateOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecCreateOptionsOutputReference">OceanAwsLaunchSpecCreateOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.deleteOptions">DeleteOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecDeleteOptionsOutputReference">OceanAwsLaunchSpecDeleteOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.elasticIpPool">ElasticIpPool</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolList">OceanAwsLaunchSpecElasticIpPoolList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.images">Images</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList">OceanAwsLaunchSpecImagesList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.instanceMetadataOptions">InstanceMetadataOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference">OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.labels">Labels</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecLabelsList">OceanAwsLaunchSpecLabelsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.resourceLimits">ResourceLimits</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecResourceLimitsList">OceanAwsLaunchSpecResourceLimitsList</a></code> | *No description.* |
@@ -772,6 +793,7 @@ oceanawslaunchspec.OceanAwsLaunchSpec_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.iamInstanceProfileInput">IamInstanceProfileInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.imageIdInput">ImageIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.imagesInput">ImagesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.instanceMetadataOptionsInput">InstanceMetadataOptionsInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions">OceanAwsLaunchSpecInstanceMetadataOptions</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.instanceTypesInput">InstanceTypesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.labelsInput">LabelsInput</a></code> | <code>interface{}</code> | *No description.* |
@@ -1018,6 +1040,16 @@ func ElasticIpPool() OceanAwsLaunchSpecElasticIpPoolList
 
 ---
 
+##### `Images`<sup>Required</sup> <a name="Images" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.images"></a>
+
+```go
+func Images() OceanAwsLaunchSpecImagesList
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList">OceanAwsLaunchSpecImagesList</a>
+
+---
+
 ##### `InstanceMetadataOptions`<sup>Required</sup> <a name="InstanceMetadataOptions" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.instanceMetadataOptions"></a>
 
 ```go
@@ -1215,6 +1247,16 @@ func ImageIdInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ImagesInput`<sup>Optional</sup> <a name="ImagesInput" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpec.property.imagesInput"></a>
+
+```go
+func ImagesInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1553,7 +1595,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecAutoscaleDown {
 	MaxScaleDownPercentage: *f64,
@@ -1585,7 +1627,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadrooms.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecAutoscaleHeadrooms {
 	NumOfUnits: *f64,
@@ -1659,7 +1701,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadroomsAutomatic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecAutoscaleHeadroomsAutomatic {
 	AutoHeadroomPercentage: *f64,
@@ -1691,11 +1733,11 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecBlockDeviceMappings {
 	DeviceName: *string,
-	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbs,
+	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbs,
 	NoDevice: *string,
 	VirtualName: *string,
 }
@@ -1767,11 +1809,11 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecBlockDeviceMappingsEbs {
 	DeleteOnTermination: interface{},
-	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize,
+	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize,
 	Encrypted: interface{},
 	Iops: *f64,
 	KmsKeyId: *string,
@@ -1913,7 +1955,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize {
 	BaseSize: *f64,
@@ -1973,7 +2015,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecConfig {
 	Connection: interface{},
@@ -1989,13 +2031,14 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchsp
 	AutoscaleHeadrooms: interface{},
 	AutoscaleHeadroomsAutomatic: interface{},
 	BlockDeviceMappings: interface{},
-	CreateOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecCreateOptions,
-	DeleteOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecDeleteOptions,
+	CreateOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecCreateOptions,
+	DeleteOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecDeleteOptions,
 	ElasticIpPool: interface{},
 	IamInstanceProfile: *string,
 	Id: *string,
 	ImageId: *string,
-	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions,
+	Images: interface{},
+	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions,
 	InstanceTypes: *[]*string,
 	Labels: interface{},
 	Name: *string,
@@ -2003,14 +2046,14 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchsp
 	ResourceLimits: interface{},
 	RestrictScaleDown: interface{},
 	RootVolumeSize: *f64,
-	SchedulingShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingShutdownHours,
+	SchedulingShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingShutdownHours,
 	SchedulingTask: interface{},
 	SecurityGroups: *[]*string,
 	Strategy: interface{},
 	SubnetIds: *[]*string,
 	Tags: interface{},
 	Taints: interface{},
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicy,
 	UserData: *string,
 }
 ```
@@ -2038,6 +2081,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchsp
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.iamInstanceProfile">IamInstanceProfile</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#iam_instance_profile OceanAwsLaunchSpec#iam_instance_profile}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#id OceanAwsLaunchSpec#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.imageId">ImageId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.images">Images</a></code> | <code>interface{}</code> | images block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.instanceMetadataOptions">InstanceMetadataOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions">OceanAwsLaunchSpecInstanceMetadataOptions</a></code> | instance_metadata_options block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.instanceTypes">InstanceTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#instance_types OceanAwsLaunchSpec#instance_types}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.labels">Labels</a></code> | <code>interface{}</code> | labels block. |
@@ -2289,6 +2333,20 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
+##### `Images`<sup>Optional</sup> <a name="Images" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.images"></a>
+
+```go
+Images interface{}
+```
+
+- *Type:* interface{}
+
+images block.
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#images OceanAwsLaunchSpec#images}
+
+---
+
 ##### `InstanceMetadataOptions`<sup>Optional</sup> <a name="InstanceMetadataOptions" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecConfig.property.instanceMetadataOptions"></a>
 
 ```go
@@ -2516,7 +2574,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecCreateOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecCreateOptions {
 	InitialNodes: *f64,
@@ -2548,7 +2606,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecDeleteOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecDeleteOptions {
 	ForceDelete: interface{},
@@ -2594,10 +2652,10 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPool.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecElasticIpPool {
-	TagSelector: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolTagSelector,
+	TagSelector: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolTagSelector,
 }
 ```
 
@@ -2628,7 +2686,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolTagSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecElasticIpPoolTagSelector {
 	TagKey: *string,
@@ -2669,12 +2727,44 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 
 ---
 
+### OceanAwsLaunchSpecImages <a name="OceanAwsLaunchSpecImages" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImages"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImages.Initializer"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
+
+&oceanawslaunchspec.OceanAwsLaunchSpecImages {
+	ImageId: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImages.property.imageId">ImageId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}. |
+
+---
+
+##### `ImageId`<sup>Optional</sup> <a name="ImageId" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImages.property.imageId"></a>
+
+```go
+ImageId *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}.
+
+---
+
 ### OceanAwsLaunchSpecInstanceMetadataOptions <a name="OceanAwsLaunchSpecInstanceMetadataOptions" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions"></a>
 
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecInstanceMetadataOptions {
 	HttpTokens: *string,
@@ -2720,7 +2810,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecLabels {
 	Key: *string,
@@ -2766,7 +2856,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecResourceLimits {
 	MaxInstanceCount: *f64,
@@ -2812,7 +2902,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecSchedulingShutdownHours {
 	TimeWindows: *[]*string,
@@ -2858,7 +2948,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecSchedulingTask {
 	CronExpression: *string,
@@ -2934,7 +3024,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTaskTaskHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecSchedulingTaskTaskHeadroom {
 	NumOfUnits: *f64,
@@ -3008,7 +3098,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecStrategy {
 	SpotPercentage: *f64,
@@ -3040,7 +3130,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecTags {
 	Key: *string,
@@ -3086,7 +3176,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTaints.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecTaints {
 	Effect: *string,
@@ -3146,11 +3236,11 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecUpdatePolicy {
 	ShouldRoll: interface{},
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicyRollConfig,
 }
 ```
 
@@ -3194,7 +3284,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 &oceanawslaunchspec.OceanAwsLaunchSpecUpdatePolicyRollConfig {
 	BatchSizePercentage: *f64,
@@ -3228,7 +3318,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleDownList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleDownList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecAutoscaleDownList
 ```
@@ -3371,7 +3461,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecAutoscaleDownOutputReference
 ```
@@ -3667,7 +3757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadroomsAutomaticList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleHeadroomsAutomaticList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecAutoscaleHeadroomsAutomaticList
 ```
@@ -3810,7 +3900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadroomsAutomaticOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleHeadroomsAutomaticOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecAutoscaleHeadroomsAutomaticOutputReference
 ```
@@ -4106,7 +4196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadroomsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleHeadroomsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecAutoscaleHeadroomsList
 ```
@@ -4249,7 +4339,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecAutoscaleHeadroomsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecAutoscaleHeadroomsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecAutoscaleHeadroomsOutputReference
 ```
@@ -4625,7 +4715,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference
 ```
@@ -4940,7 +5030,7 @@ func InternalValue() OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecBlockDeviceMappingsEbsOutputReference
 ```
@@ -5463,7 +5553,7 @@ func InternalValue() OceanAwsLaunchSpecBlockDeviceMappingsEbs
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecBlockDeviceMappingsList
 ```
@@ -5606,7 +5696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecBlockDeviceMappingsOutputReference
 ```
@@ -6002,7 +6092,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecCreateOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecCreateOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecCreateOptionsOutputReference
 ```
@@ -6280,7 +6370,7 @@ func InternalValue() OceanAwsLaunchSpecCreateOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecDeleteOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecDeleteOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecDeleteOptionsOutputReference
 ```
@@ -6580,7 +6670,7 @@ func InternalValue() OceanAwsLaunchSpecDeleteOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecElasticIpPoolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecElasticIpPoolList
 ```
@@ -6723,7 +6813,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecElasticIpPoolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecElasticIpPoolOutputReference
 ```
@@ -7032,7 +7122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecElasticIpPoolTagSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecElasticIpPoolTagSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecElasticIpPoolTagSelectorOutputReference
 ```
@@ -7327,12 +7417,451 @@ func InternalValue() OceanAwsLaunchSpecElasticIpPoolTagSelector
 ---
 
 
+### OceanAwsLaunchSpecImagesList <a name="OceanAwsLaunchSpecImagesList" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
+
+oceanawslaunchspec.NewOceanAwsLaunchSpecImagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecImagesList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.resolve.parameter._context"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.get"></a>
+
+```go
+func Get(index *f64) OceanAwsLaunchSpecImagesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### OceanAwsLaunchSpecImagesOutputReference <a name="OceanAwsLaunchSpecImagesOutputReference" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
+
+oceanawslaunchspec.NewOceanAwsLaunchSpecImagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecImagesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.resetImageId">ResetImageId</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetImageId` <a name="ResetImageId" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.resetImageId"></a>
+
+```go
+func ResetImageId()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.imageIdInput">ImageIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.imageId">ImageId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ImageIdInput`<sup>Optional</sup> <a name="ImageIdInput" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.imageIdInput"></a>
+
+```go
+func ImageIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ImageId`<sup>Required</sup> <a name="ImageId" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.imageId"></a>
+
+```go
+func ImageId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecImagesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference <a name="OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecInstanceMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference
 ```
@@ -7632,7 +8161,7 @@ func InternalValue() OceanAwsLaunchSpecInstanceMetadataOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecLabelsList
 ```
@@ -7775,7 +8304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecLabelsOutputReference
 ```
@@ -8086,7 +8615,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecResourceLimitsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecResourceLimitsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecResourceLimitsList
 ```
@@ -8229,7 +8758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecResourceLimitsOutputReference
 ```
@@ -8554,7 +9083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecSchedulingShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecSchedulingShutdownHoursOutputReference
 ```
@@ -8854,7 +9383,7 @@ func InternalValue() OceanAwsLaunchSpecSchedulingShutdownHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecSchedulingTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecSchedulingTaskList
 ```
@@ -8997,7 +9526,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecSchedulingTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecSchedulingTaskOutputReference
 ```
@@ -9372,7 +9901,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTaskTaskHeadroomList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecSchedulingTaskTaskHeadroomList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecSchedulingTaskTaskHeadroomList
 ```
@@ -9515,7 +10044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecSchedulingTaskTaskHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecSchedulingTaskTaskHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecSchedulingTaskTaskHeadroomOutputReference
 ```
@@ -9891,7 +10420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecStrategyList
 ```
@@ -10034,7 +10563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecStrategyOutputReference
 ```
@@ -10330,7 +10859,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecTagsList
 ```
@@ -10473,7 +11002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecTagsOutputReference
 ```
@@ -10784,7 +11313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTaintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecTaintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLaunchSpecTaintsList
 ```
@@ -10927,7 +11456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecTaintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecTaintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLaunchSpecTaintsOutputReference
 ```
@@ -11260,7 +11789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecUpdatePolicyOutputReference
 ```
@@ -11573,7 +12102,7 @@ func InternalValue() OceanAwsLaunchSpecUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec.OceanAwsLaunchSpecUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v5/oceanawslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanawslaunchspec"
 
 oceanawslaunchspec.NewOceanAwsLaunchSpecUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLaunchSpecUpdatePolicyRollConfigOutputReference
 ```
