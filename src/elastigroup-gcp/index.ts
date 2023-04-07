@@ -3943,7 +3943,7 @@ export class ElastigroupGcp extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_gcp',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.109.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
