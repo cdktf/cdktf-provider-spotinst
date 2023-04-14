@@ -449,6 +449,10 @@ export interface OceanEcsAutoscaler {
   */
   readonly cooldown?: number;
   /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}
+  */
+  readonly enableAutomaticAndManualHeadroom?: boolean | cdktf.IResolvable;
+  /**
   * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs#is_auto_config OceanEcs#is_auto_config}
   */
   readonly isAutoConfig?: boolean | cdktf.IResolvable;
@@ -488,6 +492,7 @@ export function oceanEcsAutoscalerToTerraform(struct?: OceanEcsAutoscalerOutputR
   return {
     auto_headroom_percentage: cdktf.numberToTerraform(struct!.autoHeadroomPercentage),
     cooldown: cdktf.numberToTerraform(struct!.cooldown),
+    enable_automatic_and_manual_headroom: cdktf.booleanToTerraform(struct!.enableAutomaticAndManualHeadroom),
     is_auto_config: cdktf.booleanToTerraform(struct!.isAutoConfig),
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     should_scale_down_non_service_tasks: cdktf.booleanToTerraform(struct!.shouldScaleDownNonServiceTasks),
@@ -518,6 +523,10 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
     if (this._cooldown !== undefined) {
       hasAnyValues = true;
       internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._enableAutomaticAndManualHeadroom !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableAutomaticAndManualHeadroom = this._enableAutomaticAndManualHeadroom;
     }
     if (this._isAutoConfig !== undefined) {
       hasAnyValues = true;
@@ -551,6 +560,7 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this._autoHeadroomPercentage = undefined;
       this._cooldown = undefined;
+      this._enableAutomaticAndManualHeadroom = undefined;
       this._isAutoConfig = undefined;
       this._isEnabled = undefined;
       this._shouldScaleDownNonServiceTasks = undefined;
@@ -562,6 +572,7 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._autoHeadroomPercentage = value.autoHeadroomPercentage;
       this._cooldown = value.cooldown;
+      this._enableAutomaticAndManualHeadroom = value.enableAutomaticAndManualHeadroom;
       this._isAutoConfig = value.isAutoConfig;
       this._isEnabled = value.isEnabled;
       this._shouldScaleDownNonServiceTasks = value.shouldScaleDownNonServiceTasks;
@@ -601,6 +612,22 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get cooldownInput() {
     return this._cooldown;
+  }
+
+  // enable_automatic_and_manual_headroom - computed: false, optional: true, required: false
+  private _enableAutomaticAndManualHeadroom?: boolean | cdktf.IResolvable; 
+  public get enableAutomaticAndManualHeadroom() {
+    return this.getBooleanAttribute('enable_automatic_and_manual_headroom');
+  }
+  public set enableAutomaticAndManualHeadroom(value: boolean | cdktf.IResolvable) {
+    this._enableAutomaticAndManualHeadroom = value;
+  }
+  public resetEnableAutomaticAndManualHeadroom() {
+    this._enableAutomaticAndManualHeadroom = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableAutomaticAndManualHeadroomInput() {
+    return this._enableAutomaticAndManualHeadroom;
   }
 
   // is_auto_config - computed: false, optional: true, required: false
@@ -3088,7 +3115,7 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.110.0',
+        providerVersion: '1.112.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
