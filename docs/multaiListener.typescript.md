@@ -1,3 +1,7 @@
+# `spotinst_multai_listener`
+
+Refer to the Terraform Registory for docs: [`spotinst_multai_listener`](https://www.terraform.io/docs/providers/spotinst/r/multai_listener).
+
 # `multaiListener` Submodule <a name="`multaiListener` Submodule" id="@cdktf/provider-spotinst.multaiListener"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

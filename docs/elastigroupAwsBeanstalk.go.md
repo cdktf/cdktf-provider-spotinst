@@ -1,3 +1,7 @@
+# `spotinst_elastigroup_aws_beanstalk`
+
+Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws_beanstalk`](https://www.terraform.io/docs/providers/spotinst/r/elastigroup_aws_beanstalk).
+
 # `elastigroupAwsBeanstalk` Submodule <a name="`elastigroupAwsBeanstalk` Submodule" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

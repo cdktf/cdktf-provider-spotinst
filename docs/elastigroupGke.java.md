@@ -1,3 +1,7 @@
+# `spotinst_elastigroup_gke`
+
+Refer to the Terraform Registory for docs: [`spotinst_elastigroup_gke`](https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gke).
+
 # `elastigroupGke` Submodule <a name="`elastigroupGke` Submodule" id="@cdktf/provider-spotinst.elastigroupGke"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

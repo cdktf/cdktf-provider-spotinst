@@ -1,3 +1,7 @@
+# `spotinst_stateful_node_azure`
+
+Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure).
+
 # `statefulNodeAzure` Submodule <a name="`statefulNodeAzure` Submodule" id="@cdktf/provider-spotinst.statefulNodeAzure"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

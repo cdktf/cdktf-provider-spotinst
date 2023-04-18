@@ -1,3 +1,7 @@
+# `spotinst_elastigroup_gcp`
+
+Refer to the Terraform Registory for docs: [`spotinst_elastigroup_gcp`](https://www.terraform.io/docs/providers/spotinst/r/elastigroup_gcp).
+
 # `elastigroupGcp` Submodule <a name="`elastigroupGcp` Submodule" id="@cdktf/provider-spotinst.elastigroupGcp"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

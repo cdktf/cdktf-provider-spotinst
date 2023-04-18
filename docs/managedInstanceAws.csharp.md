@@ -1,3 +1,7 @@
+# `spotinst_managed_instance_aws`
+
+Refer to the Terraform Registory for docs: [`spotinst_managed_instance_aws`](https://www.terraform.io/docs/providers/spotinst/r/managed_instance_aws).
+
 # `managedInstanceAws` Submodule <a name="`managedInstanceAws` Submodule" id="@cdktf/provider-spotinst.managedInstanceAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
