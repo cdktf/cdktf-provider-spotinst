@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/spotinst
+// https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SpotinstProviderConfig {
   /**
   * Spotinst Account ID
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst#account SpotinstProvider#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs#account SpotinstProvider#account}
   */
   readonly account?: string;
   /**
   * Spotinst SDK Feature Flags
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst#feature_flags SpotinstProvider#feature_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs#feature_flags SpotinstProvider#feature_flags}
   */
   readonly featureFlags?: string;
   /**
   * Spotinst Personal API Access Token
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst#token SpotinstProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs#token SpotinstProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst#alias SpotinstProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs#alias SpotinstProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/spotinst spotinst}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs spotinst}
 */
 export class SpotinstProvider extends cdktf.TerraformProvider {
 
@@ -48,7 +48,7 @@ export class SpotinstProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/spotinst spotinst} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs spotinst} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
