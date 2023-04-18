@@ -1,3 +1,7 @@
+# `spotinst_multai_deployment`
+
+Refer to the Terraform Registory for docs: [`spotinst_multai_deployment`](https://www.terraform.io/docs/providers/spotinst/r/multai_deployment).
+
 # `multaiDeployment` Submodule <a name="`multaiDeployment` Submodule" id="@cdktf/provider-spotinst.multaiDeployment"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

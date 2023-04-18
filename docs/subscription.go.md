@@ -1,3 +1,7 @@
+# `spotinst_subscription`
+
+Refer to the Terraform Registory for docs: [`spotinst_subscription`](https://www.terraform.io/docs/providers/spotinst/r/subscription).
+
 # `subscription` Submodule <a name="`subscription` Submodule" id="@cdktf/provider-spotinst.subscription"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

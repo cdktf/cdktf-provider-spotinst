@@ -1,3 +1,7 @@
+# `spotinst_ocean_ecs`
+
+Refer to the Terraform Registory for docs: [`spotinst_ocean_ecs`](https://www.terraform.io/docs/providers/spotinst/r/ocean_ecs).
+
 # `oceanEcs` Submodule <a name="`oceanEcs` Submodule" id="@cdktf/provider-spotinst.oceanEcs"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

@@ -1,3 +1,7 @@
+# `spotinst_multai_target`
+
+Refer to the Terraform Registory for docs: [`spotinst_multai_target`](https://www.terraform.io/docs/providers/spotinst/r/multai_target).
+
 # `multaiTarget` Submodule <a name="`multaiTarget` Submodule" id="@cdktf/provider-spotinst.multaiTarget"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

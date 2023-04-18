@@ -1,3 +1,7 @@
+# `spotinst_ocean_aws`
+
+Refer to the Terraform Registory for docs: [`spotinst_ocean_aws`](https://www.terraform.io/docs/providers/spotinst/r/ocean_aws).
+
 # `oceanAws` Submodule <a name="`oceanAws` Submodule" id="@cdktf/provider-spotinst.oceanAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
