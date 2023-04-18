@@ -1,6 +1,6 @@
 # `spotinst_multai_deployment`
 
-Refer to the Terraform Registory for docs: [`spotinst_multai_deployment`](https://www.terraform.io/docs/providers/spotinst/r/multai_deployment).
+Refer to the Terraform Registory for docs: [`spotinst_multai_deployment`](https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment).
 
 # `multaiDeployment` Submodule <a name="`multaiDeployment` Submodule" id="@cdktf/provider-spotinst.multaiDeployment"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_multai_deployment`](https:
 
 ### MultaiDeployment <a name="MultaiDeployment" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/spotinst/r/multai_deployment spotinst_multai_deployment}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment spotinst_multai_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/multaideployment"
 
 multaideployment.NewMultaiDeployment(scope Construct, id *string, config MultaiDeploymentConfig) MultaiDeployment
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/multaideployment"
 
 multaideployment.MultaiDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/multaideployment"
 
 multaideployment.MultaiDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ multaideployment.MultaiDeployment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/multaideployment"
 
 multaideployment.MultaiDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -346,7 +346,7 @@ multaideployment.MultaiDeployment_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -444,10 +444,10 @@ func Connection() interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -566,11 +566,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/multaideployment"
 
 &multaideployment.MultaiDeploymentConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -586,14 +586,14 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v6/multaideployment
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/multai_deployment#name MultaiDeployment#name}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/multai_deployment#id MultaiDeployment#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment#name MultaiDeployment#name}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment#id MultaiDeployment#id}. |
 
 ---
 
@@ -610,10 +610,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -675,7 +675,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/multai_deployment#name MultaiDeployment#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment#name MultaiDeployment#name}.
 
 ---
 
@@ -687,7 +687,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/spotinst/r/multai_deployment#id MultaiDeployment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/multai_deployment#id MultaiDeployment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

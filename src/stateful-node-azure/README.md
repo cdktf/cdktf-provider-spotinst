@@ -1,3 +1,3 @@
 # `spotinst_stateful_node_azure`
 
-Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](https://www.terraform.io/docs/providers/spotinst/r/stateful_node_azure).
+Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/stateful_node_azure).
