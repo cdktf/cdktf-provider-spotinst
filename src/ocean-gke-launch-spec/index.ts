@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec
+// https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface OceanGkeLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#id OceanGkeLaunchSpec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#id OceanGkeLaunchSpec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#instance_types OceanGkeLaunchSpec#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#instance_types OceanGkeLaunchSpec#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#name OceanGkeLaunchSpec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#name OceanGkeLaunchSpec#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#node_pool_name OceanGkeLaunchSpec#node_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#node_pool_name OceanGkeLaunchSpec#node_pool_name}
   */
   readonly nodePoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#ocean_id OceanGkeLaunchSpec#ocean_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#ocean_id OceanGkeLaunchSpec#ocean_id}
   */
   readonly oceanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#restrict_scale_down OceanGkeLaunchSpec#restrict_scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#restrict_scale_down OceanGkeLaunchSpec#restrict_scale_down}
   */
   readonly restrictScaleDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#root_volume_size OceanGkeLaunchSpec#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#root_volume_size OceanGkeLaunchSpec#root_volume_size}
   */
   readonly rootVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#root_volume_type OceanGkeLaunchSpec#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#root_volume_type OceanGkeLaunchSpec#root_volume_type}
   */
   readonly rootVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#service_account OceanGkeLaunchSpec#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#service_account OceanGkeLaunchSpec#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#source_image OceanGkeLaunchSpec#source_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#source_image OceanGkeLaunchSpec#source_image}
   */
   readonly sourceImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#tags OceanGkeLaunchSpec#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#tags OceanGkeLaunchSpec#tags}
   */
   readonly tags?: string[];
   /**
   * autoscale_headrooms block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#autoscale_headrooms OceanGkeLaunchSpec#autoscale_headrooms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#autoscale_headrooms OceanGkeLaunchSpec#autoscale_headrooms}
   */
   readonly autoscaleHeadrooms?: OceanGkeLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable;
   /**
   * autoscale_headrooms_automatic block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#autoscale_headrooms_automatic OceanGkeLaunchSpec#autoscale_headrooms_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#autoscale_headrooms_automatic OceanGkeLaunchSpec#autoscale_headrooms_automatic}
   */
   readonly autoscaleHeadroomsAutomatic?: OceanGkeLaunchSpecAutoscaleHeadroomsAutomatic[] | cdktf.IResolvable;
   /**
   * labels block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#labels OceanGkeLaunchSpec#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#labels OceanGkeLaunchSpec#labels}
   */
   readonly labels?: OceanGkeLaunchSpecLabels[] | cdktf.IResolvable;
   /**
   * metadata block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#metadata OceanGkeLaunchSpec#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#metadata OceanGkeLaunchSpec#metadata}
   */
   readonly metadata?: OceanGkeLaunchSpecMetadata[] | cdktf.IResolvable;
   /**
+  * network_interfaces block
+  * 
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#network_interfaces OceanGkeLaunchSpec#network_interfaces}
+  */
+  readonly networkInterfaces?: OceanGkeLaunchSpecNetworkInterfaces[] | cdktf.IResolvable;
+  /**
   * resource_limits block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#resource_limits OceanGkeLaunchSpec#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#resource_limits OceanGkeLaunchSpec#resource_limits}
   */
   readonly resourceLimits?: OceanGkeLaunchSpecResourceLimits;
   /**
   * scheduling_task block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#scheduling_task OceanGkeLaunchSpec#scheduling_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#scheduling_task OceanGkeLaunchSpec#scheduling_task}
   */
   readonly schedulingTask?: OceanGkeLaunchSpecSchedulingTask[] | cdktf.IResolvable;
   /**
   * shielded_instance_config block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#shielded_instance_config OceanGkeLaunchSpec#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#shielded_instance_config OceanGkeLaunchSpec#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: OceanGkeLaunchSpecShieldedInstanceConfig;
   /**
   * storage block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#storage OceanGkeLaunchSpec#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#storage OceanGkeLaunchSpec#storage}
   */
   readonly storage?: OceanGkeLaunchSpecStorage;
   /**
   * strategy block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#strategy OceanGkeLaunchSpec#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#strategy OceanGkeLaunchSpec#strategy}
   */
   readonly strategy?: OceanGkeLaunchSpecStrategy[] | cdktf.IResolvable;
   /**
   * taints block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#taints OceanGkeLaunchSpec#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#taints OceanGkeLaunchSpec#taints}
   */
   readonly taints?: OceanGkeLaunchSpecTaints[] | cdktf.IResolvable;
   /**
   * update_policy block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#update_policy OceanGkeLaunchSpec#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#update_policy OceanGkeLaunchSpec#update_policy}
   */
   readonly updatePolicy?: OceanGkeLaunchSpecUpdatePolicy;
 }
 export interface OceanGkeLaunchSpecAutoscaleHeadrooms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#cpu_per_unit OceanGkeLaunchSpec#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#cpu_per_unit OceanGkeLaunchSpec#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#gpu_per_unit OceanGkeLaunchSpec#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#gpu_per_unit OceanGkeLaunchSpec#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#memory_per_unit OceanGkeLaunchSpec#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#memory_per_unit OceanGkeLaunchSpec#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#num_of_units OceanGkeLaunchSpec#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#num_of_units OceanGkeLaunchSpec#num_of_units}
   */
   readonly numOfUnits: number;
 }
@@ -298,7 +304,7 @@ export class OceanGkeLaunchSpecAutoscaleHeadroomsList extends cdktf.ComplexList 
 }
 export interface OceanGkeLaunchSpecAutoscaleHeadroomsAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#auto_headroom_percentage OceanGkeLaunchSpec#auto_headroom_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#auto_headroom_percentage OceanGkeLaunchSpec#auto_headroom_percentage}
   */
   readonly autoHeadroomPercentage?: number;
 }
@@ -395,11 +401,11 @@ export class OceanGkeLaunchSpecAutoscaleHeadroomsAutomaticList extends cdktf.Com
 }
 export interface OceanGkeLaunchSpecLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
   */
   readonly value?: string;
 }
@@ -519,11 +525,11 @@ export class OceanGkeLaunchSpecLabelsList extends cdktf.ComplexList {
 }
 export interface OceanGkeLaunchSpecMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
   */
   readonly value?: string;
 }
@@ -641,13 +647,434 @@ export class OceanGkeLaunchSpecMetadataList extends cdktf.ComplexList {
     return new OceanGkeLaunchSpecMetadataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanGkeLaunchSpecNetworkInterfacesAccessConfigs {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#name OceanGkeLaunchSpec#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#type OceanGkeLaunchSpec#type}
+  */
+  readonly type?: string;
+}
+
+export function oceanGkeLaunchSpecNetworkInterfacesAccessConfigsToTerraform(struct?: OceanGkeLaunchSpecNetworkInterfacesAccessConfigs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesAccessConfigsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeLaunchSpecNetworkInterfacesAccessConfigs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeLaunchSpecNetworkInterfacesAccessConfigs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._type = value.type;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesAccessConfigsList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeLaunchSpecNetworkInterfacesAccessConfigs[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeLaunchSpecNetworkInterfacesAccessConfigsOutputReference {
+    return new OceanGkeLaunchSpecNetworkInterfacesAccessConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#ip_cidr_range OceanGkeLaunchSpec#ip_cidr_range}
+  */
+  readonly ipCidrRange: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#subnetwork_range_name OceanGkeLaunchSpec#subnetwork_range_name}
+  */
+  readonly subnetworkRangeName: string;
+}
+
+export function oceanGkeLaunchSpecNetworkInterfacesAliasIpRangesToTerraform(struct?: OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ip_cidr_range: cdktf.stringToTerraform(struct!.ipCidrRange),
+    subnetwork_range_name: cdktf.stringToTerraform(struct!.subnetworkRangeName),
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesAliasIpRangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipCidrRange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipCidrRange = this._ipCidrRange;
+    }
+    if (this._subnetworkRangeName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetworkRangeName = this._subnetworkRangeName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipCidrRange = undefined;
+      this._subnetworkRangeName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipCidrRange = value.ipCidrRange;
+      this._subnetworkRangeName = value.subnetworkRangeName;
+    }
+  }
+
+  // ip_cidr_range - computed: false, optional: false, required: true
+  private _ipCidrRange?: string; 
+  public get ipCidrRange() {
+    return this.getStringAttribute('ip_cidr_range');
+  }
+  public set ipCidrRange(value: string) {
+    this._ipCidrRange = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipCidrRangeInput() {
+    return this._ipCidrRange;
+  }
+
+  // subnetwork_range_name - computed: false, optional: false, required: true
+  private _subnetworkRangeName?: string; 
+  public get subnetworkRangeName() {
+    return this.getStringAttribute('subnetwork_range_name');
+  }
+  public set subnetworkRangeName(value: string) {
+    this._subnetworkRangeName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetworkRangeNameInput() {
+    return this._subnetworkRangeName;
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesAliasIpRangesList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeLaunchSpecNetworkInterfacesAliasIpRangesOutputReference {
+    return new OceanGkeLaunchSpecNetworkInterfacesAliasIpRangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OceanGkeLaunchSpecNetworkInterfaces {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#network OceanGkeLaunchSpec#network}
+  */
+  readonly network: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#project_id OceanGkeLaunchSpec#project_id}
+  */
+  readonly projectId?: string;
+  /**
+  * access_configs block
+  * 
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#access_configs OceanGkeLaunchSpec#access_configs}
+  */
+  readonly accessConfigs?: OceanGkeLaunchSpecNetworkInterfacesAccessConfigs[] | cdktf.IResolvable;
+  /**
+  * alias_ip_ranges block
+  * 
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#alias_ip_ranges OceanGkeLaunchSpec#alias_ip_ranges}
+  */
+  readonly aliasIpRanges?: OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges[] | cdktf.IResolvable;
+}
+
+export function oceanGkeLaunchSpecNetworkInterfacesToTerraform(struct?: OceanGkeLaunchSpecNetworkInterfaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network: cdktf.stringToTerraform(struct!.network),
+    project_id: cdktf.stringToTerraform(struct!.projectId),
+    access_configs: cdktf.listMapper(oceanGkeLaunchSpecNetworkInterfacesAccessConfigsToTerraform, true)(struct!.accessConfigs),
+    alias_ip_ranges: cdktf.listMapper(oceanGkeLaunchSpecNetworkInterfacesAliasIpRangesToTerraform, true)(struct!.aliasIpRanges),
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanGkeLaunchSpecNetworkInterfaces | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._network !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.network = this._network;
+    }
+    if (this._projectId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projectId = this._projectId;
+    }
+    if (this._accessConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accessConfigs = this._accessConfigs?.internalValue;
+    }
+    if (this._aliasIpRanges?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.aliasIpRanges = this._aliasIpRanges?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeLaunchSpecNetworkInterfaces | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._network = undefined;
+      this._projectId = undefined;
+      this._accessConfigs.internalValue = undefined;
+      this._aliasIpRanges.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._network = value.network;
+      this._projectId = value.projectId;
+      this._accessConfigs.internalValue = value.accessConfigs;
+      this._aliasIpRanges.internalValue = value.aliasIpRanges;
+    }
+  }
+
+  // network - computed: false, optional: false, required: true
+  private _network?: string; 
+  public get network() {
+    return this.getStringAttribute('network');
+  }
+  public set network(value: string) {
+    this._network = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInput() {
+    return this._network;
+  }
+
+  // project_id - computed: false, optional: true, required: false
+  private _projectId?: string; 
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+  public set projectId(value: string) {
+    this._projectId = value;
+  }
+  public resetProjectId() {
+    this._projectId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectIdInput() {
+    return this._projectId;
+  }
+
+  // access_configs - computed: false, optional: true, required: false
+  private _accessConfigs = new OceanGkeLaunchSpecNetworkInterfacesAccessConfigsList(this, "access_configs", true);
+  public get accessConfigs() {
+    return this._accessConfigs;
+  }
+  public putAccessConfigs(value: OceanGkeLaunchSpecNetworkInterfacesAccessConfigs[] | cdktf.IResolvable) {
+    this._accessConfigs.internalValue = value;
+  }
+  public resetAccessConfigs() {
+    this._accessConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessConfigsInput() {
+    return this._accessConfigs.internalValue;
+  }
+
+  // alias_ip_ranges - computed: false, optional: true, required: false
+  private _aliasIpRanges = new OceanGkeLaunchSpecNetworkInterfacesAliasIpRangesList(this, "alias_ip_ranges", true);
+  public get aliasIpRanges() {
+    return this._aliasIpRanges;
+  }
+  public putAliasIpRanges(value: OceanGkeLaunchSpecNetworkInterfacesAliasIpRanges[] | cdktf.IResolvable) {
+    this._aliasIpRanges.internalValue = value;
+  }
+  public resetAliasIpRanges() {
+    this._aliasIpRanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aliasIpRangesInput() {
+    return this._aliasIpRanges.internalValue;
+  }
+}
+
+export class OceanGkeLaunchSpecNetworkInterfacesList extends cdktf.ComplexList {
+  public internalValue? : OceanGkeLaunchSpecNetworkInterfaces[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanGkeLaunchSpecNetworkInterfacesOutputReference {
+    return new OceanGkeLaunchSpecNetworkInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanGkeLaunchSpecResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#max_instance_count OceanGkeLaunchSpec#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#max_instance_count OceanGkeLaunchSpec#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#min_instance_count OceanGkeLaunchSpec#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#min_instance_count OceanGkeLaunchSpec#min_instance_count}
   */
   readonly minInstanceCount?: number;
 }
@@ -735,19 +1162,19 @@ export class OceanGkeLaunchSpecResourceLimitsOutputReference extends cdktf.Compl
 }
 export interface OceanGkeLaunchSpecSchedulingTaskTaskHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#cpu_per_unit OceanGkeLaunchSpec#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#cpu_per_unit OceanGkeLaunchSpec#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#gpu_per_unit OceanGkeLaunchSpec#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#gpu_per_unit OceanGkeLaunchSpec#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#memory_per_unit OceanGkeLaunchSpec#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#memory_per_unit OceanGkeLaunchSpec#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#num_of_units OceanGkeLaunchSpec#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#num_of_units OceanGkeLaunchSpec#num_of_units}
   */
   readonly numOfUnits: number;
 }
@@ -910,21 +1337,21 @@ export class OceanGkeLaunchSpecSchedulingTaskTaskHeadroomList extends cdktf.Comp
 }
 export interface OceanGkeLaunchSpecSchedulingTask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#cron_expression OceanGkeLaunchSpec#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#cron_expression OceanGkeLaunchSpec#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#is_enabled OceanGkeLaunchSpec#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#is_enabled OceanGkeLaunchSpec#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#task_type OceanGkeLaunchSpec#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#task_type OceanGkeLaunchSpec#task_type}
   */
   readonly taskType: string;
   /**
   * task_headroom block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#task_headroom OceanGkeLaunchSpec#task_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#task_headroom OceanGkeLaunchSpec#task_headroom}
   */
   readonly taskHeadroom?: OceanGkeLaunchSpecSchedulingTaskTaskHeadroom[] | cdktf.IResolvable;
 }
@@ -1081,11 +1508,11 @@ export class OceanGkeLaunchSpecSchedulingTaskList extends cdktf.ComplexList {
 }
 export interface OceanGkeLaunchSpecShieldedInstanceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#enable_integrity_monitoring OceanGkeLaunchSpec#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#enable_integrity_monitoring OceanGkeLaunchSpec#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#enable_secure_boot OceanGkeLaunchSpec#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#enable_secure_boot OceanGkeLaunchSpec#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktf.IResolvable;
 }
@@ -1173,7 +1600,7 @@ export class OceanGkeLaunchSpecShieldedInstanceConfigOutputReference extends cdk
 }
 export interface OceanGkeLaunchSpecStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#local_ssd_count OceanGkeLaunchSpec#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#local_ssd_count OceanGkeLaunchSpec#local_ssd_count}
   */
   readonly localSsdCount?: number;
 }
@@ -1238,7 +1665,7 @@ export class OceanGkeLaunchSpecStorageOutputReference extends cdktf.ComplexObjec
 }
 export interface OceanGkeLaunchSpecStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#preemptible_percentage OceanGkeLaunchSpec#preemptible_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#preemptible_percentage OceanGkeLaunchSpec#preemptible_percentage}
   */
   readonly preemptiblePercentage?: number;
 }
@@ -1335,15 +1762,15 @@ export class OceanGkeLaunchSpecStrategyList extends cdktf.ComplexList {
 }
 export interface OceanGkeLaunchSpecTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#effect OceanGkeLaunchSpec#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#effect OceanGkeLaunchSpec#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#key OceanGkeLaunchSpec#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#value OceanGkeLaunchSpec#value}
   */
   readonly value?: string;
 }
@@ -1486,7 +1913,7 @@ export class OceanGkeLaunchSpecTaintsList extends cdktf.ComplexList {
 }
 export interface OceanGkeLaunchSpecUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#batch_size_percentage OceanGkeLaunchSpec#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#batch_size_percentage OceanGkeLaunchSpec#batch_size_percentage}
   */
   readonly batchSizePercentage: number;
 }
@@ -1548,13 +1975,13 @@ export class OceanGkeLaunchSpecUpdatePolicyRollConfigOutputReference extends cdk
 }
 export interface OceanGkeLaunchSpecUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#should_roll OceanGkeLaunchSpec#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#should_roll OceanGkeLaunchSpec#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec#roll_config OceanGkeLaunchSpec#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec#roll_config OceanGkeLaunchSpec#roll_config}
   */
   readonly rollConfig?: OceanGkeLaunchSpecUpdatePolicyRollConfig;
 }
@@ -1639,7 +2066,7 @@ export class OceanGkeLaunchSpecUpdatePolicyOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec spotinst_ocean_gke_launch_spec}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec spotinst_ocean_gke_launch_spec}
 */
 export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
 
@@ -1653,7 +2080,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.112.0/docs/resources/ocean_gke_launch_spec spotinst_ocean_gke_launch_spec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.113.0/docs/resources/ocean_gke_launch_spec spotinst_ocean_gke_launch_spec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1664,7 +2091,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.112.0',
+        providerVersion: '1.113.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1690,6 +2117,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
     this._autoscaleHeadroomsAutomatic.internalValue = config.autoscaleHeadroomsAutomatic;
     this._labels.internalValue = config.labels;
     this._metadata.internalValue = config.metadata;
+    this._networkInterfaces.internalValue = config.networkInterfaces;
     this._resourceLimits.internalValue = config.resourceLimits;
     this._schedulingTask.internalValue = config.schedulingTask;
     this._shieldedInstanceConfig.internalValue = config.shieldedInstanceConfig;
@@ -1940,6 +2368,22 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
     return this._metadata.internalValue;
   }
 
+  // network_interfaces - computed: false, optional: true, required: false
+  private _networkInterfaces = new OceanGkeLaunchSpecNetworkInterfacesList(this, "network_interfaces", true);
+  public get networkInterfaces() {
+    return this._networkInterfaces;
+  }
+  public putNetworkInterfaces(value: OceanGkeLaunchSpecNetworkInterfaces[] | cdktf.IResolvable) {
+    this._networkInterfaces.internalValue = value;
+  }
+  public resetNetworkInterfaces() {
+    this._networkInterfaces.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkInterfacesInput() {
+    return this._networkInterfaces.internalValue;
+  }
+
   // resource_limits - computed: false, optional: true, required: false
   private _resourceLimits = new OceanGkeLaunchSpecResourceLimitsOutputReference(this, "resource_limits");
   public get resourceLimits() {
@@ -2073,6 +2517,7 @@ export class OceanGkeLaunchSpec extends cdktf.TerraformResource {
       autoscale_headrooms_automatic: cdktf.listMapper(oceanGkeLaunchSpecAutoscaleHeadroomsAutomaticToTerraform, true)(this._autoscaleHeadroomsAutomatic.internalValue),
       labels: cdktf.listMapper(oceanGkeLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),
       metadata: cdktf.listMapper(oceanGkeLaunchSpecMetadataToTerraform, true)(this._metadata.internalValue),
+      network_interfaces: cdktf.listMapper(oceanGkeLaunchSpecNetworkInterfacesToTerraform, true)(this._networkInterfaces.internalValue),
       resource_limits: oceanGkeLaunchSpecResourceLimitsToTerraform(this._resourceLimits.internalValue),
       scheduling_task: cdktf.listMapper(oceanGkeLaunchSpecSchedulingTaskToTerraform, true)(this._schedulingTask.internalValue),
       shielded_instance_config: oceanGkeLaunchSpecShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
