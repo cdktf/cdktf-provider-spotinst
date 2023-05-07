@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription
+// https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface SubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#endpoint Subscription#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#endpoint Subscription#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#event_type Subscription#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#event_type Subscription#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#format Subscription#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#format Subscription#format}
   */
   readonly format?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#id Subscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#id Subscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#protocol Subscription#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#protocol Subscription#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription#resource_id Subscription#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription#resource_id Subscription#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription spotinst_subscription}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription spotinst_subscription}
 */
 export class Subscription extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Subscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.115.0/docs/resources/subscription spotinst_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.116.0/docs/resources/subscription spotinst_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,7 @@ export class Subscription extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_subscription',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.115.0',
+        providerVersion: '1.116.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
