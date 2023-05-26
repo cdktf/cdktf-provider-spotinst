@@ -1,6 +1,6 @@
 # `spotinst_data_integration`
 
-Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration).
+Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration).
 
 # `dataIntegration` Submodule <a name="`dataIntegration` Submodule" id="@cdktf/provider-spotinst.dataIntegration"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https:/
 
 ### DataIntegration <a name="DataIntegration" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration spotinst_data_integration}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration spotinst_data_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 dataintegration.NewDataIntegration(scope Construct, id *string, config DataIntegrationConfig) DataIntegration
 ```
@@ -304,7 +304,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 dataintegration.DataIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 dataintegration.DataIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ dataintegration.DataIntegration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 dataintegration.DataIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -637,7 +637,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 &dataintegration.DataIntegrationConfig {
 	Connection: interface{},
@@ -649,7 +649,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
 	Provisioners: *[]interface{},
 	Name: *string,
 	Id: *string,
-	S3: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7.dataIntegration.DataIntegrationS3,
+	S3: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.dataIntegration.DataIntegrationS3,
 	Status: *string,
 }
 ```
@@ -665,10 +665,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#name DataIntegration#name}. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#id DataIntegration#id}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#name DataIntegration#name}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#id DataIntegration#id}. |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.s3">S3</a></code> | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3">DataIntegrationS3</a></code> | s3 block. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#status DataIntegration#status}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#status DataIntegration#status}. |
 
 ---
 
@@ -750,7 +750,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#name DataIntegration#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#name DataIntegration#name}.
 
 ---
 
@@ -762,7 +762,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#id DataIntegration#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#id DataIntegration#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -779,7 +779,7 @@ S3 DataIntegrationS3
 
 s3 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#s3 DataIntegration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#s3 DataIntegration#s3}
 
 ---
 
@@ -791,7 +791,7 @@ Status *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#status DataIntegration#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#status DataIntegration#status}.
 
 ---
 
@@ -800,7 +800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 &dataintegration.DataIntegrationS3 {
 	BucketName: *string,
@@ -812,8 +812,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.subdir">Subdir</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#subdir DataIntegration#subdir}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.subdir">Subdir</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#subdir DataIntegration#subdir}. |
 
 ---
 
@@ -825,7 +825,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}.
 
 ---
 
@@ -837,7 +837,7 @@ Subdir *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.0/docs/resources/data_integration#subdir DataIntegration#subdir}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/data_integration#subdir DataIntegration#subdir}.
 
 ---
 
@@ -848,7 +848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v7/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 
 dataintegration.NewDataIntegrationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataIntegrationS3OutputReference
 ```
