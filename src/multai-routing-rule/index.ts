@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule
+// https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface MultaiRoutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#balancer_id MultaiRoutingRule#balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#balancer_id MultaiRoutingRule#balancer_id}
   */
   readonly balancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#id MultaiRoutingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#id MultaiRoutingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#listener_id MultaiRoutingRule#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#listener_id MultaiRoutingRule#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#middleware_ids MultaiRoutingRule#middleware_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#middleware_ids MultaiRoutingRule#middleware_ids}
   */
   readonly middlewareIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#priority MultaiRoutingRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#priority MultaiRoutingRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#route MultaiRoutingRule#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#route MultaiRoutingRule#route}
   */
   readonly route: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#strategy MultaiRoutingRule#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#strategy MultaiRoutingRule#strategy}
   */
   readonly strategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#target_set_ids MultaiRoutingRule#target_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#target_set_ids MultaiRoutingRule#target_set_ids}
   */
   readonly targetSetIds: string[];
   /**
   * tags block
   * 
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#tags MultaiRoutingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#tags MultaiRoutingRule#tags}
   */
   readonly tags?: MultaiRoutingRuleTags[] | cdktf.IResolvable;
 }
 export interface MultaiRoutingRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#key MultaiRoutingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#key MultaiRoutingRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule#value MultaiRoutingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule#value MultaiRoutingRule#value}
   */
   readonly value: string;
 }
@@ -169,7 +169,7 @@ export class MultaiRoutingRuleTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule spotinst_multai_routing_rule}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule spotinst_multai_routing_rule}
 */
 export class MultaiRoutingRule extends cdktf.TerraformResource {
 
@@ -183,7 +183,7 @@ export class MultaiRoutingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.119.1/docs/resources/multai_routing_rule spotinst_multai_routing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.120.0/docs/resources/multai_routing_rule spotinst_multai_routing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,7 +194,7 @@ export class MultaiRoutingRule extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_routing_rule',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.119.1',
+        providerVersion: '1.120.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
