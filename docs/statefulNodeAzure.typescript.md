@@ -4780,7 +4780,7 @@ public resetZone(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.sizeGb">sizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.storageAccountType">storageAccountType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.zone">zone</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a></code> | *No description.* |
 
 ---
 
@@ -4931,10 +4931,10 @@ public readonly zone: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureAttachDataDisk | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureAttachDataDisk;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a>
 
 ---
 
@@ -5337,7 +5337,7 @@ public resetType(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.isEnabled">isEnabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.storageUrl">storageUrl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a></code> | *No description.* |
 
 ---
 
@@ -5428,10 +5428,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureBootDiagnostics | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureBootDiagnostics;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a>
 
 ---
 
@@ -5813,7 +5813,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.lun">lun</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.sizeGb">sizeGb</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a></code> | *No description.* |
 
 ---
 
@@ -5904,10 +5904,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureDataDisk | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureDataDisk;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a>
 
 ---
 
@@ -6329,7 +6329,7 @@ public resetSnapshotTtlInHours(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldTerminateVm">shouldTerminateVm</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotShouldDeallocate">snapshotShouldDeallocate</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotTtlInHours">snapshotTtlInHours</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a></code> | *No description.* |
 
 ---
 
@@ -6540,10 +6540,10 @@ public readonly snapshotTtlInHours: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureDelete | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureDelete;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a>
 
 ---
 
@@ -6934,7 +6934,7 @@ public resetTtlInHours(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.dataDiskResourceGroupName">dataDiskResourceGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.shouldDeallocate">shouldDeallocate</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.ttlInHours">ttlInHours</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a></code> | *No description.* |
 
 ---
 
@@ -7045,10 +7045,10 @@ public readonly ttlInHours: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureDetachDataDisk | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureDetachDataDisk;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a>
 
 ---
 
@@ -7452,7 +7452,7 @@ public resetPublicSettings(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.publicSettings">publicSettings</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.publisher">publisher</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a></code> | *No description.* |
 
 ---
 
@@ -7623,10 +7623,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureExtension | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureExtension;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a>
 
 ---
 
@@ -8357,7 +8357,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.customImageResourceGroupName">customImageResourceGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a></code> | *No description.* |
 
 ---
 
@@ -8428,10 +8428,10 @@ public readonly name: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureImageCustomImage | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureImageCustomImage;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a>
 
 ---
 
@@ -8815,7 +8815,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.galleryResourceGroupName">galleryResourceGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.imageName">imageName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.versionName">versionName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a></code> | *No description.* |
 
 ---
 
@@ -8926,10 +8926,10 @@ public readonly versionName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureImageGallery | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureImageGallery;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a>
 
 ---
 
@@ -9313,7 +9313,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.publisher">publisher</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.sku">sku</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.version">version</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a></code> | *No description.* |
 
 ---
 
@@ -9424,10 +9424,10 @@ public readonly version: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureImageMarketplaceImage | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureImageMarketplaceImage;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a>
 
 ---
 
@@ -10200,7 +10200,7 @@ public resetResourcesRetentionTime(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.originalVmName">originalVmName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.resourceGroupName">resourceGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.resourcesRetentionTime">resourcesRetentionTime</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a></code> | *No description.* |
 
 ---
 
@@ -10311,10 +10311,10 @@ public readonly resourcesRetentionTime: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureImportVm | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureImportVm;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a>
 
 ---
 
@@ -10707,7 +10707,7 @@ public resetSku(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.resourceGroupName">resourceGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.sku">sku</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a></code> | *No description.* |
 
 ---
 
@@ -10838,10 +10838,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureLoadBalancer | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureLoadBalancer;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a>
 
 ---
 
@@ -11550,7 +11550,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.resourceGroupNameInput">resourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.resourceGroupName">resourceGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a></code> | *No description.* |
 
 ---
 
@@ -11621,10 +11621,10 @@ public readonly resourceGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureManagedServiceIdentities | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureManagedServiceIdentities;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a>
 
 ---
 
@@ -12004,7 +12004,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.privateIpAddressVersionInput">privateIpAddressVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.privateIpAddressVersion">privateIpAddressVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a></code> | *No description.* |
 
 ---
 
@@ -12075,10 +12075,10 @@ public readonly privateIpAddressVersion: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a>
 
 ---
 
@@ -12458,7 +12458,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.networkResourceGroupNameInput">networkResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.networkResourceGroupName">networkResourceGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a></code> | *No description.* |
 
 ---
 
@@ -12529,10 +12529,10 @@ public readonly networkResourceGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a>
 
 ---
 
@@ -13069,7 +13069,7 @@ public resetNetworkResourceGroupName(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.networkResourceGroupNameInput">networkResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.networkResourceGroupName">networkResourceGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a></code> | *No description.* |
 
 ---
 
@@ -13140,10 +13140,10 @@ public readonly networkResourceGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a>
 
 ---
 
@@ -13504,7 +13504,7 @@ public resetPublicIpSku(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.privateIpAddresses">privateIpAddresses</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.publicIpSku">publicIpSku</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.subnetName">subnetName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a></code> | *No description.* |
 
 ---
 
@@ -13735,10 +13735,10 @@ public readonly subnetName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureNetworkNetworkInterface | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureNetworkNetworkInterface;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a>
 
 ---
 
@@ -14118,7 +14118,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.networkResourceGroupNameInput">networkResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.networkResourceGroupName">networkResourceGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a></code> | *No description.* |
 
 ---
 
@@ -14189,10 +14189,10 @@ public readonly networkResourceGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureNetworkNetworkInterfacePublicIps | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureNetworkNetworkInterfacePublicIps;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a>
 
 ---
 
@@ -15202,7 +15202,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.cronExpression">cronExpression</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.isEnabled">isEnabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a></code> | *No description.* |
 
 ---
 
@@ -15293,10 +15293,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureSchedulingTask | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureSchedulingTask;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a>
 
 ---
 
@@ -15702,7 +15702,7 @@ public putVaultCertificates(value: IResolvable | StatefulNodeAzureSecretVaultCer
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.vaultCertificates">vaultCertificates</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesList">StatefulNodeAzureSecretVaultCertificatesList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.sourceVaultInput">sourceVaultInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.vaultCertificatesInput">vaultCertificatesInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a></code> | *No description.* |
 
 ---
 
@@ -15773,10 +15773,10 @@ public readonly vaultCertificatesInput: IResolvable | StatefulNodeAzureSecretVau
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureSecret | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureSecret;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a>
 
 ---
 
@@ -16156,7 +16156,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.resourceGroupNameInput">resourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.resourceGroupName">resourceGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a></code> | *No description.* |
 
 ---
 
@@ -16227,10 +16227,10 @@ public readonly resourceGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureSecretSourceVault | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureSecretSourceVault;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>
 
 ---
 
@@ -16624,7 +16624,7 @@ public resetCertificateUrl(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateUrlInput">certificateUrlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateStore">certificateStore</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateUrl">certificateUrl</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a></code> | *No description.* |
 
 ---
 
@@ -16695,10 +16695,10 @@ public readonly certificateUrl: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureSecretVaultCertificates | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureSecretVaultCertificates;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>
 
 ---
 
@@ -17078,7 +17078,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.timeout">timeout</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a></code> | *No description.* |
 
 ---
 
@@ -17149,10 +17149,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureSignal | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureSignal;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a>
 
 ---
 
@@ -18210,7 +18210,7 @@ public resetTagValue(): void
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagValueInput">tagValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagKey">tagKey</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagValue">tagValue</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a></code> | *No description.* |
 
 ---
 
@@ -18281,10 +18281,10 @@ public readonly tagValue: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureTag | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureTag;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a>
 
 ---
 
@@ -18662,7 +18662,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.stateInput">stateInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a></code> | *No description.* |
 
 ---
 
@@ -18713,10 +18713,10 @@ public readonly state: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: StatefulNodeAzureUpdateState | IResolvable;
+public readonly internalValue: IResolvable | StatefulNodeAzureUpdateState;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a>
 
 ---
 

@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSparkVirtualNodeGroup.OceanSparkVirtualNodeGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v8/oceansparkvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/oceansparkvirtualnodegroup"
 
 oceansparkvirtualnodegroup.NewOceanSparkVirtualNodeGroup(scope Construct, id *string, config OceanSparkVirtualNodeGroupConfig) OceanSparkVirtualNodeGroup
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanSparkVirtualNodeGroup.OceanSparkVirtualNodeGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v8/oceansparkvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/oceansparkvirtualnodegroup"
 
 oceansparkvirtualnodegroup.OceanSparkVirtualNodeGroup_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanSparkVirtualNodeGroup.OceanSparkVirtualNodeGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v8/oceansparkvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/oceansparkvirtualnodegroup"
 
 oceansparkvirtualnodegroup.OceanSparkVirtualNodeGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ oceansparkvirtualnodegroup.OceanSparkVirtualNodeGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanSparkVirtualNodeGroup.OceanSparkVirtualNodeGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v8/oceansparkvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/oceansparkvirtualnodegroup"
 
 oceansparkvirtualnodegroup.OceanSparkVirtualNodeGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSparkVirtualNodeGroup.OceanSparkVirtualNodeGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v8/oceansparkvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/oceansparkvirtualnodegroup"
 
 &oceansparkvirtualnodegroup.OceanSparkVirtualNodeGroupConfig {
 	Connection: interface{},

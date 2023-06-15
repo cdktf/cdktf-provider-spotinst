@@ -1627,7 +1627,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTags">MultaiRoutingRuleTags</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTags">MultaiRoutingRuleTags</a>]</code> | *No description.* |
 
 ---
 
@@ -1698,10 +1698,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MultaiRoutingRuleTags, IResolvable]
+internal_value: typing.Union[IResolvable, MultaiRoutingRuleTags]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTags">MultaiRoutingRuleTags</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTags">MultaiRoutingRuleTags</a>]
 
 ---
 

@@ -4751,7 +4751,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.portsInput">ports_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.ports">ports</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPorts">ElastigroupGkeBackendServicesNamedPorts</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPorts">ElastigroupGkeBackendServicesNamedPorts</a>]</code> | *No description.* |
 
 ---
 
@@ -4822,10 +4822,10 @@ ports: typing.List[str]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPortsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeBackendServicesNamedPorts, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeBackendServicesNamedPorts]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPorts">ElastigroupGkeBackendServicesNamedPorts</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesNamedPorts">ElastigroupGkeBackendServicesNamedPorts</a>]
 
 ---
 
@@ -5129,7 +5129,7 @@ def reset_scheme() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.locationType">location_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.scheme">scheme</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.serviceName">service_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServices">ElastigroupGkeBackendServices</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServices">ElastigroupGkeBackendServices</a>]</code> | *No description.* |
 
 ---
 
@@ -5240,10 +5240,10 @@ service_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServicesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeBackendServices, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeBackendServices]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServices">ElastigroupGkeBackendServices</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeBackendServices">ElastigroupGkeBackendServices</a>]
 
 ---
 
@@ -5674,7 +5674,7 @@ def reset_disk_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.diskSizeGb">disk_size_gb</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.diskType">disk_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.sourceImage">source_image</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParams">ElastigroupGkeDiskInitializeParams</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParams">ElastigroupGkeDiskInitializeParams</a>]</code> | *No description.* |
 
 ---
 
@@ -5765,10 +5765,10 @@ source_image: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParamsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeDiskInitializeParams, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeDiskInitializeParams]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParams">ElastigroupGkeDiskInitializeParams</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskInitializeParams">ElastigroupGkeDiskInitializeParams</a>]
 
 ---
 
@@ -6266,7 +6266,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.mode">mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDisk">ElastigroupGkeDisk</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDisk">ElastigroupGkeDisk</a>]</code> | *No description.* |
 
 ---
 
@@ -6457,10 +6457,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDiskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeDisk, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeDisk]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDisk">ElastigroupGkeDisk</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeDisk">ElastigroupGkeDisk</a>]
 
 ---
 
@@ -6875,7 +6875,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpu">ElastigroupGkeGpu</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpu">ElastigroupGkeGpu</a>]</code> | *No description.* |
 
 ---
 
@@ -6946,10 +6946,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpuOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeGpu, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeGpu]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpu">ElastigroupGkeGpu</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeGpu">ElastigroupGkeGpu</a>]
 
 ---
 
@@ -7364,7 +7364,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.vcpuInput">vcpu_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.memoryGib">memory_gib</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.vcpu">vcpu</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustom">ElastigroupGkeInstanceTypesCustom</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustom">ElastigroupGkeInstanceTypesCustom</a>]</code> | *No description.* |
 
 ---
 
@@ -7435,10 +7435,10 @@ vcpu: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustomOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeInstanceTypesCustom, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeInstanceTypesCustom]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustom">ElastigroupGkeInstanceTypesCustom</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeInstanceTypesCustom">ElastigroupGkeInstanceTypesCustom</a>]
 
 ---
 
@@ -8835,7 +8835,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabels">ElastigroupGkeIntegrationGkeAutoscaleLabels</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabels">ElastigroupGkeIntegrationGkeAutoscaleLabels</a>]</code> | *No description.* |
 
 ---
 
@@ -8906,10 +8906,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabelsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeIntegrationGkeAutoscaleLabels, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeIntegrationGkeAutoscaleLabels]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabels">ElastigroupGkeIntegrationGkeAutoscaleLabels</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeIntegrationGkeAutoscaleLabels">ElastigroupGkeIntegrationGkeAutoscaleLabels</a>]
 
 ---
 
@@ -9926,7 +9926,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabels">ElastigroupGkeLabels</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabels">ElastigroupGkeLabels</a>]</code> | *No description.* |
 
 ---
 
@@ -9997,10 +9997,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabelsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeLabels, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeLabels]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabels">ElastigroupGkeLabels</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeLabels">ElastigroupGkeLabels</a>]
 
 ---
 
@@ -10415,7 +10415,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadata">ElastigroupGkeMetadata</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadata">ElastigroupGkeMetadata</a>]</code> | *No description.* |
 
 ---
 
@@ -10486,10 +10486,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadataOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeMetadata, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeMetadata]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadata">ElastigroupGkeMetadata</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeMetadata">ElastigroupGkeMetadata</a>]
 
 ---
 
@@ -10918,7 +10918,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigs">ElastigroupGkeNetworkInterfaceAccessConfigs</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigs">ElastigroupGkeNetworkInterfaceAccessConfigs</a>]</code> | *No description.* |
 
 ---
 
@@ -10989,10 +10989,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeNetworkInterfaceAccessConfigs, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeNetworkInterfaceAccessConfigs]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigs">ElastigroupGkeNetworkInterfaceAccessConfigs</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAccessConfigs">ElastigroupGkeNetworkInterfaceAccessConfigs</a>]
 
 ---
 
@@ -11407,7 +11407,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.subnetworkRangeNameInput">subnetwork_range_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.ipCidrRange">ip_cidr_range</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.subnetworkRangeName">subnetwork_range_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges">ElastigroupGkeNetworkInterfaceAliasIpRanges</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges">ElastigroupGkeNetworkInterfaceAliasIpRanges</a>]</code> | *No description.* |
 
 ---
 
@@ -11478,10 +11478,10 @@ subnetwork_range_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRangesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeNetworkInterfaceAliasIpRanges, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeNetworkInterfaceAliasIpRanges]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges">ElastigroupGkeNetworkInterfaceAliasIpRanges</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges">ElastigroupGkeNetworkInterfaceAliasIpRanges</a>]
 
 ---
 
@@ -11942,7 +11942,7 @@ def reset_alias_ip_ranges() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.aliasIpRangesInput">alias_ip_ranges_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceAliasIpRanges">ElastigroupGkeNetworkInterfaceAliasIpRanges</a>]]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.networkInput">network_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.network">network</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterface">ElastigroupGkeNetworkInterface</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterface">ElastigroupGkeNetworkInterface</a>]</code> | *No description.* |
 
 ---
 
@@ -12033,10 +12033,10 @@ network: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeNetworkInterface, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeNetworkInterface]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterface">ElastigroupGkeNetworkInterface</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeNetworkInterface">ElastigroupGkeNetworkInterface</a>]
 
 ---
 
@@ -12458,7 +12458,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensions">ElastigroupGkeScalingDownPolicyDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensions">ElastigroupGkeScalingDownPolicyDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -12529,10 +12529,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeScalingDownPolicyDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeScalingDownPolicyDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensions">ElastigroupGkeScalingDownPolicyDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyDimensions">ElastigroupGkeScalingDownPolicyDimensions</a>]
 
 ---
 
@@ -13049,7 +13049,7 @@ def reset_statistic() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.statistic">statistic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicy">ElastigroupGkeScalingDownPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicy">ElastigroupGkeScalingDownPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -13360,10 +13360,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeScalingDownPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeScalingDownPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicy">ElastigroupGkeScalingDownPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingDownPolicy">ElastigroupGkeScalingDownPolicy</a>]
 
 ---
 
@@ -13785,7 +13785,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensions">ElastigroupGkeScalingUpPolicyDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensions">ElastigroupGkeScalingUpPolicyDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -13856,10 +13856,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeScalingUpPolicyDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeScalingUpPolicyDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensions">ElastigroupGkeScalingUpPolicyDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyDimensions">ElastigroupGkeScalingUpPolicyDimensions</a>]
 
 ---
 
@@ -14376,7 +14376,7 @@ def reset_statistic() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.statistic">statistic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicy">ElastigroupGkeScalingUpPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicy">ElastigroupGkeScalingUpPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -14687,10 +14687,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupGkeScalingUpPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupGkeScalingUpPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicy">ElastigroupGkeScalingUpPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupGke.ElastigroupGkeScalingUpPolicy">ElastigroupGkeScalingUpPolicy</a>]
 
 ---
 

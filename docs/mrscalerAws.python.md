@@ -6592,7 +6592,7 @@ def reset_version() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.args">args</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.version">version</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications">MrscalerAwsApplications</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications">MrscalerAwsApplications</a>]</code> | *No description.* |
 
 ---
 
@@ -6683,10 +6683,10 @@ version: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsApplications, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsApplications]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications">MrscalerAwsApplications</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications">MrscalerAwsApplications</a>]
 
 ---
 
@@ -7101,7 +7101,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile">MrscalerAwsBootstrapActionsFile</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile">MrscalerAwsBootstrapActionsFile</a>]</code> | *No description.* |
 
 ---
 
@@ -7172,10 +7172,10 @@ key: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsBootstrapActionsFile, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsBootstrapActionsFile]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile">MrscalerAwsBootstrapActionsFile</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile">MrscalerAwsBootstrapActionsFile</a>]
 
 ---
 
@@ -7590,7 +7590,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile">MrscalerAwsConfigurationsFile</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile">MrscalerAwsConfigurationsFile</a>]</code> | *No description.* |
 
 ---
 
@@ -7661,10 +7661,10 @@ key: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsConfigurationsFile, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsConfigurationsFile]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile">MrscalerAwsConfigurationsFile</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile">MrscalerAwsConfigurationsFile</a>]
 
 ---
 
@@ -8097,7 +8097,7 @@ def reset_volumes_per_instance() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.sizeInGb">size_in_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.volumesPerInstance">volumes_per_instance</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.volumeType">volume_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice">MrscalerAwsCoreEbsBlockDevice</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice">MrscalerAwsCoreEbsBlockDevice</a>]</code> | *No description.* |
 
 ---
 
@@ -8208,10 +8208,10 @@ volume_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsCoreEbsBlockDevice, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsCoreEbsBlockDevice]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice">MrscalerAwsCoreEbsBlockDevice</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice">MrscalerAwsCoreEbsBlockDevice</a>]
 
 ---
 
@@ -8749,7 +8749,7 @@ def reset_target() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy">MrscalerAwsCoreScalingDownPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy">MrscalerAwsCoreScalingDownPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -9140,10 +9140,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsCoreScalingDownPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsCoreScalingDownPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy">MrscalerAwsCoreScalingDownPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy">MrscalerAwsCoreScalingDownPolicy</a>]
 
 ---
 
@@ -9681,7 +9681,7 @@ def reset_target() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy">MrscalerAwsCoreScalingUpPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy">MrscalerAwsCoreScalingUpPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -10072,10 +10072,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsCoreScalingUpPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsCoreScalingUpPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy">MrscalerAwsCoreScalingUpPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy">MrscalerAwsCoreScalingUpPolicy</a>]
 
 ---
 
@@ -10490,7 +10490,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.weightedCapacityInput">weighted_capacity_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.instanceType">instance_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights">MrscalerAwsInstanceWeights</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights">MrscalerAwsInstanceWeights</a>]</code> | *No description.* |
 
 ---
 
@@ -10561,10 +10561,10 @@ weighted_capacity: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsInstanceWeights, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsInstanceWeights]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights">MrscalerAwsInstanceWeights</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights">MrscalerAwsInstanceWeights</a>]
 
 ---
 
@@ -10997,7 +10997,7 @@ def reset_volumes_per_instance() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.sizeInGb">size_in_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.volumesPerInstance">volumes_per_instance</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.volumeType">volume_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice">MrscalerAwsMasterEbsBlockDevice</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice">MrscalerAwsMasterEbsBlockDevice</a>]</code> | *No description.* |
 
 ---
 
@@ -11108,10 +11108,10 @@ volume_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsMasterEbsBlockDevice, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsMasterEbsBlockDevice]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice">MrscalerAwsMasterEbsBlockDevice</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice">MrscalerAwsMasterEbsBlockDevice</a>]
 
 ---
 
@@ -11882,7 +11882,7 @@ def reset_min_capacity() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.maxCapacity">max_capacity</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.minCapacity">min_capacity</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.taskType">task_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask">MrscalerAwsScheduledTask</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask">MrscalerAwsScheduledTask</a>]</code> | *No description.* |
 
 ---
 
@@ -12053,10 +12053,10 @@ task_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsScheduledTask, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsScheduledTask]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask">MrscalerAwsScheduledTask</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask">MrscalerAwsScheduledTask</a>]
 
 ---
 
@@ -12471,7 +12471,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile">MrscalerAwsStepsFile</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile">MrscalerAwsStepsFile</a>]</code> | *No description.* |
 
 ---
 
@@ -12542,10 +12542,10 @@ key: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsStepsFile, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsStepsFile]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile">MrscalerAwsStepsFile</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile">MrscalerAwsStepsFile</a>]
 
 ---
 
@@ -12960,7 +12960,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags">MrscalerAwsTags</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags">MrscalerAwsTags</a>]</code> | *No description.* |
 
 ---
 
@@ -13031,10 +13031,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTags, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTags]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags">MrscalerAwsTags</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags">MrscalerAwsTags</a>]
 
 ---
 
@@ -13467,7 +13467,7 @@ def reset_volumes_per_instance() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.sizeInGb">size_in_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.volumesPerInstance">volumes_per_instance</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.volumeType">volume_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice">MrscalerAwsTaskEbsBlockDevice</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice">MrscalerAwsTaskEbsBlockDevice</a>]</code> | *No description.* |
 
 ---
 
@@ -13578,10 +13578,10 @@ volume_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTaskEbsBlockDevice, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTaskEbsBlockDevice]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice">MrscalerAwsTaskEbsBlockDevice</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice">MrscalerAwsTaskEbsBlockDevice</a>]
 
 ---
 
@@ -14119,7 +14119,7 @@ def reset_target() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy">MrscalerAwsTaskScalingDownPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy">MrscalerAwsTaskScalingDownPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -14510,10 +14510,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTaskScalingDownPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTaskScalingDownPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy">MrscalerAwsTaskScalingDownPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy">MrscalerAwsTaskScalingDownPolicy</a>]
 
 ---
 
@@ -15051,7 +15051,7 @@ def reset_target() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy">MrscalerAwsTaskScalingUpPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy">MrscalerAwsTaskScalingUpPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -15442,10 +15442,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTaskScalingUpPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTaskScalingUpPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy">MrscalerAwsTaskScalingUpPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy">MrscalerAwsTaskScalingUpPolicy</a>]
 
 ---
 
@@ -15873,7 +15873,7 @@ def put_statements(
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.statements">statements</a></code> | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsList">MrscalerAwsTerminationPoliciesStatementsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.statementsInput">statements_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements">MrscalerAwsTerminationPoliciesStatements</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies">MrscalerAwsTerminationPolicies</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies">MrscalerAwsTerminationPolicies</a>]</code> | *No description.* |
 
 ---
 
@@ -15924,10 +15924,10 @@ statements_input: typing.Union[IResolvable, typing.List[MrscalerAwsTerminationPo
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTerminationPolicies, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTerminationPolicies]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies">MrscalerAwsTerminationPolicies</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies">MrscalerAwsTerminationPolicies</a>]
 
 ---
 
@@ -16389,7 +16389,7 @@ def reset_unit() -> None
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.statistic">statistic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements">MrscalerAwsTerminationPoliciesStatements</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements">MrscalerAwsTerminationPoliciesStatements</a>]</code> | *No description.* |
 
 ---
 
@@ -16580,10 +16580,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[MrscalerAwsTerminationPoliciesStatements, IResolvable]
+internal_value: typing.Union[IResolvable, MrscalerAwsTerminationPoliciesStatements]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements">MrscalerAwsTerminationPoliciesStatements</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements">MrscalerAwsTerminationPoliciesStatements</a>]
 
 ---
 

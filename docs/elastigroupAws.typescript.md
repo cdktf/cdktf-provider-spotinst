@@ -10406,7 +10406,7 @@ public resetVolumeType(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.throughput">throughput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeSize">volumeSize</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeType">volumeType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a></code> | *No description.* |
 
 ---
 
@@ -10617,10 +10617,10 @@ public readonly volumeType: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsEbsBlockDevice | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsEbsBlockDevice;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>
 
 ---
 
@@ -11000,7 +11000,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualNameInput">virtualNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.deviceName">deviceName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualName">virtualName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a></code> | *No description.* |
 
 ---
 
@@ -11071,10 +11071,10 @@ public readonly virtualName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsEphemeralBlockDevice | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsEphemeralBlockDevice;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>
 
 ---
 
@@ -11452,7 +11452,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a></code> | *No description.* |
 
 ---
 
@@ -11503,10 +11503,10 @@ public readonly id: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsImagesImage | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsImagesImage;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>
 
 ---
 
@@ -11897,7 +11897,7 @@ public putImage(value: IResolvable | ElastigroupAwsImagesImage[]): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.image">image</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList">ElastigroupAwsImagesImageList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.imageInput">imageInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a></code> | *No description.* |
 
 ---
 
@@ -11948,10 +11948,10 @@ public readonly imageInput: IResolvable | ElastigroupAwsImagesImage[];
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsImages | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsImages;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>
 
 ---
 
@@ -12331,7 +12331,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weightInput">weightInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.instanceType">instanceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weight">weight</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a></code> | *No description.* |
 
 ---
 
@@ -12402,10 +12402,10 @@ public readonly weight: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsInstanceTypesWeights | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsInstanceTypesWeights;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>
 
 ---
 
@@ -14459,7 +14459,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupNameInput">deploymentGroupNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.applicationName">applicationName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupName">deploymentGroupName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a></code> | *No description.* |
 
 ---
 
@@ -14530,10 +14530,10 @@ public readonly deploymentGroupName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationCodedeployDeploymentGroups | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationCodedeployDeploymentGroups;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>
 
 ---
 
@@ -16319,7 +16319,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a></code> | *No description.* |
 
 ---
 
@@ -16390,10 +16390,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationEcsAutoscaleAttributes | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationEcsAutoscaleAttributes;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>
 
 ---
 
@@ -19425,7 +19425,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a></code> | *No description.* |
 
 ---
 
@@ -19496,10 +19496,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationKubernetesAutoscaleLabels | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationKubernetesAutoscaleLabels;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>
 
 ---
 
@@ -20999,7 +20999,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a></code> | *No description.* |
 
 ---
 
@@ -21070,10 +21070,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationNomadAutoscaleConstraints | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationNomadAutoscaleConstraints;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>
 
 ---
 
@@ -22948,7 +22948,7 @@ public resetSpotinstAcctId(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.hostedZoneId">hostedZoneId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.recordSetType">recordSetType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.spotinstAcctId">spotinstAcctId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a></code> | *No description.* |
 
 ---
 
@@ -23059,10 +23059,10 @@ public readonly spotinstAcctId: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationRoute53Domains | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationRoute53Domains;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>
 
 ---
 
@@ -23458,7 +23458,7 @@ public resetUsePublicIp(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicDns">usePublicDns</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicIp">usePublicIp</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a></code> | *No description.* |
 
 ---
 
@@ -23549,10 +23549,10 @@ public readonly usePublicIp: boolean | IResolvable;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsIntegrationRoute53DomainsRecordSets | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsIntegrationRoute53DomainsRecordSets;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>
 
 ---
 
@@ -24815,7 +24815,7 @@ public resetStaticTargetGroup(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArnInput">ruleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.staticTargetGroupInput">staticTargetGroupInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup">ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArn">ruleArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a></code> | *No description.* |
 
 ---
 
@@ -24886,10 +24886,10 @@ public readonly ruleArn: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItfLoadBalancerListenerRule | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItfLoadBalancerListenerRule;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>
 
 ---
 
@@ -25432,7 +25432,7 @@ public putListenerRule(value: IResolvable | ElastigroupAwsItfLoadBalancerListene
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.listenerRuleInput">listenerRuleInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArnInput">loadBalancerArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArn">loadBalancerArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a></code> | *No description.* |
 
 ---
 
@@ -25503,10 +25503,10 @@ public readonly loadBalancerArn: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItfLoadBalancer | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItfLoadBalancer;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>
 
 ---
 
@@ -25804,7 +25804,7 @@ public resetMigrationHealthinessThreshold(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.fixedTargetGroups">fixedTargetGroups</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.migrationHealthinessThreshold">migrationHealthinessThreshold</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.weightStrategy">weightStrategy</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a></code> | *No description.* |
 
 ---
 
@@ -25955,10 +25955,10 @@ public readonly weightStrategy: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItf | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItf;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>
 
 ---
 
@@ -26495,7 +26495,7 @@ public resetHttpCode(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCodeInput">httpCodeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.grpcCode">grpcCode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCode">httpCode</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a></code> | *No description.* |
 
 ---
 
@@ -26566,10 +26566,10 @@ public readonly httpCode: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItfTargetGroupConfigMatcher | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItfTargetGroupConfigMatcher;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>
 
 ---
 
@@ -26917,7 +26917,7 @@ public resetUnhealthyThresholdCount(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.protocolVersion">protocolVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.unhealthyThresholdCount">unhealthyThresholdCount</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.vpcId">vpcId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a></code> | *No description.* |
 
 ---
 
@@ -27208,10 +27208,10 @@ public readonly vpcId: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItfTargetGroupConfig | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItfTargetGroupConfig;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>
 
 ---
 
@@ -27598,7 +27598,7 @@ public resetTagValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValueInput">tagValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagKey">tagKey</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValue">tagValue</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a></code> | *No description.* |
 
 ---
 
@@ -27669,10 +27669,10 @@ public readonly tagValue: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsItfTargetGroupConfigTags | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsItfTargetGroupConfigTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>
 
 ---
 
@@ -28381,7 +28381,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetIdInput">targetSetIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.balancerId">balancerId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetId">targetSetId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a></code> | *No description.* |
 
 ---
 
@@ -28452,10 +28452,10 @@ public readonly targetSetId: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsMultaiTargetSets | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsMultaiTargetSets;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>
 
 ---
 
@@ -28835,7 +28835,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a></code> | *No description.* |
 
 ---
 
@@ -28906,10 +28906,10 @@ public readonly name: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsMultipleMetricsExpressions | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsMultipleMetricsExpressions;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>
 
 ---
 
@@ -29296,7 +29296,7 @@ public resetValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a></code> | *No description.* |
 
 ---
 
@@ -29367,10 +29367,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsMultipleMetricsMetricsDimensions | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsMultipleMetricsMetricsDimensions;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>
 
 ---
 
@@ -29801,7 +29801,7 @@ public resetUnit(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.namespace">namespace</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.statistic">statistic</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.unit">unit</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a></code> | *No description.* |
 
 ---
 
@@ -29972,10 +29972,10 @@ public readonly unit: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsMultipleMetricsMetrics | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsMultipleMetricsMetrics;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>
 
 ---
 
@@ -30749,7 +30749,7 @@ public resetSecondaryPrivateIpAddressCount(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.networkInterfaceId">networkInterfaceId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.privateIpAddress">privateIpAddress</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.secondaryPrivateIpAddressCount">secondaryPrivateIpAddressCount</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a></code> | *No description.* |
 
 ---
 
@@ -30940,10 +30940,10 @@ public readonly secondaryPrivateIpAddressCount: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsNetworkInterface | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsNetworkInterface;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>
 
 ---
 
@@ -31355,7 +31355,7 @@ public resetShouldTagVolumes(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagEnis">shouldTagEnis</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagSnapshots">shouldTagSnapshots</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagVolumes">shouldTagVolumes</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a></code> | *No description.* |
 
 ---
 
@@ -31466,10 +31466,10 @@ public readonly shouldTagVolumes: boolean | IResolvable;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsResourceTagSpecification | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsResourceTagSpecification;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>
 
 ---
 
@@ -32156,7 +32156,7 @@ public resetValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -32227,10 +32227,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingDownPolicyDimensions | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingDownPolicyDimensions;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>
 
 ---
 
@@ -32800,7 +32800,7 @@ public resetUnit(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.target">target</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a></code> | *No description.* |
 
 ---
 
@@ -33251,10 +33251,10 @@ public readonly unit: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingDownPolicy | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingDownPolicy;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>
 
 ---
 
@@ -34092,7 +34092,7 @@ public putAction(value: ElastigroupAwsScalingDownPolicyStepAdjustmentsAction): v
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.actionInput">actionInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction">ElastigroupAwsScalingDownPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.thresholdInput">thresholdInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a></code> | *No description.* |
 
 ---
 
@@ -34163,10 +34163,10 @@ public readonly threshold: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingDownPolicyStepAdjustments | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingDownPolicyStepAdjustments;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>
 
 ---
 
@@ -34560,7 +34560,7 @@ public resetTerminationPolicy(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicyInput">terminationPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminateAtEndOfBillingHour">terminateAtEndOfBillingHour</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicy">terminationPolicy</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a></code> | *No description.* |
 
 ---
 
@@ -34631,10 +34631,10 @@ public readonly terminationPolicy: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingStrategy | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingStrategy;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>
 
 ---
 
@@ -35021,7 +35021,7 @@ public resetValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -35092,10 +35092,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingTargetPolicyDimensions | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingTargetPolicyDimensions;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>
 
 ---
 
@@ -35573,7 +35573,7 @@ public resetUnit(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.statistic">statistic</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.target">target</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.unit">unit</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a></code> | *No description.* |
 
 ---
 
@@ -35864,10 +35864,10 @@ public readonly unit: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingTargetPolicy | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingTargetPolicy;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>
 
 ---
 
@@ -36254,7 +36254,7 @@ public resetValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -36325,10 +36325,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingUpPolicyDimensions | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingUpPolicyDimensions;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>
 
 ---
 
@@ -36898,7 +36898,7 @@ public resetUnit(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.target">target</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a></code> | *No description.* |
 
 ---
 
@@ -37349,10 +37349,10 @@ public readonly unit: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingUpPolicy | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingUpPolicy;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>
 
 ---
 
@@ -38190,7 +38190,7 @@ public putAction(value: ElastigroupAwsScalingUpPolicyStepAdjustmentsAction): voi
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.actionInput">actionInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction">ElastigroupAwsScalingUpPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.thresholdInput">thresholdInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a></code> | *No description.* |
 
 ---
 
@@ -38261,10 +38261,10 @@ public readonly threshold: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScalingUpPolicyStepAdjustments | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScalingUpPolicyStepAdjustments;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>
 
 ---
 
@@ -38768,7 +38768,7 @@ public resetTargetCapacity(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.startTime">startTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.targetCapacity">targetCapacity</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.taskType">taskType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a></code> | *No description.* |
 
 ---
 
@@ -39099,10 +39099,10 @@ public readonly taskType: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsScheduledTask | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsScheduledTask;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>
 
 ---
 
@@ -39489,7 +39489,7 @@ public resetTimeout(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeoutInput">timeoutInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeout">timeout</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a></code> | *No description.* |
 
 ---
 
@@ -39560,10 +39560,10 @@ public readonly timeout: number;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsSignal | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsSignal;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>
 
 ---
 
@@ -40308,7 +40308,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.statefulInstanceId">statefulInstanceId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a></code> | *No description.* |
 
 ---
 
@@ -40379,10 +40379,10 @@ public readonly type: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsStatefulInstanceAction | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsStatefulInstanceAction;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>
 
 ---
 
@@ -40776,7 +40776,7 @@ public resetValue(): void
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a></code> | *No description.* |
 
 ---
 
@@ -40847,10 +40847,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: ElastigroupAwsTags | IResolvable;
+public readonly internalValue: IResolvable | ElastigroupAwsTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>
 
 ---
 

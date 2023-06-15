@@ -5381,7 +5381,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.publisher">publisher</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>]</code> | *No description.* |
 
 ---
 
@@ -5512,10 +5512,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksExtension, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksExtension]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>]
 
 ---
 
@@ -6416,7 +6416,7 @@ def reset_version() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.publisher">publisher</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.sku">sku</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.version">version</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace">OceanAksImageMarketplace</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace">OceanAksImageMarketplace</a>]</code> | *No description.* |
 
 ---
 
@@ -6527,10 +6527,10 @@ version: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksImageMarketplace, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksImageMarketplace]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace">OceanAksImageMarketplace</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace">OceanAksImageMarketplace</a>]
 
 ---
 
@@ -6814,7 +6814,7 @@ def reset_marketplace() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.marketplace">marketplace</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceList">OceanAksImageMarketplaceList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.marketplaceInput">marketplace_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace">OceanAksImageMarketplace</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>]</code> | *No description.* |
 
 ---
 
@@ -6865,10 +6865,10 @@ marketplace_input: typing.Union[IResolvable, typing.List[OceanAksImageMarketplac
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksImage, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksImage]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>]
 
 ---
 
@@ -7324,7 +7324,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>]</code> | *No description.* |
 
 ---
 
@@ -7455,10 +7455,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksLoadBalancer, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksLoadBalancer]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>]
 
 ---
 
@@ -7873,7 +7873,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.resourceGroupNameInput">resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>]</code> | *No description.* |
 
 ---
 
@@ -7944,10 +7944,10 @@ resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksManagedServiceIdentity, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksManagedServiceIdentity]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>]
 
 ---
 
@@ -8376,7 +8376,7 @@ def reset_private_ip_version() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.privateIpVersionInput">private_ip_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.privateIpVersion">private_ip_version</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig">OceanAksNetworkNetworkInterfaceAdditionalIpConfig</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig">OceanAksNetworkNetworkInterfaceAdditionalIpConfig</a>]</code> | *No description.* |
 
 ---
 
@@ -8447,10 +8447,10 @@ private_ip_version: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksNetworkNetworkInterfaceAdditionalIpConfig, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksNetworkNetworkInterfaceAdditionalIpConfig]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig">OceanAksNetworkNetworkInterfaceAdditionalIpConfig</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig">OceanAksNetworkNetworkInterfaceAdditionalIpConfig</a>]
 
 ---
 
@@ -8947,7 +8947,7 @@ def reset_subnet_name() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.assignPublicIp">assign_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.isPrimary">is_primary</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.subnetName">subnet_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface">OceanAksNetworkNetworkInterface</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface">OceanAksNetworkNetworkInterface</a>]</code> | *No description.* |
 
 ---
 
@@ -9078,10 +9078,10 @@ subnet_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksNetworkNetworkInterface, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksNetworkNetworkInterface]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface">OceanAksNetworkNetworkInterface</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface">OceanAksNetworkNetworkInterface</a>]
 
 ---
 
@@ -10543,7 +10543,7 @@ def reset_spot_percentage() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.spotPercentageInput">spot_percentage_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>]</code> | *No description.* |
 
 ---
 
@@ -10614,10 +10614,10 @@ spot_percentage: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksStrategy, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksStrategy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>]
 
 ---
 
@@ -11046,7 +11046,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>]</code> | *No description.* |
 
 ---
 
@@ -11117,10 +11117,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksTag, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksTag]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>]
 
 ---
 
@@ -11540,7 +11540,7 @@ def reset_whitelist() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.whitelistInput">whitelist_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.whitelist">whitelist</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>]</code> | *No description.* |
 
 ---
 
@@ -11591,10 +11591,10 @@ whitelist: typing.List[str]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAksVmSizes, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAksVmSizes]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>]
 
 ---
 

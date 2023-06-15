@@ -1652,7 +1652,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags">MultaiBalancerTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags">MultaiBalancerTags</a></code> | *No description.* |
 
 ---
 
@@ -1723,10 +1723,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: MultaiBalancerTags | IResolvable;
+public readonly internalValue: IResolvable | MultaiBalancerTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags">MultaiBalancerTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags">MultaiBalancerTags</a>
 
 ---
 

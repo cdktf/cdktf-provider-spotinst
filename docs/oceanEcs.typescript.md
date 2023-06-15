@@ -6156,7 +6156,7 @@ public resetVirtualName(): void
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.deviceName">deviceName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.noDevice">noDevice</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.virtualName">virtualName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings">OceanEcsBlockDeviceMappings</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings">OceanEcsBlockDeviceMappings</a></code> | *No description.* |
 
 ---
 
@@ -6267,10 +6267,10 @@ public readonly virtualName: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsBlockDeviceMappings | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsBlockDeviceMappings;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings">OceanEcsBlockDeviceMappings</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings">OceanEcsBlockDeviceMappings</a>
 
 ---
 
@@ -6655,7 +6655,7 @@ public resetAvailabilityVsCost(): void
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.availabilityVsCostInput">availabilityVsCostInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.availabilityVsCost">availabilityVsCost</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation">OceanEcsClusterOrientation</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation">OceanEcsClusterOrientation</a></code> | *No description.* |
 
 ---
 
@@ -6706,10 +6706,10 @@ public readonly availabilityVsCost: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientationOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsClusterOrientation | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsClusterOrientation;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation">OceanEcsClusterOrientation</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation">OceanEcsClusterOrientation</a>
 
 ---
 
@@ -8478,7 +8478,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3">OceanEcsLoggingExportS3</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3">OceanEcsLoggingExportS3</a></code> | *No description.* |
 
 ---
 
@@ -8529,10 +8529,10 @@ public readonly id: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3OutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsLoggingExportS3 | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsLoggingExportS3;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3">OceanEcsLoggingExportS3</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3">OceanEcsLoggingExportS3</a>
 
 ---
 
@@ -9565,7 +9565,7 @@ public resetTasks(): void
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.tasks">tasks</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksList">OceanEcsScheduledTaskTasksList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.shutdownHoursInput">shutdownHoursInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskShutdownHours">OceanEcsScheduledTaskShutdownHours</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.tasksInput">tasksInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks">OceanEcsScheduledTaskTasks</a>[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTask">OceanEcsScheduledTask</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTask">OceanEcsScheduledTask</a></code> | *No description.* |
 
 ---
 
@@ -9636,10 +9636,10 @@ public readonly tasksInput: IResolvable | OceanEcsScheduledTaskTasks[];
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsScheduledTask | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsScheduledTask;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTask">OceanEcsScheduledTask</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTask">OceanEcsScheduledTask</a>
 
 ---
 
@@ -10321,7 +10321,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.cronExpression">cronExpression</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.isEnabled">isEnabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.taskType">taskType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks">OceanEcsScheduledTaskTasks</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks">OceanEcsScheduledTaskTasks</a></code> | *No description.* |
 
 ---
 
@@ -10412,10 +10412,10 @@ public readonly taskType: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasksOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsScheduledTaskTasks | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsScheduledTaskTasks;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks">OceanEcsScheduledTaskTasks</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks">OceanEcsScheduledTaskTasks</a>
 
 ---
 
@@ -10795,7 +10795,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags">OceanEcsTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags">OceanEcsTags</a></code> | *No description.* |
 
 ---
 
@@ -10866,10 +10866,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanEcs.OceanEcsTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: OceanEcsTags | IResolvable;
+public readonly internalValue: IResolvable | OceanEcsTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags">OceanEcsTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags">OceanEcsTags</a>
 
 ---
 

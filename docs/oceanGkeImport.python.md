@@ -4982,7 +4982,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.portsInput">ports_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.ports">ports</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts">OceanGkeImportBackendServicesNamedPorts</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts">OceanGkeImportBackendServicesNamedPorts</a>]</code> | *No description.* |
 
 ---
 
@@ -5053,10 +5053,10 @@ ports: typing.List[str]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanGkeImportBackendServicesNamedPorts, IResolvable]
+internal_value: typing.Union[IResolvable, OceanGkeImportBackendServicesNamedPorts]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts">OceanGkeImportBackendServicesNamedPorts</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts">OceanGkeImportBackendServicesNamedPorts</a>]
 
 ---
 
@@ -5360,7 +5360,7 @@ def reset_scheme() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.locationType">location_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.scheme">scheme</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.serviceName">service_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices">OceanGkeImportBackendServices</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices">OceanGkeImportBackendServices</a>]</code> | *No description.* |
 
 ---
 
@@ -5471,10 +5471,10 @@ service_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanGkeImportBackendServices, IResolvable]
+internal_value: typing.Union[IResolvable, OceanGkeImportBackendServices]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices">OceanGkeImportBackendServices</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices">OceanGkeImportBackendServices</a>]
 
 ---
 
@@ -5944,7 +5944,7 @@ def reset_tasks() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.tasks">tasks</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksList">OceanGkeImportScheduledTaskTasksList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.shutdownHoursInput">shutdown_hours_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours">OceanGkeImportScheduledTaskShutdownHours</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.tasksInput">tasks_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks">OceanGkeImportScheduledTaskTasks</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask">OceanGkeImportScheduledTask</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask">OceanGkeImportScheduledTask</a>]</code> | *No description.* |
 
 ---
 
@@ -6015,10 +6015,10 @@ tasks_input: typing.Union[IResolvable, typing.List[OceanGkeImportScheduledTaskTa
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanGkeImportScheduledTask, IResolvable]
+internal_value: typing.Union[IResolvable, OceanGkeImportScheduledTask]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask">OceanGkeImportScheduledTask</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask">OceanGkeImportScheduledTask</a>]
 
 ---
 
@@ -6788,7 +6788,7 @@ def reset_task_parameters() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.cronExpression">cron_expression</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.taskType">task_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks">OceanGkeImportScheduledTaskTasks</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks">OceanGkeImportScheduledTaskTasks</a>]</code> | *No description.* |
 
 ---
 
@@ -6899,10 +6899,10 @@ task_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanGkeImportScheduledTaskTasks, IResolvable]
+internal_value: typing.Union[IResolvable, OceanGkeImportScheduledTaskTasks]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks">OceanGkeImportScheduledTaskTasks</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks">OceanGkeImportScheduledTaskTasks</a>]
 
 ---
 
@@ -8409,7 +8409,7 @@ def reset_provisioning_model() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.preemptiblePercentage">preemptible_percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.provisioningModel">provisioning_model</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy">OceanGkeImportStrategy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy">OceanGkeImportStrategy</a>]</code> | *No description.* |
 
 ---
 
@@ -8500,10 +8500,10 @@ provisioning_model: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanGkeImportStrategy, IResolvable]
+internal_value: typing.Union[IResolvable, OceanGkeImportStrategy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy">OceanGkeImportStrategy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy">OceanGkeImportStrategy</a>]
 
 ---
 

@@ -1383,7 +1383,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a></code> | *No description.* |
 
 ---
 
@@ -1454,10 +1454,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.multaiListener.MultaiListenerTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: MultaiListenerTags | IResolvable;
+public readonly internalValue: IResolvable | MultaiListenerTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a>
 
 ---
 
