@@ -11921,7 +11921,7 @@ public void resetVolumeType()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.throughput">throughput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeSize">volumeSize</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeType">volumeType</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a></code> | *No description.* |
 
 ---
 
@@ -12135,7 +12135,7 @@ public java.lang.String getVolumeType();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>
 
 ---
 
@@ -12515,7 +12515,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualNameInput">virtualNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.deviceName">deviceName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualName">virtualName</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a></code> | *No description.* |
 
 ---
 
@@ -12589,7 +12589,7 @@ public java.lang.String getVirtualName();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>
 
 ---
 
@@ -12967,7 +12967,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a></code> | *No description.* |
 
 ---
 
@@ -13021,7 +13021,7 @@ public java.lang.String getId();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>
 
 ---
 
@@ -13412,7 +13412,7 @@ public void putImage(IResolvable OR java.util.List<ElastigroupAwsImagesImage> va
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.image">image</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList">ElastigroupAwsImagesImageList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.imageInput">imageInput</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a></code> | *No description.* |
 
 ---
 
@@ -13466,7 +13466,7 @@ public java.lang.Object getImageInput();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>
 
 ---
 
@@ -13846,7 +13846,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weightInput">weightInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.instanceType">instanceType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weight">weight</a></code> | <code>java.lang.Number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a></code> | *No description.* |
 
 ---
 
@@ -13920,7 +13920,7 @@ public java.lang.Number getWeight();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>
 
 ---
 
@@ -15974,7 +15974,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupNameInput">deploymentGroupNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.applicationName">applicationName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupName">deploymentGroupName</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a></code> | *No description.* |
 
 ---
 
@@ -16048,7 +16048,7 @@ public java.lang.String getDeploymentGroupName();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>
 
 ---
 
@@ -17834,7 +17834,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a></code> | *No description.* |
 
 ---
 
@@ -17908,7 +17908,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>
 
 ---
 
@@ -20940,7 +20940,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a></code> | *No description.* |
 
 ---
 
@@ -21014,7 +21014,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>
 
 ---
 
@@ -22514,7 +22514,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a></code> | *No description.* |
 
 ---
 
@@ -22588,7 +22588,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>
 
 ---
 
@@ -24463,7 +24463,7 @@ public void resetSpotinstAcctId()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.hostedZoneId">hostedZoneId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.recordSetType">recordSetType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.spotinstAcctId">spotinstAcctId</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a></code> | *No description.* |
 
 ---
 
@@ -24577,7 +24577,7 @@ public java.lang.String getSpotinstAcctId();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>
 
 ---
 
@@ -24973,7 +24973,7 @@ public void resetUsePublicIp()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicDns">usePublicDns</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicIp">usePublicIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a></code> | *No description.* |
 
 ---
 
@@ -25067,7 +25067,7 @@ public java.lang.Object getUsePublicIp();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>
 
 ---
 
@@ -26330,7 +26330,7 @@ public void resetStaticTargetGroup()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArnInput">ruleArnInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.staticTargetGroupInput">staticTargetGroupInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup">ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArn">ruleArn</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a></code> | *No description.* |
 
 ---
 
@@ -26404,7 +26404,7 @@ public java.lang.String getRuleArn();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>
 
 ---
 
@@ -26947,7 +26947,7 @@ public void putListenerRule(IResolvable OR java.util.List<ElastigroupAwsItfLoadB
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.listenerRuleInput">listenerRuleInput</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArnInput">loadBalancerArnInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArn">loadBalancerArn</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a></code> | *No description.* |
 
 ---
 
@@ -27021,7 +27021,7 @@ public java.lang.String getLoadBalancerArn();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>
 
 ---
 
@@ -27319,7 +27319,7 @@ public void resetMigrationHealthinessThreshold()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.fixedTargetGroups">fixedTargetGroups</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.migrationHealthinessThreshold">migrationHealthinessThreshold</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.weightStrategy">weightStrategy</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a></code> | *No description.* |
 
 ---
 
@@ -27473,7 +27473,7 @@ public java.lang.String getWeightStrategy();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>
 
 ---
 
@@ -28010,7 +28010,7 @@ public void resetHttpCode()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCodeInput">httpCodeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.grpcCode">grpcCode</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCode">httpCode</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a></code> | *No description.* |
 
 ---
 
@@ -28084,7 +28084,7 @@ public java.lang.String getHttpCode();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>
 
 ---
 
@@ -28432,7 +28432,7 @@ public void resetUnhealthyThresholdCount()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.protocolVersion">protocolVersion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.unhealthyThresholdCount">unhealthyThresholdCount</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a></code> | *No description.* |
 
 ---
 
@@ -28726,7 +28726,7 @@ public java.lang.String getVpcId();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>
 
 ---
 
@@ -29113,7 +29113,7 @@ public void resetTagValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValueInput">tagValueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagKey">tagKey</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValue">tagValue</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a></code> | *No description.* |
 
 ---
 
@@ -29187,7 +29187,7 @@ public java.lang.String getTagValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>
 
 ---
 
@@ -29896,7 +29896,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetIdInput">targetSetIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.balancerId">balancerId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetId">targetSetId</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a></code> | *No description.* |
 
 ---
 
@@ -29970,7 +29970,7 @@ public java.lang.String getTargetSetId();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>
 
 ---
 
@@ -30350,7 +30350,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.expression">expression</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a></code> | *No description.* |
 
 ---
 
@@ -30424,7 +30424,7 @@ public java.lang.String getName();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>
 
 ---
 
@@ -30811,7 +30811,7 @@ public void resetValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a></code> | *No description.* |
 
 ---
 
@@ -30885,7 +30885,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>
 
 ---
 
@@ -31316,7 +31316,7 @@ public void resetUnit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.namespace">namespace</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.statistic">statistic</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.unit">unit</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a></code> | *No description.* |
 
 ---
 
@@ -31490,7 +31490,7 @@ public java.lang.String getUnit();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>
 
 ---
 
@@ -32264,7 +32264,7 @@ public void resetSecondaryPrivateIpAddressCount()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.networkInterfaceId">networkInterfaceId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.privateIpAddress">privateIpAddress</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.secondaryPrivateIpAddressCount">secondaryPrivateIpAddressCount</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a></code> | *No description.* |
 
 ---
 
@@ -32458,7 +32458,7 @@ public java.lang.String getSecondaryPrivateIpAddressCount();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>
 
 ---
 
@@ -32870,7 +32870,7 @@ public void resetShouldTagVolumes()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagEnis">shouldTagEnis</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagSnapshots">shouldTagSnapshots</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagVolumes">shouldTagVolumes</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a></code> | *No description.* |
 
 ---
 
@@ -32984,7 +32984,7 @@ public java.lang.Object getShouldTagVolumes();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>
 
 ---
 
@@ -33671,7 +33671,7 @@ public void resetValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -33745,7 +33745,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>
 
 ---
 
@@ -34315,7 +34315,7 @@ public void resetUnit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.target">target</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a></code> | *No description.* |
 
 ---
 
@@ -34769,7 +34769,7 @@ public java.lang.String getUnit();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>
 
 ---
 
@@ -35607,7 +35607,7 @@ public void putAction(ElastigroupAwsScalingDownPolicyStepAdjustmentsAction value
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.actionInput">actionInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction">ElastigroupAwsScalingDownPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.thresholdInput">thresholdInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a></code> | *No description.* |
 
 ---
 
@@ -35681,7 +35681,7 @@ public java.lang.Number getThreshold();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>
 
 ---
 
@@ -36075,7 +36075,7 @@ public void resetTerminationPolicy()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicyInput">terminationPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminateAtEndOfBillingHour">terminateAtEndOfBillingHour</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicy">terminationPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a></code> | *No description.* |
 
 ---
 
@@ -36149,7 +36149,7 @@ public java.lang.String getTerminationPolicy();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>
 
 ---
 
@@ -36536,7 +36536,7 @@ public void resetValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -36610,7 +36610,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>
 
 ---
 
@@ -37088,7 +37088,7 @@ public void resetUnit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.statistic">statistic</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.target">target</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.unit">unit</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a></code> | *No description.* |
 
 ---
 
@@ -37382,7 +37382,7 @@ public java.lang.String getUnit();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>
 
 ---
 
@@ -37769,7 +37769,7 @@ public void resetValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a></code> | *No description.* |
 
 ---
 
@@ -37843,7 +37843,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>
 
 ---
 
@@ -38413,7 +38413,7 @@ public void resetUnit()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.target">target</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a></code> | *No description.* |
 
 ---
 
@@ -38867,7 +38867,7 @@ public java.lang.String getUnit();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>
 
 ---
 
@@ -39705,7 +39705,7 @@ public void putAction(ElastigroupAwsScalingUpPolicyStepAdjustmentsAction value)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.actionInput">actionInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction">ElastigroupAwsScalingUpPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.thresholdInput">thresholdInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a></code> | *No description.* |
 
 ---
 
@@ -39779,7 +39779,7 @@ public java.lang.Number getThreshold();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>
 
 ---
 
@@ -40283,7 +40283,7 @@ public void resetTargetCapacity()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.startTime">startTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.targetCapacity">targetCapacity</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.taskType">taskType</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a></code> | *No description.* |
 
 ---
 
@@ -40617,7 +40617,7 @@ public java.lang.String getTaskType();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>
 
 ---
 
@@ -41004,7 +41004,7 @@ public void resetTimeout()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeoutInput">timeoutInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeout">timeout</a></code> | <code>java.lang.Number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a></code> | *No description.* |
 
 ---
 
@@ -41078,7 +41078,7 @@ public java.lang.Number getTimeout();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>
 
 ---
 
@@ -41823,7 +41823,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.typeInput">typeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.statefulInstanceId">statefulInstanceId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.type">type</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a></code> | *No description.* |
 
 ---
 
@@ -41897,7 +41897,7 @@ public java.lang.String getType();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>
 
 ---
 
@@ -42291,7 +42291,7 @@ public void resetValue()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.valueInput">valueInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.value">value</a></code> | <code>java.lang.String</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a> OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internalValue</a></code> | <code>com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a></code> | *No description.* |
 
 ---
 
@@ -42365,7 +42365,7 @@ public java.lang.String getValue();
 public java.lang.Object getInternalValue();
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a> OR com.hashicorp.cdktf.IResolvable
+- *Type:* com.hashicorp.cdktf.IResolvable OR <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>
 
 ---
 

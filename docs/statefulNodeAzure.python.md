@@ -5703,7 +5703,7 @@ def reset_zone() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.sizeGb">size_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.storageAccountType">storage_account_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.zone">zone</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a>]</code> | *No description.* |
 
 ---
 
@@ -5854,10 +5854,10 @@ zone: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureAttachDataDisk, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureAttachDataDisk]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk">StatefulNodeAzureAttachDataDisk</a>]
 
 ---
 
@@ -6295,7 +6295,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.storageUrl">storage_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a>]</code> | *No description.* |
 
 ---
 
@@ -6386,10 +6386,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureBootDiagnostics, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureBootDiagnostics]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics">StatefulNodeAzureBootDiagnostics</a>]
 
 ---
 
@@ -6806,7 +6806,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.lun">lun</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.sizeGb">size_gb</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a>]</code> | *No description.* |
 
 ---
 
@@ -6897,10 +6897,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureDataDisk, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureDataDisk]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk">StatefulNodeAzureDataDisk</a>]
 
 ---
 
@@ -7357,7 +7357,7 @@ def reset_snapshot_ttl_in_hours() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldTerminateVm">should_terminate_vm</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotShouldDeallocate">snapshot_should_deallocate</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotTtlInHours">snapshot_ttl_in_hours</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a>]</code> | *No description.* |
 
 ---
 
@@ -7568,10 +7568,10 @@ snapshot_ttl_in_hours: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureDelete, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureDelete]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete">StatefulNodeAzureDelete</a>]
 
 ---
 
@@ -7997,7 +7997,7 @@ def reset_ttl_in_hours() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.dataDiskResourceGroupName">data_disk_resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.shouldDeallocate">should_deallocate</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.ttlInHours">ttl_in_hours</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a>]</code> | *No description.* |
 
 ---
 
@@ -8108,10 +8108,10 @@ ttl_in_hours: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureDetachDataDisk, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureDetachDataDisk]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk">StatefulNodeAzureDetachDataDisk</a>]
 
 ---
 
@@ -8550,7 +8550,7 @@ def reset_public_settings() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.publicSettings">public_settings</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.publisher">publisher</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a>]</code> | *No description.* |
 
 ---
 
@@ -8721,10 +8721,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureExtension, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureExtension]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension">StatefulNodeAzureExtension</a>]
 
 ---
 
@@ -9515,7 +9515,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.customImageResourceGroupName">custom_image_resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a>]</code> | *No description.* |
 
 ---
 
@@ -9586,10 +9586,10 @@ name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureImageCustomImage, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureImageCustomImage]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage">StatefulNodeAzureImageCustomImage</a>]
 
 ---
 
@@ -10008,7 +10008,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.galleryResourceGroupName">gallery_resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.imageName">image_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.versionName">version_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a>]</code> | *No description.* |
 
 ---
 
@@ -10119,10 +10119,10 @@ version_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureImageGallery, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureImageGallery]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery">StatefulNodeAzureImageGallery</a>]
 
 ---
 
@@ -10541,7 +10541,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.publisher">publisher</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.sku">sku</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.version">version</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a>]</code> | *No description.* |
 
 ---
 
@@ -10652,10 +10652,10 @@ version: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureImageMarketplaceImage, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureImageMarketplaceImage]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage">StatefulNodeAzureImageMarketplaceImage</a>]
 
 ---
 
@@ -11494,7 +11494,7 @@ def reset_resources_retention_time() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.originalVmName">original_vm_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.resourcesRetentionTime">resources_retention_time</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a>]</code> | *No description.* |
 
 ---
 
@@ -11605,10 +11605,10 @@ resources_retention_time: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureImportVm, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureImportVm]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm">StatefulNodeAzureImportVm</a>]
 
 ---
 
@@ -12036,7 +12036,7 @@ def reset_sku() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.sku">sku</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a>]</code> | *No description.* |
 
 ---
 
@@ -12167,10 +12167,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureLoadBalancer, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureLoadBalancer]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer">StatefulNodeAzureLoadBalancer</a>]
 
 ---
 
@@ -12939,7 +12939,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.resourceGroupNameInput">resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a>]</code> | *No description.* |
 
 ---
 
@@ -13010,10 +13010,10 @@ resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureManagedServiceIdentities, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureManagedServiceIdentities]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities">StatefulNodeAzureManagedServiceIdentities</a>]
 
 ---
 
@@ -13428,7 +13428,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.privateIpAddressVersionInput">private_ip_address_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.privateIpAddressVersion">private_ip_address_version</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a>]</code> | *No description.* |
 
 ---
 
@@ -13499,10 +13499,10 @@ private_ip_address_version: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations">StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations</a>]
 
 ---
 
@@ -13917,7 +13917,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.networkResourceGroupNameInput">network_resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.networkResourceGroupName">network_resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a>]</code> | *No description.* |
 
 ---
 
@@ -13988,10 +13988,10 @@ network_resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups">StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups</a>]
 
 ---
 
@@ -14571,7 +14571,7 @@ def reset_network_resource_group_name() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.networkResourceGroupNameInput">network_resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.networkResourceGroupName">network_resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a>]</code> | *No description.* |
 
 ---
 
@@ -14642,10 +14642,10 @@ network_resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup">StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup</a>]
 
 ---
 
@@ -15041,7 +15041,7 @@ def reset_public_ip_sku() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.privateIpAddresses">private_ip_addresses</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.publicIpSku">public_ip_sku</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.subnetName">subnet_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a>]</code> | *No description.* |
 
 ---
 
@@ -15272,10 +15272,10 @@ subnet_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureNetworkNetworkInterface, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureNetworkNetworkInterface]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface">StatefulNodeAzureNetworkNetworkInterface</a>]
 
 ---
 
@@ -15690,7 +15690,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.networkResourceGroupNameInput">network_resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.networkResourceGroupName">network_resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a>]</code> | *No description.* |
 
 ---
 
@@ -15761,10 +15761,10 @@ network_resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureNetworkNetworkInterfacePublicIps, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureNetworkNetworkInterfacePublicIps]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps">StatefulNodeAzureNetworkNetworkInterfacePublicIps</a>]
 
 ---
 
@@ -16861,7 +16861,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.cronExpression">cron_expression</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a>]</code> | *No description.* |
 
 ---
 
@@ -16952,10 +16952,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureSchedulingTask, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureSchedulingTask]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask">StatefulNodeAzureSchedulingTask</a>]
 
 ---
 
@@ -17400,7 +17400,7 @@ def put_vault_certificates(
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.vaultCertificates">vault_certificates</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesList">StatefulNodeAzureSecretVaultCertificatesList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.sourceVaultInput">source_vault_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>]]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.vaultCertificatesInput">vault_certificates_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a>]</code> | *No description.* |
 
 ---
 
@@ -17471,10 +17471,10 @@ vault_certificates_input: typing.Union[IResolvable, typing.List[StatefulNodeAzur
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureSecret, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureSecret]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret">StatefulNodeAzureSecret</a>]
 
 ---
 
@@ -17889,7 +17889,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.resourceGroupNameInput">resource_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>]</code> | *No description.* |
 
 ---
 
@@ -17960,10 +17960,10 @@ resource_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureSecretSourceVault, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureSecretSourceVault]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault">StatefulNodeAzureSecretSourceVault</a>]
 
 ---
 
@@ -18392,7 +18392,7 @@ def reset_certificate_url() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateUrlInput">certificate_url_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateStore">certificate_store</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.certificateUrl">certificate_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>]</code> | *No description.* |
 
 ---
 
@@ -18463,10 +18463,10 @@ certificate_url: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureSecretVaultCertificates, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureSecretVaultCertificates]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates">StatefulNodeAzureSecretVaultCertificates</a>]
 
 ---
 
@@ -18881,7 +18881,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.timeout">timeout</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a>]</code> | *No description.* |
 
 ---
 
@@ -18952,10 +18952,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureSignal, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureSignal]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal">StatefulNodeAzureSignal</a>]
 
 ---
 
@@ -20102,7 +20102,7 @@ def reset_tag_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagValueInput">tag_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagKey">tag_key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.tagValue">tag_value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a>]</code> | *No description.* |
 
 ---
 
@@ -20173,10 +20173,10 @@ tag_value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureTag, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureTag]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag">StatefulNodeAzureTag</a>]
 
 ---
 
@@ -20589,7 +20589,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.stateInput">state_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.state">state</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a>]</code> | *No description.* |
 
 ---
 
@@ -20640,10 +20640,10 @@ state: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[StatefulNodeAzureUpdateState, IResolvable]
+internal_value: typing.Union[IResolvable, StatefulNodeAzureUpdateState]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState">StatefulNodeAzureUpdateState</a>]
 
 ---
 

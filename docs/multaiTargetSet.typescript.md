@@ -1918,7 +1918,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags">MultaiTargetSetTags</a> \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags">MultaiTargetSetTags</a></code> | *No description.* |
 
 ---
 
@@ -1989,10 +1989,10 @@ public readonly value: string;
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: MultaiTargetSetTags | IResolvable;
+public readonly internalValue: IResolvable | MultaiTargetSetTags;
 ```
 
-- *Type:* <a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags">MultaiTargetSetTags</a> | cdktf.IResolvable
+- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags">MultaiTargetSetTags</a>
 
 ---
 

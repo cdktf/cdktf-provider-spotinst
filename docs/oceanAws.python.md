@@ -7740,7 +7740,7 @@ def reset_ebs() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.deviceNameInput">device_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.ebsInput">ebs_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbs">OceanAwsBlockDeviceMappingsEbs</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.deviceName">device_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappings">OceanAwsBlockDeviceMappings</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappings">OceanAwsBlockDeviceMappings</a>]</code> | *No description.* |
 
 ---
 
@@ -7811,10 +7811,10 @@ device_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsBlockDeviceMappings, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsBlockDeviceMappings]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappings">OceanAwsBlockDeviceMappings</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappings">OceanAwsBlockDeviceMappings</a>]
 
 ---
 
@@ -8234,7 +8234,7 @@ def reset_availability_vs_cost() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.availabilityVsCostInput">availability_vs_cost_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.availabilityVsCost">availability_vs_cost</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientation">OceanAwsClusterOrientation</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientation">OceanAwsClusterOrientation</a>]</code> | *No description.* |
 
 ---
 
@@ -8285,10 +8285,10 @@ availability_vs_cost: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsClusterOrientation, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsClusterOrientation]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientation">OceanAwsClusterOrientation</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientation">OceanAwsClusterOrientation</a>]
 
 ---
 
@@ -9876,7 +9876,7 @@ def reset_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancers">OceanAwsLoadBalancers</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancers">OceanAwsLoadBalancers</a>]</code> | *No description.* |
 
 ---
 
@@ -9967,10 +9967,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsLoadBalancers, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsLoadBalancers]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancers">OceanAwsLoadBalancers</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancers">OceanAwsLoadBalancers</a>]
 
 ---
 
@@ -10701,7 +10701,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3">OceanAwsLoggingExportS3</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3">OceanAwsLoggingExportS3</a>]</code> | *No description.* |
 
 ---
 
@@ -10752,10 +10752,10 @@ id: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsLoggingExportS3, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsLoggingExportS3]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3">OceanAwsLoggingExportS3</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3">OceanAwsLoggingExportS3</a>]
 
 ---
 
@@ -11547,7 +11547,7 @@ def reset_tasks() -> None
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.tasks">tasks</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksList">OceanAwsScheduledTaskTasksList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.shutdownHoursInput">shutdown_hours_input</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskShutdownHours">OceanAwsScheduledTaskShutdownHours</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.tasksInput">tasks_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks">OceanAwsScheduledTaskTasks</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTask">OceanAwsScheduledTask</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTask">OceanAwsScheduledTask</a>]</code> | *No description.* |
 
 ---
 
@@ -11618,10 +11618,10 @@ tasks_input: typing.Union[IResolvable, typing.List[OceanAwsScheduledTaskTasks]]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsScheduledTask, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsScheduledTask]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTask">OceanAwsScheduledTask</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTask">OceanAwsScheduledTask</a>]
 
 ---
 
@@ -12363,7 +12363,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.cronExpression">cron_expression</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.taskType">task_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks">OceanAwsScheduledTaskTasks</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks">OceanAwsScheduledTaskTasks</a>]</code> | *No description.* |
 
 ---
 
@@ -12454,10 +12454,10 @@ task_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsScheduledTaskTasks, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsScheduledTaskTasks]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks">OceanAwsScheduledTaskTasks</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks">OceanAwsScheduledTaskTasks</a>]
 
 ---
 
@@ -12872,7 +12872,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTags">OceanAwsTags</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTags">OceanAwsTags</a>]</code> | *No description.* |
 
 ---
 
@@ -12943,10 +12943,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[OceanAwsTags, IResolvable]
+internal_value: typing.Union[IResolvable, OceanAwsTags]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTags">OceanAwsTags</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.oceanAws.OceanAwsTags">OceanAwsTags</a>]
 
 ---
 

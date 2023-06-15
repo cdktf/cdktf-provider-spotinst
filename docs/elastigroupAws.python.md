@@ -12452,7 +12452,7 @@ def reset_volume_type() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.throughput">throughput</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.volumeType">volume_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>]</code> | *No description.* |
 
 ---
 
@@ -12663,10 +12663,10 @@ volume_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsEbsBlockDevice, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsEbsBlockDevice]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>]
 
 ---
 
@@ -13081,7 +13081,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualNameInput">virtual_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.deviceName">device_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.virtualName">virtual_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>]</code> | *No description.* |
 
 ---
 
@@ -13152,10 +13152,10 @@ virtual_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsEphemeralBlockDevice, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsEphemeralBlockDevice]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>]
 
 ---
 
@@ -13568,7 +13568,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>]</code> | *No description.* |
 
 ---
 
@@ -13619,10 +13619,10 @@ id: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsImagesImage, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsImagesImage]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>]
 
 ---
 
@@ -14050,7 +14050,7 @@ def put_image(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.image">image</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList">ElastigroupAwsImagesImageList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.imageInput">image_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage">ElastigroupAwsImagesImage</a>]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>]</code> | *No description.* |
 
 ---
 
@@ -14101,10 +14101,10 @@ image_input: typing.Union[IResolvable, typing.List[ElastigroupAwsImagesImage]]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsImages, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsImages]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>]
 
 ---
 
@@ -14519,7 +14519,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weightInput">weight_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.instanceType">instance_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.weight">weight</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>]</code> | *No description.* |
 
 ---
 
@@ -14590,10 +14590,10 @@ weight: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsInstanceTypesWeights, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsInstanceTypesWeights]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>]
 
 ---
 
@@ -16881,7 +16881,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupNameInput">deployment_group_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.applicationName">application_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.deploymentGroupName">deployment_group_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>]</code> | *No description.* |
 
 ---
 
@@ -16952,10 +16952,10 @@ deployment_group_name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationCodedeployDeploymentGroups, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationCodedeployDeploymentGroups]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>]
 
 ---
 
@@ -18913,7 +18913,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>]</code> | *No description.* |
 
 ---
 
@@ -18984,10 +18984,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationEcsAutoscaleAttributes, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationEcsAutoscaleAttributes]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>]
 
 ---
 
@@ -22299,7 +22299,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>]</code> | *No description.* |
 
 ---
 
@@ -22370,10 +22370,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationKubernetesAutoscaleLabels, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationKubernetesAutoscaleLabels]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>]
 
 ---
 
@@ -24011,7 +24011,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>]</code> | *No description.* |
 
 ---
 
@@ -24082,10 +24082,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationNomadAutoscaleConstraints, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationNomadAutoscaleConstraints]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>]
 
 ---
 
@@ -26125,7 +26125,7 @@ def reset_spotinst_acct_id() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.hostedZoneId">hosted_zone_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.recordSetType">record_set_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.spotinstAcctId">spotinst_acct_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>]</code> | *No description.* |
 
 ---
 
@@ -26236,10 +26236,10 @@ spotinst_acct_id: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationRoute53Domains, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationRoute53Domains]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains">ElastigroupAwsIntegrationRoute53Domains</a>]
 
 ---
 
@@ -26670,7 +26670,7 @@ def reset_use_public_ip() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicDns">use_public_dns</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.usePublicIp">use_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>]</code> | *No description.* |
 
 ---
 
@@ -26761,10 +26761,10 @@ use_public_ip: typing.Union[bool, IResolvable]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsIntegrationRoute53DomainsRecordSets, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsIntegrationRoute53DomainsRecordSets]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>]
 
 ---
 
@@ -28143,7 +28143,7 @@ def reset_static_target_group() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArnInput">rule_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.staticTargetGroupInput">static_target_group_input</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup">ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.ruleArn">rule_arn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>]</code> | *No description.* |
 
 ---
 
@@ -28214,10 +28214,10 @@ rule_arn: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItfLoadBalancerListenerRule, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItfLoadBalancerListenerRule]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>]
 
 ---
 
@@ -28814,7 +28814,7 @@ def put_listener_rule(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.listenerRuleInput">listener_rule_input</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>]]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArnInput">load_balancer_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.loadBalancerArn">load_balancer_arn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>]</code> | *No description.* |
 
 ---
 
@@ -28885,10 +28885,10 @@ load_balancer_arn: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItfLoadBalancer, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItfLoadBalancer]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>]
 
 ---
 
@@ -29230,7 +29230,7 @@ def reset_migration_healthiness_threshold() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.fixedTargetGroups">fixed_target_groups</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.migrationHealthinessThreshold">migration_healthiness_threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.weightStrategy">weight_strategy</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>]</code> | *No description.* |
 
 ---
 
@@ -29381,10 +29381,10 @@ weight_strategy: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItf, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItf]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>]
 
 ---
 
@@ -29964,7 +29964,7 @@ def reset_http_code() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCodeInput">http_code_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.grpcCode">grpc_code</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.httpCode">http_code</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>]</code> | *No description.* |
 
 ---
 
@@ -30035,10 +30035,10 @@ http_code: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItfTargetGroupConfigMatcher, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItfTargetGroupConfigMatcher]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>]
 
 ---
 
@@ -30417,7 +30417,7 @@ def reset_unhealthy_threshold_count() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.protocolVersion">protocol_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.unhealthyThresholdCount">unhealthy_threshold_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.vpcId">vpc_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>]</code> | *No description.* |
 
 ---
 
@@ -30708,10 +30708,10 @@ vpc_id: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItfTargetGroupConfig, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItfTargetGroupConfig]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>]
 
 ---
 
@@ -31133,7 +31133,7 @@ def reset_tag_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValueInput">tag_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagKey">tag_key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.tagValue">tag_value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>]</code> | *No description.* |
 
 ---
 
@@ -31204,10 +31204,10 @@ tag_value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsItfTargetGroupConfigTags, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsItfTargetGroupConfigTags]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>]
 
 ---
 
@@ -31976,7 +31976,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetIdInput">target_set_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.balancerId">balancer_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.targetSetId">target_set_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>]</code> | *No description.* |
 
 ---
 
@@ -32047,10 +32047,10 @@ target_set_id: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsMultaiTargetSets, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsMultaiTargetSets]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>]
 
 ---
 
@@ -32465,7 +32465,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.expression">expression</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>]</code> | *No description.* |
 
 ---
 
@@ -32536,10 +32536,10 @@ name: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsMultipleMetricsExpressions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsMultipleMetricsExpressions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions">ElastigroupAwsMultipleMetricsExpressions</a>]
 
 ---
 
@@ -32961,7 +32961,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -33032,10 +33032,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsMultipleMetricsMetricsDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsMultipleMetricsMetricsDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>]
 
 ---
 
@@ -33503,7 +33503,7 @@ def reset_unit() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.namespace">namespace</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.statistic">statistic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>]</code> | *No description.* |
 
 ---
 
@@ -33674,10 +33674,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsMultipleMetricsMetrics, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsMultipleMetricsMetrics]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics">ElastigroupAwsMultipleMetricsMetrics</a>]
 
 ---
 
@@ -34515,7 +34515,7 @@ def reset_secondary_private_ip_address_count() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>]</code> | *No description.* |
 
 ---
 
@@ -34706,10 +34706,10 @@ secondary_private_ip_address_count: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsNetworkInterface, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsNetworkInterface]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>]
 
 ---
 
@@ -35156,7 +35156,7 @@ def reset_should_tag_volumes() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagEnis">should_tag_enis</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagSnapshots">should_tag_snapshots</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.shouldTagVolumes">should_tag_volumes</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>]</code> | *No description.* |
 
 ---
 
@@ -35267,10 +35267,10 @@ should_tag_volumes: typing.Union[bool, IResolvable]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsResourceTagSpecification, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsResourceTagSpecification]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>]
 
 ---
 
@@ -36017,7 +36017,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -36088,10 +36088,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingDownPolicyDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingDownPolicyDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>]
 
 ---
 
@@ -36700,7 +36700,7 @@ def reset_unit() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -37151,10 +37151,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingDownPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingDownPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy">ElastigroupAwsScalingDownPolicy</a>]
 
 ---
 
@@ -38110,7 +38110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.actionInput">action_input</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction">ElastigroupAwsScalingDownPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.thresholdInput">threshold_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>]</code> | *No description.* |
 
 ---
 
@@ -38181,10 +38181,10 @@ threshold: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingDownPolicyStepAdjustments, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingDownPolicyStepAdjustments]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>]
 
 ---
 
@@ -38613,7 +38613,7 @@ def reset_termination_policy() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicyInput">termination_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminateAtEndOfBillingHour">terminate_at_end_of_billing_hour</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.terminationPolicy">termination_policy</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>]</code> | *No description.* |
 
 ---
 
@@ -38684,10 +38684,10 @@ termination_policy: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingStrategy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingStrategy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy">ElastigroupAwsScalingStrategy</a>]
 
 ---
 
@@ -39109,7 +39109,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -39180,10 +39180,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingTargetPolicyDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingTargetPolicyDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>]
 
 ---
 
@@ -39698,7 +39698,7 @@ def reset_unit() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.statistic">statistic</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.target">target</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -39989,10 +39989,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingTargetPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingTargetPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>]
 
 ---
 
@@ -40414,7 +40414,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>]</code> | *No description.* |
 
 ---
 
@@ -40485,10 +40485,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingUpPolicyDimensions, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingUpPolicyDimensions]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>]
 
 ---
 
@@ -41097,7 +41097,7 @@ def reset_unit() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.target">target</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.unit">unit</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>]</code> | *No description.* |
 
 ---
 
@@ -41548,10 +41548,10 @@ unit: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingUpPolicy, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingUpPolicy]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>]
 
 ---
 
@@ -42507,7 +42507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.actionInput">action_input</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction">ElastigroupAwsScalingUpPolicyStepAdjustmentsAction</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.thresholdInput">threshold_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>]</code> | *No description.* |
 
 ---
 
@@ -42578,10 +42578,10 @@ threshold: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScalingUpPolicyStepAdjustments, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScalingUpPolicyStepAdjustments]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>]
 
 ---
 
@@ -43120,7 +43120,7 @@ def reset_target_capacity() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.startTime">start_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.targetCapacity">target_capacity</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.taskType">task_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>]</code> | *No description.* |
 
 ---
 
@@ -43451,10 +43451,10 @@ task_type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsScheduledTask, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsScheduledTask]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>]
 
 ---
 
@@ -43876,7 +43876,7 @@ def reset_timeout() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeoutInput">timeout_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.timeout">timeout</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>]</code> | *No description.* |
 
 ---
 
@@ -43947,10 +43947,10 @@ timeout: typing.Union[int, float]
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsSignal, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsSignal]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>]
 
 ---
 
@@ -44755,7 +44755,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.statefulInstanceId">stateful_instance_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>]</code> | *No description.* |
 
 ---
 
@@ -44826,10 +44826,10 @@ type: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsStatefulInstanceAction, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsStatefulInstanceAction]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>]
 
 ---
 
@@ -45258,7 +45258,7 @@ def reset_value() -> None
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>, cdktf.IResolvable]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue">internal_value</a></code> | <code>typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>]</code> | *No description.* |
 
 ---
 
@@ -45329,10 +45329,10 @@ value: str
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.property.internalValue"></a>
 
 ```python
-internal_value: typing.Union[ElastigroupAwsTags, IResolvable]
+internal_value: typing.Union[IResolvable, ElastigroupAwsTags]
 ```
 
-- *Type:* typing.Union[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>, cdktf.IResolvable]
+- *Type:* typing.Union[cdktf.IResolvable, <a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>]
 
 ---
 
