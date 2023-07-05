@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzure(scope Construct, id *string, config StatefulNodeAzureConfig) StatefulNodeAzure
 ```
@@ -719,7 +719,7 @@ func ResetZones()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsConstruct(x interface{}) *bool
 ```
@@ -751,7 +751,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsTerraformElement(x interface{}) *bool
 ```
@@ -765,7 +765,7 @@ statefulnodeazure.StatefulNodeAzure_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsTerraformResource(x interface{}) *bool
 ```
@@ -1844,7 +1844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureAttachDataDisk {
 	DataDiskName: *string,
@@ -1946,7 +1946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureBootDiagnostics {
 	IsEnabled: interface{},
@@ -2006,7 +2006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureConfig {
 	Connection: interface{},
@@ -2016,10 +2016,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	Image: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureImage,
-	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureLogin,
+	Image: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureImage,
+	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureLogin,
 	Name: *string,
-	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureNetwork,
+	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureNetwork,
 	OdSizes: *[]*string,
 	Os: *string,
 	Region: *string,
@@ -2028,7 +2028,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 	ShouldPersistNetwork: interface{},
 	ShouldPersistOsDisk: interface{},
 	SpotSizes: *[]*string,
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureStrategy,
+	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureStrategy,
 	AttachDataDisk: interface{},
 	BootDiagnostics: interface{},
 	CustomData: *string,
@@ -2038,12 +2038,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 	Description: *string,
 	DetachDataDisk: interface{},
 	Extension: interface{},
-	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureHealth,
+	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureHealth,
 	Id: *string,
 	ImportVm: interface{},
 	LoadBalancer: interface{},
 	ManagedServiceIdentities: interface{},
-	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk,
+	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureOsDisk,
 	OsDiskPersistenceMode: *string,
 	PreferredSpotSizes: *[]*string,
 	PreferredZones: *string,
@@ -2711,7 +2711,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDataDisk {
 	Lun: *f64,
@@ -2771,7 +2771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDelete {
 	DiskShouldDeallocate: interface{},
@@ -2915,7 +2915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDetachDataDisk {
 	DataDiskName: *string,
@@ -2989,7 +2989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureExtension {
 	ApiVersion: *string,
@@ -3105,7 +3105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureHealth {
 	AutoHealing: interface{},
@@ -3179,7 +3179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImage {
 	CustomImage: interface{},
@@ -3245,7 +3245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageCustomImage {
 	CustomImageResourceGroupName: *string,
@@ -3291,7 +3291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageGallery {
 	GalleryName: *string,
@@ -3365,7 +3365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageMarketplaceImage {
 	Offer: *string,
@@ -3439,7 +3439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImportVm {
 	OriginalVmName: *string,
@@ -3513,7 +3513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureLoadBalancer {
 	BackendPoolNames: *[]*string,
@@ -3601,7 +3601,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureLogin {
 	UserName: *string,
@@ -3661,7 +3661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureManagedServiceIdentities {
 	Name: *string,
@@ -3707,7 +3707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetwork {
 	NetworkInterface: interface{},
@@ -3769,7 +3769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterface {
 	IsPrimary: interface{},
@@ -3935,7 +3935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations {
 	Name: *string,
@@ -3981,7 +3981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups {
 	Name: *string,
@@ -4027,7 +4027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup {
 	Name: *string,
@@ -4073,7 +4073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfacePublicIps {
 	Name: *string,
@@ -4119,7 +4119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureOsDisk {
 	Type: *string,
@@ -4165,7 +4165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSchedulingTask {
 	CronExpression: *string,
@@ -4225,7 +4225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecret {
 	SourceVault: interface{},
@@ -4275,7 +4275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecretSourceVault {
 	Name: *string,
@@ -4321,7 +4321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecretVaultCertificates {
 	CertificateStore: *string,
@@ -4367,7 +4367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSignal {
 	Timeout: *f64,
@@ -4413,14 +4413,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategy {
 	FallbackToOnDemand: interface{},
 	DrainingTimeout: *f64,
 	OptimizationWindows: *[]*string,
 	PreferredLifeCycle: *string,
-	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot,
+	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot,
 }
 ```
 
@@ -4503,7 +4503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategyRevertToSpot {
 	PerformAt: *string,
@@ -4535,7 +4535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureTag {
 	TagKey: *string,
@@ -4581,7 +4581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureUpdateState {
 	State: *string,
@@ -4615,7 +4615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureAttachDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureAttachDataDiskList
 ```
@@ -4758,7 +4758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureAttachDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureAttachDataDiskOutputReference
 ```
@@ -5171,7 +5171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureBootDiagnosticsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureBootDiagnosticsList
 ```
@@ -5314,7 +5314,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureBootDiagnosticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureBootDiagnosticsOutputReference
 ```
@@ -5668,7 +5668,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDataDiskList
 ```
@@ -5811,7 +5811,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDataDiskOutputReference
 ```
@@ -6144,7 +6144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDeleteList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDeleteList
 ```
@@ -6287,7 +6287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDeleteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDeleteOutputReference
 ```
@@ -6780,7 +6780,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDetachDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDetachDataDiskList
 ```
@@ -6923,7 +6923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDetachDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDetachDataDiskOutputReference
 ```
@@ -7285,7 +7285,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureExtensionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureExtensionList
 ```
@@ -7428,7 +7428,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureExtensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureExtensionOutputReference
 ```
@@ -7863,7 +7863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureHealthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureHealthOutputReference
 ```
@@ -8214,7 +8214,7 @@ func InternalValue() StatefulNodeAzureHealth
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageCustomImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageCustomImageList
 ```
@@ -8357,7 +8357,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageCustomImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageCustomImageOutputReference
 ```
@@ -8668,7 +8668,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageGalleryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageGalleryList
 ```
@@ -8811,7 +8811,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageGalleryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageGalleryOutputReference
 ```
@@ -9166,7 +9166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageMarketplaceImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageMarketplaceImageList
 ```
@@ -9309,7 +9309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageMarketplaceImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageMarketplaceImageOutputReference
 ```
@@ -9664,7 +9664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureImageOutputReference
 ```
@@ -10039,7 +10039,7 @@ func InternalValue() StatefulNodeAzureImage
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImportVmList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImportVmList
 ```
@@ -10182,7 +10182,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImportVmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImportVmOutputReference
 ```
@@ -10551,7 +10551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureLoadBalancerList
 ```
@@ -10694,7 +10694,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureLoadBalancerOutputReference
 ```
@@ -11078,7 +11078,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureLoginOutputReference
 ```
@@ -11407,7 +11407,7 @@ func InternalValue() StatefulNodeAzureLogin
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureManagedServiceIdentitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureManagedServiceIdentitiesList
 ```
@@ -11550,7 +11550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureManagedServiceIdentitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureManagedServiceIdentitiesOutputReference
 ```
@@ -11861,7 +11861,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList
 ```
@@ -12004,7 +12004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference
 ```
@@ -12315,7 +12315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList
 ```
@@ -12458,7 +12458,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference
 ```
@@ -12769,7 +12769,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceList
 ```
@@ -12912,7 +12912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList
 ```
@@ -13055,7 +13055,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference
 ```
@@ -13380,7 +13380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceOutputReference
 ```
@@ -13975,7 +13975,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfacePublicIpsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfacePublicIpsList
 ```
@@ -14118,7 +14118,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference
 ```
@@ -14429,7 +14429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureNetworkOutputReference
 ```
@@ -14757,7 +14757,7 @@ func InternalValue() StatefulNodeAzureNetwork
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureOsDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureOsDiskOutputReference
 ```
@@ -15057,7 +15057,7 @@ func InternalValue() StatefulNodeAzureOsDisk
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSchedulingTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSchedulingTaskList
 ```
@@ -15200,7 +15200,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSchedulingTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSchedulingTaskOutputReference
 ```
@@ -15533,7 +15533,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretList
 ```
@@ -15676,7 +15676,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretOutputReference
 ```
@@ -16013,7 +16013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretSourceVaultList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretSourceVaultList
 ```
@@ -16156,7 +16156,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretSourceVaultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretSourceVaultOutputReference
 ```
@@ -16467,7 +16467,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretVaultCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretVaultCertificatesList
 ```
@@ -16610,7 +16610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretVaultCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretVaultCertificatesOutputReference
 ```
@@ -16935,7 +16935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSignalList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSignalList
 ```
@@ -17078,7 +17078,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSignalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSignalOutputReference
 ```
@@ -17389,7 +17389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureStrategyOutputReference
 ```
@@ -17789,7 +17789,7 @@ func InternalValue() StatefulNodeAzureStrategy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyRevertToSpotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureStrategyRevertToSpotOutputReference
 ```
@@ -18060,7 +18060,7 @@ func InternalValue() StatefulNodeAzureStrategyRevertToSpot
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureTagList
 ```
@@ -18203,7 +18203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureTagOutputReference
 ```
@@ -18521,7 +18521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureUpdateStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureUpdateStateList
 ```
@@ -18664,7 +18664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureUpdateStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureUpdateStateOutputReference
 ```
