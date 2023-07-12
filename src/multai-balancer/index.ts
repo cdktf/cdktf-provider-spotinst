@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 // https://registry.terraform.io/providers/spotinst/spotinst/1.125.1/docs/resources/multai_balancer
 // generated from terraform resource schema
 
