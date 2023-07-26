@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 // https://registry.terraform.io/providers/spotinst/spotinst/1.128.0/docs/resources/ocean_aks
 // generated from terraform resource schema
 
