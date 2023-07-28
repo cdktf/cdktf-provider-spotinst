@@ -1,6 +1,6 @@
 # `spotinst_stateful_node_azure`
 
-Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure).
+Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure).
 
 # `statefulNodeAzure` Submodule <a name="`statefulNodeAzure` Submodule" id="@cdktf/provider-spotinst.statefulNodeAzure"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_stateful_node_azure`](http
 
 ### StatefulNodeAzure <a name="StatefulNodeAzure" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.Initializer"></a>
 
@@ -1910,12 +1910,12 @@ new StatefulNodeAzureAttachDataDisk {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.storageAccountType">StorageAccountType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.lun">Lun</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.storageAccountType">StorageAccountType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.lun">Lun</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}. |
 
 ---
 
@@ -1927,7 +1927,7 @@ public string DataDiskName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
 
 ---
 
@@ -1939,7 +1939,7 @@ public string DataDiskResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
 
 ---
 
@@ -1951,7 +1951,7 @@ public double SizeGb { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -1963,7 +1963,7 @@ public string StorageAccountType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}.
 
 ---
 
@@ -1975,7 +1975,7 @@ public double Lun { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
 
 ---
 
@@ -1987,7 +1987,7 @@ public string Zone { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}.
 
 ---
 
@@ -2009,9 +2009,9 @@ new StatefulNodeAzureBootDiagnostics {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.storageUrl">StorageUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.storageUrl">StorageUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -2023,7 +2023,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
 
 ---
 
@@ -2035,7 +2035,7 @@ public string StorageUrl { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}.
 
 ---
 
@@ -2047,7 +2047,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -2121,27 +2121,27 @@ new StatefulNodeAzureConfig {
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.os">Os</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistDataDisks">ShouldPersistDataDisks</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistNetwork">ShouldPersistNetwork</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistOsDisk">ShouldPersistOsDisk</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.spotSizes">SpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.os">Os</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistDataDisks">ShouldPersistDataDisks</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistNetwork">ShouldPersistNetwork</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistOsDisk">ShouldPersistOsDisk</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.spotSizes">SpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.strategy">Strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy">StatefulNodeAzureStrategy</a></code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.attachDataDisk">AttachDataDisk</a></code> | <code>object</code> | attach_data_disk block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.bootDiagnostics">BootDiagnostics</a></code> | <code>object</code> | boot_diagnostics block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisk">DataDisk</a></code> | <code>object</code> | data_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisksPersistenceMode">DataDisksPersistenceMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisksPersistenceMode">DataDisksPersistenceMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.delete">Delete</a></code> | <code>object</code> | delete block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.detachDataDisk">DetachDataDisk</a></code> | <code>object</code> | detach_data_disk block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.extension">Extension</a></code> | <code>object</code> | extension block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.health">Health</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth">StatefulNodeAzureHealth</a></code> | health block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.image">Image</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImage">StatefulNodeAzureImage</a></code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.importVm">ImportVm</a></code> | <code>object</code> | import_vm block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.loadBalancer">LoadBalancer</a></code> | <code>object</code> | load_balancer block. |
@@ -2149,19 +2149,19 @@ new StatefulNodeAzureConfig {
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.managedServiceIdentities">ManagedServiceIdentities</a></code> | <code>object</code> | managed_service_identities block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork">StatefulNodeAzureNetwork</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDisk">OsDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk">StatefulNodeAzureOsDisk</a></code> | os_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDiskPersistenceMode">OsDiskPersistenceMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredZones">PreferredZones</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_zones StatefulNodeAzure#preferred_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDiskPersistenceMode">OsDiskPersistenceMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredZones">PreferredZones</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_zones StatefulNodeAzure#preferred_zones}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.schedulingTask">SchedulingTask</a></code> | <code>object</code> | scheduling_task block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.secret">Secret</a></code> | <code>object</code> | secret block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistVm">ShouldPersistVm</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistVm">ShouldPersistVm</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.signal">Signal</a></code> | <code>object</code> | signal block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.tag">Tag</a></code> | <code>object</code> | tag block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.updateState">UpdateState</a></code> | <code>object</code> | update_state block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.userData">UserData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmName">VmName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.zones">Zones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.userData">UserData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmName">VmName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.zones">Zones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}. |
 
 ---
 
@@ -2243,7 +2243,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -2255,7 +2255,7 @@ public string[] OdSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}.
 
 ---
 
@@ -2267,7 +2267,7 @@ public string Os { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}.
 
 ---
 
@@ -2279,7 +2279,7 @@ public string Region { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}.
 
 ---
 
@@ -2291,7 +2291,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -2303,7 +2303,7 @@ public object ShouldPersistDataDisks { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}.
 
 ---
 
@@ -2315,7 +2315,7 @@ public object ShouldPersistNetwork { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}.
 
 ---
 
@@ -2327,7 +2327,7 @@ public object ShouldPersistOsDisk { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}.
 
 ---
 
@@ -2339,7 +2339,7 @@ public string[] SpotSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}.
 
 ---
 
@@ -2353,7 +2353,7 @@ public StatefulNodeAzureStrategy Strategy { get; set; }
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
 
 ---
 
@@ -2367,7 +2367,7 @@ public object AttachDataDisk { get; set; }
 
 attach_data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
 
 ---
 
@@ -2381,7 +2381,7 @@ public object BootDiagnostics { get; set; }
 
 boot_diagnostics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
 
 ---
 
@@ -2393,7 +2393,7 @@ public string CustomData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}.
 
 ---
 
@@ -2407,7 +2407,7 @@ public object DataDisk { get; set; }
 
 data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
 
 ---
 
@@ -2419,7 +2419,7 @@ public string DataDisksPersistenceMode { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}.
 
 ---
 
@@ -2433,7 +2433,7 @@ public object Delete { get; set; }
 
 delete block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
 
 ---
 
@@ -2445,7 +2445,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}.
 
 ---
 
@@ -2459,7 +2459,7 @@ public object DetachDataDisk { get; set; }
 
 detach_data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
 
 ---
 
@@ -2473,7 +2473,7 @@ public object Extension { get; set; }
 
 extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
 
 ---
 
@@ -2487,7 +2487,7 @@ public StatefulNodeAzureHealth Health { get; set; }
 
 health block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
 
 ---
 
@@ -2499,7 +2499,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2516,7 +2516,7 @@ public StatefulNodeAzureImage Image { get; set; }
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
 
 ---
 
@@ -2530,7 +2530,7 @@ public object ImportVm { get; set; }
 
 import_vm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
 
 ---
 
@@ -2544,7 +2544,7 @@ public object LoadBalancer { get; set; }
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
 
 ---
 
@@ -2558,7 +2558,7 @@ public StatefulNodeAzureLogin Login { get; set; }
 
 login block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
 
 ---
 
@@ -2572,7 +2572,7 @@ public object ManagedServiceIdentities { get; set; }
 
 managed_service_identities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
 
 ---
 
@@ -2586,7 +2586,7 @@ public StatefulNodeAzureNetwork Network { get; set; }
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
 
 ---
 
@@ -2600,7 +2600,7 @@ public StatefulNodeAzureOsDisk OsDisk { get; set; }
 
 os_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
 
 ---
 
@@ -2612,7 +2612,7 @@ public string OsDiskPersistenceMode { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}.
 
 ---
 
@@ -2624,7 +2624,7 @@ public string[] PreferredSpotSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}.
 
 ---
 
@@ -2636,7 +2636,7 @@ public string PreferredZones { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_zones StatefulNodeAzure#preferred_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_zones StatefulNodeAzure#preferred_zones}.
 
 ---
 
@@ -2650,7 +2650,7 @@ public object SchedulingTask { get; set; }
 
 scheduling_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
 
 ---
 
@@ -2664,7 +2664,7 @@ public object Secret { get; set; }
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
 
 ---
 
@@ -2676,7 +2676,7 @@ public object ShouldPersistVm { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}.
 
 ---
 
@@ -2688,7 +2688,7 @@ public string ShutdownScript { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}.
 
 ---
 
@@ -2702,7 +2702,7 @@ public object Signal { get; set; }
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
 
 ---
 
@@ -2716,7 +2716,7 @@ public object Tag { get; set; }
 
 tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
 
 ---
 
@@ -2730,7 +2730,7 @@ public object UpdateState { get; set; }
 
 update_state block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
 
 ---
 
@@ -2742,7 +2742,7 @@ public string UserData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}.
 
 ---
 
@@ -2754,7 +2754,7 @@ public string VmName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}.
 
 ---
 
@@ -2766,7 +2766,7 @@ public string[] Zones { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}.
 
 ---
 
@@ -2788,9 +2788,9 @@ new StatefulNodeAzureDataDisk {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.lun">Lun</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.lun">Lun</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -2802,7 +2802,7 @@ public double Lun { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
 
 ---
 
@@ -2814,7 +2814,7 @@ public double SizeGb { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -2826,7 +2826,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -2854,15 +2854,15 @@ new StatefulNodeAzureDelete {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate">DiskShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate">NetworkShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate">PublicIpShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldTerminateVm">ShouldTerminateVm</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate">SnapshotShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskTtlInHours">DiskTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkTtlInHours">NetworkTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpTtlInHours">PublicIpTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotTtlInHours">SnapshotTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate">DiskShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate">NetworkShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate">PublicIpShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldTerminateVm">ShouldTerminateVm</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate">SnapshotShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskTtlInHours">DiskTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkTtlInHours">NetworkTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpTtlInHours">PublicIpTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotTtlInHours">SnapshotTtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}. |
 
 ---
 
@@ -2874,7 +2874,7 @@ public object DiskShouldDeallocate { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}.
 
 ---
 
@@ -2886,7 +2886,7 @@ public object NetworkShouldDeallocate { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}.
 
 ---
 
@@ -2898,7 +2898,7 @@ public object PublicIpShouldDeallocate { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}.
 
 ---
 
@@ -2910,7 +2910,7 @@ public object ShouldTerminateVm { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}.
 
 ---
 
@@ -2922,7 +2922,7 @@ public object SnapshotShouldDeallocate { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}.
 
 ---
 
@@ -2934,7 +2934,7 @@ public double DiskTtlInHours { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}.
 
 ---
 
@@ -2946,7 +2946,7 @@ public double NetworkTtlInHours { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}.
 
 ---
 
@@ -2958,7 +2958,7 @@ public double PublicIpTtlInHours { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}.
 
 ---
 
@@ -2970,7 +2970,7 @@ public double SnapshotTtlInHours { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}.
 
 ---
 
@@ -2993,10 +2993,10 @@ new StatefulNodeAzureDetachDataDisk {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.shouldDeallocate">ShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.ttlInHours">TtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.shouldDeallocate">ShouldDeallocate</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.ttlInHours">TtlInHours</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}. |
 
 ---
 
@@ -3008,7 +3008,7 @@ public string DataDiskName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
 
 ---
 
@@ -3020,7 +3020,7 @@ public string DataDiskResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
 
 ---
 
@@ -3032,7 +3032,7 @@ public object ShouldDeallocate { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}.
 
 ---
 
@@ -3044,7 +3044,7 @@ public double TtlInHours { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}.
 
 ---
 
@@ -3070,13 +3070,13 @@ new StatefulNodeAzureExtension {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.protectedSettings">ProtectedSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publicSettings">PublicSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.protectedSettings">ProtectedSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publicSettings">PublicSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}. |
 
 ---
 
@@ -3088,7 +3088,7 @@ public string ApiVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}.
 
 ---
 
@@ -3100,7 +3100,7 @@ public object MinorVersionAutoUpgrade { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}.
 
 ---
 
@@ -3112,7 +3112,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3124,7 +3124,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
 
 ---
 
@@ -3136,7 +3136,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -3148,7 +3148,7 @@ public System.Collections.Generic.IDictionary<string, string> ProtectedSettings 
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}.
 
 ---
 
@@ -3160,7 +3160,7 @@ public System.Collections.Generic.IDictionary<string, string> PublicSettings { g
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}.
 
 ---
 
@@ -3183,10 +3183,10 @@ new StatefulNodeAzureHealth {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.autoHealing">AutoHealing</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.autoHealing">AutoHealing</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}. |
 
 ---
 
@@ -3198,7 +3198,7 @@ public object AutoHealing { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}.
 
 ---
 
@@ -3210,7 +3210,7 @@ public string[] HealthCheckTypes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}.
 
 ---
 
@@ -3222,7 +3222,7 @@ public double GracePeriod { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}.
 
 ---
 
@@ -3234,7 +3234,7 @@ public double UnhealthyDuration { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}.
 
 ---
 
@@ -3272,7 +3272,7 @@ public object CustomImage { get; set; }
 
 custom_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
 
 ---
 
@@ -3286,7 +3286,7 @@ public object Gallery { get; set; }
 
 gallery block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
 
 ---
 
@@ -3300,7 +3300,7 @@ public object MarketplaceImage { get; set; }
 
 marketplace_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
 
 ---
 
@@ -3321,8 +3321,8 @@ new StatefulNodeAzureImageCustomImage {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.customImageResourceGroupName">CustomImageResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.customImageResourceGroupName">CustomImageResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
 
 ---
 
@@ -3334,7 +3334,7 @@ public string CustomImageResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}.
 
 ---
 
@@ -3346,7 +3346,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3369,10 +3369,10 @@ new StatefulNodeAzureImageGallery {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryName">GalleryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryResourceGroupName">GalleryResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.versionName">VersionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryName">GalleryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryResourceGroupName">GalleryResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.versionName">VersionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}. |
 
 ---
 
@@ -3384,7 +3384,7 @@ public string GalleryName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}.
 
 ---
 
@@ -3396,7 +3396,7 @@ public string GalleryResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}.
 
 ---
 
@@ -3408,7 +3408,7 @@ public string ImageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}.
 
 ---
 
@@ -3420,7 +3420,7 @@ public string VersionName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}.
 
 ---
 
@@ -3443,10 +3443,10 @@ new StatefulNodeAzureImageMarketplaceImage {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}. |
 
 ---
 
@@ -3458,7 +3458,7 @@ public string Offer { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}.
 
 ---
 
@@ -3470,7 +3470,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
 
 ---
 
@@ -3482,7 +3482,7 @@ public string Sku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
 
 ---
 
@@ -3494,7 +3494,7 @@ public string Version { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}.
 
 ---
 
@@ -3517,10 +3517,10 @@ new StatefulNodeAzureImportVm {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.originalVmName">OriginalVmName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourcesRetentionTime">ResourcesRetentionTime</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.originalVmName">OriginalVmName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourcesRetentionTime">ResourcesRetentionTime</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}. |
 
 ---
 
@@ -3532,7 +3532,7 @@ public string OriginalVmName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}.
 
 ---
 
@@ -3544,7 +3544,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -3556,7 +3556,7 @@ public double DrainingTimeout { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
 
 ---
 
@@ -3568,7 +3568,7 @@ public double ResourcesRetentionTime { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}.
 
 ---
 
@@ -3592,11 +3592,11 @@ new StatefulNodeAzureLoadBalancer {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
 
 ---
 
@@ -3608,7 +3608,7 @@ public string[] BackendPoolNames { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}.
 
 ---
 
@@ -3620,7 +3620,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3632,7 +3632,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -3644,7 +3644,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -3656,7 +3656,7 @@ public string Sku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
 
 ---
 
@@ -3678,9 +3678,9 @@ new StatefulNodeAzureLogin {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}. |
 
 ---
 
@@ -3692,7 +3692,7 @@ public string UserName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}.
 
 ---
 
@@ -3704,7 +3704,7 @@ public string Password { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}.
 
 ---
 
@@ -3716,7 +3716,7 @@ public string SshPublicKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}.
 
 ---
 
@@ -3737,8 +3737,8 @@ new StatefulNodeAzureManagedServiceIdentities {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
 
 ---
 
@@ -3750,7 +3750,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3762,7 +3762,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -3785,8 +3785,8 @@ new StatefulNodeAzureNetwork {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkInterface">NetworkInterface</a></code> | <code>object</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}. |
 
 ---
 
@@ -3800,7 +3800,7 @@ public object NetworkInterface { get; set; }
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
 
 ---
 
@@ -3812,7 +3812,7 @@ public string NetworkResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -3824,7 +3824,7 @@ public string VirtualNetworkName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}.
 
 ---
 
@@ -3853,16 +3853,16 @@ new StatefulNodeAzureNetworkNetworkInterface {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.additionalIpConfigurations">AdditionalIpConfigurations</a></code> | <code>object</code> | additional_ip_configurations block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.applicationSecurityGroups">ApplicationSecurityGroups</a></code> | <code>object</code> | application_security_groups block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.networkSecurityGroup">NetworkSecurityGroup</a></code> | <code>object</code> | network_security_group block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIps">PublicIps</a></code> | <code>object</code> | public_ips block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIpSku">PublicIpSku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIpSku">PublicIpSku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}. |
 
 ---
 
@@ -3874,7 +3874,7 @@ public object IsPrimary { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}.
 
 ---
 
@@ -3886,7 +3886,7 @@ public string SubnetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}.
 
 ---
 
@@ -3900,7 +3900,7 @@ public object AdditionalIpConfigurations { get; set; }
 
 additional_ip_configurations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
 
 ---
 
@@ -3914,7 +3914,7 @@ public object ApplicationSecurityGroups { get; set; }
 
 application_security_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
 
 ---
 
@@ -3926,7 +3926,7 @@ public object AssignPublicIp { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}.
 
 ---
 
@@ -3938,7 +3938,7 @@ public object EnableIpForwarding { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}.
 
 ---
 
@@ -3952,7 +3952,7 @@ public object NetworkSecurityGroup { get; set; }
 
 network_security_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
 
 ---
 
@@ -3964,7 +3964,7 @@ public string[] PrivateIpAddresses { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}.
 
 ---
 
@@ -3978,7 +3978,7 @@ public object PublicIps { get; set; }
 
 public_ips block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
 
 ---
 
@@ -3990,7 +3990,7 @@ public string PublicIpSku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}.
 
 ---
 
@@ -4011,8 +4011,8 @@ new StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.privateIpAddressVersion">PrivateIpAddressVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.privateIpAddressVersion">PrivateIpAddressVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}. |
 
 ---
 
@@ -4024,7 +4024,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4036,7 +4036,7 @@ public string PrivateIpAddressVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}.
 
 ---
 
@@ -4057,8 +4057,8 @@ new StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4070,7 +4070,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4082,7 +4082,7 @@ public string NetworkResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4103,8 +4103,8 @@ new StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4116,7 +4116,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4128,7 +4128,7 @@ public string NetworkResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4149,8 +4149,8 @@ new StatefulNodeAzureNetworkNetworkInterfacePublicIps {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4162,7 +4162,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4174,7 +4174,7 @@ public string NetworkResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4195,8 +4195,8 @@ new StatefulNodeAzureOsDisk {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
 
 ---
 
@@ -4208,7 +4208,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4220,7 +4220,7 @@ public double SizeGb { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -4242,9 +4242,9 @@ new StatefulNodeAzureSchedulingTask {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.cronExpression">CronExpression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.cronExpression">CronExpression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -4256,7 +4256,7 @@ public string CronExpression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}.
 
 ---
 
@@ -4268,7 +4268,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
 
 ---
 
@@ -4280,7 +4280,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4316,7 +4316,7 @@ public object SourceVault { get; set; }
 
 source_vault block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
 
 ---
 
@@ -4330,7 +4330,7 @@ public object VaultCertificates { get; set; }
 
 vault_certificates block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
 
 ---
 
@@ -4351,8 +4351,8 @@ new StatefulNodeAzureSecretSourceVault {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
 
 ---
 
@@ -4364,7 +4364,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4376,7 +4376,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -4397,8 +4397,8 @@ new StatefulNodeAzureSecretVaultCertificates {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateStore">CertificateStore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateUrl">CertificateUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateStore">CertificateStore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateUrl">CertificateUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}. |
 
 ---
 
@@ -4410,7 +4410,7 @@ public string CertificateStore { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}.
 
 ---
 
@@ -4422,7 +4422,7 @@ public string CertificateUrl { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}.
 
 ---
 
@@ -4443,8 +4443,8 @@ new StatefulNodeAzureSignal {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.timeout">Timeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.timeout">Timeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -4456,7 +4456,7 @@ public double Timeout { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}.
 
 ---
 
@@ -4468,7 +4468,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4492,10 +4492,10 @@ new StatefulNodeAzureStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.optimizationWindows">OptimizationWindows</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.preferredLifeCycle">PreferredLifeCycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.optimizationWindows">OptimizationWindows</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.preferredLifeCycle">PreferredLifeCycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.revertToSpot">RevertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot">StatefulNodeAzureStrategyRevertToSpot</a></code> | revert_to_spot block. |
 
 ---
@@ -4508,7 +4508,7 @@ public object FallbackToOnDemand { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}.
 
 ---
 
@@ -4520,7 +4520,7 @@ public double DrainingTimeout { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
 
 ---
 
@@ -4532,7 +4532,7 @@ public string[] OptimizationWindows { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}.
 
 ---
 
@@ -4544,7 +4544,7 @@ public string PreferredLifeCycle { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}.
 
 ---
 
@@ -4558,7 +4558,7 @@ public StatefulNodeAzureStrategyRevertToSpot RevertToSpot { get; set; }
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
 
 ---
 
@@ -4578,7 +4578,7 @@ new StatefulNodeAzureStrategyRevertToSpot {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.property.performAt">PerformAt</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.property.performAt">PerformAt</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}. |
 
 ---
 
@@ -4590,7 +4590,7 @@ public string PerformAt { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}.
 
 ---
 
@@ -4611,8 +4611,8 @@ new StatefulNodeAzureTag {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagKey">TagKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagValue">TagValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagKey">TagKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagValue">TagValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}. |
 
 ---
 
@@ -4624,7 +4624,7 @@ public string TagKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}.
 
 ---
 
@@ -4636,7 +4636,7 @@ public string TagValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}.
 
 ---
 
@@ -4656,7 +4656,7 @@ new StatefulNodeAzureUpdateState {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.property.state">State</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.property.state">State</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}. |
 
 ---
 
@@ -4668,7 +4668,7 @@ public string State { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}.
 
 ---
 

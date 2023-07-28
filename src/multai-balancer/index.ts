@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer
+// https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,44 +13,44 @@ import * as cdktf from 'cdktf';
 
 export interface MultaiBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}
   */
   readonly dnsCnameAliases?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#id MultaiBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#id MultaiBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#name MultaiBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#name MultaiBalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}
   */
   readonly scheme?: string;
   /**
   * connection_timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#connection_timeouts MultaiBalancer#connection_timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#connection_timeouts MultaiBalancer#connection_timeouts}
   */
   readonly connectionTimeouts?: MultaiBalancerConnectionTimeouts;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#tags MultaiBalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#tags MultaiBalancer#tags}
   */
   readonly tags?: MultaiBalancerTags[] | cdktf.IResolvable;
 }
 export interface MultaiBalancerConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}
   */
   readonly draining?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}
   */
   readonly idle?: number;
 }
@@ -138,11 +138,11 @@ export class MultaiBalancerConnectionTimeoutsOutputReference extends cdktf.Compl
 }
 export interface MultaiBalancerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#key MultaiBalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#key MultaiBalancer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer#value MultaiBalancer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer#value MultaiBalancer#value}
   */
   readonly value: string;
 }
@@ -256,7 +256,7 @@ export class MultaiBalancerTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer spotinst_multai_balancer}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer spotinst_multai_balancer}
 */
 export class MultaiBalancer extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class MultaiBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.129.0/docs/resources/multai_balancer spotinst_multai_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_balancer spotinst_multai_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,7 +281,7 @@ export class MultaiBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_balancer',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.129.0',
+        providerVersion: '1.130.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
