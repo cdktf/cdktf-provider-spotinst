@@ -1,6 +1,6 @@
 # `spotinst_subscription`
 
-Refer to the Terraform Registory for docs: [`spotinst_subscription`](https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription).
+Refer to the Terraform Registory for docs: [`spotinst_subscription`](https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription).
 
 # `subscription` Submodule <a name="`subscription` Submodule" id="@cdktf/provider-spotinst.subscription"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_subscription`](https://reg
 
 ### Subscription <a name="Subscription" id="@cdktf/provider-spotinst.subscription.Subscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription spotinst_subscription}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription spotinst_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.subscription.Subscription.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.NewSubscription(scope Construct, id *string, config SubscriptionConfig) Subscription
 ```
@@ -284,7 +284,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.subscription.Subscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsConstruct(x interface{}) *bool
 ```
@@ -316,7 +316,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.subscription.Subscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ subscription.Subscription_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.subscription.Subscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 subscription.Subscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -661,7 +661,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.subscription.SubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/subscription"
 
 &subscription.SubscriptionConfig {
 	Connection: interface{},
@@ -691,12 +691,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/subscription"
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#endpoint Subscription#endpoint}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#event_type Subscription#event_type}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#protocol Subscription#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.resourceId">ResourceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#resource_id Subscription#resource_id}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.format">Format</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#format Subscription#format}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#id Subscription#id}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#endpoint Subscription#endpoint}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#event_type Subscription#event_type}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#protocol Subscription#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.resourceId">ResourceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#resource_id Subscription#resource_id}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.format">Format</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#format Subscription#format}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#id Subscription#id}. |
 
 ---
 
@@ -778,7 +778,7 @@ Endpoint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#endpoint Subscription#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#endpoint Subscription#endpoint}.
 
 ---
 
@@ -790,7 +790,7 @@ EventType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#event_type Subscription#event_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#event_type Subscription#event_type}.
 
 ---
 
@@ -802,7 +802,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#protocol Subscription#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#protocol Subscription#protocol}.
 
 ---
 
@@ -814,7 +814,7 @@ ResourceId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#resource_id Subscription#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#resource_id Subscription#resource_id}.
 
 ---
 
@@ -826,7 +826,7 @@ Format *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#format Subscription#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#format Subscription#format}.
 
 ---
 
@@ -838,7 +838,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/subscription#id Subscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/subscription#id Subscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

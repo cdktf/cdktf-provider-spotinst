@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener
+// https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface MultaiListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}
   */
   readonly balancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#id MultaiListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#id MultaiListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#port MultaiListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#port MultaiListener#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#protocol MultaiListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#protocol MultaiListener#protocol}
   */
   readonly protocol: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#tags MultaiListener#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#tags MultaiListener#tags}
   */
   readonly tags?: MultaiListenerTags[] | cdktf.IResolvable;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
   */
   readonly tlsConfig?: MultaiListenerTlsConfig;
 }
 export interface MultaiListenerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#key MultaiListener#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#key MultaiListener#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#value MultaiListener#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#value MultaiListener#value}
   */
   readonly value: string;
 }
@@ -164,27 +159,27 @@ export class MultaiListenerTagsList extends cdktf.ComplexList {
 }
 export interface MultaiListenerTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}
   */
   readonly certificateIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}
   */
   readonly cipherSuites: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#max_version MultaiListener#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#max_version MultaiListener#max_version}
   */
   readonly maxVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#min_version MultaiListener#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#min_version MultaiListener#min_version}
   */
   readonly minVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}
   */
   readonly preferServerCipherSuites: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}
   */
   readonly sessionTicketsDisabled: boolean | cdktf.IResolvable;
 }
@@ -346,7 +341,7 @@ export class MultaiListenerTlsConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener spotinst_multai_listener}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener spotinst_multai_listener}
 */
 export class MultaiListener extends cdktf.TerraformResource {
 
@@ -360,7 +355,7 @@ export class MultaiListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.130.0/docs/resources/multai_listener spotinst_multai_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.131.0/docs/resources/multai_listener spotinst_multai_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,7 +366,7 @@ export class MultaiListener extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_listener',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.130.0',
+        providerVersion: '1.131.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
