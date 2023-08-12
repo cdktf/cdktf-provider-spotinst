@@ -1,6 +1,6 @@
 # `spotinst_elastigroup_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws).
+Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws).
 
 # `elastigroupAws` Submodule <a name="`elastigroupAws` Submodule" id="@cdktf/provider-spotinst.elastigroupAws"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws`](https://
 
 ### ElastigroupAws <a name="ElastigroupAws" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer"></a>
 
@@ -123,37 +123,37 @@ elastigroupAws.ElastigroupAws(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.orientation">orientation</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.product">product</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.availabilityZones">availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.blockDevicesMode">block_devices_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.capacityUnit">capacity_unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.considerOdPricing">consider_od_pricing</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuCredits">cpu_credits</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.orientation">orientation</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.product">product</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.availabilityZones">availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.blockDevicesMode">block_devices_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.capacityUnit">capacity_unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.considerOdPricing">consider_od_pricing</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuCredits">cpu_credits</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuOptions">cpu_options</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions">ElastigroupAwsCpuOptions</a></code> | cpu_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.desiredCapacity">desired_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.desiredCapacity">desired_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsBlockDevice">ebs_block_device</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>]]</code> | ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsOptimized">ebs_optimized</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticIps">elastic_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticLoadBalancers">elastic_load_balancers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.enableMonitoring">enable_monitoring</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsOptimized">ebs_optimized</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticIps">elastic_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticLoadBalancers">elastic_load_balancers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.enableMonitoring">enable_monitoring</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ephemeralBlockDevice">ephemeral_block_device</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>]]</code> | ephemeral_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckGracePeriod">health_check_grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckUnhealthyDurationBeforeReplacement">health_check_unhealthy_duration_before_replacement</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.iamInstanceProfile">iam_instance_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckGracePeriod">health_check_grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckUnhealthyDurationBeforeReplacement">health_check_unhealthy_duration_before_replacement</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.iamInstanceProfile">iam_instance_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.images">images</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>]]</code> | images block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.immediateOdRecoverThreshold">immediate_od_recover_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesOndemand">instance_types_ondemand</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesPreferredSpot">instance_types_preferred_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesSpot">instance_types_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.immediateOdRecoverThreshold">immediate_od_recover_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesOndemand">instance_types_ondemand</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesPreferredSpot">instance_types_preferred_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesSpot">instance_types_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesWeights">instance_types_weights</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>]]</code> | instance_types_weights block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationBeanstalk">integration_beanstalk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk">ElastigroupAwsIntegrationBeanstalk</a></code> | integration_beanstalk block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationCodedeploy">integration_codedeploy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy">ElastigroupAwsIntegrationCodedeploy</a></code> | integration_codedeploy block. |
@@ -167,24 +167,24 @@ elastigroupAws.ElastigroupAws(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationRancher">integration_rancher</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher">ElastigroupAwsIntegrationRancher</a></code> | integration_rancher block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationRoute53">integration_route53</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53">ElastigroupAwsIntegrationRoute53</a></code> | integration_route53 block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.itf">itf</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>]]</code> | itf block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifetimePeriod">lifetime_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.maxSize">max_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifetimePeriod">lifetime_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.maxSize">max_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.metadataOptions">metadata_options</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | metadata_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minimumInstanceLifetime">minimum_instance_lifetime</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minSize">min_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minimumInstanceLifetime">minimum_instance_lifetime</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minSize">min_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.multaiTargetSets">multai_target_sets</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>]]</code> | multai_target_sets block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.multipleMetrics">multiple_metrics</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetrics">ElastigroupAwsMultipleMetrics</a></code> | multiple_metrics block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.networkInterface">network_interface</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>]]</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ondemandCount">ondemand_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.onDemandTypes">on_demand_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistBlockDevices">persist_block_devices</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistPrivateIp">persist_private_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistRootDevice">persist_root_device</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.placementTenancy">placement_tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.preferredAvailabilityZones">preferred_availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.privateIps">private_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.region">region</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ondemandCount">ondemand_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.onDemandTypes">on_demand_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistBlockDevices">persist_block_devices</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistPrivateIp">persist_private_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistRootDevice">persist_root_device</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.placementTenancy">placement_tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.preferredAvailabilityZones">preferred_availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.privateIps">private_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.region">region</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.resourceRequirements">resource_requirements</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements">ElastigroupAwsResourceRequirements</a>]]</code> | resource_requirements block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.resourceTagSpecification">resource_tag_specification</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>]]</code> | resource_tag_specification block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.revertToSpot">revert_to_spot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot">ElastigroupAwsRevertToSpot</a></code> | revert_to_spot block. |
@@ -193,20 +193,20 @@ elastigroupAws.ElastigroupAws(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scalingTargetPolicy">scaling_target_policy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>]]</code> | scaling_target_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scalingUpPolicy">scaling_up_policy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>]]</code> | scaling_up_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scheduledTask">scheduled_task</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>]]</code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.shutdownScript">shutdown_script</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.shutdownScript">shutdown_script</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.signal">signal</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>]]</code> | signal block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.statefulDeallocation">stateful_deallocation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation">ElastigroupAwsStatefulDeallocation</a></code> | stateful_deallocation block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.statefulInstanceAction">stateful_instance_action</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>]]</code> | stateful_instance_action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.tags">tags</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>]]</code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.targetGroupArns">target_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.targetGroupArns">target_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.updatePolicy">update_policy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy">ElastigroupAwsUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeCommitments">utilize_commitments</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeReservedInstances">utilize_reserved_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacity">wait_for_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacityTimeout">wait_for_capacity_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeCommitments">utilize_commitments</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeReservedInstances">utilize_reserved_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacity">wait_for_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacityTimeout">wait_for_capacity_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
 
 ---
 
@@ -274,7 +274,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
 
 ---
 
@@ -282,7 +282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -290,7 +290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
 
 ---
 
@@ -298,7 +298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
 
 ---
 
@@ -306,7 +306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
 
 ---
 
@@ -314,7 +314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
 
 ---
 
@@ -322,7 +322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
 
 ---
 
@@ -330,7 +330,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
 
 ---
 
@@ -338,7 +338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
 
 ---
 
@@ -346,7 +346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
 
 ---
 
@@ -356,7 +356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 cpu_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
 
 ---
 
@@ -364,7 +364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -372,7 +372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
 
 ---
 
@@ -380,7 +380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -390,7 +390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
 
 ---
 
@@ -398,7 +398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
 
 ---
 
@@ -406,7 +406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
 
 ---
 
@@ -414,7 +414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
 
 ---
 
@@ -422,7 +422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
 
 ---
 
@@ -432,7 +432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 ephemeral_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
 
 ---
 
@@ -440,7 +440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
 
 ---
 
@@ -448,7 +448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -456,7 +456,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
 
 ---
 
@@ -464,7 +464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
 
 ---
 
@@ -472,7 +472,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -483,7 +483,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
 
 ---
 
@@ -493,7 +493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
 
 ---
 
@@ -501,7 +501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
 
 ---
 
@@ -509,7 +509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
 
 ---
 
@@ -517,7 +517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
 
 ---
 
@@ -525,7 +525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
 
 ---
 
@@ -535,7 +535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 instance_types_weights block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
 
 ---
 
@@ -545,7 +545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_beanstalk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
 
 ---
 
@@ -555,7 +555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_codedeploy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
 
 ---
 
@@ -565,7 +565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_docker_swarm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
 
 ---
 
@@ -575,7 +575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_ecs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
 
 ---
 
@@ -585,7 +585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_gitlab block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
 
 ---
 
@@ -595,7 +595,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_kubernetes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
 
 ---
 
@@ -605,7 +605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_mesosphere block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
 
 ---
 
@@ -615,7 +615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_multai_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
 
 ---
 
@@ -625,7 +625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_nomad block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
 
 ---
 
@@ -635,7 +635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_rancher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
 
 ---
 
@@ -645,7 +645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_route53 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
 
 ---
 
@@ -655,7 +655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 itf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
 
 ---
 
@@ -663,7 +663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
 
 ---
 
@@ -671,7 +671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
 
 ---
 
@@ -679,7 +679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
 
 ---
 
@@ -689,7 +689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 metadata_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
 
 ---
 
@@ -697,7 +697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
 
 ---
 
@@ -705,7 +705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
 
 ---
 
@@ -715,7 +715,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 multai_target_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
 
 ---
 
@@ -725,7 +725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 multiple_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
 
 ---
 
@@ -735,7 +735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
 
 ---
 
@@ -743,7 +743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
 
 ---
 
@@ -751,7 +751,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
 
 ---
 
@@ -759,7 +759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
 
 ---
 
@@ -767,7 +767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
 
 ---
 
@@ -775,7 +775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
 
 ---
 
@@ -783,7 +783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
 
 ---
 
@@ -791,7 +791,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
 
 ---
 
@@ -799,7 +799,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
 
 ---
 
@@ -807,7 +807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
 
 ---
 
@@ -817,7 +817,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 resource_requirements block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
 
 ---
 
@@ -827,7 +827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 resource_tag_specification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
 
 ---
 
@@ -837,7 +837,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
 
 ---
 
@@ -847,7 +847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
 
 ---
 
@@ -857,7 +857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
 
 ---
 
@@ -867,7 +867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_target_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
 
 ---
 
@@ -877,7 +877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
 
 ---
 
@@ -887,7 +887,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
 
 ---
 
@@ -895,7 +895,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
 
 ---
 
@@ -905,7 +905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
 
 ---
 
@@ -913,7 +913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
 
 ---
 
@@ -923,7 +923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 stateful_deallocation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
 
 ---
 
@@ -933,7 +933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 stateful_instance_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
 
 ---
 
@@ -941,7 +941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
 
 ---
 
@@ -951,7 +951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -959,7 +959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
 
 ---
 
@@ -969,7 +969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
 
 ---
 
@@ -977,7 +977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
 
 ---
 
@@ -985,7 +985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
 
 ---
 
@@ -993,7 +993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
 
 ---
 
@@ -1001,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
 
 ---
 
@@ -1370,7 +1370,7 @@ def put_cpu_options(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
 
 ---
 
@@ -1446,7 +1446,7 @@ def put_integration_beanstalk(
 
 deployment_preferences block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
 
 ---
 
@@ -1454,7 +1454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
 
 ---
 
@@ -1464,7 +1464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 managed_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
 
 ---
 
@@ -1482,7 +1482,7 @@ def put_integration_codedeploy(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
 
 ---
 
@@ -1492,7 +1492,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 deployment_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
 
 ---
 
@@ -1500,7 +1500,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
 
 ---
 
@@ -1521,7 +1521,7 @@ def put_integration_docker_swarm(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -1529,7 +1529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -1547,7 +1547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -1557,7 +1557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -1565,7 +1565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -1589,7 +1589,7 @@ def put_integration_ecs(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
 
 ---
 
@@ -1599,7 +1599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
 
 ---
 
@@ -1607,7 +1607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -1617,7 +1617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -1627,7 +1627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -1643,7 +1643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -1651,7 +1651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
 
 ---
 
@@ -1661,7 +1661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 batch block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
 
 ---
 
@@ -1679,7 +1679,7 @@ def put_integration_gitlab(
 
 runner block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
 
 ---
 
@@ -1704,7 +1704,7 @@ def put_integration_kubernetes(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -1712,7 +1712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -1722,7 +1722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -1732,7 +1732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -1740,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -1748,7 +1748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -1758,7 +1758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
 
 ---
 
@@ -1766,7 +1766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
 
 ---
 
@@ -1774,7 +1774,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
 
 ---
 
@@ -1782,7 +1782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
 
 ---
 
@@ -1798,7 +1798,7 @@ def put_integration_mesosphere(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -1814,7 +1814,7 @@ def put_integration_multai_runtime(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
 
 ---
 
@@ -1837,7 +1837,7 @@ def put_integration_nomad(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -1845,7 +1845,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -1853,7 +1853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
 
 ---
 
@@ -1863,7 +1863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_constraints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
 
 ---
 
@@ -1871,7 +1871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -1881,7 +1881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -1891,7 +1891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -1899,7 +1899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -1918,7 +1918,7 @@ def put_integration_rancher(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
 
 ---
 
@@ -1926,7 +1926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -1934,7 +1934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
 
 ---
 
@@ -1942,7 +1942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
 
 ---
 
@@ -1960,7 +1960,7 @@ def put_integration_route53(
 
 domains block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
 
 ---
 
@@ -1992,7 +1992,7 @@ def put_metadata_options(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
 
 ---
 
@@ -2000,7 +2000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
 
 ---
 
@@ -2008,7 +2008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
 
 ---
 
@@ -2041,7 +2041,7 @@ def put_multiple_metrics(
 
 expressions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
 
 ---
 
@@ -2051,7 +2051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
 
 ---
 
@@ -2110,7 +2110,7 @@ def put_revert_to_spot(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -2118,7 +2118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
 
 ---
 
@@ -2221,7 +2221,7 @@ def put_stateful_deallocation(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
 
 ---
 
@@ -2229,7 +2229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
 
 ---
 
@@ -2237,7 +2237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
 
 ---
 
@@ -2245,7 +2245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
 
 ---
 
@@ -2292,7 +2292,7 @@ def put_update_policy(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
 
 ---
 
@@ -2300,7 +2300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
 
 ---
 
@@ -2308,7 +2308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
 
 ---
 
@@ -2318,7 +2318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
 
 ---
 
@@ -5016,37 +5016,37 @@ elastigroupAws.ElastigroupAwsConfig(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.orientation">orientation</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.product">product</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.availabilityZones">availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.blockDevicesMode">block_devices_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.capacityUnit">capacity_unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.considerOdPricing">consider_od_pricing</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuCredits">cpu_credits</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.orientation">orientation</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.product">product</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.securityGroups">security_groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.availabilityZones">availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.blockDevicesMode">block_devices_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.capacityUnit">capacity_unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.considerOdPricing">consider_od_pricing</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuCredits">cpu_credits</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuOptions">cpu_options</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions">ElastigroupAwsCpuOptions</a></code> | cpu_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.desiredCapacity">desired_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.desiredCapacity">desired_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsBlockDevice">ebs_block_device</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>]]</code> | ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsOptimized">ebs_optimized</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticIps">elastic_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticLoadBalancers">elastic_load_balancers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.enableMonitoring">enable_monitoring</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsOptimized">ebs_optimized</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticIps">elastic_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticLoadBalancers">elastic_load_balancers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.enableMonitoring">enable_monitoring</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ephemeralBlockDevice">ephemeral_block_device</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>]]</code> | ephemeral_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckGracePeriod">health_check_grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckUnhealthyDurationBeforeReplacement">health_check_unhealthy_duration_before_replacement</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.iamInstanceProfile">iam_instance_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckGracePeriod">health_check_grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckUnhealthyDurationBeforeReplacement">health_check_unhealthy_duration_before_replacement</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.iamInstanceProfile">iam_instance_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.images">images</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>]]</code> | images block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.immediateOdRecoverThreshold">immediate_od_recover_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesOndemand">instance_types_ondemand</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesPreferredSpot">instance_types_preferred_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesSpot">instance_types_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.immediateOdRecoverThreshold">immediate_od_recover_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesOndemand">instance_types_ondemand</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesPreferredSpot">instance_types_preferred_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesSpot">instance_types_spot</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesWeights">instance_types_weights</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>]]</code> | instance_types_weights block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationBeanstalk">integration_beanstalk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk">ElastigroupAwsIntegrationBeanstalk</a></code> | integration_beanstalk block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationCodedeploy">integration_codedeploy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy">ElastigroupAwsIntegrationCodedeploy</a></code> | integration_codedeploy block. |
@@ -5060,24 +5060,24 @@ elastigroupAws.ElastigroupAwsConfig(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationRancher">integration_rancher</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher">ElastigroupAwsIntegrationRancher</a></code> | integration_rancher block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationRoute53">integration_route53</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53">ElastigroupAwsIntegrationRoute53</a></code> | integration_route53 block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.itf">itf</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>]]</code> | itf block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifetimePeriod">lifetime_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.maxSize">max_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifetimePeriod">lifetime_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.maxSize">max_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.metadataOptions">metadata_options</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | metadata_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minimumInstanceLifetime">minimum_instance_lifetime</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minSize">min_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minimumInstanceLifetime">minimum_instance_lifetime</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minSize">min_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.multaiTargetSets">multai_target_sets</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>]]</code> | multai_target_sets block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.multipleMetrics">multiple_metrics</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetrics">ElastigroupAwsMultipleMetrics</a></code> | multiple_metrics block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.networkInterface">network_interface</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>]]</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ondemandCount">ondemand_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.onDemandTypes">on_demand_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistBlockDevices">persist_block_devices</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistPrivateIp">persist_private_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistRootDevice">persist_root_device</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.placementTenancy">placement_tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.preferredAvailabilityZones">preferred_availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.privateIps">private_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.region">region</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ondemandCount">ondemand_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.onDemandTypes">on_demand_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistBlockDevices">persist_block_devices</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistPrivateIp">persist_private_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistRootDevice">persist_root_device</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.placementTenancy">placement_tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.preferredAvailabilityZones">preferred_availability_zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.privateIps">private_ips</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.region">region</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.resourceRequirements">resource_requirements</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements">ElastigroupAwsResourceRequirements</a>]]</code> | resource_requirements block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.resourceTagSpecification">resource_tag_specification</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>]]</code> | resource_tag_specification block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.revertToSpot">revert_to_spot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot">ElastigroupAwsRevertToSpot</a></code> | revert_to_spot block. |
@@ -5086,20 +5086,20 @@ elastigroupAws.ElastigroupAwsConfig(
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scalingTargetPolicy">scaling_target_policy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>]]</code> | scaling_target_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scalingUpPolicy">scaling_up_policy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>]]</code> | scaling_up_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scheduledTask">scheduled_task</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>]]</code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.shutdownScript">shutdown_script</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.shutdownScript">shutdown_script</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.signal">signal</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>]]</code> | signal block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.statefulDeallocation">stateful_deallocation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation">ElastigroupAwsStatefulDeallocation</a></code> | stateful_deallocation block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.statefulInstanceAction">stateful_instance_action</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>]]</code> | stateful_instance_action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.subnetIds">subnet_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.tags">tags</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>]]</code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.targetGroupArns">target_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.targetGroupArns">target_group_arns</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.updatePolicy">update_policy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy">ElastigroupAwsUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeCommitments">utilize_commitments</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeReservedInstances">utilize_reserved_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacity">wait_for_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacityTimeout">wait_for_capacity_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeCommitments">utilize_commitments</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeReservedInstances">utilize_reserved_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacity">wait_for_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacityTimeout">wait_for_capacity_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
 
 ---
 
@@ -5181,7 +5181,7 @@ fallback_to_ondemand: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
 
 ---
 
@@ -5193,7 +5193,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -5205,7 +5205,7 @@ orientation: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
 
 ---
 
@@ -5217,7 +5217,7 @@ product: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
 
 ---
 
@@ -5229,7 +5229,7 @@ security_groups: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
 
 ---
 
@@ -5241,7 +5241,7 @@ availability_zones: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
 
 ---
 
@@ -5253,7 +5253,7 @@ block_devices_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
 
 ---
 
@@ -5265,7 +5265,7 @@ capacity_unit: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
 
 ---
 
@@ -5277,7 +5277,7 @@ consider_od_pricing: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
 
 ---
 
@@ -5289,7 +5289,7 @@ cpu_credits: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
 
 ---
 
@@ -5303,7 +5303,7 @@ cpu_options: ElastigroupAwsCpuOptions
 
 cpu_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
 
 ---
 
@@ -5315,7 +5315,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -5327,7 +5327,7 @@ desired_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
 
 ---
 
@@ -5339,7 +5339,7 @@ draining_timeout: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -5353,7 +5353,7 @@ ebs_block_device: typing.Union[IResolvable, typing.List[ElastigroupAwsEbsBlockDe
 
 ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
 
 ---
 
@@ -5365,7 +5365,7 @@ ebs_optimized: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
 
 ---
 
@@ -5377,7 +5377,7 @@ elastic_ips: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
 
 ---
 
@@ -5389,7 +5389,7 @@ elastic_load_balancers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
 
 ---
 
@@ -5401,7 +5401,7 @@ enable_monitoring: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
 
 ---
 
@@ -5415,7 +5415,7 @@ ephemeral_block_device: typing.Union[IResolvable, typing.List[ElastigroupAwsEphe
 
 ephemeral_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
 
 ---
 
@@ -5427,7 +5427,7 @@ health_check_grace_period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
 
 ---
 
@@ -5439,7 +5439,7 @@ health_check_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -5451,7 +5451,7 @@ health_check_unhealthy_duration_before_replacement: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
 
 ---
 
@@ -5463,7 +5463,7 @@ iam_instance_profile: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
 
 ---
 
@@ -5475,7 +5475,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5490,7 +5490,7 @@ image_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
 
 ---
 
@@ -5504,7 +5504,7 @@ images: typing.Union[IResolvable, typing.List[ElastigroupAwsImages]]
 
 images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
 
 ---
 
@@ -5516,7 +5516,7 @@ immediate_od_recover_threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
 
 ---
 
@@ -5528,7 +5528,7 @@ instance_types_ondemand: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
 
 ---
 
@@ -5540,7 +5540,7 @@ instance_types_preferred_spot: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
 
 ---
 
@@ -5552,7 +5552,7 @@ instance_types_spot: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
 
 ---
 
@@ -5566,7 +5566,7 @@ instance_types_weights: typing.Union[IResolvable, typing.List[ElastigroupAwsInst
 
 instance_types_weights block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
 
 ---
 
@@ -5580,7 +5580,7 @@ integration_beanstalk: ElastigroupAwsIntegrationBeanstalk
 
 integration_beanstalk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
 
 ---
 
@@ -5594,7 +5594,7 @@ integration_codedeploy: ElastigroupAwsIntegrationCodedeploy
 
 integration_codedeploy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
 
 ---
 
@@ -5608,7 +5608,7 @@ integration_docker_swarm: ElastigroupAwsIntegrationDockerSwarm
 
 integration_docker_swarm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
 
 ---
 
@@ -5622,7 +5622,7 @@ integration_ecs: ElastigroupAwsIntegrationEcs
 
 integration_ecs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
 
 ---
 
@@ -5636,7 +5636,7 @@ integration_gitlab: ElastigroupAwsIntegrationGitlab
 
 integration_gitlab block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
 
 ---
 
@@ -5650,7 +5650,7 @@ integration_kubernetes: ElastigroupAwsIntegrationKubernetes
 
 integration_kubernetes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
 
 ---
 
@@ -5664,7 +5664,7 @@ integration_mesosphere: ElastigroupAwsIntegrationMesosphere
 
 integration_mesosphere block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
 
 ---
 
@@ -5678,7 +5678,7 @@ integration_multai_runtime: ElastigroupAwsIntegrationMultaiRuntime
 
 integration_multai_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
 
 ---
 
@@ -5692,7 +5692,7 @@ integration_nomad: ElastigroupAwsIntegrationNomad
 
 integration_nomad block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
 
 ---
 
@@ -5706,7 +5706,7 @@ integration_rancher: ElastigroupAwsIntegrationRancher
 
 integration_rancher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
 
 ---
 
@@ -5720,7 +5720,7 @@ integration_route53: ElastigroupAwsIntegrationRoute53
 
 integration_route53 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
 
 ---
 
@@ -5734,7 +5734,7 @@ itf: typing.Union[IResolvable, typing.List[ElastigroupAwsItf]]
 
 itf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
 
 ---
 
@@ -5746,7 +5746,7 @@ key_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
 
 ---
 
@@ -5758,7 +5758,7 @@ lifetime_period: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
 
 ---
 
@@ -5770,7 +5770,7 @@ max_size: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
 
 ---
 
@@ -5784,7 +5784,7 @@ metadata_options: ElastigroupAwsMetadataOptions
 
 metadata_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
 
 ---
 
@@ -5796,7 +5796,7 @@ minimum_instance_lifetime: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
 
 ---
 
@@ -5808,7 +5808,7 @@ min_size: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
 
 ---
 
@@ -5822,7 +5822,7 @@ multai_target_sets: typing.Union[IResolvable, typing.List[ElastigroupAwsMultaiTa
 
 multai_target_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
 
 ---
 
@@ -5836,7 +5836,7 @@ multiple_metrics: ElastigroupAwsMultipleMetrics
 
 multiple_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
 
 ---
 
@@ -5850,7 +5850,7 @@ network_interface: typing.Union[IResolvable, typing.List[ElastigroupAwsNetworkIn
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
 
 ---
 
@@ -5862,7 +5862,7 @@ ondemand_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
 
 ---
 
@@ -5874,7 +5874,7 @@ on_demand_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
 
 ---
 
@@ -5886,7 +5886,7 @@ persist_block_devices: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
 
 ---
 
@@ -5898,7 +5898,7 @@ persist_private_ip: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
 
 ---
 
@@ -5910,7 +5910,7 @@ persist_root_device: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
 
 ---
 
@@ -5922,7 +5922,7 @@ placement_tenancy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
 
 ---
 
@@ -5934,7 +5934,7 @@ preferred_availability_zones: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
 
 ---
 
@@ -5946,7 +5946,7 @@ private_ips: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
 
 ---
 
@@ -5958,7 +5958,7 @@ region: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
 
 ---
 
@@ -5972,7 +5972,7 @@ resource_requirements: typing.Union[IResolvable, typing.List[ElastigroupAwsResou
 
 resource_requirements block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
 
 ---
 
@@ -5986,7 +5986,7 @@ resource_tag_specification: typing.Union[IResolvable, typing.List[ElastigroupAws
 
 resource_tag_specification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
 
 ---
 
@@ -6000,7 +6000,7 @@ revert_to_spot: ElastigroupAwsRevertToSpot
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
 
 ---
 
@@ -6014,7 +6014,7 @@ scaling_down_policy: typing.Union[IResolvable, typing.List[ElastigroupAwsScaling
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
 
 ---
 
@@ -6028,7 +6028,7 @@ scaling_strategy: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingStr
 
 scaling_strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
 
 ---
 
@@ -6042,7 +6042,7 @@ scaling_target_policy: typing.Union[IResolvable, typing.List[ElastigroupAwsScali
 
 scaling_target_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
 
 ---
 
@@ -6056,7 +6056,7 @@ scaling_up_policy: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingUp
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
 
 ---
 
@@ -6070,7 +6070,7 @@ scheduled_task: typing.Union[IResolvable, typing.List[ElastigroupAwsScheduledTas
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
 
 ---
 
@@ -6082,7 +6082,7 @@ shutdown_script: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
 
 ---
 
@@ -6096,7 +6096,7 @@ signal: typing.Union[IResolvable, typing.List[ElastigroupAwsSignal]]
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
 
 ---
 
@@ -6108,7 +6108,7 @@ spot_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
 
 ---
 
@@ -6122,7 +6122,7 @@ stateful_deallocation: ElastigroupAwsStatefulDeallocation
 
 stateful_deallocation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
 
 ---
 
@@ -6136,7 +6136,7 @@ stateful_instance_action: typing.Union[IResolvable, typing.List[ElastigroupAwsSt
 
 stateful_instance_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
 
 ---
 
@@ -6148,7 +6148,7 @@ subnet_ids: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
 
 ---
 
@@ -6162,7 +6162,7 @@ tags: typing.Union[IResolvable, typing.List[ElastigroupAwsTags]]
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -6174,7 +6174,7 @@ target_group_arns: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
 
 ---
 
@@ -6188,7 +6188,7 @@ update_policy: ElastigroupAwsUpdatePolicy
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
 
 ---
 
@@ -6200,7 +6200,7 @@ user_data: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
 
 ---
 
@@ -6212,7 +6212,7 @@ utilize_commitments: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
 
 ---
 
@@ -6224,7 +6224,7 @@ utilize_reserved_instances: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
 
 ---
 
@@ -6236,7 +6236,7 @@ wait_for_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
 
 ---
 
@@ -6248,7 +6248,7 @@ wait_for_capacity_timeout: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
 
 ---
 
@@ -6268,7 +6268,7 @@ elastigroupAws.ElastigroupAwsCpuOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions.property.threadsPerCore">threads_per_core</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions.property.threadsPerCore">threads_per_core</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}. |
 
 ---
 
@@ -6280,7 +6280,7 @@ threads_per_core: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
 
 ---
 
@@ -6308,15 +6308,15 @@ elastigroupAws.ElastigroupAwsEbsBlockDevice(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deleteOnTermination">delete_on_termination</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.encrypted">encrypted</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.throughput">throughput</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deleteOnTermination">delete_on_termination</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.encrypted">encrypted</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.throughput">throughput</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}. |
 
 ---
 
@@ -6328,7 +6328,7 @@ device_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
 
 ---
 
@@ -6340,7 +6340,7 @@ delete_on_termination: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
 
 ---
 
@@ -6352,7 +6352,7 @@ encrypted: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}.
 
 ---
 
@@ -6364,7 +6364,7 @@ iops: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}.
 
 ---
 
@@ -6376,7 +6376,7 @@ kms_key_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}.
 
 ---
 
@@ -6388,7 +6388,7 @@ snapshot_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}.
 
 ---
 
@@ -6400,7 +6400,7 @@ throughput: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}.
 
 ---
 
@@ -6412,7 +6412,7 @@ volume_size: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}.
 
 ---
 
@@ -6424,7 +6424,7 @@ volume_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}.
 
 ---
 
@@ -6445,8 +6445,8 @@ elastigroupAws.ElastigroupAwsEphemeralBlockDevice(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}. |
 
 ---
 
@@ -6458,7 +6458,7 @@ device_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
 
 ---
 
@@ -6470,7 +6470,7 @@ virtual_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}.
 
 ---
 
@@ -6504,7 +6504,7 @@ image: typing.Union[IResolvable, typing.List[ElastigroupAwsImagesImage]]
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#image ElastigroupAws#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#image ElastigroupAws#image}
 
 ---
 
@@ -6524,7 +6524,7 @@ elastigroupAws.ElastigroupAwsImagesImage(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
 
 ---
 
@@ -6536,7 +6536,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6560,8 +6560,8 @@ elastigroupAws.ElastigroupAwsInstanceTypesWeights(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.weight">weight</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.weight">weight</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}. |
 
 ---
 
@@ -6573,7 +6573,7 @@ instance_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}.
 
 ---
 
@@ -6585,7 +6585,7 @@ weight: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}.
 
 ---
 
@@ -6608,7 +6608,7 @@ elastigroupAws.ElastigroupAwsIntegrationBeanstalk(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.deploymentPreferences">deployment_preferences</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences">ElastigroupAwsIntegrationBeanstalkDeploymentPreferences</a></code> | deployment_preferences block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.environmentId">environment_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.environmentId">environment_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.managedActions">managed_actions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActions">ElastigroupAwsIntegrationBeanstalkManagedActions</a></code> | managed_actions block. |
 
 ---
@@ -6623,7 +6623,7 @@ deployment_preferences: ElastigroupAwsIntegrationBeanstalkDeploymentPreferences
 
 deployment_preferences block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
 
 ---
 
@@ -6635,7 +6635,7 @@ environment_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
 
 ---
 
@@ -6649,7 +6649,7 @@ managed_actions: ElastigroupAwsIntegrationBeanstalkManagedActions
 
 managed_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
 
 ---
 
@@ -6672,9 +6672,9 @@ elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.automaticRoll">automatic_roll</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.batchSizePercentage">batch_size_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.automaticRoll">automatic_roll</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.batchSizePercentage">batch_size_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.strategy">strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy">ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy</a></code> | strategy block. |
 
 ---
@@ -6687,7 +6687,7 @@ automatic_roll: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
 
 ---
 
@@ -6699,7 +6699,7 @@ batch_size_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -6711,7 +6711,7 @@ grace_period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -6725,7 +6725,7 @@ strategy: ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -6746,8 +6746,8 @@ elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.shouldDrainInstances">should_drain_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.shouldDrainInstances">should_drain_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
 
 ---
 
@@ -6759,7 +6759,7 @@ action: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -6771,7 +6771,7 @@ should_drain_instances: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -6805,7 +6805,7 @@ platform_update: ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate
 
 platform_update block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
 
 ---
 
@@ -6827,9 +6827,9 @@ elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.performAt">perform_at</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.timeWindow">time_window</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.updateLevel">update_level</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.performAt">perform_at</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.timeWindow">time_window</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.updateLevel">update_level</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}. |
 
 ---
 
@@ -6841,7 +6841,7 @@ perform_at: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -6853,7 +6853,7 @@ time_window: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
 
 ---
 
@@ -6865,7 +6865,7 @@ update_level: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
 
 ---
 
@@ -6887,9 +6887,9 @@ elastigroupAws.ElastigroupAwsIntegrationCodedeploy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.cleanupOnFailure">cleanup_on_failure</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.cleanupOnFailure">cleanup_on_failure</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.deploymentGroups">deployment_groups</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>]]</code> | deployment_groups block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.terminateInstanceOnFailure">terminate_instance_on_failure</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.terminateInstanceOnFailure">terminate_instance_on_failure</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}. |
 
 ---
 
@@ -6901,7 +6901,7 @@ cleanup_on_failure: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
 
 ---
 
@@ -6915,7 +6915,7 @@ deployment_groups: typing.Union[IResolvable, typing.List[ElastigroupAwsIntegrati
 
 deployment_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
 
 ---
 
@@ -6927,7 +6927,7 @@ terminate_instance_on_failure: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
 
 ---
 
@@ -6948,8 +6948,8 @@ elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.applicationName">application_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.deploymentGroupName">deployment_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.applicationName">application_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.deploymentGroupName">deployment_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}. |
 
 ---
 
@@ -6961,7 +6961,7 @@ application_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}.
 
 ---
 
@@ -6973,7 +6973,7 @@ deployment_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}.
 
 ---
 
@@ -6998,12 +6998,12 @@ elastigroupAws.ElastigroupAwsIntegrationDockerSwarm(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterPort">master_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterPort">master_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleDown">autoscale_down</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown">ElastigroupAwsIntegrationDockerSwarmAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleHeadroom">autoscale_headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom">ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 
 ---
 
@@ -7015,7 +7015,7 @@ master_host: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -7027,7 +7027,7 @@ master_port: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -7039,7 +7039,7 @@ autoscale_cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -7053,7 +7053,7 @@ autoscale_down: ElastigroupAwsIntegrationDockerSwarmAutoscaleDown
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -7067,7 +7067,7 @@ autoscale_headroom: ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7079,7 +7079,7 @@ autoscale_is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7100,8 +7100,8 @@ elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
 
 ---
 
@@ -7113,7 +7113,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7125,7 +7125,7 @@ max_scale_down_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -7147,9 +7147,9 @@ elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7161,7 +7161,7 @@ cpu_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7173,7 +7173,7 @@ memory_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7185,7 +7185,7 @@ num_of_units: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7213,14 +7213,14 @@ elastigroupAws.ElastigroupAwsIntegrationEcs(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.clusterName">cluster_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.clusterName">cluster_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleAttributes">autoscale_attributes</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>]]</code> | autoscale_attributes block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleDown">autoscale_down</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown">ElastigroupAwsIntegrationEcsAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleHeadroom">autoscale_headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom">ElastigroupAwsIntegrationEcsAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsAutoConfig">autoscale_is_auto_config</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleScaleDownNonServiceTasks">autoscale_scale_down_non_service_tasks</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsAutoConfig">autoscale_is_auto_config</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleScaleDownNonServiceTasks">autoscale_scale_down_non_service_tasks</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.batch">batch</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch">ElastigroupAwsIntegrationEcsBatch</a></code> | batch block. |
 
 ---
@@ -7233,7 +7233,7 @@ cluster_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
 
 ---
 
@@ -7247,7 +7247,7 @@ autoscale_attributes: typing.Union[IResolvable, typing.List[ElastigroupAwsIntegr
 
 autoscale_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
 
 ---
 
@@ -7259,7 +7259,7 @@ autoscale_cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -7273,7 +7273,7 @@ autoscale_down: ElastigroupAwsIntegrationEcsAutoscaleDown
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -7287,7 +7287,7 @@ autoscale_headroom: ElastigroupAwsIntegrationEcsAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7299,7 +7299,7 @@ autoscale_is_auto_config: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -7311,7 +7311,7 @@ autoscale_is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7323,7 +7323,7 @@ autoscale_scale_down_non_service_tasks: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
 
 ---
 
@@ -7337,7 +7337,7 @@ batch: ElastigroupAwsIntegrationEcsBatch
 
 batch block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
 
 ---
 
@@ -7358,8 +7358,8 @@ elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -7371,7 +7371,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -7383,7 +7383,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -7404,8 +7404,8 @@ elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
 
 ---
 
@@ -7417,7 +7417,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7429,7 +7429,7 @@ max_scale_down_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -7451,9 +7451,9 @@ elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7465,7 +7465,7 @@ cpu_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7477,7 +7477,7 @@ memory_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7489,7 +7489,7 @@ num_of_units: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7509,7 +7509,7 @@ elastigroupAws.ElastigroupAwsIntegrationEcsBatch(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch.property.jobQueueNames">job_queue_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch.property.jobQueueNames">job_queue_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}. |
 
 ---
 
@@ -7521,7 +7521,7 @@ job_queue_names: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
 
 ---
 
@@ -7555,7 +7555,7 @@ runner: ElastigroupAwsIntegrationGitlabRunner
 
 runner block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
 
 ---
 
@@ -7575,7 +7575,7 @@ elastigroupAws.ElastigroupAwsIntegrationGitlabRunner(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
 
 ---
 
@@ -7587,7 +7587,7 @@ is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -7616,16 +7616,16 @@ elastigroupAws.ElastigroupAwsIntegrationKubernetes(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.apiServer">api_server</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.apiServer">api_server</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleDown">autoscale_down</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown">ElastigroupAwsIntegrationKubernetesAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleHeadroom">autoscale_headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom">ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsAutoConfig">autoscale_is_auto_config</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsAutoConfig">autoscale_is_auto_config</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleLabels">autoscale_labels</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>]]</code> | autoscale_labels block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.clusterIdentifier">cluster_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.integrationMode">integration_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.token">token</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.clusterIdentifier">cluster_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.integrationMode">integration_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.token">token</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}. |
 
 ---
 
@@ -7637,7 +7637,7 @@ api_server: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -7649,7 +7649,7 @@ autoscale_cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -7663,7 +7663,7 @@ autoscale_down: ElastigroupAwsIntegrationKubernetesAutoscaleDown
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -7677,7 +7677,7 @@ autoscale_headroom: ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7689,7 +7689,7 @@ autoscale_is_auto_config: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -7701,7 +7701,7 @@ autoscale_is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7715,7 +7715,7 @@ autoscale_labels: typing.Union[IResolvable, typing.List[ElastigroupAwsIntegratio
 
 autoscale_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
 
 ---
 
@@ -7727,7 +7727,7 @@ cluster_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
 
 ---
 
@@ -7739,7 +7739,7 @@ integration_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
 
 ---
 
@@ -7751,7 +7751,7 @@ token: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
 
 ---
 
@@ -7771,7 +7771,7 @@ elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
 
 ---
 
@@ -7783,7 +7783,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7805,9 +7805,9 @@ elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7819,7 +7819,7 @@ cpu_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7831,7 +7831,7 @@ memory_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7843,7 +7843,7 @@ num_of_units: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7864,8 +7864,8 @@ elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -7877,7 +7877,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -7889,7 +7889,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -7909,7 +7909,7 @@ elastigroupAws.ElastigroupAwsIntegrationMesosphere(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphere.property.apiServer">api_server</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphere.property.apiServer">api_server</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
 
 ---
 
@@ -7921,7 +7921,7 @@ api_server: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -7941,7 +7941,7 @@ elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime.property.deploymentId">deployment_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime.property.deploymentId">deployment_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}. |
 
 ---
 
@@ -7953,7 +7953,7 @@ deployment_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
 
 ---
 
@@ -7980,14 +7980,14 @@ elastigroupAws.ElastigroupAwsIntegrationNomad(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterPort">master_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.aclToken">acl_token</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterPort">master_port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.aclToken">acl_token</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleConstraints">autoscale_constraints</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>]]</code> | autoscale_constraints block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleCooldown">autoscale_cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleDown">autoscale_down</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown">ElastigroupAwsIntegrationNomadAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleHeadroom">autoscale_headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom">ElastigroupAwsIntegrationNomadAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 
 ---
 
@@ -7999,7 +7999,7 @@ master_host: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -8011,7 +8011,7 @@ master_port: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -8023,7 +8023,7 @@ acl_token: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
 
 ---
 
@@ -8037,7 +8037,7 @@ autoscale_constraints: typing.Union[IResolvable, typing.List[ElastigroupAwsInteg
 
 autoscale_constraints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
 
 ---
 
@@ -8049,7 +8049,7 @@ autoscale_cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -8063,7 +8063,7 @@ autoscale_down: ElastigroupAwsIntegrationNomadAutoscaleDown
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -8077,7 +8077,7 @@ autoscale_headroom: ElastigroupAwsIntegrationNomadAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -8089,7 +8089,7 @@ autoscale_is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -8110,8 +8110,8 @@ elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -8123,7 +8123,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -8135,7 +8135,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -8155,7 +8155,7 @@ elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
 
 ---
 
@@ -8167,7 +8167,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -8189,9 +8189,9 @@ elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.cpuPerUnit">cpu_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.memoryPerUnit">memory_per_unit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.numOfUnits">num_of_units</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -8203,7 +8203,7 @@ cpu_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -8215,7 +8215,7 @@ memory_per_unit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -8227,7 +8227,7 @@ num_of_units: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -8250,10 +8250,10 @@ elastigroupAws.ElastigroupAwsIntegrationRancher(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.accessKey">access_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.secretKey">secret_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.accessKey">access_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.masterHost">master_host</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.secretKey">secret_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}. |
 
 ---
 
@@ -8265,7 +8265,7 @@ access_key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
 
 ---
 
@@ -8277,7 +8277,7 @@ master_host: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -8289,7 +8289,7 @@ secret_key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
 
 ---
 
@@ -8301,7 +8301,7 @@ version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
 
 ---
 
@@ -8335,7 +8335,7 @@ domains: typing.Union[IResolvable, typing.List[ElastigroupAwsIntegrationRoute53D
 
 domains block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
 
 ---
 
@@ -8358,10 +8358,10 @@ elastigroupAws.ElastigroupAwsIntegrationRoute53Domains(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.hostedZoneId">hosted_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.hostedZoneId">hosted_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSets">record_sets</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>]]</code> | record_sets block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSetType">record_set_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.spotinstAcctId">spotinst_acct_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSetType">record_set_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.spotinstAcctId">spotinst_acct_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}. |
 
 ---
 
@@ -8373,7 +8373,7 @@ hosted_zone_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}.
 
 ---
 
@@ -8387,7 +8387,7 @@ record_sets: typing.Union[IResolvable, typing.List[ElastigroupAwsIntegrationRout
 
 record_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
 
 ---
 
@@ -8399,7 +8399,7 @@ record_set_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}.
 
 ---
 
@@ -8411,7 +8411,7 @@ spotinst_acct_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}.
 
 ---
 
@@ -8433,9 +8433,9 @@ elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicDns">use_public_dns</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicIp">use_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicDns">use_public_dns</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicIp">use_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}. |
 
 ---
 
@@ -8447,7 +8447,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -8459,7 +8459,7 @@ use_public_dns: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}.
 
 ---
 
@@ -8471,7 +8471,7 @@ use_public_ip: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}.
 
 ---
 
@@ -8496,12 +8496,12 @@ elastigroupAws.ElastigroupAwsItf(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.fixedTargetGroups">fixed_target_groups</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.fixedTargetGroups">fixed_target_groups</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.loadBalancer">load_balancer</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>]]</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.targetGroupConfig">target_group_config</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>]]</code> | target_group_config block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.weightStrategy">weight_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.weightStrategy">weight_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.defaultStaticTargetGroup">default_static_target_group</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup">ElastigroupAwsItfDefaultStaticTargetGroup</a></code> | default_static_target_group block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.migrationHealthinessThreshold">migration_healthiness_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.migrationHealthinessThreshold">migration_healthiness_threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}. |
 
 ---
 
@@ -8513,7 +8513,7 @@ fixed_target_groups: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}.
 
 ---
 
@@ -8527,7 +8527,7 @@ load_balancer: typing.Union[IResolvable, typing.List[ElastigroupAwsItfLoadBalanc
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
 
 ---
 
@@ -8541,7 +8541,7 @@ target_group_config: typing.Union[IResolvable, typing.List[ElastigroupAwsItfTarg
 
 target_group_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
 
 ---
 
@@ -8553,7 +8553,7 @@ weight_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}.
 
 ---
 
@@ -8567,7 +8567,7 @@ default_static_target_group: ElastigroupAwsItfDefaultStaticTargetGroup
 
 default_static_target_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
 
 ---
 
@@ -8579,7 +8579,7 @@ migration_healthiness_threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}.
 
 ---
 
@@ -8600,8 +8600,8 @@ elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
 
 ---
 
@@ -8613,7 +8613,7 @@ arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -8625,7 +8625,7 @@ percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -8647,7 +8647,7 @@ elastigroupAws.ElastigroupAwsItfLoadBalancer(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.listenerRule">listener_rule</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>]]</code> | listener_rule block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.loadBalancerArn">load_balancer_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.loadBalancerArn">load_balancer_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}. |
 
 ---
 
@@ -8661,7 +8661,7 @@ listener_rule: typing.Union[IResolvable, typing.List[ElastigroupAwsItfLoadBalanc
 
 listener_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
 
 ---
 
@@ -8673,7 +8673,7 @@ load_balancer_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}.
 
 ---
 
@@ -8694,7 +8694,7 @@ elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.ruleArn">rule_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.ruleArn">rule_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.staticTargetGroup">static_target_group</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup">ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup</a></code> | static_target_group block. |
 
 ---
@@ -8707,7 +8707,7 @@ rule_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}.
 
 ---
 
@@ -8721,7 +8721,7 @@ static_target_group: ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup
 
 static_target_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
 
 ---
 
@@ -8742,8 +8742,8 @@ elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
 
 ---
 
@@ -8755,7 +8755,7 @@ arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -8767,7 +8767,7 @@ percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -8799,19 +8799,19 @@ elastigroupAws.ElastigroupAwsItfTargetGroupConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPath">health_check_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.vpcId">vpc_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckIntervalSeconds">health_check_interval_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPort">health_check_port</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckProtocol">health_check_protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckTimeoutSeconds">health_check_timeout_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthyThresholdCount">healthy_threshold_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPath">health_check_path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.vpcId">vpc_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckIntervalSeconds">health_check_interval_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPort">health_check_port</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckProtocol">health_check_protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckTimeoutSeconds">health_check_timeout_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthyThresholdCount">healthy_threshold_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.matcher">matcher</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>]]</code> | matcher block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocolVersion">protocol_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocolVersion">protocol_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.tags">tags</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>]]</code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.unhealthyThresholdCount">unhealthy_threshold_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.unhealthyThresholdCount">unhealthy_threshold_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}. |
 
 ---
 
@@ -8823,7 +8823,7 @@ health_check_path: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}.
 
 ---
 
@@ -8835,7 +8835,7 @@ port: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}.
 
 ---
 
@@ -8847,7 +8847,7 @@ protocol: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}.
 
 ---
 
@@ -8859,7 +8859,7 @@ vpc_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}.
 
 ---
 
@@ -8871,7 +8871,7 @@ health_check_interval_seconds: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}.
 
 ---
 
@@ -8883,7 +8883,7 @@ health_check_port: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}.
 
 ---
 
@@ -8895,7 +8895,7 @@ health_check_protocol: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}.
 
 ---
 
@@ -8907,7 +8907,7 @@ health_check_timeout_seconds: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}.
 
 ---
 
@@ -8919,7 +8919,7 @@ healthy_threshold_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}.
 
 ---
 
@@ -8933,7 +8933,7 @@ matcher: typing.Union[IResolvable, typing.List[ElastigroupAwsItfTargetGroupConfi
 
 matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
 
 ---
 
@@ -8945,7 +8945,7 @@ protocol_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}.
 
 ---
 
@@ -8959,7 +8959,7 @@ tags: typing.Union[IResolvable, typing.List[ElastigroupAwsItfTargetGroupConfigTa
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -8971,7 +8971,7 @@ unhealthy_threshold_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}.
 
 ---
 
@@ -8992,8 +8992,8 @@ elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.grpcCode">grpc_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.httpCode">http_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.grpcCode">grpc_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.httpCode">http_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}. |
 
 ---
 
@@ -9005,7 +9005,7 @@ grpc_code: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}.
 
 ---
 
@@ -9017,7 +9017,7 @@ http_code: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}.
 
 ---
 
@@ -9038,8 +9038,8 @@ elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagKey">tag_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagValue">tag_value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagKey">tag_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagValue">tag_value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}. |
 
 ---
 
@@ -9051,7 +9051,7 @@ tag_key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}.
 
 ---
 
@@ -9063,7 +9063,7 @@ tag_value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}.
 
 ---
 
@@ -9085,9 +9085,9 @@ elastigroupAws.ElastigroupAwsMetadataOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">http_tokens</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">http_put_response_hop_limit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">instance_metadata_tags</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">http_tokens</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">http_put_response_hop_limit</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">instance_metadata_tags</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
 
 ---
 
@@ -9099,7 +9099,7 @@ http_tokens: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
 
 ---
 
@@ -9111,7 +9111,7 @@ http_put_response_hop_limit: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
 
 ---
 
@@ -9123,7 +9123,7 @@ instance_metadata_tags: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
 
 ---
 
@@ -9144,8 +9144,8 @@ elastigroupAws.ElastigroupAwsMultaiTargetSets(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.targetSetId">target_set_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.targetSetId">target_set_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}. |
 
 ---
 
@@ -9157,7 +9157,7 @@ balancer_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}.
 
 ---
 
@@ -9169,7 +9169,7 @@ target_set_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}.
 
 ---
 
@@ -9205,7 +9205,7 @@ expressions: typing.Union[IResolvable, typing.List[ElastigroupAwsMultipleMetrics
 
 expressions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
 
 ---
 
@@ -9219,7 +9219,7 @@ metrics: typing.Union[IResolvable, typing.List[ElastigroupAwsMultipleMetricsMetr
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
 
 ---
 
@@ -9240,8 +9240,8 @@ elastigroupAws.ElastigroupAwsMultipleMetricsExpressions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
 
 ---
 
@@ -9253,7 +9253,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}.
 
 ---
 
@@ -9265,7 +9265,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9291,13 +9291,13 @@ elastigroupAws.ElastigroupAwsMultipleMetricsMetrics(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.dimensions">dimensions</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>]]</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.extendedStatistic">extended_statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.extendedStatistic">extended_statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -9309,7 +9309,7 @@ metric_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -9321,7 +9321,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9333,7 +9333,7 @@ namespace: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -9347,7 +9347,7 @@ dimensions: typing.Union[IResolvable, typing.List[ElastigroupAwsMultipleMetricsM
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -9359,7 +9359,7 @@ extended_statistic: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}.
 
 ---
 
@@ -9371,7 +9371,7 @@ statistic: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -9383,7 +9383,7 @@ unit: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -9404,8 +9404,8 @@ elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -9417,7 +9417,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9429,7 +9429,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -9456,14 +9456,14 @@ elastigroupAws.ElastigroupAwsNetworkInterface(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deviceIndex">device_index</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associateIpv6Address">associate_ipv6_address</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deleteOnTermination">delete_on_termination</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deviceIndex">device_index</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associateIpv6Address">associate_ipv6_address</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deleteOnTermination">delete_on_termination</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}. |
 
 ---
 
@@ -9475,7 +9475,7 @@ device_index: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}.
 
 ---
 
@@ -9487,7 +9487,7 @@ associate_ipv6_address: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}.
 
 ---
 
@@ -9499,7 +9499,7 @@ associate_public_ip_address: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}.
 
 ---
 
@@ -9511,7 +9511,7 @@ delete_on_termination: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
 
 ---
 
@@ -9523,7 +9523,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -9535,7 +9535,7 @@ network_interface_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}.
 
 ---
 
@@ -9547,7 +9547,7 @@ private_ip_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}.
 
 ---
 
@@ -9559,7 +9559,7 @@ secondary_private_ip_address_count: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}.
 
 ---
 
@@ -9587,15 +9587,15 @@ elastigroupAws.ElastigroupAwsResourceRequirements(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMaximum">required_memory_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMinimum">required_memory_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMaximum">required_vcpu_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMinimum">required_vcpu_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceFamilies">excluded_instance_families</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceGenerations">excluded_instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMaximum">required_gpu_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMinimum">required_gpu_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMaximum">required_memory_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMinimum">required_memory_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMaximum">required_vcpu_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMinimum">required_vcpu_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceFamilies">excluded_instance_families</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceGenerations">excluded_instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMaximum">required_gpu_maximum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMinimum">required_gpu_minimum</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}. |
 
 ---
 
@@ -9607,7 +9607,7 @@ required_memory_maximum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}.
 
 ---
 
@@ -9619,7 +9619,7 @@ required_memory_minimum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}.
 
 ---
 
@@ -9631,7 +9631,7 @@ required_vcpu_maximum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}.
 
 ---
 
@@ -9643,7 +9643,7 @@ required_vcpu_minimum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}.
 
 ---
 
@@ -9655,7 +9655,7 @@ excluded_instance_families: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}.
 
 ---
 
@@ -9667,7 +9667,7 @@ excluded_instance_generations: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}.
 
 ---
 
@@ -9679,7 +9679,7 @@ excluded_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}.
 
 ---
 
@@ -9691,7 +9691,7 @@ required_gpu_maximum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}.
 
 ---
 
@@ -9703,7 +9703,7 @@ required_gpu_minimum: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}.
 
 ---
 
@@ -9726,10 +9726,10 @@ elastigroupAws.ElastigroupAwsResourceTagSpecification(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagAmis">should_tag_amis</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagEnis">should_tag_enis</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagSnapshots">should_tag_snapshots</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagVolumes">should_tag_volumes</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagAmis">should_tag_amis</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagEnis">should_tag_enis</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagSnapshots">should_tag_snapshots</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagVolumes">should_tag_volumes</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}. |
 
 ---
 
@@ -9741,7 +9741,7 @@ should_tag_amis: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}.
 
 ---
 
@@ -9753,7 +9753,7 @@ should_tag_enis: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}.
 
 ---
 
@@ -9765,7 +9765,7 @@ should_tag_snapshots: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}.
 
 ---
 
@@ -9777,7 +9777,7 @@ should_tag_volumes: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}.
 
 ---
 
@@ -9798,8 +9798,8 @@ elastigroupAws.ElastigroupAwsRevertToSpot(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.performAt">perform_at</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.timeWindows">time_windows</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.performAt">perform_at</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.timeWindows">time_windows</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}. |
 
 ---
 
@@ -9811,7 +9811,7 @@ perform_at: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -9823,7 +9823,7 @@ time_windows: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
 
 ---
 
@@ -9863,27 +9863,27 @@ elastigroupAws.ElastigroupAwsScalingDownPolicy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>]]</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.operator">operator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.operator">operator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.stepAdjustments">step_adjustments</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>]]</code> | step_adjustments block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -9895,7 +9895,7 @@ metric_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -9907,7 +9907,7 @@ namespace: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -9919,7 +9919,7 @@ policy_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -9931,7 +9931,7 @@ action_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -9943,7 +9943,7 @@ adjustment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -9955,7 +9955,7 @@ cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -9969,7 +9969,7 @@ dimensions: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingDownPolic
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -9981,7 +9981,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -9993,7 +9993,7 @@ is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -10005,7 +10005,7 @@ maximum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10017,7 +10017,7 @@ max_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -10029,7 +10029,7 @@ minimum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -10041,7 +10041,7 @@ min_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -10053,7 +10053,7 @@ operator: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
 
 ---
 
@@ -10065,7 +10065,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -10077,7 +10077,7 @@ source: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -10089,7 +10089,7 @@ statistic: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -10103,7 +10103,7 @@ step_adjustments: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingDow
 
 step_adjustments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
 
 ---
 
@@ -10115,7 +10115,7 @@ target: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10127,7 +10127,7 @@ threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10139,7 +10139,7 @@ unit: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10160,8 +10160,8 @@ elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10173,7 +10173,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -10185,7 +10185,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -10207,7 +10207,7 @@ elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.action">action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction">ElastigroupAwsScalingDownPolicyStepAdjustmentsAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
 
 ---
 
@@ -10221,7 +10221,7 @@ action: ElastigroupAwsScalingDownPolicyStepAdjustmentsAction
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
 
 ---
 
@@ -10233,7 +10233,7 @@ threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10259,13 +10259,13 @@ elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
 
 ---
 
@@ -10277,7 +10277,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -10289,7 +10289,7 @@ adjustment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -10301,7 +10301,7 @@ maximum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10313,7 +10313,7 @@ max_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -10325,7 +10325,7 @@ minimum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -10337,7 +10337,7 @@ min_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -10349,7 +10349,7 @@ target: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10370,8 +10370,8 @@ elastigroupAws.ElastigroupAwsScalingStrategy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminateAtEndOfBillingHour">terminate_at_end_of_billing_hour</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminationPolicy">termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminateAtEndOfBillingHour">terminate_at_end_of_billing_hour</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminationPolicy">termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}. |
 
 ---
 
@@ -10383,7 +10383,7 @@ terminate_at_end_of_billing_hour: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}.
 
 ---
 
@@ -10395,7 +10395,7 @@ termination_policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}.
 
 ---
 
@@ -10427,19 +10427,19 @@ elastigroupAws.ElastigroupAwsScalingTargetPolicy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.target">target</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.target">target</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.dimensions">dimensions</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>]]</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.maxCapacityPerScale">max_capacity_per_scale</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.predictiveMode">predictive_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.maxCapacityPerScale">max_capacity_per_scale</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.predictiveMode">predictive_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -10451,7 +10451,7 @@ metric_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -10463,7 +10463,7 @@ namespace: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -10475,7 +10475,7 @@ policy_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -10487,7 +10487,7 @@ target: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10499,7 +10499,7 @@ cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -10513,7 +10513,7 @@ dimensions: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingTargetPol
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -10525,7 +10525,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -10537,7 +10537,7 @@ max_capacity_per_scale: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}.
 
 ---
 
@@ -10549,7 +10549,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -10561,7 +10561,7 @@ predictive_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}.
 
 ---
 
@@ -10573,7 +10573,7 @@ source: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -10585,7 +10585,7 @@ statistic: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -10597,7 +10597,7 @@ unit: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10618,8 +10618,8 @@ elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10631,7 +10631,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -10643,7 +10643,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -10683,27 +10683,27 @@ elastigroupAws.ElastigroupAwsScalingUpPolicy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.metricName">metric_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.namespace">namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>]]</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.operator">operator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.evaluationPeriods">evaluation_periods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.operator">operator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.statistic">statistic</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.stepAdjustments">step_adjustments</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>]]</code> | step_adjustments block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.unit">unit</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -10715,7 +10715,7 @@ metric_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -10727,7 +10727,7 @@ namespace: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -10739,7 +10739,7 @@ policy_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -10751,7 +10751,7 @@ action_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -10763,7 +10763,7 @@ adjustment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -10775,7 +10775,7 @@ cooldown: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -10789,7 +10789,7 @@ dimensions: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingUpPolicyD
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -10801,7 +10801,7 @@ evaluation_periods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -10813,7 +10813,7 @@ is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -10825,7 +10825,7 @@ maximum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10837,7 +10837,7 @@ max_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -10849,7 +10849,7 @@ minimum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -10861,7 +10861,7 @@ min_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -10873,7 +10873,7 @@ operator: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
 
 ---
 
@@ -10885,7 +10885,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -10897,7 +10897,7 @@ source: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -10909,7 +10909,7 @@ statistic: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -10923,7 +10923,7 @@ step_adjustments: typing.Union[IResolvable, typing.List[ElastigroupAwsScalingUpP
 
 step_adjustments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
 
 ---
 
@@ -10935,7 +10935,7 @@ target: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10947,7 +10947,7 @@ threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10959,7 +10959,7 @@ unit: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10980,8 +10980,8 @@ elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10993,7 +10993,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -11005,7 +11005,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -11027,7 +11027,7 @@ elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.action">action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction">ElastigroupAwsScalingUpPolicyStepAdjustmentsAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
 
 ---
 
@@ -11041,7 +11041,7 @@ action: ElastigroupAwsScalingUpPolicyStepAdjustmentsAction
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
 
 ---
 
@@ -11053,7 +11053,7 @@ threshold: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -11079,13 +11079,13 @@ elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maxTargetCapacity">max_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minTargetCapacity">min_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
 
 ---
 
@@ -11097,7 +11097,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -11109,7 +11109,7 @@ adjustment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -11121,7 +11121,7 @@ maximum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -11133,7 +11133,7 @@ max_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -11145,7 +11145,7 @@ minimum: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -11157,7 +11157,7 @@ min_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -11169,7 +11169,7 @@ target: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -11203,21 +11203,21 @@ elastigroupAws.ElastigroupAwsScheduledTask(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.taskType">task_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustmentPercentage">adjustment_percentage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.batchSizePercentage">batch_size_percentage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.cronExpression">cron_expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.frequency">frequency</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.gracePeriod">grace_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.maxCapacity">max_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.minCapacity">min_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMaxCapacity">scale_max_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMinCapacity">scale_min_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleTargetCapacity">scale_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.startTime">start_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.targetCapacity">target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.taskType">task_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustment">adjustment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustmentPercentage">adjustment_percentage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.batchSizePercentage">batch_size_percentage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.cronExpression">cron_expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.frequency">frequency</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.gracePeriod">grace_period</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.maxCapacity">max_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.minCapacity">min_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMaxCapacity">scale_max_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMinCapacity">scale_min_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleTargetCapacity">scale_target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.startTime">start_time</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.targetCapacity">target_capacity</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}. |
 
 ---
 
@@ -11229,7 +11229,7 @@ task_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}.
 
 ---
 
@@ -11241,7 +11241,7 @@ adjustment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -11253,7 +11253,7 @@ adjustment_percentage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}.
 
 ---
 
@@ -11265,7 +11265,7 @@ batch_size_percentage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -11277,7 +11277,7 @@ cron_expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}.
 
 ---
 
@@ -11289,7 +11289,7 @@ frequency: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}.
 
 ---
 
@@ -11301,7 +11301,7 @@ grace_period: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -11313,7 +11313,7 @@ is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -11325,7 +11325,7 @@ max_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}.
 
 ---
 
@@ -11337,7 +11337,7 @@ min_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}.
 
 ---
 
@@ -11349,7 +11349,7 @@ scale_max_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}.
 
 ---
 
@@ -11361,7 +11361,7 @@ scale_min_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}.
 
 ---
 
@@ -11373,7 +11373,7 @@ scale_target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}.
 
 ---
 
@@ -11385,7 +11385,7 @@ start_time: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}.
 
 ---
 
@@ -11397,7 +11397,7 @@ target_capacity: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}.
 
 ---
 
@@ -11418,8 +11418,8 @@ elastigroupAws.ElastigroupAwsSignal(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.timeout">timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.timeout">timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}. |
 
 ---
 
@@ -11431,7 +11431,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -11443,7 +11443,7 @@ timeout: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}.
 
 ---
 
@@ -11466,10 +11466,10 @@ elastigroupAws.ElastigroupAwsStatefulDeallocation(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteImages">should_delete_images</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteNetworkInterfaces">should_delete_network_interfaces</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteSnapshots">should_delete_snapshots</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteVolumes">should_delete_volumes</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteImages">should_delete_images</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteNetworkInterfaces">should_delete_network_interfaces</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteSnapshots">should_delete_snapshots</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteVolumes">should_delete_volumes</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}. |
 
 ---
 
@@ -11481,7 +11481,7 @@ should_delete_images: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
 
 ---
 
@@ -11493,7 +11493,7 @@ should_delete_network_interfaces: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
 
 ---
 
@@ -11505,7 +11505,7 @@ should_delete_snapshots: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
 
 ---
 
@@ -11517,7 +11517,7 @@ should_delete_volumes: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
 
 ---
 
@@ -11538,8 +11538,8 @@ elastigroupAws.ElastigroupAwsStatefulInstanceAction(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.statefulInstanceId">stateful_instance_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.statefulInstanceId">stateful_instance_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
 
 ---
 
@@ -11551,7 +11551,7 @@ stateful_instance_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}.
 
 ---
 
@@ -11563,7 +11563,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -11584,8 +11584,8 @@ elastigroupAws.ElastigroupAwsTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -11597,7 +11597,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -11609,7 +11609,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -11632,9 +11632,9 @@ elastigroupAws.ElastigroupAwsUpdatePolicy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldResumeStateful">should_resume_stateful</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldRoll">should_roll</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.autoApplyTags">auto_apply_tags</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldResumeStateful">should_resume_stateful</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldRoll">should_roll</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.autoApplyTags">auto_apply_tags</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.rollConfig">roll_config</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig">ElastigroupAwsUpdatePolicyRollConfig</a></code> | roll_config block. |
 
 ---
@@ -11647,7 +11647,7 @@ should_resume_stateful: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
 
 ---
 
@@ -11659,7 +11659,7 @@ should_roll: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
 
 ---
 
@@ -11671,7 +11671,7 @@ auto_apply_tags: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
 
 ---
 
@@ -11685,7 +11685,7 @@ roll_config: ElastigroupAwsUpdatePolicyRollConfig
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
 
 ---
 
@@ -11710,12 +11710,12 @@ elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.batchSizePercentage">batch_size_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.batchSizePercentage">batch_size_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.healthCheckType">health_check_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.strategy">strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy">ElastigroupAwsUpdatePolicyRollConfigStrategy</a></code> | strategy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollPercentage">wait_for_roll_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollTimeout">wait_for_roll_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollPercentage">wait_for_roll_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollTimeout">wait_for_roll_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}. |
 
 ---
 
@@ -11727,7 +11727,7 @@ batch_size_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -11739,7 +11739,7 @@ grace_period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -11751,7 +11751,7 @@ health_check_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -11765,7 +11765,7 @@ strategy: ElastigroupAwsUpdatePolicyRollConfigStrategy
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -11777,7 +11777,7 @@ wait_for_roll_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
 
 ---
 
@@ -11789,7 +11789,7 @@ wait_for_roll_timeout: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
 
 ---
 
@@ -11812,10 +11812,10 @@ elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.batchMinHealthyPercentage">batch_min_healthy_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.batchMinHealthyPercentage">batch_min_healthy_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.onFailure">on_failure</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure">ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure</a></code> | on_failure block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.shouldDrainInstances">should_drain_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.shouldDrainInstances">should_drain_instances</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
 
 ---
 
@@ -11827,7 +11827,7 @@ action: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -11839,7 +11839,7 @@ batch_min_healthy_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
 
 ---
 
@@ -11853,7 +11853,7 @@ on_failure: ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure
 
 on_failure block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
 
 ---
 
@@ -11865,7 +11865,7 @@ should_drain_instances: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -11889,11 +11889,11 @@ elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.batchNum">batch_num</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldDecrementTargetCapacity">should_decrement_target_capacity</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldHandleAllBatches">should_handle_all_batches</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.actionType">action_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.batchNum">batch_num</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.drainingTimeout">draining_timeout</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldDecrementTargetCapacity">should_decrement_target_capacity</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldHandleAllBatches">should_handle_all_batches</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}. |
 
 ---
 
@@ -11905,7 +11905,7 @@ action_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -11917,7 +11917,7 @@ batch_num: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
 
 ---
 
@@ -11929,7 +11929,7 @@ draining_timeout: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -11941,7 +11941,7 @@ should_decrement_target_capacity: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
 
 ---
 
@@ -11953,7 +11953,7 @@ should_handle_all_batches: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
 
 ---
 
@@ -15127,7 +15127,7 @@ def put_strategy(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -15135,7 +15135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -15873,7 +15873,7 @@ def put_platform_update(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -15881,7 +15881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
 
 ---
 
@@ -15889,7 +15889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
 
 ---
 
@@ -16576,7 +16576,7 @@ def put_deployment_preferences(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
 
 ---
 
@@ -16584,7 +16584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -16592,7 +16592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -16602,7 +16602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -16620,7 +16620,7 @@ def put_managed_actions(
 
 platform_update block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
 
 ---
 
@@ -18538,7 +18538,7 @@ def put_autoscale_down(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -18546,7 +18546,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -18564,7 +18564,7 @@ def put_autoscale_headroom(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -18572,7 +18572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -18580,7 +18580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -20531,7 +20531,7 @@ def put_autoscale_down(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -20539,7 +20539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -20557,7 +20557,7 @@ def put_autoscale_headroom(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -20565,7 +20565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -20573,7 +20573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -20589,7 +20589,7 @@ def put_batch(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
 
 ---
 
@@ -21127,7 +21127,7 @@ def put_runner(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -22914,7 +22914,7 @@ def put_autoscale_down(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -22932,7 +22932,7 @@ def put_autoscale_headroom(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -22940,7 +22940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -22948,7 +22948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -25300,7 +25300,7 @@ def put_autoscale_down(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -25318,7 +25318,7 @@ def put_autoscale_headroom(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -25326,7 +25326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -25334,7 +25334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -28397,7 +28397,7 @@ def put_static_target_group(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -28405,7 +28405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -29442,7 +29442,7 @@ def put_default_static_target_group(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -29450,7 +29450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -39008,7 +39008,7 @@ def put_action(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -39016,7 +39016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -39024,7 +39024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -39032,7 +39032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -39040,7 +39040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -39048,7 +39048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -39056,7 +39056,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -43405,7 +43405,7 @@ def put_action(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -43413,7 +43413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -43421,7 +43421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -43429,7 +43429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -43437,7 +43437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -43445,7 +43445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -43453,7 +43453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -46546,7 +46546,7 @@ def put_roll_config(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -46554,7 +46554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -46562,7 +46562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -46572,7 +46572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -46580,7 +46580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
 
 ---
 
@@ -46588,7 +46588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
 
 ---
 
@@ -46987,7 +46987,7 @@ def put_strategy(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -46995,7 +46995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
 
 ---
 
@@ -47005,7 +47005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 on_failure block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
 
 ---
 
@@ -47013,7 +47013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -47885,7 +47885,7 @@ def put_on_failure(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -47893,7 +47893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
 
 ---
 
@@ -47901,7 +47901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -47909,7 +47909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
 
 ---
 
@@ -47917,7 +47917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.132.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.133.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
 
 ---
 
