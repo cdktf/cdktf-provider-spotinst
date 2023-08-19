@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.NewMultaiBalancer(scope Construct, id *string, config MultaiBalancerConfig) MultaiBalancer
 ```
@@ -331,7 +331,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsConstruct(x interface{}) *bool
 ```
@@ -363,7 +363,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsTerraformElement(x interface{}) *bool
 ```
@@ -377,7 +377,7 @@ multaibalancer.MultaiBalancer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsTerraformResource(x interface{}) *bool
 ```
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 &multaibalancer.MultaiBalancerConfig {
 	Connection: interface{},
@@ -719,7 +719,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	ConnectionTimeouts: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts,
+	ConnectionTimeouts: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9.multaiBalancer.MultaiBalancerConnectionTimeouts,
 	DnsCnameAliases: *[]*string,
 	Id: *string,
 	Scheme: *string,
@@ -901,7 +901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 &multaibalancer.MultaiBalancerConnectionTimeouts {
 	Draining: *f64,
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 &multaibalancer.MultaiBalancerTags {
 	Key: *string,
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.NewMultaiBalancerConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MultaiBalancerConnectionTimeoutsOutputReference
 ```
@@ -1302,7 +1302,7 @@ func InternalValue() MultaiBalancerConnectionTimeouts
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.NewMultaiBalancerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiBalancerTagsList
 ```
@@ -1445,7 +1445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v9/multaibalancer"
 
 multaibalancer.NewMultaiBalancerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiBalancerTagsOutputReference
 ```
