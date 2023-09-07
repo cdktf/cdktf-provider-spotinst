@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration
+// https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#id DataIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#id DataIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#name DataIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#name DataIntegration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#status DataIntegration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#status DataIntegration#status}
   */
   readonly status?: string;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#s3 DataIntegration#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#s3 DataIntegration#s3}
   */
   readonly s3?: DataIntegrationS3;
 }
 export interface DataIntegrationS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration#subdir DataIntegration#subdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration#subdir DataIntegration#subdir}
   */
   readonly subdir?: string;
 }
@@ -125,7 +120,7 @@ export class DataIntegrationS3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration spotinst_data_integration}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration spotinst_data_integration}
 */
 export class DataIntegration extends cdktf.TerraformResource {
 
@@ -139,7 +134,7 @@ export class DataIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/data_integration spotinst_data_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/data_integration spotinst_data_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,7 +145,7 @@ export class DataIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_data_integration',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.134.0',
+        providerVersion: '1.135.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

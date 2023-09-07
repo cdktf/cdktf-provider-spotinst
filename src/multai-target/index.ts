@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target
+// https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface MultaiTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}
   */
   readonly balancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#host MultaiTarget#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#host MultaiTarget#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#id MultaiTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#id MultaiTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#name MultaiTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#name MultaiTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#port MultaiTarget#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#port MultaiTarget#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}
   */
   readonly targetSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#weight MultaiTarget#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#weight MultaiTarget#weight}
   */
   readonly weight: number;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#tags MultaiTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#tags MultaiTarget#tags}
   */
   readonly tags?: MultaiTargetTags[] | cdktf.IResolvable;
 }
 export interface MultaiTargetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#key MultaiTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#key MultaiTarget#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target#value MultaiTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target#value MultaiTarget#value}
   */
   readonly value: string;
 }
@@ -170,7 +165,7 @@ export class MultaiTargetTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target spotinst_multai_target}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target spotinst_multai_target}
 */
 export class MultaiTarget extends cdktf.TerraformResource {
 
@@ -184,7 +179,7 @@ export class MultaiTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.134.0/docs/resources/multai_target spotinst_multai_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs/resources/multai_target spotinst_multai_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,7 +190,7 @@ export class MultaiTarget extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_multai_target',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.134.0',
+        providerVersion: '1.135.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
