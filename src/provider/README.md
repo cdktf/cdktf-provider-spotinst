@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registory for docs: [`spotinst`](https://registry.terraform.io/providers/spotinst/spotinst/1.135.0/docs).
+Refer to the Terraform Registory for docs: [`spotinst`](https://registry.terraform.io/providers/spotinst/spotinst/1.136.0/docs).
