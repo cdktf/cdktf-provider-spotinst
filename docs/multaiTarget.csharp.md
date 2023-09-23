@@ -1,6 +1,6 @@
 # `spotinst_multai_target`
 
-Refer to the Terraform Registory for docs: [`spotinst_multai_target`](https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target).
+Refer to the Terraform Registory for docs: [`spotinst_multai_target`](https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target).
 
 # `multaiTarget` Submodule <a name="`multaiTarget` Submodule" id="@cdktf/provider-spotinst.multaiTarget"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_multai_target`](https://re
 
 ### MultaiTarget <a name="MultaiTarget" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target spotinst_multai_target}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target spotinst_multai_target}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTarget.MultaiTarget.Initializer"></a>
 
@@ -764,13 +764,13 @@ new MultaiTargetConfig {
 | <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.balancerId">BalancerId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.host">Host</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#host MultaiTarget#host}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.targetSetId">TargetSetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.weight">Weight</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#weight MultaiTarget#weight}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#id MultaiTarget#id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#name MultaiTarget#name}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.port">Port</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#port MultaiTarget#port}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.balancerId">BalancerId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.host">Host</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#host MultaiTarget#host}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.targetSetId">TargetSetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.weight">Weight</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#weight MultaiTarget#weight}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#id MultaiTarget#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#name MultaiTarget#name}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.port">Port</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#port MultaiTarget#port}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetConfig.property.tags">Tags</a></code> | <code>object</code> | tags block. |
 
 ---
@@ -853,7 +853,7 @@ public string BalancerId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#balancer_id MultaiTarget#balancer_id}.
 
 ---
 
@@ -865,7 +865,7 @@ public string Host { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#host MultaiTarget#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#host MultaiTarget#host}.
 
 ---
 
@@ -877,7 +877,7 @@ public string TargetSetId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#target_set_id MultaiTarget#target_set_id}.
 
 ---
 
@@ -889,7 +889,7 @@ public double Weight { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#weight MultaiTarget#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#weight MultaiTarget#weight}.
 
 ---
 
@@ -901,7 +901,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#id MultaiTarget#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#id MultaiTarget#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -916,7 +916,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#name MultaiTarget#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#name MultaiTarget#name}.
 
 ---
 
@@ -928,7 +928,7 @@ public double Port { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#port MultaiTarget#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#port MultaiTarget#port}.
 
 ---
 
@@ -942,7 +942,7 @@ public object Tags { get; set; }
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#tags MultaiTarget#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#tags MultaiTarget#tags}
 
 ---
 
@@ -963,8 +963,8 @@ new MultaiTargetTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#key MultaiTarget#key}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#value MultaiTarget#value}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#key MultaiTarget#key}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTarget.MultaiTargetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#value MultaiTarget#value}. |
 
 ---
 
@@ -976,7 +976,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#key MultaiTarget#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#key MultaiTarget#key}.
 
 ---
 
@@ -988,7 +988,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.139.0/docs/resources/multai_target#value MultaiTarget#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_target#value MultaiTarget#value}.
 
 ---
 
