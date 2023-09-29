@@ -1,6 +1,6 @@
 # `spotinst_multai_listener`
 
-Refer to the Terraform Registory for docs: [`spotinst_multai_listener`](https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener).
+Refer to the Terraform Registory for docs: [`spotinst_multai_listener`](https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener).
 
 # `multaiListener` Submodule <a name="`multaiListener` Submodule" id="@cdktf/provider-spotinst.multaiListener"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_multai_listener`](https://
 
 ### MultaiListener <a name="MultaiListener" id="@cdktf/provider-spotinst.multaiListener.MultaiListener"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener spotinst_multai_listener}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener spotinst_multai_listener}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer"></a>
 
@@ -45,10 +45,10 @@ multaiListener.MultaiListener(
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#port MultaiListener#port}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#protocol MultaiListener#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#id MultaiListener#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#port MultaiListener#port}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#protocol MultaiListener#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#id MultaiListener#id}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.tags">tags</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a>]]</code> | tags block. |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListener.Initializer.parameter.tlsConfig">tls_config</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig">MultaiListenerTlsConfig</a></code> | tls_config block. |
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#port MultaiListener#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#port MultaiListener#port}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#protocol MultaiListener#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#protocol MultaiListener#protocol}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#id MultaiListener#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#id MultaiListener#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#tags MultaiListener#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#tags MultaiListener#tags}
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
 
 ---
 
@@ -437,7 +437,7 @@ def put_tls_config(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}.
 
 ---
 
@@ -445,7 +445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}.
 
 ---
 
@@ -453,7 +453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#max_version MultaiListener#max_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#max_version MultaiListener#max_version}.
 
 ---
 
@@ -461,7 +461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#min_version MultaiListener#min_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#min_version MultaiListener#min_version}.
 
 ---
 
@@ -469,7 +469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}.
 
 ---
 
@@ -477,7 +477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}.
 
 ---
 
@@ -925,10 +925,10 @@ multaiListener.MultaiListenerConfig(
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#port MultaiListener#port}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#protocol MultaiListener#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#id MultaiListener#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.balancerId">balancer_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.port">port</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#port MultaiListener#port}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.protocol">protocol</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#protocol MultaiListener#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#id MultaiListener#id}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.tags">tags</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags">MultaiListenerTags</a>]]</code> | tags block. |
 | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerConfig.property.tlsConfig">tls_config</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig">MultaiListenerTlsConfig</a></code> | tls_config block. |
 
@@ -1012,7 +1012,7 @@ balancer_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#balancer_id MultaiListener#balancer_id}.
 
 ---
 
@@ -1024,7 +1024,7 @@ port: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#port MultaiListener#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#port MultaiListener#port}.
 
 ---
 
@@ -1036,7 +1036,7 @@ protocol: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#protocol MultaiListener#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#protocol MultaiListener#protocol}.
 
 ---
 
@@ -1048,7 +1048,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#id MultaiListener#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#id MultaiListener#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1065,7 +1065,7 @@ tags: typing.Union[IResolvable, typing.List[MultaiListenerTags]]
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#tags MultaiListener#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#tags MultaiListener#tags}
 
 ---
 
@@ -1079,7 +1079,7 @@ tls_config: MultaiListenerTlsConfig
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#tls_config MultaiListener#tls_config}
 
 ---
 
@@ -1100,8 +1100,8 @@ multaiListener.MultaiListenerTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#key MultaiListener#key}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#value MultaiListener#value}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#key MultaiListener#key}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#value MultaiListener#value}. |
 
 ---
 
@@ -1113,7 +1113,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#key MultaiListener#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#key MultaiListener#key}.
 
 ---
 
@@ -1125,7 +1125,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#value MultaiListener#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#value MultaiListener#value}.
 
 ---
 
@@ -1150,12 +1150,12 @@ multaiListener.MultaiListenerTlsConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.certificateIds">certificate_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.cipherSuites">cipher_suites</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.maxVersion">max_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#max_version MultaiListener#max_version}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.minVersion">min_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#min_version MultaiListener#min_version}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.preferServerCipherSuites">prefer_server_cipher_suites</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.sessionTicketsDisabled">session_tickets_disabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.certificateIds">certificate_ids</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.cipherSuites">cipher_suites</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.maxVersion">max_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#max_version MultaiListener#max_version}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.minVersion">min_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#min_version MultaiListener#min_version}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.preferServerCipherSuites">prefer_server_cipher_suites</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiListener.MultaiListenerTlsConfig.property.sessionTicketsDisabled">session_tickets_disabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}. |
 
 ---
 
@@ -1167,7 +1167,7 @@ certificate_ids: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#certificate_ids MultaiListener#certificate_ids}.
 
 ---
 
@@ -1179,7 +1179,7 @@ cipher_suites: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#cipher_suites MultaiListener#cipher_suites}.
 
 ---
 
@@ -1191,7 +1191,7 @@ max_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#max_version MultaiListener#max_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#max_version MultaiListener#max_version}.
 
 ---
 
@@ -1203,7 +1203,7 @@ min_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#min_version MultaiListener#min_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#min_version MultaiListener#min_version}.
 
 ---
 
@@ -1215,7 +1215,7 @@ prefer_server_cipher_suites: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#prefer_server_cipher_suites MultaiListener#prefer_server_cipher_suites}.
 
 ---
 
@@ -1227,7 +1227,7 @@ session_tickets_disabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.140.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.141.0/docs/resources/multai_listener#session_tickets_disabled MultaiListener#session_tickets_disabled}.
 
 ---
 
