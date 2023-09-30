@@ -1,6 +1,8 @@
 # Submodules <a name="Submodules" id="submodules"></a>
 
 The following submodules are available:
+- [accountAws](./accountAws.python.md)
+- [credentialsAws](./credentialsAws.python.md)
 - [dataIntegration](./dataIntegration.python.md)
 - [elastigroupAws](./elastigroupAws.python.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.python.md)

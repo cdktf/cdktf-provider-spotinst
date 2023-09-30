@@ -1,6 +1,8 @@
 # Submodules <a name="Submodules" id="submodules"></a>
 
 The following submodules are available:
+- [accountAws](./accountAws.csharp.md)
+- [credentialsAws](./credentialsAws.csharp.md)
 - [dataIntegration](./dataIntegration.csharp.md)
 - [elastigroupAws](./elastigroupAws.csharp.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.csharp.md)

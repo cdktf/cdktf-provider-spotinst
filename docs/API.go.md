@@ -1,6 +1,8 @@
 # Submodules <a name="Submodules" id="submodules"></a>
 
 The following submodules are available:
+- [accountAws](./accountAws.go.md)
+- [credentialsAws](./credentialsAws.go.md)
 - [dataIntegration](./dataIntegration.go.md)
 - [elastigroupAws](./elastigroupAws.go.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.go.md)

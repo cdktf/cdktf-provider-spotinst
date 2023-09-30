@@ -1,6 +1,8 @@
 # Submodules <a name="Submodules" id="submodules"></a>
 
 The following submodules are available:
+- [accountAws](./accountAws.typescript.md)
+- [credentialsAws](./credentialsAws.typescript.md)
 - [dataIntegration](./dataIntegration.typescript.md)
 - [elastigroupAws](./elastigroupAws.typescript.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.typescript.md)
