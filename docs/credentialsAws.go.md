@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/credentialsaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsaws"
 
 credentialsaws.NewCredentialsAws(scope Construct, id *string, config CredentialsAwsConfig) CredentialsAws
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/credentialsaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsaws"
 
 credentialsaws.CredentialsAws_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/credentialsaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsaws"
 
 credentialsaws.CredentialsAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ credentialsaws.CredentialsAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/credentialsaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsaws"
 
 credentialsaws.CredentialsAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/credentialsaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsaws"
 
 &credentialsaws.CredentialsAwsConfig {
 	Connection: interface{},
