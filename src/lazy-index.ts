@@ -37,6 +37,10 @@ Object.defineProperty(exports, 'oceanGkeLaunchSpec', { get: function () { return
 Object.defineProperty(exports, 'oceanGkeLaunchSpecImport', { get: function () { return require('./ocean-gke-launch-spec-import'); } });
 Object.defineProperty(exports, 'oceanSpark', { get: function () { return require('./ocean-spark'); } });
 Object.defineProperty(exports, 'oceanSparkVirtualNodeGroup', { get: function () { return require('./ocean-spark-virtual-node-group'); } });
+Object.defineProperty(exports, 'organizationPolicy', { get: function () { return require('./organization-policy'); } });
+Object.defineProperty(exports, 'organizationProgrammaticUser', { get: function () { return require('./organization-programmatic-user'); } });
+Object.defineProperty(exports, 'organizationUser', { get: function () { return require('./organization-user'); } });
+Object.defineProperty(exports, 'organizationUserGroup', { get: function () { return require('./organization-user-group'); } });
 Object.defineProperty(exports, 'statefulNodeAzure', { get: function () { return require('./stateful-node-azure'); } });
 Object.defineProperty(exports, 'subscription', { get: function () { return require('./subscription'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });

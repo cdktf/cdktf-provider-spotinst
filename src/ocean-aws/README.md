@@ -1,3 +1,3 @@
 # `spotinst_ocean_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_ocean_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.142.0/docs/resources/ocean_aws).
+Refer to the Terraform Registory for docs: [`spotinst_ocean_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/ocean_aws).
