@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group
+// https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationUserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#description OrganizationUserGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#description OrganizationUserGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#id OrganizationUserGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#id OrganizationUserGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#name OrganizationUserGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#name OrganizationUserGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}
   */
   readonly userIds?: string[];
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#policies OrganizationUserGroup#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#policies OrganizationUserGroup#policies}
   */
   readonly policies?: OrganizationUserGroupPolicies[] | cdktf.IResolvable;
 }
 export interface OrganizationUserGroupPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}
   */
   readonly accountIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}
   */
   readonly policyId: string;
 }
@@ -158,7 +153,7 @@ export class OrganizationUserGroupPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group spotinst_organization_user_group}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group spotinst_organization_user_group}
 */
 export class OrganizationUserGroup extends cdktf.TerraformResource {
 
@@ -172,7 +167,7 @@ export class OrganizationUserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/organization_user_group spotinst_organization_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/organization_user_group spotinst_organization_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,7 +178,7 @@ export class OrganizationUserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_organization_user_group',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.143.0',
+        providerVersion: '1.144.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

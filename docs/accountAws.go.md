@@ -1,6 +1,6 @@
 # `spotinst_account_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws).
+Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws).
 
 # `accountAws` Submodule <a name="`accountAws` Submodule" id="@cdktf/provider-spotinst.accountAws"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://regi
 
 ### AccountAws <a name="AccountAws" id="@cdktf/provider-spotinst.accountAws.AccountAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws spotinst_account_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws spotinst_account_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.accountAws.AccountAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/accountaws"
 
 accountaws.NewAccountAws(scope Construct, id *string, config AccountAwsConfig) AccountAws
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.accountAws.AccountAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/accountaws"
 
 accountaws.AccountAws_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.accountAws.AccountAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/accountaws"
 
 accountaws.AccountAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ accountaws.AccountAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.accountAws.AccountAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/accountaws"
 
 accountaws.AccountAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -566,7 +566,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.accountAws.AccountAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/accountaws"
 
 &accountaws.AccountAwsConfig {
 	Connection: interface{},
@@ -592,8 +592,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/accountaws"
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}. |
 
 ---
 
@@ -675,7 +675,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}.
 
 ---
 
@@ -687,7 +687,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
