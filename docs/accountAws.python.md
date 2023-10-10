@@ -1,6 +1,6 @@
 # `spotinst_account_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws).
+Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws).
 
 # `accountAws` Submodule <a name="`accountAws` Submodule" id="@cdktf/provider-spotinst.accountAws"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://regi
 
 ### AccountAws <a name="AccountAws" id="@cdktf/provider-spotinst.accountAws.AccountAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws spotinst_account_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws spotinst_account_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.accountAws.AccountAws.Initializer"></a>
 
@@ -41,8 +41,8 @@ accountAws.AccountAws(
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -698,8 +698,8 @@ accountAws.AccountAwsConfig(
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}. |
 
 ---
 
@@ -781,7 +781,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#name AccountAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#name AccountAws#name}.
 
 ---
 
@@ -793,7 +793,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.143.0/docs/resources/account_aws#id AccountAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/account_aws#id AccountAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
