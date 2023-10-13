@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws
+// https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface CredentialsAwsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws#account_id CredentialsAws#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws#account_id CredentialsAws#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}
   */
   readonly iamrole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws#id CredentialsAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws#id CredentialsAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +25,7 @@ export interface CredentialsAwsConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws spotinst_credentials_aws}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws spotinst_credentials_aws}
 */
 export class CredentialsAws extends cdktf.TerraformResource {
 
@@ -44,7 +39,7 @@ export class CredentialsAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.144.0/docs/resources/credentials_aws spotinst_credentials_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/credentials_aws spotinst_credentials_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +50,7 @@ export class CredentialsAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_credentials_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.144.0',
+        providerVersion: '1.145.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
