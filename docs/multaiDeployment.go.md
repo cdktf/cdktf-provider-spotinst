@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multaideployment"
 
 multaideployment.NewMultaiDeployment(scope Construct, id *string, config MultaiDeploymentConfig) MultaiDeployment
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multaideployment"
 
 multaideployment.MultaiDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multaideployment"
 
 multaideployment.MultaiDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ multaideployment.MultaiDeployment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multaideployment"
 
 multaideployment.MultaiDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -566,7 +566,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiDeployment.MultaiDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v10/multaideployment"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multaideployment"
 
 &multaideployment.MultaiDeploymentConfig {
 	Connection: interface{},
