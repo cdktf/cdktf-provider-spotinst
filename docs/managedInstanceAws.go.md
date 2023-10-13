@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAws(scope Construct, id *string, config ManagedInstanceAwsConfig) ManagedInstanceAws
 ```
@@ -673,7 +673,7 @@ func ResetUtilizeReservedInstances()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.ManagedInstanceAws_IsConstruct(x interface{}) *bool
 ```
@@ -705,7 +705,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.ManagedInstanceAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -719,7 +719,7 @@ managedinstanceaws.ManagedInstanceAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.ManagedInstanceAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -1930,11 +1930,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsBlockDeviceMappings {
 	DeviceName: *string,
-	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsEbs,
+	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsEbs,
 }
 ```
 
@@ -1978,7 +1978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsBlockDeviceMappingsEbs {
 	DeleteOnTermination: interface{},
@@ -2066,7 +2066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsConfig {
 	Connection: interface{},
@@ -2098,11 +2098,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
 	HealthCheckType: *string,
 	IamInstanceProfile: *string,
 	Id: *string,
-	IntegrationRoute53: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53,
+	IntegrationRoute53: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53,
 	KeyPair: *string,
 	LifeCycle: *string,
 	LoadBalancers: interface{},
-	ManagedInstanceAction: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.managedInstanceAws.ManagedInstanceAwsManagedInstanceAction,
+	ManagedInstanceAction: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.managedInstanceAws.ManagedInstanceAwsManagedInstanceAction,
 	MinimumInstanceLifetime: *f64,
 	NetworkInterface: interface{},
 	OptimizationWindows: *[]*string,
@@ -2114,7 +2114,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
 	PrivateIp: *string,
 	Region: *string,
 	ResourceTagSpecification: interface{},
-	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.managedInstanceAws.ManagedInstanceAwsRevertToSpot,
+	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.managedInstanceAws.ManagedInstanceAwsRevertToSpot,
 	ScheduledTask: interface{},
 	SecurityGroupIds: *[]*string,
 	ShutdownScript: *string,
@@ -2835,7 +2835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsDelete.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsDelete {
 	AmiBackupShouldDeleteImages: interface{},
@@ -2937,7 +2937,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsIntegrationRoute53 {
 	Domains: interface{},
@@ -2971,7 +2971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53Domains.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsIntegrationRoute53Domains {
 	HostedZoneId: *string,
@@ -3047,7 +3047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53DomainsRecordSets.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsIntegrationRoute53DomainsRecordSets {
 	Name: *string,
@@ -3107,7 +3107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsLoadBalancers {
 	Type: *string,
@@ -3223,7 +3223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsManagedInstanceAction.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsManagedInstanceAction {
 	Type: *string,
@@ -3255,7 +3255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsNetworkInterface {
 	DeviceIndex: *string,
@@ -3315,7 +3315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsResourceTagSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsResourceTagSpecification {
 	ShouldTagAmis: interface{},
@@ -3389,7 +3389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsRevertToSpot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsRevertToSpot {
 	PerformAt: *string,
@@ -3421,7 +3421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsScheduledTask {
 	TaskType: *string,
@@ -3509,7 +3509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 &managedinstanceaws.ManagedInstanceAwsTags {
 	Key: *string,
@@ -3557,7 +3557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ManagedInstanceAwsBlockDeviceMappingsEbsOutputReference
 ```
@@ -3951,7 +3951,7 @@ func InternalValue() ManagedInstanceAwsBlockDeviceMappingsEbs
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsBlockDeviceMappingsList
 ```
@@ -4094,7 +4094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsBlockDeviceMappingsOutputReference
 ```
@@ -4425,7 +4425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsDeleteList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsDeleteList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsDeleteList
 ```
@@ -4568,7 +4568,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsDeleteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsDeleteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsDeleteOutputReference
 ```
@@ -5009,7 +5009,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53DomainsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsIntegrationRoute53DomainsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsIntegrationRoute53DomainsList
 ```
@@ -5152,7 +5152,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53DomainsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsIntegrationRoute53DomainsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsIntegrationRoute53DomainsOutputReference
 ```
@@ -5534,7 +5534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList
 ```
@@ -5677,7 +5677,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsOutputReference
 ```
@@ -6024,7 +6024,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsIntegrationRoute53OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsIntegrationRoute53OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ManagedInstanceAwsIntegrationRoute53OutputReference
 ```
@@ -6308,7 +6308,7 @@ func InternalValue() ManagedInstanceAwsIntegrationRoute53
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsLoadBalancersList
 ```
@@ -6451,7 +6451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsLoadBalancersOutputReference
 ```
@@ -6914,7 +6914,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsManagedInstanceActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsManagedInstanceActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ManagedInstanceAwsManagedInstanceActionOutputReference
 ```
@@ -7185,7 +7185,7 @@ func InternalValue() ManagedInstanceAwsManagedInstanceAction
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsNetworkInterfaceList
 ```
@@ -7328,7 +7328,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsNetworkInterfaceOutputReference
 ```
@@ -7675,7 +7675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsResourceTagSpecificationList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsResourceTagSpecificationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsResourceTagSpecificationList
 ```
@@ -7818,7 +7818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsResourceTagSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsResourceTagSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsResourceTagSpecificationOutputReference
 ```
@@ -8201,7 +8201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsRevertToSpotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsRevertToSpotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ManagedInstanceAwsRevertToSpotOutputReference
 ```
@@ -8472,7 +8472,7 @@ func InternalValue() ManagedInstanceAwsRevertToSpot
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsScheduledTaskList
 ```
@@ -8615,7 +8615,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsScheduledTaskOutputReference
 ```
@@ -9020,7 +9020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManagedInstanceAwsTagsList
 ```
@@ -9163,7 +9163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.managedInstanceAws.ManagedInstanceAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/managedinstanceaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/managedinstanceaws"
 
 managedinstanceaws.NewManagedInstanceAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ManagedInstanceAwsTagsOutputReference
 ```
