@@ -1,6 +1,6 @@
 # `spotinst_organization_programmatic_user`
 
-Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user).
+Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user).
 
 # `organizationProgrammaticUser` Submodule <a name="`organizationProgrammaticUser` Submodule" id="@cdktf/provider-spotinst.organizationProgrammaticUser"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_
 
 ### OrganizationProgrammaticUser <a name="OrganizationProgrammaticUser" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUser(scope Construct, id *string, config OrganizationProgrammaticUserConfig) OrganizationProgrammaticUser
 ```
@@ -331,7 +331,7 @@ func ResetUserGroupIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsConstruct(x interface{}) *bool
 ```
@@ -363,7 +363,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -377,7 +377,7 @@ organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserAccounts {
 	AccountId: *string,
@@ -720,8 +720,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationpro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.property.accountRole">AccountRole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.property.accountRole">AccountRole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}. |
 
 ---
 
@@ -733,7 +733,7 @@ AccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}.
 
 ---
 
@@ -745,7 +745,7 @@ AccountRole *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}.
 
 ---
 
@@ -754,7 +754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserConfig {
 	Connection: interface{},
@@ -784,12 +784,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationpro
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.accounts">Accounts</a></code> | <code>interface{}</code> | accounts block. |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.policies">Policies</a></code> | <code>interface{}</code> | policies block. |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.userGroupIds">UserGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.property.userGroupIds">UserGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}. |
 
 ---
 
@@ -871,7 +871,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}.
 
 ---
 
@@ -885,7 +885,7 @@ Accounts interface{}
 
 accounts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#accounts OrganizationProgrammaticUser#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#accounts OrganizationProgrammaticUser#accounts}
 
 ---
 
@@ -897,7 +897,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}.
 
 ---
 
@@ -909,7 +909,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -926,7 +926,7 @@ Policies interface{}
 
 policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#policies OrganizationProgrammaticUser#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#policies OrganizationProgrammaticUser#policies}
 
 ---
 
@@ -938,7 +938,7 @@ UserGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}.
 
 ---
 
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserPolicies {
 	PolicyAccountIds: *[]*string,
@@ -959,8 +959,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationpro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.property.policyAccountIds">PolicyAccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.property.policyAccountIds">PolicyAccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}. |
 
 ---
 
@@ -972,7 +972,7 @@ PolicyAccountIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}.
 
 ---
 
@@ -984,7 +984,7 @@ PolicyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}.
 
 ---
 
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserAccountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationProgrammaticUserAccountsList
 ```
@@ -1138,7 +1138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserAccountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationProgrammaticUserAccountsOutputReference
 ```
@@ -1449,7 +1449,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationProgrammaticUserPoliciesList
 ```
@@ -1592,7 +1592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationProgrammaticUserPoliciesOutputReference
 ```

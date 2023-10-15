@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np
+// https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface OceanAksNpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#aks_cluster_name OceanAksNp#aks_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#aks_cluster_name OceanAksNp#aks_cluster_name}
   */
   readonly aksClusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#aks_infrastructure_resource_group_name OceanAksNp#aks_infrastructure_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#aks_infrastructure_resource_group_name OceanAksNp#aks_infrastructure_resource_group_name}
   */
   readonly aksInfrastructureResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#aks_region OceanAksNp#aks_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#aks_region OceanAksNp#aks_region}
   */
   readonly aksRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#aks_resource_group_name OceanAksNp#aks_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#aks_resource_group_name OceanAksNp#aks_resource_group_name}
   */
   readonly aksResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#availability_zones OceanAksNp#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#availability_zones OceanAksNp#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#controller_cluster_id OceanAksNp#controller_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#controller_cluster_id OceanAksNp#controller_cluster_id}
   */
   readonly controllerClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#enable_node_public_ip OceanAksNp#enable_node_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#enable_node_public_ip OceanAksNp#enable_node_public_ip}
   */
   readonly enableNodePublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#fallback_to_ondemand OceanAksNp#fallback_to_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#fallback_to_ondemand OceanAksNp#fallback_to_ondemand}
   */
   readonly fallbackToOndemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#id OceanAksNp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#id OceanAksNp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#kubernetes_version OceanAksNp#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#kubernetes_version OceanAksNp#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#labels OceanAksNp#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#labels OceanAksNp#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_count OceanAksNp#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_count OceanAksNp#max_count}
   */
   readonly maxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_pods_per_node OceanAksNp#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_pods_per_node OceanAksNp#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#min_count OceanAksNp#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_count OceanAksNp#min_count}
   */
   readonly minCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#name OceanAksNp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#name OceanAksNp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#os_disk_size_gb OceanAksNp#os_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#os_disk_size_gb OceanAksNp#os_disk_size_gb}
   */
   readonly osDiskSizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#os_disk_type OceanAksNp#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#os_disk_type OceanAksNp#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#os_sku OceanAksNp#os_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#os_sku OceanAksNp#os_sku}
   */
   readonly osSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#os_type OceanAksNp#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#os_type OceanAksNp#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#pod_subnet_ids OceanAksNp#pod_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#pod_subnet_ids OceanAksNp#pod_subnet_ids}
   */
   readonly podSubnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#spot_percentage OceanAksNp#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#spot_percentage OceanAksNp#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#tags OceanAksNp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#tags OceanAksNp#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#vnet_subnet_ids OceanAksNp#vnet_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#vnet_subnet_ids OceanAksNp#vnet_subnet_ids}
   */
   readonly vnetSubnetIds?: string[];
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#autoscaler OceanAksNp#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#autoscaler OceanAksNp#autoscaler}
   */
   readonly autoscaler?: OceanAksNpAutoscaler;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#filters OceanAksNp#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#filters OceanAksNp#filters}
   */
   readonly filters?: OceanAksNpFilters;
   /**
   * headrooms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#headrooms OceanAksNp#headrooms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#headrooms OceanAksNp#headrooms}
   */
   readonly headrooms?: OceanAksNpHeadrooms[] | cdktf.IResolvable;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#health OceanAksNp#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#health OceanAksNp#health}
   */
   readonly health?: OceanAksNpHealth;
   /**
   * scheduling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#scheduling OceanAksNp#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#scheduling OceanAksNp#scheduling}
   */
   readonly scheduling?: OceanAksNpScheduling;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#taints OceanAksNp#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#taints OceanAksNp#taints}
   */
   readonly taints?: OceanAksNpTaints[] | cdktf.IResolvable;
 }
 export interface OceanAksNpAutoscalerAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_scale_down_percentage OceanAksNp#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_scale_down_percentage OceanAksNp#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -211,7 +206,7 @@ export class OceanAksNpAutoscalerAutoscaleDownOutputReference extends cdktf.Comp
 }
 export interface OceanAksNpAutoscalerAutoscaleHeadroomAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#percentage OceanAksNp#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#percentage OceanAksNp#percentage}
   */
   readonly percentage?: number;
 }
@@ -278,7 +273,7 @@ export interface OceanAksNpAutoscalerAutoscaleHeadroom {
   /**
   * automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#automatic OceanAksNp#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#automatic OceanAksNp#automatic}
   */
   readonly automatic?: OceanAksNpAutoscalerAutoscaleHeadroomAutomatic;
 }
@@ -343,11 +338,11 @@ export class OceanAksNpAutoscalerAutoscaleHeadroomOutputReference extends cdktf.
 }
 export interface OceanAksNpAutoscalerResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
   */
   readonly maxVcpu?: number;
 }
@@ -435,25 +430,25 @@ export class OceanAksNpAutoscalerResourceLimitsOutputReference extends cdktf.Com
 }
 export interface OceanAksNpAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#autoscale_is_enabled OceanAksNp#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#autoscale_is_enabled OceanAksNp#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#autoscale_down OceanAksNp#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#autoscale_down OceanAksNp#autoscale_down}
   */
   readonly autoscaleDown?: OceanAksNpAutoscalerAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#autoscale_headroom OceanAksNp#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#autoscale_headroom OceanAksNp#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: OceanAksNpAutoscalerAutoscaleHeadroom;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#resource_limits OceanAksNp#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#resource_limits OceanAksNp#resource_limits}
   */
   readonly resourceLimits?: OceanAksNpAutoscalerResourceLimits;
 }
@@ -587,33 +582,61 @@ export class OceanAksNpAutoscalerOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#architectures OceanAksNp#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#accelerated_networking OceanAksNp#accelerated_networking}
+  */
+  readonly acceleratedNetworking?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#architectures OceanAksNp#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#exclude_series OceanAksNp#exclude_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#disk_performance OceanAksNp#disk_performance}
+  */
+  readonly diskPerformance?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#exclude_series OceanAksNp#exclude_series}
   */
   readonly excludeSeries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_gpu OceanAksNp#max_gpu}
+  */
+  readonly maxGpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
   */
   readonly maxVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#min_memory_gib OceanAksNp#min_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_data OceanAksNp#min_data}
+  */
+  readonly minData?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_gpu OceanAksNp#min_gpu}
+  */
+  readonly minGpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_memory_gib OceanAksNp#min_memory_gib}
   */
   readonly minMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#min_vcpu OceanAksNp#min_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_nics OceanAksNp#min_nics}
+  */
+  readonly minNics?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#min_vcpu OceanAksNp#min_vcpu}
   */
   readonly minVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#series OceanAksNp#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#series OceanAksNp#series}
   */
   readonly series?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#vm_types OceanAksNp#vm_types}
+  */
+  readonly vmTypes?: string[];
 }
 
 export function oceanAksNpFiltersToTerraform(struct?: OceanAksNpFiltersOutputReference | OceanAksNpFilters): any {
@@ -622,13 +645,20 @@ export function oceanAksNpFiltersToTerraform(struct?: OceanAksNpFiltersOutputRef
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    accelerated_networking: cdktf.stringToTerraform(struct!.acceleratedNetworking),
     architectures: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.architectures),
+    disk_performance: cdktf.stringToTerraform(struct!.diskPerformance),
     exclude_series: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeSeries),
+    max_gpu: cdktf.numberToTerraform(struct!.maxGpu),
     max_memory_gib: cdktf.numberToTerraform(struct!.maxMemoryGib),
     max_vcpu: cdktf.numberToTerraform(struct!.maxVcpu),
+    min_data: cdktf.numberToTerraform(struct!.minData),
+    min_gpu: cdktf.numberToTerraform(struct!.minGpu),
     min_memory_gib: cdktf.numberToTerraform(struct!.minMemoryGib),
+    min_nics: cdktf.numberToTerraform(struct!.minNics),
     min_vcpu: cdktf.numberToTerraform(struct!.minVcpu),
     series: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.series),
+    vm_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vmTypes),
   }
 }
 
@@ -646,13 +676,25 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
   public get internalValue(): OceanAksNpFilters | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._acceleratedNetworking !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acceleratedNetworking = this._acceleratedNetworking;
+    }
     if (this._architectures !== undefined) {
       hasAnyValues = true;
       internalValueResult.architectures = this._architectures;
     }
+    if (this._diskPerformance !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskPerformance = this._diskPerformance;
+    }
     if (this._excludeSeries !== undefined) {
       hasAnyValues = true;
       internalValueResult.excludeSeries = this._excludeSeries;
+    }
+    if (this._maxGpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxGpu = this._maxGpu;
     }
     if (this._maxMemoryGib !== undefined) {
       hasAnyValues = true;
@@ -662,9 +704,21 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.maxVcpu = this._maxVcpu;
     }
+    if (this._minData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minData = this._minData;
+    }
+    if (this._minGpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minGpu = this._minGpu;
+    }
     if (this._minMemoryGib !== undefined) {
       hasAnyValues = true;
       internalValueResult.minMemoryGib = this._minMemoryGib;
+    }
+    if (this._minNics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minNics = this._minNics;
     }
     if (this._minVcpu !== undefined) {
       hasAnyValues = true;
@@ -674,30 +728,64 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.series = this._series;
     }
+    if (this._vmTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vmTypes = this._vmTypes;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: OceanAksNpFilters | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._acceleratedNetworking = undefined;
       this._architectures = undefined;
+      this._diskPerformance = undefined;
       this._excludeSeries = undefined;
+      this._maxGpu = undefined;
       this._maxMemoryGib = undefined;
       this._maxVcpu = undefined;
+      this._minData = undefined;
+      this._minGpu = undefined;
       this._minMemoryGib = undefined;
+      this._minNics = undefined;
       this._minVcpu = undefined;
       this._series = undefined;
+      this._vmTypes = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._acceleratedNetworking = value.acceleratedNetworking;
       this._architectures = value.architectures;
+      this._diskPerformance = value.diskPerformance;
       this._excludeSeries = value.excludeSeries;
+      this._maxGpu = value.maxGpu;
       this._maxMemoryGib = value.maxMemoryGib;
       this._maxVcpu = value.maxVcpu;
+      this._minData = value.minData;
+      this._minGpu = value.minGpu;
       this._minMemoryGib = value.minMemoryGib;
+      this._minNics = value.minNics;
       this._minVcpu = value.minVcpu;
       this._series = value.series;
+      this._vmTypes = value.vmTypes;
     }
+  }
+
+  // accelerated_networking - computed: false, optional: true, required: false
+  private _acceleratedNetworking?: string; 
+  public get acceleratedNetworking() {
+    return this.getStringAttribute('accelerated_networking');
+  }
+  public set acceleratedNetworking(value: string) {
+    this._acceleratedNetworking = value;
+  }
+  public resetAcceleratedNetworking() {
+    this._acceleratedNetworking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acceleratedNetworkingInput() {
+    return this._acceleratedNetworking;
   }
 
   // architectures - computed: false, optional: true, required: false
@@ -716,6 +804,22 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
     return this._architectures;
   }
 
+  // disk_performance - computed: false, optional: true, required: false
+  private _diskPerformance?: string; 
+  public get diskPerformance() {
+    return this.getStringAttribute('disk_performance');
+  }
+  public set diskPerformance(value: string) {
+    this._diskPerformance = value;
+  }
+  public resetDiskPerformance() {
+    this._diskPerformance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskPerformanceInput() {
+    return this._diskPerformance;
+  }
+
   // exclude_series - computed: false, optional: true, required: false
   private _excludeSeries?: string[]; 
   public get excludeSeries() {
@@ -730,6 +834,22 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get excludeSeriesInput() {
     return this._excludeSeries;
+  }
+
+  // max_gpu - computed: false, optional: true, required: false
+  private _maxGpu?: number; 
+  public get maxGpu() {
+    return this.getNumberAttribute('max_gpu');
+  }
+  public set maxGpu(value: number) {
+    this._maxGpu = value;
+  }
+  public resetMaxGpu() {
+    this._maxGpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxGpuInput() {
+    return this._maxGpu;
   }
 
   // max_memory_gib - computed: false, optional: true, required: false
@@ -764,6 +884,38 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
     return this._maxVcpu;
   }
 
+  // min_data - computed: false, optional: true, required: false
+  private _minData?: number; 
+  public get minData() {
+    return this.getNumberAttribute('min_data');
+  }
+  public set minData(value: number) {
+    this._minData = value;
+  }
+  public resetMinData() {
+    this._minData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minDataInput() {
+    return this._minData;
+  }
+
+  // min_gpu - computed: false, optional: true, required: false
+  private _minGpu?: number; 
+  public get minGpu() {
+    return this.getNumberAttribute('min_gpu');
+  }
+  public set minGpu(value: number) {
+    this._minGpu = value;
+  }
+  public resetMinGpu() {
+    this._minGpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minGpuInput() {
+    return this._minGpu;
+  }
+
   // min_memory_gib - computed: false, optional: true, required: false
   private _minMemoryGib?: number; 
   public get minMemoryGib() {
@@ -778,6 +930,22 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get minMemoryGibInput() {
     return this._minMemoryGib;
+  }
+
+  // min_nics - computed: false, optional: true, required: false
+  private _minNics?: number; 
+  public get minNics() {
+    return this.getNumberAttribute('min_nics');
+  }
+  public set minNics(value: number) {
+    this._minNics = value;
+  }
+  public resetMinNics() {
+    this._minNics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minNicsInput() {
+    return this._minNics;
   }
 
   // min_vcpu - computed: false, optional: true, required: false
@@ -811,22 +979,38 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
   public get seriesInput() {
     return this._series;
   }
+
+  // vm_types - computed: false, optional: true, required: false
+  private _vmTypes?: string[]; 
+  public get vmTypes() {
+    return cdktf.Fn.tolist(this.getListAttribute('vm_types'));
+  }
+  public set vmTypes(value: string[]) {
+    this._vmTypes = value;
+  }
+  public resetVmTypes() {
+    this._vmTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vmTypesInput() {
+    return this._vmTypes;
+  }
 }
 export interface OceanAksNpHeadrooms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#cpu_per_unit OceanAksNp#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#cpu_per_unit OceanAksNp#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#gpu_per_unit OceanAksNp#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#gpu_per_unit OceanAksNp#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#memory_per_unit OceanAksNp#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#memory_per_unit OceanAksNp#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#num_of_units OceanAksNp#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#num_of_units OceanAksNp#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -992,7 +1176,7 @@ export class OceanAksNpHeadroomsList extends cdktf.ComplexList {
 }
 export interface OceanAksNpHealth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#grace_period OceanAksNp#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#grace_period OceanAksNp#grace_period}
   */
   readonly gracePeriod?: number;
 }
@@ -1057,11 +1241,11 @@ export class OceanAksNpHealthOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpSchedulingShutdownHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
   */
   readonly timeWindows: string[];
 }
@@ -1148,7 +1332,7 @@ export interface OceanAksNpScheduling {
   /**
   * shutdown_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#shutdown_hours OceanAksNp#shutdown_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#shutdown_hours OceanAksNp#shutdown_hours}
   */
   readonly shutdownHours?: OceanAksNpSchedulingShutdownHours;
 }
@@ -1213,15 +1397,15 @@ export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#effect OceanAksNp#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#effect OceanAksNp#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#key OceanAksNp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#key OceanAksNp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np#value OceanAksNp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np#value OceanAksNp#value}
   */
   readonly value: string;
 }
@@ -1355,7 +1539,7 @@ export class OceanAksNpTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np}
 */
 export class OceanAksNp extends cdktf.TerraformResource {
 
@@ -1369,7 +1553,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.145.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1380,7 +1564,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_np',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.145.0',
+        providerVersion: '1.146.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
