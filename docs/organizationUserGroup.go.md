@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroup(scope Construct, id *string, config OrganizationUserGroupConfig) OrganizationUserGroup
 ```
@@ -373,7 +373,7 @@ func ResetUserIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsConstruct(x interface{}) *bool
 ```
@@ -405,7 +405,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -419,7 +419,7 @@ organizationusergroup.OrganizationUserGroup_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -433,7 +433,7 @@ organizationusergroup.OrganizationUserGroup_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -772,7 +772,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 &organizationusergroup.OrganizationUserGroupConfig {
 	Connection: interface{},
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 &organizationusergroup.OrganizationUserGroupPolicies {
 	AccountIds: *[]*string,
@@ -997,7 +997,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroupPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationUserGroupPoliciesList
 ```
@@ -1140,7 +1140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroupPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationUserGroupPoliciesOutputReference
 ```
