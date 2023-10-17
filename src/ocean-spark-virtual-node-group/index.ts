@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_spark_virtual_node_group
 // generated from terraform resource schema
 
@@ -38,6 +33,20 @@ export class OceanSparkVirtualNodeGroup extends cdktf.TerraformResource {
   // STATIC PROPERTIES
   // =================
   public static readonly tfResourceType = "spotinst_ocean_spark_virtual_node_group";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a OceanSparkVirtualNodeGroup resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the OceanSparkVirtualNodeGroup to import
+  * @param importFromId The id of the existing OceanSparkVirtualNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_spark_virtual_node_group#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the OceanSparkVirtualNodeGroup to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "spotinst_ocean_spark_virtual_node_group", importId: importFromId, provider });
+      }
 
   // ===========
   // INITIALIZER
