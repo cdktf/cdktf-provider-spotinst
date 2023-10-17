@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.NewMultaiRoutingRule(scope Construct, id *string, config MultaiRoutingRuleConfig) MultaiRoutingRule
 ```
@@ -318,7 +318,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.MultaiRoutingRule_IsConstruct(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.MultaiRoutingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -364,7 +364,7 @@ multairoutingrule.MultaiRoutingRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.MultaiRoutingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -761,7 +761,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 &multairoutingrule.MultaiRoutingRuleConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 &multairoutingrule.MultaiRoutingRuleTags {
 	Key: *string,
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.NewMultaiRoutingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiRoutingRuleTagsList
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiRoutingRule.MultaiRoutingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/multairoutingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multairoutingrule"
 
 multairoutingrule.NewMultaiRoutingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiRoutingRuleTagsOutputReference
 ```
