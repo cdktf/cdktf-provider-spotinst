@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/elastigroup_azure
 // generated from terraform resource schema
 
@@ -3474,6 +3469,20 @@ export class ElastigroupAzure extends cdktf.TerraformResource {
   // STATIC PROPERTIES
   // =================
   public static readonly tfResourceType = "spotinst_elastigroup_azure";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ElastigroupAzure resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ElastigroupAzure to import
+  * @param importFromId The id of the existing ElastigroupAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/elastigroup_azure#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ElastigroupAzure to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "spotinst_elastigroup_azure", importId: importFromId, provider });
+      }
 
   // ===========
   // INITIALIZER
