@@ -135,6 +135,20 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
   // =================
   public static readonly tfResourceType = "spotinst_elastigroup_aws_suspension";
 
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ElastigroupAwsSuspension resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ElastigroupAwsSuspension to import
+  * @param importFromId The id of the existing ElastigroupAwsSuspension that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/elastigroup_aws_suspension#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ElastigroupAwsSuspension to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "spotinst_elastigroup_aws_suspension", importId: importFromId, provider });
+      }
+
   // ===========
   // INITIALIZER
   // ===========

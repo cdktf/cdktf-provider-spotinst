@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
 
 provider.NewSpotinstProvider(scope Construct, id *string, config SpotinstProviderConfig) SpotinstProvider
 ```
@@ -162,13 +162,14 @@ func ResetToken()
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformProvider">IsTerraformProvider</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a SpotinstProvider resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
 
 provider.SpotinstProvider_IsConstruct(x interface{}) *bool
 ```
@@ -200,7 +201,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
 
 provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -214,7 +215,7 @@ provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
 
 provider.SpotinstProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -222,6 +223,50 @@ provider.SpotinstProvider_IsTerraformProvider(x interface{}) *bool
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformProvider.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
+
+provider.SpotinstProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a SpotinstProvider resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the SpotinstProvider to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing SpotinstProvider that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the SpotinstProvider to import is found.
 
 ---
 
@@ -435,7 +480,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/provider"
 
 &provider.SpotinstProviderConfig {
 	Account: *string,

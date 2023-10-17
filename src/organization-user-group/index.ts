@@ -167,6 +167,20 @@ export class OrganizationUserGroup extends cdktf.TerraformResource {
   // =================
   public static readonly tfResourceType = "spotinst_organization_user_group";
 
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a OrganizationUserGroup resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the OrganizationUserGroup to import
+  * @param importFromId The id of the existing OrganizationUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/organization_user_group#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the OrganizationUserGroup to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "spotinst_organization_user_group", importId: importFromId, provider });
+      }
+
   // ===========
   // INITIALIZER
   // ===========

@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAks(scope Construct, id *string, config OceanAksConfig) OceanAks
 ```
@@ -60,6 +60,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
@@ -69,7 +70,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.importFrom">ImportFrom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.putAutoscaler">PutAutoscaler</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.putExtension">PutExtension</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.putHealth">PutHealth</a></code> | *No description.* |
@@ -165,6 +168,22 @@ func ToTerraform() interface{}
 ```
 
 Adds this resource to the terraform JSON output.
+
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-spotinst.oceanAks.OceanAks.addMoveTarget"></a>
+
+```go
+func AddMoveTarget(moveTarget *string)
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-spotinst.oceanAks.OceanAks.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The string move target that will correspond to this resource.
+
+---
 
 ##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.oceanAks.OceanAks.getAnyMapAttribute"></a>
 
@@ -274,6 +293,24 @@ func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 
 ---
 
+##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-spotinst.oceanAks.OceanAks.importFrom"></a>
+
+```go
+func ImportFrom(id *string, provider TerraformProvider)
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-spotinst.oceanAks.OceanAks.importFrom.parameter.id"></a>
+
+- *Type:* *string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-spotinst.oceanAks.OceanAks.importFrom.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+---
+
 ##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.oceanAks.OceanAks.interpolationForAttribute"></a>
 
 ```go
@@ -283,6 +320,30 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanAks.OceanAks.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
+
+---
+
+##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-spotinst.oceanAks.OceanAks.moveTo"></a>
+
+```go
+func MoveTo(moveTarget *string, index interface{})
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-spotinst.oceanAks.OceanAks.moveTo.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-spotinst.oceanAks.OceanAks.moveTo.parameter.index"></a>
+
+- *Type:* interface{}
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
 
 ---
 
@@ -533,13 +594,14 @@ func ResetZones()
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a OceanAks resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAks.OceanAks.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.OceanAks_IsConstruct(x interface{}) *bool
 ```
@@ -571,7 +633,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAks.OceanAks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.OceanAks_IsTerraformElement(x interface{}) *bool
 ```
@@ -585,7 +647,7 @@ oceanaks.OceanAks_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAks.OceanAks.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.OceanAks_IsTerraformResource(x interface{}) *bool
 ```
@@ -593,6 +655,50 @@ oceanaks.OceanAks_IsTerraformResource(x interface{}) *bool
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-spotinst.oceanAks.OceanAks.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
+
+oceanaks.OceanAks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a OceanAks resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the OceanAks to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing OceanAks that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/ocean_aks#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-spotinst.oceanAks.OceanAks.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the OceanAks to import is found.
 
 ---
 
@@ -1290,13 +1396,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksAutoscaler {
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksAutoscalerAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksAutoscalerAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksAutoscalerAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksAutoscalerAutoscaleHeadroom,
 	AutoscaleIsEnabled: interface{},
-	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksAutoscalerResourceLimits,
+	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksAutoscalerResourceLimits,
 }
 ```
 
@@ -1370,7 +1476,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksAutoscalerAutoscaleDown {
 	MaxScaleDownPercentage: *f64,
@@ -1402,10 +1508,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksAutoscalerAutoscaleHeadroom {
-	Automatic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic,
+	Automatic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic,
 }
 ```
 
@@ -1436,7 +1542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksAutoscalerAutoscaleHeadroomAutomatic {
 	IsEnabled: interface{},
@@ -1482,7 +1588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksAutoscalerResourceLimits {
 	MaxMemoryGib: *f64,
@@ -1528,7 +1634,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksConfig {
 	Connection: interface{},
@@ -1543,18 +1649,18 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
 	AksResourceGroupName: *string,
 	Name: *string,
 	SshPublicKey: *string,
-	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksAutoscaler,
+	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksAutoscaler,
 	ControllerClusterId: *string,
 	CustomData: *string,
 	Extension: interface{},
-	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksHealth,
+	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksHealth,
 	Id: *string,
 	Image: interface{},
 	LoadBalancer: interface{},
 	ManagedServiceIdentity: interface{},
 	MaxPods: *f64,
-	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksNetwork,
-	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksOsDisk,
+	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksNetwork,
+	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksOsDisk,
 	ResourceGroupName: *string,
 	Strategy: interface{},
 	Tag: interface{},
@@ -1977,7 +2083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksExtension.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksExtension {
 	ApiVersion: *string,
@@ -2065,7 +2171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksHealth.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksHealth {
 	GracePeriod: *f64,
@@ -2097,7 +2203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksImage {
 	Marketplace: interface{},
@@ -2131,7 +2237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksImageMarketplace {
 	Offer: *string,
@@ -2205,7 +2311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksLoadBalancer {
 	BackendPoolNames: *[]*string,
@@ -2293,7 +2399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksManagedServiceIdentity {
 	Name: *string,
@@ -2339,7 +2445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksNetwork {
 	NetworkInterface: interface{},
@@ -2401,13 +2507,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksNetworkNetworkInterface {
 	AdditionalIpConfig: interface{},
 	AssignPublicIp: interface{},
 	IsPrimary: interface{},
-	SecurityGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup,
+	SecurityGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup,
 	SubnetName: *string,
 }
 ```
@@ -2493,7 +2599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig {
 	Name: *string,
@@ -2539,7 +2645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksNetworkNetworkInterfaceSecurityGroup {
 	Name: *string,
@@ -2585,7 +2691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksOsDisk {
 	SizeGb: *f64,
@@ -2631,7 +2737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksStrategy {
 	FallbackToOndemand: interface{},
@@ -2677,7 +2783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksTag.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksTag {
 	Key: *string,
@@ -2723,7 +2829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 &oceanaks.OceanAksVmSizes {
 	Whitelist: *[]*string,
@@ -2757,7 +2863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksAutoscalerAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksAutoscalerAutoscaleDownOutputReference
 ```
@@ -3035,7 +3141,7 @@ func InternalValue() OceanAksAutoscalerAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomaticOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksAutoscalerAutoscaleHeadroomAutomaticOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksAutoscalerAutoscaleHeadroomAutomaticOutputReference
 ```
@@ -3342,7 +3448,7 @@ func InternalValue() OceanAksAutoscalerAutoscaleHeadroomAutomatic
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksAutoscalerAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksAutoscalerAutoscaleHeadroomOutputReference
 ```
@@ -3633,7 +3739,7 @@ func InternalValue() OceanAksAutoscalerAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksAutoscalerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksAutoscalerOutputReference
 ```
@@ -4037,7 +4143,7 @@ func InternalValue() OceanAksAutoscaler
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksAutoscalerResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksAutoscalerResourceLimitsOutputReference
 ```
@@ -4344,7 +4450,7 @@ func InternalValue() OceanAksAutoscalerResourceLimits
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksExtensionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksExtensionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksExtensionList
 ```
@@ -4487,7 +4593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksExtensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksExtensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksExtensionOutputReference
 ```
@@ -4899,7 +5005,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksHealthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksHealthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksHealthOutputReference
 ```
@@ -5177,7 +5283,7 @@ func InternalValue() OceanAksHealth
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksImageList
 ```
@@ -5320,7 +5426,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksImageMarketplaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksImageMarketplaceList
 ```
@@ -5463,7 +5569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksImageMarketplaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksImageMarketplaceOutputReference
 ```
@@ -5846,7 +5952,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksImageOutputReference
 ```
@@ -6155,7 +6261,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksLoadBalancerList
 ```
@@ -6298,7 +6404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksLoadBalancerOutputReference
 ```
@@ -6710,7 +6816,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksManagedServiceIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksManagedServiceIdentityList
 ```
@@ -6853,7 +6959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksManagedServiceIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksManagedServiceIdentityOutputReference
 ```
@@ -7164,7 +7270,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkNetworkInterfaceAdditionalIpConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNetworkNetworkInterfaceAdditionalIpConfigList
 ```
@@ -7307,7 +7413,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNetworkNetworkInterfaceAdditionalIpConfigOutputReference
 ```
@@ -7632,7 +7738,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNetworkNetworkInterfaceList
 ```
@@ -7775,7 +7881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNetworkNetworkInterfaceOutputReference
 ```
@@ -8213,7 +8319,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkNetworkInterfaceSecurityGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNetworkNetworkInterfaceSecurityGroupOutputReference
 ```
@@ -8520,7 +8626,7 @@ func InternalValue() OceanAksNetworkNetworkInterfaceSecurityGroup
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNetworkOutputReference
 ```
@@ -8869,7 +8975,7 @@ func InternalValue() OceanAksNetwork
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksOsDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksOsDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksOsDiskOutputReference
 ```
@@ -9169,7 +9275,7 @@ func InternalValue() OceanAksOsDisk
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksStrategyList
 ```
@@ -9312,7 +9418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksStrategyOutputReference
 ```
@@ -9637,7 +9743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksTagList
 ```
@@ -9780,7 +9886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksTagOutputReference
 ```
@@ -10105,7 +10211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksVmSizesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksVmSizesList
 ```
@@ -10248,7 +10354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAksVmSizesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v11/oceanaks"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaks"
 
 oceanaks.NewOceanAksVmSizesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksVmSizesOutputReference
 ```
