@@ -1,6 +1,6 @@
 # `spotinst_multai_balancer`
 
-Refer to the Terraform Registory for docs: [`spotinst_multai_balancer`](https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer).
+Refer to the Terraform Registory for docs: [`spotinst_multai_balancer`](https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer).
 
 # `multaiBalancer` Submodule <a name="`multaiBalancer` Submodule" id="@cdktf/provider-spotinst.multaiBalancer"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_multai_balancer`](https://
 
 ### MultaiBalancer <a name="MultaiBalancer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer spotinst_multai_balancer}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer spotinst_multai_balancer}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.NewMultaiBalancer(scope Construct, id *string, config MultaiBalancerConfig) MultaiBalancer
 ```
@@ -393,7 +393,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsConstruct(x interface{}) *bool
 ```
@@ -425,7 +425,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsTerraformElement(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ multaibalancer.MultaiBalancer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.MultaiBalancer_IsTerraformResource(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ multaibalancer.MultaiBalancer_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.MultaiBalancer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -482,7 +482,7 @@ The construct id used in the generated config for the MultaiBalancer to import.
 
 The id of the existing MultaiBalancer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -814,7 +814,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 &multaibalancer.MultaiBalancerConfig {
 	Connection: interface{},
@@ -825,7 +825,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	ConnectionTimeouts: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.multaiBalancer.MultaiBalancerConnectionTimeouts,
+	ConnectionTimeouts: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts,
 	DnsCnameAliases: *[]*string,
 	Id: *string,
 	Scheme: *string,
@@ -844,11 +844,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#name MultaiBalancer#name}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#name MultaiBalancer#name}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.connectionTimeouts">ConnectionTimeouts</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts">MultaiBalancerConnectionTimeouts</a></code> | connection_timeouts block. |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.dnsCnameAliases">DnsCnameAliases</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#id MultaiBalancer#id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.scheme">Scheme</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.dnsCnameAliases">DnsCnameAliases</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#id MultaiBalancer#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.scheme">Scheme</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConfig.property.tags">Tags</a></code> | <code>interface{}</code> | tags block. |
 
 ---
@@ -931,7 +931,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#name MultaiBalancer#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#name MultaiBalancer#name}.
 
 ---
 
@@ -945,7 +945,7 @@ ConnectionTimeouts MultaiBalancerConnectionTimeouts
 
 connection_timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#connection_timeouts MultaiBalancer#connection_timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#connection_timeouts MultaiBalancer#connection_timeouts}
 
 ---
 
@@ -957,7 +957,7 @@ DnsCnameAliases *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#dns_cname_aliases MultaiBalancer#dns_cname_aliases}.
 
 ---
 
@@ -969,7 +969,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#id MultaiBalancer#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#id MultaiBalancer#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -984,7 +984,7 @@ Scheme *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#scheme MultaiBalancer#scheme}.
 
 ---
 
@@ -998,7 +998,7 @@ Tags interface{}
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#tags MultaiBalancer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#tags MultaiBalancer#tags}
 
 ---
 
@@ -1007,7 +1007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 &multaibalancer.MultaiBalancerConnectionTimeouts {
 	Draining: *f64,
@@ -1019,8 +1019,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.property.draining">Draining</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.property.idle">Idle</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.property.draining">Draining</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeouts.property.idle">Idle</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ Draining *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#draining MultaiBalancer#draining}.
 
 ---
 
@@ -1044,7 +1044,7 @@ Idle *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#idle MultaiBalancer#idle}.
 
 ---
 
@@ -1053,7 +1053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 &multaibalancer.MultaiBalancerTags {
 	Key: *string,
@@ -1065,8 +1065,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#key MultaiBalancer#key}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#value MultaiBalancer#value}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#key MultaiBalancer#key}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#value MultaiBalancer#value}. |
 
 ---
 
@@ -1078,7 +1078,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#key MultaiBalancer#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#key MultaiBalancer#key}.
 
 ---
 
@@ -1090,7 +1090,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.146.0/docs/resources/multai_balancer#value MultaiBalancer#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_balancer#value MultaiBalancer#value}.
 
 ---
 
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.NewMultaiBalancerConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MultaiBalancerConnectionTimeoutsOutputReference
 ```
@@ -1408,7 +1408,7 @@ func InternalValue() MultaiBalancerConnectionTimeouts
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.NewMultaiBalancerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiBalancerTagsList
 ```
@@ -1551,7 +1551,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiBalancer.MultaiBalancerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaibalancer"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaibalancer"
 
 multaibalancer.NewMultaiBalancerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiBalancerTagsOutputReference
 ```
