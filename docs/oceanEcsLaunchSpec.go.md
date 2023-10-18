@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpec(scope Construct, id *string, config OceanEcsLaunchSpecConfig) OceanEcsLaunchSpec
 ```
@@ -535,7 +535,7 @@ func ResetUserData()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpec.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.OceanEcsLaunchSpec_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.OceanEcsLaunchSpec_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ oceanecslaunchspec.OceanEcsLaunchSpec_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.OceanEcsLaunchSpec_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ oceanecslaunchspec.OceanEcsLaunchSpec_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpec.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.OceanEcsLaunchSpec_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1220,7 +1220,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecAttributes {
 	Key: *string,
@@ -1266,7 +1266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAutoscaleHeadrooms.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecAutoscaleHeadrooms {
 	NumOfUnits: *f64,
@@ -1326,11 +1326,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecBlockDeviceMappings {
 	DeviceName: *string,
-	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbs,
+	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbs,
 	NoDevice: *string,
 	VirtualName: *string,
 }
@@ -1402,11 +1402,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecBlockDeviceMappingsEbs {
 	DeleteOnTermination: interface{},
-	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize,
+	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize,
 	Encrypted: interface{},
 	Iops: *f64,
 	KmsKeyId: *string,
@@ -1548,7 +1548,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize {
 	BaseSize: *f64,
@@ -1608,7 +1608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecConfig {
 	Connection: interface{},
@@ -1626,7 +1626,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
 	IamInstanceProfile: *string,
 	Id: *string,
 	ImageId: *string,
-	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecInstanceMetadataOptions,
+	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanEcsLaunchSpec.OceanEcsLaunchSpecInstanceMetadataOptions,
 	InstanceTypes: *[]*string,
 	PreferredSpotTypes: *[]*string,
 	RestrictScaleDown: interface{},
@@ -1979,7 +1979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecInstanceMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecInstanceMetadataOptions {
 	HttpTokens: *string,
@@ -2025,7 +2025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecSchedulingTask {
 	CronExpression: *string,
@@ -2101,7 +2101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTaskTaskHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecSchedulingTaskTaskHeadroom {
 	NumOfUnits: *f64,
@@ -2161,7 +2161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecStrategy {
 	SpotPercentage: *f64,
@@ -2193,7 +2193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 &oceanecslaunchspec.OceanEcsLaunchSpecTags {
 	Key: *string,
@@ -2241,7 +2241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecAttributesList
 ```
@@ -2384,7 +2384,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecAttributesOutputReference
 ```
@@ -2695,7 +2695,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAutoscaleHeadroomsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecAutoscaleHeadroomsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecAutoscaleHeadroomsList
 ```
@@ -2838,7 +2838,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecAutoscaleHeadroomsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecAutoscaleHeadroomsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecAutoscaleHeadroomsOutputReference
 ```
@@ -3185,7 +3185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference
 ```
@@ -3500,7 +3500,7 @@ func InternalValue() OceanEcsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanEcsLaunchSpecBlockDeviceMappingsEbsOutputReference
 ```
@@ -4023,7 +4023,7 @@ func InternalValue() OceanEcsLaunchSpecBlockDeviceMappingsEbs
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecBlockDeviceMappingsList
 ```
@@ -4166,7 +4166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecBlockDeviceMappingsOutputReference
 ```
@@ -4555,7 +4555,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecInstanceMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecInstanceMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanEcsLaunchSpecInstanceMetadataOptionsOutputReference
 ```
@@ -4855,7 +4855,7 @@ func InternalValue() OceanEcsLaunchSpecInstanceMetadataOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecSchedulingTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecSchedulingTaskList
 ```
@@ -4998,7 +4998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecSchedulingTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecSchedulingTaskOutputReference
 ```
@@ -5373,7 +5373,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTaskTaskHeadroomList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecSchedulingTaskTaskHeadroomList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecSchedulingTaskTaskHeadroomList
 ```
@@ -5516,7 +5516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecSchedulingTaskTaskHeadroomOutputReference
 ```
@@ -5863,7 +5863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecStrategyList
 ```
@@ -6006,7 +6006,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecStrategyOutputReference
 ```
@@ -6302,7 +6302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanEcsLaunchSpecTagsList
 ```
@@ -6445,7 +6445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcsLaunchSpec.OceanEcsLaunchSpecTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanecslaunchspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanecslaunchspec"
 
 oceanecslaunchspec.NewOceanEcsLaunchSpecTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanEcsLaunchSpecTagsOutputReference
 ```
