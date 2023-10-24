@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws
+// https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,232 +13,232 @@ import * as cdktf from 'cdktf';
 
 export interface ManagedInstanceAwsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#auto_healing ManagedInstanceAws#auto_healing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#auto_healing ManagedInstanceAws#auto_healing}
   */
   readonly autoHealing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#block_devices_mode ManagedInstanceAws#block_devices_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#block_devices_mode ManagedInstanceAws#block_devices_mode}
   */
   readonly blockDevicesMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#cpu_credits ManagedInstanceAws#cpu_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#cpu_credits ManagedInstanceAws#cpu_credits}
   */
   readonly cpuCredits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#description ManagedInstanceAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#description ManagedInstanceAws#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#draining_timeout ManagedInstanceAws#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#draining_timeout ManagedInstanceAws#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#ebs_optimized ManagedInstanceAws#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#ebs_optimized ManagedInstanceAws#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#elastic_ip ManagedInstanceAws#elastic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#elastic_ip ManagedInstanceAws#elastic_ip}
   */
   readonly elasticIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#enable_monitoring ManagedInstanceAws#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#enable_monitoring ManagedInstanceAws#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#fall_back_to_od ManagedInstanceAws#fall_back_to_od}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#fall_back_to_od ManagedInstanceAws#fall_back_to_od}
   */
   readonly fallBackToOd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#grace_period ManagedInstanceAws#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#grace_period ManagedInstanceAws#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#health_check_type ManagedInstanceAws#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#health_check_type ManagedInstanceAws#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#iam_instance_profile ManagedInstanceAws#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#iam_instance_profile ManagedInstanceAws#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#id ManagedInstanceAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#id ManagedInstanceAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#image_id ManagedInstanceAws#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#image_id ManagedInstanceAws#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#instance_types ManagedInstanceAws#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#instance_types ManagedInstanceAws#instance_types}
   */
   readonly instanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#key_pair ManagedInstanceAws#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#key_pair ManagedInstanceAws#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#life_cycle ManagedInstanceAws#life_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#life_cycle ManagedInstanceAws#life_cycle}
   */
   readonly lifeCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#minimum_instance_lifetime ManagedInstanceAws#minimum_instance_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#minimum_instance_lifetime ManagedInstanceAws#minimum_instance_lifetime}
   */
   readonly minimumInstanceLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#optimization_windows ManagedInstanceAws#optimization_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#optimization_windows ManagedInstanceAws#optimization_windows}
   */
   readonly optimizationWindows?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#orientation ManagedInstanceAws#orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#orientation ManagedInstanceAws#orientation}
   */
   readonly orientation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#persist_block_devices ManagedInstanceAws#persist_block_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#persist_block_devices ManagedInstanceAws#persist_block_devices}
   */
   readonly persistBlockDevices: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#persist_private_ip ManagedInstanceAws#persist_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#persist_private_ip ManagedInstanceAws#persist_private_ip}
   */
   readonly persistPrivateIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#persist_root_device ManagedInstanceAws#persist_root_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#persist_root_device ManagedInstanceAws#persist_root_device}
   */
   readonly persistRootDevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#placement_tenancy ManagedInstanceAws#placement_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#placement_tenancy ManagedInstanceAws#placement_tenancy}
   */
   readonly placementTenancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#preferred_type ManagedInstanceAws#preferred_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#preferred_type ManagedInstanceAws#preferred_type}
   */
   readonly preferredType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#private_ip ManagedInstanceAws#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#private_ip ManagedInstanceAws#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#product ManagedInstanceAws#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#product ManagedInstanceAws#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#region ManagedInstanceAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#region ManagedInstanceAws#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#security_group_ids ManagedInstanceAws#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#security_group_ids ManagedInstanceAws#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#shutdown_script ManagedInstanceAws#shutdown_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#shutdown_script ManagedInstanceAws#shutdown_script}
   */
   readonly shutdownScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#subnet_ids ManagedInstanceAws#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#subnet_ids ManagedInstanceAws#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#unhealthy_duration ManagedInstanceAws#unhealthy_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#unhealthy_duration ManagedInstanceAws#unhealthy_duration}
   */
   readonly unhealthyDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#user_data ManagedInstanceAws#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#user_data ManagedInstanceAws#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#utilize_reserved_instances ManagedInstanceAws#utilize_reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#utilize_reserved_instances ManagedInstanceAws#utilize_reserved_instances}
   */
   readonly utilizeReservedInstances?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#vpc_id ManagedInstanceAws#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#vpc_id ManagedInstanceAws#vpc_id}
   */
   readonly vpcId: string;
   /**
   * block_device_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#block_device_mappings ManagedInstanceAws#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#block_device_mappings ManagedInstanceAws#block_device_mappings}
   */
   readonly blockDeviceMappings?: ManagedInstanceAwsBlockDeviceMappings[] | cdktf.IResolvable;
   /**
   * delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#delete ManagedInstanceAws#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#delete ManagedInstanceAws#delete}
   */
   readonly delete?: ManagedInstanceAwsDelete[] | cdktf.IResolvable;
   /**
   * integration_route53 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#integration_route53 ManagedInstanceAws#integration_route53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#integration_route53 ManagedInstanceAws#integration_route53}
   */
   readonly integrationRoute53?: ManagedInstanceAwsIntegrationRoute53;
   /**
   * load_balancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#load_balancers ManagedInstanceAws#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#load_balancers ManagedInstanceAws#load_balancers}
   */
   readonly loadBalancers?: ManagedInstanceAwsLoadBalancers[] | cdktf.IResolvable;
   /**
   * managed_instance_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#managed_instance_action ManagedInstanceAws#managed_instance_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#managed_instance_action ManagedInstanceAws#managed_instance_action}
   */
   readonly managedInstanceAction?: ManagedInstanceAwsManagedInstanceAction;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#network_interface ManagedInstanceAws#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#network_interface ManagedInstanceAws#network_interface}
   */
   readonly networkInterface?: ManagedInstanceAwsNetworkInterface[] | cdktf.IResolvable;
   /**
   * resource_tag_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#resource_tag_specification ManagedInstanceAws#resource_tag_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#resource_tag_specification ManagedInstanceAws#resource_tag_specification}
   */
   readonly resourceTagSpecification?: ManagedInstanceAwsResourceTagSpecification[] | cdktf.IResolvable;
   /**
   * revert_to_spot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#revert_to_spot ManagedInstanceAws#revert_to_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#revert_to_spot ManagedInstanceAws#revert_to_spot}
   */
   readonly revertToSpot?: ManagedInstanceAwsRevertToSpot;
   /**
   * scheduled_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#scheduled_task ManagedInstanceAws#scheduled_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#scheduled_task ManagedInstanceAws#scheduled_task}
   */
   readonly scheduledTask?: ManagedInstanceAwsScheduledTask[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#tags ManagedInstanceAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#tags ManagedInstanceAws#tags}
   */
   readonly tags?: ManagedInstanceAwsTags[] | cdktf.IResolvable;
 }
 export interface ManagedInstanceAwsBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#delete_on_termination ManagedInstanceAws#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#delete_on_termination ManagedInstanceAws#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#iops ManagedInstanceAws#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#iops ManagedInstanceAws#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#throughput ManagedInstanceAws#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#throughput ManagedInstanceAws#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#volume_size ManagedInstanceAws#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#volume_size ManagedInstanceAws#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#volume_type ManagedInstanceAws#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#volume_type ManagedInstanceAws#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -395,13 +395,13 @@ export class ManagedInstanceAwsBlockDeviceMappingsEbsOutputReference extends cdk
 }
 export interface ManagedInstanceAwsBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#device_name ManagedInstanceAws#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#device_name ManagedInstanceAws#device_name}
   */
   readonly deviceName: string;
   /**
   * ebs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#ebs ManagedInstanceAws#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#ebs ManagedInstanceAws#ebs}
   */
   readonly ebs?: ManagedInstanceAwsBlockDeviceMappingsEbs;
 }
@@ -518,27 +518,27 @@ export class ManagedInstanceAwsBlockDeviceMappingsList extends cdktf.ComplexList
 }
 export interface ManagedInstanceAwsDelete {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#ami_backup_should_delete_images ManagedInstanceAws#ami_backup_should_delete_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#ami_backup_should_delete_images ManagedInstanceAws#ami_backup_should_delete_images}
   */
   readonly amiBackupShouldDeleteImages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#deallocation_config_should_delete_images ManagedInstanceAws#deallocation_config_should_delete_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#deallocation_config_should_delete_images ManagedInstanceAws#deallocation_config_should_delete_images}
   */
   readonly deallocationConfigShouldDeleteImages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_delete_network_interfaces ManagedInstanceAws#should_delete_network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_delete_network_interfaces ManagedInstanceAws#should_delete_network_interfaces}
   */
   readonly shouldDeleteNetworkInterfaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_delete_snapshots ManagedInstanceAws#should_delete_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_delete_snapshots ManagedInstanceAws#should_delete_snapshots}
   */
   readonly shouldDeleteSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_delete_volumes ManagedInstanceAws#should_delete_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_delete_volumes ManagedInstanceAws#should_delete_volumes}
   */
   readonly shouldDeleteVolumes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_terminate_instance ManagedInstanceAws#should_terminate_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_terminate_instance ManagedInstanceAws#should_terminate_instance}
   */
   readonly shouldTerminateInstance?: boolean | cdktf.IResolvable;
 }
@@ -750,15 +750,15 @@ export class ManagedInstanceAwsDeleteList extends cdktf.ComplexList {
 }
 export interface ManagedInstanceAwsIntegrationRoute53DomainsRecordSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#use_public_dns ManagedInstanceAws#use_public_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#use_public_dns ManagedInstanceAws#use_public_dns}
   */
   readonly usePublicDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#use_public_ip ManagedInstanceAws#use_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#use_public_ip ManagedInstanceAws#use_public_ip}
   */
   readonly usePublicIp?: boolean | cdktf.IResolvable;
 }
@@ -898,21 +898,21 @@ export class ManagedInstanceAwsIntegrationRoute53DomainsRecordSetsList extends c
 }
 export interface ManagedInstanceAwsIntegrationRoute53Domains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#hosted_zone_id ManagedInstanceAws#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#hosted_zone_id ManagedInstanceAws#hosted_zone_id}
   */
   readonly hostedZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#record_set_type ManagedInstanceAws#record_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#record_set_type ManagedInstanceAws#record_set_type}
   */
   readonly recordSetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#spotinst_acct_id ManagedInstanceAws#spotinst_acct_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#spotinst_acct_id ManagedInstanceAws#spotinst_acct_id}
   */
   readonly spotinstAcctId?: string;
   /**
   * record_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#record_sets ManagedInstanceAws#record_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#record_sets ManagedInstanceAws#record_sets}
   */
   readonly recordSets: ManagedInstanceAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable;
 }
@@ -1074,7 +1074,7 @@ export interface ManagedInstanceAwsIntegrationRoute53 {
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#domains ManagedInstanceAws#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#domains ManagedInstanceAws#domains}
   */
   readonly domains: ManagedInstanceAwsIntegrationRoute53Domains[] | cdktf.IResolvable;
 }
@@ -1136,31 +1136,31 @@ export class ManagedInstanceAwsIntegrationRoute53OutputReference extends cdktf.C
 }
 export interface ManagedInstanceAwsLoadBalancers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#arn ManagedInstanceAws#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#arn ManagedInstanceAws#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#auto_weight ManagedInstanceAws#auto_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#auto_weight ManagedInstanceAws#auto_weight}
   */
   readonly autoWeight?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#az_awareness ManagedInstanceAws#az_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#az_awareness ManagedInstanceAws#az_awareness}
   */
   readonly azAwareness?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#balancer_id ManagedInstanceAws#balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#balancer_id ManagedInstanceAws#balancer_id}
   */
   readonly balancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#name ManagedInstanceAws#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#target_set_id ManagedInstanceAws#target_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#target_set_id ManagedInstanceAws#target_set_id}
   */
   readonly targetSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#type ManagedInstanceAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#type ManagedInstanceAws#type}
   */
   readonly type: string;
 }
@@ -1392,7 +1392,7 @@ export class ManagedInstanceAwsLoadBalancersList extends cdktf.ComplexList {
 }
 export interface ManagedInstanceAwsManagedInstanceAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#type ManagedInstanceAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#type ManagedInstanceAws#type}
   */
   readonly type: string;
 }
@@ -1454,15 +1454,15 @@ export class ManagedInstanceAwsManagedInstanceActionOutputReference extends cdkt
 }
 export interface ManagedInstanceAwsNetworkInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#associate_ipv6_address ManagedInstanceAws#associate_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#associate_ipv6_address ManagedInstanceAws#associate_ipv6_address}
   */
   readonly associateIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#associate_public_ip_address ManagedInstanceAws#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#associate_public_ip_address ManagedInstanceAws#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#device_index ManagedInstanceAws#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#device_index ManagedInstanceAws#device_index}
   */
   readonly deviceIndex: string;
 }
@@ -1602,19 +1602,19 @@ export class ManagedInstanceAwsNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface ManagedInstanceAwsResourceTagSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_tag_amis ManagedInstanceAws#should_tag_amis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_tag_amis ManagedInstanceAws#should_tag_amis}
   */
   readonly shouldTagAmis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_tag_enis ManagedInstanceAws#should_tag_enis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_tag_enis ManagedInstanceAws#should_tag_enis}
   */
   readonly shouldTagEnis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_tag_snapshots ManagedInstanceAws#should_tag_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_tag_snapshots ManagedInstanceAws#should_tag_snapshots}
   */
   readonly shouldTagSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#should_tag_volumes ManagedInstanceAws#should_tag_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#should_tag_volumes ManagedInstanceAws#should_tag_volumes}
   */
   readonly shouldTagVolumes?: boolean | cdktf.IResolvable;
 }
@@ -1780,7 +1780,7 @@ export class ManagedInstanceAwsResourceTagSpecificationList extends cdktf.Comple
 }
 export interface ManagedInstanceAwsRevertToSpot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#perform_at ManagedInstanceAws#perform_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#perform_at ManagedInstanceAws#perform_at}
   */
   readonly performAt: string;
 }
@@ -1842,23 +1842,23 @@ export class ManagedInstanceAwsRevertToSpotOutputReference extends cdktf.Complex
 }
 export interface ManagedInstanceAwsScheduledTask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#cron_expression ManagedInstanceAws#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#cron_expression ManagedInstanceAws#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#frequency ManagedInstanceAws#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#frequency ManagedInstanceAws#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#is_enabled ManagedInstanceAws#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#is_enabled ManagedInstanceAws#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#start_time ManagedInstanceAws#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#start_time ManagedInstanceAws#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#task_type ManagedInstanceAws#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#task_type ManagedInstanceAws#task_type}
   */
   readonly taskType: string;
 }
@@ -2044,11 +2044,11 @@ export class ManagedInstanceAwsScheduledTaskList extends cdktf.ComplexList {
 }
 export interface ManagedInstanceAwsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#key ManagedInstanceAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#key ManagedInstanceAws#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#value ManagedInstanceAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#value ManagedInstanceAws#value}
   */
   readonly value?: string;
 }
@@ -2168,7 +2168,7 @@ export class ManagedInstanceAwsTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws spotinst_managed_instance_aws}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws spotinst_managed_instance_aws}
 */
 export class ManagedInstanceAws extends cdktf.TerraformResource {
 
@@ -2184,7 +2184,7 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedInstanceAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedInstanceAws to import
-  * @param importFromId The id of the existing ManagedInstanceAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedInstanceAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedInstanceAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2196,7 +2196,7 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/managed_instance_aws spotinst_managed_instance_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/managed_instance_aws spotinst_managed_instance_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2207,7 +2207,7 @@ export class ManagedInstanceAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_managed_instance_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.147.0',
+        providerVersion: '1.148.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
