@@ -1,6 +1,6 @@
 # `spotinst_multai_target_set`
 
-Refer to the Terraform Registory for docs: [`spotinst_multai_target_set`](https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set).
+Refer to the Terraform Registory for docs: [`spotinst_multai_target_set`](https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set).
 
 # `multaiTargetSet` Submodule <a name="`multaiTargetSet` Submodule" id="@cdktf/provider-spotinst.multaiTargetSet"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`spotinst_multai_target_set`](https:
 
 ### MultaiTargetSet <a name="MultaiTargetSet" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set spotinst_multai_target_set}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set spotinst_multai_target_set}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSet(scope Construct, id *string, config MultaiTargetSetConfig) MultaiTargetSet
 ```
@@ -386,7 +386,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsConstruct(x interface{}) *bool
 ```
@@ -418,7 +418,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ multaitargetset.MultaiTargetSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ multaitargetset.MultaiTargetSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -475,7 +475,7 @@ The construct id used in the generated config for the MultaiTargetSet to import.
 
 The id of the existing MultaiTargetSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetConfig {
 	Connection: interface{},
@@ -885,7 +885,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset
 	Provisioners: *[]interface{},
 	BalancerId: *string,
 	DeploymentId: *string,
-	HealthCheck: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.multaiTargetSet.MultaiTargetSetHealthCheck,
+	HealthCheck: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.multaiTargetSet.MultaiTargetSetHealthCheck,
 	Protocol: *string,
 	Weight: *f64,
 	Id: *string,
@@ -906,14 +906,14 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.balancerId">BalancerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#balancer_id MultaiTargetSet#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.deploymentId">DeploymentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#deployment_id MultaiTargetSet#deployment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.balancerId">BalancerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#balancer_id MultaiTargetSet#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.deploymentId">DeploymentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#deployment_id MultaiTargetSet#deployment_id}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.healthCheck">HealthCheck</a></code> | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck">MultaiTargetSetHealthCheck</a></code> | health_check block. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#weight MultaiTargetSet#weight}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#id MultaiTargetSet#id}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#name MultaiTargetSet#name}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.port">Port</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#port MultaiTargetSet#port}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#weight MultaiTargetSet#weight}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#id MultaiTargetSet#id}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#name MultaiTargetSet#name}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.port">Port</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#port MultaiTargetSet#port}. |
 | <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | tags block. |
 
 ---
@@ -996,7 +996,7 @@ BalancerId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#balancer_id MultaiTargetSet#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#balancer_id MultaiTargetSet#balancer_id}.
 
 ---
 
@@ -1008,7 +1008,7 @@ DeploymentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#deployment_id MultaiTargetSet#deployment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#deployment_id MultaiTargetSet#deployment_id}.
 
 ---
 
@@ -1022,7 +1022,7 @@ HealthCheck MultaiTargetSetHealthCheck
 
 health_check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#health_check MultaiTargetSet#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#health_check MultaiTargetSet#health_check}
 
 ---
 
@@ -1034,7 +1034,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}.
 
 ---
 
@@ -1046,7 +1046,7 @@ Weight *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#weight MultaiTargetSet#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#weight MultaiTargetSet#weight}.
 
 ---
 
@@ -1058,7 +1058,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#id MultaiTargetSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#id MultaiTargetSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1073,7 +1073,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#name MultaiTargetSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#name MultaiTargetSet#name}.
 
 ---
 
@@ -1085,7 +1085,7 @@ Port *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#port MultaiTargetSet#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#port MultaiTargetSet#port}.
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#tags MultaiTargetSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#tags MultaiTargetSet#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetHealthCheck {
 	HealthyThreshold: *f64,
@@ -1125,13 +1125,13 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.healthyThreshold">HealthyThreshold</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#healthy_threshold MultaiTargetSet#healthy_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.interval">Interval</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#interval MultaiTargetSet#interval}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#path MultaiTargetSet#path}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.timeout">Timeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#timeout MultaiTargetSet#timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.unhealthyThreshold">UnhealthyThreshold</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#unhealthy_threshold MultaiTargetSet#unhealthy_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.port">Port</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#port MultaiTargetSet#port}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.healthyThreshold">HealthyThreshold</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#healthy_threshold MultaiTargetSet#healthy_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.interval">Interval</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#interval MultaiTargetSet#interval}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.path">Path</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#path MultaiTargetSet#path}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.timeout">Timeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#timeout MultaiTargetSet#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.unhealthyThreshold">UnhealthyThreshold</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#unhealthy_threshold MultaiTargetSet#unhealthy_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.property.port">Port</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#port MultaiTargetSet#port}. |
 
 ---
 
@@ -1143,7 +1143,7 @@ HealthyThreshold *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#healthy_threshold MultaiTargetSet#healthy_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#healthy_threshold MultaiTargetSet#healthy_threshold}.
 
 ---
 
@@ -1155,7 +1155,7 @@ Interval *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#interval MultaiTargetSet#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#interval MultaiTargetSet#interval}.
 
 ---
 
@@ -1167,7 +1167,7 @@ Path *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#path MultaiTargetSet#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#path MultaiTargetSet#path}.
 
 ---
 
@@ -1179,7 +1179,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#protocol MultaiTargetSet#protocol}.
 
 ---
 
@@ -1191,7 +1191,7 @@ Timeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#timeout MultaiTargetSet#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#timeout MultaiTargetSet#timeout}.
 
 ---
 
@@ -1203,7 +1203,7 @@ UnhealthyThreshold *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#unhealthy_threshold MultaiTargetSet#unhealthy_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#unhealthy_threshold MultaiTargetSet#unhealthy_threshold}.
 
 ---
 
@@ -1215,7 +1215,7 @@ Port *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#port MultaiTargetSet#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#port MultaiTargetSet#port}.
 
 ---
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetTags {
 	Key: *string,
@@ -1236,8 +1236,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#key MultaiTargetSet#key}. |
-| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#value MultaiTargetSet#value}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#key MultaiTargetSet#key}. |
+| <code><a href="#@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#value MultaiTargetSet#value}. |
 
 ---
 
@@ -1249,7 +1249,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#key MultaiTargetSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#key MultaiTargetSet#key}.
 
 ---
 
@@ -1261,7 +1261,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/multai_target_set#value MultaiTargetSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/multai_target_set#value MultaiTargetSet#value}.
 
 ---
 
@@ -1272,7 +1272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetHealthCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MultaiTargetSetHealthCheckOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() MultaiTargetSetHealthCheck
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiTargetSetTagsList
 ```
@@ -1825,7 +1825,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiTargetSetTagsOutputReference
 ```

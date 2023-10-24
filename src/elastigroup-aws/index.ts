@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws
+// https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,416 +8,416 @@ import * as cdktf from 'cdktf';
 
 export interface ElastigroupAwsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}
   */
   readonly blockDevicesMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}
   */
   readonly capacityUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}
   */
   readonly considerOdPricing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}
   */
   readonly cpuCredits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}
   */
   readonly elasticIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}
   */
   readonly elasticLoadBalancers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}
   */
   readonly fallbackToOndemand: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}
   */
   readonly healthCheckGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}
   */
   readonly healthCheckUnhealthyDurationBeforeReplacement?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}
   */
   readonly immediateOdRecoverThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}
   */
   readonly instanceTypesOndemand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}
   */
   readonly instanceTypesPreferredSpot?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}
   */
   readonly instanceTypesSpot?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}
   */
   readonly lifetimePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}
   */
   readonly minimumInstanceLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}
   */
   readonly onDemandTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}
   */
   readonly ondemandCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}
   */
   readonly orientation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}
   */
   readonly persistBlockDevices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}
   */
   readonly persistPrivateIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}
   */
   readonly persistRootDevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}
   */
   readonly placementTenancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}
   */
   readonly preferredAvailabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}
   */
   readonly privateIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}
   */
   readonly securityGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}
   */
   readonly shutdownScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}
   */
   readonly targetGroupArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}
   */
   readonly utilizeCommitments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}
   */
   readonly utilizeReservedInstances?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}
   */
   readonly waitForCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}
   */
   readonly waitForCapacityTimeout?: number;
   /**
   * cpu_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
   */
   readonly cpuOptions?: ElastigroupAwsCpuOptions;
   /**
   * ebs_block_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
   */
   readonly ebsBlockDevice?: ElastigroupAwsEbsBlockDevice[] | cdktf.IResolvable;
   /**
   * ephemeral_block_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
   */
   readonly ephemeralBlockDevice?: ElastigroupAwsEphemeralBlockDevice[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
   */
   readonly images?: ElastigroupAwsImages[] | cdktf.IResolvable;
   /**
   * instance_types_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
   */
   readonly instanceTypesWeights?: ElastigroupAwsInstanceTypesWeights[] | cdktf.IResolvable;
   /**
   * integration_beanstalk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
   */
   readonly integrationBeanstalk?: ElastigroupAwsIntegrationBeanstalk;
   /**
   * integration_codedeploy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
   */
   readonly integrationCodedeploy?: ElastigroupAwsIntegrationCodedeploy;
   /**
   * integration_docker_swarm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
   */
   readonly integrationDockerSwarm?: ElastigroupAwsIntegrationDockerSwarm;
   /**
   * integration_ecs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
   */
   readonly integrationEcs?: ElastigroupAwsIntegrationEcs;
   /**
   * integration_gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
   */
   readonly integrationGitlab?: ElastigroupAwsIntegrationGitlab;
   /**
   * integration_kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
   */
   readonly integrationKubernetes?: ElastigroupAwsIntegrationKubernetes;
   /**
   * integration_mesosphere block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
   */
   readonly integrationMesosphere?: ElastigroupAwsIntegrationMesosphere;
   /**
   * integration_multai_runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
   */
   readonly integrationMultaiRuntime?: ElastigroupAwsIntegrationMultaiRuntime;
   /**
   * integration_nomad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
   */
   readonly integrationNomad?: ElastigroupAwsIntegrationNomad;
   /**
   * integration_rancher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
   */
   readonly integrationRancher?: ElastigroupAwsIntegrationRancher;
   /**
   * integration_route53 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
   */
   readonly integrationRoute53?: ElastigroupAwsIntegrationRoute53;
   /**
   * itf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
   */
   readonly itf?: ElastigroupAwsItf[] | cdktf.IResolvable;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
   */
   readonly metadataOptions?: ElastigroupAwsMetadataOptions;
   /**
   * multai_target_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
   */
   readonly multaiTargetSets?: ElastigroupAwsMultaiTargetSets[] | cdktf.IResolvable;
   /**
   * multiple_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
   */
   readonly multipleMetrics?: ElastigroupAwsMultipleMetrics;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
   */
   readonly networkInterface?: ElastigroupAwsNetworkInterface[] | cdktf.IResolvable;
   /**
   * resource_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
   */
   readonly resourceRequirements?: ElastigroupAwsResourceRequirements[] | cdktf.IResolvable;
   /**
   * resource_tag_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
   */
   readonly resourceTagSpecification?: ElastigroupAwsResourceTagSpecification[] | cdktf.IResolvable;
   /**
   * revert_to_spot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
   */
   readonly revertToSpot?: ElastigroupAwsRevertToSpot;
   /**
   * scaling_down_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
   */
   readonly scalingDownPolicy?: ElastigroupAwsScalingDownPolicy[] | cdktf.IResolvable;
   /**
   * scaling_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
   */
   readonly scalingStrategy?: ElastigroupAwsScalingStrategy[] | cdktf.IResolvable;
   /**
   * scaling_target_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
   */
   readonly scalingTargetPolicy?: ElastigroupAwsScalingTargetPolicy[] | cdktf.IResolvable;
   /**
   * scaling_up_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
   */
   readonly scalingUpPolicy?: ElastigroupAwsScalingUpPolicy[] | cdktf.IResolvable;
   /**
   * scheduled_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
   */
   readonly scheduledTask?: ElastigroupAwsScheduledTask[] | cdktf.IResolvable;
   /**
   * signal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
   */
   readonly signal?: ElastigroupAwsSignal[] | cdktf.IResolvable;
   /**
   * stateful_deallocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
   */
   readonly statefulDeallocation?: ElastigroupAwsStatefulDeallocation;
   /**
   * stateful_instance_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
   */
   readonly statefulInstanceAction?: ElastigroupAwsStatefulInstanceAction[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
   */
   readonly tags?: ElastigroupAwsTags[] | cdktf.IResolvable;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
   */
   readonly updatePolicy?: ElastigroupAwsUpdatePolicy;
 }
 export interface ElastigroupAwsCpuOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}
   */
   readonly threadsPerCore: number;
 }
@@ -484,39 +479,39 @@ export class ElastigroupAwsCpuOptionsOutputReference extends cdktf.ComplexObject
 }
 export interface ElastigroupAwsEbsBlockDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -794,11 +789,11 @@ export class ElastigroupAwsEbsBlockDeviceList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsEphemeralBlockDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}
   */
   readonly virtualName: string;
 }
@@ -912,7 +907,7 @@ export class ElastigroupAwsEphemeralBlockDeviceList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsImagesImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1011,7 +1006,7 @@ export interface ElastigroupAwsImages {
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#image ElastigroupAws#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#image ElastigroupAws#image}
   */
   readonly image: ElastigroupAwsImagesImage[] | cdktf.IResolvable;
 }
@@ -1105,11 +1100,11 @@ export class ElastigroupAwsImagesList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsInstanceTypesWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}
   */
   readonly weight: number;
 }
@@ -1223,11 +1218,11 @@ export class ElastigroupAwsInstanceTypesWeightsList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}
   */
   readonly shouldDrainInstances?: boolean | cdktf.IResolvable;
 }
@@ -1315,21 +1310,21 @@ export class ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategyOutp
 }
 export interface ElastigroupAwsIntegrationBeanstalkDeploymentPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}
   */
   readonly automaticRoll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
   */
   readonly batchSizePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
   */
   readonly strategy?: ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy;
 }
@@ -1463,15 +1458,15 @@ export class ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesOutputRefere
 }
 export interface ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}
   */
   readonly performAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}
   */
   readonly timeWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}
   */
   readonly updateLevel?: string;
 }
@@ -1584,7 +1579,7 @@ export interface ElastigroupAwsIntegrationBeanstalkManagedActions {
   /**
   * platform_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
   */
   readonly platformUpdate?: ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate;
 }
@@ -1649,19 +1644,19 @@ export class ElastigroupAwsIntegrationBeanstalkManagedActionsOutputReference ext
 }
 export interface ElastigroupAwsIntegrationBeanstalk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}
   */
   readonly environmentId?: string;
   /**
   * deployment_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
   */
   readonly deploymentPreferences?: ElastigroupAwsIntegrationBeanstalkDeploymentPreferences;
   /**
   * managed_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
   */
   readonly managedActions?: ElastigroupAwsIntegrationBeanstalkManagedActions;
 }
@@ -1772,11 +1767,11 @@ export class ElastigroupAwsIntegrationBeanstalkOutputReference extends cdktf.Com
 }
 export interface ElastigroupAwsIntegrationCodedeployDeploymentGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}
   */
   readonly deploymentGroupName: string;
 }
@@ -1890,17 +1885,17 @@ export class ElastigroupAwsIntegrationCodedeployDeploymentGroupsList extends cdk
 }
 export interface ElastigroupAwsIntegrationCodedeploy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}
   */
   readonly cleanupOnFailure: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}
   */
   readonly terminateInstanceOnFailure: boolean | cdktf.IResolvable;
   /**
   * deployment_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
   */
   readonly deploymentGroups: ElastigroupAwsIntegrationCodedeployDeploymentGroups[] | cdktf.IResolvable;
 }
@@ -2002,11 +1997,11 @@ export class ElastigroupAwsIntegrationCodedeployOutputReference extends cdktf.Co
 }
 export interface ElastigroupAwsIntegrationDockerSwarmAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -2094,15 +2089,15 @@ export class ElastigroupAwsIntegrationDockerSwarmAutoscaleDownOutputReference ex
 }
 export interface ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -2213,31 +2208,31 @@ export class ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroomOutputReferenc
 }
 export interface ElastigroupAwsIntegrationDockerSwarm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
   */
   readonly autoscaleCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
   */
   readonly masterHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}
   */
   readonly masterPort: number;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
   */
   readonly autoscaleDown?: ElastigroupAwsIntegrationDockerSwarmAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom;
 }
@@ -2411,11 +2406,11 @@ export class ElastigroupAwsIntegrationDockerSwarmOutputReference extends cdktf.C
 }
 export interface ElastigroupAwsIntegrationEcsAutoscaleAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value: string;
 }
@@ -2529,11 +2524,11 @@ export class ElastigroupAwsIntegrationEcsAutoscaleAttributesList extends cdktf.C
 }
 export interface ElastigroupAwsIntegrationEcsAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -2621,15 +2616,15 @@ export class ElastigroupAwsIntegrationEcsAutoscaleDownOutputReference extends cd
 }
 export interface ElastigroupAwsIntegrationEcsAutoscaleHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -2740,7 +2735,7 @@ export class ElastigroupAwsIntegrationEcsAutoscaleHeadroomOutputReference extend
 }
 export interface ElastigroupAwsIntegrationEcsBatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}
   */
   readonly jobQueueNames: string[];
 }
@@ -2802,47 +2797,47 @@ export class ElastigroupAwsIntegrationEcsBatchOutputReference extends cdktf.Comp
 }
 export interface ElastigroupAwsIntegrationEcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
   */
   readonly autoscaleCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}
   */
   readonly autoscaleIsAutoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}
   */
   readonly autoscaleScaleDownNonServiceTasks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}
   */
   readonly clusterName: string;
   /**
   * autoscale_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
   */
   readonly autoscaleAttributes?: ElastigroupAwsIntegrationEcsAutoscaleAttributes[] | cdktf.IResolvable;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
   */
   readonly autoscaleDown?: ElastigroupAwsIntegrationEcsAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: ElastigroupAwsIntegrationEcsAutoscaleHeadroom;
   /**
   * batch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
   */
   readonly batch?: ElastigroupAwsIntegrationEcsBatch;
 }
@@ -3088,7 +3083,7 @@ export class ElastigroupAwsIntegrationEcsOutputReference extends cdktf.ComplexOb
 }
 export interface ElastigroupAwsIntegrationGitlabRunner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -3155,7 +3150,7 @@ export interface ElastigroupAwsIntegrationGitlab {
   /**
   * runner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
   */
   readonly runner?: ElastigroupAwsIntegrationGitlabRunner;
 }
@@ -3220,11 +3215,11 @@ export class ElastigroupAwsIntegrationGitlabOutputReference extends cdktf.Comple
 }
 export interface ElastigroupAwsIntegrationKubernetesAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -3312,15 +3307,15 @@ export class ElastigroupAwsIntegrationKubernetesAutoscaleDownOutputReference ext
 }
 export interface ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -3431,11 +3426,11 @@ export class ElastigroupAwsIntegrationKubernetesAutoscaleHeadroomOutputReference
 }
 export interface ElastigroupAwsIntegrationKubernetesAutoscaleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value: string;
 }
@@ -3549,49 +3544,49 @@ export class ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList extends cdkt
 }
 export interface ElastigroupAwsIntegrationKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}
   */
   readonly apiServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
   */
   readonly autoscaleCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}
   */
   readonly autoscaleIsAutoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}
   */
   readonly clusterIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}
   */
   readonly integrationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}
   */
   readonly token?: string;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
   */
   readonly autoscaleDown?: ElastigroupAwsIntegrationKubernetesAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom;
   /**
   * autoscale_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
   */
   readonly autoscaleLabels?: ElastigroupAwsIntegrationKubernetesAutoscaleLabels[] | cdktf.IResolvable;
 }
@@ -3863,7 +3858,7 @@ export class ElastigroupAwsIntegrationKubernetesOutputReference extends cdktf.Co
 }
 export interface ElastigroupAwsIntegrationMesosphere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}
   */
   readonly apiServer: string;
 }
@@ -3925,7 +3920,7 @@ export class ElastigroupAwsIntegrationMesosphereOutputReference extends cdktf.Co
 }
 export interface ElastigroupAwsIntegrationMultaiRuntime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}
   */
   readonly deploymentId: string;
 }
@@ -3987,11 +3982,11 @@ export class ElastigroupAwsIntegrationMultaiRuntimeOutputReference extends cdktf
 }
 export interface ElastigroupAwsIntegrationNomadAutoscaleConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value: string;
 }
@@ -4105,7 +4100,7 @@ export class ElastigroupAwsIntegrationNomadAutoscaleConstraintsList extends cdkt
 }
 export interface ElastigroupAwsIntegrationNomadAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
 }
@@ -4170,15 +4165,15 @@ export class ElastigroupAwsIntegrationNomadAutoscaleDownOutputReference extends 
 }
 export interface ElastigroupAwsIntegrationNomadAutoscaleHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -4289,41 +4284,41 @@ export class ElastigroupAwsIntegrationNomadAutoscaleHeadroomOutputReference exte
 }
 export interface ElastigroupAwsIntegrationNomad {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}
   */
   readonly aclToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}
   */
   readonly autoscaleCooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
   */
   readonly masterHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}
   */
   readonly masterPort: number;
   /**
   * autoscale_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
   */
   readonly autoscaleConstraints?: ElastigroupAwsIntegrationNomadAutoscaleConstraints[] | cdktf.IResolvable;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
   */
   readonly autoscaleDown?: ElastigroupAwsIntegrationNomadAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: ElastigroupAwsIntegrationNomadAutoscaleHeadroom;
 }
@@ -4543,19 +4538,19 @@ export class ElastigroupAwsIntegrationNomadOutputReference extends cdktf.Complex
 }
 export interface ElastigroupAwsIntegrationRancher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}
   */
   readonly accessKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}
   */
   readonly masterHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}
   */
   readonly secretKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}
   */
   readonly version?: string;
 }
@@ -4680,15 +4675,15 @@ export class ElastigroupAwsIntegrationRancherOutputReference extends cdktf.Compl
 }
 export interface ElastigroupAwsIntegrationRoute53DomainsRecordSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}
   */
   readonly usePublicDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}
   */
   readonly usePublicIp?: boolean | cdktf.IResolvable;
 }
@@ -4828,21 +4823,21 @@ export class ElastigroupAwsIntegrationRoute53DomainsRecordSetsList extends cdktf
 }
 export interface ElastigroupAwsIntegrationRoute53Domains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}
   */
   readonly hostedZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}
   */
   readonly recordSetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}
   */
   readonly spotinstAcctId?: string;
   /**
   * record_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
   */
   readonly recordSets: ElastigroupAwsIntegrationRoute53DomainsRecordSets[] | cdktf.IResolvable;
 }
@@ -5004,7 +4999,7 @@ export interface ElastigroupAwsIntegrationRoute53 {
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
   */
   readonly domains: ElastigroupAwsIntegrationRoute53Domains[] | cdktf.IResolvable;
 }
@@ -5066,11 +5061,11 @@ export class ElastigroupAwsIntegrationRoute53OutputReference extends cdktf.Compl
 }
 export interface ElastigroupAwsItfDefaultStaticTargetGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}
   */
   readonly percentage: number;
 }
@@ -5152,11 +5147,11 @@ export class ElastigroupAwsItfDefaultStaticTargetGroupOutputReference extends cd
 }
 export interface ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}
   */
   readonly percentage: number;
 }
@@ -5238,13 +5233,13 @@ export class ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroupOutputRef
 }
 export interface ElastigroupAwsItfLoadBalancerListenerRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}
   */
   readonly ruleArn: string;
   /**
   * static_target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
   */
   readonly staticTargetGroup?: ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup;
 }
@@ -5361,13 +5356,13 @@ export class ElastigroupAwsItfLoadBalancerListenerRuleList extends cdktf.Complex
 }
 export interface ElastigroupAwsItfLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}
   */
   readonly loadBalancerArn: string;
   /**
   * listener_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
   */
   readonly listenerRule: ElastigroupAwsItfLoadBalancerListenerRule[] | cdktf.IResolvable;
 }
@@ -5481,11 +5476,11 @@ export class ElastigroupAwsItfLoadBalancerList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsItfTargetGroupConfigMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}
   */
   readonly grpcCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}
   */
   readonly httpCode?: string;
 }
@@ -5605,11 +5600,11 @@ export class ElastigroupAwsItfTargetGroupConfigMatcherList extends cdktf.Complex
 }
 export interface ElastigroupAwsItfTargetGroupConfigTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -5726,59 +5721,59 @@ export class ElastigroupAwsItfTargetGroupConfigTagsList extends cdktf.ComplexLis
 }
 export interface ElastigroupAwsItfTargetGroupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}
   */
   readonly healthCheckIntervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}
   */
   readonly healthCheckPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}
   */
   readonly healthCheckPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}
   */
   readonly healthCheckTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}
   */
   readonly vpcId: string;
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
   */
   readonly matcher?: ElastigroupAwsItfTargetGroupConfigMatcher[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
   */
   readonly tags?: ElastigroupAwsItfTargetGroupConfigTags[] | cdktf.IResolvable;
 }
@@ -6139,33 +6134,33 @@ export class ElastigroupAwsItfTargetGroupConfigList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsItf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}
   */
   readonly fixedTargetGroups: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}
   */
   readonly migrationHealthinessThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}
   */
   readonly weightStrategy: string;
   /**
   * default_static_target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
   */
   readonly defaultStaticTargetGroup?: ElastigroupAwsItfDefaultStaticTargetGroup;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
   */
   readonly loadBalancer: ElastigroupAwsItfLoadBalancer[] | cdktf.IResolvable;
   /**
   * target_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
   */
   readonly targetGroupConfig: ElastigroupAwsItfTargetGroupConfig[] | cdktf.IResolvable;
 }
@@ -6365,15 +6360,15 @@ export class ElastigroupAwsItfList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}
   */
   readonly httpTokens: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}
   */
   readonly instanceMetadataTags?: string;
 }
@@ -6481,11 +6476,11 @@ export class ElastigroupAwsMetadataOptionsOutputReference extends cdktf.ComplexO
 }
 export interface ElastigroupAwsMultaiTargetSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}
   */
   readonly balancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}
   */
   readonly targetSetId: string;
 }
@@ -6599,11 +6594,11 @@ export class ElastigroupAwsMultaiTargetSetsList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsMultipleMetricsExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
 }
@@ -6717,11 +6712,11 @@ export class ElastigroupAwsMultipleMetricsExpressionsList extends cdktf.ComplexL
 }
 export interface ElastigroupAwsMultipleMetricsMetricsDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value?: string;
 }
@@ -6838,33 +6833,33 @@ export class ElastigroupAwsMultipleMetricsMetricsDimensionsList extends cdktf.Co
 }
 export interface ElastigroupAwsMultipleMetricsMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}
   */
   readonly extendedStatistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
   */
   readonly statistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
   */
   readonly unit?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
   */
   readonly dimensions?: ElastigroupAwsMultipleMetricsMetricsDimensions[] | cdktf.IResolvable;
 }
@@ -7092,13 +7087,13 @@ export interface ElastigroupAwsMultipleMetrics {
   /**
   * expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
   */
   readonly expressions?: ElastigroupAwsMultipleMetricsExpressions[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
   */
   readonly metrics?: ElastigroupAwsMultipleMetricsMetrics[] | cdktf.IResolvable;
 }
@@ -7186,35 +7181,35 @@ export class ElastigroupAwsMultipleMetricsOutputReference extends cdktf.ComplexO
 }
 export interface ElastigroupAwsNetworkInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}
   */
   readonly associateIpv6Address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}
   */
   readonly deviceIndex: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}
   */
   readonly secondaryPrivateIpAddressCount?: string;
 }
@@ -7469,39 +7464,39 @@ export class ElastigroupAwsNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}
   */
   readonly excludedInstanceFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}
   */
   readonly excludedInstanceGenerations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}
   */
   readonly requiredGpuMaximum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}
   */
   readonly requiredGpuMinimum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}
   */
   readonly requiredMemoryMaximum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}
   */
   readonly requiredMemoryMinimum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}
   */
   readonly requiredVcpuMaximum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}
   */
   readonly requiredVcpuMinimum: number;
 }
@@ -7770,19 +7765,19 @@ export class ElastigroupAwsResourceRequirementsList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsResourceTagSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}
   */
   readonly shouldTagAmis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}
   */
   readonly shouldTagEnis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}
   */
   readonly shouldTagSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}
   */
   readonly shouldTagVolumes?: boolean | cdktf.IResolvable;
 }
@@ -7948,11 +7943,11 @@ export class ElastigroupAwsResourceTagSpecificationList extends cdktf.ComplexLis
 }
 export interface ElastigroupAwsRevertToSpot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}
   */
   readonly performAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}
   */
   readonly timeWindows?: string[];
 }
@@ -8037,11 +8032,11 @@ export class ElastigroupAwsRevertToSpotOutputReference extends cdktf.ComplexObje
 }
 export interface ElastigroupAwsScalingDownPolicyDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value?: string;
 }
@@ -8158,31 +8153,31 @@ export class ElastigroupAwsScalingDownPolicyDimensionsList extends cdktf.Complex
 }
 export interface ElastigroupAwsScalingDownPolicyStepAdjustmentsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
   */
   readonly adjustment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
   */
   readonly maxTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
   */
   readonly minTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
   */
   readonly minimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
   */
   readonly type: string;
 }
@@ -8382,13 +8377,13 @@ export class ElastigroupAwsScalingDownPolicyStepAdjustmentsActionOutputReference
 }
 export interface ElastigroupAwsScalingDownPolicyStepAdjustments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
   */
   readonly threshold: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
   */
   readonly action: ElastigroupAwsScalingDownPolicyStepAdjustmentsAction;
 }
@@ -8502,91 +8497,91 @@ export class ElastigroupAwsScalingDownPolicyStepAdjustmentsList extends cdktf.Co
 }
 export interface ElastigroupAwsScalingDownPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
   */
   readonly adjustment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
   */
   readonly maxTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
   */
   readonly minTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
   */
   readonly minimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
   */
   readonly statistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
   */
   readonly unit?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
   */
   readonly dimensions?: ElastigroupAwsScalingDownPolicyDimensions[] | cdktf.IResolvable;
   /**
   * step_adjustments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
   */
   readonly stepAdjustments?: ElastigroupAwsScalingDownPolicyStepAdjustments[] | cdktf.IResolvable;
 }
@@ -9134,11 +9129,11 @@ export class ElastigroupAwsScalingDownPolicyList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsScalingStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}
   */
   readonly terminateAtEndOfBillingHour?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}
   */
   readonly terminationPolicy?: string;
 }
@@ -9258,11 +9253,11 @@ export class ElastigroupAwsScalingStrategyList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsScalingTargetPolicyDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value?: string;
 }
@@ -9379,57 +9374,57 @@ export class ElastigroupAwsScalingTargetPolicyDimensionsList extends cdktf.Compl
 }
 export interface ElastigroupAwsScalingTargetPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}
   */
   readonly maxCapacityPerScale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}
   */
   readonly predictiveMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
   */
   readonly statistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
   */
   readonly target: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
   */
   readonly unit?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
   */
   readonly dimensions?: ElastigroupAwsScalingTargetPolicyDimensions[] | cdktf.IResolvable;
 }
@@ -9790,11 +9785,11 @@ export class ElastigroupAwsScalingTargetPolicyList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsScalingUpPolicyDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value?: string;
 }
@@ -9911,31 +9906,31 @@ export class ElastigroupAwsScalingUpPolicyDimensionsList extends cdktf.ComplexLi
 }
 export interface ElastigroupAwsScalingUpPolicyStepAdjustmentsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
   */
   readonly adjustment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
   */
   readonly maxTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
   */
   readonly minTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
   */
   readonly minimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
   */
   readonly type: string;
 }
@@ -10135,13 +10130,13 @@ export class ElastigroupAwsScalingUpPolicyStepAdjustmentsActionOutputReference e
 }
 export interface ElastigroupAwsScalingUpPolicyStepAdjustments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
   */
   readonly threshold: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
   */
   readonly action: ElastigroupAwsScalingUpPolicyStepAdjustmentsAction;
 }
@@ -10255,91 +10250,91 @@ export class ElastigroupAwsScalingUpPolicyStepAdjustmentsList extends cdktf.Comp
 }
 export interface ElastigroupAwsScalingUpPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
   */
   readonly adjustment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}
   */
   readonly maxTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}
   */
   readonly minTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}
   */
   readonly minimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}
   */
   readonly statistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}
   */
   readonly unit?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
   */
   readonly dimensions?: ElastigroupAwsScalingUpPolicyDimensions[] | cdktf.IResolvable;
   /**
   * step_adjustments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
   */
   readonly stepAdjustments?: ElastigroupAwsScalingUpPolicyStepAdjustments[] | cdktf.IResolvable;
 }
@@ -10887,63 +10882,63 @@ export class ElastigroupAwsScalingUpPolicyList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsScheduledTask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}
   */
   readonly adjustment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}
   */
   readonly adjustmentPercentage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
   */
   readonly batchSizePercentage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
   */
   readonly gracePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}
   */
   readonly maxCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}
   */
   readonly minCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}
   */
   readonly scaleMaxCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}
   */
   readonly scaleMinCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}
   */
   readonly scaleTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}
   */
   readonly targetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}
   */
   readonly taskType: string;
 }
@@ -11359,11 +11354,11 @@ export class ElastigroupAwsScheduledTaskList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsSignal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}
   */
   readonly timeout?: number;
 }
@@ -11480,19 +11475,19 @@ export class ElastigroupAwsSignalList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsStatefulDeallocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}
   */
   readonly shouldDeleteImages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}
   */
   readonly shouldDeleteNetworkInterfaces?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}
   */
   readonly shouldDeleteSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}
   */
   readonly shouldDeleteVolumes?: boolean | cdktf.IResolvable;
 }
@@ -11626,11 +11621,11 @@ export class ElastigroupAwsStatefulDeallocationOutputReference extends cdktf.Com
 }
 export interface ElastigroupAwsStatefulInstanceAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}
   */
   readonly statefulInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}
   */
   readonly type: string;
 }
@@ -11744,11 +11739,11 @@ export class ElastigroupAwsStatefulInstanceActionList extends cdktf.ComplexList 
 }
 export interface ElastigroupAwsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}
   */
   readonly value?: string;
 }
@@ -11868,23 +11863,23 @@ export class ElastigroupAwsTagsList extends cdktf.ComplexList {
 }
 export interface ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}
   */
   readonly batchNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}
   */
   readonly shouldDecrementTargetCapacity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}
   */
   readonly shouldHandleAllBatches?: boolean | cdktf.IResolvable;
 }
@@ -12038,21 +12033,21 @@ export class ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailureOutputReferenc
 }
 export interface ElastigroupAwsUpdatePolicyRollConfigStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}
   */
   readonly shouldDrainInstances?: boolean | cdktf.IResolvable;
   /**
   * on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
   */
   readonly onFailure?: ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure;
 }
@@ -12183,29 +12178,29 @@ export class ElastigroupAwsUpdatePolicyRollConfigStrategyOutputReference extends
 }
 export interface ElastigroupAwsUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}
   */
   readonly batchSizePercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}
   */
   readonly waitForRollPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}
   */
   readonly waitForRollTimeout?: number;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
   */
   readonly strategy?: ElastigroupAwsUpdatePolicyRollConfigStrategy;
 }
@@ -12382,21 +12377,21 @@ export class ElastigroupAwsUpdatePolicyRollConfigOutputReference extends cdktf.C
 }
 export interface ElastigroupAwsUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}
   */
   readonly autoApplyTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}
   */
   readonly shouldResumeStateful: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
   */
   readonly rollConfig?: ElastigroupAwsUpdatePolicyRollConfig;
 }
@@ -12524,7 +12519,7 @@ export class ElastigroupAwsUpdatePolicyOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws}
 */
 export class ElastigroupAws extends cdktf.TerraformResource {
 
@@ -12540,7 +12535,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElastigroupAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElastigroupAws to import
-  * @param importFromId The id of the existing ElastigroupAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElastigroupAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElastigroupAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12552,7 +12547,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.147.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.148.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12563,7 +12558,7 @@ export class ElastigroupAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.147.0',
+        providerVersion: '1.148.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
