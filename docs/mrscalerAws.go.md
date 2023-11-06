@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAws(scope Construct, id *string, config MrscalerAwsConfig) MrscalerAws
 ```
@@ -953,7 +953,7 @@ func ResetVisibleToAllUsers()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.MrscalerAws_IsConstruct(x interface{}) *bool
 ```
@@ -985,7 +985,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.MrscalerAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -999,7 +999,7 @@ mrscaleraws.MrscalerAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.MrscalerAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -1013,7 +1013,7 @@ mrscaleraws.MrscalerAws_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.MrscalerAws_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -2595,7 +2595,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsApplications {
 	Name: *string,
@@ -2655,7 +2655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsBootstrapActionsFile {
 	Bucket: *string,
@@ -2701,7 +2701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsConfig {
 	Connection: interface{},
@@ -2748,7 +2748,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
 	MasterInstanceTypes: *[]*string,
 	MasterLifecycle: *string,
 	MasterTarget: *f64,
-	ProvisioningTimeout: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.mrscalerAws.MrscalerAwsProvisioningTimeout,
+	ProvisioningTimeout: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout,
 	Region: *string,
 	ReleaseLabel: *string,
 	RepoUpgradeOnBoot: *string,
@@ -3692,7 +3692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsConfigurationsFile {
 	Bucket: *string,
@@ -3738,7 +3738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsCoreEbsBlockDevice {
 	SizeInGb: *f64,
@@ -3812,7 +3812,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsCoreScalingDownPolicy {
 	MetricName: *string,
@@ -4082,7 +4082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsCoreScalingUpPolicy {
 	MetricName: *string,
@@ -4352,7 +4352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsInstanceWeights {
 	InstanceType: *string,
@@ -4398,7 +4398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsMasterEbsBlockDevice {
 	SizeInGb: *f64,
@@ -4472,7 +4472,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsProvisioningTimeout {
 	Timeout: *f64,
@@ -4518,7 +4518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsScheduledTask {
 	Cron: *string,
@@ -4634,7 +4634,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsStepsFile {
 	Bucket: *string,
@@ -4680,7 +4680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTags {
 	Key: *string,
@@ -4726,7 +4726,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTaskEbsBlockDevice {
 	SizeInGb: *f64,
@@ -4800,7 +4800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTaskScalingDownPolicy {
 	MetricName: *string,
@@ -5070,7 +5070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTaskScalingUpPolicy {
 	MetricName: *string,
@@ -5340,7 +5340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTerminationPolicies {
 	Statements: interface{},
@@ -5374,7 +5374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 &mrscaleraws.MrscalerAwsTerminationPoliciesStatements {
 	MetricName: *string,
@@ -5506,7 +5506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsApplicationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsApplicationsList
 ```
@@ -5649,7 +5649,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplicationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsApplicationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsApplicationsOutputReference
 ```
@@ -5996,7 +5996,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsBootstrapActionsFileList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsBootstrapActionsFileList
 ```
@@ -6139,7 +6139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsBootstrapActionsFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsBootstrapActionsFileOutputReference
 ```
@@ -6450,7 +6450,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsConfigurationsFileList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsConfigurationsFileList
 ```
@@ -6593,7 +6593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsConfigurationsFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsConfigurationsFileOutputReference
 ```
@@ -6904,7 +6904,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreEbsBlockDeviceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsCoreEbsBlockDeviceList
 ```
@@ -7047,7 +7047,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreEbsBlockDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsCoreEbsBlockDeviceOutputReference
 ```
@@ -7416,7 +7416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreScalingDownPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsCoreScalingDownPolicyList
 ```
@@ -7559,7 +7559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreScalingDownPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsCoreScalingDownPolicyOutputReference
 ```
@@ -8313,7 +8313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreScalingUpPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsCoreScalingUpPolicyList
 ```
@@ -8456,7 +8456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsCoreScalingUpPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsCoreScalingUpPolicyOutputReference
 ```
@@ -9210,7 +9210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsInstanceWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsInstanceWeightsList
 ```
@@ -9353,7 +9353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsInstanceWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsInstanceWeightsOutputReference
 ```
@@ -9664,7 +9664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsMasterEbsBlockDeviceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsMasterEbsBlockDeviceList
 ```
@@ -9807,7 +9807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsMasterEbsBlockDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsMasterEbsBlockDeviceOutputReference
 ```
@@ -10176,7 +10176,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsProvisioningTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MrscalerAwsProvisioningTimeoutOutputReference
 ```
@@ -10469,7 +10469,7 @@ func InternalValue() MrscalerAwsProvisioningTimeout
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsScheduledTaskList
 ```
@@ -10612,7 +10612,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsScheduledTaskOutputReference
 ```
@@ -11061,7 +11061,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsStepsFileList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsStepsFileList
 ```
@@ -11204,7 +11204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsStepsFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsStepsFileOutputReference
 ```
@@ -11515,7 +11515,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTagsList
 ```
@@ -11658,7 +11658,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTagsOutputReference
 ```
@@ -11969,7 +11969,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskEbsBlockDeviceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTaskEbsBlockDeviceList
 ```
@@ -12112,7 +12112,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskEbsBlockDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTaskEbsBlockDeviceOutputReference
 ```
@@ -12481,7 +12481,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskScalingDownPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTaskScalingDownPolicyList
 ```
@@ -12624,7 +12624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskScalingDownPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTaskScalingDownPolicyOutputReference
 ```
@@ -13378,7 +13378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskScalingUpPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTaskScalingUpPolicyList
 ```
@@ -13521,7 +13521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTaskScalingUpPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTaskScalingUpPolicyOutputReference
 ```
@@ -14275,7 +14275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTerminationPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTerminationPoliciesList
 ```
@@ -14418,7 +14418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTerminationPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTerminationPoliciesOutputReference
 ```
@@ -14720,7 +14720,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTerminationPoliciesStatementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MrscalerAwsTerminationPoliciesStatementsList
 ```
@@ -14863,7 +14863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/mrscaleraws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/mrscaleraws"
 
 mrscaleraws.NewMrscalerAwsTerminationPoliciesStatementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MrscalerAwsTerminationPoliciesStatementsOutputReference
 ```

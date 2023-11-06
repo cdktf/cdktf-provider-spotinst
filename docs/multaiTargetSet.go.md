@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSet(scope Construct, id *string, config MultaiTargetSetConfig) MultaiTargetSet
 ```
@@ -386,7 +386,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsConstruct(x interface{}) *bool
 ```
@@ -418,7 +418,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ multaitargetset.MultaiTargetSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ multaitargetset.MultaiTargetSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.MultaiTargetSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetConfig {
 	Connection: interface{},
@@ -885,7 +885,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset
 	Provisioners: *[]interface{},
 	BalancerId: *string,
 	DeploymentId: *string,
-	HealthCheck: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.multaiTargetSet.MultaiTargetSetHealthCheck,
+	HealthCheck: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.multaiTargetSet.MultaiTargetSetHealthCheck,
 	Protocol: *string,
 	Weight: *f64,
 	Id: *string,
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetHealthCheck {
 	HealthyThreshold: *f64,
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 &multaitargetset.MultaiTargetSetTags {
 	Key: *string,
@@ -1272,7 +1272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetHealthCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetHealthCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MultaiTargetSetHealthCheckOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() MultaiTargetSetHealthCheck
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MultaiTargetSetTagsList
 ```
@@ -1825,7 +1825,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.multaiTargetSet.MultaiTargetSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/multaitargetset"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/multaitargetset"
 
 multaitargetset.NewMultaiTargetSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MultaiTargetSetTagsOutputReference
 ```
