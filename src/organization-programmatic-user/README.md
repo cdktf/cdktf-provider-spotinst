@@ -1,3 +1,3 @@
 # `spotinst_organization_programmatic_user`
 
-Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.149.0/docs/resources/organization_programmatic_user).
+Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/organization_programmatic_user).
