@@ -1,6 +1,6 @@
 # `spotinst_credentials_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_credentials_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws).
+Refer to the Terraform Registory for docs: [`spotinst_credentials_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws).
 
 # `credentialsAws` Submodule <a name="`credentialsAws` Submodule" id="@cdktf/provider-spotinst.credentialsAws"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`spotinst_credentials_aws`](https://
 
 ### CredentialsAws <a name="CredentialsAws" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws spotinst_credentials_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws spotinst_credentials_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.credentialsAws.CredentialsAws.Initializer"></a>
 
@@ -428,7 +428,7 @@ The construct id used in the generated config for the CredentialsAws to import.
 
 The id of the existing CredentialsAws that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -721,9 +721,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/credentialsaws"
 | <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#account_id CredentialsAws#account_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.iamrole">Iamrole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#id CredentialsAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#account_id CredentialsAws#account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.iamrole">Iamrole</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAws.CredentialsAwsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#id CredentialsAws#id}. |
 
 ---
 
@@ -805,7 +805,7 @@ AccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#account_id CredentialsAws#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#account_id CredentialsAws#account_id}.
 
 ---
 
@@ -817,7 +817,7 @@ Iamrole *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#iamrole CredentialsAws#iamrole}.
 
 ---
 
@@ -829,7 +829,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.0/docs/resources/credentials_aws#id CredentialsAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws#id CredentialsAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
