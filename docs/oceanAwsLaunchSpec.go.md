@@ -1,7 +1,3 @@
-# `spotinst_ocean_aws_launch_spec`
-
-Refer to the Terraform Registory for docs: [`spotinst_ocean_aws_launch_spec`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/ocean_aws_launch_spec).
-
 # `oceanAwsLaunchSpec` Submodule <a name="`oceanAwsLaunchSpec` Submodule" id="@cdktf/provider-spotinst.oceanAwsLaunchSpec"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

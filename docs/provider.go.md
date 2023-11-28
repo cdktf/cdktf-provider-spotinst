@@ -1,7 +1,3 @@
-# `provider`
-
-Refer to the Terraform Registory for docs: [`spotinst`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs).
-
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-spotinst.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

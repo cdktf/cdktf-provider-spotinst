@@ -1,7 +1,3 @@
-# `spotinst_elastigroup_aws_suspension`
-
-Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws_suspension`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/elastigroup_aws_suspension).
-
 # `elastigroupAwsSuspension` Submodule <a name="`elastigroupAwsSuspension` Submodule" id="@cdktf/provider-spotinst.elastigroupAwsSuspension"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

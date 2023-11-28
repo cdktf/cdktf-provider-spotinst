@@ -1,7 +1,3 @@
-# `spotinst_ocean_spark`
-
-Refer to the Terraform Registory for docs: [`spotinst_ocean_spark`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/ocean_spark).
-
 # `oceanSpark` Submodule <a name="`oceanSpark` Submodule" id="@cdktf/provider-spotinst.oceanSpark"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

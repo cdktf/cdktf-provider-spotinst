@@ -1,7 +1,3 @@
-# `spotinst_mrscaler_aws`
-
-Refer to the Terraform Registory for docs: [`spotinst_mrscaler_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/mrscaler_aws).
-
 # `mrscalerAws` Submodule <a name="`mrscalerAws` Submodule" id="@cdktf/provider-spotinst.mrscalerAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

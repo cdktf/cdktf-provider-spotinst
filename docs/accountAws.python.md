@@ -1,7 +1,3 @@
-# `spotinst_account_aws`
-
-Refer to the Terraform Registory for docs: [`spotinst_account_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/account_aws).
-
 # `accountAws` Submodule <a name="`accountAws` Submodule" id="@cdktf/provider-spotinst.accountAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
