@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.NewDataIntegration(scope Construct, id *string, config DataIntegrationConfig) DataIntegration
 ```
@@ -362,7 +362,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.DataIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -394,7 +394,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.DataIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -408,7 +408,7 @@ dataintegration.DataIntegration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.DataIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -422,7 +422,7 @@ dataintegration.DataIntegration_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.DataIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -739,7 +739,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 &dataintegration.DataIntegrationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
 	Provisioners: *[]interface{},
 	Name: *string,
 	Id: *string,
-	S3: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.dataIntegration.DataIntegrationS3,
+	S3: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.dataIntegration.DataIntegrationS3,
 	Status: *string,
 }
 ```
@@ -902,7 +902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 &dataintegration.DataIntegrationS3 {
 	BucketName: *string,
@@ -950,7 +950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/dataintegration"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/dataintegration"
 
 dataintegration.NewDataIntegrationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataIntegrationS3OutputReference
 ```
