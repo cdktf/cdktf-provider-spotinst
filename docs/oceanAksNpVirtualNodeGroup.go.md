@@ -1,7 +1,3 @@
-# `spotinst_ocean_aks_np_virtual_node_group`
-
-Refer to the Terraform Registory for docs: [`spotinst_ocean_aks_np_virtual_node_group`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/ocean_aks_np_virtual_node_group).
-
 # `oceanAksNpVirtualNodeGroup` Submodule <a name="`oceanAksNpVirtualNodeGroup` Submodule" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
@@ -13,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroup(scope Construct, id *string, config OceanAksNpVirtualNodeGroupConfig) OceanAksNpVirtualNodeGroup
 ```
@@ -511,7 +507,7 @@ func ResetVnetSubnetIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_IsConstruct(x interface{}) *bool
 ```
@@ -543,7 +539,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -557,7 +553,7 @@ oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -571,7 +567,7 @@ oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1284,7 +1280,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 &oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroupConfig {
 	Connection: interface{},
@@ -1299,7 +1295,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtu
 	AvailabilityZones: *[]*string,
 	EnableNodePublicIp: interface{},
 	FallbackToOndemand: interface{},
-	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupFilters,
+	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupFilters,
 	Headrooms: interface{},
 	Id: *string,
 	KubernetesVersion: *string,
@@ -1703,7 +1699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 &oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroupFilters {
 	AcceleratedNetworking: *string,
@@ -1917,7 +1913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupHeadrooms.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 &oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroupHeadrooms {
 	CpuPerUnit: *f64,
@@ -1991,7 +1987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupTaints.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 &oceanaksnpvirtualnodegroup.OceanAksNpVirtualNodeGroupTaints {
 	Effect: *string,
@@ -2053,7 +2049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroupFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpVirtualNodeGroupFiltersOutputReference
 ```
@@ -2708,7 +2704,7 @@ func InternalValue() OceanAksNpVirtualNodeGroupFilters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupHeadroomsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroupHeadroomsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpVirtualNodeGroupHeadroomsList
 ```
@@ -2851,7 +2847,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupHeadroomsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroupHeadroomsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpVirtualNodeGroupHeadroomsOutputReference
 ```
@@ -3234,7 +3230,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupTaintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroupTaintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpVirtualNodeGroupTaintsList
 ```
@@ -3377,7 +3373,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNpVirtualNodeGroup.OceanAksNpVirtualNodeGroupTaintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanaksnpvirtualnodegroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnpvirtualnodegroup"
 
 oceanaksnpvirtualnodegroup.NewOceanAksNpVirtualNodeGroupTaintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpVirtualNodeGroupTaintsOutputReference
 ```

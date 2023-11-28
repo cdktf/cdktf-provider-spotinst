@@ -1,7 +1,3 @@
-# `spotinst_organization_user`
-
-Refer to the Terraform Registory for docs: [`spotinst_organization_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user).
-
 # `organizationUser` Submodule <a name="`organizationUser` Submodule" id="@cdktf/provider-spotinst.organizationUser"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

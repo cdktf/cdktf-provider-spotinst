@@ -1,7 +1,3 @@
-# `spotinst_data_integration`
-
-Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/data_integration).
-
 # `dataIntegration` Submodule <a name="`dataIntegration` Submodule" id="@cdktf/provider-spotinst.dataIntegration"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

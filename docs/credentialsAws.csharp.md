@@ -1,7 +1,3 @@
-# `spotinst_credentials_aws`
-
-Refer to the Terraform Registory for docs: [`spotinst_credentials_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/credentials_aws).
-
 # `credentialsAws` Submodule <a name="`credentialsAws` Submodule" id="@cdktf/provider-spotinst.credentialsAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

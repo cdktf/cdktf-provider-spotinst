@@ -1,7 +1,3 @@
-# `spotinst_organization_programmatic_user`
-
-Refer to the Terraform Registory for docs: [`spotinst_organization_programmatic_user`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_programmatic_user).
-
 # `organizationProgrammaticUser` Submodule <a name="`organizationProgrammaticUser` Submodule" id="@cdktf/provider-spotinst.organizationProgrammaticUser"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

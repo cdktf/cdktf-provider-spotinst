@@ -1,7 +1,3 @@
-# `spotinst_ocean_aws_extended_resource_definition`
-
-Refer to the Terraform Registory for docs: [`spotinst_ocean_aws_extended_resource_definition`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/ocean_aws_extended_resource_definition).
-
 # `oceanAwsExtendedResourceDefinition` Submodule <a name="`oceanAwsExtendedResourceDefinition` Submodule" id="@cdktf/provider-spotinst.oceanAwsExtendedResourceDefinition"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

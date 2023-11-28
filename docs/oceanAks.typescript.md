@@ -1,7 +1,3 @@
-# `spotinst_ocean_aks`
-
-Refer to the Terraform Registory for docs: [`spotinst_ocean_aks`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/ocean_aks).
-
 # `oceanAks` Submodule <a name="`oceanAks` Submodule" id="@cdktf/provider-spotinst.oceanAks"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

@@ -1,7 +1,3 @@
-# `spotinst_elastigroup_aws`
-
-Refer to the Terraform Registory for docs: [`spotinst_elastigroup_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/elastigroup_aws).
-
 # `elastigroupAws` Submodule <a name="`elastigroupAws` Submodule" id="@cdktf/provider-spotinst.elastigroupAws"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
