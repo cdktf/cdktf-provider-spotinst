@@ -4,12 +4,12 @@
 
 ### OrganizationUser <a name="OrganizationUser" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user spotinst_organization_user}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user spotinst_organization_user}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.NewOrganizationUser(scope Construct, id *string, config OrganizationUserConfig) OrganizationUser
 ```
@@ -376,7 +376,7 @@ func ResetUserGroupIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.OrganizationUser_IsConstruct(x interface{}) *bool
 ```
@@ -408,7 +408,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.OrganizationUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -422,7 +422,7 @@ organizationuser.OrganizationUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.OrganizationUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -436,7 +436,7 @@ organizationuser.OrganizationUser_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.organizationUser.OrganizationUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.OrganizationUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -465,7 +465,7 @@ The construct id used in the generated config for the OrganizationUser to import
 
 The id of the existing OrganizationUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 &organizationuser.OrganizationUserConfig {
 	Connection: interface{},
@@ -873,14 +873,14 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuse
 | <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#email OrganizationUser#email}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.firstName">FirstName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#first_name OrganizationUser#first_name}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.lastName">LastName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#last_name OrganizationUser#last_name}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#id OrganizationUser#id}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#password OrganizationUser#password}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#email OrganizationUser#email}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.firstName">FirstName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#first_name OrganizationUser#first_name}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.lastName">LastName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#last_name OrganizationUser#last_name}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#id OrganizationUser#id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#password OrganizationUser#password}. |
 | <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.policies">Policies</a></code> | <code>interface{}</code> | policies block. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#role OrganizationUser#role}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.userGroupIds">UserGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#user_group_ids OrganizationUser#user_group_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#role OrganizationUser#role}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserConfig.property.userGroupIds">UserGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#user_group_ids OrganizationUser#user_group_ids}. |
 
 ---
 
@@ -962,7 +962,7 @@ Email *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#email OrganizationUser#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#email OrganizationUser#email}.
 
 ---
 
@@ -974,7 +974,7 @@ FirstName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#first_name OrganizationUser#first_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#first_name OrganizationUser#first_name}.
 
 ---
 
@@ -986,7 +986,7 @@ LastName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#last_name OrganizationUser#last_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#last_name OrganizationUser#last_name}.
 
 ---
 
@@ -998,7 +998,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#id OrganizationUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#id OrganizationUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1013,7 +1013,7 @@ Password *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#password OrganizationUser#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#password OrganizationUser#password}.
 
 ---
 
@@ -1027,7 +1027,7 @@ Policies interface{}
 
 policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#policies OrganizationUser#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#policies OrganizationUser#policies}
 
 ---
 
@@ -1039,7 +1039,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#role OrganizationUser#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#role OrganizationUser#role}.
 
 ---
 
@@ -1051,7 +1051,7 @@ UserGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#user_group_ids OrganizationUser#user_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#user_group_ids OrganizationUser#user_group_ids}.
 
 ---
 
@@ -1060,7 +1060,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUser.OrganizationUserPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 &organizationuser.OrganizationUserPolicies {
 	PolicyAccountIds: *[]*string,
@@ -1072,8 +1072,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuse
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserPolicies.property.policyAccountIds">PolicyAccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#policy_account_ids OrganizationUser#policy_account_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#policy_id OrganizationUser#policy_id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserPolicies.property.policyAccountIds">PolicyAccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#policy_account_ids OrganizationUser#policy_account_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUser.OrganizationUserPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#policy_id OrganizationUser#policy_id}. |
 
 ---
 
@@ -1085,7 +1085,7 @@ PolicyAccountIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#policy_account_ids OrganizationUser#policy_account_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#policy_account_ids OrganizationUser#policy_account_ids}.
 
 ---
 
@@ -1097,7 +1097,7 @@ PolicyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.150.1/docs/resources/organization_user#policy_id OrganizationUser#policy_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.151.0/docs/resources/organization_user#policy_id OrganizationUser#policy_id}.
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUser.OrganizationUserPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.NewOrganizationUserPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationUserPoliciesList
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUser.OrganizationUserPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationuser"
 
 organizationuser.NewOrganizationUserPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationUserPoliciesOutputReference
 ```
