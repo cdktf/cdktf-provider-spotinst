@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSpark(scope Construct, id *string, config OceanSparkConfig) OceanSpark
 ```
@@ -435,7 +435,7 @@ func ResetWebhook()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.OceanSpark_IsConstruct(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.OceanSpark_IsTerraformElement(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ oceanspark.OceanSpark_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.OceanSpark_IsTerraformResource(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ oceanspark.OceanSpark_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.OceanSpark_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -878,7 +878,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkCompute {
 	CreateVngs: interface{},
@@ -924,7 +924,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkConfig {
 	Connection: interface{},
@@ -935,12 +935,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	OceanClusterId: *string,
-	Compute: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkCompute,
+	Compute: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkCompute,
 	Id: *string,
-	Ingress: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkIngress,
-	LogCollection: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkLogCollection,
-	Spark: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkSpark,
-	Webhook: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkWebhook,
+	Ingress: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkIngress,
+	LogCollection: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkLogCollection,
+	Spark: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkSpark,
+	Webhook: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkWebhook,
 }
 ```
 
@@ -1137,13 +1137,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkIngress {
-	Controller: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkIngressController,
-	CustomEndpoint: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkIngressCustomEndpoint,
-	LoadBalancer: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkIngressLoadBalancer,
-	PrivateLink: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanSpark.OceanSparkIngressPrivateLink,
+	Controller: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkIngressController,
+	CustomEndpoint: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkIngressCustomEndpoint,
+	LoadBalancer: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkIngressLoadBalancer,
+	PrivateLink: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.oceanSpark.OceanSparkIngressPrivateLink,
 	ServiceAnnotations: *map[string]*string,
 }
 ```
@@ -1233,7 +1233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressController.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkIngressController {
 	Managed: interface{},
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkIngressCustomEndpoint {
 	Address: *string,
@@ -1311,7 +1311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkIngressLoadBalancer {
 	Managed: interface{},
@@ -1371,7 +1371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkIngressPrivateLink {
 	Enabled: interface{},
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkLogCollection {
 	CollectAppLogs: interface{},
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkSpark {
 	AdditionalAppNamespaces: *[]*string,
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 &oceanspark.OceanSparkWebhook {
 	HostNetworkPorts: *[]*f64,
@@ -1529,7 +1529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkComputeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkComputeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkComputeOutputReference
 ```
@@ -1836,7 +1836,7 @@ func InternalValue() OceanSparkCompute
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressControllerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkIngressControllerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkIngressControllerOutputReference
 ```
@@ -2114,7 +2114,7 @@ func InternalValue() OceanSparkIngressController
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkIngressCustomEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkIngressCustomEndpointOutputReference
 ```
@@ -2421,7 +2421,7 @@ func InternalValue() OceanSparkIngressCustomEndpoint
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkIngressLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkIngressLoadBalancerOutputReference
 ```
@@ -2757,7 +2757,7 @@ func InternalValue() OceanSparkIngressLoadBalancer
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkIngressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkIngressOutputReference
 ```
@@ -3203,7 +3203,7 @@ func InternalValue() OceanSparkIngress
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkIngressPrivateLinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkIngressPrivateLinkOutputReference
 ```
@@ -3510,7 +3510,7 @@ func InternalValue() OceanSparkIngressPrivateLink
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkLogCollectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkLogCollectionOutputReference
 ```
@@ -3788,7 +3788,7 @@ func InternalValue() OceanSparkLogCollection
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkSparkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkSparkOutputReference
 ```
@@ -4066,7 +4066,7 @@ func InternalValue() OceanSparkSpark
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanspark"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceanspark"
 
 oceanspark.NewOceanSparkWebhookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanSparkWebhookOutputReference
 ```

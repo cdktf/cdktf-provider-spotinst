@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.NewOrganizationPolicy(scope Construct, id *string, config OrganizationPolicyConfig) OrganizationPolicy
 ```
@@ -355,7 +355,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.OrganizationPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -387,7 +387,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.OrganizationPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -401,7 +401,7 @@ organizationpolicy.OrganizationPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.OrganizationPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -415,7 +415,7 @@ organizationpolicy.OrganizationPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.OrganizationPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -732,7 +732,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 &organizationpolicy.OrganizationPolicyConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContent.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 &organizationpolicy.OrganizationPolicyPolicyContent {
 	Statements: interface{},
@@ -929,7 +929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContentStatements.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 &organizationpolicy.OrganizationPolicyPolicyContentStatements {
 	Actions: *[]*string,
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContentList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.NewOrganizationPolicyPolicyContentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationPolicyPolicyContentList
 ```
@@ -1134,7 +1134,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.NewOrganizationPolicyPolicyContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationPolicyPolicyContentOutputReference
 ```
@@ -1436,7 +1436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContentStatementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.NewOrganizationPolicyPolicyContentStatementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationPolicyPolicyContentStatementsList
 ```
@@ -1579,7 +1579,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationPolicy.OrganizationPolicyPolicyContentStatementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationpolicy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationpolicy"
 
 organizationpolicy.NewOrganizationPolicyPolicyContentStatementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationPolicyPolicyContentStatementsOutputReference
 ```
