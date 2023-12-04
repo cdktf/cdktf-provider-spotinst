@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalk(scope Construct, id *string, config ElastigroupAwsBeanstalkConfig) ElastigroupAwsBeanstalk
 ```
@@ -459,7 +459,7 @@ func ResetScheduledTask()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalk.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_IsConstruct(x interface{}) *bool
 ```
@@ -491,7 +491,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalk.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_IsTerraformElement(x interface{}) *bool
 ```
@@ -505,7 +505,7 @@ elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalk.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_IsTerraformResource(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalk.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.ElastigroupAwsBeanstalk_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1056,7 +1056,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkConfig {
 	Connection: interface{},
@@ -1075,10 +1075,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsb
 	Region: *string,
 	BeanstalkEnvironmentId: *string,
 	BeanstalkEnvironmentName: *string,
-	DeploymentPreferences: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferences,
+	DeploymentPreferences: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferences,
 	Id: *string,
 	Maintenance: *string,
-	ManagedActions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActions,
+	ManagedActions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActions,
 	ScheduledTask: interface{},
 }
 ```
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkDeploymentPreferences {
 	AutomaticRoll: interface{},
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferencesStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkDeploymentPreferencesStrategy {
 	Action: *string,
@@ -1485,10 +1485,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkManagedActions {
-	PlatformUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActionsPlatformUpdate,
+	PlatformUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActionsPlatformUpdate,
 }
 ```
 
@@ -1519,7 +1519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActionsPlatformUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkManagedActionsPlatformUpdate {
 	PerformAt: *string,
@@ -1579,7 +1579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 &elastigroupawsbeanstalk.ElastigroupAwsBeanstalkScheduledTask {
 	TaskType: *string,
@@ -1809,7 +1809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkDeploymentPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference
 ```
@@ -2187,7 +2187,7 @@ func InternalValue() ElastigroupAwsBeanstalkDeploymentPreferences
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferencesStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkDeploymentPreferencesStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsBeanstalkDeploymentPreferencesStrategyList
 ```
@@ -2330,7 +2330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference
 ```
@@ -2655,7 +2655,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkManagedActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsBeanstalkManagedActionsOutputReference
 ```
@@ -2946,7 +2946,7 @@ func InternalValue() ElastigroupAwsBeanstalkManagedActions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkManagedActionsPlatformUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkManagedActionsPlatformUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsBeanstalkManagedActionsPlatformUpdateOutputReference
 ```
@@ -3282,7 +3282,7 @@ func InternalValue() ElastigroupAwsBeanstalkManagedActionsPlatformUpdate
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsBeanstalkScheduledTaskList
 ```
@@ -3425,7 +3425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsBeanstalk.ElastigroupAwsBeanstalkScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupawsbeanstalk"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawsbeanstalk"
 
 elastigroupawsbeanstalk.NewElastigroupAwsBeanstalkScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsBeanstalkScheduledTaskOutputReference
 ```
