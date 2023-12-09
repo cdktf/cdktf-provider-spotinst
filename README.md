@@ -3,7 +3,7 @@
 
 This repo builds and publishes the Terraform spotinst Provider bindings for [CDK for Terraform](https://cdk.tf).
 
-Is based directly on spotinst 1.151.1
+Is based directly on spotinst 1.153.0
 
 ## Available Packages
 
@@ -63,7 +63,7 @@ This project is explicitly not tracking the Terraform spotinst Provider version 
 These are the upstream dependencies:
 
 - [Terraform CDK](https://cdk.tf)
-- [Terraform spotinst Provider](https://registry.terraform.io/providers/spotinst/spotinst/1.151.1)
+- [Terraform spotinst Provider](https://registry.terraform.io/providers/spotinst/spotinst/1.153.0)
     - This links to the minimum version being tracked, you can find the latest released version [in our releases](https://github.com/cdktf/cdktf-provider-spotinst/releases)
 - [Terraform Engine](https://terraform.io)
 
