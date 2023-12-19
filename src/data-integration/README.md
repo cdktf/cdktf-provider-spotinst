@@ -1,3 +1,3 @@
 # `spotinst_data_integration`
 
-Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https://registry.terraform.io/providers/spotinst/spotinst/1.155.0/docs/resources/data_integration).
+Refer to the Terraform Registory for docs: [`spotinst_data_integration`](https://registry.terraform.io/providers/spotinst/spotinst/1.156.0/docs/resources/data_integration).
