@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 oceangkelaunchspecimport.NewOceanGkeLaunchSpecImport(scope Construct, id *string, config OceanGkeLaunchSpecImportConfig) OceanGkeLaunchSpecImport
 ```
@@ -378,7 +378,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImport.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 oceangkelaunchspecimport.OceanGkeLaunchSpecImport_IsConstruct(x interface{}) *bool
 ```
@@ -410,7 +410,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 oceangkelaunchspecimport.OceanGkeLaunchSpecImport_IsTerraformElement(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ oceangkelaunchspecimport.OceanGkeLaunchSpecImport_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImport.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 oceangkelaunchspecimport.OceanGkeLaunchSpecImport_IsTerraformResource(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ oceangkelaunchspecimport.OceanGkeLaunchSpecImport_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 oceangkelaunchspecimport.OceanGkeLaunchSpecImport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeLaunchSpecImport.OceanGkeLaunchSpecImportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkelaunchspecimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/oceangkelaunchspecimport"
 
 &oceangkelaunchspecimport.OceanGkeLaunchSpecImportConfig {
 	Connection: interface{},
