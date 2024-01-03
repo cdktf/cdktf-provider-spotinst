@@ -1,3 +1,3 @@
 # `spotinst_mrscaler_aws`
 
-Refer to the Terraform Registory for docs: [`spotinst_mrscaler_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.156.0/docs/resources/mrscaler_aws).
+Refer to the Terraform Registory for docs: [`spotinst_mrscaler_aws`](https://registry.terraform.io/providers/spotinst/spotinst/1.157.0/docs/resources/mrscaler_aws).
