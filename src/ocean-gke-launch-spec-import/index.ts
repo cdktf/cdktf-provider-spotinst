@@ -142,4 +142,30 @@ export class OceanGkeLaunchSpecImport extends cdktf.TerraformResource {
       ocean_id: cdktf.stringToTerraform(this._oceanId),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      node_pool_name: {
+        value: cdktf.stringToHclTerraform(this._nodePoolName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ocean_id: {
+        value: cdktf.stringToHclTerraform(this._oceanId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAws(scope Construct, id *string, config ElastigroupAwsConfig) ElastigroupAws
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -239,6 +240,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.toMetadata"></a>
 
@@ -1386,7 +1393,7 @@ func ResetWaitForCapacityTimeout()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.ElastigroupAws_IsConstruct(x interface{}) *bool
 ```
@@ -1418,7 +1425,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.ElastigroupAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -1432,7 +1439,7 @@ elastigroupaws.ElastigroupAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.ElastigroupAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -1446,7 +1453,7 @@ elastigroupaws.ElastigroupAws_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.ElastigroupAws_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -3545,7 +3552,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsConfig {
 	Connection: interface{},
@@ -3565,7 +3572,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
 	CapacityUnit: *string,
 	ConsiderOdPricing: interface{},
 	CpuCredits: *string,
-	CpuOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsCpuOptions,
+	CpuOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsCpuOptions,
 	Description: *string,
 	DesiredCapacity: *f64,
 	DrainingTimeout: *f64,
@@ -3587,27 +3594,27 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
 	InstanceTypesPreferredSpot: *[]*string,
 	InstanceTypesSpot: *[]*string,
 	InstanceTypesWeights: interface{},
-	IntegrationBeanstalk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationBeanstalk,
-	IntegrationCodedeploy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationCodedeploy,
-	IntegrationDockerSwarm: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm,
-	IntegrationEcs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationEcs,
-	IntegrationGitlab: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationGitlab,
-	IntegrationKubernetes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationKubernetes,
-	IntegrationMesosphere: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationMesosphere,
-	IntegrationMultaiRuntime: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime,
-	IntegrationNomad: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationNomad,
-	IntegrationRancher: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationRancher,
-	IntegrationRoute53: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationRoute53,
+	IntegrationBeanstalk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationBeanstalk,
+	IntegrationCodedeploy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationCodedeploy,
+	IntegrationDockerSwarm: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm,
+	IntegrationEcs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationEcs,
+	IntegrationGitlab: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationGitlab,
+	IntegrationKubernetes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationKubernetes,
+	IntegrationMesosphere: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationMesosphere,
+	IntegrationMultaiRuntime: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime,
+	IntegrationNomad: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationNomad,
+	IntegrationRancher: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationRancher,
+	IntegrationRoute53: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationRoute53,
 	Itf: interface{},
 	KeyName: *string,
 	LifetimePeriod: *string,
-	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsLogging,
+	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsLogging,
 	MaxSize: *f64,
-	MetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsMetadataOptions,
+	MetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsMetadataOptions,
 	MinimumInstanceLifetime: *f64,
 	MinSize: *f64,
 	MultaiTargetSets: interface{},
-	MultipleMetrics: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsMultipleMetrics,
+	MultipleMetrics: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsMultipleMetrics,
 	NetworkInterface: interface{},
 	OndemandCount: *f64,
 	OnDemandTypes: *[]*string,
@@ -3620,7 +3627,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
 	Region: *string,
 	ResourceRequirements: interface{},
 	ResourceTagSpecification: interface{},
-	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsRevertToSpot,
+	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsRevertToSpot,
 	ScalingDownPolicy: interface{},
 	ScalingStrategy: interface{},
 	ScalingTargetPolicy: interface{},
@@ -3629,12 +3636,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
 	ShutdownScript: *string,
 	Signal: interface{},
 	SpotPercentage: *f64,
-	StatefulDeallocation: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsStatefulDeallocation,
+	StatefulDeallocation: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsStatefulDeallocation,
 	StatefulInstanceAction: interface{},
 	SubnetIds: *[]*string,
 	Tags: interface{},
 	TargetGroupArns: *[]*string,
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsUpdatePolicy,
 	UserData: *string,
 	UtilizeCommitments: interface{},
 	UtilizeReservedInstances: interface{},
@@ -4910,7 +4917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsCpuOptions {
 	ThreadsPerCore: *f64,
@@ -4942,7 +4949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsEbsBlockDevice {
 	DeviceName: *string,
@@ -5086,7 +5093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsEphemeralBlockDevice {
 	DeviceName: *string,
@@ -5132,7 +5139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsImages {
 	Image: interface{},
@@ -5166,7 +5173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsImagesImage {
 	Id: *string,
@@ -5201,7 +5208,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsInstanceTypesWeights {
 	InstanceType: *string,
@@ -5247,12 +5254,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationBeanstalk {
-	DeploymentPreferences: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences,
+	DeploymentPreferences: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences,
 	EnvironmentId: *string,
-	ManagedActions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActions,
+	ManagedActions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActions,
 }
 ```
 
@@ -5311,13 +5318,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences {
 	AutomaticRoll: interface{},
 	BatchSizePercentage: *f64,
 	GracePeriod: *f64,
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy,
+	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy,
 }
 ```
 
@@ -5387,7 +5394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy {
 	Action: *string,
@@ -5433,10 +5440,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationBeanstalkManagedActions {
-	PlatformUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate,
+	PlatformUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate,
 }
 ```
 
@@ -5467,7 +5474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate {
 	PerformAt: *string,
@@ -5527,7 +5534,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationCodedeploy {
 	CleanupOnFailure: interface{},
@@ -5589,7 +5596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationCodedeployDeploymentGroups {
 	ApplicationName: *string,
@@ -5635,14 +5642,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationDockerSwarm {
 	MasterHost: *string,
 	MasterPort: *f64,
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom,
 	AutoscaleIsEnabled: interface{},
 }
 ```
@@ -5741,7 +5748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -5787,7 +5794,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -5847,18 +5854,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationEcs {
 	ClusterName: *string,
 	AutoscaleAttributes: interface{},
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom,
 	AutoscaleIsAutoConfig: interface{},
 	AutoscaleIsEnabled: interface{},
 	AutoscaleScaleDownNonServiceTasks: interface{},
-	Batch: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationEcsBatch,
+	Batch: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationEcsBatch,
 }
 ```
 
@@ -5999,7 +6006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationEcsAutoscaleAttributes {
 	Key: *string,
@@ -6045,7 +6052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationEcsAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -6091,7 +6098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -6151,7 +6158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationEcsBatch {
 	JobQueueNames: *[]*string,
@@ -6183,10 +6190,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlab.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationGitlab {
-	Runner: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner,
+	Runner: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner,
 }
 ```
 
@@ -6217,7 +6224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationGitlabRunner {
 	IsEnabled: interface{},
@@ -6249,13 +6256,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationKubernetes {
 	ApiServer: *string,
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom,
 	AutoscaleIsAutoConfig: interface{},
 	AutoscaleIsEnabled: interface{},
 	AutoscaleLabels: interface{},
@@ -6413,7 +6420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationKubernetesAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -6459,7 +6466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -6519,7 +6526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels {
 	Key: *string,
@@ -6565,7 +6572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphere.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationMesosphere {
 	ApiServer: *string,
@@ -6597,7 +6604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationMultaiRuntime {
 	DeploymentId: *string,
@@ -6629,7 +6636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationNomad {
 	MasterHost: *string,
@@ -6637,8 +6644,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
 	AclToken: *string,
 	AutoscaleConstraints: interface{},
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom,
 	AutoscaleIsEnabled: interface{},
 }
 ```
@@ -6765,7 +6772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationNomadAutoscaleConstraints {
 	Key: *string,
@@ -6811,7 +6818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationNomadAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -6843,7 +6850,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -6903,7 +6910,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationRancher {
 	AccessKey: *string,
@@ -6977,7 +6984,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationRoute53 {
 	Domains: interface{},
@@ -7011,7 +7018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationRoute53Domains {
 	HostedZoneId: *string,
@@ -7087,7 +7094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsIntegrationRoute53DomainsRecordSets {
 	Name: *string,
@@ -7147,14 +7154,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItf {
 	FixedTargetGroups: interface{},
 	LoadBalancer: interface{},
 	TargetGroupConfig: interface{},
 	WeightStrategy: *string,
-	DefaultStaticTargetGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup,
+	DefaultStaticTargetGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup,
 	MigrationHealthinessThreshold: *f64,
 }
 ```
@@ -7255,7 +7262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfDefaultStaticTargetGroup {
 	Arn: *string,
@@ -7301,7 +7308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfLoadBalancer {
 	ListenerRule: interface{},
@@ -7349,11 +7356,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfLoadBalancerListenerRule {
 	RuleArn: *string,
-	StaticTargetGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup,
+	StaticTargetGroup: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup,
 }
 ```
 
@@ -7397,7 +7404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup {
 	Arn: *string,
@@ -7443,7 +7450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfTargetGroupConfig {
 	HealthCheckPath: *string,
@@ -7647,7 +7654,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfTargetGroupConfigMatcher {
 	GrpcCode: *string,
@@ -7693,7 +7700,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsItfTargetGroupConfigTags {
 	TagKey: *string,
@@ -7739,10 +7746,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsLogging {
-	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsLoggingExport,
+	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsLoggingExport,
 }
 ```
 
@@ -7773,7 +7780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsLoggingExport {
 	S3: interface{},
@@ -7807,7 +7814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsLoggingExportS3 {
 	Id: *string,
@@ -7842,7 +7849,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMetadataOptions {
 	HttpTokens: *string,
@@ -7902,7 +7909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMultaiTargetSets {
 	BalancerId: *string,
@@ -7948,7 +7955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMultipleMetrics {
 	Expressions: interface{},
@@ -7998,7 +8005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMultipleMetricsExpressions {
 	Expression: *string,
@@ -8044,7 +8051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMultipleMetricsMetrics {
 	MetricName: *string,
@@ -8162,7 +8169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsMultipleMetricsMetricsDimensions {
 	Name: *string,
@@ -8208,7 +8215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsNetworkInterface {
 	DeviceIndex: *string,
@@ -8338,7 +8345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsResourceRequirements {
 	RequiredMemoryMaximum: *f64,
@@ -8482,7 +8489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsResourceTagSpecification {
 	ShouldTagAmis: interface{},
@@ -8556,7 +8563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsRevertToSpot {
 	PerformAt: *string,
@@ -8602,7 +8609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingDownPolicy {
 	MetricName: *string,
@@ -8918,7 +8925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingDownPolicyDimensions {
 	Name: *string,
@@ -8964,10 +8971,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingDownPolicyStepAdjustments {
-	Action: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction,
+	Action: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction,
 	Threshold: *f64,
 }
 ```
@@ -9012,7 +9019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction {
 	Type: *string,
@@ -9128,7 +9135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingStrategy {
 	TerminateAtEndOfBillingHour: interface{},
@@ -9174,7 +9181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingTargetPolicy {
 	MetricName: *string,
@@ -9376,7 +9383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingTargetPolicyDimensions {
 	Name: *string,
@@ -9422,7 +9429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingUpPolicy {
 	MetricName: *string,
@@ -9738,7 +9745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingUpPolicyDimensions {
 	Name: *string,
@@ -9784,10 +9791,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingUpPolicyStepAdjustments {
-	Action: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction,
+	Action: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction,
 	Threshold: *f64,
 }
 ```
@@ -9832,7 +9839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction {
 	Type: *string,
@@ -9948,7 +9955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsScheduledTask {
 	TaskType: *string,
@@ -10176,7 +10183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsSignal {
 	Name: *string,
@@ -10222,7 +10229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsStatefulDeallocation {
 	ShouldDeleteImages: interface{},
@@ -10296,7 +10303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsStatefulInstanceAction {
 	StatefulInstanceId: *string,
@@ -10342,7 +10349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsTags {
 	Key: *string,
@@ -10388,13 +10395,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsUpdatePolicy {
 	ShouldResumeStateful: interface{},
 	ShouldRoll: interface{},
 	AutoApplyTags: interface{},
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig,
 }
 ```
 
@@ -10464,13 +10471,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsUpdatePolicyRollConfig {
 	BatchSizePercentage: *f64,
 	GracePeriod: *f64,
 	HealthCheckType: *string,
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy,
+	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy,
 	WaitForRollPercentage: *f64,
 	WaitForRollTimeout: *f64,
 }
@@ -10568,12 +10575,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsUpdatePolicyRollConfigStrategy {
 	Action: *string,
 	BatchMinHealthyPercentage: *f64,
-	OnFailure: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure,
+	OnFailure: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure,
 	ShouldDrainInstances: interface{},
 }
 ```
@@ -10644,7 +10651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 &elastigroupaws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure {
 	ActionType: *string,
@@ -10734,7 +10741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsCpuOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsCpuOptionsOutputReference
 ```
@@ -11005,7 +11012,7 @@ func InternalValue() ElastigroupAwsCpuOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsEbsBlockDeviceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsEbsBlockDeviceList
 ```
@@ -11046,10 +11053,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -11148,7 +11172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsEbsBlockDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsEbsBlockDeviceOutputReference
 ```
@@ -11669,7 +11693,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsEphemeralBlockDeviceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsEphemeralBlockDeviceList
 ```
@@ -11710,10 +11734,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -11812,7 +11853,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsEphemeralBlockDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsEphemeralBlockDeviceOutputReference
 ```
@@ -12123,7 +12164,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsImagesImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsImagesImageList
 ```
@@ -12164,10 +12205,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -12266,7 +12324,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsImagesImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsImagesImageOutputReference
 ```
@@ -12555,7 +12613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsImagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsImagesList
 ```
@@ -12596,10 +12654,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -12698,7 +12773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsImagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsImagesOutputReference
 ```
@@ -13000,7 +13075,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsInstanceTypesWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsInstanceTypesWeightsList
 ```
@@ -13041,10 +13116,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -13143,7 +13235,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsInstanceTypesWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsInstanceTypesWeightsOutputReference
 ```
@@ -13454,7 +13546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationBeanstalkDeploymentPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesOutputReference
 ```
@@ -13832,7 +13924,7 @@ func InternalValue() ElastigroupAwsIntegrationBeanstalkDeploymentPreferences
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategyOutputReference
 ```
@@ -14139,7 +14231,7 @@ func InternalValue() ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStra
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationBeanstalkManagedActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationBeanstalkManagedActionsOutputReference
 ```
@@ -14430,7 +14522,7 @@ func InternalValue() ElastigroupAwsIntegrationBeanstalkManagedActions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdateOutputReference
 ```
@@ -14766,7 +14858,7 @@ func InternalValue() ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpd
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationBeanstalkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationBeanstalkOutputReference
 ```
@@ -15128,7 +15220,7 @@ func InternalValue() ElastigroupAwsIntegrationBeanstalk
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationCodedeployDeploymentGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationCodedeployDeploymentGroupsList
 ```
@@ -15169,10 +15261,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -15271,7 +15380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationCodedeployDeploymentGroupsOutputReference
 ```
@@ -15582,7 +15691,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationCodedeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationCodedeployOutputReference
 ```
@@ -15910,7 +16019,7 @@ func InternalValue() ElastigroupAwsIntegrationCodedeploy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationDockerSwarmAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationDockerSwarmAutoscaleDownOutputReference
 ```
@@ -16217,7 +16326,7 @@ func InternalValue() ElastigroupAwsIntegrationDockerSwarmAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroomOutputReference
 ```
@@ -16553,7 +16662,7 @@ func InternalValue() ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationDockerSwarmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationDockerSwarmOutputReference
 ```
@@ -16988,7 +17097,7 @@ func InternalValue() ElastigroupAwsIntegrationDockerSwarm
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsAutoscaleAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationEcsAutoscaleAttributesList
 ```
@@ -17029,10 +17138,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -17131,7 +17257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationEcsAutoscaleAttributesOutputReference
 ```
@@ -17442,7 +17568,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationEcsAutoscaleDownOutputReference
 ```
@@ -17749,7 +17875,7 @@ func InternalValue() ElastigroupAwsIntegrationEcsAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationEcsAutoscaleHeadroomOutputReference
 ```
@@ -18085,7 +18211,7 @@ func InternalValue() ElastigroupAwsIntegrationEcsAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsBatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationEcsBatchOutputReference
 ```
@@ -18356,7 +18482,7 @@ func InternalValue() ElastigroupAwsIntegrationEcsBatch
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationEcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationEcsOutputReference
 ```
@@ -18911,7 +19037,7 @@ func InternalValue() ElastigroupAwsIntegrationEcs
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationGitlabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationGitlabOutputReference
 ```
@@ -19202,7 +19328,7 @@ func InternalValue() ElastigroupAwsIntegrationGitlab
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunnerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationGitlabRunnerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationGitlabRunnerOutputReference
 ```
@@ -19480,7 +19606,7 @@ func InternalValue() ElastigroupAwsIntegrationGitlabRunner
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationKubernetesAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationKubernetesAutoscaleDownOutputReference
 ```
@@ -19787,7 +19913,7 @@ func InternalValue() ElastigroupAwsIntegrationKubernetesAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationKubernetesAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationKubernetesAutoscaleHeadroomOutputReference
 ```
@@ -20123,7 +20249,7 @@ func InternalValue() ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationKubernetesAutoscaleLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList
 ```
@@ -20164,10 +20290,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -20266,7 +20409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationKubernetesAutoscaleLabelsOutputReference
 ```
@@ -20577,7 +20720,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationKubernetesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationKubernetesOutputReference
 ```
@@ -21155,7 +21298,7 @@ func InternalValue() ElastigroupAwsIntegrationKubernetes
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphereOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationMesosphereOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationMesosphereOutputReference
 ```
@@ -21426,7 +21569,7 @@ func InternalValue() ElastigroupAwsIntegrationMesosphere
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationMultaiRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationMultaiRuntimeOutputReference
 ```
@@ -21697,7 +21840,7 @@ func InternalValue() ElastigroupAwsIntegrationMultaiRuntime
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationNomadAutoscaleConstraintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationNomadAutoscaleConstraintsList
 ```
@@ -21738,10 +21881,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -21840,7 +22000,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationNomadAutoscaleConstraintsOutputReference
 ```
@@ -22151,7 +22311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationNomadAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationNomadAutoscaleDownOutputReference
 ```
@@ -22429,7 +22589,7 @@ func InternalValue() ElastigroupAwsIntegrationNomadAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationNomadAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationNomadAutoscaleHeadroomOutputReference
 ```
@@ -22765,7 +22925,7 @@ func InternalValue() ElastigroupAwsIntegrationNomadAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationNomadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationNomadOutputReference
 ```
@@ -23271,7 +23431,7 @@ func InternalValue() ElastigroupAwsIntegrationNomad
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRancherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationRancherOutputReference
 ```
@@ -23615,7 +23775,7 @@ func InternalValue() ElastigroupAwsIntegrationRancher
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRoute53DomainsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationRoute53DomainsList
 ```
@@ -23656,10 +23816,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -23758,7 +23935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRoute53DomainsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationRoute53DomainsOutputReference
 ```
@@ -24140,7 +24317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRoute53DomainsRecordSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsIntegrationRoute53DomainsRecordSetsList
 ```
@@ -24181,10 +24358,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -24283,7 +24477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsIntegrationRoute53DomainsRecordSetsOutputReference
 ```
@@ -24630,7 +24824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsIntegrationRoute53OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsIntegrationRoute53OutputReference
 ```
@@ -24914,7 +25108,7 @@ func InternalValue() ElastigroupAwsIntegrationRoute53
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfDefaultStaticTargetGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsItfDefaultStaticTargetGroupOutputReference
 ```
@@ -25207,7 +25401,7 @@ func InternalValue() ElastigroupAwsItfDefaultStaticTargetGroup
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfList
 ```
@@ -25248,10 +25442,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -25350,7 +25561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfLoadBalancerList
 ```
@@ -25391,10 +25602,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -25493,7 +25721,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfLoadBalancerListenerRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfLoadBalancerListenerRuleList
 ```
@@ -25534,10 +25762,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -25636,7 +25881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfLoadBalancerListenerRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfLoadBalancerListenerRuleOutputReference
 ```
@@ -25967,7 +26212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroupOutputReference
 ```
@@ -26260,7 +26505,7 @@ func InternalValue() ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfLoadBalancerOutputReference
 ```
@@ -26584,7 +26829,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfOutputReference
 ```
@@ -27036,7 +27281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfTargetGroupConfigList
 ```
@@ -27077,10 +27322,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -27179,7 +27441,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigMatcherList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfTargetGroupConfigMatcherList
 ```
@@ -27220,10 +27482,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -27322,7 +27601,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigMatcherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfTargetGroupConfigMatcherOutputReference
 ```
@@ -27647,7 +27926,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfTargetGroupConfigOutputReference
 ```
@@ -28289,7 +28568,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsItfTargetGroupConfigTagsList
 ```
@@ -28330,10 +28609,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -28432,7 +28728,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsItfTargetGroupConfigTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsItfTargetGroupConfigTagsOutputReference
 ```
@@ -28750,7 +29046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsLoggingExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsLoggingExportOutputReference
 ```
@@ -29041,7 +29337,7 @@ func InternalValue() ElastigroupAwsLoggingExport
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsLoggingExportS3List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsLoggingExportS3List
 ```
@@ -29082,10 +29378,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3List.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -29184,7 +29497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsLoggingExportS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsLoggingExportS3OutputReference
 ```
@@ -29473,7 +29786,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsLoggingOutputReference
 ```
@@ -29764,7 +30077,7 @@ func InternalValue() ElastigroupAwsLogging
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsMetadataOptionsOutputReference
 ```
@@ -30093,7 +30406,7 @@ func InternalValue() ElastigroupAwsMetadataOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultaiTargetSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsMultaiTargetSetsList
 ```
@@ -30134,10 +30447,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -30236,7 +30566,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultaiTargetSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsMultaiTargetSetsOutputReference
 ```
@@ -30547,7 +30877,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsExpressionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsMultipleMetricsExpressionsList
 ```
@@ -30588,10 +30918,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -30690,7 +31037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsExpressionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsMultipleMetricsExpressionsOutputReference
 ```
@@ -31001,7 +31348,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsMetricsDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsMultipleMetricsMetricsDimensionsList
 ```
@@ -31042,10 +31389,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -31144,7 +31508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsMultipleMetricsMetricsDimensionsOutputReference
 ```
@@ -31462,7 +31826,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsMultipleMetricsMetricsList
 ```
@@ -31503,10 +31867,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -31605,7 +31986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsMultipleMetricsMetricsOutputReference
 ```
@@ -32067,7 +32448,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsMultipleMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsMultipleMetricsOutputReference
 ```
@@ -32400,7 +32781,7 @@ func InternalValue() ElastigroupAwsMultipleMetrics
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsNetworkInterfaceList
 ```
@@ -32441,10 +32822,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -32543,7 +32941,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsNetworkInterfaceOutputReference
 ```
@@ -33035,7 +33433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsResourceRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsResourceRequirementsList
 ```
@@ -33076,10 +33474,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -33178,7 +33593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsResourceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsResourceRequirementsOutputReference
 ```
@@ -33678,7 +34093,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsResourceTagSpecificationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsResourceTagSpecificationList
 ```
@@ -33719,10 +34134,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -33821,7 +34253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsResourceTagSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsResourceTagSpecificationOutputReference
 ```
@@ -34204,7 +34636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsRevertToSpotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsRevertToSpotOutputReference
 ```
@@ -34504,7 +34936,7 @@ func InternalValue() ElastigroupAwsRevertToSpot
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingDownPolicyDimensionsList
 ```
@@ -34545,10 +34977,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -34647,7 +35096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingDownPolicyDimensionsOutputReference
 ```
@@ -34965,7 +35414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingDownPolicyList
 ```
@@ -35006,10 +35455,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -35108,7 +35574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingDownPolicyOutputReference
 ```
@@ -35989,7 +36455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyStepAdjustmentsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsScalingDownPolicyStepAdjustmentsActionOutputReference
 ```
@@ -36434,7 +36900,7 @@ func InternalValue() ElastigroupAwsScalingDownPolicyStepAdjustmentsAction
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyStepAdjustmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingDownPolicyStepAdjustmentsList
 ```
@@ -36475,10 +36941,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -36577,7 +37060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingDownPolicyStepAdjustmentsOutputReference
 ```
@@ -36901,7 +37384,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingStrategyList
 ```
@@ -36942,10 +37425,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -37044,7 +37544,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingStrategyOutputReference
 ```
@@ -37369,7 +37869,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingTargetPolicyDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingTargetPolicyDimensionsList
 ```
@@ -37410,10 +37910,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -37512,7 +38029,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingTargetPolicyDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingTargetPolicyDimensionsOutputReference
 ```
@@ -37830,7 +38347,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingTargetPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingTargetPolicyList
 ```
@@ -37871,10 +38388,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -37973,7 +38507,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingTargetPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingTargetPolicyOutputReference
 ```
@@ -38602,7 +39136,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingUpPolicyDimensionsList
 ```
@@ -38643,10 +39177,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -38745,7 +39296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingUpPolicyDimensionsOutputReference
 ```
@@ -39063,7 +39614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingUpPolicyList
 ```
@@ -39104,10 +39655,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -39206,7 +39774,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingUpPolicyOutputReference
 ```
@@ -40087,7 +40655,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyStepAdjustmentsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsScalingUpPolicyStepAdjustmentsActionOutputReference
 ```
@@ -40532,7 +41100,7 @@ func InternalValue() ElastigroupAwsScalingUpPolicyStepAdjustmentsAction
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyStepAdjustmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScalingUpPolicyStepAdjustmentsList
 ```
@@ -40573,10 +41141,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -40675,7 +41260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScalingUpPolicyStepAdjustmentsOutputReference
 ```
@@ -40999,7 +41584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsScheduledTaskList
 ```
@@ -41040,10 +41625,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -41142,7 +41744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsScheduledTaskOutputReference
 ```
@@ -41837,7 +42439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsSignalList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsSignalList
 ```
@@ -41878,10 +42480,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -41980,7 +42599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsSignalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsSignalOutputReference
 ```
@@ -42298,7 +42917,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsStatefulDeallocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsStatefulDeallocationOutputReference
 ```
@@ -42663,7 +43282,7 @@ func InternalValue() ElastigroupAwsStatefulDeallocation
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsStatefulInstanceActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsStatefulInstanceActionList
 ```
@@ -42704,10 +43323,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -42806,7 +43442,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsStatefulInstanceActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsStatefulInstanceActionOutputReference
 ```
@@ -43117,7 +43753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsTagsList
 ```
@@ -43158,10 +43794,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -43260,7 +43913,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsTagsOutputReference
 ```
@@ -43585,7 +44238,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsUpdatePolicyOutputReference
 ```
@@ -43949,7 +44602,7 @@ func InternalValue() ElastigroupAwsUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsUpdatePolicyRollConfigOutputReference
 ```
@@ -44378,7 +45031,7 @@ func InternalValue() ElastigroupAwsUpdatePolicyRollConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsUpdatePolicyRollConfigStrategyOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailureOutputReference
 ```
@@ -44765,7 +45418,7 @@ func InternalValue() ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/elastigroupaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupaws"
 
 elastigroupaws.NewElastigroupAwsUpdatePolicyRollConfigStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElastigroupAwsUpdatePolicyRollConfigStrategyOutputReference
 ```

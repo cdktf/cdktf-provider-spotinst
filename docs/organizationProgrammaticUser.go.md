@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUser(scope Construct, id *string, config OrganizationProgrammaticUserConfig) OrganizationProgrammaticUser
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -131,6 +132,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.toMetadata"></a>
 
@@ -432,7 +439,7 @@ func ResetUserGroupIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsConstruct(x interface{}) *bool
 ```
@@ -464,7 +471,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -478,7 +485,7 @@ organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -492,7 +499,7 @@ organizationprogrammaticuser.OrganizationProgrammaticUser_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.OrganizationProgrammaticUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -853,7 +860,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserAccounts {
 	AccountId: *string,
@@ -899,7 +906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserConfig {
 	Connection: interface{},
@@ -1092,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 &organizationprogrammaticuser.OrganizationProgrammaticUserPolicies {
 	PolicyAccountIds: *[]*string,
@@ -1140,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserAccountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationProgrammaticUserAccountsList
 ```
@@ -1181,10 +1188,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -1283,7 +1307,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserAccountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserAccountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationProgrammaticUserAccountsOutputReference
 ```
@@ -1594,7 +1618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationProgrammaticUserPoliciesList
 ```
@@ -1635,10 +1659,27 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.computeFqn">ComputeFqn</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
 
 ---
 
@@ -1737,7 +1778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationProgrammaticUser.OrganizationProgrammaticUserPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v12/organizationprogrammaticuser"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationprogrammaticuser"
 
 organizationprogrammaticuser.NewOrganizationProgrammaticUserPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationProgrammaticUserPoliciesOutputReference
 ```

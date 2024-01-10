@@ -142,4 +142,30 @@ export class OceanSparkVirtualNodeGroup extends cdktf.TerraformResource {
       virtual_node_group_id: cdktf.stringToTerraform(this._virtualNodeGroupId),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ocean_spark_cluster_id: {
+        value: cdktf.stringToHclTerraform(this._oceanSparkClusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      virtual_node_group_id: {
+        value: cdktf.stringToHclTerraform(this._virtualNodeGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }

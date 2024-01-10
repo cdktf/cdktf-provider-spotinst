@@ -72,6 +72,31 @@ export function organizationUserPoliciesToTerraform(struct?: OrganizationUserPol
   }
 }
 
+
+export function organizationUserPoliciesToHclTerraform(struct?: OrganizationUserPolicies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    policy_account_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.policyAccountIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    policy_id: {
+      value: cdktf.stringToHclTerraform(struct!.policyId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OrganizationUserPoliciesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -368,5 +393,61 @@ export class OrganizationUser extends cdktf.TerraformResource {
       user_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userGroupIds),
       policies: cdktf.listMapper(organizationUserPoliciesToTerraform, true)(this._policies.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      email: {
+        value: cdktf.stringToHclTerraform(this._email),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      first_name: {
+        value: cdktf.stringToHclTerraform(this._firstName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      last_name: {
+        value: cdktf.stringToHclTerraform(this._lastName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      password: {
+        value: cdktf.stringToHclTerraform(this._password),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      role: {
+        value: cdktf.stringToHclTerraform(this._role),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_group_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._userGroupIds),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      policies: {
+        value: cdktf.listMapperHcl(organizationUserPoliciesToHclTerraform, true)(this._policies.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "OrganizationUserPoliciesList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

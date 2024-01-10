@@ -142,4 +142,30 @@ export class OceanAwsExtendedResourceDefinition extends cdktf.TerraformResource 
       resource_mapping: cdktf.hashMapper(cdktf.stringToTerraform)(this._resourceMapping),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      resource_mapping: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._resourceMapping),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }
