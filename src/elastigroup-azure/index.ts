@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/elastigroup_azure
 // generated from terraform resource schema
 
@@ -173,6 +168,37 @@ export function elastigroupAzureHealthCheckToTerraform(struct?: ElastigroupAzure
   }
 }
 
+
+export function elastigroupAzureHealthCheckToHclTerraform(struct?: ElastigroupAzureHealthCheckOutputReference | ElastigroupAzureHealthCheck): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auto_healing: {
+      value: cdktf.booleanToHclTerraform(struct!.autoHealing),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    grace_period: {
+      value: cdktf.numberToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    health_check_type: {
+      value: cdktf.stringToHclTerraform(struct!.healthCheckType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureHealthCheckOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -282,6 +308,31 @@ export function elastigroupAzureImageCustomToTerraform(struct?: ElastigroupAzure
     image_name: cdktf.stringToTerraform(struct!.imageName),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
   }
+}
+
+
+export function elastigroupAzureImageCustomToHclTerraform(struct?: ElastigroupAzureImageCustom | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    image_name: {
+      value: cdktf.stringToHclTerraform(struct!.imageName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureImageCustomOutputReference extends cdktf.ComplexObject {
@@ -405,6 +456,37 @@ export function elastigroupAzureImageMarketplaceToTerraform(struct?: Elastigroup
     publisher: cdktf.stringToTerraform(struct!.publisher),
     sku: cdktf.stringToTerraform(struct!.sku),
   }
+}
+
+
+export function elastigroupAzureImageMarketplaceToHclTerraform(struct?: ElastigroupAzureImageMarketplace | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    offer: {
+      value: cdktf.stringToHclTerraform(struct!.offer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    publisher: {
+      value: cdktf.stringToHclTerraform(struct!.publisher),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sku: {
+      value: cdktf.stringToHclTerraform(struct!.sku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureImageMarketplaceOutputReference extends cdktf.ComplexObject {
@@ -548,6 +630,31 @@ export function elastigroupAzureImageToTerraform(struct?: ElastigroupAzureImage 
   }
 }
 
+
+export function elastigroupAzureImageToHclTerraform(struct?: ElastigroupAzureImage | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    custom: {
+      value: cdktf.listMapperHcl(elastigroupAzureImageCustomToHclTerraform, true)(struct!.custom),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureImageCustomList",
+    },
+    marketplace: {
+      value: cdktf.listMapperHcl(elastigroupAzureImageMarketplaceToHclTerraform, true)(struct!.marketplace),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureImageMarketplaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureImageOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -667,6 +774,25 @@ export function elastigroupAzureIntegrationKubernetesToTerraform(struct?: Elasti
   }
 }
 
+
+export function elastigroupAzureIntegrationKubernetesToHclTerraform(struct?: ElastigroupAzureIntegrationKubernetesOutputReference | ElastigroupAzureIntegrationKubernetes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cluster_identifier: {
+      value: cdktf.stringToHclTerraform(struct!.clusterIdentifier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureIntegrationKubernetesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -727,6 +853,25 @@ export function elastigroupAzureIntegrationMultaiRuntimeToTerraform(struct?: Ela
   return {
     deployment_id: cdktf.stringToTerraform(struct!.deploymentId),
   }
+}
+
+
+export function elastigroupAzureIntegrationMultaiRuntimeToHclTerraform(struct?: ElastigroupAzureIntegrationMultaiRuntimeOutputReference | ElastigroupAzureIntegrationMultaiRuntime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    deployment_id: {
+      value: cdktf.stringToHclTerraform(struct!.deploymentId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureIntegrationMultaiRuntimeOutputReference extends cdktf.ComplexObject {
@@ -804,6 +949,43 @@ export function elastigroupAzureLoadBalancersToTerraform(struct?: ElastigroupAzu
     target_set_id: cdktf.stringToTerraform(struct!.targetSetId),
     type: cdktf.stringToTerraform(struct!.type),
   }
+}
+
+
+export function elastigroupAzureLoadBalancersToHclTerraform(struct?: ElastigroupAzureLoadBalancers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auto_weight: {
+      value: cdktf.booleanToHclTerraform(struct!.autoWeight),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    balancer_id: {
+      value: cdktf.stringToHclTerraform(struct!.balancerId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_set_id: {
+      value: cdktf.stringToHclTerraform(struct!.targetSetId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureLoadBalancersOutputReference extends cdktf.ComplexObject {
@@ -976,6 +1158,37 @@ export function elastigroupAzureLoginToTerraform(struct?: ElastigroupAzureLoginO
   }
 }
 
+
+export function elastigroupAzureLoginToHclTerraform(struct?: ElastigroupAzureLoginOutputReference | ElastigroupAzureLogin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_public_key: {
+      value: cdktf.stringToHclTerraform(struct!.sshPublicKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_name: {
+      value: cdktf.stringToHclTerraform(struct!.userName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureLoginOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -1085,6 +1298,31 @@ export function elastigroupAzureManagedServiceIdentitiesToTerraform(struct?: Ela
     name: cdktf.stringToTerraform(struct!.name),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
   }
+}
+
+
+export function elastigroupAzureManagedServiceIdentitiesToHclTerraform(struct?: ElastigroupAzureManagedServiceIdentities | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureManagedServiceIdentitiesOutputReference extends cdktf.ComplexObject {
@@ -1203,6 +1441,31 @@ export function elastigroupAzureNetworkAdditionalIpConfigsToTerraform(struct?: E
     name: cdktf.stringToTerraform(struct!.name),
     private_ip_version: cdktf.stringToTerraform(struct!.privateIpVersion),
   }
+}
+
+
+export function elastigroupAzureNetworkAdditionalIpConfigsToHclTerraform(struct?: ElastigroupAzureNetworkAdditionalIpConfigs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    private_ip_version: {
+      value: cdktf.stringToHclTerraform(struct!.privateIpVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureNetworkAdditionalIpConfigsOutputReference extends cdktf.ComplexObject {
@@ -1341,6 +1604,49 @@ export function elastigroupAzureNetworkToTerraform(struct?: ElastigroupAzureNetw
     virtual_network_name: cdktf.stringToTerraform(struct!.virtualNetworkName),
     additional_ip_configs: cdktf.listMapper(elastigroupAzureNetworkAdditionalIpConfigsToTerraform, true)(struct!.additionalIpConfigs),
   }
+}
+
+
+export function elastigroupAzureNetworkToHclTerraform(struct?: ElastigroupAzureNetworkOutputReference | ElastigroupAzureNetwork): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    assign_public_ip: {
+      value: cdktf.booleanToHclTerraform(struct!.assignPublicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_name: {
+      value: cdktf.stringToHclTerraform(struct!.subnetName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    virtual_network_name: {
+      value: cdktf.stringToHclTerraform(struct!.virtualNetworkName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    additional_ip_configs: {
+      value: cdktf.listMapperHcl(elastigroupAzureNetworkAdditionalIpConfigsToHclTerraform, true)(struct!.additionalIpConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureNetworkAdditionalIpConfigsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureNetworkOutputReference extends cdktf.ComplexObject {
@@ -1490,6 +1796,31 @@ export function elastigroupAzureScalingDownPolicyDimensionsToTerraform(struct?: 
     name: cdktf.stringToTerraform(struct!.name),
     value: cdktf.stringToTerraform(struct!.value),
   }
+}
+
+
+export function elastigroupAzureScalingDownPolicyDimensionsToHclTerraform(struct?: ElastigroupAzureScalingDownPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureScalingDownPolicyDimensionsOutputReference extends cdktf.ComplexObject {
@@ -1693,6 +2024,127 @@ export function elastigroupAzureScalingDownPolicyToTerraform(struct?: Elastigrou
     unit: cdktf.stringToTerraform(struct!.unit),
     dimensions: cdktf.listMapper(elastigroupAzureScalingDownPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
+}
+
+
+export function elastigroupAzureScalingDownPolicyToHclTerraform(struct?: ElastigroupAzureScalingDownPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action_type: {
+      value: cdktf.stringToHclTerraform(struct!.actionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cooldown: {
+      value: cdktf.numberToHclTerraform(struct!.cooldown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    evaluation_periods: {
+      value: cdktf.numberToHclTerraform(struct!.evaluationPeriods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.maxTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    maximum: {
+      value: cdktf.stringToHclTerraform(struct!.maximum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    metric_name: {
+      value: cdktf.stringToHclTerraform(struct!.metricName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.minTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum: {
+      value: cdktf.stringToHclTerraform(struct!.minimum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    period: {
+      value: cdktf.numberToHclTerraform(struct!.period),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.policyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    statistic: {
+      value: cdktf.stringToHclTerraform(struct!.statistic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target: {
+      value: cdktf.stringToHclTerraform(struct!.target),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    threshold: {
+      value: cdktf.numberToHclTerraform(struct!.threshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    unit: {
+      value: cdktf.stringToHclTerraform(struct!.unit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dimensions: {
+      value: cdktf.listMapperHcl(elastigroupAzureScalingDownPolicyDimensionsToHclTerraform, true)(struct!.dimensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureScalingDownPolicyDimensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureScalingDownPolicyOutputReference extends cdktf.ComplexObject {
@@ -2159,6 +2611,31 @@ export function elastigroupAzureScalingUpPolicyDimensionsToTerraform(struct?: El
   }
 }
 
+
+export function elastigroupAzureScalingUpPolicyDimensionsToHclTerraform(struct?: ElastigroupAzureScalingUpPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureScalingUpPolicyDimensionsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -2360,6 +2837,127 @@ export function elastigroupAzureScalingUpPolicyToTerraform(struct?: ElastigroupA
     unit: cdktf.stringToTerraform(struct!.unit),
     dimensions: cdktf.listMapper(elastigroupAzureScalingUpPolicyDimensionsToTerraform, true)(struct!.dimensions),
   }
+}
+
+
+export function elastigroupAzureScalingUpPolicyToHclTerraform(struct?: ElastigroupAzureScalingUpPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action_type: {
+      value: cdktf.stringToHclTerraform(struct!.actionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cooldown: {
+      value: cdktf.numberToHclTerraform(struct!.cooldown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    evaluation_periods: {
+      value: cdktf.numberToHclTerraform(struct!.evaluationPeriods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.maxTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    maximum: {
+      value: cdktf.stringToHclTerraform(struct!.maximum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    metric_name: {
+      value: cdktf.stringToHclTerraform(struct!.metricName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.minTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum: {
+      value: cdktf.stringToHclTerraform(struct!.minimum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    period: {
+      value: cdktf.numberToHclTerraform(struct!.period),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.policyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    statistic: {
+      value: cdktf.stringToHclTerraform(struct!.statistic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target: {
+      value: cdktf.stringToHclTerraform(struct!.target),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    threshold: {
+      value: cdktf.numberToHclTerraform(struct!.threshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    unit: {
+      value: cdktf.stringToHclTerraform(struct!.unit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dimensions: {
+      value: cdktf.listMapperHcl(elastigroupAzureScalingUpPolicyDimensionsToHclTerraform, true)(struct!.dimensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureScalingUpPolicyDimensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureScalingUpPolicyOutputReference extends cdktf.ComplexObject {
@@ -2866,6 +3464,79 @@ export function elastigroupAzureScheduledTaskToTerraform(struct?: ElastigroupAzu
   }
 }
 
+
+export function elastigroupAzureScheduledTaskToHclTerraform(struct?: ElastigroupAzureScheduledTask | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    adjustment_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.adjustmentPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    batch_size_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cron_expression: {
+      value: cdktf.stringToHclTerraform(struct!.cronExpression),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    grace_period: {
+      value: cdktf.stringToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    scale_max_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleMaxCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_min_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleMinCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    task_type: {
+      value: cdktf.stringToHclTerraform(struct!.taskType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureScheduledTaskOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -3165,6 +3836,37 @@ export function elastigroupAzureStrategyToTerraform(struct?: ElastigroupAzureStr
   }
 }
 
+
+export function elastigroupAzureStrategyToHclTerraform(struct?: ElastigroupAzureStrategyOutputReference | ElastigroupAzureStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    draining_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.drainingTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    low_priority_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.lowPriorityPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    od_count: {
+      value: cdktf.numberToHclTerraform(struct!.odCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureStrategyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -3284,6 +3986,37 @@ export function elastigroupAzureUpdatePolicyRollConfigToTerraform(struct?: Elast
   }
 }
 
+
+export function elastigroupAzureUpdatePolicyRollConfigToHclTerraform(struct?: ElastigroupAzureUpdatePolicyRollConfigOutputReference | ElastigroupAzureUpdatePolicyRollConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    batch_size_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    grace_period: {
+      value: cdktf.numberToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    health_check_type: {
+      value: cdktf.stringToHclTerraform(struct!.healthCheckType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureUpdatePolicyRollConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -3395,6 +4128,31 @@ export function elastigroupAzureUpdatePolicyToTerraform(struct?: ElastigroupAzur
     should_roll: cdktf.booleanToTerraform(struct!.shouldRoll),
     roll_config: elastigroupAzureUpdatePolicyRollConfigToTerraform(struct!.rollConfig),
   }
+}
+
+
+export function elastigroupAzureUpdatePolicyToHclTerraform(struct?: ElastigroupAzureUpdatePolicyOutputReference | ElastigroupAzureUpdatePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    should_roll: {
+      value: cdktf.booleanToHclTerraform(struct!.shouldRoll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    roll_config: {
+      value: elastigroupAzureUpdatePolicyRollConfigToHclTerraform(struct!.rollConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureUpdatePolicyRollConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureUpdatePolicyOutputReference extends cdktf.ComplexObject {
@@ -3973,5 +4731,169 @@ export class ElastigroupAzure extends cdktf.TerraformResource {
       strategy: elastigroupAzureStrategyToTerraform(this._strategy.internalValue),
       update_policy: elastigroupAzureUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      custom_data: {
+        value: cdktf.stringToHclTerraform(this._customData),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      desired_capacity: {
+        value: cdktf.numberToHclTerraform(this._desiredCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      low_priority_sizes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._lowPrioritySizes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      max_size: {
+        value: cdktf.numberToHclTerraform(this._maxSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      min_size: {
+        value: cdktf.numberToHclTerraform(this._minSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      od_sizes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._odSizes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      product: {
+        value: cdktf.stringToHclTerraform(this._product),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      resource_group_name: {
+        value: cdktf.stringToHclTerraform(this._resourceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      shutdown_script: {
+        value: cdktf.stringToHclTerraform(this._shutdownScript),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_data: {
+        value: cdktf.stringToHclTerraform(this._userData),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      health_check: {
+        value: elastigroupAzureHealthCheckToHclTerraform(this._healthCheck.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureHealthCheckList",
+      },
+      image: {
+        value: cdktf.listMapperHcl(elastigroupAzureImageToHclTerraform, true)(this._image.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureImageList",
+      },
+      integration_kubernetes: {
+        value: elastigroupAzureIntegrationKubernetesToHclTerraform(this._integrationKubernetes.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureIntegrationKubernetesList",
+      },
+      integration_multai_runtime: {
+        value: elastigroupAzureIntegrationMultaiRuntimeToHclTerraform(this._integrationMultaiRuntime.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureIntegrationMultaiRuntimeList",
+      },
+      load_balancers: {
+        value: cdktf.listMapperHcl(elastigroupAzureLoadBalancersToHclTerraform, true)(this._loadBalancers.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureLoadBalancersList",
+      },
+      login: {
+        value: elastigroupAzureLoginToHclTerraform(this._login.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureLoginList",
+      },
+      managed_service_identities: {
+        value: cdktf.listMapperHcl(elastigroupAzureManagedServiceIdentitiesToHclTerraform, true)(this._managedServiceIdentities.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureManagedServiceIdentitiesList",
+      },
+      network: {
+        value: elastigroupAzureNetworkToHclTerraform(this._network.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureNetworkList",
+      },
+      scaling_down_policy: {
+        value: cdktf.listMapperHcl(elastigroupAzureScalingDownPolicyToHclTerraform, true)(this._scalingDownPolicy.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureScalingDownPolicyList",
+      },
+      scaling_up_policy: {
+        value: cdktf.listMapperHcl(elastigroupAzureScalingUpPolicyToHclTerraform, true)(this._scalingUpPolicy.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureScalingUpPolicyList",
+      },
+      scheduled_task: {
+        value: cdktf.listMapperHcl(elastigroupAzureScheduledTaskToHclTerraform, true)(this._scheduledTask.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureScheduledTaskList",
+      },
+      strategy: {
+        value: elastigroupAzureStrategyToHclTerraform(this._strategy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureStrategyList",
+      },
+      update_policy: {
+        value: elastigroupAzureUpdatePolicyToHclTerraform(this._updatePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureUpdatePolicyList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

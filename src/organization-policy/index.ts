@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/organization_policy
 // generated from terraform resource schema
 
@@ -59,6 +54,37 @@ export function organizationPolicyPolicyContentStatementsToTerraform(struct?: Or
     effect: cdktf.stringToTerraform(struct!.effect),
     resources: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.resources),
   }
+}
+
+
+export function organizationPolicyPolicyContentStatementsToHclTerraform(struct?: OrganizationPolicyPolicyContentStatements | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    actions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.actions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    effect: {
+      value: cdktf.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resources: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.resources),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OrganizationPolicyPolicyContentStatementsOutputReference extends cdktf.ComplexObject {
@@ -193,6 +219,25 @@ export function organizationPolicyPolicyContentToTerraform(struct?: Organization
   return {
     statements: cdktf.listMapper(organizationPolicyPolicyContentStatementsToTerraform, true)(struct!.statements),
   }
+}
+
+
+export function organizationPolicyPolicyContentToHclTerraform(struct?: OrganizationPolicyPolicyContent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    statements: {
+      value: cdktf.listMapperHcl(organizationPolicyPolicyContentStatementsToHclTerraform, true)(struct!.statements),
+      isBlock: true,
+      type: "set",
+      storageClassType: "OrganizationPolicyPolicyContentStatementsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OrganizationPolicyPolicyContentOutputReference extends cdktf.ComplexObject {
@@ -403,5 +448,37 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       policy_content: cdktf.listMapper(organizationPolicyPolicyContentToTerraform, true)(this._policyContent.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      policy_content: {
+        value: cdktf.listMapperHcl(organizationPolicyPolicyContentToHclTerraform, true)(this._policyContent.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "OrganizationPolicyPolicyContentList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

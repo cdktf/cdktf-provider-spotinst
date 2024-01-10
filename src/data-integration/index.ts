@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/data_integration
 // generated from terraform resource schema
 
@@ -54,6 +49,31 @@ export function dataIntegrationS3ToTerraform(struct?: DataIntegrationS3OutputRef
     bucket_name: cdktf.stringToTerraform(struct!.bucketName),
     subdir: cdktf.stringToTerraform(struct!.subdir),
   }
+}
+
+
+export function dataIntegrationS3ToHclTerraform(struct?: DataIntegrationS3OutputReference | DataIntegrationS3): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    bucket_name: {
+      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subdir: {
+      value: cdktf.stringToHclTerraform(struct!.subdir),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataIntegrationS3OutputReference extends cdktf.ComplexObject {
@@ -257,5 +277,37 @@ export class DataIntegration extends cdktf.TerraformResource {
       status: cdktf.stringToTerraform(this._status),
       s3: dataIntegrationS3ToTerraform(this._s3.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      status: {
+        value: cdktf.stringToHclTerraform(this._status),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      s3: {
+        value: dataIntegrationS3ToHclTerraform(this._s3.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntegrationS3List",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

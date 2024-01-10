@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/ocean_aks_np
 // generated from terraform resource schema
 
@@ -161,6 +156,25 @@ export function oceanAksNpAutoscalerAutoscaleDownToTerraform(struct?: OceanAksNp
   }
 }
 
+
+export function oceanAksNpAutoscalerAutoscaleDownToHclTerraform(struct?: OceanAksNpAutoscalerAutoscaleDownOutputReference | OceanAksNpAutoscalerAutoscaleDown): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_scale_down_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.maxScaleDownPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OceanAksNpAutoscalerAutoscaleDownOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -229,6 +243,31 @@ export function oceanAksNpAutoscalerAutoscaleHeadroomAutomaticToTerraform(struct
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     percentage: cdktf.numberToTerraform(struct!.percentage),
   }
+}
+
+
+export function oceanAksNpAutoscalerAutoscaleHeadroomAutomaticToHclTerraform(struct?: OceanAksNpAutoscalerAutoscaleHeadroomAutomaticOutputReference | OceanAksNpAutoscalerAutoscaleHeadroomAutomatic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    percentage: {
+      value: cdktf.numberToHclTerraform(struct!.percentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpAutoscalerAutoscaleHeadroomAutomaticOutputReference extends cdktf.ComplexObject {
@@ -320,6 +359,25 @@ export function oceanAksNpAutoscalerAutoscaleHeadroomToTerraform(struct?: OceanA
   }
 }
 
+
+export function oceanAksNpAutoscalerAutoscaleHeadroomToHclTerraform(struct?: OceanAksNpAutoscalerAutoscaleHeadroomOutputReference | OceanAksNpAutoscalerAutoscaleHeadroom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic: {
+      value: oceanAksNpAutoscalerAutoscaleHeadroomAutomaticToHclTerraform(struct!.automatic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpAutoscalerAutoscaleHeadroomAutomaticList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OceanAksNpAutoscalerAutoscaleHeadroomOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -388,6 +446,31 @@ export function oceanAksNpAutoscalerResourceLimitsToTerraform(struct?: OceanAksN
     max_memory_gib: cdktf.numberToTerraform(struct!.maxMemoryGib),
     max_vcpu: cdktf.numberToTerraform(struct!.maxVcpu),
   }
+}
+
+
+export function oceanAksNpAutoscalerResourceLimitsToHclTerraform(struct?: OceanAksNpAutoscalerResourceLimitsOutputReference | OceanAksNpAutoscalerResourceLimits): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_memory_gib: {
+      value: cdktf.numberToHclTerraform(struct!.maxMemoryGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_vcpu: {
+      value: cdktf.numberToHclTerraform(struct!.maxVcpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpAutoscalerResourceLimitsOutputReference extends cdktf.ComplexObject {
@@ -496,6 +579,43 @@ export function oceanAksNpAutoscalerToTerraform(struct?: OceanAksNpAutoscalerOut
     autoscale_headroom: oceanAksNpAutoscalerAutoscaleHeadroomToTerraform(struct!.autoscaleHeadroom),
     resource_limits: oceanAksNpAutoscalerResourceLimitsToTerraform(struct!.resourceLimits),
   }
+}
+
+
+export function oceanAksNpAutoscalerToHclTerraform(struct?: OceanAksNpAutoscalerOutputReference | OceanAksNpAutoscaler): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    autoscale_is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.autoscaleIsEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    autoscale_down: {
+      value: oceanAksNpAutoscalerAutoscaleDownToHclTerraform(struct!.autoscaleDown),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpAutoscalerAutoscaleDownList",
+    },
+    autoscale_headroom: {
+      value: oceanAksNpAutoscalerAutoscaleHeadroomToHclTerraform(struct!.autoscaleHeadroom),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpAutoscalerAutoscaleHeadroomList",
+    },
+    resource_limits: {
+      value: oceanAksNpAutoscalerResourceLimitsToHclTerraform(struct!.resourceLimits),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpAutoscalerResourceLimitsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpAutoscalerOutputReference extends cdktf.ComplexObject {
@@ -692,6 +812,103 @@ export function oceanAksNpFiltersToTerraform(struct?: OceanAksNpFiltersOutputRef
     series: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.series),
     vm_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vmTypes),
   }
+}
+
+
+export function oceanAksNpFiltersToHclTerraform(struct?: OceanAksNpFiltersOutputReference | OceanAksNpFilters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    accelerated_networking: {
+      value: cdktf.stringToHclTerraform(struct!.acceleratedNetworking),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    architectures: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.architectures),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    disk_performance: {
+      value: cdktf.stringToHclTerraform(struct!.diskPerformance),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exclude_series: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludeSeries),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    max_gpu: {
+      value: cdktf.numberToHclTerraform(struct!.maxGpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_memory_gib: {
+      value: cdktf.numberToHclTerraform(struct!.maxMemoryGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_vcpu: {
+      value: cdktf.numberToHclTerraform(struct!.maxVcpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_disk: {
+      value: cdktf.numberToHclTerraform(struct!.minDisk),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_gpu: {
+      value: cdktf.numberToHclTerraform(struct!.minGpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_memory_gib: {
+      value: cdktf.numberToHclTerraform(struct!.minMemoryGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_nics: {
+      value: cdktf.numberToHclTerraform(struct!.minNics),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_vcpu: {
+      value: cdktf.numberToHclTerraform(struct!.minVcpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    series: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.series),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    vm_types: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.vmTypes),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
@@ -1060,6 +1277,43 @@ export function oceanAksNpHeadroomsToTerraform(struct?: OceanAksNpHeadrooms | cd
   }
 }
 
+
+export function oceanAksNpHeadroomsToHclTerraform(struct?: OceanAksNpHeadrooms | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cpu_per_unit: {
+      value: cdktf.numberToHclTerraform(struct!.cpuPerUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gpu_per_unit: {
+      value: cdktf.numberToHclTerraform(struct!.gpuPerUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_per_unit: {
+      value: cdktf.numberToHclTerraform(struct!.memoryPerUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    num_of_units: {
+      value: cdktf.numberToHclTerraform(struct!.numOfUnits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OceanAksNpHeadroomsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -1223,6 +1477,25 @@ export function oceanAksNpHealthToTerraform(struct?: OceanAksNpHealthOutputRefer
   }
 }
 
+
+export function oceanAksNpHealthToHclTerraform(struct?: OceanAksNpHealthOutputReference | OceanAksNpHealth): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    grace_period: {
+      value: cdktf.numberToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OceanAksNpHealthOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -1291,6 +1564,31 @@ export function oceanAksNpSchedulingShutdownHoursToTerraform(struct?: OceanAksNp
     is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
     time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
   }
+}
+
+
+export function oceanAksNpSchedulingShutdownHoursToHclTerraform(struct?: OceanAksNpSchedulingShutdownHoursOutputReference | OceanAksNpSchedulingShutdownHours): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    time_windows: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.timeWindows),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpSchedulingShutdownHoursOutputReference extends cdktf.ComplexObject {
@@ -1379,6 +1677,25 @@ export function oceanAksNpSchedulingToTerraform(struct?: OceanAksNpSchedulingOut
   }
 }
 
+
+export function oceanAksNpSchedulingToHclTerraform(struct?: OceanAksNpSchedulingOutputReference | OceanAksNpScheduling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    shutdown_hours: {
+      value: oceanAksNpSchedulingShutdownHoursToHclTerraform(struct!.shutdownHours),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpSchedulingShutdownHoursList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -1452,6 +1769,37 @@ export function oceanAksNpTaintsToTerraform(struct?: OceanAksNpTaints | cdktf.IR
     key: cdktf.stringToTerraform(struct!.key),
     value: cdktf.stringToTerraform(struct!.value),
   }
+}
+
+
+export function oceanAksNpTaintsToHclTerraform(struct?: OceanAksNpTaints | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    effect: {
+      value: cdktf.stringToHclTerraform(struct!.effect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class OceanAksNpTaintsOutputReference extends cdktf.ComplexObject {
@@ -2135,5 +2483,187 @@ export class OceanAksNp extends cdktf.TerraformResource {
       scheduling: oceanAksNpSchedulingToTerraform(this._scheduling.internalValue),
       taints: cdktf.listMapper(oceanAksNpTaintsToTerraform, true)(this._taints.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      aks_cluster_name: {
+        value: cdktf.stringToHclTerraform(this._aksClusterName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      aks_infrastructure_resource_group_name: {
+        value: cdktf.stringToHclTerraform(this._aksInfrastructureResourceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      aks_region: {
+        value: cdktf.stringToHclTerraform(this._aksRegion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      aks_resource_group_name: {
+        value: cdktf.stringToHclTerraform(this._aksResourceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      availability_zones: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._availabilityZones),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      controller_cluster_id: {
+        value: cdktf.stringToHclTerraform(this._controllerClusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enable_node_public_ip: {
+        value: cdktf.booleanToHclTerraform(this._enableNodePublicIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      fallback_to_ondemand: {
+        value: cdktf.booleanToHclTerraform(this._fallbackToOndemand),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      kubernetes_version: {
+        value: cdktf.stringToHclTerraform(this._kubernetesVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      max_count: {
+        value: cdktf.numberToHclTerraform(this._maxCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      max_pods_per_node: {
+        value: cdktf.numberToHclTerraform(this._maxPodsPerNode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      min_count: {
+        value: cdktf.numberToHclTerraform(this._minCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_disk_size_gb: {
+        value: cdktf.numberToHclTerraform(this._osDiskSizeGb),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      os_disk_type: {
+        value: cdktf.stringToHclTerraform(this._osDiskType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_sku: {
+        value: cdktf.stringToHclTerraform(this._osSku),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_type: {
+        value: cdktf.stringToHclTerraform(this._osType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      pod_subnet_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._podSubnetIds),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      spot_percentage: {
+        value: cdktf.numberToHclTerraform(this._spotPercentage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      vnet_subnet_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._vnetSubnetIds),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      autoscaler: {
+        value: oceanAksNpAutoscalerToHclTerraform(this._autoscaler.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpAutoscalerList",
+      },
+      filters: {
+        value: oceanAksNpFiltersToHclTerraform(this._filters.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpFiltersList",
+      },
+      headrooms: {
+        value: cdktf.listMapperHcl(oceanAksNpHeadroomsToHclTerraform, true)(this._headrooms.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "OceanAksNpHeadroomsList",
+      },
+      health: {
+        value: oceanAksNpHealthToHclTerraform(this._health.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpHealthList",
+      },
+      scheduling: {
+        value: oceanAksNpSchedulingToHclTerraform(this._scheduling.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpSchedulingList",
+      },
+      taints: {
+        value: cdktf.listMapperHcl(oceanAksNpTaintsToHclTerraform, true)(this._taints.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "OceanAksNpTaintsList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

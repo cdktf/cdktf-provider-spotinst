@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/elastigroup_aws_suspension
 // generated from terraform resource schema
 
@@ -45,6 +40,25 @@ export function elastigroupAwsSuspensionSuspensionToTerraform(struct?: Elastigro
   return {
     name: cdktf.stringToTerraform(struct!.name),
   }
+}
+
+
+export function elastigroupAwsSuspensionSuspensionToHclTerraform(struct?: ElastigroupAwsSuspensionSuspension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAwsSuspensionSuspensionOutputReference extends cdktf.ComplexObject {
@@ -237,5 +251,31 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       suspension: cdktf.listMapper(elastigroupAwsSuspensionSuspensionToTerraform, true)(this._suspension.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      group_id: {
+        value: cdktf.stringToHclTerraform(this._groupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      suspension: {
+        value: cdktf.listMapperHcl(elastigroupAwsSuspensionSuspensionToHclTerraform, true)(this._suspension.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAwsSuspensionSuspensionList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

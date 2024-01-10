@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/elastigroup_azure_v3
 // generated from terraform resource schema
 
@@ -126,6 +121,31 @@ export function elastigroupAzureV3ImageCustomToTerraform(struct?: ElastigroupAzu
     image_name: cdktf.stringToTerraform(struct!.imageName),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
   }
+}
+
+
+export function elastigroupAzureV3ImageCustomToHclTerraform(struct?: ElastigroupAzureV3ImageCustom | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    image_name: {
+      value: cdktf.stringToHclTerraform(struct!.imageName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3ImageCustomOutputReference extends cdktf.ComplexObject {
@@ -254,6 +274,43 @@ export function elastigroupAzureV3ImageMarketplaceToTerraform(struct?: Elastigro
     sku: cdktf.stringToTerraform(struct!.sku),
     version: cdktf.stringToTerraform(struct!.version),
   }
+}
+
+
+export function elastigroupAzureV3ImageMarketplaceToHclTerraform(struct?: ElastigroupAzureV3ImageMarketplace | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    offer: {
+      value: cdktf.stringToHclTerraform(struct!.offer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    publisher: {
+      value: cdktf.stringToHclTerraform(struct!.publisher),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sku: {
+      value: cdktf.stringToHclTerraform(struct!.sku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3ImageMarketplaceOutputReference extends cdktf.ComplexObject {
@@ -416,6 +473,31 @@ export function elastigroupAzureV3ImageToTerraform(struct?: ElastigroupAzureV3Im
   }
 }
 
+
+export function elastigroupAzureV3ImageToHclTerraform(struct?: ElastigroupAzureV3Image | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    custom: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3ImageCustomToHclTerraform, true)(struct!.custom),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ImageCustomList",
+    },
+    marketplace: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3ImageMarketplaceToHclTerraform, true)(struct!.marketplace),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ImageMarketplaceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureV3ImageOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -545,6 +627,37 @@ export function elastigroupAzureV3LoginToTerraform(struct?: ElastigroupAzureV3Lo
   }
 }
 
+
+export function elastigroupAzureV3LoginToHclTerraform(struct?: ElastigroupAzureV3LoginOutputReference | ElastigroupAzureV3Login): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_public_key: {
+      value: cdktf.stringToHclTerraform(struct!.sshPublicKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_name: {
+      value: cdktf.stringToHclTerraform(struct!.userName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureV3LoginOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -654,6 +767,31 @@ export function elastigroupAzureV3ManagedServiceIdentityToTerraform(struct?: Ela
     name: cdktf.stringToTerraform(struct!.name),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
   }
+}
+
+
+export function elastigroupAzureV3ManagedServiceIdentityToHclTerraform(struct?: ElastigroupAzureV3ManagedServiceIdentity | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3ManagedServiceIdentityOutputReference extends cdktf.ComplexObject {
@@ -772,6 +910,31 @@ export function elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToT
     name: cdktf.stringToTerraform(struct!.name),
     private_ip_version: cdktf.stringToTerraform(struct!.privateIpVersion),
   }
+}
+
+
+export function elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToHclTerraform(struct?: ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    private_ip_version: {
+      value: cdktf.stringToHclTerraform(struct!.privateIpVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsOutputReference extends cdktf.ComplexObject {
@@ -893,6 +1056,31 @@ export function elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGro
     name: cdktf.stringToTerraform(struct!.name),
     resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
   }
+}
+
+
+export function elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupToHclTerraform(struct?: ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupOutputReference extends cdktf.ComplexObject {
@@ -1030,6 +1218,49 @@ export function elastigroupAzureV3NetworkNetworkInterfacesToTerraform(struct?: E
     additional_ip_configs: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToTerraform, true)(struct!.additionalIpConfigs),
     application_security_group: cdktf.listMapper(elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupToTerraform, true)(struct!.applicationSecurityGroup),
   }
+}
+
+
+export function elastigroupAzureV3NetworkNetworkInterfacesToHclTerraform(struct?: ElastigroupAzureV3NetworkNetworkInterfaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    assign_public_ip: {
+      value: cdktf.booleanToHclTerraform(struct!.assignPublicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    is_primary: {
+      value: cdktf.booleanToHclTerraform(struct!.isPrimary),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    subnet_name: {
+      value: cdktf.stringToHclTerraform(struct!.subnetName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    additional_ip_configs: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsToHclTerraform, true)(struct!.additionalIpConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList",
+    },
+    application_security_group: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupToHclTerraform, true)(struct!.applicationSecurityGroup),
+      isBlock: true,
+      type: "set",
+      storageClassType: "ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3NetworkNetworkInterfacesOutputReference extends cdktf.ComplexObject {
@@ -1220,6 +1451,37 @@ export function elastigroupAzureV3NetworkToTerraform(struct?: ElastigroupAzureV3
   }
 }
 
+
+export function elastigroupAzureV3NetworkToHclTerraform(struct?: ElastigroupAzureV3NetworkOutputReference | ElastigroupAzureV3Network): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    resource_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    virtual_network_name: {
+      value: cdktf.stringToHclTerraform(struct!.virtualNetworkName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_interfaces: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3NetworkNetworkInterfacesToHclTerraform, true)(struct!.networkInterfaces),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3NetworkNetworkInterfacesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -1323,6 +1585,31 @@ export function elastigroupAzureV3TagsToTerraform(struct?: ElastigroupAzureV3Tag
     key: cdktf.stringToTerraform(struct!.key),
     value: cdktf.stringToTerraform(struct!.value),
   }
+}
+
+
+export function elastigroupAzureV3TagsToHclTerraform(struct?: ElastigroupAzureV3Tags | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAzureV3TagsOutputReference extends cdktf.ComplexObject {
@@ -1822,5 +2109,133 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       network: elastigroupAzureV3NetworkToTerraform(this._network.internalValue),
       tags: cdktf.listMapper(elastigroupAzureV3TagsToTerraform, true)(this._tags.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      custom_data: {
+        value: cdktf.stringToHclTerraform(this._customData),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      desired_capacity: {
+        value: cdktf.numberToHclTerraform(this._desiredCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      draining_timeout: {
+        value: cdktf.numberToHclTerraform(this._drainingTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      fallback_to_on_demand: {
+        value: cdktf.booleanToHclTerraform(this._fallbackToOnDemand),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      max_size: {
+        value: cdktf.numberToHclTerraform(this._maxSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      min_size: {
+        value: cdktf.numberToHclTerraform(this._minSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      od_sizes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._odSizes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      on_demand_count: {
+        value: cdktf.numberToHclTerraform(this._onDemandCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      os: {
+        value: cdktf.stringToHclTerraform(this._os),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      resource_group_name: {
+        value: cdktf.stringToHclTerraform(this._resourceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      spot_percentage: {
+        value: cdktf.numberToHclTerraform(this._spotPercentage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      spot_sizes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._spotSizes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      image: {
+        value: cdktf.listMapperHcl(elastigroupAzureV3ImageToHclTerraform, true)(this._image.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureV3ImageList",
+      },
+      login: {
+        value: elastigroupAzureV3LoginToHclTerraform(this._login.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureV3LoginList",
+      },
+      managed_service_identity: {
+        value: cdktf.listMapperHcl(elastigroupAzureV3ManagedServiceIdentityToHclTerraform, true)(this._managedServiceIdentity.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureV3ManagedServiceIdentityList",
+      },
+      network: {
+        value: elastigroupAzureV3NetworkToHclTerraform(this._network.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureV3NetworkList",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(elastigroupAzureV3TagsToHclTerraform, true)(this._tags.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAzureV3TagsList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

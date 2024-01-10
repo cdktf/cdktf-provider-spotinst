@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/elastigroup_aws_beanstalk
 // generated from terraform resource schema
 
@@ -98,6 +93,31 @@ export function elastigroupAwsBeanstalkDeploymentPreferencesStrategyToTerraform(
     action: cdktf.stringToTerraform(struct!.action),
     should_drain_instances: cdktf.booleanToTerraform(struct!.shouldDrainInstances),
   }
+}
+
+
+export function elastigroupAwsBeanstalkDeploymentPreferencesStrategyToHclTerraform(struct?: ElastigroupAwsBeanstalkDeploymentPreferencesStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action: {
+      value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    should_drain_instances: {
+      value: cdktf.booleanToHclTerraform(struct!.shouldDrainInstances),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAwsBeanstalkDeploymentPreferencesStrategyOutputReference extends cdktf.ComplexObject {
@@ -234,6 +254,43 @@ export function elastigroupAwsBeanstalkDeploymentPreferencesToTerraform(struct?:
     grace_period: cdktf.numberToTerraform(struct!.gracePeriod),
     strategy: cdktf.listMapper(elastigroupAwsBeanstalkDeploymentPreferencesStrategyToTerraform, true)(struct!.strategy),
   }
+}
+
+
+export function elastigroupAwsBeanstalkDeploymentPreferencesToHclTerraform(struct?: ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference | ElastigroupAwsBeanstalkDeploymentPreferences): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    automatic_roll: {
+      value: cdktf.booleanToHclTerraform(struct!.automaticRoll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    batch_size_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    grace_period: {
+      value: cdktf.numberToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    strategy: {
+      value: cdktf.listMapperHcl(elastigroupAwsBeanstalkDeploymentPreferencesStrategyToHclTerraform, true)(struct!.strategy),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAwsBeanstalkDeploymentPreferencesStrategyList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAwsBeanstalkDeploymentPreferencesOutputReference extends cdktf.ComplexObject {
@@ -377,6 +434,37 @@ export function elastigroupAwsBeanstalkManagedActionsPlatformUpdateToTerraform(s
   }
 }
 
+
+export function elastigroupAwsBeanstalkManagedActionsPlatformUpdateToHclTerraform(struct?: ElastigroupAwsBeanstalkManagedActionsPlatformUpdateOutputReference | ElastigroupAwsBeanstalkManagedActionsPlatformUpdate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    perform_at: {
+      value: cdktf.stringToHclTerraform(struct!.performAt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    time_window: {
+      value: cdktf.stringToHclTerraform(struct!.timeWindow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update_level: {
+      value: cdktf.stringToHclTerraform(struct!.updateLevel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ElastigroupAwsBeanstalkManagedActionsPlatformUpdateOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -486,6 +574,25 @@ export function elastigroupAwsBeanstalkManagedActionsToTerraform(struct?: Elasti
   return {
     platform_update: elastigroupAwsBeanstalkManagedActionsPlatformUpdateToTerraform(struct!.platformUpdate),
   }
+}
+
+
+export function elastigroupAwsBeanstalkManagedActionsToHclTerraform(struct?: ElastigroupAwsBeanstalkManagedActionsOutputReference | ElastigroupAwsBeanstalkManagedActions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    platform_update: {
+      value: elastigroupAwsBeanstalkManagedActionsPlatformUpdateToHclTerraform(struct!.platformUpdate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAwsBeanstalkManagedActionsPlatformUpdateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAwsBeanstalkManagedActionsOutputReference extends cdktf.ComplexObject {
@@ -621,6 +728,109 @@ export function elastigroupAwsBeanstalkScheduledTaskToTerraform(struct?: Elastig
     target_capacity: cdktf.stringToTerraform(struct!.targetCapacity),
     task_type: cdktf.stringToTerraform(struct!.taskType),
   }
+}
+
+
+export function elastigroupAwsBeanstalkScheduledTaskToHclTerraform(struct?: ElastigroupAwsBeanstalkScheduledTask | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    adjustment_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.adjustmentPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    batch_size_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cron_expression: {
+      value: cdktf.stringToHclTerraform(struct!.cronExpression),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    frequency: {
+      value: cdktf.stringToHclTerraform(struct!.frequency),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    grace_period: {
+      value: cdktf.stringToHclTerraform(struct!.gracePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    max_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.maxCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.minCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_max_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleMaxCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_min_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleMinCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scale_target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.scaleTargetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_time: {
+      value: cdktf.stringToHclTerraform(struct!.startTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_capacity: {
+      value: cdktf.stringToHclTerraform(struct!.targetCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    task_type: {
+      value: cdktf.stringToHclTerraform(struct!.taskType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ElastigroupAwsBeanstalkScheduledTaskOutputReference extends cdktf.ComplexObject {
@@ -1304,5 +1514,97 @@ export class ElastigroupAwsBeanstalk extends cdktf.TerraformResource {
       managed_actions: elastigroupAwsBeanstalkManagedActionsToTerraform(this._managedActions.internalValue),
       scheduled_task: cdktf.listMapper(elastigroupAwsBeanstalkScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      beanstalk_environment_id: {
+        value: cdktf.stringToHclTerraform(this._beanstalkEnvironmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      beanstalk_environment_name: {
+        value: cdktf.stringToHclTerraform(this._beanstalkEnvironmentName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      desired_capacity: {
+        value: cdktf.numberToHclTerraform(this._desiredCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      instance_types_spot: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._instanceTypesSpot),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      maintenance: {
+        value: cdktf.stringToHclTerraform(this._maintenance),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      max_size: {
+        value: cdktf.numberToHclTerraform(this._maxSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      min_size: {
+        value: cdktf.numberToHclTerraform(this._minSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      product: {
+        value: cdktf.stringToHclTerraform(this._product),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deployment_preferences: {
+        value: elastigroupAwsBeanstalkDeploymentPreferencesToHclTerraform(this._deploymentPreferences.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAwsBeanstalkDeploymentPreferencesList",
+      },
+      managed_actions: {
+        value: elastigroupAwsBeanstalkManagedActionsToHclTerraform(this._managedActions.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAwsBeanstalkManagedActionsList",
+      },
+      scheduled_task: {
+        value: cdktf.listMapperHcl(elastigroupAwsBeanstalkScheduledTaskToHclTerraform, true)(this._scheduledTask.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElastigroupAwsBeanstalkScheduledTaskList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

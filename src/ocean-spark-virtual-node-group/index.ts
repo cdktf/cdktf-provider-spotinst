@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/ocean_spark_virtual_node_group
 // generated from terraform resource schema
 
@@ -141,5 +136,31 @@ export class OceanSparkVirtualNodeGroup extends cdktf.TerraformResource {
       ocean_spark_cluster_id: cdktf.stringToTerraform(this._oceanSparkClusterId),
       virtual_node_group_id: cdktf.stringToTerraform(this._virtualNodeGroupId),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ocean_spark_cluster_id: {
+        value: cdktf.stringToHclTerraform(this._oceanSparkClusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      virtual_node_group_id: {
+        value: cdktf.stringToHclTerraform(this._virtualNodeGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

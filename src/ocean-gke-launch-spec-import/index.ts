@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/ocean_gke_launch_spec_import
 // generated from terraform resource schema
 
@@ -141,5 +136,31 @@ export class OceanGkeLaunchSpecImport extends cdktf.TerraformResource {
       node_pool_name: cdktf.stringToTerraform(this._nodePoolName),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      node_pool_name: {
+        value: cdktf.stringToHclTerraform(this._nodePoolName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ocean_id: {
+        value: cdktf.stringToHclTerraform(this._oceanId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

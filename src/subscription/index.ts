@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs/resources/subscription
 // generated from terraform resource schema
 
@@ -201,5 +196,49 @@ export class Subscription extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       resource_id: cdktf.stringToTerraform(this._resourceId),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      endpoint: {
+        value: cdktf.stringToHclTerraform(this._endpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      event_type: {
+        value: cdktf.stringToHclTerraform(this._eventType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      format: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._format),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      protocol: {
+        value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      resource_id: {
+        value: cdktf.stringToHclTerraform(this._resourceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }
