@@ -1,7 +1,7 @@
 
-# CDKTF prebuilt bindings for spotinst/spotinst provider version 1.158.0
+# CDKTF prebuilt bindings for spotinst/spotinst provider version 1.159.0
 
-This repo builds and publishes the [Terraform spotinst provider](https://registry.terraform.io/providers/spotinst/spotinst/1.158.0/docs) bindings for [CDK for Terraform](https://cdk.tf).
+This repo builds and publishes the [Terraform spotinst provider](https://registry.terraform.io/providers/spotinst/spotinst/1.159.0/docs) bindings for [CDK for Terraform](https://cdk.tf).
 
 ## Available Packages
 
@@ -39,7 +39,10 @@ The Maven package is available at [https://mvnrepository.com/artifact/com.hashic
 
 The go package is generated into the [`github.com/cdktf/cdktf-provider-spotinst-go`](https://github.com/cdktf/cdktf-provider-spotinst-go) package.
 
-`go get github.com/cdktf/cdktf-provider-spotinst-go/spotinst`
+`go get github.com/cdktf/cdktf-provider-spotinst-go/spotinst/<version>`
+
+Where `<version>` is the version of the prebuilt provider you would like to use e.g. `v11`. The full module name can be found
+within the [go.mod](https://github.com/cdktf/cdktf-provider-spotinst-go/blob/main/spotinst/go.mod#L1) file.
 
 ## Docs
 
@@ -60,7 +63,7 @@ This project is explicitly not tracking the Terraform spotinst provider version 
 These are the upstream dependencies:
 
 - [CDK for Terraform](https://cdk.tf)
-- [Terraform spotinst provider](https://registry.terraform.io/providers/spotinst/spotinst/1.158.0)
+- [Terraform spotinst provider](https://registry.terraform.io/providers/spotinst/spotinst/1.159.0)
 - [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
