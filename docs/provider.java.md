@@ -4,7 +4,7 @@
 
 ### SpotinstProvider <a name="SpotinstProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs spotinst}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs spotinst}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
@@ -54,7 +54,7 @@ Must be unique amongst siblings in the same scope
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#account SpotinstProvider#account}
 
 ---
 
@@ -64,7 +64,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#alias SpotinstProvider#alias}
 
 ---
 
@@ -74,7 +74,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -84,7 +84,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#token SpotinstProvider#token}
 
 ---
 
@@ -303,7 +303,7 @@ The construct id used in the generated config for the SpotinstProvider to import
 
 The id of the existing SpotinstProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -556,7 +556,7 @@ public java.lang.String getAccount();
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#account SpotinstProvider#account}
 
 ---
 
@@ -570,7 +570,7 @@ public java.lang.String getAlias();
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#alias SpotinstProvider#alias}
 
 ---
 
@@ -584,7 +584,7 @@ public java.lang.String getFeatureFlags();
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -598,7 +598,7 @@ public java.lang.String getToken();
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs#token SpotinstProvider#token}
 
 ---
 
