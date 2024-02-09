@@ -4,7 +4,7 @@
 
 ### Subscription <a name="Subscription" id="@cdktf/provider-spotinst.subscription.Subscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription spotinst_subscription}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription spotinst_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.subscription.Subscription.Initializer"></a>
 
@@ -481,7 +481,7 @@ The construct id used in the generated config for the Subscription to import.
 
 The id of the existing Subscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,12 +843,12 @@ new SubscriptionConfig {
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.endpoint">Endpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#endpoint Subscription#endpoint}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.eventType">EventType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#event_type Subscription#event_type}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.protocol">Protocol</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#protocol Subscription#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.resourceId">ResourceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#resource_id Subscription#resource_id}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.format">Format</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#format Subscription#format}. |
-| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#id Subscription#id}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.endpoint">Endpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#endpoint Subscription#endpoint}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.eventType">EventType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#event_type Subscription#event_type}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.protocol">Protocol</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#protocol Subscription#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.resourceId">ResourceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#resource_id Subscription#resource_id}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.format">Format</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#format Subscription#format}. |
+| <code><a href="#@cdktf/provider-spotinst.subscription.SubscriptionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#id Subscription#id}. |
 
 ---
 
@@ -930,7 +930,7 @@ public string Endpoint { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#endpoint Subscription#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#endpoint Subscription#endpoint}.
 
 ---
 
@@ -942,7 +942,7 @@ public string EventType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#event_type Subscription#event_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#event_type Subscription#event_type}.
 
 ---
 
@@ -954,7 +954,7 @@ public string Protocol { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#protocol Subscription#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#protocol Subscription#protocol}.
 
 ---
 
@@ -966,7 +966,7 @@ public string ResourceId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#resource_id Subscription#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#resource_id Subscription#resource_id}.
 
 ---
 
@@ -978,7 +978,7 @@ public System.Collections.Generic.IDictionary<string, string> Format { get; set;
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#format Subscription#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#format Subscription#format}.
 
 ---
 
@@ -990,7 +990,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/subscription#id Subscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/subscription#id Subscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

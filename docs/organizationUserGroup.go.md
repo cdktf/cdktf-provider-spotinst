@@ -4,12 +4,12 @@
 
 ### OrganizationUserGroup <a name="OrganizationUserGroup" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group spotinst_organization_user_group}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group spotinst_organization_user_group}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroup(scope Construct, id *string, config OrganizationUserGroupConfig) OrganizationUserGroup
 ```
@@ -419,7 +419,7 @@ func ResetUserIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ organizationusergroup.OrganizationUserGroup_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ organizationusergroup.OrganizationUserGroup_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.OrganizationUserGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -508,7 +508,7 @@ The construct id used in the generated config for the OrganizationUserGroup to i
 
 The id of the existing OrganizationUserGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -818,7 +818,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 &organizationusergroup.OrganizationUserGroupConfig {
 	Connection: interface{},
@@ -847,11 +847,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationuse
 | <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#name OrganizationUserGroup#name}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#description OrganizationUserGroup#description}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#id OrganizationUserGroup#id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#name OrganizationUserGroup#name}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#description OrganizationUserGroup#description}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#id OrganizationUserGroup#id}. |
 | <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.policies">Policies</a></code> | <code>interface{}</code> | policies block. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.userIds">UserIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupConfig.property.userIds">UserIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}. |
 
 ---
 
@@ -933,7 +933,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#name OrganizationUserGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#name OrganizationUserGroup#name}.
 
 ---
 
@@ -945,7 +945,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#description OrganizationUserGroup#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#description OrganizationUserGroup#description}.
 
 ---
 
@@ -957,7 +957,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#id OrganizationUserGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#id OrganizationUserGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -974,7 +974,7 @@ Policies interface{}
 
 policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#policies OrganizationUserGroup#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#policies OrganizationUserGroup#policies}
 
 ---
 
@@ -986,7 +986,7 @@ UserIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#user_ids OrganizationUserGroup#user_ids}.
 
 ---
 
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 &organizationusergroup.OrganizationUserGroupPolicies {
 	AccountIds: *[]*string,
@@ -1007,8 +1007,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationuse
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.property.accountIds">AccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.property.accountIds">AccountIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPolicies.property.policyId">PolicyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}. |
 
 ---
 
@@ -1020,7 +1020,7 @@ AccountIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#account_ids OrganizationUserGroup#account_ids}.
 
 ---
 
@@ -1032,7 +1032,7 @@ PolicyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.1/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.160.2/docs/resources/organization_user_group#policy_id OrganizationUserGroup#policy_id}.
 
 ---
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroupPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationUserGroupPoliciesList
 ```
@@ -1203,7 +1203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.organizationUserGroup.OrganizationUserGroupPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/organizationusergroup"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/organizationusergroup"
 
 organizationusergroup.NewOrganizationUserGroupPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationUserGroupPoliciesOutputReference
 ```
