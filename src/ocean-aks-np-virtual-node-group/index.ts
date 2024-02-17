@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group
+// https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,158 +13,164 @@ import * as cdktf from 'cdktf';
 
 export interface OceanAksNpVirtualNodeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#availability_zones OceanAksNpVirtualNodeGroup#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#availability_zones OceanAksNpVirtualNodeGroup#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#enable_node_public_ip OceanAksNpVirtualNodeGroup#enable_node_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#enable_node_public_ip OceanAksNpVirtualNodeGroup#enable_node_public_ip}
   */
   readonly enableNodePublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#fallback_to_ondemand OceanAksNpVirtualNodeGroup#fallback_to_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#fallback_to_ondemand OceanAksNpVirtualNodeGroup#fallback_to_ondemand}
   */
   readonly fallbackToOndemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#id OceanAksNpVirtualNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#id OceanAksNpVirtualNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#kubernetes_version OceanAksNpVirtualNodeGroup#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#kubernetes_version OceanAksNpVirtualNodeGroup#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#labels OceanAksNpVirtualNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#labels OceanAksNpVirtualNodeGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#max_count OceanAksNpVirtualNodeGroup#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#max_count OceanAksNpVirtualNodeGroup#max_count}
   */
   readonly maxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#max_pods_per_node OceanAksNpVirtualNodeGroup#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#max_pods_per_node OceanAksNpVirtualNodeGroup#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_count OceanAksNpVirtualNodeGroup#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_count OceanAksNpVirtualNodeGroup#min_count}
   */
   readonly minCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#name OceanAksNpVirtualNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#name OceanAksNpVirtualNodeGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#ocean_id OceanAksNpVirtualNodeGroup#ocean_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#ocean_id OceanAksNpVirtualNodeGroup#ocean_id}
   */
   readonly oceanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#os_disk_size_gb OceanAksNpVirtualNodeGroup#os_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#os_disk_size_gb OceanAksNpVirtualNodeGroup#os_disk_size_gb}
   */
   readonly osDiskSizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#os_disk_type OceanAksNpVirtualNodeGroup#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#os_disk_type OceanAksNpVirtualNodeGroup#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#os_sku OceanAksNpVirtualNodeGroup#os_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#os_sku OceanAksNpVirtualNodeGroup#os_sku}
   */
   readonly osSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#os_type OceanAksNpVirtualNodeGroup#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#os_type OceanAksNpVirtualNodeGroup#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#pod_subnet_ids OceanAksNpVirtualNodeGroup#pod_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#pod_subnet_ids OceanAksNpVirtualNodeGroup#pod_subnet_ids}
   */
   readonly podSubnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#spot_percentage OceanAksNpVirtualNodeGroup#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#spot_percentage OceanAksNpVirtualNodeGroup#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#tags OceanAksNpVirtualNodeGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#tags OceanAksNpVirtualNodeGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#vnet_subnet_ids OceanAksNpVirtualNodeGroup#vnet_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#vnet_subnet_ids OceanAksNpVirtualNodeGroup#vnet_subnet_ids}
   */
   readonly vnetSubnetIds?: string[];
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#filters OceanAksNpVirtualNodeGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#filters OceanAksNpVirtualNodeGroup#filters}
   */
   readonly filters?: OceanAksNpVirtualNodeGroupFilters;
   /**
   * headrooms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#headrooms OceanAksNpVirtualNodeGroup#headrooms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#headrooms OceanAksNpVirtualNodeGroup#headrooms}
   */
   readonly headrooms?: OceanAksNpVirtualNodeGroupHeadrooms[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#taints OceanAksNpVirtualNodeGroup#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#taints OceanAksNpVirtualNodeGroup#taints}
   */
   readonly taints?: OceanAksNpVirtualNodeGroupTaints[] | cdktf.IResolvable;
+  /**
+  * update_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#update_policy OceanAksNpVirtualNodeGroup#update_policy}
+  */
+  readonly updatePolicy?: OceanAksNpVirtualNodeGroupUpdatePolicy;
 }
 export interface OceanAksNpVirtualNodeGroupFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#accelerated_networking OceanAksNpVirtualNodeGroup#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#accelerated_networking OceanAksNpVirtualNodeGroup#accelerated_networking}
   */
   readonly acceleratedNetworking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#architectures OceanAksNpVirtualNodeGroup#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#architectures OceanAksNpVirtualNodeGroup#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#disk_performance OceanAksNpVirtualNodeGroup#disk_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#disk_performance OceanAksNpVirtualNodeGroup#disk_performance}
   */
   readonly diskPerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#exclude_series OceanAksNpVirtualNodeGroup#exclude_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#exclude_series OceanAksNpVirtualNodeGroup#exclude_series}
   */
   readonly excludeSeries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#max_gpu OceanAksNpVirtualNodeGroup#max_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#max_gpu OceanAksNpVirtualNodeGroup#max_gpu}
   */
   readonly maxGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#max_memory_gib OceanAksNpVirtualNodeGroup#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#max_memory_gib OceanAksNpVirtualNodeGroup#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#max_vcpu OceanAksNpVirtualNodeGroup#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#max_vcpu OceanAksNpVirtualNodeGroup#max_vcpu}
   */
   readonly maxVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_disk OceanAksNpVirtualNodeGroup#min_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_disk OceanAksNpVirtualNodeGroup#min_disk}
   */
   readonly minDisk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_gpu OceanAksNpVirtualNodeGroup#min_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_gpu OceanAksNpVirtualNodeGroup#min_gpu}
   */
   readonly minGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_memory_gib OceanAksNpVirtualNodeGroup#min_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_memory_gib OceanAksNpVirtualNodeGroup#min_memory_gib}
   */
   readonly minMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_nics OceanAksNpVirtualNodeGroup#min_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_nics OceanAksNpVirtualNodeGroup#min_nics}
   */
   readonly minNics?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#min_vcpu OceanAksNpVirtualNodeGroup#min_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#min_vcpu OceanAksNpVirtualNodeGroup#min_vcpu}
   */
   readonly minVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#series OceanAksNpVirtualNodeGroup#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#series OceanAksNpVirtualNodeGroup#series}
   */
   readonly series?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#vm_types OceanAksNpVirtualNodeGroup#vm_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#vm_types OceanAksNpVirtualNodeGroup#vm_types}
   */
   readonly vmTypes?: string[];
 }
@@ -625,19 +631,19 @@ export class OceanAksNpVirtualNodeGroupFiltersOutputReference extends cdktf.Comp
 }
 export interface OceanAksNpVirtualNodeGroupHeadrooms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#cpu_per_unit OceanAksNpVirtualNodeGroup#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#cpu_per_unit OceanAksNpVirtualNodeGroup#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#gpu_per_unit OceanAksNpVirtualNodeGroup#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#gpu_per_unit OceanAksNpVirtualNodeGroup#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#memory_per_unit OceanAksNpVirtualNodeGroup#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#memory_per_unit OceanAksNpVirtualNodeGroup#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#num_of_units OceanAksNpVirtualNodeGroup#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#num_of_units OceanAksNpVirtualNodeGroup#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -840,15 +846,15 @@ export class OceanAksNpVirtualNodeGroupHeadroomsList extends cdktf.ComplexList {
 }
 export interface OceanAksNpVirtualNodeGroupTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#effect OceanAksNpVirtualNodeGroup#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#effect OceanAksNpVirtualNodeGroup#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#key OceanAksNpVirtualNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#key OceanAksNpVirtualNodeGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#value OceanAksNpVirtualNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#value OceanAksNpVirtualNodeGroup#value}
   */
   readonly value: string;
 }
@@ -1011,9 +1017,473 @@ export class OceanAksNpVirtualNodeGroupTaintsList extends cdktf.ComplexList {
     return new OceanAksNpVirtualNodeGroupTaintsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#batch_min_healthy_percentage OceanAksNpVirtualNodeGroup#batch_min_healthy_percentage}
+  */
+  readonly batchMinHealthyPercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#batch_size_percentage OceanAksNpVirtualNodeGroup#batch_size_percentage}
+  */
+  readonly batchSizePercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#comment OceanAksNpVirtualNodeGroup#comment}
+  */
+  readonly comment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#node_names OceanAksNpVirtualNodeGroup#node_names}
+  */
+  readonly nodeNames?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#node_pool_names OceanAksNpVirtualNodeGroup#node_pool_names}
+  */
+  readonly nodePoolNames?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#respect_pdb OceanAksNpVirtualNodeGroup#respect_pdb}
+  */
+  readonly respectPdb?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#respect_restrict_scale_down OceanAksNpVirtualNodeGroup#respect_restrict_scale_down}
+  */
+  readonly respectRestrictScaleDown?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#vng_ids OceanAksNpVirtualNodeGroup#vng_ids}
+  */
+  readonly vngIds?: string[];
+}
+
+export function oceanAksNpVirtualNodeGroupUpdatePolicyRollConfigToTerraform(struct?: OceanAksNpVirtualNodeGroupUpdatePolicyRollConfigOutputReference | OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
+    batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
+    comment: cdktf.stringToTerraform(struct!.comment),
+    node_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.nodeNames),
+    node_pool_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.nodePoolNames),
+    respect_pdb: cdktf.booleanToTerraform(struct!.respectPdb),
+    respect_restrict_scale_down: cdktf.booleanToTerraform(struct!.respectRestrictScaleDown),
+    vng_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vngIds),
+  }
+}
+
+
+export function oceanAksNpVirtualNodeGroupUpdatePolicyRollConfigToHclTerraform(struct?: OceanAksNpVirtualNodeGroupUpdatePolicyRollConfigOutputReference | OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    batch_min_healthy_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchMinHealthyPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    batch_size_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    comment: {
+      value: cdktf.stringToHclTerraform(struct!.comment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    node_names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.nodeNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    node_pool_names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.nodePoolNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    respect_pdb: {
+      value: cdktf.booleanToHclTerraform(struct!.respectPdb),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    respect_restrict_scale_down: {
+      value: cdktf.booleanToHclTerraform(struct!.respectRestrictScaleDown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vng_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.vngIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpVirtualNodeGroupUpdatePolicyRollConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._batchMinHealthyPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchMinHealthyPercentage = this._batchMinHealthyPercentage;
+    }
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._comment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comment = this._comment;
+    }
+    if (this._nodeNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeNames = this._nodeNames;
+    }
+    if (this._nodePoolNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePoolNames = this._nodePoolNames;
+    }
+    if (this._respectPdb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectPdb = this._respectPdb;
+    }
+    if (this._respectRestrictScaleDown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectRestrictScaleDown = this._respectRestrictScaleDown;
+    }
+    if (this._vngIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vngIds = this._vngIds;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._batchMinHealthyPercentage = undefined;
+      this._batchSizePercentage = undefined;
+      this._comment = undefined;
+      this._nodeNames = undefined;
+      this._nodePoolNames = undefined;
+      this._respectPdb = undefined;
+      this._respectRestrictScaleDown = undefined;
+      this._vngIds = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._batchMinHealthyPercentage = value.batchMinHealthyPercentage;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._comment = value.comment;
+      this._nodeNames = value.nodeNames;
+      this._nodePoolNames = value.nodePoolNames;
+      this._respectPdb = value.respectPdb;
+      this._respectRestrictScaleDown = value.respectRestrictScaleDown;
+      this._vngIds = value.vngIds;
+    }
+  }
+
+  // batch_min_healthy_percentage - computed: false, optional: true, required: false
+  private _batchMinHealthyPercentage?: number; 
+  public get batchMinHealthyPercentage() {
+    return this.getNumberAttribute('batch_min_healthy_percentage');
+  }
+  public set batchMinHealthyPercentage(value: number) {
+    this._batchMinHealthyPercentage = value;
+  }
+  public resetBatchMinHealthyPercentage() {
+    this._batchMinHealthyPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchMinHealthyPercentageInput() {
+    return this._batchMinHealthyPercentage;
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: number; 
+  public get batchSizePercentage() {
+    return this.getNumberAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: number) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // comment - computed: false, optional: true, required: false
+  private _comment?: string; 
+  public get comment() {
+    return this.getStringAttribute('comment');
+  }
+  public set comment(value: string) {
+    this._comment = value;
+  }
+  public resetComment() {
+    this._comment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentInput() {
+    return this._comment;
+  }
+
+  // node_names - computed: false, optional: true, required: false
+  private _nodeNames?: string[]; 
+  public get nodeNames() {
+    return this.getListAttribute('node_names');
+  }
+  public set nodeNames(value: string[]) {
+    this._nodeNames = value;
+  }
+  public resetNodeNames() {
+    this._nodeNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeNamesInput() {
+    return this._nodeNames;
+  }
+
+  // node_pool_names - computed: false, optional: true, required: false
+  private _nodePoolNames?: string[]; 
+  public get nodePoolNames() {
+    return this.getListAttribute('node_pool_names');
+  }
+  public set nodePoolNames(value: string[]) {
+    this._nodePoolNames = value;
+  }
+  public resetNodePoolNames() {
+    this._nodePoolNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolNamesInput() {
+    return this._nodePoolNames;
+  }
+
+  // respect_pdb - computed: false, optional: true, required: false
+  private _respectPdb?: boolean | cdktf.IResolvable; 
+  public get respectPdb() {
+    return this.getBooleanAttribute('respect_pdb');
+  }
+  public set respectPdb(value: boolean | cdktf.IResolvable) {
+    this._respectPdb = value;
+  }
+  public resetRespectPdb() {
+    this._respectPdb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectPdbInput() {
+    return this._respectPdb;
+  }
+
+  // respect_restrict_scale_down - computed: false, optional: true, required: false
+  private _respectRestrictScaleDown?: boolean | cdktf.IResolvable; 
+  public get respectRestrictScaleDown() {
+    return this.getBooleanAttribute('respect_restrict_scale_down');
+  }
+  public set respectRestrictScaleDown(value: boolean | cdktf.IResolvable) {
+    this._respectRestrictScaleDown = value;
+  }
+  public resetRespectRestrictScaleDown() {
+    this._respectRestrictScaleDown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectRestrictScaleDownInput() {
+    return this._respectRestrictScaleDown;
+  }
+
+  // vng_ids - computed: false, optional: true, required: false
+  private _vngIds?: string[]; 
+  public get vngIds() {
+    return this.getListAttribute('vng_ids');
+  }
+  public set vngIds(value: string[]) {
+    this._vngIds = value;
+  }
+  public resetVngIds() {
+    this._vngIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vngIdsInput() {
+    return this._vngIds;
+  }
+}
+export interface OceanAksNpVirtualNodeGroupUpdatePolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#conditioned_roll OceanAksNpVirtualNodeGroup#conditioned_roll}
+  */
+  readonly conditionedRoll?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#should_roll OceanAksNpVirtualNodeGroup#should_roll}
+  */
+  readonly shouldRoll: boolean | cdktf.IResolvable;
+  /**
+  * roll_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#roll_config OceanAksNpVirtualNodeGroup#roll_config}
+  */
+  readonly rollConfig?: OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig;
+}
+
+export function oceanAksNpVirtualNodeGroupUpdatePolicyToTerraform(struct?: OceanAksNpVirtualNodeGroupUpdatePolicyOutputReference | OceanAksNpVirtualNodeGroupUpdatePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    conditioned_roll: cdktf.booleanToTerraform(struct!.conditionedRoll),
+    should_roll: cdktf.booleanToTerraform(struct!.shouldRoll),
+    roll_config: oceanAksNpVirtualNodeGroupUpdatePolicyRollConfigToTerraform(struct!.rollConfig),
+  }
+}
+
+
+export function oceanAksNpVirtualNodeGroupUpdatePolicyToHclTerraform(struct?: OceanAksNpVirtualNodeGroupUpdatePolicyOutputReference | OceanAksNpVirtualNodeGroupUpdatePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    conditioned_roll: {
+      value: cdktf.booleanToHclTerraform(struct!.conditionedRoll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    should_roll: {
+      value: cdktf.booleanToHclTerraform(struct!.shouldRoll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    roll_config: {
+      value: oceanAksNpVirtualNodeGroupUpdatePolicyRollConfigToHclTerraform(struct!.rollConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpVirtualNodeGroupUpdatePolicyRollConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpVirtualNodeGroupUpdatePolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpVirtualNodeGroupUpdatePolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._conditionedRoll !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.conditionedRoll = this._conditionedRoll;
+    }
+    if (this._shouldRoll !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldRoll = this._shouldRoll;
+    }
+    if (this._rollConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollConfig = this._rollConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpVirtualNodeGroupUpdatePolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._conditionedRoll = undefined;
+      this._shouldRoll = undefined;
+      this._rollConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._conditionedRoll = value.conditionedRoll;
+      this._shouldRoll = value.shouldRoll;
+      this._rollConfig.internalValue = value.rollConfig;
+    }
+  }
+
+  // conditioned_roll - computed: false, optional: true, required: false
+  private _conditionedRoll?: boolean | cdktf.IResolvable; 
+  public get conditionedRoll() {
+    return this.getBooleanAttribute('conditioned_roll');
+  }
+  public set conditionedRoll(value: boolean | cdktf.IResolvable) {
+    this._conditionedRoll = value;
+  }
+  public resetConditionedRoll() {
+    this._conditionedRoll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get conditionedRollInput() {
+    return this._conditionedRoll;
+  }
+
+  // should_roll - computed: false, optional: false, required: true
+  private _shouldRoll?: boolean | cdktf.IResolvable; 
+  public get shouldRoll() {
+    return this.getBooleanAttribute('should_roll');
+  }
+  public set shouldRoll(value: boolean | cdktf.IResolvable) {
+    this._shouldRoll = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldRollInput() {
+    return this._shouldRoll;
+  }
+
+  // roll_config - computed: false, optional: true, required: false
+  private _rollConfig = new OceanAksNpVirtualNodeGroupUpdatePolicyRollConfigOutputReference(this, "roll_config");
+  public get rollConfig() {
+    return this._rollConfig;
+  }
+  public putRollConfig(value: OceanAksNpVirtualNodeGroupUpdatePolicyRollConfig) {
+    this._rollConfig.internalValue = value;
+  }
+  public resetRollConfig() {
+    this._rollConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollConfigInput() {
+    return this._rollConfig.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group spotinst_ocean_aks_np_virtual_node_group}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group spotinst_ocean_aks_np_virtual_node_group}
 */
 export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
 
@@ -1029,7 +1499,7 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanAksNpVirtualNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanAksNpVirtualNodeGroup to import
-  * @param importFromId The id of the existing OceanAksNpVirtualNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanAksNpVirtualNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanAksNpVirtualNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1041,7 +1511,7 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.161.0/docs/resources/ocean_aks_np_virtual_node_group spotinst_ocean_aks_np_virtual_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs/resources/ocean_aks_np_virtual_node_group spotinst_ocean_aks_np_virtual_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1052,7 +1522,7 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_np_virtual_node_group',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.161.0',
+        providerVersion: '1.162.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1085,6 +1555,7 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
     this._filters.internalValue = config.filters;
     this._headrooms.internalValue = config.headrooms;
     this._taints.internalValue = config.taints;
+    this._updatePolicy.internalValue = config.updatePolicy;
   }
 
   // ==========
@@ -1437,6 +1908,22 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
     return this._taints.internalValue;
   }
 
+  // update_policy - computed: false, optional: true, required: false
+  private _updatePolicy = new OceanAksNpVirtualNodeGroupUpdatePolicyOutputReference(this, "update_policy");
+  public get updatePolicy() {
+    return this._updatePolicy;
+  }
+  public putUpdatePolicy(value: OceanAksNpVirtualNodeGroupUpdatePolicy) {
+    this._updatePolicy.internalValue = value;
+  }
+  public resetUpdatePolicy() {
+    this._updatePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updatePolicyInput() {
+    return this._updatePolicy.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1465,6 +1952,7 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
       filters: oceanAksNpVirtualNodeGroupFiltersToTerraform(this._filters.internalValue),
       headrooms: cdktf.listMapper(oceanAksNpVirtualNodeGroupHeadroomsToTerraform, true)(this._headrooms.internalValue),
       taints: cdktf.listMapper(oceanAksNpVirtualNodeGroupTaintsToTerraform, true)(this._taints.internalValue),
+      update_policy: oceanAksNpVirtualNodeGroupUpdatePolicyToTerraform(this._updatePolicy.internalValue),
     };
   }
 
@@ -1601,6 +2089,12 @@ export class OceanAksNpVirtualNodeGroup extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "OceanAksNpVirtualNodeGroupTaintsList",
+      },
+      update_policy: {
+        value: oceanAksNpVirtualNodeGroupUpdatePolicyToHclTerraform(this._updatePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpVirtualNodeGroupUpdatePolicyList",
       },
     };
 
