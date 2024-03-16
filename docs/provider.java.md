@@ -4,7 +4,7 @@
 
 ### SpotinstProvider <a name="SpotinstProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs spotinst}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs spotinst}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
@@ -14,6 +14,8 @@ import com.hashicorp.cdktf.providers.spotinst.provider.SpotinstProvider;
 SpotinstProvider.Builder.create(Construct scope, java.lang.String id)
 //  .account(java.lang.String)
 //  .alias(java.lang.String)
+//  .enabled(java.lang.Boolean)
+//  .enabled(IResolvable)
 //  .featureFlags(java.lang.String)
 //  .token(java.lang.String)
     .build();
@@ -25,6 +27,7 @@ SpotinstProvider.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.account">account</a></code> | <code>java.lang.String</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.alias">alias</a></code> | <code>java.lang.String</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.featureFlags">featureFlags</a></code> | <code>java.lang.String</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.token">token</a></code> | <code>java.lang.String</code> | Spotinst Personal API Access Token. |
 
@@ -54,7 +57,7 @@ Must be unique amongst siblings in the same scope
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -64,7 +67,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.enabled"></a>
+
+- *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -74,7 +87,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -84,7 +97,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 
@@ -101,6 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAccount">resetAccount</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAlias">resetAlias</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled">resetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags">resetFeatureFlags</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetToken">resetToken</a></code> | *No description.* |
 
@@ -186,6 +200,12 @@ public void resetAccount()
 
 ```java
 public void resetAlias()
+```
+
+##### `resetEnabled` <a name="resetEnabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled"></a>
+
+```java
+public void resetEnabled()
 ```
 
 ##### `resetFeatureFlags` <a name="resetFeatureFlags" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags"></a>
@@ -303,7 +323,7 @@ The construct id used in the generated config for the SpotinstProvider to import
 
 The id of the existing SpotinstProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -330,9 +350,11 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.alias">alias</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.accountInput">accountInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.aliasInput">aliasInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput">enabledInput</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput">featureFlagsInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.tokenInput">tokenInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.account">account</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlags">featureFlags</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.token">token</a></code> | <code>java.lang.String</code> | *No description.* |
 
@@ -450,6 +472,16 @@ public java.lang.String getAliasInput();
 
 ---
 
+##### `enabledInput`<sup>Optional</sup> <a name="enabledInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput"></a>
+
+```java
+public java.lang.Object getEnabledInput();
+```
+
+- *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
+
+---
+
 ##### `featureFlagsInput`<sup>Optional</sup> <a name="featureFlagsInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput"></a>
 
 ```java
@@ -477,6 +509,16 @@ public java.lang.String getAccount();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled"></a>
+
+```java
+public java.lang.Object getEnabled();
+```
+
+- *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
 ---
 
@@ -530,6 +572,8 @@ import com.hashicorp.cdktf.providers.spotinst.provider.SpotinstProviderConfig;
 SpotinstProviderConfig.builder()
 //  .account(java.lang.String)
 //  .alias(java.lang.String)
+//  .enabled(java.lang.Boolean)
+//  .enabled(IResolvable)
 //  .featureFlags(java.lang.String)
 //  .token(java.lang.String)
     .build();
@@ -541,6 +585,7 @@ SpotinstProviderConfig.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.account">account</a></code> | <code>java.lang.String</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.alias">alias</a></code> | <code>java.lang.String</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.featureFlags">featureFlags</a></code> | <code>java.lang.String</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.token">token</a></code> | <code>java.lang.String</code> | Spotinst Personal API Access Token. |
 
@@ -556,7 +601,7 @@ public java.lang.String getAccount();
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -570,7 +615,21 @@ public java.lang.String getAlias();
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled"></a>
+
+```java
+public java.lang.Object getEnabled();
+```
+
+- *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -584,7 +643,7 @@ public java.lang.String getFeatureFlags();
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -598,7 +657,7 @@ public java.lang.String getToken();
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 

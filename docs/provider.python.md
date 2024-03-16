@@ -4,7 +4,7 @@
 
 ### SpotinstProvider <a name="SpotinstProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs spotinst}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs spotinst}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
@@ -16,6 +16,7 @@ provider.SpotinstProvider(
   id: str,
   account: str = None,
   alias: str = None,
+  enabled: typing.Union[bool, IResolvable] = None,
   feature_flags: str = None,
   token: str = None
 )
@@ -27,6 +28,7 @@ provider.SpotinstProvider(
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.account">account</a></code> | <code>str</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.alias">alias</a></code> | <code>str</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.enabled">enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.featureFlags">feature_flags</a></code> | <code>str</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.token">token</a></code> | <code>str</code> | Spotinst Personal API Access Token. |
 
@@ -56,7 +58,7 @@ Must be unique amongst siblings in the same scope
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -66,7 +68,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer.parameter.enabled"></a>
+
+- *Type:* typing.Union[bool, cdktf.IResolvable]
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -76,7 +88,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -86,7 +98,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 
@@ -103,6 +115,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAccount">reset_account</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAlias">reset_alias</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled">reset_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags">reset_feature_flags</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetToken">reset_token</a></code> | *No description.* |
 
@@ -193,6 +206,12 @@ def reset_account() -> None
 
 ```python
 def reset_alias() -> None
+```
+
+##### `reset_enabled` <a name="reset_enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled"></a>
+
+```python
+def reset_enabled() -> None
 ```
 
 ##### `reset_feature_flags` <a name="reset_feature_flags" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags"></a>
@@ -321,7 +340,7 @@ The construct id used in the generated config for the SpotinstProvider to import
 
 The id of the existing SpotinstProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -348,9 +367,11 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.alias">alias</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.accountInput">account_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.aliasInput">alias_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput">enabled_input</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput">feature_flags_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.tokenInput">token_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.account">account</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled">enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlags">feature_flags</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.token">token</a></code> | <code>str</code> | *No description.* |
 
@@ -468,6 +489,16 @@ alias_input: str
 
 ---
 
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput"></a>
+
+```python
+enabled_input: typing.Union[bool, IResolvable]
+```
+
+- *Type:* typing.Union[bool, cdktf.IResolvable]
+
+---
+
 ##### `feature_flags_input`<sup>Optional</sup> <a name="feature_flags_input" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput"></a>
 
 ```python
@@ -495,6 +526,16 @@ account: str
 ```
 
 - *Type:* str
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled"></a>
+
+```python
+enabled: typing.Union[bool, IResolvable]
+```
+
+- *Type:* typing.Union[bool, cdktf.IResolvable]
 
 ---
 
@@ -548,6 +589,7 @@ from cdktf_cdktf_provider_spotinst import provider
 provider.SpotinstProviderConfig(
   account: str = None,
   alias: str = None,
+  enabled: typing.Union[bool, IResolvable] = None,
   feature_flags: str = None,
   token: str = None
 )
@@ -559,6 +601,7 @@ provider.SpotinstProviderConfig(
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.account">account</a></code> | <code>str</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.alias">alias</a></code> | <code>str</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled">enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.featureFlags">feature_flags</a></code> | <code>str</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.token">token</a></code> | <code>str</code> | Spotinst Personal API Access Token. |
 
@@ -574,7 +617,7 @@ account: str
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -588,7 +631,21 @@ alias: str
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled"></a>
+
+```python
+enabled: typing.Union[bool, IResolvable]
+```
+
+- *Type:* typing.Union[bool, cdktf.IResolvable]
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -602,7 +659,7 @@ feature_flags: str
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -616,7 +673,7 @@ token: str
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 
