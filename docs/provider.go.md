@@ -4,12 +4,12 @@
 
 ### SpotinstProvider <a name="SpotinstProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs spotinst}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs spotinst}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 provider.NewSpotinstProvider(scope Construct, id *string, config SpotinstProviderConfig) SpotinstProvider
 ```
@@ -59,6 +59,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAccount">ResetAccount</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAlias">ResetAlias</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled">ResetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags">ResetFeatureFlags</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetToken">ResetToken</a></code> | *No description.* |
 
@@ -146,6 +147,12 @@ func ResetAccount()
 func ResetAlias()
 ```
 
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled"></a>
+
+```go
+func ResetEnabled()
+```
+
 ##### `ResetFeatureFlags` <a name="ResetFeatureFlags" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags"></a>
 
 ```go
@@ -172,7 +179,7 @@ func ResetToken()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 provider.SpotinstProvider_IsConstruct(x interface{}) *bool
 ```
@@ -204,7 +211,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -218,7 +225,7 @@ provider.SpotinstProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 provider.SpotinstProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -232,7 +239,7 @@ provider.SpotinstProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.provider.SpotinstProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 provider.SpotinstProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -261,7 +268,7 @@ The construct id used in the generated config for the SpotinstProvider to import
 
 The id of the existing SpotinstProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -288,9 +295,11 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.accountInput">AccountInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput">FeatureFlagsInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.tokenInput">TokenInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.account">Account</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlags">FeatureFlags</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.token">Token</a></code> | <code>*string</code> | *No description.* |
 
@@ -408,6 +417,16 @@ func AliasInput() *string
 
 ---
 
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput"></a>
+
+```go
+func EnabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `FeatureFlagsInput`<sup>Optional</sup> <a name="FeatureFlagsInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput"></a>
 
 ```go
@@ -435,6 +454,16 @@ func Account() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled"></a>
+
+```go
+func Enabled() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -483,11 +512,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/provider"
 
 &provider.SpotinstProviderConfig {
 	Account: *string,
 	Alias: *string,
+	Enabled: interface{},
 	FeatureFlags: *string,
 	Token: *string,
 }
@@ -499,6 +529,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/provider"
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.account">Account</a></code> | <code>*string</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.alias">Alias</a></code> | <code>*string</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.featureFlags">FeatureFlags</a></code> | <code>*string</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.token">Token</a></code> | <code>*string</code> | Spotinst Personal API Access Token. |
 
@@ -514,7 +545,7 @@ Account *string
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -528,7 +559,21 @@ Alias *string
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled"></a>
+
+```go
+Enabled interface{}
+```
+
+- *Type:* interface{}
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -542,7 +587,7 @@ FeatureFlags *string
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -556,7 +601,7 @@ Token *string
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 

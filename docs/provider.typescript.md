@@ -4,7 +4,7 @@
 
 ### SpotinstProvider <a name="SpotinstProvider" id="@cdktf/provider-spotinst.provider.SpotinstProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs spotinst}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs spotinst}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.provider.SpotinstProvider.Initializer"></a>
 
@@ -59,6 +59,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAccount">resetAccount</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetAlias">resetAlias</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled">resetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags">resetFeatureFlags</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.resetToken">resetToken</a></code> | *No description.* |
 
@@ -144,6 +145,12 @@ public resetAccount(): void
 
 ```typescript
 public resetAlias(): void
+```
+
+##### `resetEnabled` <a name="resetEnabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetEnabled"></a>
+
+```typescript
+public resetEnabled(): void
 ```
 
 ##### `resetFeatureFlags` <a name="resetFeatureFlags" id="@cdktf/provider-spotinst.provider.SpotinstProvider.resetFeatureFlags"></a>
@@ -261,7 +268,7 @@ The construct id used in the generated config for the SpotinstProvider to import
 
 The id of the existing SpotinstProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -288,9 +295,11 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.accountInput">accountInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput">enabledInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput">featureFlagsInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.tokenInput">tokenInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.account">account</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled">enabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlags">featureFlags</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProvider.property.token">token</a></code> | <code>string</code> | *No description.* |
 
@@ -408,6 +417,16 @@ public readonly aliasInput: string;
 
 ---
 
+##### `enabledInput`<sup>Optional</sup> <a name="enabledInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabledInput"></a>
+
+```typescript
+public readonly enabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+---
+
 ##### `featureFlagsInput`<sup>Optional</sup> <a name="featureFlagsInput" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.featureFlagsInput"></a>
 
 ```typescript
@@ -435,6 +454,16 @@ public readonly account: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProvider.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
 
 ---
 
@@ -494,6 +523,7 @@ const spotinstProviderConfig: provider.SpotinstProviderConfig = { ... }
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.account">account</a></code> | <code>string</code> | Spotinst Account ID. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.alias">alias</a></code> | <code>string</code> | Alias name. |
+| <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled">enabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | Enable or disable the Spotinst provider. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.featureFlags">featureFlags</a></code> | <code>string</code> | Spotinst SDK Feature Flags. |
 | <code><a href="#@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.token">token</a></code> | <code>string</code> | Spotinst Personal API Access Token. |
 
@@ -509,7 +539,7 @@ public readonly account: string;
 
 Spotinst Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#account SpotinstProvider#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#account SpotinstProvider#account}
 
 ---
 
@@ -523,7 +553,21 @@ public readonly alias: string;
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#alias SpotinstProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#alias SpotinstProvider#alias}
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktf/provider-spotinst.provider.SpotinstProviderConfig.property.enabled"></a>
+
+```typescript
+public readonly enabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+Enable or disable the Spotinst provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#enabled SpotinstProvider#enabled}
 
 ---
 
@@ -537,7 +581,7 @@ public readonly featureFlags: string;
 
 Spotinst SDK Feature Flags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#feature_flags SpotinstProvider#feature_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#feature_flags SpotinstProvider#feature_flags}
 
 ---
 
@@ -551,7 +595,7 @@ public readonly token: string;
 
 Spotinst Personal API Access Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.162.0/docs#token SpotinstProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs#token SpotinstProvider#token}
 
 ---
 
