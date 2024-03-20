@@ -4,7 +4,7 @@
 
 ### OceanEcs <a name="OceanEcs" id="@cdktf/provider-spotinst.oceanEcs.OceanEcs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs spotinst_ocean_ecs}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs spotinst_ocean_ecs}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanEcs.OceanEcs.Initializer"></a>
 
@@ -793,7 +793,7 @@ The construct id used in the generated config for the OceanEcs to import.
 
 The id of the existing OceanEcs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1738,15 +1738,15 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.autoHeadroomPercentage">AutoHeadroomPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.cooldown">Cooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.autoHeadroomPercentage">AutoHeadroomPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.cooldown">Cooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.down">Down</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerDown">OceanEcsAutoscalerDown</a></code> | down block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.enableAutomaticAndManualHeadroom">EnableAutomaticAndManualHeadroom</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.enableAutomaticAndManualHeadroom">EnableAutomaticAndManualHeadroom</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.headroom">Headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom">OceanEcsAutoscalerHeadroom</a></code> | headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.isAutoConfig">IsAutoConfig</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.isAutoConfig">IsAutoConfig</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.resourceLimits">ResourceLimits</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerResourceLimits">OceanEcsAutoscalerResourceLimits</a></code> | resource_limits block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.shouldScaleDownNonServiceTasks">ShouldScaleDownNonServiceTasks</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler.property.shouldScaleDownNonServiceTasks">ShouldScaleDownNonServiceTasks</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}. |
 
 ---
 
@@ -1758,7 +1758,7 @@ AutoHeadroomPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}.
 
 ---
 
@@ -1770,7 +1770,7 @@ Cooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}.
 
 ---
 
@@ -1784,7 +1784,7 @@ Down OceanEcsAutoscalerDown
 
 down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#down OceanEcs#down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#down OceanEcs#down}
 
 ---
 
@@ -1796,7 +1796,7 @@ EnableAutomaticAndManualHeadroom interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}.
 
 ---
 
@@ -1810,7 +1810,7 @@ Headroom OceanEcsAutoscalerHeadroom
 
 headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#headroom OceanEcs#headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#headroom OceanEcs#headroom}
 
 ---
 
@@ -1822,7 +1822,7 @@ IsAutoConfig interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}.
 
 ---
 
@@ -1834,7 +1834,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
 
 ---
 
@@ -1848,7 +1848,7 @@ ResourceLimits OceanEcsAutoscalerResourceLimits
 
 resource_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#resource_limits OceanEcs#resource_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#resource_limits OceanEcs#resource_limits}
 
 ---
 
@@ -1860,7 +1860,7 @@ ShouldScaleDownNonServiceTasks interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}.
 
 ---
 
@@ -1880,7 +1880,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}. |
 
 ---
 
@@ -1892,7 +1892,7 @@ MaxScaleDownPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}.
 
 ---
 
@@ -1914,9 +1914,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.cpuPerUnit">CpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.memoryPerUnit">MemoryPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.numOfUnits">NumOfUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.cpuPerUnit">CpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.memoryPerUnit">MemoryPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerHeadroom.property.numOfUnits">NumOfUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}. |
 
 ---
 
@@ -1928,7 +1928,7 @@ CpuPerUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}.
 
 ---
 
@@ -1940,7 +1940,7 @@ MemoryPerUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}.
 
 ---
 
@@ -1952,7 +1952,7 @@ NumOfUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}.
 
 ---
 
@@ -1973,8 +1973,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}. |
 
 ---
 
@@ -1986,7 +1986,7 @@ MaxMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}.
 
 ---
 
@@ -1998,7 +1998,7 @@ MaxVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}.
 
 ---
 
@@ -2021,10 +2021,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.deviceName">DeviceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.deviceName">DeviceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.ebs">Ebs</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs">OceanEcsBlockDeviceMappingsEbs</a></code> | ebs block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.noDevice">NoDevice</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.virtualName">VirtualName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.noDevice">NoDevice</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappings.property.virtualName">VirtualName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}. |
 
 ---
 
@@ -2036,7 +2036,7 @@ DeviceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}.
 
 ---
 
@@ -2050,7 +2050,7 @@ Ebs OceanEcsBlockDeviceMappingsEbs
 
 ebs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#ebs OceanEcs#ebs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#ebs OceanEcs#ebs}
 
 ---
 
@@ -2062,7 +2062,7 @@ NoDevice *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}.
 
 ---
 
@@ -2074,7 +2074,7 @@ VirtualName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}.
 
 ---
 
@@ -2102,15 +2102,15 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.deleteOnTermination">DeleteOnTermination</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.deleteOnTermination">DeleteOnTermination</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.dynamicVolumeSize">DynamicVolumeSize</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize">OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize</a></code> | dynamic_volume_size block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.encrypted">Encrypted</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.iops">Iops</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#iops OceanEcs#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.snapshotId">SnapshotId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.throughput">Throughput</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.volumeSize">VolumeSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.volumeType">VolumeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.encrypted">Encrypted</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.iops">Iops</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#iops OceanEcs#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.snapshotId">SnapshotId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.throughput">Throughput</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.volumeSize">VolumeSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbs.property.volumeType">VolumeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}. |
 
 ---
 
@@ -2122,7 +2122,7 @@ DeleteOnTermination interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}.
 
 ---
 
@@ -2136,7 +2136,7 @@ DynamicVolumeSize OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize
 
 dynamic_volume_size block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#dynamic_volume_size OceanEcs#dynamic_volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#dynamic_volume_size OceanEcs#dynamic_volume_size}
 
 ---
 
@@ -2148,7 +2148,7 @@ Encrypted interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}.
 
 ---
 
@@ -2160,7 +2160,7 @@ Iops *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#iops OceanEcs#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#iops OceanEcs#iops}.
 
 ---
 
@@ -2172,7 +2172,7 @@ KmsKeyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}.
 
 ---
 
@@ -2184,7 +2184,7 @@ SnapshotId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}.
 
 ---
 
@@ -2196,7 +2196,7 @@ Throughput *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}.
 
 ---
 
@@ -2208,7 +2208,7 @@ VolumeSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}.
 
 ---
 
@@ -2220,7 +2220,7 @@ VolumeType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}.
 
 ---
 
@@ -2242,9 +2242,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.baseSize">BaseSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.resource">Resource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#resource OceanEcs#resource}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.sizePerResourceUnit">SizePerResourceUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.baseSize">BaseSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.resource">Resource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#resource OceanEcs#resource}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize.property.sizePerResourceUnit">SizePerResourceUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}. |
 
 ---
 
@@ -2256,7 +2256,7 @@ BaseSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}.
 
 ---
 
@@ -2268,7 +2268,7 @@ Resource *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#resource OceanEcs#resource}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#resource OceanEcs#resource}.
 
 ---
 
@@ -2280,7 +2280,7 @@ SizePerResourceUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}.
 
 ---
 
@@ -2300,7 +2300,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsClusterOrientation.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}. |
 
 ---
 
@@ -2312,7 +2312,7 @@ AvailabilityVsCost *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}.
 
 ---
 
@@ -2378,39 +2378,39 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.clusterName">ClusterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#name OceanEcs#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#region OceanEcs#region}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.associatePublicIpAddress">AssociatePublicIpAddress</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.clusterName">ClusterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#name OceanEcs#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#region OceanEcs#region}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.associatePublicIpAddress">AssociatePublicIpAddress</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.autoscaler">Autoscaler</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsAutoscaler">OceanEcsAutoscaler</a></code> | autoscaler block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.blacklist">Blacklist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.blacklist">Blacklist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.blockDeviceMappings">BlockDeviceMappings</a></code> | <code>interface{}</code> | block_device_mappings block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.clusterOrientation">ClusterOrientation</a></code> | <code>interface{}</code> | cluster_orientation block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.ebsOptimized">EbsOptimized</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.ebsOptimized">EbsOptimized</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.filters">Filters</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters">OceanEcsFilters</a></code> | filters block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.iamInstanceProfile">IamInstanceProfile</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#id OceanEcs#id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.imageId">ImageId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.iamInstanceProfile">IamInstanceProfile</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#id OceanEcs#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.imageId">ImageId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.instanceMetadataOptions">InstanceMetadataOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsInstanceMetadataOptions">OceanEcsInstanceMetadataOptions</a></code> | instance_metadata_options block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.keyPair">KeyPair</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.keyPair">KeyPair</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.logging">Logging</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLogging">OceanEcsLogging</a></code> | logging block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.maxSize">MaxSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.minSize">MinSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.monitoring">Monitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.maxSize">MaxSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.minSize">MinSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.monitoring">Monitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.optimizeImages">OptimizeImages</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages">OceanEcsOptimizeImages</a></code> | optimize_images block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.scheduledTask">ScheduledTask</a></code> | <code>interface{}</code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.spotPercentage">SpotPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.tags">Tags</a></code> | <code>interface{}</code> | tags block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.updatePolicy">UpdatePolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy">OceanEcsUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.useAsTemplateOnly">UseAsTemplateOnly</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.userData">UserData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.utilizeCommitments">UtilizeCommitments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.utilizeReservedInstances">UtilizeReservedInstances</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.whitelist">Whitelist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.useAsTemplateOnly">UseAsTemplateOnly</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.userData">UserData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.utilizeCommitments">UtilizeCommitments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.utilizeReservedInstances">UtilizeReservedInstances</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsConfig.property.whitelist">Whitelist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}. |
 
 ---
 
@@ -2492,7 +2492,7 @@ ClusterName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}.
 
 ---
 
@@ -2504,7 +2504,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#name OceanEcs#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#name OceanEcs#name}.
 
 ---
 
@@ -2516,7 +2516,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#region OceanEcs#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#region OceanEcs#region}.
 
 ---
 
@@ -2528,7 +2528,7 @@ SecurityGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}.
 
 ---
 
@@ -2540,7 +2540,7 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}.
 
 ---
 
@@ -2552,7 +2552,7 @@ AssociatePublicIpAddress interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}.
 
 ---
 
@@ -2566,7 +2566,7 @@ Autoscaler OceanEcsAutoscaler
 
 autoscaler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#autoscaler OceanEcs#autoscaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#autoscaler OceanEcs#autoscaler}
 
 ---
 
@@ -2578,7 +2578,7 @@ Blacklist *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}.
 
 ---
 
@@ -2592,7 +2592,7 @@ BlockDeviceMappings interface{}
 
 block_device_mappings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#block_device_mappings OceanEcs#block_device_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#block_device_mappings OceanEcs#block_device_mappings}
 
 ---
 
@@ -2606,7 +2606,7 @@ ClusterOrientation interface{}
 
 cluster_orientation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cluster_orientation OceanEcs#cluster_orientation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cluster_orientation OceanEcs#cluster_orientation}
 
 ---
 
@@ -2618,7 +2618,7 @@ DesiredCapacity *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}.
 
 ---
 
@@ -2630,7 +2630,7 @@ DrainingTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}.
 
 ---
 
@@ -2642,7 +2642,7 @@ EbsOptimized interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}.
 
 ---
 
@@ -2656,7 +2656,7 @@ Filters OceanEcsFilters
 
 filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#filters OceanEcs#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#filters OceanEcs#filters}
 
 ---
 
@@ -2668,7 +2668,7 @@ IamInstanceProfile *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}.
 
 ---
 
@@ -2680,7 +2680,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#id OceanEcs#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#id OceanEcs#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2695,7 +2695,7 @@ ImageId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}.
 
 ---
 
@@ -2709,7 +2709,7 @@ InstanceMetadataOptions OceanEcsInstanceMetadataOptions
 
 instance_metadata_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#instance_metadata_options OceanEcs#instance_metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#instance_metadata_options OceanEcs#instance_metadata_options}
 
 ---
 
@@ -2721,7 +2721,7 @@ KeyPair *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}.
 
 ---
 
@@ -2735,7 +2735,7 @@ Logging OceanEcsLogging
 
 logging block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#logging OceanEcs#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#logging OceanEcs#logging}
 
 ---
 
@@ -2747,7 +2747,7 @@ MaxSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}.
 
 ---
 
@@ -2759,7 +2759,7 @@ MinSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}.
 
 ---
 
@@ -2771,7 +2771,7 @@ Monitoring interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}.
 
 ---
 
@@ -2785,7 +2785,7 @@ OptimizeImages OceanEcsOptimizeImages
 
 optimize_images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#optimize_images OceanEcs#optimize_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#optimize_images OceanEcs#optimize_images}
 
 ---
 
@@ -2799,7 +2799,7 @@ ScheduledTask interface{}
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#scheduled_task OceanEcs#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#scheduled_task OceanEcs#scheduled_task}
 
 ---
 
@@ -2811,7 +2811,7 @@ SpotPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}.
 
 ---
 
@@ -2825,7 +2825,7 @@ Tags interface{}
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#tags OceanEcs#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#tags OceanEcs#tags}
 
 ---
 
@@ -2839,7 +2839,7 @@ UpdatePolicy OceanEcsUpdatePolicy
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#update_policy OceanEcs#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#update_policy OceanEcs#update_policy}
 
 ---
 
@@ -2851,7 +2851,7 @@ UseAsTemplateOnly interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}.
 
 ---
 
@@ -2863,7 +2863,7 @@ UserData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}.
 
 ---
 
@@ -2875,7 +2875,7 @@ UtilizeCommitments interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}.
 
 ---
 
@@ -2887,7 +2887,7 @@ UtilizeReservedInstances interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}.
 
 ---
 
@@ -2899,7 +2899,7 @@ Whitelist *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}.
 
 ---
 
@@ -2937,25 +2937,25 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.architectures">Architectures</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.categories">Categories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#categories OceanEcs#categories}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.diskTypes">DiskTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.excludeFamilies">ExcludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.excludeMetal">ExcludeMetal</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.hypervisor">Hypervisor</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.includeFamilies">IncludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.isEnaSupported">IsEnaSupported</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxGpu">MaxGpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxNetworkPerformance">MaxNetworkPerformance</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minEnis">MinEnis</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minGpu">MinGpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minMemoryGib">MinMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minNetworkPerformance">MinNetworkPerformance</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minVcpu">MinVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.rootDeviceTypes">RootDeviceTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.virtualizationTypes">VirtualizationTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.architectures">Architectures</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.categories">Categories</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#categories OceanEcs#categories}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.diskTypes">DiskTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.excludeFamilies">ExcludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.excludeMetal">ExcludeMetal</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.hypervisor">Hypervisor</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.includeFamilies">IncludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.isEnaSupported">IsEnaSupported</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxGpu">MaxGpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxNetworkPerformance">MaxNetworkPerformance</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minEnis">MinEnis</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minGpu">MinGpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minMemoryGib">MinMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minNetworkPerformance">MinNetworkPerformance</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.minVcpu">MinVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.rootDeviceTypes">RootDeviceTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsFilters.property.virtualizationTypes">VirtualizationTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}. |
 
 ---
 
@@ -2967,7 +2967,7 @@ Architectures *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}.
 
 ---
 
@@ -2979,7 +2979,7 @@ Categories *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#categories OceanEcs#categories}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#categories OceanEcs#categories}.
 
 ---
 
@@ -2991,7 +2991,7 @@ DiskTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}.
 
 ---
 
@@ -3003,7 +3003,7 @@ ExcludeFamilies *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}.
 
 ---
 
@@ -3015,7 +3015,7 @@ ExcludeMetal interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}.
 
 ---
 
@@ -3027,7 +3027,7 @@ Hypervisor *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}.
 
 ---
 
@@ -3039,7 +3039,7 @@ IncludeFamilies *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}.
 
 ---
 
@@ -3051,7 +3051,7 @@ IsEnaSupported *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}.
 
 ---
 
@@ -3063,7 +3063,7 @@ MaxGpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}.
 
 ---
 
@@ -3075,7 +3075,7 @@ MaxMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}.
 
 ---
 
@@ -3087,7 +3087,7 @@ MaxNetworkPerformance *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}.
 
 ---
 
@@ -3099,7 +3099,7 @@ MaxVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}.
 
 ---
 
@@ -3111,7 +3111,7 @@ MinEnis *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}.
 
 ---
 
@@ -3123,7 +3123,7 @@ MinGpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}.
 
 ---
 
@@ -3135,7 +3135,7 @@ MinMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}.
 
 ---
 
@@ -3147,7 +3147,7 @@ MinNetworkPerformance *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}.
 
 ---
 
@@ -3159,7 +3159,7 @@ MinVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}.
 
 ---
 
@@ -3171,7 +3171,7 @@ RootDeviceTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}.
 
 ---
 
@@ -3183,7 +3183,7 @@ VirtualizationTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}.
 
 ---
 
@@ -3204,8 +3204,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsInstanceMetadataOptions.property.httpTokens">HttpTokens</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsInstanceMetadataOptions.property.httpPutResponseHopLimit">HttpPutResponseHopLimit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsInstanceMetadataOptions.property.httpTokens">HttpTokens</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsInstanceMetadataOptions.property.httpPutResponseHopLimit">HttpPutResponseHopLimit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}. |
 
 ---
 
@@ -3217,7 +3217,7 @@ HttpTokens *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}.
 
 ---
 
@@ -3229,7 +3229,7 @@ HttpPutResponseHopLimit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}.
 
 ---
 
@@ -3263,7 +3263,7 @@ Export OceanEcsLoggingExport
 
 export block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#export OceanEcs#export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#export OceanEcs#export}
 
 ---
 
@@ -3297,7 +3297,7 @@ S3 interface{}
 
 s3 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#s3 OceanEcs#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#s3 OceanEcs#s3}
 
 ---
 
@@ -3317,7 +3317,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#id OceanEcs#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsLoggingExportS3.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#id OceanEcs#id}. |
 
 ---
 
@@ -3329,7 +3329,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#id OceanEcs#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#id OceanEcs#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3354,9 +3354,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.performAt">PerformAt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.shouldOptimizeEcsAmi">ShouldOptimizeEcsAmi</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.performAt">PerformAt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.shouldOptimizeEcsAmi">ShouldOptimizeEcsAmi</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsOptimizeImages.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}. |
 
 ---
 
@@ -3368,7 +3368,7 @@ PerformAt *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}.
 
 ---
 
@@ -3380,7 +3380,7 @@ ShouldOptimizeEcsAmi interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}.
 
 ---
 
@@ -3392,7 +3392,7 @@ TimeWindows *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}.
 
 ---
 
@@ -3428,7 +3428,7 @@ ShutdownHours OceanEcsScheduledTaskShutdownHours
 
 shutdown_hours block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#shutdown_hours OceanEcs#shutdown_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#shutdown_hours OceanEcs#shutdown_hours}
 
 ---
 
@@ -3442,7 +3442,7 @@ Tasks interface{}
 
 tasks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#tasks OceanEcs#tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#tasks OceanEcs#tasks}
 
 ---
 
@@ -3463,8 +3463,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskShutdownHours.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskShutdownHours.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskShutdownHours.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskShutdownHours.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
 
 ---
 
@@ -3476,7 +3476,7 @@ TimeWindows *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}.
 
 ---
 
@@ -3488,7 +3488,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
 
 ---
 
@@ -3510,9 +3510,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.taskType">TaskType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsScheduledTaskTasks.property.taskType">TaskType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}. |
 
 ---
 
@@ -3524,7 +3524,7 @@ CronExpression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}.
 
 ---
 
@@ -3536,7 +3536,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}.
 
 ---
 
@@ -3548,7 +3548,7 @@ TaskType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}.
 
 ---
 
@@ -3569,8 +3569,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#key OceanEcs#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#value OceanEcs#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#key OceanEcs#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#value OceanEcs#value}. |
 
 ---
 
@@ -3582,7 +3582,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#key OceanEcs#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#key OceanEcs#key}.
 
 ---
 
@@ -3594,7 +3594,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#value OceanEcs#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#value OceanEcs#value}.
 
 ---
 
@@ -3617,9 +3617,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.autoApplyTags">AutoApplyTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.conditionedRoll">ConditionedRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.autoApplyTags">AutoApplyTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.conditionedRoll">ConditionedRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicy.property.rollConfig">RollConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicyRollConfig">OceanEcsUpdatePolicyRollConfig</a></code> | roll_config block. |
 
 ---
@@ -3632,7 +3632,7 @@ ShouldRoll interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}.
 
 ---
 
@@ -3644,7 +3644,7 @@ AutoApplyTags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}.
 
 ---
 
@@ -3656,7 +3656,7 @@ ConditionedRoll interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}.
 
 ---
 
@@ -3670,7 +3670,7 @@ RollConfig OceanEcsUpdatePolicyRollConfig
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#roll_config OceanEcs#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#roll_config OceanEcs#roll_config}
 
 ---
 
@@ -3691,8 +3691,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanecs"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicyRollConfig.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanEcs.OceanEcsUpdatePolicyRollConfig.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}. |
 
 ---
 
@@ -3704,7 +3704,7 @@ BatchSizePercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}.
 
 ---
 
@@ -3716,7 +3716,7 @@ BatchMinHealthyPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}.
 
 ---
 

@@ -1,3 +1,3 @@
 # `spotinst_elastigroup_aws_suspension`
 
-Refer to the Terraform Registry for docs: [`spotinst_elastigroup_aws_suspension`](https://registry.terraform.io/providers/spotinst/spotinst/1.164.0/docs/resources/elastigroup_aws_suspension).
+Refer to the Terraform Registry for docs: [`spotinst_elastigroup_aws_suspension`](https://registry.terraform.io/providers/spotinst/spotinst/1.165.0/docs/resources/elastigroup_aws_suspension).
