@@ -4,7 +4,7 @@
 
 ### ElastigroupAzure <a name="ElastigroupAzure" id="@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure spotinst_elastigroup_azure}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure spotinst_elastigroup_azure}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzure.Initializer"></a>
 
@@ -762,7 +762,7 @@ The construct id used in the generated config for the ElastigroupAzure to import
 
 The id of the existing ElastigroupAzure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1584,32 +1584,32 @@ new ElastigroupAzureConfig {
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.lowPrioritySizes">LowPrioritySizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#low_priority_sizes ElastigroupAzure#low_priority_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.lowPrioritySizes">LowPrioritySizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#low_priority_sizes ElastigroupAzure#low_priority_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork">ElastigroupAzureNetwork</a></code> | network block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#od_sizes ElastigroupAzure#od_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.product">Product</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#product ElastigroupAzure#product}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#region ElastigroupAzure#region}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#od_sizes ElastigroupAzure#od_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.product">Product</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#product ElastigroupAzure#product}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#region ElastigroupAzure#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.strategy">Strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy">ElastigroupAzureStrategy</a></code> | strategy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#custom_data ElastigroupAzure#custom_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#desired_capacity ElastigroupAzure#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#custom_data ElastigroupAzure#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#desired_capacity ElastigroupAzure#desired_capacity}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.healthCheck">HealthCheck</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck">ElastigroupAzureHealthCheck</a></code> | health_check block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#id ElastigroupAzure#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#id ElastigroupAzure#id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.image">Image</a></code> | <code>object</code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.integrationKubernetes">IntegrationKubernetes</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationKubernetes">ElastigroupAzureIntegrationKubernetes</a></code> | integration_kubernetes block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.integrationMultaiRuntime">IntegrationMultaiRuntime</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationMultaiRuntime">ElastigroupAzureIntegrationMultaiRuntime</a></code> | integration_multai_runtime block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.loadBalancers">LoadBalancers</a></code> | <code>object</code> | load_balancers block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin">ElastigroupAzureLogin</a></code> | login block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.managedServiceIdentities">ManagedServiceIdentities</a></code> | <code>object</code> | managed_service_identities block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.maxSize">MaxSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_size ElastigroupAzure#max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.minSize">MinSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_size ElastigroupAzure#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.maxSize">MaxSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_size ElastigroupAzure#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.minSize">MinSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_size ElastigroupAzure#min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.scalingDownPolicy">ScalingDownPolicy</a></code> | <code>object</code> | scaling_down_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.scalingUpPolicy">ScalingUpPolicy</a></code> | <code>object</code> | scaling_up_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.scheduledTask">ScheduledTask</a></code> | <code>object</code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#shutdown_script ElastigroupAzure#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#shutdown_script ElastigroupAzure#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.updatePolicy">UpdatePolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicy">ElastigroupAzureUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.userData">UserData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#user_data ElastigroupAzure#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureConfig.property.userData">UserData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#user_data ElastigroupAzure#user_data}. |
 
 ---
 
@@ -1691,7 +1691,7 @@ public string[] LowPrioritySizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#low_priority_sizes ElastigroupAzure#low_priority_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#low_priority_sizes ElastigroupAzure#low_priority_sizes}.
 
 ---
 
@@ -1703,7 +1703,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
 
 ---
 
@@ -1717,7 +1717,7 @@ public ElastigroupAzureNetwork Network { get; set; }
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#network ElastigroupAzure#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#network ElastigroupAzure#network}
 
 ---
 
@@ -1729,7 +1729,7 @@ public string[] OdSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#od_sizes ElastigroupAzure#od_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#od_sizes ElastigroupAzure#od_sizes}.
 
 ---
 
@@ -1741,7 +1741,7 @@ public string Product { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#product ElastigroupAzure#product}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#product ElastigroupAzure#product}.
 
 ---
 
@@ -1753,7 +1753,7 @@ public string Region { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#region ElastigroupAzure#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#region ElastigroupAzure#region}.
 
 ---
 
@@ -1765,7 +1765,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
 
 ---
 
@@ -1779,7 +1779,7 @@ public ElastigroupAzureStrategy Strategy { get; set; }
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#strategy ElastigroupAzure#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#strategy ElastigroupAzure#strategy}
 
 ---
 
@@ -1791,7 +1791,7 @@ public string CustomData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#custom_data ElastigroupAzure#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#custom_data ElastigroupAzure#custom_data}.
 
 ---
 
@@ -1803,7 +1803,7 @@ public double DesiredCapacity { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#desired_capacity ElastigroupAzure#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#desired_capacity ElastigroupAzure#desired_capacity}.
 
 ---
 
@@ -1817,7 +1817,7 @@ public ElastigroupAzureHealthCheck HealthCheck { get; set; }
 
 health_check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#health_check ElastigroupAzure#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#health_check ElastigroupAzure#health_check}
 
 ---
 
@@ -1829,7 +1829,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#id ElastigroupAzure#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#id ElastigroupAzure#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1846,7 +1846,7 @@ public object Image { get; set; }
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#image ElastigroupAzure#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#image ElastigroupAzure#image}
 
 ---
 
@@ -1860,7 +1860,7 @@ public ElastigroupAzureIntegrationKubernetes IntegrationKubernetes { get; set; }
 
 integration_kubernetes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#integration_kubernetes ElastigroupAzure#integration_kubernetes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#integration_kubernetes ElastigroupAzure#integration_kubernetes}
 
 ---
 
@@ -1874,7 +1874,7 @@ public ElastigroupAzureIntegrationMultaiRuntime IntegrationMultaiRuntime { get; 
 
 integration_multai_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#integration_multai_runtime ElastigroupAzure#integration_multai_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#integration_multai_runtime ElastigroupAzure#integration_multai_runtime}
 
 ---
 
@@ -1888,7 +1888,7 @@ public object LoadBalancers { get; set; }
 
 load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#load_balancers ElastigroupAzure#load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#load_balancers ElastigroupAzure#load_balancers}
 
 ---
 
@@ -1902,7 +1902,7 @@ public ElastigroupAzureLogin Login { get; set; }
 
 login block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#login ElastigroupAzure#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#login ElastigroupAzure#login}
 
 ---
 
@@ -1916,7 +1916,7 @@ public object ManagedServiceIdentities { get; set; }
 
 managed_service_identities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#managed_service_identities ElastigroupAzure#managed_service_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#managed_service_identities ElastigroupAzure#managed_service_identities}
 
 ---
 
@@ -1928,7 +1928,7 @@ public double MaxSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_size ElastigroupAzure#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_size ElastigroupAzure#max_size}.
 
 ---
 
@@ -1940,7 +1940,7 @@ public double MinSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_size ElastigroupAzure#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_size ElastigroupAzure#min_size}.
 
 ---
 
@@ -1954,7 +1954,7 @@ public object ScalingDownPolicy { get; set; }
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scaling_down_policy ElastigroupAzure#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scaling_down_policy ElastigroupAzure#scaling_down_policy}
 
 ---
 
@@ -1968,7 +1968,7 @@ public object ScalingUpPolicy { get; set; }
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scaling_up_policy ElastigroupAzure#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scaling_up_policy ElastigroupAzure#scaling_up_policy}
 
 ---
 
@@ -1982,7 +1982,7 @@ public object ScheduledTask { get; set; }
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scheduled_task ElastigroupAzure#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scheduled_task ElastigroupAzure#scheduled_task}
 
 ---
 
@@ -1994,7 +1994,7 @@ public string ShutdownScript { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#shutdown_script ElastigroupAzure#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#shutdown_script ElastigroupAzure#shutdown_script}.
 
 ---
 
@@ -2008,7 +2008,7 @@ public ElastigroupAzureUpdatePolicy UpdatePolicy { get; set; }
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#update_policy ElastigroupAzure#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#update_policy ElastigroupAzure#update_policy}
 
 ---
 
@@ -2020,7 +2020,7 @@ public string UserData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#user_data ElastigroupAzure#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#user_data ElastigroupAzure#user_data}.
 
 ---
 
@@ -2042,9 +2042,9 @@ new ElastigroupAzureHealthCheck {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.healthCheckType">HealthCheckType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.autoHealing">AutoHealing</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#auto_healing ElastigroupAzure#auto_healing}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.healthCheckType">HealthCheckType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.autoHealing">AutoHealing</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#auto_healing ElastigroupAzure#auto_healing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureHealthCheck.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
 
 ---
 
@@ -2056,7 +2056,7 @@ public string HealthCheckType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}.
 
 ---
 
@@ -2068,7 +2068,7 @@ public object AutoHealing { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#auto_healing ElastigroupAzure#auto_healing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#auto_healing ElastigroupAzure#auto_healing}.
 
 ---
 
@@ -2080,7 +2080,7 @@ public double GracePeriod { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
 
 ---
 
@@ -2116,7 +2116,7 @@ public object Custom { get; set; }
 
 custom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#custom ElastigroupAzure#custom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#custom ElastigroupAzure#custom}
 
 ---
 
@@ -2130,7 +2130,7 @@ public object Marketplace { get; set; }
 
 marketplace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#marketplace ElastigroupAzure#marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#marketplace ElastigroupAzure#marketplace}
 
 ---
 
@@ -2151,8 +2151,8 @@ new ElastigroupAzureImageCustom {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageCustom.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#image_name ElastigroupAzure#image_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageCustom.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageCustom.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#image_name ElastigroupAzure#image_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageCustom.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
 
 ---
 
@@ -2164,7 +2164,7 @@ public string ImageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#image_name ElastigroupAzure#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#image_name ElastigroupAzure#image_name}.
 
 ---
 
@@ -2176,7 +2176,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
 
 ---
 
@@ -2198,9 +2198,9 @@ new ElastigroupAzureImageMarketplace {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#offer ElastigroupAzure#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#publisher ElastigroupAzure#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#sku ElastigroupAzure#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#offer ElastigroupAzure#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#publisher ElastigroupAzure#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#sku ElastigroupAzure#sku}. |
 
 ---
 
@@ -2212,7 +2212,7 @@ public string Offer { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#offer ElastigroupAzure#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#offer ElastigroupAzure#offer}.
 
 ---
 
@@ -2224,7 +2224,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#publisher ElastigroupAzure#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#publisher ElastigroupAzure#publisher}.
 
 ---
 
@@ -2236,7 +2236,7 @@ public string Sku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#sku ElastigroupAzure#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#sku ElastigroupAzure#sku}.
 
 ---
 
@@ -2256,7 +2256,7 @@ new ElastigroupAzureIntegrationKubernetes {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationKubernetes.property.clusterIdentifier">ClusterIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cluster_identifier ElastigroupAzure#cluster_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationKubernetes.property.clusterIdentifier">ClusterIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cluster_identifier ElastigroupAzure#cluster_identifier}. |
 
 ---
 
@@ -2268,7 +2268,7 @@ public string ClusterIdentifier { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cluster_identifier ElastigroupAzure#cluster_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cluster_identifier ElastigroupAzure#cluster_identifier}.
 
 ---
 
@@ -2288,7 +2288,7 @@ new ElastigroupAzureIntegrationMultaiRuntime {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationMultaiRuntime.property.deploymentId">DeploymentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#deployment_id ElastigroupAzure#deployment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureIntegrationMultaiRuntime.property.deploymentId">DeploymentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#deployment_id ElastigroupAzure#deployment_id}. |
 
 ---
 
@@ -2300,7 +2300,7 @@ public string DeploymentId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#deployment_id ElastigroupAzure#deployment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#deployment_id ElastigroupAzure#deployment_id}.
 
 ---
 
@@ -2323,10 +2323,10 @@ new ElastigroupAzureLoadBalancers {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#type ElastigroupAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.autoWeight">AutoWeight</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#auto_weight ElastigroupAzure#auto_weight}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.balancerId">BalancerId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#balancer_id ElastigroupAzure#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.targetSetId">TargetSetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target_set_id ElastigroupAzure#target_set_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#type ElastigroupAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.autoWeight">AutoWeight</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#auto_weight ElastigroupAzure#auto_weight}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.balancerId">BalancerId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#balancer_id ElastigroupAzure#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLoadBalancers.property.targetSetId">TargetSetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target_set_id ElastigroupAzure#target_set_id}. |
 
 ---
 
@@ -2338,7 +2338,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#type ElastigroupAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#type ElastigroupAzure#type}.
 
 ---
 
@@ -2350,7 +2350,7 @@ public object AutoWeight { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#auto_weight ElastigroupAzure#auto_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#auto_weight ElastigroupAzure#auto_weight}.
 
 ---
 
@@ -2362,7 +2362,7 @@ public string BalancerId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#balancer_id ElastigroupAzure#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#balancer_id ElastigroupAzure#balancer_id}.
 
 ---
 
@@ -2374,7 +2374,7 @@ public string TargetSetId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target_set_id ElastigroupAzure#target_set_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target_set_id ElastigroupAzure#target_set_id}.
 
 ---
 
@@ -2396,9 +2396,9 @@ new ElastigroupAzureLogin {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#user_name ElastigroupAzure#user_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#password ElastigroupAzure#password}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#ssh_public_key ElastigroupAzure#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#user_name ElastigroupAzure#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#password ElastigroupAzure#password}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#ssh_public_key ElastigroupAzure#ssh_public_key}. |
 
 ---
 
@@ -2410,7 +2410,7 @@ public string UserName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#user_name ElastigroupAzure#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#user_name ElastigroupAzure#user_name}.
 
 ---
 
@@ -2422,7 +2422,7 @@ public string Password { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#password ElastigroupAzure#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#password ElastigroupAzure#password}.
 
 ---
 
@@ -2434,7 +2434,7 @@ public string SshPublicKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#ssh_public_key ElastigroupAzure#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#ssh_public_key ElastigroupAzure#ssh_public_key}.
 
 ---
 
@@ -2455,8 +2455,8 @@ new ElastigroupAzureManagedServiceIdentities {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureManagedServiceIdentities.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureManagedServiceIdentities.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
 
 ---
 
@@ -2468,7 +2468,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
 
 ---
 
@@ -2480,7 +2480,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
 
 ---
 
@@ -2504,11 +2504,11 @@ new ElastigroupAzureNetwork {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#subnet_name ElastigroupAzure#subnet_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#virtual_network_name ElastigroupAzure#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#subnet_name ElastigroupAzure#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#virtual_network_name ElastigroupAzure#virtual_network_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.additionalIpConfigs">AdditionalIpConfigs</a></code> | <code>object</code> | additional_ip_configs block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#assign_public_ip ElastigroupAzure#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetwork.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#assign_public_ip ElastigroupAzure#assign_public_ip}. |
 
 ---
 
@@ -2520,7 +2520,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#resource_group_name ElastigroupAzure#resource_group_name}.
 
 ---
 
@@ -2532,7 +2532,7 @@ public string SubnetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#subnet_name ElastigroupAzure#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#subnet_name ElastigroupAzure#subnet_name}.
 
 ---
 
@@ -2544,7 +2544,7 @@ public string VirtualNetworkName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#virtual_network_name ElastigroupAzure#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#virtual_network_name ElastigroupAzure#virtual_network_name}.
 
 ---
 
@@ -2558,7 +2558,7 @@ public object AdditionalIpConfigs { get; set; }
 
 additional_ip_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#additional_ip_configs ElastigroupAzure#additional_ip_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#additional_ip_configs ElastigroupAzure#additional_ip_configs}
 
 ---
 
@@ -2570,7 +2570,7 @@ public object AssignPublicIp { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#assign_public_ip ElastigroupAzure#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#assign_public_ip ElastigroupAzure#assign_public_ip}.
 
 ---
 
@@ -2591,8 +2591,8 @@ new ElastigroupAzureNetworkAdditionalIpConfigs {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetworkAdditionalIpConfigs.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetworkAdditionalIpConfigs.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#private_ip_version ElastigroupAzure#private_ip_version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetworkAdditionalIpConfigs.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureNetworkAdditionalIpConfigs.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#private_ip_version ElastigroupAzure#private_ip_version}. |
 
 ---
 
@@ -2604,7 +2604,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
 
 ---
 
@@ -2616,7 +2616,7 @@ public string PrivateIpVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#private_ip_version ElastigroupAzure#private_ip_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#private_ip_version ElastigroupAzure#private_ip_version}.
 
 ---
 
@@ -2653,24 +2653,24 @@ new ElastigroupAzureScalingDownPolicy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.actionType">ActionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.actionType">ActionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.dimensions">Dimensions</a></code> | <code>object</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.maxTargetCapacity">MaxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.minTargetCapacity">MinTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.maxTargetCapacity">MaxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.minTargetCapacity">MinTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}. |
 
 ---
 
@@ -2682,7 +2682,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}.
 
 ---
 
@@ -2694,7 +2694,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}.
 
 ---
 
@@ -2706,7 +2706,7 @@ public string PolicyName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}.
 
 ---
 
@@ -2718,7 +2718,7 @@ public double Threshold { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}.
 
 ---
 
@@ -2730,7 +2730,7 @@ public string ActionType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}.
 
 ---
 
@@ -2742,7 +2742,7 @@ public string Adjustment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
 
 ---
 
@@ -2754,7 +2754,7 @@ public double Cooldown { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}.
 
 ---
 
@@ -2768,7 +2768,7 @@ public object Dimensions { get; set; }
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#dimensions ElastigroupAzure#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#dimensions ElastigroupAzure#dimensions}
 
 ---
 
@@ -2780,7 +2780,7 @@ public double EvaluationPeriods { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}.
 
 ---
 
@@ -2792,7 +2792,7 @@ public string Maximum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}.
 
 ---
 
@@ -2804,7 +2804,7 @@ public string MaxTargetCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}.
 
 ---
 
@@ -2816,7 +2816,7 @@ public string Minimum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}.
 
 ---
 
@@ -2828,7 +2828,7 @@ public string MinTargetCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}.
 
 ---
 
@@ -2840,7 +2840,7 @@ public string Operator { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}.
 
 ---
 
@@ -2852,7 +2852,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}.
 
 ---
 
@@ -2864,7 +2864,7 @@ public string Statistic { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}.
 
 ---
 
@@ -2876,7 +2876,7 @@ public string Target { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}.
 
 ---
 
@@ -2888,7 +2888,7 @@ public string Unit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}.
 
 ---
 
@@ -2909,8 +2909,8 @@ new ElastigroupAzureScalingDownPolicyDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingDownPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}. |
 
 ---
 
@@ -2922,7 +2922,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
 
 ---
 
@@ -2934,7 +2934,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}.
 
 ---
 
@@ -2971,24 +2971,24 @@ new ElastigroupAzureScalingUpPolicy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.actionType">ActionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.actionType">ActionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.dimensions">Dimensions</a></code> | <code>object</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.maxTargetCapacity">MaxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.minTargetCapacity">MinTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.maxTargetCapacity">MaxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.minTargetCapacity">MinTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}. |
 
 ---
 
@@ -3000,7 +3000,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#metric_name ElastigroupAzure#metric_name}.
 
 ---
 
@@ -3012,7 +3012,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#namespace ElastigroupAzure#namespace}.
 
 ---
 
@@ -3024,7 +3024,7 @@ public string PolicyName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#policy_name ElastigroupAzure#policy_name}.
 
 ---
 
@@ -3036,7 +3036,7 @@ public double Threshold { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#threshold ElastigroupAzure#threshold}.
 
 ---
 
@@ -3048,7 +3048,7 @@ public string ActionType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#action_type ElastigroupAzure#action_type}.
 
 ---
 
@@ -3060,7 +3060,7 @@ public string Adjustment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
 
 ---
 
@@ -3072,7 +3072,7 @@ public double Cooldown { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cooldown ElastigroupAzure#cooldown}.
 
 ---
 
@@ -3086,7 +3086,7 @@ public object Dimensions { get; set; }
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#dimensions ElastigroupAzure#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#dimensions ElastigroupAzure#dimensions}
 
 ---
 
@@ -3098,7 +3098,7 @@ public double EvaluationPeriods { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#evaluation_periods ElastigroupAzure#evaluation_periods}.
 
 ---
 
@@ -3110,7 +3110,7 @@ public string Maximum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#maximum ElastigroupAzure#maximum}.
 
 ---
 
@@ -3122,7 +3122,7 @@ public string MaxTargetCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#max_target_capacity ElastigroupAzure#max_target_capacity}.
 
 ---
 
@@ -3134,7 +3134,7 @@ public string Minimum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#minimum ElastigroupAzure#minimum}.
 
 ---
 
@@ -3146,7 +3146,7 @@ public string MinTargetCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#min_target_capacity ElastigroupAzure#min_target_capacity}.
 
 ---
 
@@ -3158,7 +3158,7 @@ public string Operator { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#operator ElastigroupAzure#operator}.
 
 ---
 
@@ -3170,7 +3170,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#period ElastigroupAzure#period}.
 
 ---
 
@@ -3182,7 +3182,7 @@ public string Statistic { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#statistic ElastigroupAzure#statistic}.
 
 ---
 
@@ -3194,7 +3194,7 @@ public string Target { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#target ElastigroupAzure#target}.
 
 ---
 
@@ -3206,7 +3206,7 @@ public string Unit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#unit ElastigroupAzure#unit}.
 
 ---
 
@@ -3227,8 +3227,8 @@ new ElastigroupAzureScalingUpPolicyDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScalingUpPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}. |
 
 ---
 
@@ -3240,7 +3240,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#name ElastigroupAzure#name}.
 
 ---
 
@@ -3252,7 +3252,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#value ElastigroupAzure#value}.
 
 ---
 
@@ -3281,16 +3281,16 @@ new ElastigroupAzureScheduledTask {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.cronExpression">CronExpression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cron_expression ElastigroupAzure#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.taskType">TaskType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#task_type ElastigroupAzure#task_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.adjustmentPercentage">AdjustmentPercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment_percentage ElastigroupAzure#adjustment_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.gracePeriod">GracePeriod</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#is_enabled ElastigroupAzure#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleMaxCapacity">ScaleMaxCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_max_capacity ElastigroupAzure#scale_max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleMinCapacity">ScaleMinCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_min_capacity ElastigroupAzure#scale_min_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleTargetCapacity">ScaleTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_target_capacity ElastigroupAzure#scale_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.cronExpression">CronExpression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cron_expression ElastigroupAzure#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.taskType">TaskType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#task_type ElastigroupAzure#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.adjustmentPercentage">AdjustmentPercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment_percentage ElastigroupAzure#adjustment_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.gracePeriod">GracePeriod</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#is_enabled ElastigroupAzure#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleMaxCapacity">ScaleMaxCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_max_capacity ElastigroupAzure#scale_max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleMinCapacity">ScaleMinCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_min_capacity ElastigroupAzure#scale_min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureScheduledTask.property.scaleTargetCapacity">ScaleTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_target_capacity ElastigroupAzure#scale_target_capacity}. |
 
 ---
 
@@ -3302,7 +3302,7 @@ public string CronExpression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#cron_expression ElastigroupAzure#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#cron_expression ElastigroupAzure#cron_expression}.
 
 ---
 
@@ -3314,7 +3314,7 @@ public string TaskType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#task_type ElastigroupAzure#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#task_type ElastigroupAzure#task_type}.
 
 ---
 
@@ -3326,7 +3326,7 @@ public string Adjustment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment ElastigroupAzure#adjustment}.
 
 ---
 
@@ -3338,7 +3338,7 @@ public string AdjustmentPercentage { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#adjustment_percentage ElastigroupAzure#adjustment_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#adjustment_percentage ElastigroupAzure#adjustment_percentage}.
 
 ---
 
@@ -3350,7 +3350,7 @@ public string BatchSizePercentage { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}.
 
 ---
 
@@ -3362,7 +3362,7 @@ public string GracePeriod { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
 
 ---
 
@@ -3374,7 +3374,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#is_enabled ElastigroupAzure#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#is_enabled ElastigroupAzure#is_enabled}.
 
 ---
 
@@ -3386,7 +3386,7 @@ public string ScaleMaxCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_max_capacity ElastigroupAzure#scale_max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_max_capacity ElastigroupAzure#scale_max_capacity}.
 
 ---
 
@@ -3398,7 +3398,7 @@ public string ScaleMinCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_min_capacity ElastigroupAzure#scale_min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_min_capacity ElastigroupAzure#scale_min_capacity}.
 
 ---
 
@@ -3410,7 +3410,7 @@ public string ScaleTargetCapacity { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#scale_target_capacity ElastigroupAzure#scale_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#scale_target_capacity ElastigroupAzure#scale_target_capacity}.
 
 ---
 
@@ -3432,9 +3432,9 @@ new ElastigroupAzureStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#draining_timeout ElastigroupAzure#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.lowPriorityPercentage">LowPriorityPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#low_priority_percentage ElastigroupAzure#low_priority_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.odCount">OdCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#od_count ElastigroupAzure#od_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#draining_timeout ElastigroupAzure#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.lowPriorityPercentage">LowPriorityPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#low_priority_percentage ElastigroupAzure#low_priority_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureStrategy.property.odCount">OdCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#od_count ElastigroupAzure#od_count}. |
 
 ---
 
@@ -3446,7 +3446,7 @@ public double DrainingTimeout { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#draining_timeout ElastigroupAzure#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#draining_timeout ElastigroupAzure#draining_timeout}.
 
 ---
 
@@ -3458,7 +3458,7 @@ public double LowPriorityPercentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#low_priority_percentage ElastigroupAzure#low_priority_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#low_priority_percentage ElastigroupAzure#low_priority_percentage}.
 
 ---
 
@@ -3470,7 +3470,7 @@ public double OdCount { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#od_count ElastigroupAzure#od_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#od_count ElastigroupAzure#od_count}.
 
 ---
 
@@ -3491,7 +3491,7 @@ new ElastigroupAzureUpdatePolicy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#should_roll ElastigroupAzure#should_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#should_roll ElastigroupAzure#should_roll}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicy.property.rollConfig">RollConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig">ElastigroupAzureUpdatePolicyRollConfig</a></code> | roll_config block. |
 
 ---
@@ -3504,7 +3504,7 @@ public object ShouldRoll { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#should_roll ElastigroupAzure#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#should_roll ElastigroupAzure#should_roll}.
 
 ---
 
@@ -3518,7 +3518,7 @@ public ElastigroupAzureUpdatePolicyRollConfig RollConfig { get; set; }
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#roll_config ElastigroupAzure#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#roll_config ElastigroupAzure#roll_config}
 
 ---
 
@@ -3540,9 +3540,9 @@ new ElastigroupAzureUpdatePolicyRollConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.healthCheckType">HealthCheckType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzure.ElastigroupAzureUpdatePolicyRollConfig.property.healthCheckType">HealthCheckType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}. |
 
 ---
 
@@ -3554,7 +3554,7 @@ public double BatchSizePercentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#batch_size_percentage ElastigroupAzure#batch_size_percentage}.
 
 ---
 
@@ -3566,7 +3566,7 @@ public double GracePeriod { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#grace_period ElastigroupAzure#grace_period}.
 
 ---
 
@@ -3578,7 +3578,7 @@ public string HealthCheckType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.167.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_azure#health_check_type ElastigroupAzure#health_check_type}.
 
 ---
 
