@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 // https://registry.terraform.io/providers/spotinst/spotinst/1.168.1/docs/resources/elastigroup_aws
 // generated from terraform resource schema
 
