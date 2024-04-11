@@ -4,7 +4,7 @@
 
 ### ElastigroupAws <a name="ElastigroupAws" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws spotinst_elastigroup_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws spotinst_elastigroup_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer"></a>
 
@@ -148,37 +148,37 @@ ElastigroupAws.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.fallbackToOndemand">fallbackToOndemand</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.orientation">orientation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.product">product</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.availabilityZones">availabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.blockDevicesMode">blockDevicesMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.capacityUnit">capacityUnit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.considerOdPricing">considerOdPricing</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuCredits">cpuCredits</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.fallbackToOndemand">fallbackToOndemand</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.orientation">orientation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.product">product</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.availabilityZones">availabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.blockDevicesMode">blockDevicesMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.capacityUnit">capacityUnit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.considerOdPricing">considerOdPricing</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuCredits">cpuCredits</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.cpuOptions">cpuOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions">ElastigroupAwsCpuOptions</a></code> | cpu_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.desiredCapacity">desiredCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.desiredCapacity">desiredCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsBlockDevice">ebsBlockDevice</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>></code> | ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsOptimized">ebsOptimized</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticIps">elasticIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticLoadBalancers">elasticLoadBalancers</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.enableMonitoring">enableMonitoring</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ebsOptimized">ebsOptimized</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticIps">elasticIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.elasticLoadBalancers">elasticLoadBalancers</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.enableMonitoring">enableMonitoring</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ephemeralBlockDevice">ephemeralBlockDevice</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>></code> | ephemeral_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckUnhealthyDurationBeforeReplacement">healthCheckUnhealthyDurationBeforeReplacement</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.iamInstanceProfile">iamInstanceProfile</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.imageId">imageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.healthCheckUnhealthyDurationBeforeReplacement">healthCheckUnhealthyDurationBeforeReplacement</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.iamInstanceProfile">iamInstanceProfile</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.imageId">imageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.images">images</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>></code> | images block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.immediateOdRecoverThreshold">immediateOdRecoverThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesPreferredSpot">instanceTypesPreferredSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesSpot">instanceTypesSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.immediateOdRecoverThreshold">immediateOdRecoverThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesPreferredSpot">instanceTypesPreferredSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesSpot">instanceTypesSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.instanceTypesWeights">instanceTypesWeights</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>></code> | instance_types_weights block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationBeanstalk">integrationBeanstalk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk">ElastigroupAwsIntegrationBeanstalk</a></code> | integration_beanstalk block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationCodedeploy">integrationCodedeploy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy">ElastigroupAwsIntegrationCodedeploy</a></code> | integration_codedeploy block. |
@@ -192,25 +192,25 @@ ElastigroupAws.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationRancher">integrationRancher</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher">ElastigroupAwsIntegrationRancher</a></code> | integration_rancher block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.integrationRoute53">integrationRoute53</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53">ElastigroupAwsIntegrationRoute53</a></code> | integration_route53 block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.itf">itf</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>></code> | itf block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.keyName">keyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifetimePeriod">lifetimePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.keyName">keyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.lifetimePeriod">lifetimePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.logging">logging</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLogging">ElastigroupAwsLogging</a></code> | logging block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.metadataOptions">metadataOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | metadata_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minimumInstanceLifetime">minimumInstanceLifetime</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minSize">minSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minimumInstanceLifetime">minimumInstanceLifetime</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.minSize">minSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.multaiTargetSets">multaiTargetSets</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>></code> | multai_target_sets block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.multipleMetrics">multipleMetrics</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetrics">ElastigroupAwsMultipleMetrics</a></code> | multiple_metrics block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.networkInterface">networkInterface</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>></code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ondemandCount">ondemandCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.onDemandTypes">onDemandTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistBlockDevices">persistBlockDevices</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistPrivateIp">persistPrivateIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistRootDevice">persistRootDevice</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.placementTenancy">placementTenancy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.preferredAvailabilityZones">preferredAvailabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.privateIps">privateIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.ondemandCount">ondemandCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.onDemandTypes">onDemandTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistBlockDevices">persistBlockDevices</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistPrivateIp">persistPrivateIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.persistRootDevice">persistRootDevice</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.placementTenancy">placementTenancy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.preferredAvailabilityZones">preferredAvailabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.privateIps">privateIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.resourceRequirements">resourceRequirements</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements">ElastigroupAwsResourceRequirements</a>></code> | resource_requirements block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.resourceTagSpecification">resourceTagSpecification</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>></code> | resource_tag_specification block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.revertToSpot">revertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot">ElastigroupAwsRevertToSpot</a></code> | revert_to_spot block. |
@@ -219,20 +219,20 @@ ElastigroupAws.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scalingTargetPolicy">scalingTargetPolicy</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>></code> | scaling_target_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scalingUpPolicy">scalingUpPolicy</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>></code> | scaling_up_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.scheduledTask">scheduledTask</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>></code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.shutdownScript">shutdownScript</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.shutdownScript">shutdownScript</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.signal">signal</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>></code> | signal block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.spotPercentage">spotPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.spotPercentage">spotPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.statefulDeallocation">statefulDeallocation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation">ElastigroupAwsStatefulDeallocation</a></code> | stateful_deallocation block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.statefulInstanceAction">statefulInstanceAction</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>></code> | stateful_instance_action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.tags">tags</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>></code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.targetGroupArns">targetGroupArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.targetGroupArns">targetGroupArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.updatePolicy">updatePolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy">ElastigroupAwsUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.userData">userData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeCommitments">utilizeCommitments</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeReservedInstances">utilizeReservedInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacity">waitForCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.userData">userData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeCommitments">utilizeCommitments</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.utilizeReservedInstances">utilizeReservedInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacity">waitForCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAws.Initializer.parameter.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
 
 ---
 
@@ -300,7 +300,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
 
 ---
 
@@ -308,7 +308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -316,7 +316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
 
 ---
 
@@ -324,7 +324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
 
 ---
 
@@ -332,7 +332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
 
 ---
 
@@ -340,7 +340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
 
 ---
 
@@ -348,7 +348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
 
 ---
 
@@ -356,7 +356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
 
 ---
 
@@ -364,7 +364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
 
 ---
 
@@ -372,7 +372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
 
 ---
 
@@ -382,7 +382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 cpu_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
 
 ---
 
@@ -390,7 +390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -398,7 +398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
 
 ---
 
@@ -406,7 +406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -416,7 +416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
 
 ---
 
@@ -424,7 +424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
 
 ---
 
@@ -432,7 +432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
 
 ---
 
@@ -440,7 +440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
 
 ---
 
@@ -448,7 +448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
 
 ---
 
@@ -458,7 +458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 ephemeral_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
 
 ---
 
@@ -466,7 +466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
 
 ---
 
@@ -474,7 +474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -482,7 +482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
 
 ---
 
@@ -490,7 +490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
 
 ---
 
@@ -498,7 +498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -509,7 +509,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
 
 ---
 
@@ -519,7 +519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#images ElastigroupAws#images}
 
 ---
 
@@ -527,7 +527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
 
 ---
 
@@ -535,7 +535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
 
 ---
 
@@ -543,7 +543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
 
 ---
 
@@ -551,7 +551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
 
 ---
 
@@ -561,7 +561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 instance_types_weights block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
 
 ---
 
@@ -571,7 +571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_beanstalk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
 
 ---
 
@@ -581,7 +581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_codedeploy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
 
 ---
 
@@ -591,7 +591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_docker_swarm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
 
 ---
 
@@ -601,7 +601,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_ecs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
 
 ---
 
@@ -611,7 +611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_gitlab block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
 
 ---
 
@@ -621,7 +621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_kubernetes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
 
 ---
 
@@ -631,7 +631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_mesosphere block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
 
 ---
 
@@ -641,7 +641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_multai_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
 
 ---
 
@@ -651,7 +651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_nomad block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
 
 ---
 
@@ -661,7 +661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_rancher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
 
 ---
 
@@ -671,7 +671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 integration_route53 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
 
 ---
 
@@ -681,7 +681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 itf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
 
 ---
 
@@ -689,7 +689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
 
 ---
 
@@ -697,7 +697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
 
 ---
 
@@ -707,7 +707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 logging block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#logging ElastigroupAws#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#logging ElastigroupAws#logging}
 
 ---
 
@@ -715,7 +715,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
 
 ---
 
@@ -725,7 +725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 metadata_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
 
 ---
 
@@ -733,7 +733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
 
 ---
 
@@ -741,7 +741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
 
 ---
 
@@ -751,7 +751,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 multai_target_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
 
 ---
 
@@ -761,7 +761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 multiple_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
 
 ---
 
@@ -771,7 +771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
 
 ---
 
@@ -779,7 +779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
 
 ---
 
@@ -787,7 +787,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
 
 ---
 
@@ -795,7 +795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
 
 ---
 
@@ -803,7 +803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
 
 ---
 
@@ -811,7 +811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
 
 ---
 
@@ -819,7 +819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
 
 ---
 
@@ -827,7 +827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
 
 ---
 
@@ -835,7 +835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
 
 ---
 
@@ -843,7 +843,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
 
 ---
 
@@ -853,7 +853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 resource_requirements block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
 
 ---
 
@@ -863,7 +863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 resource_tag_specification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
 
 ---
 
@@ -873,7 +873,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
 
 ---
 
@@ -883,7 +883,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
 
 ---
 
@@ -893,7 +893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
 
 ---
 
@@ -903,7 +903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_target_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
 
 ---
 
@@ -913,7 +913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
 
 ---
 
@@ -923,7 +923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
 
 ---
 
@@ -931,7 +931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
 
 ---
 
@@ -941,7 +941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
 
 ---
 
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
 
 ---
 
@@ -959,7 +959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 stateful_deallocation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
 
 ---
 
@@ -969,7 +969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 stateful_instance_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
 
 ---
 
@@ -977,7 +977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
 
 ---
 
@@ -987,7 +987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -995,7 +995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
 
 ---
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
 
 ---
 
@@ -1013,7 +1013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
 
 ---
 
@@ -1037,7 +1037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
 
 ---
 
@@ -1045,7 +1045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
 
 ---
 
@@ -2487,7 +2487,7 @@ The construct id used in the generated config for the ElastigroupAws to import.
 
 The id of the existing ElastigroupAws that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -4696,37 +4696,37 @@ ElastigroupAwsConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.fallbackToOndemand">fallbackToOndemand</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.orientation">orientation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.product">product</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.availabilityZones">availabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.blockDevicesMode">blockDevicesMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.capacityUnit">capacityUnit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.considerOdPricing">considerOdPricing</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuCredits">cpuCredits</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.fallbackToOndemand">fallbackToOndemand</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.orientation">orientation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.product">product</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#product ElastigroupAws#product}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.securityGroups">securityGroups</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.availabilityZones">availabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.blockDevicesMode">blockDevicesMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.capacityUnit">capacityUnit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.considerOdPricing">considerOdPricing</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuCredits">cpuCredits</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.cpuOptions">cpuOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions">ElastigroupAwsCpuOptions</a></code> | cpu_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.desiredCapacity">desiredCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.desiredCapacity">desiredCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsBlockDevice">ebsBlockDevice</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice">ElastigroupAwsEbsBlockDevice</a>></code> | ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsOptimized">ebsOptimized</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticIps">elasticIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticLoadBalancers">elasticLoadBalancers</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.enableMonitoring">enableMonitoring</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ebsOptimized">ebsOptimized</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticIps">elasticIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.elasticLoadBalancers">elasticLoadBalancers</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.enableMonitoring">enableMonitoring</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ephemeralBlockDevice">ephemeralBlockDevice</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice">ElastigroupAwsEphemeralBlockDevice</a>></code> | ephemeral_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckUnhealthyDurationBeforeReplacement">healthCheckUnhealthyDurationBeforeReplacement</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.iamInstanceProfile">iamInstanceProfile</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.imageId">imageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckGracePeriod">healthCheckGracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.healthCheckUnhealthyDurationBeforeReplacement">healthCheckUnhealthyDurationBeforeReplacement</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.iamInstanceProfile">iamInstanceProfile</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.imageId">imageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.images">images</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImages">ElastigroupAwsImages</a>></code> | images block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.immediateOdRecoverThreshold">immediateOdRecoverThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesPreferredSpot">instanceTypesPreferredSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesSpot">instanceTypesSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.immediateOdRecoverThreshold">immediateOdRecoverThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesOndemand">instanceTypesOndemand</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesPreferredSpot">instanceTypesPreferredSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesSpot">instanceTypesSpot</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.instanceTypesWeights">instanceTypesWeights</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights">ElastigroupAwsInstanceTypesWeights</a>></code> | instance_types_weights block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationBeanstalk">integrationBeanstalk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk">ElastigroupAwsIntegrationBeanstalk</a></code> | integration_beanstalk block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationCodedeploy">integrationCodedeploy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy">ElastigroupAwsIntegrationCodedeploy</a></code> | integration_codedeploy block. |
@@ -4740,25 +4740,25 @@ ElastigroupAwsConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationRancher">integrationRancher</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher">ElastigroupAwsIntegrationRancher</a></code> | integration_rancher block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.integrationRoute53">integrationRoute53</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53">ElastigroupAwsIntegrationRoute53</a></code> | integration_route53 block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.itf">itf</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf">ElastigroupAwsItf</a>></code> | itf block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.keyName">keyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifetimePeriod">lifetimePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.keyName">keyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.lifetimePeriod">lifetimePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.logging">logging</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLogging">ElastigroupAwsLogging</a></code> | logging block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.maxSize">maxSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.metadataOptions">metadataOptions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions">ElastigroupAwsMetadataOptions</a></code> | metadata_options block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minimumInstanceLifetime">minimumInstanceLifetime</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minSize">minSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minimumInstanceLifetime">minimumInstanceLifetime</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.minSize">minSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.multaiTargetSets">multaiTargetSets</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets">ElastigroupAwsMultaiTargetSets</a>></code> | multai_target_sets block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.multipleMetrics">multipleMetrics</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetrics">ElastigroupAwsMultipleMetrics</a></code> | multiple_metrics block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.networkInterface">networkInterface</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface">ElastigroupAwsNetworkInterface</a>></code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ondemandCount">ondemandCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.onDemandTypes">onDemandTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistBlockDevices">persistBlockDevices</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistPrivateIp">persistPrivateIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistRootDevice">persistRootDevice</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.placementTenancy">placementTenancy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.preferredAvailabilityZones">preferredAvailabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.privateIps">privateIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.ondemandCount">ondemandCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.onDemandTypes">onDemandTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistBlockDevices">persistBlockDevices</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistPrivateIp">persistPrivateIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.persistRootDevice">persistRootDevice</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.placementTenancy">placementTenancy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.preferredAvailabilityZones">preferredAvailabilityZones</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.privateIps">privateIps</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#region ElastigroupAws#region}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.resourceRequirements">resourceRequirements</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements">ElastigroupAwsResourceRequirements</a>></code> | resource_requirements block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.resourceTagSpecification">resourceTagSpecification</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification">ElastigroupAwsResourceTagSpecification</a>></code> | resource_tag_specification block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.revertToSpot">revertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot">ElastigroupAwsRevertToSpot</a></code> | revert_to_spot block. |
@@ -4767,20 +4767,20 @@ ElastigroupAwsConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scalingTargetPolicy">scalingTargetPolicy</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy">ElastigroupAwsScalingTargetPolicy</a>></code> | scaling_target_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scalingUpPolicy">scalingUpPolicy</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy">ElastigroupAwsScalingUpPolicy</a>></code> | scaling_up_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.scheduledTask">scheduledTask</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask">ElastigroupAwsScheduledTask</a>></code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.shutdownScript">shutdownScript</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.shutdownScript">shutdownScript</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.signal">signal</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal">ElastigroupAwsSignal</a>></code> | signal block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.spotPercentage">spotPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.spotPercentage">spotPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.statefulDeallocation">statefulDeallocation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation">ElastigroupAwsStatefulDeallocation</a></code> | stateful_deallocation block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.statefulInstanceAction">statefulInstanceAction</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction">ElastigroupAwsStatefulInstanceAction</a>></code> | stateful_instance_action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.tags">tags</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags">ElastigroupAwsTags</a>></code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.targetGroupArns">targetGroupArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.targetGroupArns">targetGroupArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.updatePolicy">updatePolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy">ElastigroupAwsUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.userData">userData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeCommitments">utilizeCommitments</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeReservedInstances">utilizeReservedInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacity">waitForCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.userData">userData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeCommitments">utilizeCommitments</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.utilizeReservedInstances">utilizeReservedInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacity">waitForCapacity</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsConfig.property.waitForCapacityTimeout">waitForCapacityTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}. |
 
 ---
 
@@ -4862,7 +4862,7 @@ public java.lang.Object getFallbackToOndemand();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fallback_to_ondemand ElastigroupAws#fallback_to_ondemand}.
 
 ---
 
@@ -4874,7 +4874,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -4886,7 +4886,7 @@ public java.lang.String getOrientation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#orientation ElastigroupAws#orientation}.
 
 ---
 
@@ -4898,7 +4898,7 @@ public java.lang.String getProduct();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#product ElastigroupAws#product}.
 
 ---
 
@@ -4910,7 +4910,7 @@ public java.util.List<java.lang.String> getSecurityGroups();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#security_groups ElastigroupAws#security_groups}.
 
 ---
 
@@ -4922,7 +4922,7 @@ public java.util.List<java.lang.String> getAvailabilityZones();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#availability_zones ElastigroupAws#availability_zones}.
 
 ---
 
@@ -4934,7 +4934,7 @@ public java.lang.String getBlockDevicesMode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#block_devices_mode ElastigroupAws#block_devices_mode}.
 
 ---
 
@@ -4946,7 +4946,7 @@ public java.lang.String getCapacityUnit();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#capacity_unit ElastigroupAws#capacity_unit}.
 
 ---
 
@@ -4958,7 +4958,7 @@ public java.lang.Object getConsiderOdPricing();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#consider_od_pricing ElastigroupAws#consider_od_pricing}.
 
 ---
 
@@ -4970,7 +4970,7 @@ public java.lang.String getCpuCredits();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_credits ElastigroupAws#cpu_credits}.
 
 ---
 
@@ -4984,7 +4984,7 @@ public ElastigroupAwsCpuOptions getCpuOptions();
 
 cpu_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_options ElastigroupAws#cpu_options}
 
 ---
 
@@ -4996,7 +4996,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -5008,7 +5008,7 @@ public java.lang.Number getDesiredCapacity();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#desired_capacity ElastigroupAws#desired_capacity}.
 
 ---
 
@@ -5020,7 +5020,7 @@ public java.lang.Number getDrainingTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -5034,7 +5034,7 @@ public java.lang.Object getEbsBlockDevice();
 
 ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_block_device ElastigroupAws#ebs_block_device}
 
 ---
 
@@ -5046,7 +5046,7 @@ public java.lang.Object getEbsOptimized();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ebs_optimized ElastigroupAws#ebs_optimized}.
 
 ---
 
@@ -5058,7 +5058,7 @@ public java.util.List<java.lang.String> getElasticIps();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_ips ElastigroupAws#elastic_ips}.
 
 ---
 
@@ -5070,7 +5070,7 @@ public java.util.List<java.lang.String> getElasticLoadBalancers();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#elastic_load_balancers ElastigroupAws#elastic_load_balancers}.
 
 ---
 
@@ -5082,7 +5082,7 @@ public java.lang.Object getEnableMonitoring();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#enable_monitoring ElastigroupAws#enable_monitoring}.
 
 ---
 
@@ -5096,7 +5096,7 @@ public java.lang.Object getEphemeralBlockDevice();
 
 ephemeral_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ephemeral_block_device ElastigroupAws#ephemeral_block_device}
 
 ---
 
@@ -5108,7 +5108,7 @@ public java.lang.Number getHealthCheckGracePeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_grace_period ElastigroupAws#health_check_grace_period}.
 
 ---
 
@@ -5120,7 +5120,7 @@ public java.lang.String getHealthCheckType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -5132,7 +5132,7 @@ public java.lang.Number getHealthCheckUnhealthyDurationBeforeReplacement();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_unhealthy_duration_before_replacement ElastigroupAws#health_check_unhealthy_duration_before_replacement}.
 
 ---
 
@@ -5144,7 +5144,7 @@ public java.lang.String getIamInstanceProfile();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iam_instance_profile ElastigroupAws#iam_instance_profile}.
 
 ---
 
@@ -5156,7 +5156,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5171,7 +5171,7 @@ public java.lang.String getImageId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#image_id ElastigroupAws#image_id}.
 
 ---
 
@@ -5185,7 +5185,7 @@ public java.lang.Object getImages();
 
 images block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#images ElastigroupAws#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#images ElastigroupAws#images}
 
 ---
 
@@ -5197,7 +5197,7 @@ public java.lang.Number getImmediateOdRecoverThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#immediate_od_recover_threshold ElastigroupAws#immediate_od_recover_threshold}.
 
 ---
 
@@ -5209,7 +5209,7 @@ public java.lang.String getInstanceTypesOndemand();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_ondemand ElastigroupAws#instance_types_ondemand}.
 
 ---
 
@@ -5221,7 +5221,7 @@ public java.util.List<java.lang.String> getInstanceTypesPreferredSpot();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_preferred_spot ElastigroupAws#instance_types_preferred_spot}.
 
 ---
 
@@ -5233,7 +5233,7 @@ public java.util.List<java.lang.String> getInstanceTypesSpot();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_spot ElastigroupAws#instance_types_spot}.
 
 ---
 
@@ -5247,7 +5247,7 @@ public java.lang.Object getInstanceTypesWeights();
 
 instance_types_weights block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_types_weights ElastigroupAws#instance_types_weights}
 
 ---
 
@@ -5261,7 +5261,7 @@ public ElastigroupAwsIntegrationBeanstalk getIntegrationBeanstalk();
 
 integration_beanstalk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_beanstalk ElastigroupAws#integration_beanstalk}
 
 ---
 
@@ -5275,7 +5275,7 @@ public ElastigroupAwsIntegrationCodedeploy getIntegrationCodedeploy();
 
 integration_codedeploy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_codedeploy ElastigroupAws#integration_codedeploy}
 
 ---
 
@@ -5289,7 +5289,7 @@ public ElastigroupAwsIntegrationDockerSwarm getIntegrationDockerSwarm();
 
 integration_docker_swarm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_docker_swarm ElastigroupAws#integration_docker_swarm}
 
 ---
 
@@ -5303,7 +5303,7 @@ public ElastigroupAwsIntegrationEcs getIntegrationEcs();
 
 integration_ecs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_ecs ElastigroupAws#integration_ecs}
 
 ---
 
@@ -5317,7 +5317,7 @@ public ElastigroupAwsIntegrationGitlab getIntegrationGitlab();
 
 integration_gitlab block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_gitlab ElastigroupAws#integration_gitlab}
 
 ---
 
@@ -5331,7 +5331,7 @@ public ElastigroupAwsIntegrationKubernetes getIntegrationKubernetes();
 
 integration_kubernetes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_kubernetes ElastigroupAws#integration_kubernetes}
 
 ---
 
@@ -5345,7 +5345,7 @@ public ElastigroupAwsIntegrationMesosphere getIntegrationMesosphere();
 
 integration_mesosphere block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_mesosphere ElastigroupAws#integration_mesosphere}
 
 ---
 
@@ -5359,7 +5359,7 @@ public ElastigroupAwsIntegrationMultaiRuntime getIntegrationMultaiRuntime();
 
 integration_multai_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_multai_runtime ElastigroupAws#integration_multai_runtime}
 
 ---
 
@@ -5373,7 +5373,7 @@ public ElastigroupAwsIntegrationNomad getIntegrationNomad();
 
 integration_nomad block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_nomad ElastigroupAws#integration_nomad}
 
 ---
 
@@ -5387,7 +5387,7 @@ public ElastigroupAwsIntegrationRancher getIntegrationRancher();
 
 integration_rancher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_rancher ElastigroupAws#integration_rancher}
 
 ---
 
@@ -5401,7 +5401,7 @@ public ElastigroupAwsIntegrationRoute53 getIntegrationRoute53();
 
 integration_route53 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_route53 ElastigroupAws#integration_route53}
 
 ---
 
@@ -5415,7 +5415,7 @@ public java.lang.Object getItf();
 
 itf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#itf ElastigroupAws#itf}
 
 ---
 
@@ -5427,7 +5427,7 @@ public java.lang.String getKeyName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key_name ElastigroupAws#key_name}.
 
 ---
 
@@ -5439,7 +5439,7 @@ public java.lang.String getLifetimePeriod();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#lifetime_period ElastigroupAws#lifetime_period}.
 
 ---
 
@@ -5453,7 +5453,7 @@ public ElastigroupAwsLogging getLogging();
 
 logging block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#logging ElastigroupAws#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#logging ElastigroupAws#logging}
 
 ---
 
@@ -5465,7 +5465,7 @@ public java.lang.Number getMaxSize();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_size ElastigroupAws#max_size}.
 
 ---
 
@@ -5479,7 +5479,7 @@ public ElastigroupAwsMetadataOptions getMetadataOptions();
 
 metadata_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metadata_options ElastigroupAws#metadata_options}
 
 ---
 
@@ -5491,7 +5491,7 @@ public java.lang.Number getMinimumInstanceLifetime();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum_instance_lifetime ElastigroupAws#minimum_instance_lifetime}.
 
 ---
 
@@ -5503,7 +5503,7 @@ public java.lang.Number getMinSize();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_size ElastigroupAws#min_size}.
 
 ---
 
@@ -5517,7 +5517,7 @@ public java.lang.Object getMultaiTargetSets();
 
 multai_target_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#multai_target_sets ElastigroupAws#multai_target_sets}
 
 ---
 
@@ -5531,7 +5531,7 @@ public ElastigroupAwsMultipleMetrics getMultipleMetrics();
 
 multiple_metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#multiple_metrics ElastigroupAws#multiple_metrics}
 
 ---
 
@@ -5545,7 +5545,7 @@ public java.lang.Object getNetworkInterface();
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#network_interface ElastigroupAws#network_interface}
 
 ---
 
@@ -5557,7 +5557,7 @@ public java.lang.Number getOndemandCount();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#ondemand_count ElastigroupAws#ondemand_count}.
 
 ---
 
@@ -5569,7 +5569,7 @@ public java.util.List<java.lang.String> getOnDemandTypes();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#on_demand_types ElastigroupAws#on_demand_types}.
 
 ---
 
@@ -5581,7 +5581,7 @@ public java.lang.Object getPersistBlockDevices();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_block_devices ElastigroupAws#persist_block_devices}.
 
 ---
 
@@ -5593,7 +5593,7 @@ public java.lang.Object getPersistPrivateIp();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_private_ip ElastigroupAws#persist_private_ip}.
 
 ---
 
@@ -5605,7 +5605,7 @@ public java.lang.Object getPersistRootDevice();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#persist_root_device ElastigroupAws#persist_root_device}.
 
 ---
 
@@ -5617,7 +5617,7 @@ public java.lang.String getPlacementTenancy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#placement_tenancy ElastigroupAws#placement_tenancy}.
 
 ---
 
@@ -5629,7 +5629,7 @@ public java.util.List<java.lang.String> getPreferredAvailabilityZones();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#preferred_availability_zones ElastigroupAws#preferred_availability_zones}.
 
 ---
 
@@ -5641,7 +5641,7 @@ public java.util.List<java.lang.String> getPrivateIps();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ips ElastigroupAws#private_ips}.
 
 ---
 
@@ -5653,7 +5653,7 @@ public java.lang.String getRegion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#region ElastigroupAws#region}.
 
 ---
 
@@ -5667,7 +5667,7 @@ public java.lang.Object getResourceRequirements();
 
 resource_requirements block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#resource_requirements ElastigroupAws#resource_requirements}
 
 ---
 
@@ -5681,7 +5681,7 @@ public java.lang.Object getResourceTagSpecification();
 
 resource_tag_specification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#resource_tag_specification ElastigroupAws#resource_tag_specification}
 
 ---
 
@@ -5695,7 +5695,7 @@ public ElastigroupAwsRevertToSpot getRevertToSpot();
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#revert_to_spot ElastigroupAws#revert_to_spot}
 
 ---
 
@@ -5709,7 +5709,7 @@ public java.lang.Object getScalingDownPolicy();
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_down_policy ElastigroupAws#scaling_down_policy}
 
 ---
 
@@ -5723,7 +5723,7 @@ public java.lang.Object getScalingStrategy();
 
 scaling_strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_strategy ElastigroupAws#scaling_strategy}
 
 ---
 
@@ -5737,7 +5737,7 @@ public java.lang.Object getScalingTargetPolicy();
 
 scaling_target_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_target_policy ElastigroupAws#scaling_target_policy}
 
 ---
 
@@ -5751,7 +5751,7 @@ public java.lang.Object getScalingUpPolicy();
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scaling_up_policy ElastigroupAws#scaling_up_policy}
 
 ---
 
@@ -5765,7 +5765,7 @@ public java.lang.Object getScheduledTask();
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scheduled_task ElastigroupAws#scheduled_task}
 
 ---
 
@@ -5777,7 +5777,7 @@ public java.lang.String getShutdownScript();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#shutdown_script ElastigroupAws#shutdown_script}.
 
 ---
 
@@ -5791,7 +5791,7 @@ public java.lang.Object getSignal();
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#signal ElastigroupAws#signal}
 
 ---
 
@@ -5803,7 +5803,7 @@ public java.lang.Number getSpotPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spot_percentage ElastigroupAws#spot_percentage}.
 
 ---
 
@@ -5817,7 +5817,7 @@ public ElastigroupAwsStatefulDeallocation getStatefulDeallocation();
 
 stateful_deallocation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_deallocation ElastigroupAws#stateful_deallocation}
 
 ---
 
@@ -5831,7 +5831,7 @@ public java.lang.Object getStatefulInstanceAction();
 
 stateful_instance_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_instance_action ElastigroupAws#stateful_instance_action}
 
 ---
 
@@ -5843,7 +5843,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#subnet_ids ElastigroupAws#subnet_ids}.
 
 ---
 
@@ -5857,7 +5857,7 @@ public java.lang.Object getTags();
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -5869,7 +5869,7 @@ public java.util.List<java.lang.String> getTargetGroupArns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_group_arns ElastigroupAws#target_group_arns}.
 
 ---
 
@@ -5883,7 +5883,7 @@ public ElastigroupAwsUpdatePolicy getUpdatePolicy();
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#update_policy ElastigroupAws#update_policy}
 
 ---
 
@@ -5895,7 +5895,7 @@ public java.lang.String getUserData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#user_data ElastigroupAws#user_data}.
 
 ---
 
@@ -5907,7 +5907,7 @@ public java.lang.Object getUtilizeCommitments();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_commitments ElastigroupAws#utilize_commitments}.
 
 ---
 
@@ -5919,7 +5919,7 @@ public java.lang.Object getUtilizeReservedInstances();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#utilize_reserved_instances ElastigroupAws#utilize_reserved_instances}.
 
 ---
 
@@ -5931,7 +5931,7 @@ public java.lang.Number getWaitForCapacity();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity ElastigroupAws#wait_for_capacity}.
 
 ---
 
@@ -5943,7 +5943,7 @@ public java.lang.Number getWaitForCapacityTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_capacity_timeout ElastigroupAws#wait_for_capacity_timeout}.
 
 ---
 
@@ -5963,7 +5963,7 @@ ElastigroupAwsCpuOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions.property.threadsPerCore">threadsPerCore</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsCpuOptions.property.threadsPerCore">threadsPerCore</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}. |
 
 ---
 
@@ -5975,7 +5975,7 @@ public java.lang.Number getThreadsPerCore();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threads_per_core ElastigroupAws#threads_per_core}.
 
 ---
 
@@ -6005,15 +6005,15 @@ ElastigroupAwsEbsBlockDevice.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deviceName">deviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deleteOnTermination">deleteOnTermination</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.encrypted">encrypted</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.iops">iops</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.snapshotId">snapshotId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.throughput">throughput</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeSize">volumeSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deviceName">deviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.deleteOnTermination">deleteOnTermination</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.encrypted">encrypted</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.iops">iops</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.snapshotId">snapshotId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.throughput">throughput</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeSize">volumeSize</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}. |
 
 ---
 
@@ -6025,7 +6025,7 @@ public java.lang.String getDeviceName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
 
 ---
 
@@ -6037,7 +6037,7 @@ public java.lang.Object getDeleteOnTermination();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
 
 ---
 
@@ -6049,7 +6049,7 @@ public java.lang.Object getEncrypted();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#encrypted ElastigroupAws#encrypted}.
 
 ---
 
@@ -6061,7 +6061,7 @@ public java.lang.Number getIops();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#iops ElastigroupAws#iops}.
 
 ---
 
@@ -6073,7 +6073,7 @@ public java.lang.String getKmsKeyId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#kms_key_id ElastigroupAws#kms_key_id}.
 
 ---
 
@@ -6085,7 +6085,7 @@ public java.lang.String getSnapshotId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#snapshot_id ElastigroupAws#snapshot_id}.
 
 ---
 
@@ -6097,7 +6097,7 @@ public java.lang.Number getThroughput();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#throughput ElastigroupAws#throughput}.
 
 ---
 
@@ -6109,7 +6109,7 @@ public java.lang.Number getVolumeSize();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#volume_size ElastigroupAws#volume_size}.
 
 ---
 
@@ -6121,7 +6121,7 @@ public java.lang.String getVolumeType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#volume_type ElastigroupAws#volume_type}.
 
 ---
 
@@ -6142,8 +6142,8 @@ ElastigroupAwsEphemeralBlockDevice.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.deviceName">deviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.virtualName">virtualName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.deviceName">deviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsEphemeralBlockDevice.property.virtualName">virtualName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}. |
 
 ---
 
@@ -6155,7 +6155,7 @@ public java.lang.String getDeviceName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_name ElastigroupAws#device_name}.
 
 ---
 
@@ -6167,7 +6167,7 @@ public java.lang.String getVirtualName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#virtual_name ElastigroupAws#virtual_name}.
 
 ---
 
@@ -6202,7 +6202,7 @@ public java.lang.Object getImage();
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#image ElastigroupAws#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#image ElastigroupAws#image}
 
 ---
 
@@ -6222,7 +6222,7 @@ ElastigroupAwsImagesImage.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsImagesImage.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
 
 ---
 
@@ -6234,7 +6234,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6258,8 +6258,8 @@ ElastigroupAwsInstanceTypesWeights.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.instanceType">instanceType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.weight">weight</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.instanceType">instanceType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsInstanceTypesWeights.property.weight">weight</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}. |
 
 ---
 
@@ -6271,7 +6271,7 @@ public java.lang.String getInstanceType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_type ElastigroupAws#instance_type}.
 
 ---
 
@@ -6283,7 +6283,7 @@ public java.lang.Number getWeight();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#weight ElastigroupAws#weight}.
 
 ---
 
@@ -6306,7 +6306,7 @@ ElastigroupAwsIntegrationBeanstalk.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.deploymentPreferences">deploymentPreferences</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences">ElastigroupAwsIntegrationBeanstalkDeploymentPreferences</a></code> | deployment_preferences block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.environmentId">environmentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.environmentId">environmentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalk.property.managedActions">managedActions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActions">ElastigroupAwsIntegrationBeanstalkManagedActions</a></code> | managed_actions block. |
 
 ---
@@ -6321,7 +6321,7 @@ public ElastigroupAwsIntegrationBeanstalkDeploymentPreferences getDeploymentPref
 
 deployment_preferences block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_preferences ElastigroupAws#deployment_preferences}
 
 ---
 
@@ -6333,7 +6333,7 @@ public java.lang.String getEnvironmentId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#environment_id ElastigroupAws#environment_id}.
 
 ---
 
@@ -6347,7 +6347,7 @@ public ElastigroupAwsIntegrationBeanstalkManagedActions getManagedActions();
 
 managed_actions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#managed_actions ElastigroupAws#managed_actions}
 
 ---
 
@@ -6371,9 +6371,9 @@ ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.automaticRoll">automaticRoll</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.automaticRoll">automaticRoll</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferences.property.strategy">strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy">ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy</a></code> | strategy block. |
 
 ---
@@ -6386,7 +6386,7 @@ public java.lang.Object getAutomaticRoll();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#automatic_roll ElastigroupAws#automatic_roll}.
 
 ---
 
@@ -6398,7 +6398,7 @@ public java.lang.Number getBatchSizePercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -6410,7 +6410,7 @@ public java.lang.Number getGracePeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -6424,7 +6424,7 @@ public ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy getStrate
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -6446,8 +6446,8 @@ ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.action">action</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.shouldDrainInstances">shouldDrainInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.action">action</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkDeploymentPreferencesStrategy.property.shouldDrainInstances">shouldDrainInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
 
 ---
 
@@ -6459,7 +6459,7 @@ public java.lang.String getAction();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -6471,7 +6471,7 @@ public java.lang.Object getShouldDrainInstances();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -6505,7 +6505,7 @@ public ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate getPlatfor
 
 platform_update block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#platform_update ElastigroupAws#platform_update}
 
 ---
 
@@ -6527,9 +6527,9 @@ ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.performAt">performAt</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.timeWindow">timeWindow</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.updateLevel">updateLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.performAt">performAt</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.timeWindow">timeWindow</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationBeanstalkManagedActionsPlatformUpdate.property.updateLevel">updateLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}. |
 
 ---
 
@@ -6541,7 +6541,7 @@ public java.lang.String getPerformAt();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -6553,7 +6553,7 @@ public java.lang.String getTimeWindow();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#time_window ElastigroupAws#time_window}.
 
 ---
 
@@ -6565,7 +6565,7 @@ public java.lang.String getUpdateLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#update_level ElastigroupAws#update_level}.
 
 ---
 
@@ -6590,9 +6590,9 @@ ElastigroupAwsIntegrationCodedeploy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.cleanupOnFailure">cleanupOnFailure</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.cleanupOnFailure">cleanupOnFailure</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.deploymentGroups">deploymentGroups</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups">ElastigroupAwsIntegrationCodedeployDeploymentGroups</a>></code> | deployment_groups block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.terminateInstanceOnFailure">terminateInstanceOnFailure</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeploy.property.terminateInstanceOnFailure">terminateInstanceOnFailure</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}. |
 
 ---
 
@@ -6604,7 +6604,7 @@ public java.lang.Object getCleanupOnFailure();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cleanup_on_failure ElastigroupAws#cleanup_on_failure}.
 
 ---
 
@@ -6618,7 +6618,7 @@ public java.lang.Object getDeploymentGroups();
 
 deployment_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_groups ElastigroupAws#deployment_groups}
 
 ---
 
@@ -6630,7 +6630,7 @@ public java.lang.Object getTerminateInstanceOnFailure();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#terminate_instance_on_failure ElastigroupAws#terminate_instance_on_failure}.
 
 ---
 
@@ -6651,8 +6651,8 @@ ElastigroupAwsIntegrationCodedeployDeploymentGroups.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.applicationName">applicationName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.deploymentGroupName">deploymentGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.applicationName">applicationName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationCodedeployDeploymentGroups.property.deploymentGroupName">deploymentGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}. |
 
 ---
 
@@ -6664,7 +6664,7 @@ public java.lang.String getApplicationName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#application_name ElastigroupAws#application_name}.
 
 ---
 
@@ -6676,7 +6676,7 @@ public java.lang.String getDeploymentGroupName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_group_name ElastigroupAws#deployment_group_name}.
 
 ---
 
@@ -6702,12 +6702,12 @@ ElastigroupAwsIntegrationDockerSwarm.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterPort">masterPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.masterPort">masterPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleDown">autoscaleDown</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown">ElastigroupAwsIntegrationDockerSwarmAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleHeadroom">autoscaleHeadroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom">ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarm.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 
 ---
 
@@ -6719,7 +6719,7 @@ public java.lang.String getMasterHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -6731,7 +6731,7 @@ public java.lang.Number getMasterPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -6743,7 +6743,7 @@ public java.lang.Number getAutoscaleCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -6757,7 +6757,7 @@ public ElastigroupAwsIntegrationDockerSwarmAutoscaleDown getAutoscaleDown();
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -6771,7 +6771,7 @@ public ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom getAutoscaleHeadroo
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -6783,7 +6783,7 @@ public java.lang.Object getAutoscaleIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -6804,8 +6804,8 @@ ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
 
 ---
 
@@ -6817,7 +6817,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -6829,7 +6829,7 @@ public java.lang.Number getMaxScaleDownPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -6851,9 +6851,9 @@ ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationDockerSwarmAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -6865,7 +6865,7 @@ public java.lang.Number getCpuPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -6877,7 +6877,7 @@ public java.lang.Number getMemoryPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -6889,7 +6889,7 @@ public java.lang.Number getNumOfUnits();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -6921,14 +6921,14 @@ ElastigroupAwsIntegrationEcs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.clusterName">clusterName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.clusterName">clusterName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleAttributes">autoscaleAttributes</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes">ElastigroupAwsIntegrationEcsAutoscaleAttributes</a>></code> | autoscale_attributes block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleDown">autoscaleDown</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown">ElastigroupAwsIntegrationEcsAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleHeadroom">autoscaleHeadroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom">ElastigroupAwsIntegrationEcsAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsAutoConfig">autoscaleIsAutoConfig</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleScaleDownNonServiceTasks">autoscaleScaleDownNonServiceTasks</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsAutoConfig">autoscaleIsAutoConfig</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.autoscaleScaleDownNonServiceTasks">autoscaleScaleDownNonServiceTasks</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcs.property.batch">batch</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch">ElastigroupAwsIntegrationEcsBatch</a></code> | batch block. |
 
 ---
@@ -6941,7 +6941,7 @@ public java.lang.String getClusterName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cluster_name ElastigroupAws#cluster_name}.
 
 ---
 
@@ -6955,7 +6955,7 @@ public java.lang.Object getAutoscaleAttributes();
 
 autoscale_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_attributes ElastigroupAws#autoscale_attributes}
 
 ---
 
@@ -6967,7 +6967,7 @@ public java.lang.Number getAutoscaleCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -6981,7 +6981,7 @@ public ElastigroupAwsIntegrationEcsAutoscaleDown getAutoscaleDown();
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -6995,7 +6995,7 @@ public ElastigroupAwsIntegrationEcsAutoscaleHeadroom getAutoscaleHeadroom();
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7007,7 +7007,7 @@ public java.lang.Object getAutoscaleIsAutoConfig();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -7019,7 +7019,7 @@ public java.lang.Object getAutoscaleIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7031,7 +7031,7 @@ public java.lang.Object getAutoscaleScaleDownNonServiceTasks();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_scale_down_non_service_tasks ElastigroupAws#autoscale_scale_down_non_service_tasks}.
 
 ---
 
@@ -7045,7 +7045,7 @@ public ElastigroupAwsIntegrationEcsBatch getBatch();
 
 batch block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch ElastigroupAws#batch}
 
 ---
 
@@ -7066,8 +7066,8 @@ ElastigroupAwsIntegrationEcsAutoscaleAttributes.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleAttributes.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -7079,7 +7079,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -7091,7 +7091,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -7112,8 +7112,8 @@ ElastigroupAwsIntegrationEcsAutoscaleDown.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
 
 ---
 
@@ -7125,7 +7125,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7137,7 +7137,7 @@ public java.lang.Number getMaxScaleDownPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -7159,9 +7159,9 @@ ElastigroupAwsIntegrationEcsAutoscaleHeadroom.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7173,7 +7173,7 @@ public java.lang.Number getCpuPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7185,7 +7185,7 @@ public java.lang.Number getMemoryPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7197,7 +7197,7 @@ public java.lang.Number getNumOfUnits();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7217,7 +7217,7 @@ ElastigroupAwsIntegrationEcsBatch.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch.property.jobQueueNames">jobQueueNames</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationEcsBatch.property.jobQueueNames">jobQueueNames</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}. |
 
 ---
 
@@ -7229,7 +7229,7 @@ public java.util.List<java.lang.String> getJobQueueNames();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#job_queue_names ElastigroupAws#job_queue_names}.
 
 ---
 
@@ -7263,7 +7263,7 @@ public ElastigroupAwsIntegrationGitlabRunner getRunner();
 
 runner block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#runner ElastigroupAws#runner}
 
 ---
 
@@ -7284,7 +7284,7 @@ ElastigroupAwsIntegrationGitlabRunner.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationGitlabRunner.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
 
 ---
 
@@ -7296,7 +7296,7 @@ public java.lang.Object getIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -7328,16 +7328,16 @@ ElastigroupAwsIntegrationKubernetes.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.apiServer">apiServer</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.apiServer">apiServer</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleDown">autoscaleDown</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown">ElastigroupAwsIntegrationKubernetesAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleHeadroom">autoscaleHeadroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom">ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsAutoConfig">autoscaleIsAutoConfig</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsAutoConfig">autoscaleIsAutoConfig</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.autoscaleLabels">autoscaleLabels</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels">ElastigroupAwsIntegrationKubernetesAutoscaleLabels</a>></code> | autoscale_labels block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.clusterIdentifier">clusterIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.integrationMode">integrationMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.token">token</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.clusterIdentifier">clusterIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.integrationMode">integrationMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetes.property.token">token</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#token ElastigroupAws#token}. |
 
 ---
 
@@ -7349,7 +7349,7 @@ public java.lang.String getApiServer();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -7361,7 +7361,7 @@ public java.lang.Number getAutoscaleCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -7375,7 +7375,7 @@ public ElastigroupAwsIntegrationKubernetesAutoscaleDown getAutoscaleDown();
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -7389,7 +7389,7 @@ public ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom getAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7401,7 +7401,7 @@ public java.lang.Object getAutoscaleIsAutoConfig();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_auto_config ElastigroupAws#autoscale_is_auto_config}.
 
 ---
 
@@ -7413,7 +7413,7 @@ public java.lang.Object getAutoscaleIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7427,7 +7427,7 @@ public java.lang.Object getAutoscaleLabels();
 
 autoscale_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_labels ElastigroupAws#autoscale_labels}
 
 ---
 
@@ -7439,7 +7439,7 @@ public java.lang.String getClusterIdentifier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cluster_identifier ElastigroupAws#cluster_identifier}.
 
 ---
 
@@ -7451,7 +7451,7 @@ public java.lang.String getIntegrationMode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#integration_mode ElastigroupAws#integration_mode}.
 
 ---
 
@@ -7463,7 +7463,7 @@ public java.lang.String getToken();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#token ElastigroupAws#token}.
 
 ---
 
@@ -7484,8 +7484,8 @@ ElastigroupAwsIntegrationKubernetesAutoscaleDown.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleDown.property.maxScaleDownPercentage">maxScaleDownPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}. |
 
 ---
 
@@ -7497,7 +7497,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7509,7 +7509,7 @@ public java.lang.Number getMaxScaleDownPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_scale_down_percentage ElastigroupAws#max_scale_down_percentage}.
 
 ---
 
@@ -7531,9 +7531,9 @@ ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7545,7 +7545,7 @@ public java.lang.Number getCpuPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7557,7 +7557,7 @@ public java.lang.Number getMemoryPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7569,7 +7569,7 @@ public java.lang.Number getNumOfUnits();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7590,8 +7590,8 @@ ElastigroupAwsIntegrationKubernetesAutoscaleLabels.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationKubernetesAutoscaleLabels.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -7603,7 +7603,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -7615,7 +7615,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -7635,7 +7635,7 @@ ElastigroupAwsIntegrationMesosphere.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphere.property.apiServer">apiServer</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMesosphere.property.apiServer">apiServer</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}. |
 
 ---
 
@@ -7647,7 +7647,7 @@ public java.lang.String getApiServer();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#api_server ElastigroupAws#api_server}.
 
 ---
 
@@ -7667,7 +7667,7 @@ ElastigroupAwsIntegrationMultaiRuntime.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime.property.deploymentId">deploymentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationMultaiRuntime.property.deploymentId">deploymentId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}. |
 
 ---
 
@@ -7679,7 +7679,7 @@ public java.lang.String getDeploymentId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#deployment_id ElastigroupAws#deployment_id}.
 
 ---
 
@@ -7708,14 +7708,14 @@ ElastigroupAwsIntegrationNomad.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterPort">masterPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.aclToken">aclToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.masterPort">masterPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.aclToken">aclToken</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleConstraints">autoscaleConstraints</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints">ElastigroupAwsIntegrationNomadAutoscaleConstraints</a>></code> | autoscale_constraints block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleCooldown">autoscaleCooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleDown">autoscaleDown</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown">ElastigroupAwsIntegrationNomadAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleHeadroom">autoscaleHeadroom</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom">ElastigroupAwsIntegrationNomadAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomad.property.autoscaleIsEnabled">autoscaleIsEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}. |
 
 ---
 
@@ -7727,7 +7727,7 @@ public java.lang.String getMasterHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -7739,7 +7739,7 @@ public java.lang.Number getMasterPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_port ElastigroupAws#master_port}.
 
 ---
 
@@ -7751,7 +7751,7 @@ public java.lang.String getAclToken();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#acl_token ElastigroupAws#acl_token}.
 
 ---
 
@@ -7765,7 +7765,7 @@ public java.lang.Object getAutoscaleConstraints();
 
 autoscale_constraints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_constraints ElastigroupAws#autoscale_constraints}
 
 ---
 
@@ -7777,7 +7777,7 @@ public java.lang.Number getAutoscaleCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_cooldown ElastigroupAws#autoscale_cooldown}.
 
 ---
 
@@ -7791,7 +7791,7 @@ public ElastigroupAwsIntegrationNomadAutoscaleDown getAutoscaleDown();
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_down ElastigroupAws#autoscale_down}
 
 ---
 
@@ -7805,7 +7805,7 @@ public ElastigroupAwsIntegrationNomadAutoscaleHeadroom getAutoscaleHeadroom();
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_headroom ElastigroupAws#autoscale_headroom}
 
 ---
 
@@ -7817,7 +7817,7 @@ public java.lang.Object getAutoscaleIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#autoscale_is_enabled ElastigroupAws#autoscale_is_enabled}.
 
 ---
 
@@ -7838,8 +7838,8 @@ ElastigroupAwsIntegrationNomadAutoscaleConstraints.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleConstraints.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -7851,7 +7851,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -7863,7 +7863,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -7883,7 +7883,7 @@ ElastigroupAwsIntegrationNomadAutoscaleDown.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleDown.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
 
 ---
 
@@ -7895,7 +7895,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -7917,9 +7917,9 @@ ElastigroupAwsIntegrationNomadAutoscaleHeadroom.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.cpuPerUnit">cpuPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.memoryPerUnit">memoryPerUnit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationNomadAutoscaleHeadroom.property.numOfUnits">numOfUnits</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}. |
 
 ---
 
@@ -7931,7 +7931,7 @@ public java.lang.Number getCpuPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cpu_per_unit ElastigroupAws#cpu_per_unit}.
 
 ---
 
@@ -7943,7 +7943,7 @@ public java.lang.Number getMemoryPerUnit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#memory_per_unit ElastigroupAws#memory_per_unit}.
 
 ---
 
@@ -7955,7 +7955,7 @@ public java.lang.Number getNumOfUnits();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#num_of_units ElastigroupAws#num_of_units}.
 
 ---
 
@@ -7978,10 +7978,10 @@ ElastigroupAwsIntegrationRancher.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.accessKey">accessKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.secretKey">secretKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.accessKey">accessKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.masterHost">masterHost</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.secretKey">secretKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRancher.property.version">version</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#version ElastigroupAws#version}. |
 
 ---
 
@@ -7993,7 +7993,7 @@ public java.lang.String getAccessKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#access_key ElastigroupAws#access_key}.
 
 ---
 
@@ -8005,7 +8005,7 @@ public java.lang.String getMasterHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#master_host ElastigroupAws#master_host}.
 
 ---
 
@@ -8017,7 +8017,7 @@ public java.lang.String getSecretKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#secret_key ElastigroupAws#secret_key}.
 
 ---
 
@@ -8029,7 +8029,7 @@ public java.lang.String getVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#version ElastigroupAws#version}.
 
 ---
 
@@ -8064,7 +8064,7 @@ public java.lang.Object getDomains();
 
 domains block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#domains ElastigroupAws#domains}
 
 ---
 
@@ -8088,10 +8088,10 @@ ElastigroupAwsIntegrationRoute53Domains.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.hostedZoneId">hostedZoneId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.hostedZoneId">hostedZoneId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSets">recordSets</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets">ElastigroupAwsIntegrationRoute53DomainsRecordSets</a>></code> | record_sets block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSetType">recordSetType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.spotinstAcctId">spotinstAcctId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.recordSetType">recordSetType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53Domains.property.spotinstAcctId">spotinstAcctId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}. |
 
 ---
 
@@ -8103,7 +8103,7 @@ public java.lang.String getHostedZoneId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#hosted_zone_id ElastigroupAws#hosted_zone_id}.
 
 ---
 
@@ -8117,7 +8117,7 @@ public java.lang.Object getRecordSets();
 
 record_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#record_sets ElastigroupAws#record_sets}
 
 ---
 
@@ -8129,7 +8129,7 @@ public java.lang.String getRecordSetType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#record_set_type ElastigroupAws#record_set_type}.
 
 ---
 
@@ -8141,7 +8141,7 @@ public java.lang.String getSpotinstAcctId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#spotinst_acct_id ElastigroupAws#spotinst_acct_id}.
 
 ---
 
@@ -8165,9 +8165,9 @@ ElastigroupAwsIntegrationRoute53DomainsRecordSets.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicDns">usePublicDns</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicIp">usePublicIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicDns">usePublicDns</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsIntegrationRoute53DomainsRecordSets.property.usePublicIp">usePublicIp</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}. |
 
 ---
 
@@ -8179,7 +8179,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -8191,7 +8191,7 @@ public java.lang.Object getUsePublicDns();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#use_public_dns ElastigroupAws#use_public_dns}.
 
 ---
 
@@ -8203,7 +8203,7 @@ public java.lang.Object getUsePublicIp();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#use_public_ip ElastigroupAws#use_public_ip}.
 
 ---
 
@@ -8231,12 +8231,12 @@ ElastigroupAwsItf.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.fixedTargetGroups">fixedTargetGroups</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.fixedTargetGroups">fixedTargetGroups</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.loadBalancer">loadBalancer</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer">ElastigroupAwsItfLoadBalancer</a>></code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.targetGroupConfig">targetGroupConfig</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig">ElastigroupAwsItfTargetGroupConfig</a>></code> | target_group_config block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.weightStrategy">weightStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.weightStrategy">weightStrategy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.defaultStaticTargetGroup">defaultStaticTargetGroup</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup">ElastigroupAwsItfDefaultStaticTargetGroup</a></code> | default_static_target_group block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.migrationHealthinessThreshold">migrationHealthinessThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItf.property.migrationHealthinessThreshold">migrationHealthinessThreshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}. |
 
 ---
 
@@ -8248,7 +8248,7 @@ public java.lang.Object getFixedTargetGroups();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#fixed_target_groups ElastigroupAws#fixed_target_groups}.
 
 ---
 
@@ -8262,7 +8262,7 @@ public java.lang.Object getLoadBalancer();
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#load_balancer ElastigroupAws#load_balancer}
 
 ---
 
@@ -8276,7 +8276,7 @@ public java.lang.Object getTargetGroupConfig();
 
 target_group_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_group_config ElastigroupAws#target_group_config}
 
 ---
 
@@ -8288,7 +8288,7 @@ public java.lang.String getWeightStrategy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#weight_strategy ElastigroupAws#weight_strategy}.
 
 ---
 
@@ -8302,7 +8302,7 @@ public ElastigroupAwsItfDefaultStaticTargetGroup getDefaultStaticTargetGroup();
 
 default_static_target_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#default_static_target_group ElastigroupAws#default_static_target_group}
 
 ---
 
@@ -8314,7 +8314,7 @@ public java.lang.Number getMigrationHealthinessThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#migration_healthiness_threshold ElastigroupAws#migration_healthiness_threshold}.
 
 ---
 
@@ -8335,8 +8335,8 @@ ElastigroupAwsItfDefaultStaticTargetGroup.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.percentage">percentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfDefaultStaticTargetGroup.property.percentage">percentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
 
 ---
 
@@ -8348,7 +8348,7 @@ public java.lang.String getArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -8360,7 +8360,7 @@ public java.lang.Number getPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -8383,7 +8383,7 @@ ElastigroupAwsItfLoadBalancer.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.listenerRule">listenerRule</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule">ElastigroupAwsItfLoadBalancerListenerRule</a>></code> | listener_rule block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.loadBalancerArn">loadBalancerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancer.property.loadBalancerArn">loadBalancerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}. |
 
 ---
 
@@ -8397,7 +8397,7 @@ public java.lang.Object getListenerRule();
 
 listener_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#listener_rule ElastigroupAws#listener_rule}
 
 ---
 
@@ -8409,7 +8409,7 @@ public java.lang.String getLoadBalancerArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#load_balancer_arn ElastigroupAws#load_balancer_arn}.
 
 ---
 
@@ -8430,7 +8430,7 @@ ElastigroupAwsItfLoadBalancerListenerRule.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.ruleArn">ruleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.ruleArn">ruleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRule.property.staticTargetGroup">staticTargetGroup</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup">ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup</a></code> | static_target_group block. |
 
 ---
@@ -8443,7 +8443,7 @@ public java.lang.String getRuleArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#rule_arn ElastigroupAws#rule_arn}.
 
 ---
 
@@ -8457,7 +8457,7 @@ public ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup getStaticTarge
 
 static_target_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#static_target_group ElastigroupAws#static_target_group}
 
 ---
 
@@ -8478,8 +8478,8 @@ ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.percentage">percentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.arn">arn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfLoadBalancerListenerRuleStaticTargetGroup.property.percentage">percentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}. |
 
 ---
 
@@ -8491,7 +8491,7 @@ public java.lang.String getArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#arn ElastigroupAws#arn}.
 
 ---
 
@@ -8503,7 +8503,7 @@ public java.lang.Number getPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#percentage ElastigroupAws#percentage}.
 
 ---
 
@@ -8537,19 +8537,19 @@ ElastigroupAwsItfTargetGroupConfig.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPath">healthCheckPath</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckIntervalSeconds">healthCheckIntervalSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPort">healthCheckPort</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckProtocol">healthCheckProtocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckTimeoutSeconds">healthCheckTimeoutSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthyThresholdCount">healthyThresholdCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPath">healthCheckPath</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#port ElastigroupAws#port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckIntervalSeconds">healthCheckIntervalSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckPort">healthCheckPort</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckProtocol">healthCheckProtocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthCheckTimeoutSeconds">healthCheckTimeoutSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.healthyThresholdCount">healthyThresholdCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.matcher">matcher</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher">ElastigroupAwsItfTargetGroupConfigMatcher</a>></code> | matcher block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocolVersion">protocolVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.protocolVersion">protocolVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.tags">tags</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags">ElastigroupAwsItfTargetGroupConfigTags</a>></code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.unhealthyThresholdCount">unhealthyThresholdCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfig.property.unhealthyThresholdCount">unhealthyThresholdCount</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}. |
 
 ---
 
@@ -8561,7 +8561,7 @@ public java.lang.String getHealthCheckPath();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_path ElastigroupAws#health_check_path}.
 
 ---
 
@@ -8573,7 +8573,7 @@ public java.lang.Number getPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#port ElastigroupAws#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#port ElastigroupAws#port}.
 
 ---
 
@@ -8585,7 +8585,7 @@ public java.lang.String getProtocol();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#protocol ElastigroupAws#protocol}.
 
 ---
 
@@ -8597,7 +8597,7 @@ public java.lang.String getVpcId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#vpc_id ElastigroupAws#vpc_id}.
 
 ---
 
@@ -8609,7 +8609,7 @@ public java.lang.Number getHealthCheckIntervalSeconds();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_interval_seconds ElastigroupAws#health_check_interval_seconds}.
 
 ---
 
@@ -8621,7 +8621,7 @@ public java.lang.String getHealthCheckPort();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_port ElastigroupAws#health_check_port}.
 
 ---
 
@@ -8633,7 +8633,7 @@ public java.lang.String getHealthCheckProtocol();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_protocol ElastigroupAws#health_check_protocol}.
 
 ---
 
@@ -8645,7 +8645,7 @@ public java.lang.Number getHealthCheckTimeoutSeconds();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_timeout_seconds ElastigroupAws#health_check_timeout_seconds}.
 
 ---
 
@@ -8657,7 +8657,7 @@ public java.lang.Number getHealthyThresholdCount();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#healthy_threshold_count ElastigroupAws#healthy_threshold_count}.
 
 ---
 
@@ -8671,7 +8671,7 @@ public java.lang.Object getMatcher();
 
 matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#matcher ElastigroupAws#matcher}
 
 ---
 
@@ -8683,7 +8683,7 @@ public java.lang.String getProtocolVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#protocol_version ElastigroupAws#protocol_version}.
 
 ---
 
@@ -8697,7 +8697,7 @@ public java.lang.Object getTags();
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tags ElastigroupAws#tags}
 
 ---
 
@@ -8709,7 +8709,7 @@ public java.lang.Number getUnhealthyThresholdCount();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unhealthy_threshold_count ElastigroupAws#unhealthy_threshold_count}.
 
 ---
 
@@ -8730,8 +8730,8 @@ ElastigroupAwsItfTargetGroupConfigMatcher.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.grpcCode">grpcCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.httpCode">httpCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.grpcCode">grpcCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigMatcher.property.httpCode">httpCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}. |
 
 ---
 
@@ -8743,7 +8743,7 @@ public java.lang.String getGrpcCode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grpc_code ElastigroupAws#grpc_code}.
 
 ---
 
@@ -8755,7 +8755,7 @@ public java.lang.String getHttpCode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_code ElastigroupAws#http_code}.
 
 ---
 
@@ -8776,8 +8776,8 @@ ElastigroupAwsItfTargetGroupConfigTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagKey">tagKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagValue">tagValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagKey">tagKey</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsItfTargetGroupConfigTags.property.tagValue">tagValue</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}. |
 
 ---
 
@@ -8789,7 +8789,7 @@ public java.lang.String getTagKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tag_key ElastigroupAws#tag_key}.
 
 ---
 
@@ -8801,7 +8801,7 @@ public java.lang.String getTagValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#tag_value ElastigroupAws#tag_value}.
 
 ---
 
@@ -8835,7 +8835,7 @@ public ElastigroupAwsLoggingExport getExport();
 
 export block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#export ElastigroupAws#export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#export ElastigroupAws#export}
 
 ---
 
@@ -8870,7 +8870,7 @@ public java.lang.Object getS3();
 
 s3 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#s3 ElastigroupAws#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#s3 ElastigroupAws#s3}
 
 ---
 
@@ -8890,7 +8890,7 @@ ElastigroupAwsLoggingExportS3.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsLoggingExportS3.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}. |
 
 ---
 
@@ -8902,7 +8902,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#id ElastigroupAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8927,9 +8927,9 @@ ElastigroupAwsMetadataOptions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">httpTokens</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">httpPutResponseHopLimit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">instanceMetadataTags</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpTokens">httpTokens</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.httpPutResponseHopLimit">httpPutResponseHopLimit</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMetadataOptions.property.instanceMetadataTags">instanceMetadataTags</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}. |
 
 ---
 
@@ -8941,7 +8941,7 @@ public java.lang.String getHttpTokens();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_tokens ElastigroupAws#http_tokens}.
 
 ---
 
@@ -8953,7 +8953,7 @@ public java.lang.Number getHttpPutResponseHopLimit();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#http_put_response_hop_limit ElastigroupAws#http_put_response_hop_limit}.
 
 ---
 
@@ -8965,7 +8965,7 @@ public java.lang.String getInstanceMetadataTags();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#instance_metadata_tags ElastigroupAws#instance_metadata_tags}.
 
 ---
 
@@ -8986,8 +8986,8 @@ ElastigroupAwsMultaiTargetSets.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.balancerId">balancerId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.targetSetId">targetSetId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.balancerId">balancerId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultaiTargetSets.property.targetSetId">targetSetId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}. |
 
 ---
 
@@ -8999,7 +8999,7 @@ public java.lang.String getBalancerId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#balancer_id ElastigroupAws#balancer_id}.
 
 ---
 
@@ -9011,7 +9011,7 @@ public java.lang.String getTargetSetId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_set_id ElastigroupAws#target_set_id}.
 
 ---
 
@@ -9049,7 +9049,7 @@ public java.lang.Object getExpressions();
 
 expressions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#expressions ElastigroupAws#expressions}
 
 ---
 
@@ -9063,7 +9063,7 @@ public java.lang.Object getMetrics();
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metrics ElastigroupAws#metrics}
 
 ---
 
@@ -9084,8 +9084,8 @@ ElastigroupAwsMultipleMetricsExpressions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsExpressions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
 
 ---
 
@@ -9097,7 +9097,7 @@ public java.lang.String getExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#expression ElastigroupAws#expression}.
 
 ---
 
@@ -9109,7 +9109,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9136,13 +9136,13 @@ ElastigroupAwsMultipleMetricsMetrics.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.dimensions">dimensions</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions">ElastigroupAwsMultipleMetricsMetricsDimensions</a>></code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.extendedStatistic">extendedStatistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.extendedStatistic">extendedStatistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetrics.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -9154,7 +9154,7 @@ public java.lang.String getMetricName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -9166,7 +9166,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9178,7 +9178,7 @@ public java.lang.String getNamespace();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -9192,7 +9192,7 @@ public java.lang.Object getDimensions();
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -9204,7 +9204,7 @@ public java.lang.String getExtendedStatistic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#extended_statistic ElastigroupAws#extended_statistic}.
 
 ---
 
@@ -9216,7 +9216,7 @@ public java.lang.String getStatistic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -9228,7 +9228,7 @@ public java.lang.String getUnit();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -9249,8 +9249,8 @@ ElastigroupAwsMultipleMetricsMetricsDimensions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsMultipleMetricsMetricsDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -9262,7 +9262,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -9274,7 +9274,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -9304,14 +9304,14 @@ ElastigroupAwsNetworkInterface.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deviceIndex">deviceIndex</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associateIpv6Address">associateIpv6Address</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associatePublicIpAddress">associatePublicIpAddress</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deleteOnTermination">deleteOnTermination</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.networkInterfaceId">networkInterfaceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.privateIpAddress">privateIpAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.secondaryPrivateIpAddressCount">secondaryPrivateIpAddressCount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deviceIndex">deviceIndex</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associateIpv6Address">associateIpv6Address</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.associatePublicIpAddress">associatePublicIpAddress</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.deleteOnTermination">deleteOnTermination</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.networkInterfaceId">networkInterfaceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.privateIpAddress">privateIpAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsNetworkInterface.property.secondaryPrivateIpAddressCount">secondaryPrivateIpAddressCount</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}. |
 
 ---
 
@@ -9323,7 +9323,7 @@ public java.lang.String getDeviceIndex();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#device_index ElastigroupAws#device_index}.
 
 ---
 
@@ -9335,7 +9335,7 @@ public java.lang.Object getAssociateIpv6Address();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#associate_ipv6_address ElastigroupAws#associate_ipv6_address}.
 
 ---
 
@@ -9347,7 +9347,7 @@ public java.lang.Object getAssociatePublicIpAddress();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#associate_public_ip_address ElastigroupAws#associate_public_ip_address}.
 
 ---
 
@@ -9359,7 +9359,7 @@ public java.lang.Object getDeleteOnTermination();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#delete_on_termination ElastigroupAws#delete_on_termination}.
 
 ---
 
@@ -9371,7 +9371,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#description ElastigroupAws#description}.
 
 ---
 
@@ -9383,7 +9383,7 @@ public java.lang.String getNetworkInterfaceId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#network_interface_id ElastigroupAws#network_interface_id}.
 
 ---
 
@@ -9395,7 +9395,7 @@ public java.lang.String getPrivateIpAddress();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#private_ip_address ElastigroupAws#private_ip_address}.
 
 ---
 
@@ -9407,7 +9407,7 @@ public java.lang.String getSecondaryPrivateIpAddressCount();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#secondary_private_ip_address_count ElastigroupAws#secondary_private_ip_address_count}.
 
 ---
 
@@ -9435,15 +9435,15 @@ ElastigroupAwsResourceRequirements.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMaximum">requiredMemoryMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMinimum">requiredMemoryMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMaximum">requiredVcpuMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMinimum">requiredVcpuMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceFamilies">excludedInstanceFamilies</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceGenerations">excludedInstanceGenerations</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceTypes">excludedInstanceTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMaximum">requiredGpuMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMinimum">requiredGpuMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMaximum">requiredMemoryMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredMemoryMinimum">requiredMemoryMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMaximum">requiredVcpuMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredVcpuMinimum">requiredVcpuMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceFamilies">excludedInstanceFamilies</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceGenerations">excludedInstanceGenerations</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.excludedInstanceTypes">excludedInstanceTypes</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMaximum">requiredGpuMaximum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceRequirements.property.requiredGpuMinimum">requiredGpuMinimum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}. |
 
 ---
 
@@ -9455,7 +9455,7 @@ public java.lang.Number getRequiredMemoryMaximum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_memory_maximum ElastigroupAws#required_memory_maximum}.
 
 ---
 
@@ -9467,7 +9467,7 @@ public java.lang.Number getRequiredMemoryMinimum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_memory_minimum ElastigroupAws#required_memory_minimum}.
 
 ---
 
@@ -9479,7 +9479,7 @@ public java.lang.Number getRequiredVcpuMaximum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_vcpu_maximum ElastigroupAws#required_vcpu_maximum}.
 
 ---
 
@@ -9491,7 +9491,7 @@ public java.lang.Number getRequiredVcpuMinimum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_vcpu_minimum ElastigroupAws#required_vcpu_minimum}.
 
 ---
 
@@ -9503,7 +9503,7 @@ public java.util.List<java.lang.String> getExcludedInstanceFamilies();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_families ElastigroupAws#excluded_instance_families}.
 
 ---
 
@@ -9515,7 +9515,7 @@ public java.util.List<java.lang.String> getExcludedInstanceGenerations();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_generations ElastigroupAws#excluded_instance_generations}.
 
 ---
 
@@ -9527,7 +9527,7 @@ public java.util.List<java.lang.String> getExcludedInstanceTypes();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#excluded_instance_types ElastigroupAws#excluded_instance_types}.
 
 ---
 
@@ -9539,7 +9539,7 @@ public java.lang.Number getRequiredGpuMaximum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_gpu_maximum ElastigroupAws#required_gpu_maximum}.
 
 ---
 
@@ -9551,7 +9551,7 @@ public java.lang.Number getRequiredGpuMinimum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#required_gpu_minimum ElastigroupAws#required_gpu_minimum}.
 
 ---
 
@@ -9578,10 +9578,10 @@ ElastigroupAwsResourceTagSpecification.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagAmis">shouldTagAmis</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagEnis">shouldTagEnis</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagSnapshots">shouldTagSnapshots</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagVolumes">shouldTagVolumes</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagAmis">shouldTagAmis</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagEnis">shouldTagEnis</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagSnapshots">shouldTagSnapshots</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsResourceTagSpecification.property.shouldTagVolumes">shouldTagVolumes</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}. |
 
 ---
 
@@ -9593,7 +9593,7 @@ public java.lang.Object getShouldTagAmis();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_amis ElastigroupAws#should_tag_amis}.
 
 ---
 
@@ -9605,7 +9605,7 @@ public java.lang.Object getShouldTagEnis();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_enis ElastigroupAws#should_tag_enis}.
 
 ---
 
@@ -9617,7 +9617,7 @@ public java.lang.Object getShouldTagSnapshots();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_snapshots ElastigroupAws#should_tag_snapshots}.
 
 ---
 
@@ -9629,7 +9629,7 @@ public java.lang.Object getShouldTagVolumes();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_tag_volumes ElastigroupAws#should_tag_volumes}.
 
 ---
 
@@ -9650,8 +9650,8 @@ ElastigroupAwsRevertToSpot.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.performAt">performAt</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.timeWindows">timeWindows</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.performAt">performAt</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsRevertToSpot.property.timeWindows">timeWindows</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}. |
 
 ---
 
@@ -9663,7 +9663,7 @@ public java.lang.String getPerformAt();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#perform_at ElastigroupAws#perform_at}.
 
 ---
 
@@ -9675,7 +9675,7 @@ public java.util.List<java.lang.String> getTimeWindows();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#time_windows ElastigroupAws#time_windows}.
 
 ---
 
@@ -9718,27 +9718,27 @@ ElastigroupAwsScalingDownPolicy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions">ElastigroupAwsScalingDownPolicyDimensions</a>></code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.stepAdjustments">stepAdjustments</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments">ElastigroupAwsScalingDownPolicyStepAdjustments</a>></code> | step_adjustments block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -9750,7 +9750,7 @@ public java.lang.String getMetricName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -9762,7 +9762,7 @@ public java.lang.String getNamespace();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -9774,7 +9774,7 @@ public java.lang.String getPolicyName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -9786,7 +9786,7 @@ public java.lang.String getActionType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -9798,7 +9798,7 @@ public java.lang.String getAdjustment();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -9810,7 +9810,7 @@ public java.lang.Number getCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -9824,7 +9824,7 @@ public java.lang.Object getDimensions();
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -9836,7 +9836,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -9848,7 +9848,7 @@ public java.lang.Object getIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -9860,7 +9860,7 @@ public java.lang.String getMaximum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -9872,7 +9872,7 @@ public java.lang.String getMaxTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -9884,7 +9884,7 @@ public java.lang.String getMinimum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -9896,7 +9896,7 @@ public java.lang.String getMinTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -9908,7 +9908,7 @@ public java.lang.String getOperator();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
 
 ---
 
@@ -9920,7 +9920,7 @@ public java.lang.Number getPeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -9932,7 +9932,7 @@ public java.lang.String getSource();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -9944,7 +9944,7 @@ public java.lang.String getStatistic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -9958,7 +9958,7 @@ public java.lang.Object getStepAdjustments();
 
 step_adjustments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
 
 ---
 
@@ -9970,7 +9970,7 @@ public java.lang.String getTarget();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -9982,7 +9982,7 @@ public java.lang.Number getThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -9994,7 +9994,7 @@ public java.lang.String getUnit();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10015,8 +10015,8 @@ ElastigroupAwsScalingDownPolicyDimensions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10028,7 +10028,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -10040,7 +10040,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -10062,7 +10062,7 @@ ElastigroupAwsScalingDownPolicyStepAdjustments.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.action">action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction">ElastigroupAwsScalingDownPolicyStepAdjustmentsAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
 
 ---
 
@@ -10076,7 +10076,7 @@ public ElastigroupAwsScalingDownPolicyStepAdjustmentsAction getAction();
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}
 
 ---
 
@@ -10088,7 +10088,7 @@ public java.lang.Number getThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10114,13 +10114,13 @@ ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingDownPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
 
 ---
 
@@ -10132,7 +10132,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -10144,7 +10144,7 @@ public java.lang.String getAdjustment();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -10156,7 +10156,7 @@ public java.lang.String getMaximum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10168,7 +10168,7 @@ public java.lang.String getMaxTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -10180,7 +10180,7 @@ public java.lang.String getMinimum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -10192,7 +10192,7 @@ public java.lang.String getMinTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -10204,7 +10204,7 @@ public java.lang.String getTarget();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10226,8 +10226,8 @@ ElastigroupAwsScalingStrategy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminateAtEndOfBillingHour">terminateAtEndOfBillingHour</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminationPolicy">terminationPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminateAtEndOfBillingHour">terminateAtEndOfBillingHour</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingStrategy.property.terminationPolicy">terminationPolicy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}. |
 
 ---
 
@@ -10239,7 +10239,7 @@ public java.lang.Object getTerminateAtEndOfBillingHour();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#terminate_at_end_of_billing_hour ElastigroupAws#terminate_at_end_of_billing_hour}.
 
 ---
 
@@ -10251,7 +10251,7 @@ public java.lang.String getTerminationPolicy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#termination_policy ElastigroupAws#termination_policy}.
 
 ---
 
@@ -10284,19 +10284,19 @@ ElastigroupAwsScalingTargetPolicy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.target">target</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.target">target</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.dimensions">dimensions</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions">ElastigroupAwsScalingTargetPolicyDimensions</a>></code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.maxCapacityPerScale">maxCapacityPerScale</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.predictiveMode">predictiveMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.maxCapacityPerScale">maxCapacityPerScale</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.predictiveMode">predictiveMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -10308,7 +10308,7 @@ public java.lang.String getMetricName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -10320,7 +10320,7 @@ public java.lang.String getNamespace();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -10332,7 +10332,7 @@ public java.lang.String getPolicyName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -10344,7 +10344,7 @@ public java.lang.Number getTarget();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10356,7 +10356,7 @@ public java.lang.Number getCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -10370,7 +10370,7 @@ public java.lang.Object getDimensions();
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -10382,7 +10382,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -10394,7 +10394,7 @@ public java.lang.String getMaxCapacityPerScale();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_capacity_per_scale ElastigroupAws#max_capacity_per_scale}.
 
 ---
 
@@ -10406,7 +10406,7 @@ public java.lang.Number getPeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -10418,7 +10418,7 @@ public java.lang.String getPredictiveMode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#predictive_mode ElastigroupAws#predictive_mode}.
 
 ---
 
@@ -10430,7 +10430,7 @@ public java.lang.String getSource();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -10442,7 +10442,7 @@ public java.lang.String getStatistic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -10454,7 +10454,7 @@ public java.lang.String getUnit();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10475,8 +10475,8 @@ ElastigroupAwsScalingTargetPolicyDimensions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingTargetPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10488,7 +10488,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -10500,7 +10500,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -10543,27 +10543,27 @@ ElastigroupAwsScalingUpPolicy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.metricName">metricName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.namespace">namespace</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.policyName">policyName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions">ElastigroupAwsScalingUpPolicyDimensions</a>></code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.operator">operator</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.period">period</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.source">source</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.statistic">statistic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.stepAdjustments">stepAdjustments</a></code> | <code>com.hashicorp.cdktf.IResolvable OR java.util.List<<a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments">ElastigroupAwsScalingUpPolicyStepAdjustments</a>></code> | step_adjustments block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicy.property.unit">unit</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}. |
 
 ---
 
@@ -10575,7 +10575,7 @@ public java.lang.String getMetricName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#metric_name ElastigroupAws#metric_name}.
 
 ---
 
@@ -10587,7 +10587,7 @@ public java.lang.String getNamespace();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#namespace ElastigroupAws#namespace}.
 
 ---
 
@@ -10599,7 +10599,7 @@ public java.lang.String getPolicyName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#policy_name ElastigroupAws#policy_name}.
 
 ---
 
@@ -10611,7 +10611,7 @@ public java.lang.String getActionType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -10623,7 +10623,7 @@ public java.lang.String getAdjustment();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -10635,7 +10635,7 @@ public java.lang.Number getCooldown();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cooldown ElastigroupAws#cooldown}.
 
 ---
 
@@ -10649,7 +10649,7 @@ public java.lang.Object getDimensions();
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#dimensions ElastigroupAws#dimensions}
 
 ---
 
@@ -10661,7 +10661,7 @@ public java.lang.Number getEvaluationPeriods();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#evaluation_periods ElastigroupAws#evaluation_periods}.
 
 ---
 
@@ -10673,7 +10673,7 @@ public java.lang.Object getIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -10685,7 +10685,7 @@ public java.lang.String getMaximum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10697,7 +10697,7 @@ public java.lang.String getMaxTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -10709,7 +10709,7 @@ public java.lang.String getMinimum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -10721,7 +10721,7 @@ public java.lang.String getMinTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -10733,7 +10733,7 @@ public java.lang.String getOperator();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#operator ElastigroupAws#operator}.
 
 ---
 
@@ -10745,7 +10745,7 @@ public java.lang.Number getPeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#period ElastigroupAws#period}.
 
 ---
 
@@ -10757,7 +10757,7 @@ public java.lang.String getSource();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#source ElastigroupAws#source}.
 
 ---
 
@@ -10769,7 +10769,7 @@ public java.lang.String getStatistic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#statistic ElastigroupAws#statistic}.
 
 ---
 
@@ -10783,7 +10783,7 @@ public java.lang.Object getStepAdjustments();
 
 step_adjustments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#step_adjustments ElastigroupAws#step_adjustments}
 
 ---
 
@@ -10795,7 +10795,7 @@ public java.lang.String getTarget();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -10807,7 +10807,7 @@ public java.lang.Number getThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10819,7 +10819,7 @@ public java.lang.String getUnit();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#unit ElastigroupAws#unit}.
 
 ---
 
@@ -10840,8 +10840,8 @@ ElastigroupAwsScalingUpPolicyDimensions.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyDimensions.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -10853,7 +10853,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -10865,7 +10865,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -10887,7 +10887,7 @@ ElastigroupAwsScalingUpPolicyStepAdjustments.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.action">action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction">ElastigroupAwsScalingUpPolicyStepAdjustmentsAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustments.property.threshold">threshold</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}. |
 
 ---
 
@@ -10901,7 +10901,7 @@ public ElastigroupAwsScalingUpPolicyStepAdjustmentsAction getAction();
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}
 
 ---
 
@@ -10913,7 +10913,7 @@ public java.lang.Number getThreshold();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#threshold ElastigroupAws#threshold}.
 
 ---
 
@@ -10939,13 +10939,13 @@ ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maximum">maximum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minimum">minimum</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.minTargetCapacity">minTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScalingUpPolicyStepAdjustmentsAction.property.target">target</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}. |
 
 ---
 
@@ -10957,7 +10957,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -10969,7 +10969,7 @@ public java.lang.String getAdjustment();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -10981,7 +10981,7 @@ public java.lang.String getMaximum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#maximum ElastigroupAws#maximum}.
 
 ---
 
@@ -10993,7 +10993,7 @@ public java.lang.String getMaxTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_target_capacity ElastigroupAws#max_target_capacity}.
 
 ---
 
@@ -11005,7 +11005,7 @@ public java.lang.String getMinimum();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#minimum ElastigroupAws#minimum}.
 
 ---
 
@@ -11017,7 +11017,7 @@ public java.lang.String getMinTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_target_capacity ElastigroupAws#min_target_capacity}.
 
 ---
 
@@ -11029,7 +11029,7 @@ public java.lang.String getTarget();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target ElastigroupAws#target}.
 
 ---
 
@@ -11064,21 +11064,21 @@ ElastigroupAwsScheduledTask.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.taskType">taskType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustmentPercentage">adjustmentPercentage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.cronExpression">cronExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.frequency">frequency</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.maxCapacity">maxCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.minCapacity">minCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMaxCapacity">scaleMaxCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMinCapacity">scaleMinCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleTargetCapacity">scaleTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.startTime">startTime</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.targetCapacity">targetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.taskType">taskType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustment">adjustment</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.adjustmentPercentage">adjustmentPercentage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.cronExpression">cronExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.frequency">frequency</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.isEnabled">isEnabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.maxCapacity">maxCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.minCapacity">minCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMaxCapacity">scaleMaxCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleMinCapacity">scaleMinCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.scaleTargetCapacity">scaleTargetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.startTime">startTime</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsScheduledTask.property.targetCapacity">targetCapacity</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}. |
 
 ---
 
@@ -11090,7 +11090,7 @@ public java.lang.String getTaskType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#task_type ElastigroupAws#task_type}.
 
 ---
 
@@ -11102,7 +11102,7 @@ public java.lang.String getAdjustment();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment ElastigroupAws#adjustment}.
 
 ---
 
@@ -11114,7 +11114,7 @@ public java.lang.String getAdjustmentPercentage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#adjustment_percentage ElastigroupAws#adjustment_percentage}.
 
 ---
 
@@ -11126,7 +11126,7 @@ public java.lang.String getBatchSizePercentage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -11138,7 +11138,7 @@ public java.lang.String getCronExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#cron_expression ElastigroupAws#cron_expression}.
 
 ---
 
@@ -11150,7 +11150,7 @@ public java.lang.String getFrequency();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#frequency ElastigroupAws#frequency}.
 
 ---
 
@@ -11162,7 +11162,7 @@ public java.lang.String getGracePeriod();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -11174,7 +11174,7 @@ public java.lang.Object getIsEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#is_enabled ElastigroupAws#is_enabled}.
 
 ---
 
@@ -11186,7 +11186,7 @@ public java.lang.String getMaxCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#max_capacity ElastigroupAws#max_capacity}.
 
 ---
 
@@ -11198,7 +11198,7 @@ public java.lang.String getMinCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#min_capacity ElastigroupAws#min_capacity}.
 
 ---
 
@@ -11210,7 +11210,7 @@ public java.lang.String getScaleMaxCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_max_capacity ElastigroupAws#scale_max_capacity}.
 
 ---
 
@@ -11222,7 +11222,7 @@ public java.lang.String getScaleMinCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_min_capacity ElastigroupAws#scale_min_capacity}.
 
 ---
 
@@ -11234,7 +11234,7 @@ public java.lang.String getScaleTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#scale_target_capacity ElastigroupAws#scale_target_capacity}.
 
 ---
 
@@ -11246,7 +11246,7 @@ public java.lang.String getStartTime();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#start_time ElastigroupAws#start_time}.
 
 ---
 
@@ -11258,7 +11258,7 @@ public java.lang.String getTargetCapacity();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#target_capacity ElastigroupAws#target_capacity}.
 
 ---
 
@@ -11279,8 +11279,8 @@ ElastigroupAwsSignal.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.timeout">timeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsSignal.property.timeout">timeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}. |
 
 ---
 
@@ -11292,7 +11292,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#name ElastigroupAws#name}.
 
 ---
 
@@ -11304,7 +11304,7 @@ public java.lang.Number getTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#timeout ElastigroupAws#timeout}.
 
 ---
 
@@ -11331,10 +11331,10 @@ ElastigroupAwsStatefulDeallocation.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteImages">shouldDeleteImages</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteNetworkInterfaces">shouldDeleteNetworkInterfaces</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteSnapshots">shouldDeleteSnapshots</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteVolumes">shouldDeleteVolumes</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteImages">shouldDeleteImages</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteNetworkInterfaces">shouldDeleteNetworkInterfaces</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteSnapshots">shouldDeleteSnapshots</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulDeallocation.property.shouldDeleteVolumes">shouldDeleteVolumes</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}. |
 
 ---
 
@@ -11346,7 +11346,7 @@ public java.lang.Object getShouldDeleteImages();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_images ElastigroupAws#should_delete_images}.
 
 ---
 
@@ -11358,7 +11358,7 @@ public java.lang.Object getShouldDeleteNetworkInterfaces();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_network_interfaces ElastigroupAws#should_delete_network_interfaces}.
 
 ---
 
@@ -11370,7 +11370,7 @@ public java.lang.Object getShouldDeleteSnapshots();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_snapshots ElastigroupAws#should_delete_snapshots}.
 
 ---
 
@@ -11382,7 +11382,7 @@ public java.lang.Object getShouldDeleteVolumes();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_delete_volumes ElastigroupAws#should_delete_volumes}.
 
 ---
 
@@ -11403,8 +11403,8 @@ ElastigroupAwsStatefulInstanceAction.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.statefulInstanceId">statefulInstanceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.statefulInstanceId">statefulInstanceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsStatefulInstanceAction.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}. |
 
 ---
 
@@ -11416,7 +11416,7 @@ public java.lang.String getStatefulInstanceId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#stateful_instance_id ElastigroupAws#stateful_instance_id}.
 
 ---
 
@@ -11428,7 +11428,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#type ElastigroupAws#type}.
 
 ---
 
@@ -11449,8 +11449,8 @@ ElastigroupAwsTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}. |
 
 ---
 
@@ -11462,7 +11462,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#key ElastigroupAws#key}.
 
 ---
 
@@ -11474,7 +11474,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#value ElastigroupAws#value}.
 
 ---
 
@@ -11500,9 +11500,9 @@ ElastigroupAwsUpdatePolicy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldResumeStateful">shouldResumeStateful</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldRoll">shouldRoll</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.autoApplyTags">autoApplyTags</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldResumeStateful">shouldResumeStateful</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.shouldRoll">shouldRoll</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.autoApplyTags">autoApplyTags</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicy.property.rollConfig">rollConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig">ElastigroupAwsUpdatePolicyRollConfig</a></code> | roll_config block. |
 
 ---
@@ -11515,7 +11515,7 @@ public java.lang.Object getShouldResumeStateful();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_resume_stateful ElastigroupAws#should_resume_stateful}.
 
 ---
 
@@ -11527,7 +11527,7 @@ public java.lang.Object getShouldRoll();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_roll ElastigroupAws#should_roll}.
 
 ---
 
@@ -11539,7 +11539,7 @@ public java.lang.Object getAutoApplyTags();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#auto_apply_tags ElastigroupAws#auto_apply_tags}.
 
 ---
 
@@ -11553,7 +11553,7 @@ public ElastigroupAwsUpdatePolicyRollConfig getRollConfig();
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#roll_config ElastigroupAws#roll_config}
 
 ---
 
@@ -11578,12 +11578,12 @@ ElastigroupAwsUpdatePolicyRollConfig.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.batchSizePercentage">batchSizePercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.gracePeriod">gracePeriod</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.healthCheckType">healthCheckType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.strategy">strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy">ElastigroupAwsUpdatePolicyRollConfigStrategy</a></code> | strategy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollPercentage">waitForRollPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollTimeout">waitForRollTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollPercentage">waitForRollPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfig.property.waitForRollTimeout">waitForRollTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}. |
 
 ---
 
@@ -11595,7 +11595,7 @@ public java.lang.Number getBatchSizePercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_size_percentage ElastigroupAws#batch_size_percentage}.
 
 ---
 
@@ -11607,7 +11607,7 @@ public java.lang.Number getGracePeriod();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#grace_period ElastigroupAws#grace_period}.
 
 ---
 
@@ -11619,7 +11619,7 @@ public java.lang.String getHealthCheckType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#health_check_type ElastigroupAws#health_check_type}.
 
 ---
 
@@ -11633,7 +11633,7 @@ public ElastigroupAwsUpdatePolicyRollConfigStrategy getStrategy();
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#strategy ElastigroupAws#strategy}
 
 ---
 
@@ -11645,7 +11645,7 @@ public java.lang.Number getWaitForRollPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_roll_percentage ElastigroupAws#wait_for_roll_percentage}.
 
 ---
 
@@ -11657,7 +11657,7 @@ public java.lang.Number getWaitForRollTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#wait_for_roll_timeout ElastigroupAws#wait_for_roll_timeout}.
 
 ---
 
@@ -11681,10 +11681,10 @@ ElastigroupAwsUpdatePolicyRollConfigStrategy.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.action">action</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.batchMinHealthyPercentage">batchMinHealthyPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.action">action</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.batchMinHealthyPercentage">batchMinHealthyPercentage</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.onFailure">onFailure</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure">ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure</a></code> | on_failure block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.shouldDrainInstances">shouldDrainInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategy.property.shouldDrainInstances">shouldDrainInstances</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}. |
 
 ---
 
@@ -11696,7 +11696,7 @@ public java.lang.String getAction();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action ElastigroupAws#action}.
 
 ---
 
@@ -11708,7 +11708,7 @@ public java.lang.Number getBatchMinHealthyPercentage();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_min_healthy_percentage ElastigroupAws#batch_min_healthy_percentage}.
 
 ---
 
@@ -11722,7 +11722,7 @@ public ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure getOnFailure();
 
 on_failure block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#on_failure ElastigroupAws#on_failure}
 
 ---
 
@@ -11734,7 +11734,7 @@ public java.lang.Object getShouldDrainInstances();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_drain_instances ElastigroupAws#should_drain_instances}.
 
 ---
 
@@ -11760,11 +11760,11 @@ ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.batchNum">batchNum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldDecrementTargetCapacity">shouldDecrementTargetCapacity</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldHandleAllBatches">shouldHandleAllBatches</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.actionType">actionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.batchNum">batchNum</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.drainingTimeout">drainingTimeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldDecrementTargetCapacity">shouldDecrementTargetCapacity</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAws.ElastigroupAwsUpdatePolicyRollConfigStrategyOnFailure.property.shouldHandleAllBatches">shouldHandleAllBatches</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}. |
 
 ---
 
@@ -11776,7 +11776,7 @@ public java.lang.String getActionType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#action_type ElastigroupAws#action_type}.
 
 ---
 
@@ -11788,7 +11788,7 @@ public java.lang.Number getBatchNum();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#batch_num ElastigroupAws#batch_num}.
 
 ---
 
@@ -11800,7 +11800,7 @@ public java.lang.Number getDrainingTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#draining_timeout ElastigroupAws#draining_timeout}.
 
 ---
 
@@ -11812,7 +11812,7 @@ public java.lang.Object getShouldDecrementTargetCapacity();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_decrement_target_capacity ElastigroupAws#should_decrement_target_capacity}.
 
 ---
 
@@ -11824,7 +11824,7 @@ public java.lang.Object getShouldHandleAllBatches();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.0/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/elastigroup_aws#should_handle_all_batches ElastigroupAws#should_handle_all_batches}.
 
 ---
 
