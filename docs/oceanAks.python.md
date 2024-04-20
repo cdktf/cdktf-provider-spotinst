@@ -4,7 +4,7 @@
 
 ### OceanAks <a name="OceanAks" id="@cdktf/provider-spotinst.oceanAks.OceanAks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks spotinst_ocean_aks}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks spotinst_ocean_aks}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer"></a>
 
@@ -58,29 +58,29 @@ oceanAks.OceanAks(
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.acdIdentifier">acd_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.aksName">aks_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.aksResourceGroupName">aks_resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.sshPublicKey">ssh_public_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.acdIdentifier">acd_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.aksName">aks_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.aksResourceGroupName">aks_resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.sshPublicKey">ssh_public_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.autoscaler">autoscaler</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler">OceanAksAutoscaler</a></code> | autoscaler block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.controllerClusterId">controller_cluster_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.customData">custom_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.controllerClusterId">controller_cluster_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.customData">custom_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.extension">extension</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>]]</code> | extension block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.health">health</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth">OceanAksHealth</a></code> | health block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#id OceanAks#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#id OceanAks#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.image">image</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>]]</code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.loadBalancer">load_balancer</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>]]</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.managedServiceIdentity">managed_service_identity</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>]]</code> | managed_service_identity block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.maxPods">max_pods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.maxPods">max_pods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.network">network</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork">OceanAksNetwork</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.osDisk">os_disk</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk">OceanAksOsDisk</a></code> | os_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.strategy">strategy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>]]</code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.tag">tag</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>]]</code> | tag block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.userName">user_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.userName">user_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.vmSizes">vm_sizes</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>]]</code> | vm_sizes block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.zones">zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#zones OceanAks#zones}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer.parameter.zones">zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#zones OceanAks#zones}. |
 
 ---
 
@@ -148,7 +148,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscaler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#extension OceanAks#extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#extension OceanAks#extension}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 health block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#health OceanAks#health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#health OceanAks#health}
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#id OceanAks#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#id OceanAks#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -247,7 +247,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#image OceanAks#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#image OceanAks#image}
 
 ---
 
@@ -257,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
 
 ---
 
@@ -267,7 +267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 managed_service_identity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
 
 ---
 
@@ -275,7 +275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
 
 ---
 
@@ -285,7 +285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#network OceanAks#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#network OceanAks#network}
 
 ---
 
@@ -295,7 +295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 os_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
 
 ---
 
@@ -303,7 +303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -313,7 +313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#strategy OceanAks#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#strategy OceanAks#strategy}
 
 ---
 
@@ -323,7 +323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#tag OceanAks#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#tag OceanAks#tag}
 
 ---
 
@@ -331,7 +331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#user_name OceanAks#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#user_name OceanAks#user_name}.
 
 ---
 
@@ -341,7 +341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 vm_sizes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
 
 ---
 
@@ -349,7 +349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#zones OceanAks#zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#zones OceanAks#zones}.
 
 ---
 
@@ -754,7 +754,7 @@ def put_autoscaler(
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
 
 ---
 
@@ -764,7 +764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
 
 ---
 
@@ -772,7 +772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
 
 ---
 
@@ -782,7 +782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 resource_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
 
 ---
 
@@ -812,7 +812,7 @@ def put_health(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
 
 ---
 
@@ -874,7 +874,7 @@ def put_network(
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
 
 ---
 
@@ -882,7 +882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -890,7 +890,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
 
 ---
 
@@ -907,7 +907,7 @@ def put_os_disk(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
 
 ---
 
@@ -915,7 +915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -1183,7 +1183,7 @@ The construct id used in the generated config for the OceanAks to import.
 
 The id of the existing OceanAks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1905,7 +1905,7 @@ oceanAks.OceanAksAutoscaler(
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleDown">autoscale_down</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown">OceanAksAutoscalerAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleHeadroom">autoscale_headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroom">OceanAksAutoscalerAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleIsEnabled">autoscale_is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.resourceLimits">resource_limits</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits">OceanAksAutoscalerResourceLimits</a></code> | resource_limits block. |
 
 ---
@@ -1920,7 +1920,7 @@ autoscale_down: OceanAksAutoscalerAutoscaleDown
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
 
 ---
 
@@ -1934,7 +1934,7 @@ autoscale_headroom: OceanAksAutoscalerAutoscaleHeadroom
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
 
 ---
 
@@ -1946,7 +1946,7 @@ autoscale_is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
 
 ---
 
@@ -1960,7 +1960,7 @@ resource_limits: OceanAksAutoscalerResourceLimits
 
 resource_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
 
 ---
 
@@ -1980,7 +1980,7 @@ oceanAks.OceanAksAutoscalerAutoscaleDown(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown.property.maxScaleDownPercentage">max_scale_down_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}. |
 
 ---
 
@@ -1992,7 +1992,7 @@ max_scale_down_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
 
 ---
 
@@ -2026,7 +2026,7 @@ automatic: OceanAksAutoscalerAutoscaleHeadroomAutomatic
 
 automatic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#automatic OceanAks#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#automatic OceanAks#automatic}
 
 ---
 
@@ -2047,8 +2047,8 @@ oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#percentage OceanAks#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.isEnabled">is_enabled</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#percentage OceanAks#percentage}. |
 
 ---
 
@@ -2060,7 +2060,7 @@ is_enabled: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
 
 ---
 
@@ -2072,7 +2072,7 @@ percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#percentage OceanAks#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#percentage OceanAks#percentage}.
 
 ---
 
@@ -2093,8 +2093,8 @@ oceanAks.OceanAksAutoscalerResourceLimits(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxMemoryGib">max_memory_gib</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxVcpu">max_vcpu</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxMemoryGib">max_memory_gib</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxVcpu">max_vcpu</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}. |
 
 ---
 
@@ -2106,7 +2106,7 @@ max_memory_gib: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
 
 ---
 
@@ -2118,7 +2118,7 @@ max_vcpu: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
 
 ---
 
@@ -2174,29 +2174,29 @@ oceanAks.OceanAksConfig(
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.acdIdentifier">acd_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksName">aks_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksResourceGroupName">aks_resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.sshPublicKey">ssh_public_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.acdIdentifier">acd_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksName">aks_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksResourceGroupName">aks_resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.sshPublicKey">ssh_public_key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.autoscaler">autoscaler</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler">OceanAksAutoscaler</a></code> | autoscaler block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.controllerClusterId">controller_cluster_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.customData">custom_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.controllerClusterId">controller_cluster_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.customData">custom_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.extension">extension</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension">OceanAksExtension</a>]]</code> | extension block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.health">health</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth">OceanAksHealth</a></code> | health block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#id OceanAks#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#id OceanAks#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.image">image</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImage">OceanAksImage</a>]]</code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.loadBalancer">load_balancer</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer">OceanAksLoadBalancer</a>]]</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.managedServiceIdentity">managed_service_identity</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity">OceanAksManagedServiceIdentity</a>]]</code> | managed_service_identity block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.maxPods">max_pods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.maxPods">max_pods</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.network">network</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork">OceanAksNetwork</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.osDisk">os_disk</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk">OceanAksOsDisk</a></code> | os_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.strategy">strategy</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy">OceanAksStrategy</a>]]</code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.tag">tag</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag">OceanAksTag</a>]]</code> | tag block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.userName">user_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.userName">user_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.vmSizes">vm_sizes</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes">OceanAksVmSizes</a>]]</code> | vm_sizes block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.zones">zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#zones OceanAks#zones}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.zones">zones</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#zones OceanAks#zones}. |
 
 ---
 
@@ -2278,7 +2278,7 @@ acd_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
 
 ---
 
@@ -2290,7 +2290,7 @@ aks_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
 
 ---
 
@@ -2302,7 +2302,7 @@ aks_resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
 
 ---
 
@@ -2314,7 +2314,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2326,7 +2326,7 @@ ssh_public_key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
 
 ---
 
@@ -2340,7 +2340,7 @@ autoscaler: OceanAksAutoscaler
 
 autoscaler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
 
 ---
 
@@ -2352,7 +2352,7 @@ controller_cluster_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
 
 ---
 
@@ -2364,7 +2364,7 @@ custom_data: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
 
 ---
 
@@ -2378,7 +2378,7 @@ extension: typing.Union[IResolvable, typing.List[OceanAksExtension]]
 
 extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#extension OceanAks#extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#extension OceanAks#extension}
 
 ---
 
@@ -2392,7 +2392,7 @@ health: OceanAksHealth
 
 health block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#health OceanAks#health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#health OceanAks#health}
 
 ---
 
@@ -2404,7 +2404,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#id OceanAks#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#id OceanAks#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2421,7 +2421,7 @@ image: typing.Union[IResolvable, typing.List[OceanAksImage]]
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#image OceanAks#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#image OceanAks#image}
 
 ---
 
@@ -2435,7 +2435,7 @@ load_balancer: typing.Union[IResolvable, typing.List[OceanAksLoadBalancer]]
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
 
 ---
 
@@ -2449,7 +2449,7 @@ managed_service_identity: typing.Union[IResolvable, typing.List[OceanAksManagedS
 
 managed_service_identity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
 
 ---
 
@@ -2461,7 +2461,7 @@ max_pods: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
 
 ---
 
@@ -2475,7 +2475,7 @@ network: OceanAksNetwork
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#network OceanAks#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#network OceanAks#network}
 
 ---
 
@@ -2489,7 +2489,7 @@ os_disk: OceanAksOsDisk
 
 os_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
 
 ---
 
@@ -2501,7 +2501,7 @@ resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2515,7 +2515,7 @@ strategy: typing.Union[IResolvable, typing.List[OceanAksStrategy]]
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#strategy OceanAks#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#strategy OceanAks#strategy}
 
 ---
 
@@ -2529,7 +2529,7 @@ tag: typing.Union[IResolvable, typing.List[OceanAksTag]]
 
 tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#tag OceanAks#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#tag OceanAks#tag}
 
 ---
 
@@ -2541,7 +2541,7 @@ user_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#user_name OceanAks#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#user_name OceanAks#user_name}.
 
 ---
 
@@ -2555,7 +2555,7 @@ vm_sizes: typing.Union[IResolvable, typing.List[OceanAksVmSizes]]
 
 vm_sizes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
 
 ---
 
@@ -2567,7 +2567,7 @@ zones: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#zones OceanAks#zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#zones OceanAks#zones}.
 
 ---
 
@@ -2591,11 +2591,11 @@ oceanAks.OceanAksExtension(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.apiVersion">api_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#api_version OceanAks#api_version}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.minorVersionAutoUpgrade">minor_version_auto_upgrade</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.publisher">publisher</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.apiVersion">api_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#api_version OceanAks#api_version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.minorVersionAutoUpgrade">minor_version_auto_upgrade</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.publisher">publisher</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -2607,7 +2607,7 @@ api_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#api_version OceanAks#api_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#api_version OceanAks#api_version}.
 
 ---
 
@@ -2619,7 +2619,7 @@ minor_version_auto_upgrade: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}.
 
 ---
 
@@ -2631,7 +2631,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2643,7 +2643,7 @@ publisher: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#publisher OceanAks#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#publisher OceanAks#publisher}.
 
 ---
 
@@ -2655,7 +2655,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -2675,7 +2675,7 @@ oceanAks.OceanAksHealth(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#grace_period OceanAks#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth.property.gracePeriod">grace_period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#grace_period OceanAks#grace_period}. |
 
 ---
 
@@ -2687,7 +2687,7 @@ grace_period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
 
 ---
 
@@ -2721,7 +2721,7 @@ marketplace: typing.Union[IResolvable, typing.List[OceanAksImageMarketplace]]
 
 marketplace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#marketplace OceanAks#marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#marketplace OceanAks#marketplace}
 
 ---
 
@@ -2744,10 +2744,10 @@ oceanAks.OceanAksImageMarketplace(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.offer">offer</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#offer OceanAks#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.publisher">publisher</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.sku">sku</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#sku OceanAks#sku}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#version OceanAks#version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.offer">offer</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#offer OceanAks#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.publisher">publisher</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.sku">sku</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#sku OceanAks#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#version OceanAks#version}. |
 
 ---
 
@@ -2759,7 +2759,7 @@ offer: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#offer OceanAks#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#offer OceanAks#offer}.
 
 ---
 
@@ -2771,7 +2771,7 @@ publisher: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#publisher OceanAks#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#publisher OceanAks#publisher}.
 
 ---
 
@@ -2783,7 +2783,7 @@ sku: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#sku OceanAks#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#sku OceanAks#sku}.
 
 ---
 
@@ -2795,7 +2795,7 @@ version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#version OceanAks#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#version OceanAks#version}.
 
 ---
 
@@ -2819,11 +2819,11 @@ oceanAks.OceanAksLoadBalancer(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.backendPoolNames">backend_pool_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.loadBalancerSku">load_balancer_sku</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.backendPoolNames">backend_pool_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.loadBalancerSku">load_balancer_sku</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -2835,7 +2835,7 @@ backend_pool_names: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}.
 
 ---
 
@@ -2847,7 +2847,7 @@ load_balancer_sku: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}.
 
 ---
 
@@ -2859,7 +2859,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2871,7 +2871,7 @@ resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2883,7 +2883,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -2904,8 +2904,8 @@ oceanAks.OceanAksManagedServiceIdentity(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 
 ---
 
@@ -2917,7 +2917,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2929,7 +2929,7 @@ resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2952,8 +2952,8 @@ oceanAks.OceanAksNetwork(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.networkInterface">network_interface</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface">OceanAksNetworkNetworkInterface</a>]]</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.virtualNetworkName">virtual_network_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.virtualNetworkName">virtual_network_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}. |
 
 ---
 
@@ -2967,7 +2967,7 @@ network_interface: typing.Union[IResolvable, typing.List[OceanAksNetworkNetworkI
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
 
 ---
 
@@ -2979,7 +2979,7 @@ resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2991,7 +2991,7 @@ virtual_network_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
 
 ---
 
@@ -3016,10 +3016,10 @@ oceanAks.OceanAksNetworkNetworkInterface(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.additionalIpConfig">additional_ip_config</a></code> | <code>typing.Union[cdktf.IResolvable, typing.List[<a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig">OceanAksNetworkNetworkInterfaceAdditionalIpConfig</a>]]</code> | additional_ip_config block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.assignPublicIp">assign_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.isPrimary">is_primary</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#is_primary OceanAks#is_primary}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.assignPublicIp">assign_public_ip</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.isPrimary">is_primary</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#is_primary OceanAks#is_primary}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.securityGroup">security_group</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup">OceanAksNetworkNetworkInterfaceSecurityGroup</a></code> | security_group block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.subnetName">subnet_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.subnetName">subnet_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}. |
 
 ---
 
@@ -3033,7 +3033,7 @@ additional_ip_config: typing.Union[IResolvable, typing.List[OceanAksNetworkNetwo
 
 additional_ip_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#additional_ip_config OceanAks#additional_ip_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#additional_ip_config OceanAks#additional_ip_config}
 
 ---
 
@@ -3045,7 +3045,7 @@ assign_public_ip: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}.
 
 ---
 
@@ -3057,7 +3057,7 @@ is_primary: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#is_primary OceanAks#is_primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#is_primary OceanAks#is_primary}.
 
 ---
 
@@ -3071,7 +3071,7 @@ security_group: OceanAksNetworkNetworkInterfaceSecurityGroup
 
 security_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#security_group OceanAks#security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#security_group OceanAks#security_group}
 
 ---
 
@@ -3083,7 +3083,7 @@ subnet_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}.
 
 ---
 
@@ -3104,8 +3104,8 @@ oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.privateIpVersion">private_ip_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.privateIpVersion">private_ip_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}. |
 
 ---
 
@@ -3117,7 +3117,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -3129,7 +3129,7 @@ private_ip_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}.
 
 ---
 
@@ -3150,8 +3150,8 @@ oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.resourceGroupName">resource_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 
 ---
 
@@ -3163,7 +3163,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -3175,7 +3175,7 @@ resource_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -3196,8 +3196,8 @@ oceanAks.OceanAksOsDisk(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.sizeGb">size_gb</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#size_gb OceanAks#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.sizeGb">size_gb</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#size_gb OceanAks#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -3209,7 +3209,7 @@ size_gb: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
 
 ---
 
@@ -3221,7 +3221,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -3242,8 +3242,8 @@ oceanAks.OceanAksStrategy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.fallbackToOndemand">fallback_to_ondemand</a></code> | <code>typing.Union[bool, cdktf.IResolvable]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.spotPercentage">spot_percentage</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}. |
 
 ---
 
@@ -3255,7 +3255,7 @@ fallback_to_ondemand: typing.Union[bool, IResolvable]
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}.
 
 ---
 
@@ -3267,7 +3267,7 @@ spot_percentage: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}.
 
 ---
 
@@ -3288,8 +3288,8 @@ oceanAks.OceanAksTag(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#key OceanAks#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#value OceanAks#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#key OceanAks#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#value OceanAks#value}. |
 
 ---
 
@@ -3301,7 +3301,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#key OceanAks#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#key OceanAks#key}.
 
 ---
 
@@ -3313,7 +3313,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#value OceanAks#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#value OceanAks#value}.
 
 ---
 
@@ -3333,7 +3333,7 @@ oceanAks.OceanAksVmSizes(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes.property.whitelist">whitelist</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#whitelist OceanAks#whitelist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes.property.whitelist">whitelist</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#whitelist OceanAks#whitelist}. |
 
 ---
 
@@ -3345,7 +3345,7 @@ whitelist: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#whitelist OceanAks#whitelist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#whitelist OceanAks#whitelist}.
 
 ---
 
@@ -4229,7 +4229,7 @@ def put_automatic(
 
 - *Type:* typing.Union[bool, cdktf.IResolvable]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
 
 ---
 
@@ -4237,7 +4237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#percentage OceanAks#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#percentage OceanAks#percentage}.
 
 ---
 
@@ -4562,7 +4562,7 @@ def put_autoscale_down(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
 
 ---
 
@@ -4580,7 +4580,7 @@ def put_autoscale_headroom(
 
 automatic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#automatic OceanAks#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#automatic OceanAks#automatic}
 
 ---
 
@@ -4597,7 +4597,7 @@ def put_resource_limits(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
 
 ---
 
@@ -4605,7 +4605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
 
 ---
 
@@ -9190,7 +9190,7 @@ def put_security_group(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -9198,7 +9198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.169.1/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.170.0/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
