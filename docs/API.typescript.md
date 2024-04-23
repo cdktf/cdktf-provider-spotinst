@@ -10,7 +10,6 @@ The following submodules are available:
 - [elastigroupAws](./elastigroupAws.typescript.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.typescript.md)
 - [elastigroupAwsSuspension](./elastigroupAwsSuspension.typescript.md)
-- [elastigroupAzure](./elastigroupAzure.typescript.md)
 - [elastigroupAzureV3](./elastigroupAzureV3.typescript.md)
 - [elastigroupGcp](./elastigroupGcp.typescript.md)
 - [elastigroupGke](./elastigroupGke.typescript.md)
