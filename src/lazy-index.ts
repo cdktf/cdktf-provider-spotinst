@@ -10,7 +10,6 @@ Object.defineProperty(exports, 'dataIntegration', { get: function () { return re
 Object.defineProperty(exports, 'elastigroupAws', { get: function () { return require('./elastigroup-aws'); } });
 Object.defineProperty(exports, 'elastigroupAwsBeanstalk', { get: function () { return require('./elastigroup-aws-beanstalk'); } });
 Object.defineProperty(exports, 'elastigroupAwsSuspension', { get: function () { return require('./elastigroup-aws-suspension'); } });
-Object.defineProperty(exports, 'elastigroupAzure', { get: function () { return require('./elastigroup-azure'); } });
 Object.defineProperty(exports, 'elastigroupAzureV3', { get: function () { return require('./elastigroup-azure-v3'); } });
 Object.defineProperty(exports, 'elastigroupGcp', { get: function () { return require('./elastigroup-gcp'); } });
 Object.defineProperty(exports, 'elastigroupGke', { get: function () { return require('./elastigroup-gke'); } });

@@ -10,7 +10,6 @@ The following submodules are available:
 - [elastigroupAws](./elastigroupAws.java.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.java.md)
 - [elastigroupAwsSuspension](./elastigroupAwsSuspension.java.md)
-- [elastigroupAzure](./elastigroupAzure.java.md)
 - [elastigroupAzureV3](./elastigroupAzureV3.java.md)
 - [elastigroupGcp](./elastigroupGcp.java.md)
 - [elastigroupGke](./elastigroupGke.java.md)

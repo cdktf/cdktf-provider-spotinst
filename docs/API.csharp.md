@@ -10,7 +10,6 @@ The following submodules are available:
 - [elastigroupAws](./elastigroupAws.csharp.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.csharp.md)
 - [elastigroupAwsSuspension](./elastigroupAwsSuspension.csharp.md)
-- [elastigroupAzure](./elastigroupAzure.csharp.md)
 - [elastigroupAzureV3](./elastigroupAzureV3.csharp.md)
 - [elastigroupGcp](./elastigroupGcp.csharp.md)
 - [elastigroupGke](./elastigroupGke.csharp.md)

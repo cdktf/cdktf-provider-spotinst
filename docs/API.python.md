@@ -10,7 +10,6 @@ The following submodules are available:
 - [elastigroupAws](./elastigroupAws.python.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.python.md)
 - [elastigroupAwsSuspension](./elastigroupAwsSuspension.python.md)
-- [elastigroupAzure](./elastigroupAzure.python.md)
 - [elastigroupAzureV3](./elastigroupAzureV3.python.md)
 - [elastigroupGcp](./elastigroupGcp.python.md)
 - [elastigroupGke](./elastigroupGke.python.md)

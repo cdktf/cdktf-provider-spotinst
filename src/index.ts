@@ -10,7 +10,6 @@ export * as dataIntegration from './data-integration';
 export * as elastigroupAws from './elastigroup-aws';
 export * as elastigroupAwsBeanstalk from './elastigroup-aws-beanstalk';
 export * as elastigroupAwsSuspension from './elastigroup-aws-suspension';
-export * as elastigroupAzure from './elastigroup-azure';
 export * as elastigroupAzureV3 from './elastigroup-azure-v3';
 export * as elastigroupGcp from './elastigroup-gcp';
 export * as elastigroupGke from './elastigroup-gke';
