@@ -4,7 +4,7 @@
 
 ### OceanAks <a name="OceanAks" id="@cdktf/provider-spotinst.oceanAks.OceanAks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks spotinst_ocean_aks}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks spotinst_ocean_aks}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAks.OceanAks.Initializer"></a>
 
@@ -736,7 +736,7 @@ The construct id used in the generated config for the OceanAks to import.
 
 The id of the existing OceanAks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1458,7 +1458,7 @@ new OceanAksAutoscaler {
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleDown">AutoscaleDown</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown">OceanAksAutoscalerAutoscaleDown</a></code> | autoscale_down block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleHeadroom">AutoscaleHeadroom</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroom">OceanAksAutoscalerAutoscaleHeadroom</a></code> | autoscale_headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleIsEnabled">AutoscaleIsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.autoscaleIsEnabled">AutoscaleIsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler.property.resourceLimits">ResourceLimits</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits">OceanAksAutoscalerResourceLimits</a></code> | resource_limits block. |
 
 ---
@@ -1473,7 +1473,7 @@ public OceanAksAutoscalerAutoscaleDown AutoscaleDown { get; set; }
 
 autoscale_down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#autoscale_down OceanAks#autoscale_down}
 
 ---
 
@@ -1487,7 +1487,7 @@ public OceanAksAutoscalerAutoscaleHeadroom AutoscaleHeadroom { get; set; }
 
 autoscale_headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#autoscale_headroom OceanAks#autoscale_headroom}
 
 ---
 
@@ -1499,7 +1499,7 @@ public object AutoscaleIsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#autoscale_is_enabled OceanAks#autoscale_is_enabled}.
 
 ---
 
@@ -1513,7 +1513,7 @@ public OceanAksAutoscalerResourceLimits ResourceLimits { get; set; }
 
 resource_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_limits OceanAks#resource_limits}
 
 ---
 
@@ -1533,7 +1533,7 @@ new OceanAksAutoscalerAutoscaleDown {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}. |
 
 ---
 
@@ -1545,7 +1545,7 @@ public double MaxScaleDownPercentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_scale_down_percentage OceanAks#max_scale_down_percentage}.
 
 ---
 
@@ -1579,7 +1579,7 @@ public OceanAksAutoscalerAutoscaleHeadroomAutomatic Automatic { get; set; }
 
 automatic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#automatic OceanAks#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#automatic OceanAks#automatic}
 
 ---
 
@@ -1600,8 +1600,8 @@ new OceanAksAutoscalerAutoscaleHeadroomAutomatic {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.percentage">Percentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#percentage OceanAks#percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerAutoscaleHeadroomAutomatic.property.percentage">Percentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#percentage OceanAks#percentage}. |
 
 ---
 
@@ -1613,7 +1613,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#is_enabled OceanAks#is_enabled}.
 
 ---
 
@@ -1625,7 +1625,7 @@ public double Percentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#percentage OceanAks#percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#percentage OceanAks#percentage}.
 
 ---
 
@@ -1646,8 +1646,8 @@ new OceanAksAutoscalerResourceLimits {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}. |
 
 ---
 
@@ -1659,7 +1659,7 @@ public double MaxMemoryGib { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_memory_gib OceanAks#max_memory_gib}.
 
 ---
 
@@ -1671,7 +1671,7 @@ public double MaxVcpu { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_vcpu OceanAks#max_vcpu}.
 
 ---
 
@@ -1727,29 +1727,29 @@ new OceanAksConfig {
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.acdIdentifier">AcdIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksName">AksName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksResourceGroupName">AksResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.acdIdentifier">AcdIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksName">AksName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#aks_name OceanAks#aks_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.aksResourceGroupName">AksResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.autoscaler">Autoscaler</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksAutoscaler">OceanAksAutoscaler</a></code> | autoscaler block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.controllerClusterId">ControllerClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.controllerClusterId">ControllerClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#custom_data OceanAks#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.extension">Extension</a></code> | <code>object</code> | extension block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.health">Health</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth">OceanAksHealth</a></code> | health block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#id OceanAks#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#id OceanAks#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.image">Image</a></code> | <code>object</code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.loadBalancer">LoadBalancer</a></code> | <code>object</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.managedServiceIdentity">ManagedServiceIdentity</a></code> | <code>object</code> | managed_service_identity block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.maxPods">MaxPods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.maxPods">MaxPods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_pods OceanAks#max_pods}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork">OceanAksNetwork</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.osDisk">OsDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk">OceanAksOsDisk</a></code> | os_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.strategy">Strategy</a></code> | <code>object</code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.tag">Tag</a></code> | <code>object</code> | tag block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#user_name OceanAks#user_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.vmSizes">VmSizes</a></code> | <code>object</code> | vm_sizes block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.zones">Zones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#zones OceanAks#zones}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksConfig.property.zones">Zones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#zones OceanAks#zones}. |
 
 ---
 
@@ -1831,7 +1831,7 @@ public string AcdIdentifier { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#acd_identifier OceanAks#acd_identifier}.
 
 ---
 
@@ -1843,7 +1843,7 @@ public string AksName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#aks_name OceanAks#aks_name}.
 
 ---
 
@@ -1855,7 +1855,7 @@ public string AksResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#aks_resource_group_name OceanAks#aks_resource_group_name}.
 
 ---
 
@@ -1867,7 +1867,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -1879,7 +1879,7 @@ public string SshPublicKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#ssh_public_key OceanAks#ssh_public_key}.
 
 ---
 
@@ -1893,7 +1893,7 @@ public OceanAksAutoscaler Autoscaler { get; set; }
 
 autoscaler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#autoscaler OceanAks#autoscaler}
 
 ---
 
@@ -1905,7 +1905,7 @@ public string ControllerClusterId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#controller_cluster_id OceanAks#controller_cluster_id}.
 
 ---
 
@@ -1917,7 +1917,7 @@ public string CustomData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#custom_data OceanAks#custom_data}.
 
 ---
 
@@ -1931,7 +1931,7 @@ public object Extension { get; set; }
 
 extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#extension OceanAks#extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#extension OceanAks#extension}
 
 ---
 
@@ -1945,7 +1945,7 @@ public OceanAksHealth Health { get; set; }
 
 health block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#health OceanAks#health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#health OceanAks#health}
 
 ---
 
@@ -1957,7 +1957,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#id OceanAks#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#id OceanAks#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1974,7 +1974,7 @@ public object Image { get; set; }
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#image OceanAks#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#image OceanAks#image}
 
 ---
 
@@ -1988,7 +1988,7 @@ public object LoadBalancer { get; set; }
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#load_balancer OceanAks#load_balancer}
 
 ---
 
@@ -2002,7 +2002,7 @@ public object ManagedServiceIdentity { get; set; }
 
 managed_service_identity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#managed_service_identity OceanAks#managed_service_identity}
 
 ---
 
@@ -2014,7 +2014,7 @@ public double MaxPods { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#max_pods OceanAks#max_pods}.
 
 ---
 
@@ -2028,7 +2028,7 @@ public OceanAksNetwork Network { get; set; }
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#network OceanAks#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#network OceanAks#network}
 
 ---
 
@@ -2042,7 +2042,7 @@ public OceanAksOsDisk OsDisk { get; set; }
 
 os_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#os_disk OceanAks#os_disk}
 
 ---
 
@@ -2054,7 +2054,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2068,7 +2068,7 @@ public object Strategy { get; set; }
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#strategy OceanAks#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#strategy OceanAks#strategy}
 
 ---
 
@@ -2082,7 +2082,7 @@ public object Tag { get; set; }
 
 tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#tag OceanAks#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#tag OceanAks#tag}
 
 ---
 
@@ -2094,7 +2094,7 @@ public string UserName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#user_name OceanAks#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#user_name OceanAks#user_name}.
 
 ---
 
@@ -2108,7 +2108,7 @@ public object VmSizes { get; set; }
 
 vm_sizes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#vm_sizes OceanAks#vm_sizes}
 
 ---
 
@@ -2120,7 +2120,7 @@ public string[] Zones { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#zones OceanAks#zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#zones OceanAks#zones}.
 
 ---
 
@@ -2144,11 +2144,11 @@ new OceanAksExtension {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#api_version OceanAks#api_version}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#api_version OceanAks#api_version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksExtension.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -2160,7 +2160,7 @@ public string ApiVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#api_version OceanAks#api_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#api_version OceanAks#api_version}.
 
 ---
 
@@ -2172,7 +2172,7 @@ public object MinorVersionAutoUpgrade { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#minor_version_auto_upgrade OceanAks#minor_version_auto_upgrade}.
 
 ---
 
@@ -2184,7 +2184,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2196,7 +2196,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#publisher OceanAks#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#publisher OceanAks#publisher}.
 
 ---
 
@@ -2208,7 +2208,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -2228,7 +2228,7 @@ new OceanAksHealth {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#grace_period OceanAks#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksHealth.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#grace_period OceanAks#grace_period}. |
 
 ---
 
@@ -2240,7 +2240,7 @@ public double GracePeriod { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#grace_period OceanAks#grace_period}.
 
 ---
 
@@ -2274,7 +2274,7 @@ public object Marketplace { get; set; }
 
 marketplace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#marketplace OceanAks#marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#marketplace OceanAks#marketplace}
 
 ---
 
@@ -2297,10 +2297,10 @@ new OceanAksImageMarketplace {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#offer OceanAks#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#sku OceanAks#sku}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#version OceanAks#version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#offer OceanAks#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#publisher OceanAks#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#sku OceanAks#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksImageMarketplace.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#version OceanAks#version}. |
 
 ---
 
@@ -2312,7 +2312,7 @@ public string Offer { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#offer OceanAks#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#offer OceanAks#offer}.
 
 ---
 
@@ -2324,7 +2324,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#publisher OceanAks#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#publisher OceanAks#publisher}.
 
 ---
 
@@ -2336,7 +2336,7 @@ public string Sku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#sku OceanAks#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#sku OceanAks#sku}.
 
 ---
 
@@ -2348,7 +2348,7 @@ public string Version { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#version OceanAks#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#version OceanAks#version}.
 
 ---
 
@@ -2372,11 +2372,11 @@ new OceanAksLoadBalancer {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.loadBalancerSku">LoadBalancerSku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.loadBalancerSku">LoadBalancerSku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksLoadBalancer.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -2388,7 +2388,7 @@ public string[] BackendPoolNames { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#backend_pool_names OceanAks#backend_pool_names}.
 
 ---
 
@@ -2400,7 +2400,7 @@ public string LoadBalancerSku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#load_balancer_sku OceanAks#load_balancer_sku}.
 
 ---
 
@@ -2412,7 +2412,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2424,7 +2424,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2436,7 +2436,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -2457,8 +2457,8 @@ new OceanAksManagedServiceIdentity {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksManagedServiceIdentity.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 
 ---
 
@@ -2470,7 +2470,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2482,7 +2482,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2505,8 +2505,8 @@ new OceanAksNetwork {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.networkInterface">NetworkInterface</a></code> | <code>object</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}. |
 
 ---
 
@@ -2520,7 +2520,7 @@ public object NetworkInterface { get; set; }
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#network_interface OceanAks#network_interface}
 
 ---
 
@@ -2532,7 +2532,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2544,7 +2544,7 @@ public string VirtualNetworkName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#virtual_network_name OceanAks#virtual_network_name}.
 
 ---
 
@@ -2569,10 +2569,10 @@ new OceanAksNetworkNetworkInterface {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.additionalIpConfig">AdditionalIpConfig</a></code> | <code>object</code> | additional_ip_config block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#is_primary OceanAks#is_primary}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#is_primary OceanAks#is_primary}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.securityGroup">SecurityGroup</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup">OceanAksNetworkNetworkInterfaceSecurityGroup</a></code> | security_group block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}. |
 
 ---
 
@@ -2586,7 +2586,7 @@ public object AdditionalIpConfig { get; set; }
 
 additional_ip_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#additional_ip_config OceanAks#additional_ip_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#additional_ip_config OceanAks#additional_ip_config}
 
 ---
 
@@ -2598,7 +2598,7 @@ public object AssignPublicIp { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#assign_public_ip OceanAks#assign_public_ip}.
 
 ---
 
@@ -2610,7 +2610,7 @@ public object IsPrimary { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#is_primary OceanAks#is_primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#is_primary OceanAks#is_primary}.
 
 ---
 
@@ -2624,7 +2624,7 @@ public OceanAksNetworkNetworkInterfaceSecurityGroup SecurityGroup { get; set; }
 
 security_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#security_group OceanAks#security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#security_group OceanAks#security_group}
 
 ---
 
@@ -2636,7 +2636,7 @@ public string SubnetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#subnet_name OceanAks#subnet_name}.
 
 ---
 
@@ -2657,8 +2657,8 @@ new OceanAksNetworkNetworkInterfaceAdditionalIpConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceAdditionalIpConfig.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}. |
 
 ---
 
@@ -2670,7 +2670,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2682,7 +2682,7 @@ public string PrivateIpVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#private_ip_version OceanAks#private_ip_version}.
 
 ---
 
@@ -2703,8 +2703,8 @@ new OceanAksNetworkNetworkInterfaceSecurityGroup {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksNetworkNetworkInterfaceSecurityGroup.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}. |
 
 ---
 
@@ -2716,7 +2716,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#name OceanAks#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#name OceanAks#name}.
 
 ---
 
@@ -2728,7 +2728,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#resource_group_name OceanAks#resource_group_name}.
 
 ---
 
@@ -2749,8 +2749,8 @@ new OceanAksOsDisk {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#size_gb OceanAks#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#size_gb OceanAks#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksOsDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}. |
 
 ---
 
@@ -2762,7 +2762,7 @@ public double SizeGb { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#size_gb OceanAks#size_gb}.
 
 ---
 
@@ -2774,7 +2774,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#type OceanAks#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#type OceanAks#type}.
 
 ---
 
@@ -2795,8 +2795,8 @@ new OceanAksStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.spotPercentage">SpotPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.fallbackToOndemand">FallbackToOndemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksStrategy.property.spotPercentage">SpotPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}. |
 
 ---
 
@@ -2808,7 +2808,7 @@ public object FallbackToOndemand { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#fallback_to_ondemand OceanAks#fallback_to_ondemand}.
 
 ---
 
@@ -2820,7 +2820,7 @@ public double SpotPercentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#spot_percentage OceanAks#spot_percentage}.
 
 ---
 
@@ -2841,8 +2841,8 @@ new OceanAksTag {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#key OceanAks#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#value OceanAks#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#key OceanAks#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksTag.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#value OceanAks#value}. |
 
 ---
 
@@ -2854,7 +2854,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#key OceanAks#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#key OceanAks#key}.
 
 ---
 
@@ -2866,7 +2866,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#value OceanAks#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#value OceanAks#value}.
 
 ---
 
@@ -2886,7 +2886,7 @@ new OceanAksVmSizes {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes.property.whitelist">Whitelist</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#whitelist OceanAks#whitelist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanAks.OceanAksVmSizes.property.whitelist">Whitelist</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#whitelist OceanAks#whitelist}. |
 
 ---
 
@@ -2898,7 +2898,7 @@ public string[] Whitelist { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.3/docs/resources/ocean_aks#whitelist OceanAks#whitelist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.171.4/docs/resources/ocean_aks#whitelist OceanAks#whitelist}.
 
 ---
 
