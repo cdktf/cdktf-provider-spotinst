@@ -30,6 +30,8 @@ export * as oceanGkeLaunchSpec from './ocean-gke-launch-spec';
 export * as oceanGkeLaunchSpecImport from './ocean-gke-launch-spec-import';
 export * as oceanSpark from './ocean-spark';
 export * as oceanSparkVirtualNodeGroup from './ocean-spark-virtual-node-group';
+export * as oceancdStrategy from './oceancd-strategy';
+export * as oceancdVerificationProvider from './oceancd-verification-provider';
 export * as organizationPolicy from './organization-policy';
 export * as organizationProgrammaticUser from './organization-programmatic-user';
 export * as organizationUser from './organization-user';

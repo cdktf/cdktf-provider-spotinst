@@ -30,6 +30,8 @@ The following submodules are available:
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.java.md)
 - [oceanSpark](./oceanSpark.java.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.java.md)
+- [oceancdStrategy](./oceancdStrategy.java.md)
+- [oceancdVerificationProvider](./oceancdVerificationProvider.java.md)
 - [organizationPolicy](./organizationPolicy.java.md)
 - [organizationProgrammaticUser](./organizationProgrammaticUser.java.md)
 - [organizationUser](./organizationUser.java.md)
