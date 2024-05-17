@@ -30,6 +30,8 @@ The following submodules are available:
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.csharp.md)
 - [oceanSpark](./oceanSpark.csharp.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.csharp.md)
+- [oceancdStrategy](./oceancdStrategy.csharp.md)
+- [oceancdVerificationProvider](./oceancdVerificationProvider.csharp.md)
 - [organizationPolicy](./organizationPolicy.csharp.md)
 - [organizationProgrammaticUser](./organizationProgrammaticUser.csharp.md)
 - [organizationUser](./organizationUser.csharp.md)

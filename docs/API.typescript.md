@@ -30,6 +30,8 @@ The following submodules are available:
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.typescript.md)
 - [oceanSpark](./oceanSpark.typescript.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.typescript.md)
+- [oceancdStrategy](./oceancdStrategy.typescript.md)
+- [oceancdVerificationProvider](./oceancdVerificationProvider.typescript.md)
 - [organizationPolicy](./organizationPolicy.typescript.md)
 - [organizationProgrammaticUser](./organizationProgrammaticUser.typescript.md)
 - [organizationUser](./organizationUser.typescript.md)

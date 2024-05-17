@@ -30,6 +30,8 @@ The following submodules are available:
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.python.md)
 - [oceanSpark](./oceanSpark.python.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.python.md)
+- [oceancdStrategy](./oceancdStrategy.python.md)
+- [oceancdVerificationProvider](./oceancdVerificationProvider.python.md)
 - [organizationPolicy](./organizationPolicy.python.md)
 - [organizationProgrammaticUser](./organizationProgrammaticUser.python.md)
 - [organizationUser](./organizationUser.python.md)
