@@ -4,7 +4,7 @@
 
 ### OceanSpark <a name="OceanSpark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark spotinst_ocean_spark}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark spotinst_ocean_spark}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer"></a>
 
@@ -574,7 +574,7 @@ The construct id used in the generated config for the OceanSpark to import.
 
 The id of the existing OceanSpark that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -940,8 +940,8 @@ new OceanSparkCompute {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.createVngs">CreateVngs</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.useTaints">UseTaints</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.createVngs">CreateVngs</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.useTaints">UseTaints</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}. |
 
 ---
 
@@ -953,7 +953,7 @@ public object CreateVngs { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}.
 
 ---
 
@@ -965,7 +965,7 @@ public object UseTaints { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}.
 
 ---
 
@@ -1005,9 +1005,9 @@ new OceanSparkConfig {
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.oceanClusterId">OceanClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.oceanClusterId">OceanClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.compute">Compute</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute">OceanSparkCompute</a></code> | compute block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#id OceanSpark#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#id OceanSpark#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.ingress">Ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | ingress block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.logCollection">LogCollection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | log_collection block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.spark">Spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | spark block. |
@@ -1093,7 +1093,7 @@ public string OceanClusterId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
 
 ---
 
@@ -1107,7 +1107,7 @@ public OceanSparkCompute Compute { get; set; }
 
 compute block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#compute OceanSpark#compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#compute OceanSpark#compute}
 
 ---
 
@@ -1119,7 +1119,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#id OceanSpark#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#id OceanSpark#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1136,7 +1136,7 @@ public OceanSparkIngress Ingress { get; set; }
 
 ingress block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#ingress OceanSpark#ingress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#ingress OceanSpark#ingress}
 
 ---
 
@@ -1150,7 +1150,7 @@ public OceanSparkLogCollection LogCollection { get; set; }
 
 log_collection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
 
 ---
 
@@ -1164,7 +1164,7 @@ public OceanSparkSpark Spark { get; set; }
 
 spark block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#spark OceanSpark#spark}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#spark OceanSpark#spark}
 
 ---
 
@@ -1178,7 +1178,7 @@ public OceanSparkWebhook Webhook { get; set; }
 
 webhook block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#webhook OceanSpark#webhook}
 
 ---
 
@@ -1206,7 +1206,7 @@ new OceanSparkIngress {
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.customEndpoint">CustomEndpoint</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint">OceanSparkIngressCustomEndpoint</a></code> | custom_endpoint block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.loadBalancer">LoadBalancer</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer">OceanSparkIngressLoadBalancer</a></code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.privateLink">PrivateLink</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink">OceanSparkIngressPrivateLink</a></code> | private_link block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.serviceAnnotations">ServiceAnnotations</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.serviceAnnotations">ServiceAnnotations</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
 
 ---
 
@@ -1220,7 +1220,7 @@ public OceanSparkIngressController Controller { get; set; }
 
 controller block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#controller OceanSpark#controller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#controller OceanSpark#controller}
 
 ---
 
@@ -1234,7 +1234,7 @@ public OceanSparkIngressCustomEndpoint CustomEndpoint { get; set; }
 
 custom_endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
 
 ---
 
@@ -1248,7 +1248,7 @@ public OceanSparkIngressLoadBalancer LoadBalancer { get; set; }
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
 
 ---
 
@@ -1262,7 +1262,7 @@ public OceanSparkIngressPrivateLink PrivateLink { get; set; }
 
 private_link block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#private_link OceanSpark#private_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#private_link OceanSpark#private_link}
 
 ---
 
@@ -1274,7 +1274,7 @@ public System.Collections.Generic.IDictionary<string, string> ServiceAnnotations
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
 
 ---
 
@@ -1294,7 +1294,7 @@ new OceanSparkIngressController {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressController.property.managed">Managed</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#managed OceanSpark#managed}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressController.property.managed">Managed</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#managed OceanSpark#managed}. |
 
 ---
 
@@ -1306,7 +1306,7 @@ public object Managed { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#managed OceanSpark#managed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#managed OceanSpark#managed}.
 
 ---
 
@@ -1327,8 +1327,8 @@ new OceanSparkIngressCustomEndpoint {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.address">Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#address OceanSpark#address}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.enabled">Enabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.address">Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#address OceanSpark#address}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.enabled">Enabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
 
 ---
 
@@ -1340,7 +1340,7 @@ public string Address { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#address OceanSpark#address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#address OceanSpark#address}.
 
 ---
 
@@ -1352,7 +1352,7 @@ public object Enabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
 
 ---
 
@@ -1374,9 +1374,9 @@ new OceanSparkIngressLoadBalancer {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.managed">Managed</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#managed OceanSpark#managed}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.serviceAnnotations">ServiceAnnotations</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.targetGroupArn">TargetGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.managed">Managed</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#managed OceanSpark#managed}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.serviceAnnotations">ServiceAnnotations</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.targetGroupArn">TargetGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}. |
 
 ---
 
@@ -1388,7 +1388,7 @@ public object Managed { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#managed OceanSpark#managed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#managed OceanSpark#managed}.
 
 ---
 
@@ -1400,7 +1400,7 @@ public System.Collections.Generic.IDictionary<string, string> ServiceAnnotations
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
 
 ---
 
@@ -1412,7 +1412,7 @@ public string TargetGroupArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}.
 
 ---
 
@@ -1433,8 +1433,8 @@ new OceanSparkIngressPrivateLink {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.enabled">Enabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.vpcEndpointService">VpcEndpointService</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.enabled">Enabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.vpcEndpointService">VpcEndpointService</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}. |
 
 ---
 
@@ -1446,7 +1446,7 @@ public object Enabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
 
 ---
 
@@ -1458,7 +1458,7 @@ public string VpcEndpointService { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}.
 
 ---
 
@@ -1478,7 +1478,7 @@ new OceanSparkLogCollection {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection.property.collectAppLogs">CollectAppLogs</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection.property.collectAppLogs">CollectAppLogs</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}. |
 
 ---
 
@@ -1490,7 +1490,7 @@ public object CollectAppLogs { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}.
 
 ---
 
@@ -1510,7 +1510,7 @@ new OceanSparkSpark {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces">AdditionalAppNamespaces</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces">AdditionalAppNamespaces</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}. |
 
 ---
 
@@ -1522,7 +1522,7 @@ public string[] AdditionalAppNamespaces { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
 
 ---
 
@@ -1543,8 +1543,8 @@ new OceanSparkWebhook {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.hostNetworkPorts">HostNetworkPorts</a></code> | <code>double[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.useHostNetwork">UseHostNetwork</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.hostNetworkPorts">HostNetworkPorts</a></code> | <code>double[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.useHostNetwork">UseHostNetwork</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}. |
 
 ---
 
@@ -1556,7 +1556,7 @@ public double[] HostNetworkPorts { get; set; }
 
 - *Type:* double[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}.
 
 ---
 
@@ -1568,7 +1568,7 @@ public object UseHostNetwork { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.2/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.172.3/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}.
 
 ---
 
