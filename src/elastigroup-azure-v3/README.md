@@ -1,3 +1,3 @@
 # `spotinst_elastigroup_azure_v3`
 
-Refer to the Terraform Registry for docs: [`spotinst_elastigroup_azure_v3`](https://registry.terraform.io/providers/spotinst/spotinst/1.173.0/docs/resources/elastigroup_azure_v3).
+Refer to the Terraform Registry for docs: [`spotinst_elastigroup_azure_v3`](https://registry.terraform.io/providers/spotinst/spotinst/1.175.0/docs/resources/elastigroup_azure_v3).
