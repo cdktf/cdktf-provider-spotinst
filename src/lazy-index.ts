@@ -16,10 +16,8 @@ Object.defineProperty(exports, 'elastigroupGke', { get: function () { return req
 Object.defineProperty(exports, 'healthCheck', { get: function () { return require('./health-check'); } });
 Object.defineProperty(exports, 'managedInstanceAws', { get: function () { return require('./managed-instance-aws'); } });
 Object.defineProperty(exports, 'mrscalerAws', { get: function () { return require('./mrscaler-aws'); } });
-Object.defineProperty(exports, 'oceanAks', { get: function () { return require('./ocean-aks'); } });
 Object.defineProperty(exports, 'oceanAksNp', { get: function () { return require('./ocean-aks-np'); } });
 Object.defineProperty(exports, 'oceanAksNpVirtualNodeGroup', { get: function () { return require('./ocean-aks-np-virtual-node-group'); } });
-Object.defineProperty(exports, 'oceanAksVirtualNodeGroup', { get: function () { return require('./ocean-aks-virtual-node-group'); } });
 Object.defineProperty(exports, 'oceanAws', { get: function () { return require('./ocean-aws'); } });
 Object.defineProperty(exports, 'oceanAwsExtendedResourceDefinition', { get: function () { return require('./ocean-aws-extended-resource-definition'); } });
 Object.defineProperty(exports, 'oceanAwsLaunchSpec', { get: function () { return require('./ocean-aws-launch-spec'); } });
