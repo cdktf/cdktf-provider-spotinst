@@ -26,6 +26,7 @@ The following submodules are available:
 - [oceanGkeImport](./oceanGkeImport.csharp.md)
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.csharp.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.csharp.md)
+- [oceanRightSizingRule](./oceanRightSizingRule.csharp.md)
 - [oceanSpark](./oceanSpark.csharp.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.csharp.md)
 - [oceancdRolloutSpec](./oceancdRolloutSpec.csharp.md)

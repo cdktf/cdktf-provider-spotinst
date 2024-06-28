@@ -26,6 +26,7 @@ The following submodules are available:
 - [oceanGkeImport](./oceanGkeImport.typescript.md)
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.typescript.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.typescript.md)
+- [oceanRightSizingRule](./oceanRightSizingRule.typescript.md)
 - [oceanSpark](./oceanSpark.typescript.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.typescript.md)
 - [oceancdRolloutSpec](./oceancdRolloutSpec.typescript.md)

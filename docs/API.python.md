@@ -26,6 +26,7 @@ The following submodules are available:
 - [oceanGkeImport](./oceanGkeImport.python.md)
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.python.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.python.md)
+- [oceanRightSizingRule](./oceanRightSizingRule.python.md)
 - [oceanSpark](./oceanSpark.python.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.python.md)
 - [oceancdRolloutSpec](./oceancdRolloutSpec.python.md)
