@@ -26,6 +26,7 @@ export * as oceanEcsLaunchSpec from './ocean-ecs-launch-spec';
 export * as oceanGkeImport from './ocean-gke-import';
 export * as oceanGkeLaunchSpec from './ocean-gke-launch-spec';
 export * as oceanGkeLaunchSpecImport from './ocean-gke-launch-spec-import';
+export * as oceanRightSizingRule from './ocean-right-sizing-rule';
 export * as oceanSpark from './ocean-spark';
 export * as oceanSparkVirtualNodeGroup from './ocean-spark-virtual-node-group';
 export * as oceancdRolloutSpec from './oceancd-rollout-spec';

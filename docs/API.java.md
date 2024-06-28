@@ -26,6 +26,7 @@ The following submodules are available:
 - [oceanGkeImport](./oceanGkeImport.java.md)
 - [oceanGkeLaunchSpec](./oceanGkeLaunchSpec.java.md)
 - [oceanGkeLaunchSpecImport](./oceanGkeLaunchSpecImport.java.md)
+- [oceanRightSizingRule](./oceanRightSizingRule.java.md)
 - [oceanSpark](./oceanSpark.java.md)
 - [oceanSparkVirtualNodeGroup](./oceanSparkVirtualNodeGroup.java.md)
 - [oceancdRolloutSpec](./oceancdRolloutSpec.java.md)
