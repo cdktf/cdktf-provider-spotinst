@@ -4,12 +4,12 @@
 
 ### ElastigroupAwsSuspension <a name="ElastigroupAwsSuspension" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.NewElastigroupAwsSuspension(scope Construct, id *string, config ElastigroupAwsSuspensionConfig) ElastigroupAwsSuspension
 ```
@@ -398,7 +398,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.ElastigroupAwsSuspension_IsConstruct(x interface{}) *bool
 ```
@@ -430,7 +430,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.ElastigroupAwsSuspension_IsTerraformElement(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ elastigroupawssuspension.ElastigroupAwsSuspension_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.ElastigroupAwsSuspension_IsTerraformResource(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ elastigroupawssuspension.ElastigroupAwsSuspension_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspension.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.ElastigroupAwsSuspension_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -487,7 +487,7 @@ The construct id used in the generated config for the ElastigroupAwsSuspension t
 
 The id of the existing ElastigroupAwsSuspension that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -753,7 +753,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 &elastigroupawssuspension.ElastigroupAwsSuspensionConfig {
 	Connection: interface{},
@@ -780,9 +780,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawss
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.groupId">GroupId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.groupId">GroupId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.suspension">Suspension</a></code> | <code>interface{}</code> | suspension block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}. |
 
 ---
 
@@ -864,7 +864,7 @@ GroupId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}.
 
 ---
 
@@ -878,7 +878,7 @@ Suspension interface{}
 
 suspension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#suspension ElastigroupAwsSuspension#suspension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#suspension ElastigroupAwsSuspension#suspension}
 
 ---
 
@@ -890,7 +890,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -902,7 +902,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionSuspension.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 &elastigroupawssuspension.ElastigroupAwsSuspensionSuspension {
 	Name: *string,
@@ -913,7 +913,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawss
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionSuspension.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionSuspension.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}. |
 
 ---
 
@@ -925,7 +925,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}.
 
 ---
 
@@ -936,7 +936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionSuspensionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.NewElastigroupAwsSuspensionSuspensionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElastigroupAwsSuspensionSuspensionList
 ```
@@ -1096,7 +1096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAwsSuspension.ElastigroupAwsSuspensionSuspensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/elastigroupawssuspension"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/elastigroupawssuspension"
 
 elastigroupawssuspension.NewElastigroupAwsSuspensionSuspensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElastigroupAwsSuspensionSuspensionOutputReference
 ```

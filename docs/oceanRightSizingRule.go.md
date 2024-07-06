@@ -4,12 +4,12 @@
 
 ### OceanRightSizingRule <a name="OceanRightSizingRule" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRule(scope Construct, id *string, config OceanRightSizingRuleConfig) OceanRightSizingRule
 ```
@@ -512,7 +512,7 @@ func ResetRestartPods()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsConstruct(x interface{}) *bool
 ```
@@ -544,7 +544,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -558,7 +558,7 @@ oceanrightsizingrule.OceanRightSizingRule_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -572,7 +572,7 @@ oceanrightsizingrule.OceanRightSizingRule_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -601,7 +601,7 @@ The construct id used in the generated config for the OceanRightSizingRule to im
 
 The id of the existing OceanRightSizingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloads {
 	Namespaces: interface{},
@@ -1046,7 +1046,7 @@ Namespaces interface{}
 
 namespaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespaces {
 	NamespaceName: *string,
@@ -1068,7 +1068,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.property.namespaceName">NamespaceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.property.namespaceName">NamespaceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.property.labels">Labels</a></code> | <code>interface{}</code> | labels block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.property.workloads">Workloads</a></code> | <code>interface{}</code> | workloads block. |
 
@@ -1082,7 +1082,7 @@ NamespaceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}.
 
 ---
 
@@ -1096,7 +1096,7 @@ Labels interface{}
 
 labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
 
 ---
 
@@ -1110,7 +1110,7 @@ Workloads interface{}
 
 workloads block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels {
 	Key: *string,
@@ -1131,8 +1131,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}. |
 
 ---
 
@@ -1144,7 +1144,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}.
 
 ---
 
@@ -1156,7 +1156,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}.
 
 ---
 
@@ -1165,7 +1165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads {
 	WorkloadType: *string,
@@ -1178,9 +1178,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.workloadType">WorkloadType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.regexName">RegexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.workloadName">WorkloadName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.workloadType">WorkloadType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.regexName">RegexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.property.workloadName">WorkloadName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}. |
 
 ---
 
@@ -1192,7 +1192,7 @@ WorkloadType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}.
 
 ---
 
@@ -1204,7 +1204,7 @@ RegexName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}.
 
 ---
 
@@ -1216,7 +1216,7 @@ WorkloadName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}.
 
 ---
 
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleConfig {
 	Connection: interface{},
@@ -1260,15 +1260,15 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.recommendationApplicationIntervals">RecommendationApplicationIntervals</a></code> | <code>interface{}</code> | recommendation_application_intervals block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.ruleName">RuleName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.ruleName">RuleName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.attachWorkloads">AttachWorkloads</a></code> | <code>interface{}</code> | attach_workloads block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.detachWorkloads">DetachWorkloads</a></code> | <code>interface{}</code> | detach_workloads block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.oceanId">OceanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.oceanId">OceanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.recommendationApplicationBoundaries">RecommendationApplicationBoundaries</a></code> | <code>interface{}</code> | recommendation_application_boundaries block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.recommendationApplicationMinThreshold">RecommendationApplicationMinThreshold</a></code> | <code>interface{}</code> | recommendation_application_min_threshold block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.recommendationApplicationOverheadValues">RecommendationApplicationOverheadValues</a></code> | <code>interface{}</code> | recommendation_application_overhead_values block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.restartPods">RestartPods</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#restart_pods OceanRightSizingRule#restart_pods}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.property.restartPods">RestartPods</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#restart_pods OceanRightSizingRule#restart_pods}. |
 
 ---
 
@@ -1352,7 +1352,7 @@ RecommendationApplicationIntervals interface{}
 
 recommendation_application_intervals block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#recommendation_application_intervals OceanRightSizingRule#recommendation_application_intervals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#recommendation_application_intervals OceanRightSizingRule#recommendation_application_intervals}
 
 ---
 
@@ -1364,7 +1364,7 @@ RuleName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}.
 
 ---
 
@@ -1378,7 +1378,7 @@ AttachWorkloads interface{}
 
 attach_workloads block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#attach_workloads OceanRightSizingRule#attach_workloads}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#attach_workloads OceanRightSizingRule#attach_workloads}
 
 ---
 
@@ -1392,7 +1392,7 @@ DetachWorkloads interface{}
 
 detach_workloads block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#detach_workloads OceanRightSizingRule#detach_workloads}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#detach_workloads OceanRightSizingRule#detach_workloads}
 
 ---
 
@@ -1404,7 +1404,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1419,7 +1419,7 @@ OceanId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}.
 
 ---
 
@@ -1433,7 +1433,7 @@ RecommendationApplicationBoundaries interface{}
 
 recommendation_application_boundaries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#recommendation_application_boundaries OceanRightSizingRule#recommendation_application_boundaries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#recommendation_application_boundaries OceanRightSizingRule#recommendation_application_boundaries}
 
 ---
 
@@ -1447,7 +1447,7 @@ RecommendationApplicationMinThreshold interface{}
 
 recommendation_application_min_threshold block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#recommendation_application_min_threshold OceanRightSizingRule#recommendation_application_min_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#recommendation_application_min_threshold OceanRightSizingRule#recommendation_application_min_threshold}
 
 ---
 
@@ -1461,7 +1461,7 @@ RecommendationApplicationOverheadValues interface{}
 
 recommendation_application_overhead_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#recommendation_application_overhead_values OceanRightSizingRule#recommendation_application_overhead_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#recommendation_application_overhead_values OceanRightSizingRule#recommendation_application_overhead_values}
 
 ---
 
@@ -1473,7 +1473,7 @@ RestartPods interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#restart_pods OceanRightSizingRule#restart_pods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#restart_pods OceanRightSizingRule#restart_pods}.
 
 ---
 
@@ -1482,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloads {
 	Namespaces: interface{},
@@ -1507,7 +1507,7 @@ Namespaces interface{}
 
 namespaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
 
 ---
 
@@ -1516,7 +1516,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespaces {
 	NamespaceName: *string,
@@ -1529,7 +1529,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.property.namespaceName">NamespaceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.property.namespaceName">NamespaceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.property.labels">Labels</a></code> | <code>interface{}</code> | labels block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.property.workloads">Workloads</a></code> | <code>interface{}</code> | workloads block. |
 
@@ -1543,7 +1543,7 @@ NamespaceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}.
 
 ---
 
@@ -1557,7 +1557,7 @@ Labels interface{}
 
 labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
 
 ---
 
@@ -1571,7 +1571,7 @@ Workloads interface{}
 
 workloads block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
 
 ---
 
@@ -1580,7 +1580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels {
 	Key: *string,
@@ -1592,8 +1592,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}. |
 
 ---
 
@@ -1605,7 +1605,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}.
 
 ---
 
@@ -1617,7 +1617,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}.
 
 ---
 
@@ -1626,7 +1626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads {
 	WorkloadType: *string,
@@ -1639,9 +1639,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.workloadType">WorkloadType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.regexName">RegexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.workloadName">WorkloadName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.workloadType">WorkloadType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.regexName">RegexName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.property.workloadName">WorkloadName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}. |
 
 ---
 
@@ -1653,7 +1653,7 @@ WorkloadType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}.
 
 ---
 
@@ -1665,7 +1665,7 @@ RegexName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}.
 
 ---
 
@@ -1677,7 +1677,7 @@ WorkloadName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}.
 
 ---
 
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationBoundaries {
 	CpuMax: *f64,
@@ -1700,10 +1700,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.cpuMax">CpuMax</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.cpuMin">CpuMin</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.memoryMax">MemoryMax</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.memoryMin">MemoryMin</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.cpuMax">CpuMax</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.cpuMin">CpuMin</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.memoryMax">MemoryMax</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.property.memoryMin">MemoryMin</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}. |
 
 ---
 
@@ -1715,7 +1715,7 @@ CpuMax *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}.
 
 ---
 
@@ -1727,7 +1727,7 @@ CpuMin *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}.
 
 ---
 
@@ -1739,7 +1739,7 @@ MemoryMax *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}.
 
 ---
 
@@ -1751,7 +1751,7 @@ MemoryMin *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}.
 
 ---
 
@@ -1760,7 +1760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervals {
 	RepetitionBasis: *string,
@@ -1773,7 +1773,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.property.repetitionBasis">RepetitionBasis</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.property.repetitionBasis">RepetitionBasis</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.property.monthlyRepetitionBasis">MonthlyRepetitionBasis</a></code> | <code>interface{}</code> | monthly_repetition_basis block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.property.weeklyRepetitionBasis">WeeklyRepetitionBasis</a></code> | <code>interface{}</code> | weekly_repetition_basis block. |
 
@@ -1787,7 +1787,7 @@ RepetitionBasis *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}.
 
 ---
 
@@ -1801,7 +1801,7 @@ MonthlyRepetitionBasis interface{}
 
 monthly_repetition_basis block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#monthly_repetition_basis OceanRightSizingRule#monthly_repetition_basis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#monthly_repetition_basis OceanRightSizingRule#monthly_repetition_basis}
 
 ---
 
@@ -1815,7 +1815,7 @@ WeeklyRepetitionBasis interface{}
 
 weekly_repetition_basis block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
 
 ---
 
@@ -1824,7 +1824,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis {
 	IntervalMonths: *[]*f64,
@@ -1837,8 +1837,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.property.intervalMonths">IntervalMonths</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.property.weekOfTheMonth">WeekOfTheMonth</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.property.intervalMonths">IntervalMonths</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.property.weekOfTheMonth">WeekOfTheMonth</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.property.weeklyRepetitionBasis">WeeklyRepetitionBasis</a></code> | <code>interface{}</code> | weekly_repetition_basis block. |
 
 ---
@@ -1851,7 +1851,7 @@ IntervalMonths *[]*f64
 
 - *Type:* *[]*f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}.
 
 ---
 
@@ -1863,7 +1863,7 @@ WeekOfTheMonth *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}.
 
 ---
 
@@ -1877,7 +1877,7 @@ WeeklyRepetitionBasis interface{}
 
 weekly_repetition_basis block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
 
 ---
 
@@ -1886,7 +1886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis {
 	IntervalDays: *[]*string,
@@ -1899,9 +1899,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalDays">IntervalDays</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalHoursEndTime">IntervalHoursEndTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalHoursStartTime">IntervalHoursStartTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalDays">IntervalDays</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalHoursEndTime">IntervalHoursEndTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.property.intervalHoursStartTime">IntervalHoursStartTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}. |
 
 ---
 
@@ -1913,7 +1913,7 @@ IntervalDays *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}.
 
 ---
 
@@ -1925,7 +1925,7 @@ IntervalHoursEndTime *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}.
 
 ---
 
@@ -1937,7 +1937,7 @@ IntervalHoursStartTime *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}.
 
 ---
 
@@ -1946,7 +1946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis {
 	IntervalDays: *[]*string,
@@ -1959,9 +1959,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalDays">IntervalDays</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalHoursEndTime">IntervalHoursEndTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalHoursStartTime">IntervalHoursStartTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalDays">IntervalDays</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalHoursEndTime">IntervalHoursEndTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.property.intervalHoursStartTime">IntervalHoursStartTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}. |
 
 ---
 
@@ -1973,7 +1973,7 @@ IntervalDays *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}.
 
 ---
 
@@ -1985,7 +1985,7 @@ IntervalHoursEndTime *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}.
 
 ---
 
@@ -1997,7 +1997,7 @@ IntervalHoursStartTime *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}.
 
 ---
 
@@ -2006,7 +2006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationMinThreshold {
 	CpuPercentage: *f64,
@@ -2018,8 +2018,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.property.cpuPercentage">CpuPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.property.memoryPercentage">MemoryPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.property.cpuPercentage">CpuPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.property.memoryPercentage">MemoryPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}. |
 
 ---
 
@@ -2031,7 +2031,7 @@ CpuPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}.
 
 ---
 
@@ -2043,7 +2043,7 @@ MemoryPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}.
 
 ---
 
@@ -2052,7 +2052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationOverheadValues {
 	CpuPercentage: *f64,
@@ -2064,8 +2064,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.property.cpuPercentage">CpuPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.property.memoryPercentage">MemoryPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.property.cpuPercentage">CpuPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.property.memoryPercentage">MemoryPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}. |
 
 ---
 
@@ -2077,7 +2077,7 @@ CpuPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}.
 
 ---
 
@@ -2089,7 +2089,7 @@ MemoryPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.1/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.180.2/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}.
 
 ---
 
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsList
 ```
@@ -2260,7 +2260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesLabelsList
 ```
@@ -2420,7 +2420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference
 ```
@@ -2731,7 +2731,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesList
 ```
@@ -2891,7 +2891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesOutputReference
 ```
@@ -3264,7 +3264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList
 ```
@@ -3424,7 +3424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference
 ```
@@ -3771,7 +3771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsOutputReference
 ```
@@ -4073,7 +4073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsList
 ```
@@ -4233,7 +4233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesLabelsList
 ```
@@ -4393,7 +4393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference
 ```
@@ -4704,7 +4704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesList
 ```
@@ -4864,7 +4864,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesOutputReference
 ```
@@ -5237,7 +5237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList
 ```
@@ -5397,7 +5397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference
 ```
@@ -5744,7 +5744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsOutputReference
 ```
@@ -6046,7 +6046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundariesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationBoundariesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationBoundariesList
 ```
@@ -6206,7 +6206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundariesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationBoundariesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationBoundariesOutputReference
 ```
@@ -6589,7 +6589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsList
 ```
@@ -6749,7 +6749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList
 ```
@@ -6909,7 +6909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference
 ```
@@ -7262,7 +7262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList
 ```
@@ -7422,7 +7422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference
 ```
@@ -7755,7 +7755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsOutputReference
 ```
@@ -8128,7 +8128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList
 ```
@@ -8288,7 +8288,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference
 ```
@@ -8621,7 +8621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThresholdList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationMinThresholdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationMinThresholdList
 ```
@@ -8781,7 +8781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference
 ```
@@ -9106,7 +9106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationOverheadValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationOverheadValuesList
 ```
@@ -9266,7 +9266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference
 ```
