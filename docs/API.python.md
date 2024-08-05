@@ -4,8 +4,10 @@
 
 The following submodules are available:
 
+- [account](./account.python.md)
 - [accountAws](./accountAws.python.md)
 - [credentialsAws](./credentialsAws.python.md)
+- [credentialsGcp](./credentialsGcp.python.md)
 - [dataIntegration](./dataIntegration.python.md)
 - [elastigroupAws](./elastigroupAws.python.md)
 - [elastigroupAwsBeanstalk](./elastigroupAwsBeanstalk.python.md)
