@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRule(scope Construct, id *string, config OceanRightSizingRuleConfig) OceanRightSizingRule
 ```
@@ -512,7 +512,7 @@ func ResetRestartPods()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsConstruct(x interface{}) *bool
 ```
@@ -544,7 +544,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -558,7 +558,7 @@ oceanrightsizingrule.OceanRightSizingRule_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -572,7 +572,7 @@ oceanrightsizingrule.OceanRightSizingRule_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.OceanRightSizingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloads {
 	Namespaces: interface{},
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespaces.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespaces {
 	NamespaceName: *string,
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespacesLabels {
 	Key: *string,
@@ -1165,7 +1165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads {
 	WorkloadType: *string,
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleConfig {
 	Connection: interface{},
@@ -1482,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloads {
 	Namespaces: interface{},
@@ -1516,7 +1516,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespaces.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespaces {
 	NamespaceName: *string,
@@ -1580,7 +1580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespacesLabels {
 	Key: *string,
@@ -1626,7 +1626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads {
 	WorkloadType: *string,
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundaries.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationBoundaries {
 	CpuMax: *f64,
@@ -1760,7 +1760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervals.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervals {
 	RepetitionBasis: *string,
@@ -1824,7 +1824,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis {
 	IntervalMonths: *[]*f64,
@@ -1886,7 +1886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis {
 	IntervalDays: *[]*string,
@@ -1946,7 +1946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis {
 	IntervalDays: *[]*string,
@@ -2006,7 +2006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationMinThreshold {
 	CpuPercentage: *f64,
@@ -2052,7 +2052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValues.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 &oceanrightsizingrule.OceanRightSizingRuleRecommendationApplicationOverheadValues {
 	CpuPercentage: *f64,
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsList
 ```
@@ -2260,7 +2260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesLabelsList
 ```
@@ -2420,7 +2420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesLabelsOutputReference
 ```
@@ -2731,7 +2731,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesList
 ```
@@ -2891,7 +2891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesOutputReference
 ```
@@ -3264,7 +3264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList
 ```
@@ -3424,7 +3424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsOutputReference
 ```
@@ -3771,7 +3771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleAttachWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleAttachWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleAttachWorkloadsOutputReference
 ```
@@ -4073,7 +4073,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsList
 ```
@@ -4233,7 +4233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesLabelsList
 ```
@@ -4393,7 +4393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesLabelsOutputReference
 ```
@@ -4704,7 +4704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesList
 ```
@@ -4864,7 +4864,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesOutputReference
 ```
@@ -5237,7 +5237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList
 ```
@@ -5397,7 +5397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsOutputReference
 ```
@@ -5744,7 +5744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleDetachWorkloadsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleDetachWorkloadsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleDetachWorkloadsOutputReference
 ```
@@ -6046,7 +6046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundariesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationBoundariesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationBoundariesList
 ```
@@ -6206,7 +6206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationBoundariesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationBoundariesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationBoundariesOutputReference
 ```
@@ -6589,7 +6589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsList
 ```
@@ -6749,7 +6749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisList
 ```
@@ -6909,7 +6909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisOutputReference
 ```
@@ -7262,7 +7262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisList
 ```
@@ -7422,7 +7422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasisOutputReference
 ```
@@ -7755,7 +7755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsOutputReference
 ```
@@ -8128,7 +8128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisList
 ```
@@ -8288,7 +8288,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasisOutputReference
 ```
@@ -8621,7 +8621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThresholdList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationMinThresholdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationMinThresholdList
 ```
@@ -8781,7 +8781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationMinThresholdOutputReference
 ```
@@ -9106,7 +9106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationOverheadValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanRightSizingRuleRecommendationApplicationOverheadValuesList
 ```
@@ -9266,7 +9266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanRightSizingRule.OceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanrightsizingrule"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanrightsizingrule"
 
 oceanrightsizingrule.NewOceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanRightSizingRuleRecommendationApplicationOverheadValuesOutputReference
 ```
