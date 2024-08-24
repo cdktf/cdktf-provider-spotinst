@@ -1,3 +1,3 @@
 # `spotinst_subscription`
 
-Refer to the Terraform Registry for docs: [`spotinst_subscription`](https://registry.terraform.io/providers/spotinst/spotinst/1.187.0/docs/resources/subscription).
+Refer to the Terraform Registry for docs: [`spotinst_subscription`](https://registry.terraform.io/providers/spotinst/spotinst/1.188.0/docs/resources/subscription).
