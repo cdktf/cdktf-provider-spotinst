@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3
+// https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,104 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface ElastigroupAzureV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}
   */
   readonly customData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}
   */
   readonly fallbackToOnDemand: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}
   */
   readonly onDemandCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}
   */
   readonly os: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#image ElastigroupAzureV3#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#image ElastigroupAzureV3#image}
   */
   readonly image?: ElastigroupAzureV3Image[] | cdktf.IResolvable;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#login ElastigroupAzureV3#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#login ElastigroupAzureV3#login}
   */
   readonly login?: ElastigroupAzureV3Login;
   /**
   * managed_service_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#managed_service_identity ElastigroupAzureV3#managed_service_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#managed_service_identity ElastigroupAzureV3#managed_service_identity}
   */
   readonly managedServiceIdentity?: ElastigroupAzureV3ManagedServiceIdentity[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#network ElastigroupAzureV3#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#network ElastigroupAzureV3#network}
   */
   readonly network: ElastigroupAzureV3Network;
   /**
+  * scaling_down_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#scaling_down_policy ElastigroupAzureV3#scaling_down_policy}
+  */
+  readonly scalingDownPolicy?: ElastigroupAzureV3ScalingDownPolicy[] | cdktf.IResolvable;
+  /**
+  * scaling_up_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#scaling_up_policy ElastigroupAzureV3#scaling_up_policy}
+  */
+  readonly scalingUpPolicy?: ElastigroupAzureV3ScalingUpPolicy[] | cdktf.IResolvable;
+  /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#tags ElastigroupAzureV3#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#tags ElastigroupAzureV3#tags}
   */
   readonly tags?: ElastigroupAzureV3Tags[] | cdktf.IResolvable;
   /**
   * vm_sizes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#vm_sizes ElastigroupAzureV3#vm_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#vm_sizes ElastigroupAzureV3#vm_sizes}
   */
   readonly vmSizes: ElastigroupAzureV3VmSizes;
 }
 export interface ElastigroupAzureV3ImageCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}
   */
   readonly imageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -249,23 +256,23 @@ export class ElastigroupAzureV3ImageCustomList extends cdktf.ComplexList {
 }
 export interface ElastigroupAzureV3ImageGalleryImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}
   */
   readonly galleryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}
   */
   readonly imageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}
   */
   readonly spotAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}
   */
   readonly version: string;
 }
@@ -485,19 +492,19 @@ export class ElastigroupAzureV3ImageGalleryImageList extends cdktf.ComplexList {
 }
 export interface ElastigroupAzureV3ImageMarketplace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}
   */
   readonly offer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}
   */
   readonly publisher: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}
   */
   readonly sku: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}
   */
   readonly version: string;
 }
@@ -690,19 +697,19 @@ export interface ElastigroupAzureV3Image {
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#custom ElastigroupAzureV3#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#custom ElastigroupAzureV3#custom}
   */
   readonly custom?: ElastigroupAzureV3ImageCustom[] | cdktf.IResolvable;
   /**
   * gallery_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#gallery_image ElastigroupAzureV3#gallery_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#gallery_image ElastigroupAzureV3#gallery_image}
   */
   readonly galleryImage?: ElastigroupAzureV3ImageGalleryImage[] | cdktf.IResolvable;
   /**
   * marketplace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#marketplace ElastigroupAzureV3#marketplace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#marketplace ElastigroupAzureV3#marketplace}
   */
   readonly marketplace?: ElastigroupAzureV3ImageMarketplace[] | cdktf.IResolvable;
 }
@@ -876,15 +883,15 @@ export class ElastigroupAzureV3ImageList extends cdktf.ComplexList {
 }
 export interface ElastigroupAzureV3Login {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}
   */
   readonly userName: string;
 }
@@ -1023,11 +1030,11 @@ export class ElastigroupAzureV3LoginOutputReference extends cdktf.ComplexObject 
 }
 export interface ElastigroupAzureV3ManagedServiceIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -1166,11 +1173,11 @@ export class ElastigroupAzureV3ManagedServiceIdentityList extends cdktf.ComplexL
 }
 export interface ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}
   */
   readonly privateIpVersion?: string;
 }
@@ -1312,11 +1319,11 @@ export class ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList e
 }
 export interface ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -1455,27 +1462,27 @@ export class ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupL
 }
 export interface ElastigroupAzureV3NetworkNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}
   */
   readonly assignPublicIp: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}
   */
   readonly isPrimary: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}
   */
   readonly subnetName: string;
   /**
   * additional_ip_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#additional_ip_configs ElastigroupAzureV3#additional_ip_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#additional_ip_configs ElastigroupAzureV3#additional_ip_configs}
   */
   readonly additionalIpConfigs?: ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs[] | cdktf.IResolvable;
   /**
   * application_security_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#application_security_group ElastigroupAzureV3#application_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#application_security_group ElastigroupAzureV3#application_security_group}
   */
   readonly applicationSecurityGroup?: ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup[] | cdktf.IResolvable;
 }
@@ -1698,17 +1705,17 @@ export class ElastigroupAzureV3NetworkNetworkInterfacesList extends cdktf.Comple
 }
 export interface ElastigroupAzureV3Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}
   */
   readonly virtualNetworkName: string;
   /**
   * network_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#network_interfaces ElastigroupAzureV3#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#network_interfaces ElastigroupAzureV3#network_interfaces}
   */
   readonly networkInterfaces: ElastigroupAzureV3NetworkNetworkInterfaces[] | cdktf.IResolvable;
 }
@@ -1839,13 +1846,1781 @@ export class ElastigroupAzureV3NetworkOutputReference extends cdktf.ComplexObjec
     return this._networkInterfaces.internalValue;
   }
 }
+export interface ElastigroupAzureV3ScalingDownPolicyAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}
+  */
+  readonly adjustment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}
+  */
+  readonly maximum?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}
+  */
+  readonly minimum?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}
+  */
+  readonly target?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}
+  */
+  readonly type?: string;
+}
+
+export function elastigroupAzureV3ScalingDownPolicyActionToTerraform(struct?: ElastigroupAzureV3ScalingDownPolicyActionOutputReference | ElastigroupAzureV3ScalingDownPolicyAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    adjustment: cdktf.stringToTerraform(struct!.adjustment),
+    maximum: cdktf.stringToTerraform(struct!.maximum),
+    minimum: cdktf.stringToTerraform(struct!.minimum),
+    target: cdktf.stringToTerraform(struct!.target),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingDownPolicyActionToHclTerraform(struct?: ElastigroupAzureV3ScalingDownPolicyActionOutputReference | ElastigroupAzureV3ScalingDownPolicyAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    maximum: {
+      value: cdktf.stringToHclTerraform(struct!.maximum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum: {
+      value: cdktf.stringToHclTerraform(struct!.minimum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target: {
+      value: cdktf.stringToHclTerraform(struct!.target),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingDownPolicyActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingDownPolicyAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingDownPolicyAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adjustment = undefined;
+      this._maximum = undefined;
+      this._minimum = undefined;
+      this._target = undefined;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adjustment = value.adjustment;
+      this._maximum = value.maximum;
+      this._minimum = value.minimum;
+      this._target = value.target;
+      this._type = value.type;
+    }
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface ElastigroupAzureV3ScalingDownPolicyDimensions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}
+  */
+  readonly value?: string;
+}
+
+export function elastigroupAzureV3ScalingDownPolicyDimensionsToTerraform(struct?: ElastigroupAzureV3ScalingDownPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingDownPolicyDimensionsToHclTerraform(struct?: ElastigroupAzureV3ScalingDownPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingDownPolicyDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingDownPolicyDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingDownPolicyDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAzureV3ScalingDownPolicyDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ScalingDownPolicyDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ScalingDownPolicyDimensionsOutputReference {
+    return new ElastigroupAzureV3ScalingDownPolicyDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ElastigroupAzureV3ScalingDownPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}
+  */
+  readonly cooldown: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}
+  */
+  readonly evaluationPeriods: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}
+  */
+  readonly isEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}
+  */
+  readonly metricName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}
+  */
+  readonly namespace: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}
+  */
+  readonly operator: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}
+  */
+  readonly period: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}
+  */
+  readonly policyName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}
+  */
+  readonly source?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}
+  */
+  readonly statistic: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}
+  */
+  readonly threshold: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}
+  */
+  readonly unit?: string;
+  /**
+  * action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
+  */
+  readonly action: ElastigroupAzureV3ScalingDownPolicyAction;
+  /**
+  * dimensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
+  */
+  readonly dimensions?: ElastigroupAzureV3ScalingDownPolicyDimensions[] | cdktf.IResolvable;
+}
+
+export function elastigroupAzureV3ScalingDownPolicyToTerraform(struct?: ElastigroupAzureV3ScalingDownPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cooldown: cdktf.numberToTerraform(struct!.cooldown),
+    evaluation_periods: cdktf.numberToTerraform(struct!.evaluationPeriods),
+    is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
+    metric_name: cdktf.stringToTerraform(struct!.metricName),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    operator: cdktf.stringToTerraform(struct!.operator),
+    period: cdktf.numberToTerraform(struct!.period),
+    policy_name: cdktf.stringToTerraform(struct!.policyName),
+    source: cdktf.stringToTerraform(struct!.source),
+    statistic: cdktf.stringToTerraform(struct!.statistic),
+    threshold: cdktf.numberToTerraform(struct!.threshold),
+    unit: cdktf.stringToTerraform(struct!.unit),
+    action: elastigroupAzureV3ScalingDownPolicyActionToTerraform(struct!.action),
+    dimensions: cdktf.listMapper(elastigroupAzureV3ScalingDownPolicyDimensionsToTerraform, true)(struct!.dimensions),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingDownPolicyToHclTerraform(struct?: ElastigroupAzureV3ScalingDownPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cooldown: {
+      value: cdktf.numberToHclTerraform(struct!.cooldown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    evaluation_periods: {
+      value: cdktf.numberToHclTerraform(struct!.evaluationPeriods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    metric_name: {
+      value: cdktf.stringToHclTerraform(struct!.metricName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    period: {
+      value: cdktf.numberToHclTerraform(struct!.period),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.policyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source: {
+      value: cdktf.stringToHclTerraform(struct!.source),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    statistic: {
+      value: cdktf.stringToHclTerraform(struct!.statistic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    threshold: {
+      value: cdktf.numberToHclTerraform(struct!.threshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    unit: {
+      value: cdktf.stringToHclTerraform(struct!.unit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    action: {
+      value: elastigroupAzureV3ScalingDownPolicyActionToHclTerraform(struct!.action),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ScalingDownPolicyActionList",
+    },
+    dimensions: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3ScalingDownPolicyDimensionsToHclTerraform, true)(struct!.dimensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ScalingDownPolicyDimensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingDownPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingDownPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._action?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action?.internalValue;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingDownPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cooldown = undefined;
+      this._evaluationPeriods = undefined;
+      this._isEnabled = undefined;
+      this._metricName = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._source = undefined;
+      this._statistic = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+      this._action.internalValue = undefined;
+      this._dimensions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cooldown = value.cooldown;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._isEnabled = value.isEnabled;
+      this._metricName = value.metricName;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._source = value.source;
+      this._statistic = value.statistic;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+      this._action.internalValue = value.action;
+      this._dimensions.internalValue = value.dimensions;
+    }
+  }
+
+  // cooldown - computed: false, optional: false, required: true
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // evaluation_periods - computed: false, optional: false, required: true
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: false, optional: false, required: true
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: false, optional: false, required: true
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // statistic - computed: false, optional: false, required: true
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // action - computed: false, optional: false, required: true
+  private _action = new ElastigroupAzureV3ScalingDownPolicyActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+  public putAction(value: ElastigroupAzureV3ScalingDownPolicyAction) {
+    this._action.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action.internalValue;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAzureV3ScalingDownPolicyDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAzureV3ScalingDownPolicyDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+}
+
+export class ElastigroupAzureV3ScalingDownPolicyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ScalingDownPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ScalingDownPolicyOutputReference {
+    return new ElastigroupAzureV3ScalingDownPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ElastigroupAzureV3ScalingUpPolicyAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}
+  */
+  readonly adjustment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}
+  */
+  readonly maximum?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}
+  */
+  readonly minimum?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}
+  */
+  readonly target?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}
+  */
+  readonly type?: string;
+}
+
+export function elastigroupAzureV3ScalingUpPolicyActionToTerraform(struct?: ElastigroupAzureV3ScalingUpPolicyActionOutputReference | ElastigroupAzureV3ScalingUpPolicyAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    adjustment: cdktf.stringToTerraform(struct!.adjustment),
+    maximum: cdktf.stringToTerraform(struct!.maximum),
+    minimum: cdktf.stringToTerraform(struct!.minimum),
+    target: cdktf.stringToTerraform(struct!.target),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingUpPolicyActionToHclTerraform(struct?: ElastigroupAzureV3ScalingUpPolicyActionOutputReference | ElastigroupAzureV3ScalingUpPolicyAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    adjustment: {
+      value: cdktf.stringToHclTerraform(struct!.adjustment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    maximum: {
+      value: cdktf.stringToHclTerraform(struct!.maximum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minimum: {
+      value: cdktf.stringToHclTerraform(struct!.minimum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target: {
+      value: cdktf.stringToHclTerraform(struct!.target),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingUpPolicyActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingUpPolicyAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adjustment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adjustment = this._adjustment;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._target !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.target = this._target;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingUpPolicyAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adjustment = undefined;
+      this._maximum = undefined;
+      this._minimum = undefined;
+      this._target = undefined;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adjustment = value.adjustment;
+      this._maximum = value.maximum;
+      this._minimum = value.minimum;
+      this._target = value.target;
+      this._type = value.type;
+    }
+  }
+
+  // adjustment - computed: false, optional: true, required: false
+  private _adjustment?: string; 
+  public get adjustment() {
+    return this.getStringAttribute('adjustment');
+  }
+  public set adjustment(value: string) {
+    this._adjustment = value;
+  }
+  public resetAdjustment() {
+    this._adjustment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adjustmentInput() {
+    return this._adjustment;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: string; 
+  public get maximum() {
+    return this.getStringAttribute('maximum');
+  }
+  public set maximum(value: string) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: string; 
+  public get minimum() {
+    return this.getStringAttribute('minimum');
+  }
+  public set minimum(value: string) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // target - computed: false, optional: true, required: false
+  private _target?: string; 
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+  public set target(value: string) {
+    this._target = value;
+  }
+  public resetTarget() {
+    this._target = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetInput() {
+    return this._target;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface ElastigroupAzureV3ScalingUpPolicyDimensions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}
+  */
+  readonly value?: string;
+}
+
+export function elastigroupAzureV3ScalingUpPolicyDimensionsToTerraform(struct?: ElastigroupAzureV3ScalingUpPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingUpPolicyDimensionsToHclTerraform(struct?: ElastigroupAzureV3ScalingUpPolicyDimensions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingUpPolicyDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingUpPolicyDimensions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingUpPolicyDimensions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElastigroupAzureV3ScalingUpPolicyDimensionsList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ScalingUpPolicyDimensions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ScalingUpPolicyDimensionsOutputReference {
+    return new ElastigroupAzureV3ScalingUpPolicyDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ElastigroupAzureV3ScalingUpPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}
+  */
+  readonly cooldown: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}
+  */
+  readonly evaluationPeriods: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}
+  */
+  readonly isEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}
+  */
+  readonly metricName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}
+  */
+  readonly namespace: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}
+  */
+  readonly operator: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}
+  */
+  readonly period: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}
+  */
+  readonly policyName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}
+  */
+  readonly source?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}
+  */
+  readonly statistic: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}
+  */
+  readonly threshold: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}
+  */
+  readonly unit?: string;
+  /**
+  * action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
+  */
+  readonly action: ElastigroupAzureV3ScalingUpPolicyAction;
+  /**
+  * dimensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
+  */
+  readonly dimensions?: ElastigroupAzureV3ScalingUpPolicyDimensions[] | cdktf.IResolvable;
+}
+
+export function elastigroupAzureV3ScalingUpPolicyToTerraform(struct?: ElastigroupAzureV3ScalingUpPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cooldown: cdktf.numberToTerraform(struct!.cooldown),
+    evaluation_periods: cdktf.numberToTerraform(struct!.evaluationPeriods),
+    is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
+    metric_name: cdktf.stringToTerraform(struct!.metricName),
+    namespace: cdktf.stringToTerraform(struct!.namespace),
+    operator: cdktf.stringToTerraform(struct!.operator),
+    period: cdktf.numberToTerraform(struct!.period),
+    policy_name: cdktf.stringToTerraform(struct!.policyName),
+    source: cdktf.stringToTerraform(struct!.source),
+    statistic: cdktf.stringToTerraform(struct!.statistic),
+    threshold: cdktf.numberToTerraform(struct!.threshold),
+    unit: cdktf.stringToTerraform(struct!.unit),
+    action: elastigroupAzureV3ScalingUpPolicyActionToTerraform(struct!.action),
+    dimensions: cdktf.listMapper(elastigroupAzureV3ScalingUpPolicyDimensionsToTerraform, true)(struct!.dimensions),
+  }
+}
+
+
+export function elastigroupAzureV3ScalingUpPolicyToHclTerraform(struct?: ElastigroupAzureV3ScalingUpPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cooldown: {
+      value: cdktf.numberToHclTerraform(struct!.cooldown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    evaluation_periods: {
+      value: cdktf.numberToHclTerraform(struct!.evaluationPeriods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    metric_name: {
+      value: cdktf.stringToHclTerraform(struct!.metricName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    namespace: {
+      value: cdktf.stringToHclTerraform(struct!.namespace),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    period: {
+      value: cdktf.numberToHclTerraform(struct!.period),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.policyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source: {
+      value: cdktf.stringToHclTerraform(struct!.source),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    statistic: {
+      value: cdktf.stringToHclTerraform(struct!.statistic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    threshold: {
+      value: cdktf.numberToHclTerraform(struct!.threshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    unit: {
+      value: cdktf.stringToHclTerraform(struct!.unit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    action: {
+      value: elastigroupAzureV3ScalingUpPolicyActionToHclTerraform(struct!.action),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ScalingUpPolicyActionList",
+    },
+    dimensions: {
+      value: cdktf.listMapperHcl(elastigroupAzureV3ScalingUpPolicyDimensionsToHclTerraform, true)(struct!.dimensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ElastigroupAzureV3ScalingUpPolicyDimensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElastigroupAzureV3ScalingUpPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElastigroupAzureV3ScalingUpPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cooldown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cooldown = this._cooldown;
+    }
+    if (this._evaluationPeriods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationPeriods = this._evaluationPeriods;
+    }
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._metricName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricName = this._metricName;
+    }
+    if (this._namespace !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namespace = this._namespace;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._policyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyName = this._policyName;
+    }
+    if (this._source !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.source = this._source;
+    }
+    if (this._statistic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.statistic = this._statistic;
+    }
+    if (this._threshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.threshold = this._threshold;
+    }
+    if (this._unit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unit = this._unit;
+    }
+    if (this._action?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action?.internalValue;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElastigroupAzureV3ScalingUpPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cooldown = undefined;
+      this._evaluationPeriods = undefined;
+      this._isEnabled = undefined;
+      this._metricName = undefined;
+      this._namespace = undefined;
+      this._operator = undefined;
+      this._period = undefined;
+      this._policyName = undefined;
+      this._source = undefined;
+      this._statistic = undefined;
+      this._threshold = undefined;
+      this._unit = undefined;
+      this._action.internalValue = undefined;
+      this._dimensions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cooldown = value.cooldown;
+      this._evaluationPeriods = value.evaluationPeriods;
+      this._isEnabled = value.isEnabled;
+      this._metricName = value.metricName;
+      this._namespace = value.namespace;
+      this._operator = value.operator;
+      this._period = value.period;
+      this._policyName = value.policyName;
+      this._source = value.source;
+      this._statistic = value.statistic;
+      this._threshold = value.threshold;
+      this._unit = value.unit;
+      this._action.internalValue = value.action;
+      this._dimensions.internalValue = value.dimensions;
+    }
+  }
+
+  // cooldown - computed: false, optional: false, required: true
+  private _cooldown?: number; 
+  public get cooldown() {
+    return this.getNumberAttribute('cooldown');
+  }
+  public set cooldown(value: number) {
+    this._cooldown = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cooldownInput() {
+    return this._cooldown;
+  }
+
+  // evaluation_periods - computed: false, optional: false, required: true
+  private _evaluationPeriods?: number; 
+  public get evaluationPeriods() {
+    return this.getNumberAttribute('evaluation_periods');
+  }
+  public set evaluationPeriods(value: number) {
+    this._evaluationPeriods = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationPeriodsInput() {
+    return this._evaluationPeriods;
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // metric_name - computed: false, optional: false, required: true
+  private _metricName?: string; 
+  public get metricName() {
+    return this.getStringAttribute('metric_name');
+  }
+  public set metricName(value: string) {
+    this._metricName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricNameInput() {
+    return this._metricName;
+  }
+
+  // namespace - computed: false, optional: false, required: true
+  private _namespace?: string; 
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+  public set namespace(value: string) {
+    this._namespace = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namespaceInput() {
+    return this._namespace;
+  }
+
+  // operator - computed: false, optional: false, required: true
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // period - computed: false, optional: false, required: true
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // statistic - computed: false, optional: false, required: true
+  private _statistic?: string; 
+  public get statistic() {
+    return this.getStringAttribute('statistic');
+  }
+  public set statistic(value: string) {
+    this._statistic = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statisticInput() {
+    return this._statistic;
+  }
+
+  // threshold - computed: false, optional: false, required: true
+  private _threshold?: number; 
+  public get threshold() {
+    return this.getNumberAttribute('threshold');
+  }
+  public set threshold(value: number) {
+    this._threshold = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdInput() {
+    return this._threshold;
+  }
+
+  // unit - computed: false, optional: true, required: false
+  private _unit?: string; 
+  public get unit() {
+    return this.getStringAttribute('unit');
+  }
+  public set unit(value: string) {
+    this._unit = value;
+  }
+  public resetUnit() {
+    this._unit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unitInput() {
+    return this._unit;
+  }
+
+  // action - computed: false, optional: false, required: true
+  private _action = new ElastigroupAzureV3ScalingUpPolicyActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+  public putAction(value: ElastigroupAzureV3ScalingUpPolicyAction) {
+    this._action.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action.internalValue;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new ElastigroupAzureV3ScalingUpPolicyDimensionsList(this, "dimensions", false);
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: ElastigroupAzureV3ScalingUpPolicyDimensions[] | cdktf.IResolvable) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+}
+
+export class ElastigroupAzureV3ScalingUpPolicyList extends cdktf.ComplexList {
+  public internalValue? : ElastigroupAzureV3ScalingUpPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElastigroupAzureV3ScalingUpPolicyOutputReference {
+    return new ElastigroupAzureV3ScalingUpPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ElastigroupAzureV3Tags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}
   */
   readonly value: string;
 }
@@ -1984,11 +3759,11 @@ export class ElastigroupAzureV3TagsList extends cdktf.ComplexList {
 }
 export interface ElastigroupAzureV3VmSizes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}
   */
   readonly odSizes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}
   */
   readonly spotSizes: string[];
 }
@@ -2095,7 +3870,7 @@ export class ElastigroupAzureV3VmSizesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3}
 */
 export class ElastigroupAzureV3 extends cdktf.TerraformResource {
 
@@ -2111,7 +3886,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElastigroupAzureV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElastigroupAzureV3 to import
-  * @param importFromId The id of the existing ElastigroupAzureV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElastigroupAzureV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElastigroupAzureV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2123,7 +3898,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.193.0/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2134,7 +3909,7 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_azure_v3',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.193.0',
+        providerVersion: '1.194.1',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2162,6 +3937,8 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     this._login.internalValue = config.login;
     this._managedServiceIdentity.internalValue = config.managedServiceIdentity;
     this._network.internalValue = config.network;
+    this._scalingDownPolicy.internalValue = config.scalingDownPolicy;
+    this._scalingUpPolicy.internalValue = config.scalingUpPolicy;
     this._tags.internalValue = config.tags;
     this._vmSizes.internalValue = config.vmSizes;
   }
@@ -2424,6 +4201,38 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
     return this._network.internalValue;
   }
 
+  // scaling_down_policy - computed: false, optional: true, required: false
+  private _scalingDownPolicy = new ElastigroupAzureV3ScalingDownPolicyList(this, "scaling_down_policy", false);
+  public get scalingDownPolicy() {
+    return this._scalingDownPolicy;
+  }
+  public putScalingDownPolicy(value: ElastigroupAzureV3ScalingDownPolicy[] | cdktf.IResolvable) {
+    this._scalingDownPolicy.internalValue = value;
+  }
+  public resetScalingDownPolicy() {
+    this._scalingDownPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scalingDownPolicyInput() {
+    return this._scalingDownPolicy.internalValue;
+  }
+
+  // scaling_up_policy - computed: false, optional: true, required: false
+  private _scalingUpPolicy = new ElastigroupAzureV3ScalingUpPolicyList(this, "scaling_up_policy", false);
+  public get scalingUpPolicy() {
+    return this._scalingUpPolicy;
+  }
+  public putScalingUpPolicy(value: ElastigroupAzureV3ScalingUpPolicy[] | cdktf.IResolvable) {
+    this._scalingUpPolicy.internalValue = value;
+  }
+  public resetScalingUpPolicy() {
+    this._scalingUpPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scalingUpPolicyInput() {
+    return this._scalingUpPolicy.internalValue;
+  }
+
   // tags - computed: false, optional: true, required: false
   private _tags = new ElastigroupAzureV3TagsList(this, "tags", true);
   public get tags() {
@@ -2476,6 +4285,8 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
       login: elastigroupAzureV3LoginToTerraform(this._login.internalValue),
       managed_service_identity: cdktf.listMapper(elastigroupAzureV3ManagedServiceIdentityToTerraform, true)(this._managedServiceIdentity.internalValue),
       network: elastigroupAzureV3NetworkToTerraform(this._network.internalValue),
+      scaling_down_policy: cdktf.listMapper(elastigroupAzureV3ScalingDownPolicyToTerraform, true)(this._scalingDownPolicy.internalValue),
+      scaling_up_policy: cdktf.listMapper(elastigroupAzureV3ScalingUpPolicyToTerraform, true)(this._scalingUpPolicy.internalValue),
       tags: cdktf.listMapper(elastigroupAzureV3TagsToTerraform, true)(this._tags.internalValue),
       vm_sizes: elastigroupAzureV3VmSizesToTerraform(this._vmSizes.internalValue),
     };
@@ -2584,6 +4395,18 @@ export class ElastigroupAzureV3 extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ElastigroupAzureV3NetworkList",
+      },
+      scaling_down_policy: {
+        value: cdktf.listMapperHcl(elastigroupAzureV3ScalingDownPolicyToHclTerraform, true)(this._scalingDownPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureV3ScalingDownPolicyList",
+      },
+      scaling_up_policy: {
+        value: cdktf.listMapperHcl(elastigroupAzureV3ScalingUpPolicyToHclTerraform, true)(this._scalingUpPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElastigroupAzureV3ScalingUpPolicyList",
       },
       tags: {
         value: cdktf.listMapperHcl(elastigroupAzureV3TagsToHclTerraform, true)(this._tags.internalValue),
