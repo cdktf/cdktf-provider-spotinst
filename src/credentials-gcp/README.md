@@ -1,3 +1,3 @@
 # `spotinst_credentials_gcp`
 
-Refer to the Terraform Registry for docs: [`spotinst_credentials_gcp`](https://registry.terraform.io/providers/spotinst/spotinst/1.194.1/docs/resources/credentials_gcp).
+Refer to the Terraform Registry for docs: [`spotinst_credentials_gcp`](https://registry.terraform.io/providers/spotinst/spotinst/1.195.0/docs/resources/credentials_gcp).
