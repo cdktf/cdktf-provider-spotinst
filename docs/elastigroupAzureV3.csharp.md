@@ -4,7 +4,7 @@
 
 ### ElastigroupAzureV3 <a name="ElastigroupAzureV3" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3 spotinst_elastigroup_azure_v3}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.Initializer"></a>
 
@@ -73,30 +73,62 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putBootDiagnostics">PutBootDiagnostics</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putCapacityReservation">PutCapacityReservation</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putDataDisk">PutDataDisk</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putExtensions">PutExtensions</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putHealth">PutHealth</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putImage">PutImage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putLoadBalancer">PutLoadBalancer</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putLogin">PutLogin</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putManagedServiceIdentity">PutManagedServiceIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putNetwork">PutNetwork</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putOsDisk">PutOsDisk</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putProximityPlacementGroups">PutProximityPlacementGroups</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putRevertToSpot">PutRevertToSpot</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putScalingDownPolicy">PutScalingDownPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putScalingUpPolicy">PutScalingUpPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSchedulingTask">PutSchedulingTask</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecret">PutSecret</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecurity">PutSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSignal">PutSignal</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putVmSizes">PutVmSizes</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetAvailabilityVsCost">ResetAvailabilityVsCost</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetBootDiagnostics">ResetBootDiagnostics</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCapacityReservation">ResetCapacityReservation</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCustomData">ResetCustomData</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDataDisk">ResetDataDisk</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDesiredCapacity">ResetDesiredCapacity</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDrainingTimeout">ResetDrainingTimeout</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetExtensions">ResetExtensions</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetHealth">ResetHealth</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetImage">ResetImage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetLoadBalancer">ResetLoadBalancer</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetLogin">ResetLogin</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetManagedServiceIdentity">ResetManagedServiceIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetMaxSize">ResetMaxSize</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetMinSize">ResetMinSize</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOnDemandCount">ResetOnDemandCount</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOptimizationWindows">ResetOptimizationWindows</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOsDisk">ResetOsDisk</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetPreferredZones">ResetPreferredZones</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetProximityPlacementGroups">ResetProximityPlacementGroups</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetRevertToSpot">ResetRevertToSpot</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetScalingDownPolicy">ResetScalingDownPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetScalingUpPolicy">ResetScalingUpPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSchedulingTask">ResetSchedulingTask</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSecret">ResetSecret</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSecurity">ResetSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetShutdownScript">ResetShutdownScript</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSignal">ResetSignal</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSpotPercentage">ResetSpotPercentage</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetTags">ResetTags</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetUserData">ResetUserData</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetVmNamePrefix">ResetVmNamePrefix</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetZones">ResetZones</a></code> | *No description.* |
 
 ---
 
@@ -388,6 +420,42 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutBootDiagnostics` <a name="PutBootDiagnostics" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putBootDiagnostics"></a>
+
+```csharp
+private void PutBootDiagnostics(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putBootDiagnostics.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutCapacityReservation` <a name="PutCapacityReservation" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putCapacityReservation"></a>
+
+```csharp
+private void PutCapacityReservation(ElastigroupAzureV3CapacityReservation Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putCapacityReservation.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a>
+
+---
+
+##### `PutDataDisk` <a name="PutDataDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putDataDisk"></a>
+
+```csharp
+private void PutDataDisk(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putDataDisk.parameter.value"></a>
+
+- *Type:* object
+
+---
+
 ##### `PutExtensions` <a name="PutExtensions" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putExtensions"></a>
 
 ```csharp
@@ -400,6 +468,18 @@ private void PutExtensions(object Value)
 
 ---
 
+##### `PutHealth` <a name="PutHealth" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putHealth"></a>
+
+```csharp
+private void PutHealth(ElastigroupAzureV3Health Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putHealth.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a>
+
+---
+
 ##### `PutImage` <a name="PutImage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putImage"></a>
 
 ```csharp
@@ -407,6 +487,18 @@ private void PutImage(object Value)
 ```
 
 ###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putImage.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutLoadBalancer` <a name="PutLoadBalancer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putLoadBalancer"></a>
+
+```csharp
+private void PutLoadBalancer(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putLoadBalancer.parameter.value"></a>
 
 - *Type:* object
 
@@ -448,6 +540,42 @@ private void PutNetwork(ElastigroupAzureV3Network Value)
 
 ---
 
+##### `PutOsDisk` <a name="PutOsDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putOsDisk"></a>
+
+```csharp
+private void PutOsDisk(ElastigroupAzureV3OsDisk Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putOsDisk.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a>
+
+---
+
+##### `PutProximityPlacementGroups` <a name="PutProximityPlacementGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putProximityPlacementGroups"></a>
+
+```csharp
+private void PutProximityPlacementGroups(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putProximityPlacementGroups.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutRevertToSpot` <a name="PutRevertToSpot" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putRevertToSpot"></a>
+
+```csharp
+private void PutRevertToSpot(ElastigroupAzureV3RevertToSpot Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putRevertToSpot.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a>
+
+---
+
 ##### `PutScalingDownPolicy` <a name="PutScalingDownPolicy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putScalingDownPolicy"></a>
 
 ```csharp
@@ -467,6 +595,54 @@ private void PutScalingUpPolicy(object Value)
 ```
 
 ###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putScalingUpPolicy.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutSchedulingTask` <a name="PutSchedulingTask" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSchedulingTask"></a>
+
+```csharp
+private void PutSchedulingTask(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSchedulingTask.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutSecret` <a name="PutSecret" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecret"></a>
+
+```csharp
+private void PutSecret(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecret.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutSecurity` <a name="PutSecurity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecurity"></a>
+
+```csharp
+private void PutSecurity(ElastigroupAzureV3Security Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSecurity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a>
+
+---
+
+##### `PutSignal` <a name="PutSignal" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSignal"></a>
+
+```csharp
+private void PutSignal(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.putSignal.parameter.value"></a>
 
 - *Type:* object
 
@@ -496,10 +672,40 @@ private void PutVmSizes(ElastigroupAzureV3VmSizes Value)
 
 ---
 
+##### `ResetAvailabilityVsCost` <a name="ResetAvailabilityVsCost" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetAvailabilityVsCost"></a>
+
+```csharp
+private void ResetAvailabilityVsCost()
+```
+
+##### `ResetBootDiagnostics` <a name="ResetBootDiagnostics" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetBootDiagnostics"></a>
+
+```csharp
+private void ResetBootDiagnostics()
+```
+
+##### `ResetCapacityReservation` <a name="ResetCapacityReservation" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCapacityReservation"></a>
+
+```csharp
+private void ResetCapacityReservation()
+```
+
 ##### `ResetCustomData` <a name="ResetCustomData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetCustomData"></a>
 
 ```csharp
 private void ResetCustomData()
+```
+
+##### `ResetDataDisk` <a name="ResetDataDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDataDisk"></a>
+
+```csharp
+private void ResetDataDisk()
+```
+
+##### `ResetDescription` <a name="ResetDescription" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDescription"></a>
+
+```csharp
+private void ResetDescription()
 ```
 
 ##### `ResetDesiredCapacity` <a name="ResetDesiredCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetDesiredCapacity"></a>
@@ -520,6 +726,12 @@ private void ResetDrainingTimeout()
 private void ResetExtensions()
 ```
 
+##### `ResetHealth` <a name="ResetHealth" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetHealth"></a>
+
+```csharp
+private void ResetHealth()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetId"></a>
 
 ```csharp
@@ -530,6 +742,12 @@ private void ResetId()
 
 ```csharp
 private void ResetImage()
+```
+
+##### `ResetLoadBalancer` <a name="ResetLoadBalancer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetLoadBalancer"></a>
+
+```csharp
+private void ResetLoadBalancer()
 ```
 
 ##### `ResetLogin` <a name="ResetLogin" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetLogin"></a>
@@ -562,6 +780,36 @@ private void ResetMinSize()
 private void ResetOnDemandCount()
 ```
 
+##### `ResetOptimizationWindows` <a name="ResetOptimizationWindows" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOptimizationWindows"></a>
+
+```csharp
+private void ResetOptimizationWindows()
+```
+
+##### `ResetOsDisk` <a name="ResetOsDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetOsDisk"></a>
+
+```csharp
+private void ResetOsDisk()
+```
+
+##### `ResetPreferredZones` <a name="ResetPreferredZones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetPreferredZones"></a>
+
+```csharp
+private void ResetPreferredZones()
+```
+
+##### `ResetProximityPlacementGroups` <a name="ResetProximityPlacementGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetProximityPlacementGroups"></a>
+
+```csharp
+private void ResetProximityPlacementGroups()
+```
+
+##### `ResetRevertToSpot` <a name="ResetRevertToSpot" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetRevertToSpot"></a>
+
+```csharp
+private void ResetRevertToSpot()
+```
+
 ##### `ResetScalingDownPolicy` <a name="ResetScalingDownPolicy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetScalingDownPolicy"></a>
 
 ```csharp
@@ -574,6 +822,36 @@ private void ResetScalingDownPolicy()
 private void ResetScalingUpPolicy()
 ```
 
+##### `ResetSchedulingTask` <a name="ResetSchedulingTask" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSchedulingTask"></a>
+
+```csharp
+private void ResetSchedulingTask()
+```
+
+##### `ResetSecret` <a name="ResetSecret" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSecret"></a>
+
+```csharp
+private void ResetSecret()
+```
+
+##### `ResetSecurity` <a name="ResetSecurity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSecurity"></a>
+
+```csharp
+private void ResetSecurity()
+```
+
+##### `ResetShutdownScript` <a name="ResetShutdownScript" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetShutdownScript"></a>
+
+```csharp
+private void ResetShutdownScript()
+```
+
+##### `ResetSignal` <a name="ResetSignal" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSignal"></a>
+
+```csharp
+private void ResetSignal()
+```
+
 ##### `ResetSpotPercentage` <a name="ResetSpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetSpotPercentage"></a>
 
 ```csharp
@@ -584,6 +862,24 @@ private void ResetSpotPercentage()
 
 ```csharp
 private void ResetTags()
+```
+
+##### `ResetUserData` <a name="ResetUserData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetUserData"></a>
+
+```csharp
+private void ResetUserData()
+```
+
+##### `ResetVmNamePrefix` <a name="ResetVmNamePrefix" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetVmNamePrefix"></a>
+
+```csharp
+private void ResetVmNamePrefix()
+```
+
+##### `ResetZones` <a name="ResetZones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.resetZones"></a>
+
+```csharp
+private void ResetZones()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -689,7 +985,7 @@ The construct id used in the generated config for the ElastigroupAzureV3 to impo
 
 The id of the existing ElastigroupAzureV3 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,22 +1015,41 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.bootDiagnostics">BootDiagnostics</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList">ElastigroupAzureV3BootDiagnosticsList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.capacityReservation">CapacityReservation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference">ElastigroupAzureV3CapacityReservationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.dataDisk">DataDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList">ElastigroupAzureV3DataDiskList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.extensions">Extensions</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsList">ElastigroupAzureV3ExtensionsList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.health">Health</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference">ElastigroupAzureV3HealthOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.image">Image</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageList">ElastigroupAzureV3ImageList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loadBalancer">LoadBalancer</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList">ElastigroupAzureV3LoadBalancerList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoginOutputReference">ElastigroupAzureV3LoginOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.managedServiceIdentity">ManagedServiceIdentity</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentityList">ElastigroupAzureV3ManagedServiceIdentityList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkOutputReference">ElastigroupAzureV3NetworkOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osDisk">OsDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference">ElastigroupAzureV3OsDiskOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.proximityPlacementGroups">ProximityPlacementGroups</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList">ElastigroupAzureV3ProximityPlacementGroupsList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.revertToSpot">RevertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference">ElastigroupAzureV3RevertToSpotOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingDownPolicy">ScalingDownPolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyList">ElastigroupAzureV3ScalingDownPolicyList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingUpPolicy">ScalingUpPolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyList">ElastigroupAzureV3ScalingUpPolicyList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.schedulingTask">SchedulingTask</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList">ElastigroupAzureV3SchedulingTaskList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.secret">Secret</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList">ElastigroupAzureV3SecretList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.security">Security</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference">ElastigroupAzureV3SecurityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.signal">Signal</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList">ElastigroupAzureV3SignalList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.tags">Tags</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3TagsList">ElastigroupAzureV3TagsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmSizes">VmSizes</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference">ElastigroupAzureV3VmSizesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.availabilityVsCostInput">AvailabilityVsCostInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.bootDiagnosticsInput">BootDiagnosticsInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.capacityReservationInput">CapacityReservationInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customDataInput">CustomDataInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.dataDiskInput">DataDiskInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.desiredCapacityInput">DesiredCapacityInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeoutInput">DrainingTimeoutInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.extensionsInput">ExtensionsInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemandInput">FallbackToOnDemandInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.healthInput">HealthInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.imageInput">ImageInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loadBalancerInput">LoadBalancerInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loginInput">LoginInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login">ElastigroupAzureV3Login</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.managedServiceIdentityInput">ManagedServiceIdentityInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.maxSizeInput">MaxSizeInput</a></code> | <code>double</code> | *No description.* |
@@ -742,15 +1057,30 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.networkInput">NetworkInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCountInput">OnDemandCountInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.optimizationWindowsInput">OptimizationWindowsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osDiskInput">OsDiskInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osInput">OsInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.preferredZonesInput">PreferredZonesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.proximityPlacementGroupsInput">ProximityPlacementGroupsInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.regionInput">RegionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.revertToSpotInput">RevertToSpotInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingDownPolicyInput">ScalingDownPolicyInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingUpPolicyInput">ScalingUpPolicyInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.schedulingTaskInput">SchedulingTaskInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.secretInput">SecretInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.securityInput">SecurityInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.shutdownScriptInput">ShutdownScriptInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.signalInput">SignalInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentageInput">SpotPercentageInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.tagsInput">TagsInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.userDataInput">UserDataInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmNamePrefixInput">VmNamePrefixInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmSizesInput">VmSizesInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes">ElastigroupAzureV3VmSizes</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.zonesInput">ZonesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customData">CustomData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.desiredCapacity">DesiredCapacity</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>object</code> | *No description.* |
@@ -759,10 +1089,16 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.minSize">MinSize</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.onDemandCount">OnDemandCount</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.optimizationWindows">OptimizationWindows</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.os">Os</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.preferredZones">PreferredZones</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.region">Region</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentage">SpotPercentage</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.userData">UserData</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmNamePrefix">VmNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.zones">Zones</a></code> | <code>string[]</code> | *No description.* |
 
 ---
 
@@ -908,6 +1244,36 @@ public object[] Provisioners { get; }
 
 ---
 
+##### `BootDiagnostics`<sup>Required</sup> <a name="BootDiagnostics" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.bootDiagnostics"></a>
+
+```csharp
+public ElastigroupAzureV3BootDiagnosticsList BootDiagnostics { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList">ElastigroupAzureV3BootDiagnosticsList</a>
+
+---
+
+##### `CapacityReservation`<sup>Required</sup> <a name="CapacityReservation" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.capacityReservation"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservationOutputReference CapacityReservation { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference">ElastigroupAzureV3CapacityReservationOutputReference</a>
+
+---
+
+##### `DataDisk`<sup>Required</sup> <a name="DataDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.dataDisk"></a>
+
+```csharp
+public ElastigroupAzureV3DataDiskList DataDisk { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList">ElastigroupAzureV3DataDiskList</a>
+
+---
+
 ##### `Extensions`<sup>Required</sup> <a name="Extensions" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.extensions"></a>
 
 ```csharp
@@ -918,6 +1284,16 @@ public ElastigroupAzureV3ExtensionsList Extensions { get; }
 
 ---
 
+##### `Health`<sup>Required</sup> <a name="Health" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.health"></a>
+
+```csharp
+public ElastigroupAzureV3HealthOutputReference Health { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference">ElastigroupAzureV3HealthOutputReference</a>
+
+---
+
 ##### `Image`<sup>Required</sup> <a name="Image" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.image"></a>
 
 ```csharp
@@ -925,6 +1301,16 @@ public ElastigroupAzureV3ImageList Image { get; }
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageList">ElastigroupAzureV3ImageList</a>
+
+---
+
+##### `LoadBalancer`<sup>Required</sup> <a name="LoadBalancer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loadBalancer"></a>
+
+```csharp
+public ElastigroupAzureV3LoadBalancerList LoadBalancer { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList">ElastigroupAzureV3LoadBalancerList</a>
 
 ---
 
@@ -958,6 +1344,36 @@ public ElastigroupAzureV3NetworkOutputReference Network { get; }
 
 ---
 
+##### `OsDisk`<sup>Required</sup> <a name="OsDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osDisk"></a>
+
+```csharp
+public ElastigroupAzureV3OsDiskOutputReference OsDisk { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference">ElastigroupAzureV3OsDiskOutputReference</a>
+
+---
+
+##### `ProximityPlacementGroups`<sup>Required</sup> <a name="ProximityPlacementGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.proximityPlacementGroups"></a>
+
+```csharp
+public ElastigroupAzureV3ProximityPlacementGroupsList ProximityPlacementGroups { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList">ElastigroupAzureV3ProximityPlacementGroupsList</a>
+
+---
+
+##### `RevertToSpot`<sup>Required</sup> <a name="RevertToSpot" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.revertToSpot"></a>
+
+```csharp
+public ElastigroupAzureV3RevertToSpotOutputReference RevertToSpot { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference">ElastigroupAzureV3RevertToSpotOutputReference</a>
+
+---
+
 ##### `ScalingDownPolicy`<sup>Required</sup> <a name="ScalingDownPolicy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingDownPolicy"></a>
 
 ```csharp
@@ -975,6 +1391,46 @@ public ElastigroupAzureV3ScalingUpPolicyList ScalingUpPolicy { get; }
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyList">ElastigroupAzureV3ScalingUpPolicyList</a>
+
+---
+
+##### `SchedulingTask`<sup>Required</sup> <a name="SchedulingTask" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.schedulingTask"></a>
+
+```csharp
+public ElastigroupAzureV3SchedulingTaskList SchedulingTask { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList">ElastigroupAzureV3SchedulingTaskList</a>
+
+---
+
+##### `Secret`<sup>Required</sup> <a name="Secret" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.secret"></a>
+
+```csharp
+public ElastigroupAzureV3SecretList Secret { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList">ElastigroupAzureV3SecretList</a>
+
+---
+
+##### `Security`<sup>Required</sup> <a name="Security" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.security"></a>
+
+```csharp
+public ElastigroupAzureV3SecurityOutputReference Security { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference">ElastigroupAzureV3SecurityOutputReference</a>
+
+---
+
+##### `Signal`<sup>Required</sup> <a name="Signal" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.signal"></a>
+
+```csharp
+public ElastigroupAzureV3SignalList Signal { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList">ElastigroupAzureV3SignalList</a>
 
 ---
 
@@ -998,10 +1454,60 @@ public ElastigroupAzureV3VmSizesOutputReference VmSizes { get; }
 
 ---
 
+##### `AvailabilityVsCostInput`<sup>Optional</sup> <a name="AvailabilityVsCostInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.availabilityVsCostInput"></a>
+
+```csharp
+public double AvailabilityVsCostInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `BootDiagnosticsInput`<sup>Optional</sup> <a name="BootDiagnosticsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.bootDiagnosticsInput"></a>
+
+```csharp
+public object BootDiagnosticsInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `CapacityReservationInput`<sup>Optional</sup> <a name="CapacityReservationInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.capacityReservationInput"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservation CapacityReservationInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a>
+
+---
+
 ##### `CustomDataInput`<sup>Optional</sup> <a name="CustomDataInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customDataInput"></a>
 
 ```csharp
 public string CustomDataInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DataDiskInput`<sup>Optional</sup> <a name="DataDiskInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.dataDiskInput"></a>
+
+```csharp
+public object DataDiskInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.descriptionInput"></a>
+
+```csharp
+public string DescriptionInput { get; }
 ```
 
 - *Type:* string
@@ -1048,6 +1554,16 @@ public object FallbackToOnDemandInput { get; }
 
 ---
 
+##### `HealthInput`<sup>Optional</sup> <a name="HealthInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.healthInput"></a>
+
+```csharp
+public ElastigroupAzureV3Health HealthInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a>
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.idInput"></a>
 
 ```csharp
@@ -1062,6 +1578,16 @@ public string IdInput { get; }
 
 ```csharp
 public object ImageInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `LoadBalancerInput`<sup>Optional</sup> <a name="LoadBalancerInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.loadBalancerInput"></a>
+
+```csharp
+public object LoadBalancerInput { get; }
 ```
 
 - *Type:* object
@@ -1138,6 +1664,26 @@ public double OnDemandCountInput { get; }
 
 ---
 
+##### `OptimizationWindowsInput`<sup>Optional</sup> <a name="OptimizationWindowsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.optimizationWindowsInput"></a>
+
+```csharp
+public string[] OptimizationWindowsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `OsDiskInput`<sup>Optional</sup> <a name="OsDiskInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osDiskInput"></a>
+
+```csharp
+public ElastigroupAzureV3OsDisk OsDiskInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a>
+
+---
+
 ##### `OsInput`<sup>Optional</sup> <a name="OsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.osInput"></a>
 
 ```csharp
@@ -1145,6 +1691,26 @@ public string OsInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `PreferredZonesInput`<sup>Optional</sup> <a name="PreferredZonesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.preferredZonesInput"></a>
+
+```csharp
+public string[] PreferredZonesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ProximityPlacementGroupsInput`<sup>Optional</sup> <a name="ProximityPlacementGroupsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.proximityPlacementGroupsInput"></a>
+
+```csharp
+public object ProximityPlacementGroupsInput { get; }
+```
+
+- *Type:* object
 
 ---
 
@@ -1168,6 +1734,16 @@ public string ResourceGroupNameInput { get; }
 
 ---
 
+##### `RevertToSpotInput`<sup>Optional</sup> <a name="RevertToSpotInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.revertToSpotInput"></a>
+
+```csharp
+public ElastigroupAzureV3RevertToSpot RevertToSpotInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a>
+
+---
+
 ##### `ScalingDownPolicyInput`<sup>Optional</sup> <a name="ScalingDownPolicyInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.scalingDownPolicyInput"></a>
 
 ```csharp
@@ -1182,6 +1758,56 @@ public object ScalingDownPolicyInput { get; }
 
 ```csharp
 public object ScalingUpPolicyInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SchedulingTaskInput`<sup>Optional</sup> <a name="SchedulingTaskInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.schedulingTaskInput"></a>
+
+```csharp
+public object SchedulingTaskInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecretInput`<sup>Optional</sup> <a name="SecretInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.secretInput"></a>
+
+```csharp
+public object SecretInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecurityInput`<sup>Optional</sup> <a name="SecurityInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.securityInput"></a>
+
+```csharp
+public ElastigroupAzureV3Security SecurityInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a>
+
+---
+
+##### `ShutdownScriptInput`<sup>Optional</sup> <a name="ShutdownScriptInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.shutdownScriptInput"></a>
+
+```csharp
+public string ShutdownScriptInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SignalInput`<sup>Optional</sup> <a name="SignalInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.signalInput"></a>
+
+```csharp
+public object SignalInput { get; }
 ```
 
 - *Type:* object
@@ -1208,6 +1834,26 @@ public object TagsInput { get; }
 
 ---
 
+##### `UserDataInput`<sup>Optional</sup> <a name="UserDataInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.userDataInput"></a>
+
+```csharp
+public string UserDataInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `VmNamePrefixInput`<sup>Optional</sup> <a name="VmNamePrefixInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmNamePrefixInput"></a>
+
+```csharp
+public string VmNamePrefixInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `VmSizesInput`<sup>Optional</sup> <a name="VmSizesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmSizesInput"></a>
 
 ```csharp
@@ -1218,10 +1864,40 @@ public ElastigroupAzureV3VmSizes VmSizesInput { get; }
 
 ---
 
+##### `ZonesInput`<sup>Optional</sup> <a name="ZonesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.zonesInput"></a>
+
+```csharp
+public string[] ZonesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `AvailabilityVsCost`<sup>Required</sup> <a name="AvailabilityVsCost" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.availabilityVsCost"></a>
+
+```csharp
+public double AvailabilityVsCost { get; }
+```
+
+- *Type:* double
+
+---
+
 ##### `CustomData`<sup>Required</sup> <a name="CustomData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.customData"></a>
 
 ```csharp
 public string CustomData { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.description"></a>
+
+```csharp
+public string Description { get; }
 ```
 
 - *Type:* string
@@ -1308,6 +1984,16 @@ public double OnDemandCount { get; }
 
 ---
 
+##### `OptimizationWindows`<sup>Required</sup> <a name="OptimizationWindows" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.optimizationWindows"></a>
+
+```csharp
+public string[] OptimizationWindows { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `Os`<sup>Required</sup> <a name="Os" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.os"></a>
 
 ```csharp
@@ -1315,6 +2001,16 @@ public string Os { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `PreferredZones`<sup>Required</sup> <a name="PreferredZones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.preferredZones"></a>
+
+```csharp
+public string[] PreferredZones { get; }
+```
+
+- *Type:* string[]
 
 ---
 
@@ -1338,6 +2034,16 @@ public string ResourceGroupName { get; }
 
 ---
 
+##### `ShutdownScript`<sup>Required</sup> <a name="ShutdownScript" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.shutdownScript"></a>
+
+```csharp
+public string ShutdownScript { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `SpotPercentage`<sup>Required</sup> <a name="SpotPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.spotPercentage"></a>
 
 ```csharp
@@ -1345,6 +2051,36 @@ public double SpotPercentage { get; }
 ```
 
 - *Type:* double
+
+---
+
+##### `UserData`<sup>Required</sup> <a name="UserData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.userData"></a>
+
+```csharp
+public string UserData { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `VmNamePrefix`<sup>Required</sup> <a name="VmNamePrefix" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.vmNamePrefix"></a>
+
+```csharp
+public string VmNamePrefix { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Zones`<sup>Required</sup> <a name="Zones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3.property.zones"></a>
+
+```csharp
+public string[] Zones { get; }
+```
+
+- *Type:* string[]
 
 ---
 
@@ -1368,6 +2104,188 @@ public string TfResourceType { get; }
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### ElastigroupAzureV3BootDiagnostics <a name="ElastigroupAzureV3BootDiagnostics" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3BootDiagnostics {
+    object IsEnabled,
+    string Type,
+    string StorageUrl = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.storageUrl">StorageUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#storage_url ElastigroupAzureV3#storage_url}. |
+
+---
+
+##### `IsEnabled`<sup>Required</sup> <a name="IsEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.isEnabled"></a>
+
+```csharp
+public object IsEnabled { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+
+---
+
+##### `StorageUrl`<sup>Optional</sup> <a name="StorageUrl" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnostics.property.storageUrl"></a>
+
+```csharp
+public string StorageUrl { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#storage_url ElastigroupAzureV3#storage_url}.
+
+---
+
+### ElastigroupAzureV3CapacityReservation <a name="ElastigroupAzureV3CapacityReservation" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3CapacityReservation {
+    object ShouldUtilize,
+    string UtilizationStrategy,
+    ElastigroupAzureV3CapacityReservationCapacityReservationGroups CapacityReservationGroups = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.shouldUtilize">ShouldUtilize</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#should_utilize ElastigroupAzureV3#should_utilize}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.utilizationStrategy">UtilizationStrategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#utilization_strategy ElastigroupAzureV3#utilization_strategy}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.capacityReservationGroups">CapacityReservationGroups</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a></code> | capacity_reservation_groups block. |
+
+---
+
+##### `ShouldUtilize`<sup>Required</sup> <a name="ShouldUtilize" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.shouldUtilize"></a>
+
+```csharp
+public object ShouldUtilize { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#should_utilize ElastigroupAzureV3#should_utilize}.
+
+---
+
+##### `UtilizationStrategy`<sup>Required</sup> <a name="UtilizationStrategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.utilizationStrategy"></a>
+
+```csharp
+public string UtilizationStrategy { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#utilization_strategy ElastigroupAzureV3#utilization_strategy}.
+
+---
+
+##### `CapacityReservationGroups`<sup>Optional</sup> <a name="CapacityReservationGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation.property.capacityReservationGroups"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservationCapacityReservationGroups CapacityReservationGroups { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a>
+
+capacity_reservation_groups block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#capacity_reservation_groups ElastigroupAzureV3#capacity_reservation_groups}
+
+---
+
+### ElastigroupAzureV3CapacityReservationCapacityReservationGroups <a name="ElastigroupAzureV3CapacityReservationCapacityReservationGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3CapacityReservationCapacityReservationGroups {
+    string CrgName,
+    string CrgResourceGroupName,
+    object CrgShouldPrioritize = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgName">CrgName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_name ElastigroupAzureV3#crg_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgResourceGroupName">CrgResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_resource_group_name ElastigroupAzureV3#crg_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgShouldPrioritize">CrgShouldPrioritize</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_should_prioritize ElastigroupAzureV3#crg_should_prioritize}. |
+
+---
+
+##### `CrgName`<sup>Required</sup> <a name="CrgName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgName"></a>
+
+```csharp
+public string CrgName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_name ElastigroupAzureV3#crg_name}.
+
+---
+
+##### `CrgResourceGroupName`<sup>Required</sup> <a name="CrgResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgResourceGroupName"></a>
+
+```csharp
+public string CrgResourceGroupName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_resource_group_name ElastigroupAzureV3#crg_resource_group_name}.
+
+---
+
+##### `CrgShouldPrioritize`<sup>Optional</sup> <a name="CrgShouldPrioritize" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups.property.crgShouldPrioritize"></a>
+
+```csharp
+public object CrgShouldPrioritize { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#crg_should_prioritize ElastigroupAzureV3#crg_should_prioritize}.
+
+---
+
 ### ElastigroupAzureV3Config <a name="ElastigroupAzureV3Config" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config"></a>
 
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.Initializer"></a>
@@ -1390,21 +2308,41 @@ new ElastigroupAzureV3Config {
     string Region,
     string ResourceGroupName,
     ElastigroupAzureV3VmSizes VmSizes,
+    double AvailabilityVsCost = null,
+    object BootDiagnostics = null,
+    ElastigroupAzureV3CapacityReservation CapacityReservation = null,
     string CustomData = null,
+    object DataDisk = null,
+    string Description = null,
     double DesiredCapacity = null,
     double DrainingTimeout = null,
     object Extensions = null,
+    ElastigroupAzureV3Health Health = null,
     string Id = null,
     object Image = null,
+    object LoadBalancer = null,
     ElastigroupAzureV3Login Login = null,
     object ManagedServiceIdentity = null,
     double MaxSize = null,
     double MinSize = null,
     double OnDemandCount = null,
+    string[] OptimizationWindows = null,
+    ElastigroupAzureV3OsDisk OsDisk = null,
+    string[] PreferredZones = null,
+    object ProximityPlacementGroups = null,
+    ElastigroupAzureV3RevertToSpot RevertToSpot = null,
     object ScalingDownPolicy = null,
     object ScalingUpPolicy = null,
+    object SchedulingTask = null,
+    object Secret = null,
+    ElastigroupAzureV3Security Security = null,
+    string ShutdownScript = null,
+    object Signal = null,
     double SpotPercentage = null,
-    object Tags = null
+    object Tags = null,
+    string UserData = null,
+    string VmNamePrefix = null,
+    string[] Zones = null
 };
 ```
 
@@ -1419,28 +2357,48 @@ new ElastigroupAzureV3Config {
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a></code> | network block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.os">Os</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.os">Os</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.vmSizes">VmSizes</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes">ElastigroupAzureV3VmSizes</a></code> | vm_sizes block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.desiredCapacity">DesiredCapacity</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#availability_vs_cost ElastigroupAzureV3#availability_vs_cost}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.bootDiagnostics">BootDiagnostics</a></code> | <code>object</code> | boot_diagnostics block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.capacityReservation">CapacityReservation</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a></code> | capacity_reservation block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.customData">CustomData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.dataDisk">DataDisk</a></code> | <code>object</code> | data_disk block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#description ElastigroupAzureV3#description}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.desiredCapacity">DesiredCapacity</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.drainingTimeout">DrainingTimeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.extensions">Extensions</a></code> | <code>object</code> | extensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.health">Health</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a></code> | health block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.image">Image</a></code> | <code>object</code> | image block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.loadBalancer">LoadBalancer</a></code> | <code>object</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login">ElastigroupAzureV3Login</a></code> | login block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.managedServiceIdentity">ManagedServiceIdentity</a></code> | <code>object</code> | managed_service_identity block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.maxSize">MaxSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.minSize">MinSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.onDemandCount">OnDemandCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.maxSize">MaxSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.minSize">MinSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.onDemandCount">OnDemandCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.optimizationWindows">OptimizationWindows</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#optimization_windows ElastigroupAzureV3#optimization_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.osDisk">OsDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a></code> | os_disk block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.preferredZones">PreferredZones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#preferred_zones ElastigroupAzureV3#preferred_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.proximityPlacementGroups">ProximityPlacementGroups</a></code> | <code>object</code> | proximity_placement_groups block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.revertToSpot">RevertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a></code> | revert_to_spot block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.scalingDownPolicy">ScalingDownPolicy</a></code> | <code>object</code> | scaling_down_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.scalingUpPolicy">ScalingUpPolicy</a></code> | <code>object</code> | scaling_up_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.spotPercentage">SpotPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.schedulingTask">SchedulingTask</a></code> | <code>object</code> | scheduling_task block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.secret">Secret</a></code> | <code>object</code> | secret block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.security">Security</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a></code> | security block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.shutdownScript">ShutdownScript</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#shutdown_script ElastigroupAzureV3#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.signal">Signal</a></code> | <code>object</code> | signal block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.spotPercentage">SpotPercentage</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.tags">Tags</a></code> | <code>object</code> | tags block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.userData">UserData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#user_data ElastigroupAzureV3#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.vmNamePrefix">VmNamePrefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vm_name_prefix ElastigroupAzureV3#vm_name_prefix}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.zones">Zones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#zones ElastigroupAzureV3#zones}. |
 
 ---
 
@@ -1522,7 +2480,7 @@ public object FallbackToOnDemand { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#fallback_to_on_demand ElastigroupAzureV3#fallback_to_on_demand}.
 
 ---
 
@@ -1534,7 +2492,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -1548,7 +2506,7 @@ public ElastigroupAzureV3Network Network { get; set; }
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#network ElastigroupAzureV3#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#network ElastigroupAzureV3#network}
 
 ---
 
@@ -1560,7 +2518,7 @@ public string Os { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#os ElastigroupAzureV3#os}.
 
 ---
 
@@ -1572,7 +2530,7 @@ public string Region { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#region ElastigroupAzureV3#region}.
 
 ---
 
@@ -1584,7 +2542,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
 
 ---
 
@@ -1598,7 +2556,47 @@ public ElastigroupAzureV3VmSizes VmSizes { get; set; }
 
 vm_sizes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#vm_sizes ElastigroupAzureV3#vm_sizes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vm_sizes ElastigroupAzureV3#vm_sizes}
+
+---
+
+##### `AvailabilityVsCost`<sup>Optional</sup> <a name="AvailabilityVsCost" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.availabilityVsCost"></a>
+
+```csharp
+public double AvailabilityVsCost { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#availability_vs_cost ElastigroupAzureV3#availability_vs_cost}.
+
+---
+
+##### `BootDiagnostics`<sup>Optional</sup> <a name="BootDiagnostics" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.bootDiagnostics"></a>
+
+```csharp
+public object BootDiagnostics { get; set; }
+```
+
+- *Type:* object
+
+boot_diagnostics block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#boot_diagnostics ElastigroupAzureV3#boot_diagnostics}
+
+---
+
+##### `CapacityReservation`<sup>Optional</sup> <a name="CapacityReservation" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.capacityReservation"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservation CapacityReservation { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a>
+
+capacity_reservation block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#capacity_reservation ElastigroupAzureV3#capacity_reservation}
 
 ---
 
@@ -1610,7 +2608,33 @@ public string CustomData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#custom_data ElastigroupAzureV3#custom_data}.
+
+---
+
+##### `DataDisk`<sup>Optional</sup> <a name="DataDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.dataDisk"></a>
+
+```csharp
+public object DataDisk { get; set; }
+```
+
+- *Type:* object
+
+data_disk block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#data_disk ElastigroupAzureV3#data_disk}
+
+---
+
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.description"></a>
+
+```csharp
+public string Description { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#description ElastigroupAzureV3#description}.
 
 ---
 
@@ -1622,7 +2646,7 @@ public double DesiredCapacity { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#desired_capacity ElastigroupAzureV3#desired_capacity}.
 
 ---
 
@@ -1634,7 +2658,7 @@ public double DrainingTimeout { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#draining_timeout ElastigroupAzureV3#draining_timeout}.
 
 ---
 
@@ -1648,7 +2672,21 @@ public object Extensions { get; set; }
 
 extensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#extensions ElastigroupAzureV3#extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#extensions ElastigroupAzureV3#extensions}
+
+---
+
+##### `Health`<sup>Optional</sup> <a name="Health" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.health"></a>
+
+```csharp
+public ElastigroupAzureV3Health Health { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a>
+
+health block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#health ElastigroupAzureV3#health}
 
 ---
 
@@ -1660,7 +2698,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#id ElastigroupAzureV3#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1677,7 +2715,21 @@ public object Image { get; set; }
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#image ElastigroupAzureV3#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#image ElastigroupAzureV3#image}
+
+---
+
+##### `LoadBalancer`<sup>Optional</sup> <a name="LoadBalancer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.loadBalancer"></a>
+
+```csharp
+public object LoadBalancer { get; set; }
+```
+
+- *Type:* object
+
+load_balancer block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#load_balancer ElastigroupAzureV3#load_balancer}
 
 ---
 
@@ -1691,7 +2743,7 @@ public ElastigroupAzureV3Login Login { get; set; }
 
 login block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#login ElastigroupAzureV3#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#login ElastigroupAzureV3#login}
 
 ---
 
@@ -1705,7 +2757,7 @@ public object ManagedServiceIdentity { get; set; }
 
 managed_service_identity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#managed_service_identity ElastigroupAzureV3#managed_service_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#managed_service_identity ElastigroupAzureV3#managed_service_identity}
 
 ---
 
@@ -1717,7 +2769,7 @@ public double MaxSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#max_size ElastigroupAzureV3#max_size}.
 
 ---
 
@@ -1729,7 +2781,7 @@ public double MinSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#min_size ElastigroupAzureV3#min_size}.
 
 ---
 
@@ -1741,7 +2793,73 @@ public double OnDemandCount { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#on_demand_count ElastigroupAzureV3#on_demand_count}.
+
+---
+
+##### `OptimizationWindows`<sup>Optional</sup> <a name="OptimizationWindows" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.optimizationWindows"></a>
+
+```csharp
+public string[] OptimizationWindows { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#optimization_windows ElastigroupAzureV3#optimization_windows}.
+
+---
+
+##### `OsDisk`<sup>Optional</sup> <a name="OsDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.osDisk"></a>
+
+```csharp
+public ElastigroupAzureV3OsDisk OsDisk { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a>
+
+os_disk block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#os_disk ElastigroupAzureV3#os_disk}
+
+---
+
+##### `PreferredZones`<sup>Optional</sup> <a name="PreferredZones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.preferredZones"></a>
+
+```csharp
+public string[] PreferredZones { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#preferred_zones ElastigroupAzureV3#preferred_zones}.
+
+---
+
+##### `ProximityPlacementGroups`<sup>Optional</sup> <a name="ProximityPlacementGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.proximityPlacementGroups"></a>
+
+```csharp
+public object ProximityPlacementGroups { get; set; }
+```
+
+- *Type:* object
+
+proximity_placement_groups block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#proximity_placement_groups ElastigroupAzureV3#proximity_placement_groups}
+
+---
+
+##### `RevertToSpot`<sup>Optional</sup> <a name="RevertToSpot" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.revertToSpot"></a>
+
+```csharp
+public ElastigroupAzureV3RevertToSpot RevertToSpot { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a>
+
+revert_to_spot block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#revert_to_spot ElastigroupAzureV3#revert_to_spot}
 
 ---
 
@@ -1755,7 +2873,7 @@ public object ScalingDownPolicy { get; set; }
 
 scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#scaling_down_policy ElastigroupAzureV3#scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scaling_down_policy ElastigroupAzureV3#scaling_down_policy}
 
 ---
 
@@ -1769,7 +2887,75 @@ public object ScalingUpPolicy { get; set; }
 
 scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#scaling_up_policy ElastigroupAzureV3#scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scaling_up_policy ElastigroupAzureV3#scaling_up_policy}
+
+---
+
+##### `SchedulingTask`<sup>Optional</sup> <a name="SchedulingTask" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.schedulingTask"></a>
+
+```csharp
+public object SchedulingTask { get; set; }
+```
+
+- *Type:* object
+
+scheduling_task block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scheduling_task ElastigroupAzureV3#scheduling_task}
+
+---
+
+##### `Secret`<sup>Optional</sup> <a name="Secret" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.secret"></a>
+
+```csharp
+public object Secret { get; set; }
+```
+
+- *Type:* object
+
+secret block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#secret ElastigroupAzureV3#secret}
+
+---
+
+##### `Security`<sup>Optional</sup> <a name="Security" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.security"></a>
+
+```csharp
+public ElastigroupAzureV3Security Security { get; set; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a>
+
+security block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#security ElastigroupAzureV3#security}
+
+---
+
+##### `ShutdownScript`<sup>Optional</sup> <a name="ShutdownScript" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.shutdownScript"></a>
+
+```csharp
+public string ShutdownScript { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#shutdown_script ElastigroupAzureV3#shutdown_script}.
+
+---
+
+##### `Signal`<sup>Optional</sup> <a name="Signal" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.signal"></a>
+
+```csharp
+public object Signal { get; set; }
+```
+
+- *Type:* object
+
+signal block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#signal ElastigroupAzureV3#signal}
 
 ---
 
@@ -1781,7 +2967,7 @@ public double SpotPercentage { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_percentage ElastigroupAzureV3#spot_percentage}.
 
 ---
 
@@ -1795,7 +2981,103 @@ public object Tags { get; set; }
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#tags ElastigroupAzureV3#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#tags ElastigroupAzureV3#tags}
+
+---
+
+##### `UserData`<sup>Optional</sup> <a name="UserData" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.userData"></a>
+
+```csharp
+public string UserData { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#user_data ElastigroupAzureV3#user_data}.
+
+---
+
+##### `VmNamePrefix`<sup>Optional</sup> <a name="VmNamePrefix" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.vmNamePrefix"></a>
+
+```csharp
+public string VmNamePrefix { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vm_name_prefix ElastigroupAzureV3#vm_name_prefix}.
+
+---
+
+##### `Zones`<sup>Optional</sup> <a name="Zones" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Config.property.zones"></a>
+
+```csharp
+public string[] Zones { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#zones ElastigroupAzureV3#zones}.
+
+---
+
+### ElastigroupAzureV3DataDisk <a name="ElastigroupAzureV3DataDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3DataDisk {
+    double Lun,
+    double SizeGb,
+    string Type
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.lun">Lun</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#lun ElastigroupAzureV3#lun}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#size_gb ElastigroupAzureV3#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+
+---
+
+##### `Lun`<sup>Required</sup> <a name="Lun" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.lun"></a>
+
+```csharp
+public double Lun { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#lun ElastigroupAzureV3#lun}.
+
+---
+
+##### `SizeGb`<sup>Required</sup> <a name="SizeGb" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.sizeGb"></a>
+
+```csharp
+public double SizeGb { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#size_gb ElastigroupAzureV3#size_gb}.
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDisk.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
 
 ---
 
@@ -1823,15 +3105,15 @@ new ElastigroupAzureV3Extensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#api_version ElastigroupAzureV3#api_version}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minor_version_auto_upgrade ElastigroupAzureV3#minor_version_auto_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.enableAutomaticUpgrade">EnableAutomaticUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#enable_automatic_upgrade ElastigroupAzureV3#enable_automatic_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.protectedSettings">ProtectedSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#protected_settings ElastigroupAzureV3#protected_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.apiVersion">ApiVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#api_version ElastigroupAzureV3#api_version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minor_version_auto_upgrade ElastigroupAzureV3#minor_version_auto_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.enableAutomaticUpgrade">EnableAutomaticUpgrade</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#enable_automatic_upgrade ElastigroupAzureV3#enable_automatic_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.protectedSettings">ProtectedSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#protected_settings ElastigroupAzureV3#protected_settings}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.protectedSettingsFromKeyVault">ProtectedSettingsFromKeyVault</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault">ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault</a></code> | protected_settings_from_key_vault block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.publicSettings">PublicSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#public_settings ElastigroupAzureV3#public_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Extensions.property.publicSettings">PublicSettings</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#public_settings ElastigroupAzureV3#public_settings}. |
 
 ---
 
@@ -1843,7 +3125,7 @@ public string ApiVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#api_version ElastigroupAzureV3#api_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#api_version ElastigroupAzureV3#api_version}.
 
 ---
 
@@ -1855,7 +3137,7 @@ public object MinorVersionAutoUpgrade { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minor_version_auto_upgrade ElastigroupAzureV3#minor_version_auto_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minor_version_auto_upgrade ElastigroupAzureV3#minor_version_auto_upgrade}.
 
 ---
 
@@ -1867,7 +3149,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -1879,7 +3161,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}.
 
 ---
 
@@ -1891,7 +3173,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
 
 ---
 
@@ -1903,7 +3185,7 @@ public object EnableAutomaticUpgrade { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#enable_automatic_upgrade ElastigroupAzureV3#enable_automatic_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#enable_automatic_upgrade ElastigroupAzureV3#enable_automatic_upgrade}.
 
 ---
 
@@ -1915,7 +3197,7 @@ public System.Collections.Generic.IDictionary<string, string> ProtectedSettings 
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#protected_settings ElastigroupAzureV3#protected_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#protected_settings ElastigroupAzureV3#protected_settings}.
 
 ---
 
@@ -1929,7 +3211,7 @@ public ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault ProtectedSettin
 
 protected_settings_from_key_vault block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#protected_settings_from_key_vault ElastigroupAzureV3#protected_settings_from_key_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#protected_settings_from_key_vault ElastigroupAzureV3#protected_settings_from_key_vault}
 
 ---
 
@@ -1941,7 +3223,7 @@ public System.Collections.Generic.IDictionary<string, string> PublicSettings { g
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#public_settings ElastigroupAzureV3#public_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#public_settings ElastigroupAzureV3#public_settings}.
 
 ---
 
@@ -1962,8 +3244,8 @@ new ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault.property.secretUrl">SecretUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#secret_url ElastigroupAzureV3#secret_url}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault.property.sourceVault">SourceVault</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source_vault ElastigroupAzureV3#source_vault}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault.property.secretUrl">SecretUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#secret_url ElastigroupAzureV3#secret_url}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault.property.sourceVault">SourceVault</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source_vault ElastigroupAzureV3#source_vault}. |
 
 ---
 
@@ -1975,7 +3257,7 @@ public string SecretUrl { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#secret_url ElastigroupAzureV3#secret_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#secret_url ElastigroupAzureV3#secret_url}.
 
 ---
 
@@ -1987,7 +3269,81 @@ public string SourceVault { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source_vault ElastigroupAzureV3#source_vault}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source_vault ElastigroupAzureV3#source_vault}.
+
+---
+
+### ElastigroupAzureV3Health <a name="ElastigroupAzureV3Health" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3Health {
+    object AutoHealing = null,
+    double GracePeriod = null,
+    string[] HealthCheckTypes = null,
+    double UnhealthyDuration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.autoHealing">AutoHealing</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#auto_healing ElastigroupAzureV3#auto_healing}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#grace_period ElastigroupAzureV3#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#health_check_types ElastigroupAzureV3#health_check_types}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unhealthy_duration ElastigroupAzureV3#unhealthy_duration}. |
+
+---
+
+##### `AutoHealing`<sup>Optional</sup> <a name="AutoHealing" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.autoHealing"></a>
+
+```csharp
+public object AutoHealing { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#auto_healing ElastigroupAzureV3#auto_healing}.
+
+---
+
+##### `GracePeriod`<sup>Optional</sup> <a name="GracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.gracePeriod"></a>
+
+```csharp
+public double GracePeriod { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#grace_period ElastigroupAzureV3#grace_period}.
+
+---
+
+##### `HealthCheckTypes`<sup>Optional</sup> <a name="HealthCheckTypes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.healthCheckTypes"></a>
+
+```csharp
+public string[] HealthCheckTypes { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#health_check_types ElastigroupAzureV3#health_check_types}.
+
+---
+
+##### `UnhealthyDuration`<sup>Optional</sup> <a name="UnhealthyDuration" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health.property.unhealthyDuration"></a>
+
+```csharp
+public double UnhealthyDuration { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unhealthy_duration ElastigroupAzureV3#unhealthy_duration}.
 
 ---
 
@@ -2025,7 +3381,7 @@ public object Custom { get; set; }
 
 custom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#custom ElastigroupAzureV3#custom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#custom ElastigroupAzureV3#custom}
 
 ---
 
@@ -2039,7 +3395,7 @@ public object GalleryImage { get; set; }
 
 gallery_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#gallery_image ElastigroupAzureV3#gallery_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#gallery_image ElastigroupAzureV3#gallery_image}
 
 ---
 
@@ -2053,7 +3409,7 @@ public object Marketplace { get; set; }
 
 marketplace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#marketplace ElastigroupAzureV3#marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#marketplace ElastigroupAzureV3#marketplace}
 
 ---
 
@@ -2074,8 +3430,8 @@ new ElastigroupAzureV3ImageCustom {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustom.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustom.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustom.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageCustom.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
 
 ---
 
@@ -2087,7 +3443,7 @@ public string ImageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}.
 
 ---
 
@@ -2099,7 +3455,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
 
 ---
 
@@ -2123,11 +3479,11 @@ new ElastigroupAzureV3ImageGalleryImage {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.galleryName">GalleryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.spotAccountId">SpotAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.galleryName">GalleryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageGalleryImage.property.spotAccountId">SpotAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}. |
 
 ---
 
@@ -2139,7 +3495,7 @@ public string GalleryName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#gallery_name ElastigroupAzureV3#gallery_name}.
 
 ---
 
@@ -2151,7 +3507,7 @@ public string ImageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#image_name ElastigroupAzureV3#image_name}.
 
 ---
 
@@ -2163,7 +3519,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
 
 ---
 
@@ -2175,7 +3531,7 @@ public string Version { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}.
 
 ---
 
@@ -2187,7 +3543,7 @@ public string SpotAccountId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_account_id ElastigroupAzureV3#spot_account_id}.
 
 ---
 
@@ -2210,10 +3566,10 @@ new ElastigroupAzureV3ImageMarketplace {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.offer">Offer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.publisher">Publisher</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ImageMarketplace.property.version">Version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}. |
 
 ---
 
@@ -2225,7 +3581,7 @@ public string Offer { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#offer ElastigroupAzureV3#offer}.
 
 ---
 
@@ -2237,7 +3593,7 @@ public string Publisher { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#publisher ElastigroupAzureV3#publisher}.
 
 ---
 
@@ -2249,7 +3605,7 @@ public string Sku { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}.
 
 ---
 
@@ -2261,7 +3617,95 @@ public string Version { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#version ElastigroupAzureV3#version}.
+
+---
+
+### ElastigroupAzureV3LoadBalancer <a name="ElastigroupAzureV3LoadBalancer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3LoadBalancer {
+    string Name,
+    string ResourceGroupName,
+    string Type,
+    string[] BackendPoolNames = null,
+    string Sku = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#backend_pool_names ElastigroupAzureV3#backend_pool_names}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.sku">Sku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+
+---
+
+##### `BackendPoolNames`<sup>Optional</sup> <a name="BackendPoolNames" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.backendPoolNames"></a>
+
+```csharp
+public string[] BackendPoolNames { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#backend_pool_names ElastigroupAzureV3#backend_pool_names}.
+
+---
+
+##### `Sku`<sup>Optional</sup> <a name="Sku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancer.property.sku"></a>
+
+```csharp
+public string Sku { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#sku ElastigroupAzureV3#sku}.
 
 ---
 
@@ -2283,9 +3727,9 @@ new ElastigroupAzureV3Login {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.userName">UserName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.password">Password</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Login.property.sshPublicKey">SshPublicKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}. |
 
 ---
 
@@ -2297,7 +3741,7 @@ public string UserName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#user_name ElastigroupAzureV3#user_name}.
 
 ---
 
@@ -2309,7 +3753,7 @@ public string Password { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#password ElastigroupAzureV3#password}.
 
 ---
 
@@ -2321,7 +3765,7 @@ public string SshPublicKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#ssh_public_key ElastigroupAzureV3#ssh_public_key}.
 
 ---
 
@@ -2342,8 +3786,8 @@ new ElastigroupAzureV3ManagedServiceIdentity {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentity.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentity.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentity.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ManagedServiceIdentity.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
 
 ---
 
@@ -2355,7 +3799,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -2367,7 +3811,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
 
 ---
 
@@ -2390,8 +3834,8 @@ new ElastigroupAzureV3Network {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.property.networkInterfaces">NetworkInterfaces</a></code> | <code>object</code> | network_interfaces block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}. |
 
 ---
 
@@ -2405,7 +3849,7 @@ public object NetworkInterfaces { get; set; }
 
 network_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#network_interfaces ElastigroupAzureV3#network_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#network_interfaces ElastigroupAzureV3#network_interfaces}
 
 ---
 
@@ -2417,7 +3861,7 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
 
 ---
 
@@ -2429,7 +3873,7 @@ public string VirtualNetworkName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#virtual_network_name ElastigroupAzureV3#virtual_network_name}.
 
 ---
 
@@ -2445,7 +3889,11 @@ new ElastigroupAzureV3NetworkNetworkInterfaces {
     object IsPrimary,
     string SubnetName,
     object AdditionalIpConfigs = null,
-    object ApplicationSecurityGroup = null
+    object ApplicationSecurityGroup = null,
+    object EnableIpForwarding = null,
+    string[] PrivateIpAddresses = null,
+    string PublicIpSku = null,
+    object SecurityGroup = null
 };
 ```
 
@@ -2453,11 +3901,15 @@ new ElastigroupAzureV3NetworkNetworkInterfaces {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.isPrimary">IsPrimary</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.subnetName">SubnetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.additionalIpConfigs">AdditionalIpConfigs</a></code> | <code>object</code> | additional_ip_configs block. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.applicationSecurityGroup">ApplicationSecurityGroup</a></code> | <code>object</code> | application_security_group block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#enable_ip_forwarding ElastigroupAzureV3#enable_ip_forwarding}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#private_ip_addresses ElastigroupAzureV3#private_ip_addresses}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.publicIpSku">PublicIpSku</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#public_ip_sku ElastigroupAzureV3#public_ip_sku}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.securityGroup">SecurityGroup</a></code> | <code>object</code> | security_group block. |
 
 ---
 
@@ -2469,7 +3921,7 @@ public object AssignPublicIp { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#assign_public_ip ElastigroupAzureV3#assign_public_ip}.
 
 ---
 
@@ -2481,7 +3933,7 @@ public object IsPrimary { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_primary ElastigroupAzureV3#is_primary}.
 
 ---
 
@@ -2493,7 +3945,7 @@ public string SubnetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#subnet_name ElastigroupAzureV3#subnet_name}.
 
 ---
 
@@ -2507,7 +3959,7 @@ public object AdditionalIpConfigs { get; set; }
 
 additional_ip_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#additional_ip_configs ElastigroupAzureV3#additional_ip_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#additional_ip_configs ElastigroupAzureV3#additional_ip_configs}
 
 ---
 
@@ -2521,7 +3973,57 @@ public object ApplicationSecurityGroup { get; set; }
 
 application_security_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#application_security_group ElastigroupAzureV3#application_security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#application_security_group ElastigroupAzureV3#application_security_group}
+
+---
+
+##### `EnableIpForwarding`<sup>Optional</sup> <a name="EnableIpForwarding" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.enableIpForwarding"></a>
+
+```csharp
+public object EnableIpForwarding { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#enable_ip_forwarding ElastigroupAzureV3#enable_ip_forwarding}.
+
+---
+
+##### `PrivateIpAddresses`<sup>Optional</sup> <a name="PrivateIpAddresses" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.privateIpAddresses"></a>
+
+```csharp
+public string[] PrivateIpAddresses { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#private_ip_addresses ElastigroupAzureV3#private_ip_addresses}.
+
+---
+
+##### `PublicIpSku`<sup>Optional</sup> <a name="PublicIpSku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.publicIpSku"></a>
+
+```csharp
+public string PublicIpSku { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#public_ip_sku ElastigroupAzureV3#public_ip_sku}.
+
+---
+
+##### `SecurityGroup`<sup>Optional</sup> <a name="SecurityGroup" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfaces.property.securityGroup"></a>
+
+```csharp
+public object SecurityGroup { get; set; }
+```
+
+- *Type:* object
+
+security_group block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#security_group ElastigroupAzureV3#security_group}
 
 ---
 
@@ -2542,8 +4044,8 @@ new ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigs.property.privateIpVersion">PrivateIpVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}. |
 
 ---
 
@@ -2555,7 +4057,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -2567,7 +4069,7 @@ public string PrivateIpVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#private_ip_version ElastigroupAzureV3#private_ip_version}.
 
 ---
 
@@ -2588,8 +4090,8 @@ new ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroup.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
 
 ---
 
@@ -2601,7 +4103,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -2613,7 +4115,177 @@ public string ResourceGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+
+---
+
+### ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup <a name="ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup {
+    string Name = null,
+    string ResourceGroupName = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+
+---
+
+##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+
+---
+
+##### `ResourceGroupName`<sup>Optional</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroup.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+
+---
+
+### ElastigroupAzureV3OsDisk <a name="ElastigroupAzureV3OsDisk" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3OsDisk {
+    string Type,
+    double SizeGb = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk.property.sizeGb">SizeGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#size_gb ElastigroupAzureV3#size_gb}. |
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+
+---
+
+##### `SizeGb`<sup>Optional</sup> <a name="SizeGb" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk.property.sizeGb"></a>
+
+```csharp
+public double SizeGb { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#size_gb ElastigroupAzureV3#size_gb}.
+
+---
+
+### ElastigroupAzureV3ProximityPlacementGroups <a name="ElastigroupAzureV3ProximityPlacementGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3ProximityPlacementGroups {
+    string Name,
+    string ResourceGroupName
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroups.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+
+---
+
+### ElastigroupAzureV3RevertToSpot <a name="ElastigroupAzureV3RevertToSpot" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3RevertToSpot {
+    string PerformAt
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot.property.performAt">PerformAt</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#perform_at ElastigroupAzureV3#perform_at}. |
+
+---
+
+##### `PerformAt`<sup>Required</sup> <a name="PerformAt" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot.property.performAt"></a>
+
+```csharp
+public string PerformAt { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#perform_at ElastigroupAzureV3#perform_at}.
 
 ---
 
@@ -2647,19 +4319,19 @@ new ElastigroupAzureV3ScalingDownPolicy {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.action">Action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction">ElastigroupAzureV3ScalingDownPolicyAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.dimensions">Dimensions</a></code> | <code>object</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}. |
 
 ---
 
@@ -2673,7 +4345,7 @@ public ElastigroupAzureV3ScalingDownPolicyAction Action { get; set; }
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
 
 ---
 
@@ -2685,7 +4357,7 @@ public double Cooldown { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}.
 
 ---
 
@@ -2697,7 +4369,7 @@ public double EvaluationPeriods { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}.
 
 ---
 
@@ -2709,7 +4381,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}.
 
 ---
 
@@ -2721,7 +4393,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}.
 
 ---
 
@@ -2733,7 +4405,7 @@ public string Operator { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}.
 
 ---
 
@@ -2745,7 +4417,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}.
 
 ---
 
@@ -2757,7 +4429,7 @@ public string PolicyName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}.
 
 ---
 
@@ -2769,7 +4441,7 @@ public string Statistic { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}.
 
 ---
 
@@ -2781,7 +4453,7 @@ public double Threshold { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}.
 
 ---
 
@@ -2795,7 +4467,7 @@ public object Dimensions { get; set; }
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
 
 ---
 
@@ -2807,7 +4479,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
 
 ---
 
@@ -2819,7 +4491,7 @@ public string Source { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}.
 
 ---
 
@@ -2831,7 +4503,7 @@ public string Unit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}.
 
 ---
 
@@ -2855,11 +4527,11 @@ new ElastigroupAzureV3ScalingDownPolicyAction {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyAction.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
 
 ---
 
@@ -2871,7 +4543,7 @@ public string Adjustment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}.
 
 ---
 
@@ -2883,7 +4555,7 @@ public string Maximum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}.
 
 ---
 
@@ -2895,7 +4567,7 @@ public string Minimum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}.
 
 ---
 
@@ -2907,7 +4579,7 @@ public string Target { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}.
 
 ---
 
@@ -2919,7 +4591,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
 
 ---
 
@@ -2940,8 +4612,8 @@ new ElastigroupAzureV3ScalingDownPolicyDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingDownPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
 
 ---
 
@@ -2953,7 +4625,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -2965,7 +4637,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
 
 ---
 
@@ -2999,19 +4671,19 @@ new ElastigroupAzureV3ScalingUpPolicy {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.action">Action</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction">ElastigroupAzureV3ScalingUpPolicyAction</a></code> | action block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.cooldown">Cooldown</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.operator">Operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.policyName">PolicyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.statistic">Statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.threshold">Threshold</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.dimensions">Dimensions</a></code> | <code>object</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicy.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}. |
 
 ---
 
@@ -3025,7 +4697,7 @@ public ElastigroupAzureV3ScalingUpPolicyAction Action { get; set; }
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#action ElastigroupAzureV3#action}
 
 ---
 
@@ -3037,7 +4709,7 @@ public double Cooldown { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cooldown ElastigroupAzureV3#cooldown}.
 
 ---
 
@@ -3049,7 +4721,7 @@ public double EvaluationPeriods { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#evaluation_periods ElastigroupAzureV3#evaluation_periods}.
 
 ---
 
@@ -3061,7 +4733,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#metric_name ElastigroupAzureV3#metric_name}.
 
 ---
 
@@ -3073,7 +4745,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#namespace ElastigroupAzureV3#namespace}.
 
 ---
 
@@ -3085,7 +4757,7 @@ public string Operator { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#operator ElastigroupAzureV3#operator}.
 
 ---
 
@@ -3097,7 +4769,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#period ElastigroupAzureV3#period}.
 
 ---
 
@@ -3109,7 +4781,7 @@ public string PolicyName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#policy_name ElastigroupAzureV3#policy_name}.
 
 ---
 
@@ -3121,7 +4793,7 @@ public string Statistic { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#statistic ElastigroupAzureV3#statistic}.
 
 ---
 
@@ -3133,7 +4805,7 @@ public double Threshold { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#threshold ElastigroupAzureV3#threshold}.
 
 ---
 
@@ -3147,7 +4819,7 @@ public object Dimensions { get; set; }
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#dimensions ElastigroupAzureV3#dimensions}
 
 ---
 
@@ -3159,7 +4831,7 @@ public object IsEnabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
 
 ---
 
@@ -3171,7 +4843,7 @@ public string Source { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source ElastigroupAzureV3#source}.
 
 ---
 
@@ -3183,7 +4855,7 @@ public string Unit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#unit ElastigroupAzureV3#unit}.
 
 ---
 
@@ -3207,11 +4879,11 @@ new ElastigroupAzureV3ScalingUpPolicyAction {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.maximum">Maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.minimum">Minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyAction.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
 
 ---
 
@@ -3223,7 +4895,7 @@ public string Adjustment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}.
 
 ---
 
@@ -3235,7 +4907,7 @@ public string Maximum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#maximum ElastigroupAzureV3#maximum}.
 
 ---
 
@@ -3247,7 +4919,7 @@ public string Minimum { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#minimum ElastigroupAzureV3#minimum}.
 
 ---
 
@@ -3259,7 +4931,7 @@ public string Target { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#target ElastigroupAzureV3#target}.
 
 ---
 
@@ -3271,7 +4943,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
 
 ---
 
@@ -3292,8 +4964,8 @@ new ElastigroupAzureV3ScalingUpPolicyDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ScalingUpPolicyDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
 
 ---
 
@@ -3305,7 +4977,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
 
 ---
 
@@ -3317,7 +4989,427 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
+
+---
+
+### ElastigroupAzureV3SchedulingTask <a name="ElastigroupAzureV3SchedulingTask" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SchedulingTask {
+    string CronExpression,
+    object IsEnabled,
+    string Type,
+    string Adjustment = null,
+    string AdjustmentPercentage = null,
+    string BatchSizePercentage = null,
+    string GracePeriod = null,
+    string ScaleMaxCapacity = null,
+    string ScaleMinCapacity = null,
+    string ScaleTargetCapacity = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.cronExpression">CronExpression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cron_expression ElastigroupAzureV3#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.isEnabled">IsEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.adjustment">Adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.adjustmentPercentage">AdjustmentPercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment_percentage ElastigroupAzureV3#adjustment_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#batch_size_percentage ElastigroupAzureV3#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.gracePeriod">GracePeriod</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#grace_period ElastigroupAzureV3#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleMaxCapacity">ScaleMaxCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_max_capacity ElastigroupAzureV3#scale_max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleMinCapacity">ScaleMinCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_min_capacity ElastigroupAzureV3#scale_min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleTargetCapacity">ScaleTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_target_capacity ElastigroupAzureV3#scale_target_capacity}. |
+
+---
+
+##### `CronExpression`<sup>Required</sup> <a name="CronExpression" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.cronExpression"></a>
+
+```csharp
+public string CronExpression { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#cron_expression ElastigroupAzureV3#cron_expression}.
+
+---
+
+##### `IsEnabled`<sup>Required</sup> <a name="IsEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.isEnabled"></a>
+
+```csharp
+public object IsEnabled { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#is_enabled ElastigroupAzureV3#is_enabled}.
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
+
+---
+
+##### `Adjustment`<sup>Optional</sup> <a name="Adjustment" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.adjustment"></a>
+
+```csharp
+public string Adjustment { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment ElastigroupAzureV3#adjustment}.
+
+---
+
+##### `AdjustmentPercentage`<sup>Optional</sup> <a name="AdjustmentPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.adjustmentPercentage"></a>
+
+```csharp
+public string AdjustmentPercentage { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#adjustment_percentage ElastigroupAzureV3#adjustment_percentage}.
+
+---
+
+##### `BatchSizePercentage`<sup>Optional</sup> <a name="BatchSizePercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.batchSizePercentage"></a>
+
+```csharp
+public string BatchSizePercentage { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#batch_size_percentage ElastigroupAzureV3#batch_size_percentage}.
+
+---
+
+##### `GracePeriod`<sup>Optional</sup> <a name="GracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.gracePeriod"></a>
+
+```csharp
+public string GracePeriod { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#grace_period ElastigroupAzureV3#grace_period}.
+
+---
+
+##### `ScaleMaxCapacity`<sup>Optional</sup> <a name="ScaleMaxCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleMaxCapacity"></a>
+
+```csharp
+public string ScaleMaxCapacity { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_max_capacity ElastigroupAzureV3#scale_max_capacity}.
+
+---
+
+##### `ScaleMinCapacity`<sup>Optional</sup> <a name="ScaleMinCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleMinCapacity"></a>
+
+```csharp
+public string ScaleMinCapacity { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_min_capacity ElastigroupAzureV3#scale_min_capacity}.
+
+---
+
+##### `ScaleTargetCapacity`<sup>Optional</sup> <a name="ScaleTargetCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTask.property.scaleTargetCapacity"></a>
+
+```csharp
+public string ScaleTargetCapacity { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#scale_target_capacity ElastigroupAzureV3#scale_target_capacity}.
+
+---
+
+### ElastigroupAzureV3Secret <a name="ElastigroupAzureV3Secret" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3Secret {
+    object SourceVault,
+    object VaultCertificates
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret.property.sourceVault">SourceVault</a></code> | <code>object</code> | source_vault block. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret.property.vaultCertificates">VaultCertificates</a></code> | <code>object</code> | vault_certificates block. |
+
+---
+
+##### `SourceVault`<sup>Required</sup> <a name="SourceVault" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret.property.sourceVault"></a>
+
+```csharp
+public object SourceVault { get; set; }
+```
+
+- *Type:* object
+
+source_vault block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#source_vault ElastigroupAzureV3#source_vault}
+
+---
+
+##### `VaultCertificates`<sup>Required</sup> <a name="VaultCertificates" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Secret.property.vaultCertificates"></a>
+
+```csharp
+public object VaultCertificates { get; set; }
+```
+
+- *Type:* object
+
+vault_certificates block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vault_certificates ElastigroupAzureV3#vault_certificates}
+
+---
+
+### ElastigroupAzureV3SecretSourceVault <a name="ElastigroupAzureV3SecretSourceVault" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretSourceVault {
+    string Name,
+    string ResourceGroupName
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#name ElastigroupAzureV3#name}.
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVault.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#resource_group_name ElastigroupAzureV3#resource_group_name}.
+
+---
+
+### ElastigroupAzureV3SecretVaultCertificates <a name="ElastigroupAzureV3SecretVaultCertificates" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretVaultCertificates {
+    string CertificateStore,
+    string CertificateUrl
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates.property.certificateStore">CertificateStore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#certificate_store ElastigroupAzureV3#certificate_store}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates.property.certificateUrl">CertificateUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#certificate_url ElastigroupAzureV3#certificate_url}. |
+
+---
+
+##### `CertificateStore`<sup>Required</sup> <a name="CertificateStore" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates.property.certificateStore"></a>
+
+```csharp
+public string CertificateStore { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#certificate_store ElastigroupAzureV3#certificate_store}.
+
+---
+
+##### `CertificateUrl`<sup>Required</sup> <a name="CertificateUrl" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificates.property.certificateUrl"></a>
+
+```csharp
+public string CertificateUrl { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#certificate_url ElastigroupAzureV3#certificate_url}.
+
+---
+
+### ElastigroupAzureV3Security <a name="ElastigroupAzureV3Security" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3Security {
+    object ConfidentialOsDiskEncryption = null,
+    object SecureBootEnabled = null,
+    string SecurityType = null,
+    object VtpmEnabled = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.confidentialOsDiskEncryption">ConfidentialOsDiskEncryption</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#confidential_os_disk_encryption ElastigroupAzureV3#confidential_os_disk_encryption}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.secureBootEnabled">SecureBootEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#secure_boot_enabled ElastigroupAzureV3#secure_boot_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.securityType">SecurityType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#security_type ElastigroupAzureV3#security_type}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.vtpmEnabled">VtpmEnabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vtpm_enabled ElastigroupAzureV3#vtpm_enabled}. |
+
+---
+
+##### `ConfidentialOsDiskEncryption`<sup>Optional</sup> <a name="ConfidentialOsDiskEncryption" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.confidentialOsDiskEncryption"></a>
+
+```csharp
+public object ConfidentialOsDiskEncryption { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#confidential_os_disk_encryption ElastigroupAzureV3#confidential_os_disk_encryption}.
+
+---
+
+##### `SecureBootEnabled`<sup>Optional</sup> <a name="SecureBootEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.secureBootEnabled"></a>
+
+```csharp
+public object SecureBootEnabled { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#secure_boot_enabled ElastigroupAzureV3#secure_boot_enabled}.
+
+---
+
+##### `SecurityType`<sup>Optional</sup> <a name="SecurityType" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.securityType"></a>
+
+```csharp
+public string SecurityType { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#security_type ElastigroupAzureV3#security_type}.
+
+---
+
+##### `VtpmEnabled`<sup>Optional</sup> <a name="VtpmEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security.property.vtpmEnabled"></a>
+
+```csharp
+public object VtpmEnabled { get; set; }
+```
+
+- *Type:* object
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#vtpm_enabled ElastigroupAzureV3#vtpm_enabled}.
+
+---
+
+### ElastigroupAzureV3Signal <a name="ElastigroupAzureV3Signal" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3Signal {
+    double Timeout,
+    string Type
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal.property.timeout">Timeout</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#timeout ElastigroupAzureV3#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}. |
+
+---
+
+##### `Timeout`<sup>Required</sup> <a name="Timeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal.property.timeout"></a>
+
+```csharp
+public double Timeout { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#timeout ElastigroupAzureV3#timeout}.
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Signal.property.type"></a>
+
+```csharp
+public string Type { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#type ElastigroupAzureV3#type}.
 
 ---
 
@@ -3338,8 +5430,8 @@ new ElastigroupAzureV3Tags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Tags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Tags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Tags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Tags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}. |
 
 ---
 
@@ -3351,7 +5443,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#key ElastigroupAzureV3#key}.
 
 ---
 
@@ -3363,7 +5455,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#value ElastigroupAzureV3#value}.
 
 ---
 
@@ -3376,7 +5468,8 @@ using HashiCorp.Cdktf.Providers.Spotinst;
 
 new ElastigroupAzureV3VmSizes {
     string[] OdSizes,
-    string[] SpotSizes
+    string[] SpotSizes,
+    string[] PreferredSpotSizes = null
 };
 ```
 
@@ -3384,8 +5477,9 @@ new ElastigroupAzureV3VmSizes {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.spotSizes">SpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.odSizes">OdSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.spotSizes">SpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#preferred_spot_sizes ElastigroupAzureV3#preferred_spot_sizes}. |
 
 ---
 
@@ -3397,7 +5491,7 @@ public string[] OdSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#od_sizes ElastigroupAzureV3#od_sizes}.
 
 ---
 
@@ -3409,11 +5503,1673 @@ public string[] SpotSizes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.195.1/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#spot_sizes ElastigroupAzureV3#spot_sizes}.
+
+---
+
+##### `PreferredSpotSizes`<sup>Optional</sup> <a name="PreferredSpotSizes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes.property.preferredSpotSizes"></a>
+
+```csharp
+public string[] PreferredSpotSizes { get; set; }
+```
+
+- *Type:* string[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/elastigroup_azure_v3#preferred_spot_sizes ElastigroupAzureV3#preferred_spot_sizes}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### ElastigroupAzureV3BootDiagnosticsList <a name="ElastigroupAzureV3BootDiagnosticsList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3BootDiagnosticsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.get"></a>
+
+```csharp
+private ElastigroupAzureV3BootDiagnosticsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3BootDiagnosticsOutputReference <a name="ElastigroupAzureV3BootDiagnosticsOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3BootDiagnosticsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.resetStorageUrl">ResetStorageUrl</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetStorageUrl` <a name="ResetStorageUrl" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.resetStorageUrl"></a>
+
+```csharp
+private void ResetStorageUrl()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.isEnabledInput">IsEnabledInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.storageUrlInput">StorageUrlInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.isEnabled">IsEnabled</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.storageUrl">StorageUrl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IsEnabledInput`<sup>Optional</sup> <a name="IsEnabledInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.isEnabledInput"></a>
+
+```csharp
+public object IsEnabledInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `StorageUrlInput`<sup>Optional</sup> <a name="StorageUrlInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.storageUrlInput"></a>
+
+```csharp
+public string StorageUrlInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IsEnabled`<sup>Required</sup> <a name="IsEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.isEnabled"></a>
+
+```csharp
+public object IsEnabled { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `StorageUrl`<sup>Required</sup> <a name="StorageUrl" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.storageUrl"></a>
+
+```csharp
+public string StorageUrl { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3BootDiagnosticsOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference <a name="ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.resetCrgShouldPrioritize">ResetCrgShouldPrioritize</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetCrgShouldPrioritize` <a name="ResetCrgShouldPrioritize" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.resetCrgShouldPrioritize"></a>
+
+```csharp
+private void ResetCrgShouldPrioritize()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgNameInput">CrgNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgResourceGroupNameInput">CrgResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgShouldPrioritizeInput">CrgShouldPrioritizeInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgName">CrgName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgResourceGroupName">CrgResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgShouldPrioritize">CrgShouldPrioritize</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CrgNameInput`<sup>Optional</sup> <a name="CrgNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgNameInput"></a>
+
+```csharp
+public string CrgNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CrgResourceGroupNameInput`<sup>Optional</sup> <a name="CrgResourceGroupNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgResourceGroupNameInput"></a>
+
+```csharp
+public string CrgResourceGroupNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CrgShouldPrioritizeInput`<sup>Optional</sup> <a name="CrgShouldPrioritizeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgShouldPrioritizeInput"></a>
+
+```csharp
+public object CrgShouldPrioritizeInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `CrgName`<sup>Required</sup> <a name="CrgName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgName"></a>
+
+```csharp
+public string CrgName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CrgResourceGroupName`<sup>Required</sup> <a name="CrgResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgResourceGroupName"></a>
+
+```csharp
+public string CrgResourceGroupName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CrgShouldPrioritize`<sup>Required</sup> <a name="CrgShouldPrioritize" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.crgShouldPrioritize"></a>
+
+```csharp
+public object CrgShouldPrioritize { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservationCapacityReservationGroups InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a>
+
+---
+
+
+### ElastigroupAzureV3CapacityReservationOutputReference <a name="ElastigroupAzureV3CapacityReservationOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3CapacityReservationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.putCapacityReservationGroups">PutCapacityReservationGroups</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.resetCapacityReservationGroups">ResetCapacityReservationGroups</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutCapacityReservationGroups` <a name="PutCapacityReservationGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.putCapacityReservationGroups"></a>
+
+```csharp
+private void PutCapacityReservationGroups(ElastigroupAzureV3CapacityReservationCapacityReservationGroups Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.putCapacityReservationGroups.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a>
+
+---
+
+##### `ResetCapacityReservationGroups` <a name="ResetCapacityReservationGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.resetCapacityReservationGroups"></a>
+
+```csharp
+private void ResetCapacityReservationGroups()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.capacityReservationGroups">CapacityReservationGroups</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference">ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.capacityReservationGroupsInput">CapacityReservationGroupsInput</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.shouldUtilizeInput">ShouldUtilizeInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.utilizationStrategyInput">UtilizationStrategyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.shouldUtilize">ShouldUtilize</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.utilizationStrategy">UtilizationStrategy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CapacityReservationGroups`<sup>Required</sup> <a name="CapacityReservationGroups" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.capacityReservationGroups"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference CapacityReservationGroups { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference">ElastigroupAzureV3CapacityReservationCapacityReservationGroupsOutputReference</a>
+
+---
+
+##### `CapacityReservationGroupsInput`<sup>Optional</sup> <a name="CapacityReservationGroupsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.capacityReservationGroupsInput"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservationCapacityReservationGroups CapacityReservationGroupsInput { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationCapacityReservationGroups">ElastigroupAzureV3CapacityReservationCapacityReservationGroups</a>
+
+---
+
+##### `ShouldUtilizeInput`<sup>Optional</sup> <a name="ShouldUtilizeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.shouldUtilizeInput"></a>
+
+```csharp
+public object ShouldUtilizeInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `UtilizationStrategyInput`<sup>Optional</sup> <a name="UtilizationStrategyInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.utilizationStrategyInput"></a>
+
+```csharp
+public string UtilizationStrategyInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ShouldUtilize`<sup>Required</sup> <a name="ShouldUtilize" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.shouldUtilize"></a>
+
+```csharp
+public object ShouldUtilize { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `UtilizationStrategy`<sup>Required</sup> <a name="UtilizationStrategy" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.utilizationStrategy"></a>
+
+```csharp
+public string UtilizationStrategy { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservationOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3CapacityReservation InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3CapacityReservation">ElastigroupAzureV3CapacityReservation</a>
+
+---
+
+
+### ElastigroupAzureV3DataDiskList <a name="ElastigroupAzureV3DataDiskList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3DataDiskList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.get"></a>
+
+```csharp
+private ElastigroupAzureV3DataDiskOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3DataDiskOutputReference <a name="ElastigroupAzureV3DataDiskOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3DataDiskOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.lunInput">LunInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.sizeGbInput">SizeGbInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.lun">Lun</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.sizeGb">SizeGb</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LunInput`<sup>Optional</sup> <a name="LunInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.lunInput"></a>
+
+```csharp
+public double LunInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `SizeGbInput`<sup>Optional</sup> <a name="SizeGbInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.sizeGbInput"></a>
+
+```csharp
+public double SizeGbInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Lun`<sup>Required</sup> <a name="Lun" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.lun"></a>
+
+```csharp
+public double Lun { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `SizeGb`<sup>Required</sup> <a name="SizeGb" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.sizeGb"></a>
+
+```csharp
+public double SizeGb { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3DataDiskOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
 
 ### ElastigroupAzureV3ExtensionsList <a name="ElastigroupAzureV3ExtensionsList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsList"></a>
 
@@ -4370,6 +8126,371 @@ public ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault InternalValue {
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault">ElastigroupAzureV3ExtensionsProtectedSettingsFromKeyVault</a>
+
+---
+
+
+### ElastigroupAzureV3HealthOutputReference <a name="ElastigroupAzureV3HealthOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3HealthOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetAutoHealing">ResetAutoHealing</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetGracePeriod">ResetGracePeriod</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetHealthCheckTypes">ResetHealthCheckTypes</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetUnhealthyDuration">ResetUnhealthyDuration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAutoHealing` <a name="ResetAutoHealing" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetAutoHealing"></a>
+
+```csharp
+private void ResetAutoHealing()
+```
+
+##### `ResetGracePeriod` <a name="ResetGracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetGracePeriod"></a>
+
+```csharp
+private void ResetGracePeriod()
+```
+
+##### `ResetHealthCheckTypes` <a name="ResetHealthCheckTypes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetHealthCheckTypes"></a>
+
+```csharp
+private void ResetHealthCheckTypes()
+```
+
+##### `ResetUnhealthyDuration` <a name="ResetUnhealthyDuration" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.resetUnhealthyDuration"></a>
+
+```csharp
+private void ResetUnhealthyDuration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.autoHealingInput">AutoHealingInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.gracePeriodInput">GracePeriodInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.healthCheckTypesInput">HealthCheckTypesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.unhealthyDurationInput">UnhealthyDurationInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.autoHealing">AutoHealing</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.gracePeriod">GracePeriod</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AutoHealingInput`<sup>Optional</sup> <a name="AutoHealingInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.autoHealingInput"></a>
+
+```csharp
+public object AutoHealingInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `GracePeriodInput`<sup>Optional</sup> <a name="GracePeriodInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.gracePeriodInput"></a>
+
+```csharp
+public double GracePeriodInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckTypesInput`<sup>Optional</sup> <a name="HealthCheckTypesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.healthCheckTypesInput"></a>
+
+```csharp
+public string[] HealthCheckTypesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `UnhealthyDurationInput`<sup>Optional</sup> <a name="UnhealthyDurationInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.unhealthyDurationInput"></a>
+
+```csharp
+public double UnhealthyDurationInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `AutoHealing`<sup>Required</sup> <a name="AutoHealing" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.autoHealing"></a>
+
+```csharp
+public object AutoHealing { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `GracePeriod`<sup>Required</sup> <a name="GracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.gracePeriod"></a>
+
+```csharp
+public double GracePeriod { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `HealthCheckTypes`<sup>Required</sup> <a name="HealthCheckTypes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.healthCheckTypes"></a>
+
+```csharp
+public string[] HealthCheckTypes { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `UnhealthyDuration`<sup>Required</sup> <a name="UnhealthyDuration" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.unhealthyDuration"></a>
+
+```csharp
+public double UnhealthyDuration { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3HealthOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3Health InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Health">ElastigroupAzureV3Health</a>
 
 ---
 
@@ -6457,6 +10578,557 @@ public object InternalValue { get; }
 ---
 
 
+### ElastigroupAzureV3LoadBalancerList <a name="ElastigroupAzureV3LoadBalancerList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3LoadBalancerList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.get"></a>
+
+```csharp
+private ElastigroupAzureV3LoadBalancerOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3LoadBalancerOutputReference <a name="ElastigroupAzureV3LoadBalancerOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3LoadBalancerOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resetBackendPoolNames">ResetBackendPoolNames</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resetSku">ResetSku</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetBackendPoolNames` <a name="ResetBackendPoolNames" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resetBackendPoolNames"></a>
+
+```csharp
+private void ResetBackendPoolNames()
+```
+
+##### `ResetSku` <a name="ResetSku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.resetSku"></a>
+
+```csharp
+private void ResetSku()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.backendPoolNamesInput">BackendPoolNamesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.skuInput">SkuInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.backendPoolNames">BackendPoolNames</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.sku">Sku</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BackendPoolNamesInput`<sup>Optional</sup> <a name="BackendPoolNamesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.backendPoolNamesInput"></a>
+
+```csharp
+public string[] BackendPoolNamesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupNameInput`<sup>Optional</sup> <a name="ResourceGroupNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.resourceGroupNameInput"></a>
+
+```csharp
+public string ResourceGroupNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SkuInput`<sup>Optional</sup> <a name="SkuInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.skuInput"></a>
+
+```csharp
+public string SkuInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BackendPoolNames`<sup>Required</sup> <a name="BackendPoolNames" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.backendPoolNames"></a>
+
+```csharp
+public string[] BackendPoolNames { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Sku`<sup>Required</sup> <a name="Sku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.sku"></a>
+
+```csharp
+public string Sku { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoadBalancerOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
 ### ElastigroupAzureV3LoginOutputReference <a name="ElastigroupAzureV3LoginOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoginOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3LoginOutputReference.Initializer"></a>
@@ -8436,8 +13108,13 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.putAdditionalIpConfigs">PutAdditionalIpConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.putApplicationSecurityGroup">PutApplicationSecurityGroup</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.putSecurityGroup">PutSecurityGroup</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetAdditionalIpConfigs">ResetAdditionalIpConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetApplicationSecurityGroup">ResetApplicationSecurityGroup</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetEnableIpForwarding">ResetEnableIpForwarding</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetPrivateIpAddresses">ResetPrivateIpAddresses</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetPublicIpSku">ResetPublicIpSku</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetSecurityGroup">ResetSecurityGroup</a></code> | *No description.* |
 
 ---
 
@@ -8615,6 +13292,18 @@ private void PutApplicationSecurityGroup(object Value)
 
 ---
 
+##### `PutSecurityGroup` <a name="PutSecurityGroup" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.putSecurityGroup"></a>
+
+```csharp
+private void PutSecurityGroup(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.putSecurityGroup.parameter.value"></a>
+
+- *Type:* object
+
+---
+
 ##### `ResetAdditionalIpConfigs` <a name="ResetAdditionalIpConfigs" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetAdditionalIpConfigs"></a>
 
 ```csharp
@@ -8627,6 +13316,30 @@ private void ResetAdditionalIpConfigs()
 private void ResetApplicationSecurityGroup()
 ```
 
+##### `ResetEnableIpForwarding` <a name="ResetEnableIpForwarding" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetEnableIpForwarding"></a>
+
+```csharp
+private void ResetEnableIpForwarding()
+```
+
+##### `ResetPrivateIpAddresses` <a name="ResetPrivateIpAddresses" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetPrivateIpAddresses"></a>
+
+```csharp
+private void ResetPrivateIpAddresses()
+```
+
+##### `ResetPublicIpSku` <a name="ResetPublicIpSku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetPublicIpSku"></a>
+
+```csharp
+private void ResetPublicIpSku()
+```
+
+##### `ResetSecurityGroup` <a name="ResetSecurityGroup" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.resetSecurityGroup"></a>
+
+```csharp
+private void ResetSecurityGroup()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -8636,13 +13349,21 @@ private void ResetApplicationSecurityGroup()
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.additionalIpConfigs">AdditionalIpConfigs</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList">ElastigroupAzureV3NetworkNetworkInterfacesAdditionalIpConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.applicationSecurityGroup">ApplicationSecurityGroup</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList">ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.securityGroup">SecurityGroup</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList">ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.additionalIpConfigsInput">AdditionalIpConfigsInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.applicationSecurityGroupInput">ApplicationSecurityGroupInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.assignPublicIpInput">AssignPublicIpInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.enableIpForwardingInput">EnableIpForwardingInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.isPrimaryInput">IsPrimaryInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.privateIpAddressesInput">PrivateIpAddressesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.publicIpSkuInput">PublicIpSkuInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.securityGroupInput">SecurityGroupInput</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.subnetNameInput">SubnetNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.assignPublicIp">AssignPublicIp</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.isPrimary">IsPrimary</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.publicIpSku">PublicIpSku</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.subnetName">SubnetName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
 
@@ -8692,6 +13413,16 @@ public ElastigroupAzureV3NetworkNetworkInterfacesApplicationSecurityGroupList Ap
 
 ---
 
+##### `SecurityGroup`<sup>Required</sup> <a name="SecurityGroup" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.securityGroup"></a>
+
+```csharp
+public ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList SecurityGroup { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList">ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList</a>
+
+---
+
 ##### `AdditionalIpConfigsInput`<sup>Optional</sup> <a name="AdditionalIpConfigsInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.additionalIpConfigsInput"></a>
 
 ```csharp
@@ -8722,10 +13453,50 @@ public object AssignPublicIpInput { get; }
 
 ---
 
+##### `EnableIpForwardingInput`<sup>Optional</sup> <a name="EnableIpForwardingInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.enableIpForwardingInput"></a>
+
+```csharp
+public object EnableIpForwardingInput { get; }
+```
+
+- *Type:* object
+
+---
+
 ##### `IsPrimaryInput`<sup>Optional</sup> <a name="IsPrimaryInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.isPrimaryInput"></a>
 
 ```csharp
 public object IsPrimaryInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `PrivateIpAddressesInput`<sup>Optional</sup> <a name="PrivateIpAddressesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.privateIpAddressesInput"></a>
+
+```csharp
+public string[] PrivateIpAddressesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `PublicIpSkuInput`<sup>Optional</sup> <a name="PublicIpSkuInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.publicIpSkuInput"></a>
+
+```csharp
+public string PublicIpSkuInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SecurityGroupInput`<sup>Optional</sup> <a name="SecurityGroupInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.securityGroupInput"></a>
+
+```csharp
+public object SecurityGroupInput { get; }
 ```
 
 - *Type:* object
@@ -8752,6 +13523,16 @@ public object AssignPublicIp { get; }
 
 ---
 
+##### `EnableIpForwarding`<sup>Required</sup> <a name="EnableIpForwarding" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.enableIpForwarding"></a>
+
+```csharp
+public object EnableIpForwarding { get; }
+```
+
+- *Type:* object
+
+---
+
 ##### `IsPrimary`<sup>Required</sup> <a name="IsPrimary" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.isPrimary"></a>
 
 ```csharp
@@ -8759,6 +13540,26 @@ public object IsPrimary { get; }
 ```
 
 - *Type:* object
+
+---
+
+##### `PrivateIpAddresses`<sup>Required</sup> <a name="PrivateIpAddresses" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.privateIpAddresses"></a>
+
+```csharp
+public string[] PrivateIpAddresses { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `PublicIpSku`<sup>Required</sup> <a name="PublicIpSku" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.publicIpSku"></a>
+
+```csharp
+public string PublicIpSku { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -8773,6 +13574,491 @@ public string SubnetName { get; }
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList <a name="ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.get"></a>
+
+```csharp
+private ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference <a name="ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resetResourceGroupName">ResetResourceGroupName</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetName` <a name="ResetName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resetName"></a>
+
+```csharp
+private void ResetName()
+```
+
+##### `ResetResourceGroupName` <a name="ResetResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.resetResourceGroupName"></a>
+
+```csharp
+private void ResetResourceGroupName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupNameInput`<sup>Optional</sup> <a name="ResourceGroupNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.resourceGroupNameInput"></a>
+
+```csharp
+public string ResourceGroupNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3NetworkNetworkInterfacesSecurityGroupOutputReference.property.internalValue"></a>
 
 ```csharp
 public object InternalValue { get; }
@@ -9107,6 +14393,1048 @@ public ElastigroupAzureV3Network InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Network">ElastigroupAzureV3Network</a>
+
+---
+
+
+### ElastigroupAzureV3OsDiskOutputReference <a name="ElastigroupAzureV3OsDiskOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3OsDiskOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.resetSizeGb">ResetSizeGb</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetSizeGb` <a name="ResetSizeGb" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.resetSizeGb"></a>
+
+```csharp
+private void ResetSizeGb()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.sizeGbInput">SizeGbInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.sizeGb">SizeGb</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SizeGbInput`<sup>Optional</sup> <a name="SizeGbInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.sizeGbInput"></a>
+
+```csharp
+public double SizeGbInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SizeGb`<sup>Required</sup> <a name="SizeGb" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.sizeGb"></a>
+
+```csharp
+public double SizeGb { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDiskOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3OsDisk InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3OsDisk">ElastigroupAzureV3OsDisk</a>
+
+---
+
+
+### ElastigroupAzureV3ProximityPlacementGroupsList <a name="ElastigroupAzureV3ProximityPlacementGroupsList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3ProximityPlacementGroupsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.get"></a>
+
+```csharp
+private ElastigroupAzureV3ProximityPlacementGroupsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3ProximityPlacementGroupsOutputReference <a name="ElastigroupAzureV3ProximityPlacementGroupsOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3ProximityPlacementGroupsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupNameInput`<sup>Optional</sup> <a name="ResourceGroupNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.resourceGroupNameInput"></a>
+
+```csharp
+public string ResourceGroupNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3ProximityPlacementGroupsOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3RevertToSpotOutputReference <a name="ElastigroupAzureV3RevertToSpotOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3RevertToSpotOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.performAtInput">PerformAtInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.performAt">PerformAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PerformAtInput`<sup>Optional</sup> <a name="PerformAtInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.performAtInput"></a>
+
+```csharp
+public string PerformAtInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PerformAt`<sup>Required</sup> <a name="PerformAt" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.performAt"></a>
+
+```csharp
+public string PerformAt { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpotOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3RevertToSpot InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3RevertToSpot">ElastigroupAzureV3RevertToSpot</a>
 
 ---
 
@@ -12447,6 +18775,2977 @@ public object InternalValue { get; }
 ---
 
 
+### ElastigroupAzureV3SchedulingTaskList <a name="ElastigroupAzureV3SchedulingTaskList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SchedulingTaskList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.get"></a>
+
+```csharp
+private ElastigroupAzureV3SchedulingTaskOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SchedulingTaskOutputReference <a name="ElastigroupAzureV3SchedulingTaskOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SchedulingTaskOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetAdjustment">ResetAdjustment</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetAdjustmentPercentage">ResetAdjustmentPercentage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetBatchSizePercentage">ResetBatchSizePercentage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetGracePeriod">ResetGracePeriod</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleMaxCapacity">ResetScaleMaxCapacity</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleMinCapacity">ResetScaleMinCapacity</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleTargetCapacity">ResetScaleTargetCapacity</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAdjustment` <a name="ResetAdjustment" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetAdjustment"></a>
+
+```csharp
+private void ResetAdjustment()
+```
+
+##### `ResetAdjustmentPercentage` <a name="ResetAdjustmentPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetAdjustmentPercentage"></a>
+
+```csharp
+private void ResetAdjustmentPercentage()
+```
+
+##### `ResetBatchSizePercentage` <a name="ResetBatchSizePercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetBatchSizePercentage"></a>
+
+```csharp
+private void ResetBatchSizePercentage()
+```
+
+##### `ResetGracePeriod` <a name="ResetGracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetGracePeriod"></a>
+
+```csharp
+private void ResetGracePeriod()
+```
+
+##### `ResetScaleMaxCapacity` <a name="ResetScaleMaxCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleMaxCapacity"></a>
+
+```csharp
+private void ResetScaleMaxCapacity()
+```
+
+##### `ResetScaleMinCapacity` <a name="ResetScaleMinCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleMinCapacity"></a>
+
+```csharp
+private void ResetScaleMinCapacity()
+```
+
+##### `ResetScaleTargetCapacity` <a name="ResetScaleTargetCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.resetScaleTargetCapacity"></a>
+
+```csharp
+private void ResetScaleTargetCapacity()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentInput">AdjustmentInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentPercentageInput">AdjustmentPercentageInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.batchSizePercentageInput">BatchSizePercentageInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.cronExpressionInput">CronExpressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.gracePeriodInput">GracePeriodInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.isEnabledInput">IsEnabledInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMaxCapacityInput">ScaleMaxCapacityInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMinCapacityInput">ScaleMinCapacityInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleTargetCapacityInput">ScaleTargetCapacityInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustment">Adjustment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentPercentage">AdjustmentPercentage</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.cronExpression">CronExpression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.gracePeriod">GracePeriod</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.isEnabled">IsEnabled</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMaxCapacity">ScaleMaxCapacity</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMinCapacity">ScaleMinCapacity</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleTargetCapacity">ScaleTargetCapacity</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AdjustmentInput`<sup>Optional</sup> <a name="AdjustmentInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentInput"></a>
+
+```csharp
+public string AdjustmentInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AdjustmentPercentageInput`<sup>Optional</sup> <a name="AdjustmentPercentageInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentPercentageInput"></a>
+
+```csharp
+public string AdjustmentPercentageInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BatchSizePercentageInput`<sup>Optional</sup> <a name="BatchSizePercentageInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.batchSizePercentageInput"></a>
+
+```csharp
+public string BatchSizePercentageInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CronExpressionInput`<sup>Optional</sup> <a name="CronExpressionInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.cronExpressionInput"></a>
+
+```csharp
+public string CronExpressionInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GracePeriodInput`<sup>Optional</sup> <a name="GracePeriodInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.gracePeriodInput"></a>
+
+```csharp
+public string GracePeriodInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IsEnabledInput`<sup>Optional</sup> <a name="IsEnabledInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.isEnabledInput"></a>
+
+```csharp
+public object IsEnabledInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `ScaleMaxCapacityInput`<sup>Optional</sup> <a name="ScaleMaxCapacityInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMaxCapacityInput"></a>
+
+```csharp
+public string ScaleMaxCapacityInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScaleMinCapacityInput`<sup>Optional</sup> <a name="ScaleMinCapacityInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMinCapacityInput"></a>
+
+```csharp
+public string ScaleMinCapacityInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScaleTargetCapacityInput`<sup>Optional</sup> <a name="ScaleTargetCapacityInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleTargetCapacityInput"></a>
+
+```csharp
+public string ScaleTargetCapacityInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Adjustment`<sup>Required</sup> <a name="Adjustment" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustment"></a>
+
+```csharp
+public string Adjustment { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AdjustmentPercentage`<sup>Required</sup> <a name="AdjustmentPercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.adjustmentPercentage"></a>
+
+```csharp
+public string AdjustmentPercentage { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BatchSizePercentage`<sup>Required</sup> <a name="BatchSizePercentage" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.batchSizePercentage"></a>
+
+```csharp
+public string BatchSizePercentage { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CronExpression`<sup>Required</sup> <a name="CronExpression" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.cronExpression"></a>
+
+```csharp
+public string CronExpression { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GracePeriod`<sup>Required</sup> <a name="GracePeriod" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.gracePeriod"></a>
+
+```csharp
+public string GracePeriod { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `IsEnabled`<sup>Required</sup> <a name="IsEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.isEnabled"></a>
+
+```csharp
+public object IsEnabled { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `ScaleMaxCapacity`<sup>Required</sup> <a name="ScaleMaxCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMaxCapacity"></a>
+
+```csharp
+public string ScaleMaxCapacity { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScaleMinCapacity`<sup>Required</sup> <a name="ScaleMinCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleMinCapacity"></a>
+
+```csharp
+public string ScaleMinCapacity { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScaleTargetCapacity`<sup>Required</sup> <a name="ScaleTargetCapacity" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.scaleTargetCapacity"></a>
+
+```csharp
+public string ScaleTargetCapacity { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SchedulingTaskOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretList <a name="ElastigroupAzureV3SecretList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.get"></a>
+
+```csharp
+private ElastigroupAzureV3SecretOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretOutputReference <a name="ElastigroupAzureV3SecretOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putSourceVault">PutSourceVault</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putVaultCertificates">PutVaultCertificates</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutSourceVault` <a name="PutSourceVault" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putSourceVault"></a>
+
+```csharp
+private void PutSourceVault(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putSourceVault.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+##### `PutVaultCertificates` <a name="PutVaultCertificates" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putVaultCertificates"></a>
+
+```csharp
+private void PutVaultCertificates(object Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.putVaultCertificates.parameter.value"></a>
+
+- *Type:* object
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.sourceVault">SourceVault</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList">ElastigroupAzureV3SecretSourceVaultList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.vaultCertificates">VaultCertificates</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList">ElastigroupAzureV3SecretVaultCertificatesList</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.sourceVaultInput">SourceVaultInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.vaultCertificatesInput">VaultCertificatesInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceVault`<sup>Required</sup> <a name="SourceVault" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.sourceVault"></a>
+
+```csharp
+public ElastigroupAzureV3SecretSourceVaultList SourceVault { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList">ElastigroupAzureV3SecretSourceVaultList</a>
+
+---
+
+##### `VaultCertificates`<sup>Required</sup> <a name="VaultCertificates" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.vaultCertificates"></a>
+
+```csharp
+public ElastigroupAzureV3SecretVaultCertificatesList VaultCertificates { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList">ElastigroupAzureV3SecretVaultCertificatesList</a>
+
+---
+
+##### `SourceVaultInput`<sup>Optional</sup> <a name="SourceVaultInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.sourceVaultInput"></a>
+
+```csharp
+public object SourceVaultInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `VaultCertificatesInput`<sup>Optional</sup> <a name="VaultCertificatesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.vaultCertificatesInput"></a>
+
+```csharp
+public object VaultCertificatesInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretSourceVaultList <a name="ElastigroupAzureV3SecretSourceVaultList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretSourceVaultList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.get"></a>
+
+```csharp
+private ElastigroupAzureV3SecretSourceVaultOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretSourceVaultOutputReference <a name="ElastigroupAzureV3SecretSourceVaultOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretSourceVaultOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.resourceGroupNameInput">ResourceGroupNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.resourceGroupName">ResourceGroupName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupNameInput`<sup>Optional</sup> <a name="ResourceGroupNameInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.resourceGroupNameInput"></a>
+
+```csharp
+public string ResourceGroupNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ResourceGroupName`<sup>Required</sup> <a name="ResourceGroupName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.resourceGroupName"></a>
+
+```csharp
+public string ResourceGroupName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretSourceVaultOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretVaultCertificatesList <a name="ElastigroupAzureV3SecretVaultCertificatesList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretVaultCertificatesList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.get"></a>
+
+```csharp
+private ElastigroupAzureV3SecretVaultCertificatesOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecretVaultCertificatesOutputReference <a name="ElastigroupAzureV3SecretVaultCertificatesOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecretVaultCertificatesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateStoreInput">CertificateStoreInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateUrlInput">CertificateUrlInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateStore">CertificateStore</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateUrl">CertificateUrl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CertificateStoreInput`<sup>Optional</sup> <a name="CertificateStoreInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateStoreInput"></a>
+
+```csharp
+public string CertificateStoreInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CertificateUrlInput`<sup>Optional</sup> <a name="CertificateUrlInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateUrlInput"></a>
+
+```csharp
+public string CertificateUrlInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CertificateStore`<sup>Required</sup> <a name="CertificateStore" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateStore"></a>
+
+```csharp
+public string CertificateStore { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CertificateUrl`<sup>Required</sup> <a name="CertificateUrl" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.certificateUrl"></a>
+
+```csharp
+public string CertificateUrl { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecretVaultCertificatesOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SecurityOutputReference <a name="ElastigroupAzureV3SecurityOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SecurityOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetConfidentialOsDiskEncryption">ResetConfidentialOsDiskEncryption</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetSecureBootEnabled">ResetSecureBootEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetSecurityType">ResetSecurityType</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetVtpmEnabled">ResetVtpmEnabled</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetConfidentialOsDiskEncryption` <a name="ResetConfidentialOsDiskEncryption" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetConfidentialOsDiskEncryption"></a>
+
+```csharp
+private void ResetConfidentialOsDiskEncryption()
+```
+
+##### `ResetSecureBootEnabled` <a name="ResetSecureBootEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetSecureBootEnabled"></a>
+
+```csharp
+private void ResetSecureBootEnabled()
+```
+
+##### `ResetSecurityType` <a name="ResetSecurityType" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetSecurityType"></a>
+
+```csharp
+private void ResetSecurityType()
+```
+
+##### `ResetVtpmEnabled` <a name="ResetVtpmEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.resetVtpmEnabled"></a>
+
+```csharp
+private void ResetVtpmEnabled()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.confidentialOsDiskEncryptionInput">ConfidentialOsDiskEncryptionInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.secureBootEnabledInput">SecureBootEnabledInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.securityTypeInput">SecurityTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.vtpmEnabledInput">VtpmEnabledInput</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.confidentialOsDiskEncryption">ConfidentialOsDiskEncryption</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.secureBootEnabled">SecureBootEnabled</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.securityType">SecurityType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.vtpmEnabled">VtpmEnabled</a></code> | <code>object</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ConfidentialOsDiskEncryptionInput`<sup>Optional</sup> <a name="ConfidentialOsDiskEncryptionInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.confidentialOsDiskEncryptionInput"></a>
+
+```csharp
+public object ConfidentialOsDiskEncryptionInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecureBootEnabledInput`<sup>Optional</sup> <a name="SecureBootEnabledInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.secureBootEnabledInput"></a>
+
+```csharp
+public object SecureBootEnabledInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecurityTypeInput`<sup>Optional</sup> <a name="SecurityTypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.securityTypeInput"></a>
+
+```csharp
+public string SecurityTypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `VtpmEnabledInput`<sup>Optional</sup> <a name="VtpmEnabledInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.vtpmEnabledInput"></a>
+
+```csharp
+public object VtpmEnabledInput { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `ConfidentialOsDiskEncryption`<sup>Required</sup> <a name="ConfidentialOsDiskEncryption" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.confidentialOsDiskEncryption"></a>
+
+```csharp
+public object ConfidentialOsDiskEncryption { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecureBootEnabled`<sup>Required</sup> <a name="SecureBootEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.secureBootEnabled"></a>
+
+```csharp
+public object SecureBootEnabled { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `SecurityType`<sup>Required</sup> <a name="SecurityType" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.securityType"></a>
+
+```csharp
+public string SecurityType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `VtpmEnabled`<sup>Required</sup> <a name="VtpmEnabled" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.vtpmEnabled"></a>
+
+```csharp
+public object VtpmEnabled { get; }
+```
+
+- *Type:* object
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SecurityOutputReference.property.internalValue"></a>
+
+```csharp
+public ElastigroupAzureV3Security InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3Security">ElastigroupAzureV3Security</a>
+
+---
+
+
+### ElastigroupAzureV3SignalList <a name="ElastigroupAzureV3SignalList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SignalList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.get"></a>
+
+```csharp
+private ElastigroupAzureV3SignalOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalList.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
+### ElastigroupAzureV3SignalOutputReference <a name="ElastigroupAzureV3SignalOutputReference" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer"></a>
+
+```csharp
+using HashiCorp.Cdktf.Providers.Spotinst;
+
+new ElastigroupAzureV3SignalOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>HashiCorp.Cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* HashiCorp.Cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.resolve.parameter._context"></a>
+
+- *Type:* HashiCorp.Cdktf.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.timeoutInput">TimeoutInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.typeInput">TypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.timeout">Timeout</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.type">Type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.internalValue">InternalValue</a></code> | <code>object</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TimeoutInput`<sup>Optional</sup> <a name="TimeoutInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.timeoutInput"></a>
+
+```csharp
+public double TimeoutInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `TypeInput`<sup>Optional</sup> <a name="TypeInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.typeInput"></a>
+
+```csharp
+public string TypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Timeout`<sup>Required</sup> <a name="Timeout" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.timeout"></a>
+
+```csharp
+public double Timeout { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.type"></a>
+
+```csharp
+public string Type { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3SignalOutputReference.property.internalValue"></a>
+
+```csharp
+public object InternalValue { get; }
+```
+
+- *Type:* object
+
+---
+
+
 ### ElastigroupAzureV3TagsList <a name="ElastigroupAzureV3TagsList" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3TagsList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3TagsList.Initializer"></a>
@@ -12968,6 +22267,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.resetPreferredSpotSizes">ResetPreferredSpotSizes</a></code> | *No description.* |
 
 ---
 
@@ -13121,6 +22421,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetPreferredSpotSizes` <a name="ResetPreferredSpotSizes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.resetPreferredSpotSizes"></a>
+
+```csharp
+private void ResetPreferredSpotSizes()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -13129,8 +22435,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.odSizesInput">OdSizesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.preferredSpotSizesInput">PreferredSpotSizesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.spotSizesInput">SpotSizesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.odSizes">OdSizes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.spotSizes">SpotSizes</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizes">ElastigroupAzureV3VmSizes</a></code> | *No description.* |
 
@@ -13170,6 +22478,16 @@ public string[] OdSizesInput { get; }
 
 ---
 
+##### `PreferredSpotSizesInput`<sup>Optional</sup> <a name="PreferredSpotSizesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.preferredSpotSizesInput"></a>
+
+```csharp
+public string[] PreferredSpotSizesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `SpotSizesInput`<sup>Optional</sup> <a name="SpotSizesInput" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.spotSizesInput"></a>
 
 ```csharp
@@ -13184,6 +22502,16 @@ public string[] SpotSizesInput { get; }
 
 ```csharp
 public string[] OdSizes { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `PreferredSpotSizes`<sup>Required</sup> <a name="PreferredSpotSizes" id="@cdktf/provider-spotinst.elastigroupAzureV3.ElastigroupAzureV3VmSizesOutputReference.property.preferredSpotSizes"></a>
+
+```csharp
+public string[] PreferredSpotSizes { get; }
 ```
 
 - *Type:* string[]
