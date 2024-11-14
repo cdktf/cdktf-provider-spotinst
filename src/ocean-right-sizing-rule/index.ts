@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule
+// https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,64 +13,78 @@ import * as cdktf from 'cdktf';
 
 export interface OceanRightSizingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#exclude_preliminary_recommendations OceanRightSizingRule#exclude_preliminary_recommendations}
+  */
+  readonly excludePreliminaryRecommendations?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#id OceanRightSizingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#ocean_id OceanRightSizingRule#ocean_id}
   */
   readonly oceanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#restart_replicas OceanRightSizingRule#restart_replicas}
+  */
+  readonly restartReplicas?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#rule_name OceanRightSizingRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * attach_workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#attach_workloads OceanRightSizingRule#attach_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#attach_workloads OceanRightSizingRule#attach_workloads}
   */
   readonly attachWorkloads?: OceanRightSizingRuleAttachWorkloads[] | cdktf.IResolvable;
   /**
   * detach_workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#detach_workloads OceanRightSizingRule#detach_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#detach_workloads OceanRightSizingRule#detach_workloads}
   */
   readonly detachWorkloads?: OceanRightSizingRuleDetachWorkloads[] | cdktf.IResolvable;
   /**
   * recommendation_application_boundaries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#recommendation_application_boundaries OceanRightSizingRule#recommendation_application_boundaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#recommendation_application_boundaries OceanRightSizingRule#recommendation_application_boundaries}
   */
   readonly recommendationApplicationBoundaries?: OceanRightSizingRuleRecommendationApplicationBoundaries[] | cdktf.IResolvable;
   /**
+  * recommendation_application_hpa block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#recommendation_application_hpa OceanRightSizingRule#recommendation_application_hpa}
+  */
+  readonly recommendationApplicationHpa?: OceanRightSizingRuleRecommendationApplicationHpa[] | cdktf.IResolvable;
+  /**
   * recommendation_application_intervals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#recommendation_application_intervals OceanRightSizingRule#recommendation_application_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#recommendation_application_intervals OceanRightSizingRule#recommendation_application_intervals}
   */
   readonly recommendationApplicationIntervals: OceanRightSizingRuleRecommendationApplicationIntervals[] | cdktf.IResolvable;
   /**
   * recommendation_application_min_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#recommendation_application_min_threshold OceanRightSizingRule#recommendation_application_min_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#recommendation_application_min_threshold OceanRightSizingRule#recommendation_application_min_threshold}
   */
   readonly recommendationApplicationMinThreshold?: OceanRightSizingRuleRecommendationApplicationMinThreshold[] | cdktf.IResolvable;
   /**
   * recommendation_application_overhead_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#recommendation_application_overhead_values OceanRightSizingRule#recommendation_application_overhead_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#recommendation_application_overhead_values OceanRightSizingRule#recommendation_application_overhead_values}
   */
   readonly recommendationApplicationOverheadValues?: OceanRightSizingRuleRecommendationApplicationOverheadValues[] | cdktf.IResolvable;
 }
 export interface OceanRightSizingRuleAttachWorkloadsNamespacesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}
   */
   readonly value: string;
 }
@@ -209,15 +223,15 @@ export class OceanRightSizingRuleAttachWorkloadsNamespacesLabelsList extends cdk
 }
 export interface OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}
   */
   readonly regexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}
   */
   readonly workloadName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}
   */
   readonly workloadType: string;
 }
@@ -388,19 +402,19 @@ export class OceanRightSizingRuleAttachWorkloadsNamespacesWorkloadsList extends 
 }
 export interface OceanRightSizingRuleAttachWorkloadsNamespaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
   */
   readonly labels?: OceanRightSizingRuleAttachWorkloadsNamespacesLabels[] | cdktf.IResolvable;
   /**
   * workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
   */
   readonly workloads?: OceanRightSizingRuleAttachWorkloadsNamespacesWorkloads[] | cdktf.IResolvable;
 }
@@ -573,7 +587,7 @@ export interface OceanRightSizingRuleAttachWorkloads {
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
   */
   readonly namespaces: OceanRightSizingRuleAttachWorkloadsNamespaces[] | cdktf.IResolvable;
 }
@@ -686,11 +700,11 @@ export class OceanRightSizingRuleAttachWorkloadsList extends cdktf.ComplexList {
 }
 export interface OceanRightSizingRuleDetachWorkloadsNamespacesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#key OceanRightSizingRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#value OceanRightSizingRule#value}
   */
   readonly value: string;
 }
@@ -829,15 +843,15 @@ export class OceanRightSizingRuleDetachWorkloadsNamespacesLabelsList extends cdk
 }
 export interface OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#regex_name OceanRightSizingRule#regex_name}
   */
   readonly regexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workload_name OceanRightSizingRule#workload_name}
   */
   readonly workloadName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workload_type OceanRightSizingRule#workload_type}
   */
   readonly workloadType: string;
 }
@@ -1008,19 +1022,19 @@ export class OceanRightSizingRuleDetachWorkloadsNamespacesWorkloadsList extends 
 }
 export interface OceanRightSizingRuleDetachWorkloadsNamespaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#namespace_name OceanRightSizingRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#labels OceanRightSizingRule#labels}
   */
   readonly labels?: OceanRightSizingRuleDetachWorkloadsNamespacesLabels[] | cdktf.IResolvable;
   /**
   * workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#workloads OceanRightSizingRule#workloads}
   */
   readonly workloads?: OceanRightSizingRuleDetachWorkloadsNamespacesWorkloads[] | cdktf.IResolvable;
 }
@@ -1193,7 +1207,7 @@ export interface OceanRightSizingRuleDetachWorkloads {
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#namespaces OceanRightSizingRule#namespaces}
   */
   readonly namespaces: OceanRightSizingRuleDetachWorkloadsNamespaces[] | cdktf.IResolvable;
 }
@@ -1306,19 +1320,19 @@ export class OceanRightSizingRuleDetachWorkloadsList extends cdktf.ComplexList {
 }
 export interface OceanRightSizingRuleRecommendationApplicationBoundaries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#cpu_max OceanRightSizingRule#cpu_max}
   */
   readonly cpuMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#cpu_min OceanRightSizingRule#cpu_min}
   */
   readonly cpuMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#memory_max OceanRightSizingRule#memory_max}
   */
   readonly memoryMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#memory_min OceanRightSizingRule#memory_min}
   */
   readonly memoryMin?: number;
 }
@@ -1519,17 +1533,133 @@ export class OceanRightSizingRuleRecommendationApplicationBoundariesList extends
     return new OceanRightSizingRuleRecommendationApplicationBoundariesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanRightSizingRuleRecommendationApplicationHpa {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#allow_hpa_recommendations OceanRightSizingRule#allow_hpa_recommendations}
+  */
+  readonly allowHpaRecommendations?: boolean | cdktf.IResolvable;
+}
+
+export function oceanRightSizingRuleRecommendationApplicationHpaToTerraform(struct?: OceanRightSizingRuleRecommendationApplicationHpa | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    allow_hpa_recommendations: cdktf.booleanToTerraform(struct!.allowHpaRecommendations),
+  }
+}
+
+
+export function oceanRightSizingRuleRecommendationApplicationHpaToHclTerraform(struct?: OceanRightSizingRuleRecommendationApplicationHpa | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    allow_hpa_recommendations: {
+      value: cdktf.booleanToHclTerraform(struct!.allowHpaRecommendations),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanRightSizingRuleRecommendationApplicationHpaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanRightSizingRuleRecommendationApplicationHpa | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowHpaRecommendations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowHpaRecommendations = this._allowHpaRecommendations;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanRightSizingRuleRecommendationApplicationHpa | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowHpaRecommendations = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowHpaRecommendations = value.allowHpaRecommendations;
+    }
+  }
+
+  // allow_hpa_recommendations - computed: false, optional: true, required: false
+  private _allowHpaRecommendations?: boolean | cdktf.IResolvable; 
+  public get allowHpaRecommendations() {
+    return this.getBooleanAttribute('allow_hpa_recommendations');
+  }
+  public set allowHpaRecommendations(value: boolean | cdktf.IResolvable) {
+    this._allowHpaRecommendations = value;
+  }
+  public resetAllowHpaRecommendations() {
+    this._allowHpaRecommendations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowHpaRecommendationsInput() {
+    return this._allowHpaRecommendations;
+  }
+}
+
+export class OceanRightSizingRuleRecommendationApplicationHpaList extends cdktf.ComplexList {
+  public internalValue? : OceanRightSizingRuleRecommendationApplicationHpa[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanRightSizingRuleRecommendationApplicationHpaOutputReference {
+    return new OceanRightSizingRuleRecommendationApplicationHpaOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}
   */
   readonly intervalDays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}
   */
   readonly intervalHoursEndTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}
   */
   readonly intervalHoursStartTime: string;
 }
@@ -1694,17 +1824,17 @@ export class OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepeti
 }
 export interface OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_months OceanRightSizingRule#interval_months}
   */
   readonly intervalMonths: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#week_of_the_month OceanRightSizingRule#week_of_the_month}
   */
   readonly weekOfTheMonth: string[];
   /**
   * weekly_repetition_basis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
   */
   readonly weeklyRepetitionBasis?: OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasisWeeklyRepetitionBasis[] | cdktf.IResolvable;
 }
@@ -1872,15 +2002,15 @@ export class OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepeti
 }
 export interface OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_days OceanRightSizingRule#interval_days}
   */
   readonly intervalDays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_hours_end_time OceanRightSizingRule#interval_hours_end_time}
   */
   readonly intervalHoursEndTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#interval_hours_start_time OceanRightSizingRule#interval_hours_start_time}
   */
   readonly intervalHoursStartTime: string;
 }
@@ -2045,19 +2175,19 @@ export class OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetit
 }
 export interface OceanRightSizingRuleRecommendationApplicationIntervals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#repetition_basis OceanRightSizingRule#repetition_basis}
   */
   readonly repetitionBasis: string;
   /**
   * monthly_repetition_basis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#monthly_repetition_basis OceanRightSizingRule#monthly_repetition_basis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#monthly_repetition_basis OceanRightSizingRule#monthly_repetition_basis}
   */
   readonly monthlyRepetitionBasis?: OceanRightSizingRuleRecommendationApplicationIntervalsMonthlyRepetitionBasis[] | cdktf.IResolvable;
   /**
   * weekly_repetition_basis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#weekly_repetition_basis OceanRightSizingRule#weekly_repetition_basis}
   */
   readonly weeklyRepetitionBasis?: OceanRightSizingRuleRecommendationApplicationIntervalsWeeklyRepetitionBasis[] | cdktf.IResolvable;
 }
@@ -2228,11 +2358,11 @@ export class OceanRightSizingRuleRecommendationApplicationIntervalsList extends 
 }
 export interface OceanRightSizingRuleRecommendationApplicationMinThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}
   */
   readonly cpuPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}
   */
   readonly memoryPercentage?: number;
 }
@@ -2377,11 +2507,11 @@ export class OceanRightSizingRuleRecommendationApplicationMinThresholdList exten
 }
 export interface OceanRightSizingRuleRecommendationApplicationOverheadValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#cpu_percentage OceanRightSizingRule#cpu_percentage}
   */
   readonly cpuPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#memory_percentage OceanRightSizingRule#memory_percentage}
   */
   readonly memoryPercentage?: number;
 }
@@ -2526,7 +2656,7 @@ export class OceanRightSizingRuleRecommendationApplicationOverheadValuesList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule}
 */
 export class OceanRightSizingRule extends cdktf.TerraformResource {
 
@@ -2542,7 +2672,7 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanRightSizingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanRightSizingRule to import
-  * @param importFromId The id of the existing OceanRightSizingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanRightSizingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanRightSizingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2554,7 +2684,7 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.196.0/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.0/docs/resources/ocean_right_sizing_rule spotinst_ocean_right_sizing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2565,7 +2695,7 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_right_sizing_rule',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.196.0',
+        providerVersion: '1.197.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2576,12 +2706,15 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._excludePreliminaryRecommendations = config.excludePreliminaryRecommendations;
     this._id = config.id;
     this._oceanId = config.oceanId;
+    this._restartReplicas = config.restartReplicas;
     this._ruleName = config.ruleName;
     this._attachWorkloads.internalValue = config.attachWorkloads;
     this._detachWorkloads.internalValue = config.detachWorkloads;
     this._recommendationApplicationBoundaries.internalValue = config.recommendationApplicationBoundaries;
+    this._recommendationApplicationHpa.internalValue = config.recommendationApplicationHpa;
     this._recommendationApplicationIntervals.internalValue = config.recommendationApplicationIntervals;
     this._recommendationApplicationMinThreshold.internalValue = config.recommendationApplicationMinThreshold;
     this._recommendationApplicationOverheadValues.internalValue = config.recommendationApplicationOverheadValues;
@@ -2590,6 +2723,22 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // exclude_preliminary_recommendations - computed: false, optional: true, required: false
+  private _excludePreliminaryRecommendations?: boolean | cdktf.IResolvable; 
+  public get excludePreliminaryRecommendations() {
+    return this.getBooleanAttribute('exclude_preliminary_recommendations');
+  }
+  public set excludePreliminaryRecommendations(value: boolean | cdktf.IResolvable) {
+    this._excludePreliminaryRecommendations = value;
+  }
+  public resetExcludePreliminaryRecommendations() {
+    this._excludePreliminaryRecommendations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludePreliminaryRecommendationsInput() {
+    return this._excludePreliminaryRecommendations;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -2621,6 +2770,22 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get oceanIdInput() {
     return this._oceanId;
+  }
+
+  // restart_replicas - computed: false, optional: true, required: false
+  private _restartReplicas?: string; 
+  public get restartReplicas() {
+    return this.getStringAttribute('restart_replicas');
+  }
+  public set restartReplicas(value: string) {
+    this._restartReplicas = value;
+  }
+  public resetRestartReplicas() {
+    this._restartReplicas = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get restartReplicasInput() {
+    return this._restartReplicas;
   }
 
   // rule_name - computed: false, optional: false, required: true
@@ -2684,6 +2849,22 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
     return this._recommendationApplicationBoundaries.internalValue;
   }
 
+  // recommendation_application_hpa - computed: false, optional: true, required: false
+  private _recommendationApplicationHpa = new OceanRightSizingRuleRecommendationApplicationHpaList(this, "recommendation_application_hpa", true);
+  public get recommendationApplicationHpa() {
+    return this._recommendationApplicationHpa;
+  }
+  public putRecommendationApplicationHpa(value: OceanRightSizingRuleRecommendationApplicationHpa[] | cdktf.IResolvable) {
+    this._recommendationApplicationHpa.internalValue = value;
+  }
+  public resetRecommendationApplicationHpa() {
+    this._recommendationApplicationHpa.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recommendationApplicationHpaInput() {
+    return this._recommendationApplicationHpa.internalValue;
+  }
+
   // recommendation_application_intervals - computed: false, optional: false, required: true
   private _recommendationApplicationIntervals = new OceanRightSizingRuleRecommendationApplicationIntervalsList(this, "recommendation_application_intervals", true);
   public get recommendationApplicationIntervals() {
@@ -2735,12 +2916,15 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      exclude_preliminary_recommendations: cdktf.booleanToTerraform(this._excludePreliminaryRecommendations),
       id: cdktf.stringToTerraform(this._id),
       ocean_id: cdktf.stringToTerraform(this._oceanId),
+      restart_replicas: cdktf.stringToTerraform(this._restartReplicas),
       rule_name: cdktf.stringToTerraform(this._ruleName),
       attach_workloads: cdktf.listMapper(oceanRightSizingRuleAttachWorkloadsToTerraform, true)(this._attachWorkloads.internalValue),
       detach_workloads: cdktf.listMapper(oceanRightSizingRuleDetachWorkloadsToTerraform, true)(this._detachWorkloads.internalValue),
       recommendation_application_boundaries: cdktf.listMapper(oceanRightSizingRuleRecommendationApplicationBoundariesToTerraform, true)(this._recommendationApplicationBoundaries.internalValue),
+      recommendation_application_hpa: cdktf.listMapper(oceanRightSizingRuleRecommendationApplicationHpaToTerraform, true)(this._recommendationApplicationHpa.internalValue),
       recommendation_application_intervals: cdktf.listMapper(oceanRightSizingRuleRecommendationApplicationIntervalsToTerraform, true)(this._recommendationApplicationIntervals.internalValue),
       recommendation_application_min_threshold: cdktf.listMapper(oceanRightSizingRuleRecommendationApplicationMinThresholdToTerraform, true)(this._recommendationApplicationMinThreshold.internalValue),
       recommendation_application_overhead_values: cdktf.listMapper(oceanRightSizingRuleRecommendationApplicationOverheadValuesToTerraform, true)(this._recommendationApplicationOverheadValues.internalValue),
@@ -2749,6 +2933,12 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      exclude_preliminary_recommendations: {
+        value: cdktf.booleanToHclTerraform(this._excludePreliminaryRecommendations),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -2757,6 +2947,12 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
       },
       ocean_id: {
         value: cdktf.stringToHclTerraform(this._oceanId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      restart_replicas: {
+        value: cdktf.stringToHclTerraform(this._restartReplicas),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2784,6 +2980,12 @@ export class OceanRightSizingRule extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OceanRightSizingRuleRecommendationApplicationBoundariesList",
+      },
+      recommendation_application_hpa: {
+        value: cdktf.listMapperHcl(oceanRightSizingRuleRecommendationApplicationHpaToHclTerraform, true)(this._recommendationApplicationHpa.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "OceanRightSizingRuleRecommendationApplicationHpaList",
       },
       recommendation_application_intervals: {
         value: cdktf.listMapperHcl(oceanRightSizingRuleRecommendationApplicationIntervalsToHclTerraform, true)(this._recommendationApplicationIntervals.internalValue),
