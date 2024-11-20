@@ -1,9 +1,4 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
-// https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import
+// https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,96 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface OceanGkeImportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}
   */
   readonly blacklist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}
   */
   readonly controllerClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#id OceanGkeImport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#id OceanGkeImport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#location OceanGkeImport#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#location OceanGkeImport#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}
   */
   readonly rootVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}
   */
   readonly useAsTemplateOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}
   */
   readonly whitelist?: string[];
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#autoscaler OceanGkeImport#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#autoscaler OceanGkeImport#autoscaler}
   */
   readonly autoscaler?: OceanGkeImportAutoscaler;
   /**
   * backend_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#backend_services OceanGkeImport#backend_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#backend_services OceanGkeImport#backend_services}
   */
   readonly backendServices?: OceanGkeImportBackendServices[] | cdktf.IResolvable;
   /**
+  * filters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#filters OceanGkeImport#filters}
+  */
+  readonly filters?: OceanGkeImportFilters;
+  /**
   * scheduled_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#scheduled_task OceanGkeImport#scheduled_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#scheduled_task OceanGkeImport#scheduled_task}
   */
   readonly scheduledTask?: OceanGkeImportScheduledTask[] | cdktf.IResolvable;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#shielded_instance_config OceanGkeImport#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#shielded_instance_config OceanGkeImport#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: OceanGkeImportShieldedInstanceConfig;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#strategy OceanGkeImport#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#strategy OceanGkeImport#strategy}
   */
   readonly strategy?: OceanGkeImportStrategy[] | cdktf.IResolvable;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#update_policy OceanGkeImport#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#update_policy OceanGkeImport#update_policy}
   */
   readonly updatePolicy?: OceanGkeImportUpdatePolicy;
 }
 export interface OceanGkeImportAutoscalerDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}
   */
   readonly evaluationPeriods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#is_aggressive_scale_down_enabled OceanGkeImport#is_aggressive_scale_down_enabled}
+  */
+  readonly isAggressiveScaleDownEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -114,6 +119,7 @@ export function oceanGkeImportAutoscalerDownToTerraform(struct?: OceanGkeImportA
   }
   return {
     evaluation_periods: cdktf.numberToTerraform(struct!.evaluationPeriods),
+    is_aggressive_scale_down_enabled: cdktf.booleanToTerraform(struct!.isAggressiveScaleDownEnabled),
     max_scale_down_percentage: cdktf.numberToTerraform(struct!.maxScaleDownPercentage),
   }
 }
@@ -130,6 +136,12 @@ export function oceanGkeImportAutoscalerDownToHclTerraform(struct?: OceanGkeImpo
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    is_aggressive_scale_down_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isAggressiveScaleDownEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     max_scale_down_percentage: {
       value: cdktf.numberToHclTerraform(struct!.maxScaleDownPercentage),
@@ -161,6 +173,10 @@ export class OceanGkeImportAutoscalerDownOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.evaluationPeriods = this._evaluationPeriods;
     }
+    if (this._isAggressiveScaleDownEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isAggressiveScaleDownEnabled = this._isAggressiveScaleDownEnabled;
+    }
     if (this._maxScaleDownPercentage !== undefined) {
       hasAnyValues = true;
       internalValueResult.maxScaleDownPercentage = this._maxScaleDownPercentage;
@@ -172,11 +188,13 @@ export class OceanGkeImportAutoscalerDownOutputReference extends cdktf.ComplexOb
     if (value === undefined) {
       this.isEmptyObject = false;
       this._evaluationPeriods = undefined;
+      this._isAggressiveScaleDownEnabled = undefined;
       this._maxScaleDownPercentage = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._evaluationPeriods = value.evaluationPeriods;
+      this._isAggressiveScaleDownEnabled = value.isAggressiveScaleDownEnabled;
       this._maxScaleDownPercentage = value.maxScaleDownPercentage;
     }
   }
@@ -197,6 +215,22 @@ export class OceanGkeImportAutoscalerDownOutputReference extends cdktf.ComplexOb
     return this._evaluationPeriods;
   }
 
+  // is_aggressive_scale_down_enabled - computed: false, optional: true, required: false
+  private _isAggressiveScaleDownEnabled?: boolean | cdktf.IResolvable; 
+  public get isAggressiveScaleDownEnabled() {
+    return this.getBooleanAttribute('is_aggressive_scale_down_enabled');
+  }
+  public set isAggressiveScaleDownEnabled(value: boolean | cdktf.IResolvable) {
+    this._isAggressiveScaleDownEnabled = value;
+  }
+  public resetIsAggressiveScaleDownEnabled() {
+    this._isAggressiveScaleDownEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isAggressiveScaleDownEnabledInput() {
+    return this._isAggressiveScaleDownEnabled;
+  }
+
   // max_scale_down_percentage - computed: false, optional: true, required: false
   private _maxScaleDownPercentage?: number; 
   public get maxScaleDownPercentage() {
@@ -215,19 +249,19 @@ export class OceanGkeImportAutoscalerDownOutputReference extends cdktf.ComplexOb
 }
 export interface OceanGkeImportAutoscalerHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -398,11 +432,11 @@ export class OceanGkeImportAutoscalerHeadroomOutputReference extends cdktf.Compl
 }
 export interface OceanGkeImportAutoscalerResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}
   */
   readonly maxVcpu?: number;
 }
@@ -515,41 +549,41 @@ export class OceanGkeImportAutoscalerResourceLimitsOutputReference extends cdktf
 }
 export interface OceanGkeImportAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}
   */
   readonly autoHeadroomPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}
   */
   readonly enableAutomaticAndManualHeadroom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}
   */
   readonly isAutoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#down OceanGkeImport#down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#down OceanGkeImport#down}
   */
   readonly down?: OceanGkeImportAutoscalerDown;
   /**
   * headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#headroom OceanGkeImport#headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#headroom OceanGkeImport#headroom}
   */
   readonly headroom?: OceanGkeImportAutoscalerHeadroom;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#resource_limits OceanGkeImport#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#resource_limits OceanGkeImport#resource_limits}
   */
   readonly resourceLimits?: OceanGkeImportAutoscalerResourceLimits;
 }
@@ -836,11 +870,11 @@ export class OceanGkeImportAutoscalerOutputReference extends cdktf.ComplexObject
 }
 export interface OceanGkeImportBackendServicesNamedPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#name OceanGkeImport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#name OceanGkeImport#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}
   */
   readonly ports: string[];
 }
@@ -979,21 +1013,21 @@ export class OceanGkeImportBackendServicesNamedPortsList extends cdktf.ComplexLi
 }
 export interface OceanGkeImportBackendServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}
   */
   readonly locationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}
   */
   readonly serviceName: string;
   /**
   * named_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#named_ports OceanGkeImport#named_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#named_ports OceanGkeImport#named_ports}
   */
   readonly namedPorts?: OceanGkeImportBackendServicesNamedPorts[] | cdktf.IResolvable;
 }
@@ -1191,13 +1225,262 @@ export class OceanGkeImportBackendServicesList extends cdktf.ComplexList {
     return new OceanGkeImportBackendServicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanGkeImportFilters {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#exclude_families OceanGkeImport#exclude_families}
+  */
+  readonly excludeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#include_families OceanGkeImport#include_families}
+  */
+  readonly includeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}
+  */
+  readonly maxMemoryGib?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}
+  */
+  readonly maxVcpu?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#min_memory_gib OceanGkeImport#min_memory_gib}
+  */
+  readonly minMemoryGib?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#min_vcpu OceanGkeImport#min_vcpu}
+  */
+  readonly minVcpu?: number;
+}
+
+export function oceanGkeImportFiltersToTerraform(struct?: OceanGkeImportFiltersOutputReference | OceanGkeImportFilters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exclude_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeFamilies),
+    include_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includeFamilies),
+    max_memory_gib: cdktf.numberToTerraform(struct!.maxMemoryGib),
+    max_vcpu: cdktf.numberToTerraform(struct!.maxVcpu),
+    min_memory_gib: cdktf.numberToTerraform(struct!.minMemoryGib),
+    min_vcpu: cdktf.numberToTerraform(struct!.minVcpu),
+  }
+}
+
+
+export function oceanGkeImportFiltersToHclTerraform(struct?: OceanGkeImportFiltersOutputReference | OceanGkeImportFilters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exclude_families: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludeFamilies),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    include_families: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includeFamilies),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    max_memory_gib: {
+      value: cdktf.numberToHclTerraform(struct!.maxMemoryGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_vcpu: {
+      value: cdktf.numberToHclTerraform(struct!.maxVcpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_memory_gib: {
+      value: cdktf.numberToHclTerraform(struct!.minMemoryGib),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_vcpu: {
+      value: cdktf.numberToHclTerraform(struct!.minVcpu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanGkeImportFiltersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanGkeImportFilters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._excludeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeFamilies = this._excludeFamilies;
+    }
+    if (this._includeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeFamilies = this._includeFamilies;
+    }
+    if (this._maxMemoryGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxMemoryGib = this._maxMemoryGib;
+    }
+    if (this._maxVcpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxVcpu = this._maxVcpu;
+    }
+    if (this._minMemoryGib !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minMemoryGib = this._minMemoryGib;
+    }
+    if (this._minVcpu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minVcpu = this._minVcpu;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanGkeImportFilters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._excludeFamilies = undefined;
+      this._includeFamilies = undefined;
+      this._maxMemoryGib = undefined;
+      this._maxVcpu = undefined;
+      this._minMemoryGib = undefined;
+      this._minVcpu = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._excludeFamilies = value.excludeFamilies;
+      this._includeFamilies = value.includeFamilies;
+      this._maxMemoryGib = value.maxMemoryGib;
+      this._maxVcpu = value.maxVcpu;
+      this._minMemoryGib = value.minMemoryGib;
+      this._minVcpu = value.minVcpu;
+    }
+  }
+
+  // exclude_families - computed: false, optional: true, required: false
+  private _excludeFamilies?: string[]; 
+  public get excludeFamilies() {
+    return cdktf.Fn.tolist(this.getListAttribute('exclude_families'));
+  }
+  public set excludeFamilies(value: string[]) {
+    this._excludeFamilies = value;
+  }
+  public resetExcludeFamilies() {
+    this._excludeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeFamiliesInput() {
+    return this._excludeFamilies;
+  }
+
+  // include_families - computed: false, optional: true, required: false
+  private _includeFamilies?: string[]; 
+  public get includeFamilies() {
+    return cdktf.Fn.tolist(this.getListAttribute('include_families'));
+  }
+  public set includeFamilies(value: string[]) {
+    this._includeFamilies = value;
+  }
+  public resetIncludeFamilies() {
+    this._includeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeFamiliesInput() {
+    return this._includeFamilies;
+  }
+
+  // max_memory_gib - computed: false, optional: true, required: false
+  private _maxMemoryGib?: number; 
+  public get maxMemoryGib() {
+    return this.getNumberAttribute('max_memory_gib');
+  }
+  public set maxMemoryGib(value: number) {
+    this._maxMemoryGib = value;
+  }
+  public resetMaxMemoryGib() {
+    this._maxMemoryGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMemoryGibInput() {
+    return this._maxMemoryGib;
+  }
+
+  // max_vcpu - computed: false, optional: true, required: false
+  private _maxVcpu?: number; 
+  public get maxVcpu() {
+    return this.getNumberAttribute('max_vcpu');
+  }
+  public set maxVcpu(value: number) {
+    this._maxVcpu = value;
+  }
+  public resetMaxVcpu() {
+    this._maxVcpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxVcpuInput() {
+    return this._maxVcpu;
+  }
+
+  // min_memory_gib - computed: false, optional: true, required: false
+  private _minMemoryGib?: number; 
+  public get minMemoryGib() {
+    return this.getNumberAttribute('min_memory_gib');
+  }
+  public set minMemoryGib(value: number) {
+    this._minMemoryGib = value;
+  }
+  public resetMinMemoryGib() {
+    this._minMemoryGib = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minMemoryGibInput() {
+    return this._minMemoryGib;
+  }
+
+  // min_vcpu - computed: false, optional: true, required: false
+  private _minVcpu?: number; 
+  public get minVcpu() {
+    return this.getNumberAttribute('min_vcpu');
+  }
+  public set minVcpu(value: number) {
+    this._minVcpu = value;
+  }
+  public resetMinVcpu() {
+    this._minVcpu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minVcpuInput() {
+    return this._minVcpu;
+  }
+}
 export interface OceanGkeImportScheduledTaskShutdownHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}
   */
   readonly timeWindows: string[];
 }
@@ -1307,19 +1590,19 @@ export class OceanGkeImportScheduledTaskShutdownHoursOutputReference extends cdk
 }
 export interface OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}
   */
   readonly batchSizePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
   */
   readonly respectPdb?: boolean | cdktf.IResolvable;
 }
@@ -1492,7 +1775,7 @@ export interface OceanGkeImportScheduledTaskTasksTaskParameters {
   /**
   * cluster_roll block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#cluster_roll OceanGkeImport#cluster_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#cluster_roll OceanGkeImport#cluster_roll}
   */
   readonly clusterRoll?: OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll;
 }
@@ -1576,21 +1859,21 @@ export class OceanGkeImportScheduledTaskTasksTaskParametersOutputReference exten
 }
 export interface OceanGkeImportScheduledTaskTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}
   */
   readonly taskType: string;
   /**
   * task_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#task_parameters OceanGkeImport#task_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#task_parameters OceanGkeImport#task_parameters}
   */
   readonly taskParameters?: OceanGkeImportScheduledTaskTasksTaskParameters;
 }
@@ -1786,13 +2069,13 @@ export interface OceanGkeImportScheduledTask {
   /**
   * shutdown_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#shutdown_hours OceanGkeImport#shutdown_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#shutdown_hours OceanGkeImport#shutdown_hours}
   */
   readonly shutdownHours?: OceanGkeImportScheduledTaskShutdownHours;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#tasks OceanGkeImport#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#tasks OceanGkeImport#tasks}
   */
   readonly tasks?: OceanGkeImportScheduledTaskTasks[] | cdktf.IResolvable;
 }
@@ -1937,11 +2220,11 @@ export class OceanGkeImportScheduledTaskList extends cdktf.ComplexList {
 }
 export interface OceanGkeImportShieldedInstanceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktf.IResolvable;
 }
@@ -2054,19 +2337,19 @@ export class OceanGkeImportShieldedInstanceConfigOutputReference extends cdktf.C
 }
 export interface OceanGkeImportStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}
   */
   readonly preemptiblePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}
   */
   readonly provisioningModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}
   */
   readonly shouldUtilizeCommitments?: boolean | cdktf.IResolvable;
 }
@@ -2269,19 +2552,19 @@ export class OceanGkeImportStrategyList extends cdktf.ComplexList {
 }
 export interface OceanGkeImportUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}
   */
   readonly batchSizePercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}
   */
   readonly launchSpecIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}
   */
   readonly respectPdb?: boolean | cdktf.IResolvable;
 }
@@ -2449,17 +2732,17 @@ export class OceanGkeImportUpdatePolicyRollConfigOutputReference extends cdktf.C
 }
 export interface OceanGkeImportUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}
   */
   readonly conditionedRoll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#roll_config OceanGkeImport#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#roll_config OceanGkeImport#roll_config}
   */
   readonly rollConfig?: OceanGkeImportUpdatePolicyRollConfig;
 }
@@ -2598,7 +2881,7 @@ export class OceanGkeImportUpdatePolicyOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import spotinst_ocean_gke_import}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import spotinst_ocean_gke_import}
 */
 export class OceanGkeImport extends cdktf.TerraformResource {
 
@@ -2614,7 +2897,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanGkeImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanGkeImport to import
-  * @param importFromId The id of the existing OceanGkeImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanGkeImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanGkeImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2626,7 +2909,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/ocean_gke_import spotinst_ocean_gke_import} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/ocean_gke_import spotinst_ocean_gke_import} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2637,7 +2920,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_gke_import',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.197.1',
+        providerVersion: '1.198.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2661,6 +2944,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
     this._whitelist = config.whitelist;
     this._autoscaler.internalValue = config.autoscaler;
     this._backendServices.internalValue = config.backendServices;
+    this._filters.internalValue = config.filters;
     this._scheduledTask.internalValue = config.scheduledTask;
     this._shieldedInstanceConfig.internalValue = config.shieldedInstanceConfig;
     this._strategy.internalValue = config.strategy;
@@ -2878,6 +3162,22 @@ export class OceanGkeImport extends cdktf.TerraformResource {
     return this._backendServices.internalValue;
   }
 
+  // filters - computed: false, optional: true, required: false
+  private _filters = new OceanGkeImportFiltersOutputReference(this, "filters");
+  public get filters() {
+    return this._filters;
+  }
+  public putFilters(value: OceanGkeImportFilters) {
+    this._filters.internalValue = value;
+  }
+  public resetFilters() {
+    this._filters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filtersInput() {
+    return this._filters.internalValue;
+  }
+
   // scheduled_task - computed: false, optional: true, required: false
   private _scheduledTask = new OceanGkeImportScheduledTaskList(this, "scheduled_task", false);
   public get scheduledTask() {
@@ -2961,6 +3261,7 @@ export class OceanGkeImport extends cdktf.TerraformResource {
       whitelist: cdktf.listMapper(cdktf.stringToTerraform, false)(this._whitelist),
       autoscaler: oceanGkeImportAutoscalerToTerraform(this._autoscaler.internalValue),
       backend_services: cdktf.listMapper(oceanGkeImportBackendServicesToTerraform, true)(this._backendServices.internalValue),
+      filters: oceanGkeImportFiltersToTerraform(this._filters.internalValue),
       scheduled_task: cdktf.listMapper(oceanGkeImportScheduledTaskToTerraform, true)(this._scheduledTask.internalValue),
       shielded_instance_config: oceanGkeImportShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
       strategy: cdktf.listMapper(oceanGkeImportStrategyToTerraform, true)(this._strategy.internalValue),
@@ -3047,6 +3348,12 @@ export class OceanGkeImport extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "OceanGkeImportBackendServicesList",
+      },
+      filters: {
+        value: oceanGkeImportFiltersToHclTerraform(this._filters.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanGkeImportFiltersList",
       },
       scheduled_task: {
         value: cdktf.listMapperHcl(oceanGkeImportScheduledTaskToHclTerraform, true)(this._scheduledTask.internalValue),
