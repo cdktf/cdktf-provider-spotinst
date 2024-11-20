@@ -4,7 +4,7 @@
 
 ### OceancdVerificationTemplate <a name="OceancdVerificationTemplate" id="@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template spotinst_oceancd_verification_template}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template spotinst_oceancd_verification_template}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplate.Initializer"></a>
 
@@ -514,7 +514,7 @@ The construct id used in the generated config for the OceancdVerificationTemplat
 
 The id of the existing OceancdVerificationTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,8 +811,8 @@ const oceancdVerificationTemplateArgs: oceancdVerificationTemplate.OceancdVerifi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs.property.argName">argName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#arg_name OceancdVerificationTemplate#arg_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#value OceancdVerificationTemplate#value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs.property.argName">argName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#arg_name OceancdVerificationTemplate#arg_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#value OceancdVerificationTemplate#value}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs.property.valueFrom">valueFrom</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgsValueFrom">OceancdVerificationTemplateArgsValueFrom</a></code> | value_from block. |
 
 ---
@@ -825,7 +825,7 @@ public readonly argName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#arg_name OceancdVerificationTemplate#arg_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#arg_name OceancdVerificationTemplate#arg_name}.
 
 ---
 
@@ -837,7 +837,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#value OceancdVerificationTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#value OceancdVerificationTemplate#value}.
 
 ---
 
@@ -851,7 +851,7 @@ public readonly valueFrom: OceancdVerificationTemplateArgsValueFrom;
 
 value_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#value_from OceancdVerificationTemplate#value_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#value_from OceancdVerificationTemplate#value_from}
 
 ---
 
@@ -883,7 +883,7 @@ public readonly secretKeyRef: OceancdVerificationTemplateArgsValueFromSecretKeyR
 
 secret_key_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#secret_key_ref OceancdVerificationTemplate#secret_key_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#secret_key_ref OceancdVerificationTemplate#secret_key_ref}
 
 ---
 
@@ -901,8 +901,8 @@ const oceancdVerificationTemplateArgsValueFromSecretKeyRef: oceancdVerificationT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgsValueFromSecretKeyRef.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#key OceancdVerificationTemplate#key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgsValueFromSecretKeyRef.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgsValueFromSecretKeyRef.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#key OceancdVerificationTemplate#key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgsValueFromSecretKeyRef.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}. |
 
 ---
 
@@ -914,7 +914,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#key OceancdVerificationTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#key OceancdVerificationTemplate#key}.
 
 ---
 
@@ -926,7 +926,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}.
 
 ---
 
@@ -951,9 +951,9 @@ const oceancdVerificationTemplateConfig: oceancdVerificationTemplate.OceancdVeri
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.args">args</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateArgs">OceancdVerificationTemplateArgs</a>[]</code> | args block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateConfig.property.metrics">metrics</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics">OceancdVerificationTemplateMetrics</a>[]</code> | metrics block. |
 
 ---
@@ -1036,7 +1036,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#name OceancdVerificationTemplate#name}.
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly args: IResolvable | OceancdVerificationTemplateArgs[];
 
 args block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#args OceancdVerificationTemplate#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#args OceancdVerificationTemplate#args}
 
 ---
 
@@ -1062,7 +1062,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1079,7 +1079,7 @@ public readonly metrics: IResolvable | OceancdVerificationTemplateMetrics[];
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metrics OceancdVerificationTemplate#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metrics OceancdVerificationTemplate#metrics}
 
 ---
 
@@ -1097,17 +1097,17 @@ const oceancdVerificationTemplateMetrics: oceancdVerificationTemplate.OceancdVer
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.metricsName">metricsName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metrics_name OceancdVerificationTemplate#metrics_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.metricsName">metricsName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metrics_name OceancdVerificationTemplate#metrics_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.provider">provider</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProvider">OceancdVerificationTemplateMetricsProvider</a>[]</code> | provider block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.baseline">baseline</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline">OceancdVerificationTemplateMetricsBaseline</a></code> | baseline block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.consecutiveErrorLimit">consecutiveErrorLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#consecutive_error_limit OceancdVerificationTemplate#consecutive_error_limit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.count">count</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#count OceancdVerificationTemplate#count}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.dryRun">dryRun</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dry_run OceancdVerificationTemplate#dry_run}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.failureCondition">failureCondition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#failure_condition OceancdVerificationTemplate#failure_condition}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.failureLimit">failureLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#failure_limit OceancdVerificationTemplate#failure_limit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.initialDelay">initialDelay</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#initial_delay OceancdVerificationTemplate#initial_delay}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.interval">interval</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#interval OceancdVerificationTemplate#interval}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.successCondition">successCondition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#success_condition OceancdVerificationTemplate#success_condition}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.consecutiveErrorLimit">consecutiveErrorLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#consecutive_error_limit OceancdVerificationTemplate#consecutive_error_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.count">count</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#count OceancdVerificationTemplate#count}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.dryRun">dryRun</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dry_run OceancdVerificationTemplate#dry_run}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.failureCondition">failureCondition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#failure_condition OceancdVerificationTemplate#failure_condition}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.failureLimit">failureLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#failure_limit OceancdVerificationTemplate#failure_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.initialDelay">initialDelay</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#initial_delay OceancdVerificationTemplate#initial_delay}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.interval">interval</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#interval OceancdVerificationTemplate#interval}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetrics.property.successCondition">successCondition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#success_condition OceancdVerificationTemplate#success_condition}. |
 
 ---
 
@@ -1119,7 +1119,7 @@ public readonly metricsName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metrics_name OceancdVerificationTemplate#metrics_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metrics_name OceancdVerificationTemplate#metrics_name}.
 
 ---
 
@@ -1133,7 +1133,7 @@ public readonly provider: IResolvable | OceancdVerificationTemplateMetricsProvid
 
 provider block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#provider OceancdVerificationTemplate#provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#provider OceancdVerificationTemplate#provider}
 
 ---
 
@@ -1147,7 +1147,7 @@ public readonly baseline: OceancdVerificationTemplateMetricsBaseline;
 
 baseline block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#baseline OceancdVerificationTemplate#baseline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#baseline OceancdVerificationTemplate#baseline}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly consecutiveErrorLimit: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#consecutive_error_limit OceancdVerificationTemplate#consecutive_error_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#consecutive_error_limit OceancdVerificationTemplate#consecutive_error_limit}.
 
 ---
 
@@ -1171,7 +1171,7 @@ public readonly count: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#count OceancdVerificationTemplate#count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#count OceancdVerificationTemplate#count}.
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly dryRun: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dry_run OceancdVerificationTemplate#dry_run}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dry_run OceancdVerificationTemplate#dry_run}.
 
 ---
 
@@ -1195,7 +1195,7 @@ public readonly failureCondition: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#failure_condition OceancdVerificationTemplate#failure_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#failure_condition OceancdVerificationTemplate#failure_condition}.
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly failureLimit: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#failure_limit OceancdVerificationTemplate#failure_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#failure_limit OceancdVerificationTemplate#failure_limit}.
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly initialDelay: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#initial_delay OceancdVerificationTemplate#initial_delay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#initial_delay OceancdVerificationTemplate#initial_delay}.
 
 ---
 
@@ -1231,7 +1231,7 @@ public readonly interval: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#interval OceancdVerificationTemplate#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#interval OceancdVerificationTemplate#interval}.
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly successCondition: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#success_condition OceancdVerificationTemplate#success_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#success_condition OceancdVerificationTemplate#success_condition}.
 
 ---
 
@@ -1262,9 +1262,9 @@ const oceancdVerificationTemplateMetricsBaseline: oceancdVerificationTemplate.Oc
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.baselineProvider">baselineProvider</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProvider">OceancdVerificationTemplateMetricsBaselineBaselineProvider</a>[]</code> | baseline_provider block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.threshold">threshold</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#threshold OceancdVerificationTemplate#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.maxRange">maxRange</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#max_range OceancdVerificationTemplate#max_range}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.minRange">minRange</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#min_range OceancdVerificationTemplate#min_range}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.threshold">threshold</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#threshold OceancdVerificationTemplate#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.maxRange">maxRange</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#max_range OceancdVerificationTemplate#max_range}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaseline.property.minRange">minRange</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#min_range OceancdVerificationTemplate#min_range}. |
 
 ---
 
@@ -1278,7 +1278,7 @@ public readonly baselineProvider: IResolvable | OceancdVerificationTemplateMetri
 
 baseline_provider block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#baseline_provider OceancdVerificationTemplate#baseline_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#baseline_provider OceancdVerificationTemplate#baseline_provider}
 
 ---
 
@@ -1290,7 +1290,7 @@ public readonly threshold: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#threshold OceancdVerificationTemplate#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#threshold OceancdVerificationTemplate#threshold}.
 
 ---
 
@@ -1302,7 +1302,7 @@ public readonly maxRange: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#max_range OceancdVerificationTemplate#max_range}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#max_range OceancdVerificationTemplate#max_range}.
 
 ---
 
@@ -1314,7 +1314,7 @@ public readonly minRange: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#min_range OceancdVerificationTemplate#min_range}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#min_range OceancdVerificationTemplate#min_range}.
 
 ---
 
@@ -1348,7 +1348,7 @@ public readonly datadog: OceancdVerificationTemplateMetricsBaselineBaselineProvi
 
 datadog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog OceancdVerificationTemplate#datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog OceancdVerificationTemplate#datadog}
 
 ---
 
@@ -1362,7 +1362,7 @@ public readonly newRelic: OceancdVerificationTemplateMetricsBaselineBaselineProv
 
 new_relic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic OceancdVerificationTemplate#new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic OceancdVerificationTemplate#new_relic}
 
 ---
 
@@ -1376,7 +1376,7 @@ public readonly prometheus: OceancdVerificationTemplateMetricsBaselineBaselinePr
 
 prometheus block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus OceancdVerificationTemplate#prometheus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus OceancdVerificationTemplate#prometheus}
 
 ---
 
@@ -1394,8 +1394,8 @@ const oceancdVerificationTemplateMetricsBaselineBaselineProviderDatadog: oceancd
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderDatadog.property.datadogQuery">datadogQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderDatadog.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderDatadog.property.datadogQuery">datadogQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderDatadog.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
 
 ---
 
@@ -1407,7 +1407,7 @@ public readonly datadogQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}.
 
 ---
 
@@ -1419,7 +1419,7 @@ public readonly duration: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
 
 ---
 
@@ -1437,8 +1437,8 @@ const oceancdVerificationTemplateMetricsBaselineBaselineProviderNewRelic: oceanc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderNewRelic.property.newRelicQuery">newRelicQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderNewRelic.property.profile">profile</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderNewRelic.property.newRelicQuery">newRelicQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderNewRelic.property.profile">profile</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}. |
 
 ---
 
@@ -1450,7 +1450,7 @@ public readonly newRelicQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}.
 
 ---
 
@@ -1462,7 +1462,7 @@ public readonly profile: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}.
 
 ---
 
@@ -1480,7 +1480,7 @@ const oceancdVerificationTemplateMetricsBaselineBaselineProviderPrometheus: ocea
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderPrometheus.property.prometheusQuery">prometheusQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsBaselineBaselineProviderPrometheus.property.prometheusQuery">prometheusQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}. |
 
 ---
 
@@ -1492,7 +1492,7 @@ public readonly prometheusQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}.
 
 ---
 
@@ -1530,7 +1530,7 @@ public readonly cloudWatch: OceancdVerificationTemplateMetricsProviderCloudWatch
 
 cloud_watch block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#cloud_watch OceancdVerificationTemplate#cloud_watch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#cloud_watch OceancdVerificationTemplate#cloud_watch}
 
 ---
 
@@ -1544,7 +1544,7 @@ public readonly datadog: OceancdVerificationTemplateMetricsProviderDatadog;
 
 datadog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog OceancdVerificationTemplate#datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog OceancdVerificationTemplate#datadog}
 
 ---
 
@@ -1558,7 +1558,7 @@ public readonly jenkins: OceancdVerificationTemplateMetricsProviderJenkins;
 
 jenkins block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#jenkins OceancdVerificationTemplate#jenkins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#jenkins OceancdVerificationTemplate#jenkins}
 
 ---
 
@@ -1572,7 +1572,7 @@ public readonly job: OceancdVerificationTemplateMetricsProviderJob;
 
 job block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#job OceancdVerificationTemplate#job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#job OceancdVerificationTemplate#job}
 
 ---
 
@@ -1586,7 +1586,7 @@ public readonly newRelic: OceancdVerificationTemplateMetricsProviderNewRelic;
 
 new_relic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic OceancdVerificationTemplate#new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic OceancdVerificationTemplate#new_relic}
 
 ---
 
@@ -1600,7 +1600,7 @@ public readonly prometheus: OceancdVerificationTemplateMetricsProviderPrometheus
 
 prometheus block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus OceancdVerificationTemplate#prometheus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus OceancdVerificationTemplate#prometheus}
 
 ---
 
@@ -1614,7 +1614,7 @@ public readonly web: OceancdVerificationTemplateMetricsProviderWeb;
 
 web block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web OceancdVerificationTemplate#web}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web OceancdVerificationTemplate#web}
 
 ---
 
@@ -1633,7 +1633,7 @@ const oceancdVerificationTemplateMetricsProviderCloudWatch: oceancdVerificationT
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatch.property.metricDataQueries">metricDataQueries</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries">OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries</a>[]</code> | metric_data_queries block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatch.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatch.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
 
 ---
 
@@ -1647,7 +1647,7 @@ public readonly metricDataQueries: IResolvable | OceancdVerificationTemplateMetr
 
 metric_data_queries block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_data_queries OceancdVerificationTemplate#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_data_queries OceancdVerificationTemplate#metric_data_queries}
 
 ---
 
@@ -1659,7 +1659,7 @@ public readonly duration: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
 
 ---
 
@@ -1677,12 +1677,12 @@ const oceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries: oce
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#expression OceancdVerificationTemplate#expression}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#label OceancdVerificationTemplate#label}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#expression OceancdVerificationTemplate#expression}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#label OceancdVerificationTemplate#label}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.metricStat">metricStat</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat">OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat</a></code> | metric_stat block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#period OceancdVerificationTemplate#period}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.returnData">returnData</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#return_data OceancdVerificationTemplate#return_data}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#period OceancdVerificationTemplate#period}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueries.property.returnData">returnData</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#return_data OceancdVerificationTemplate#return_data}. |
 
 ---
 
@@ -1694,7 +1694,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#id OceancdVerificationTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1709,7 +1709,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#expression OceancdVerificationTemplate#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#expression OceancdVerificationTemplate#expression}.
 
 ---
 
@@ -1721,7 +1721,7 @@ public readonly label: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#label OceancdVerificationTemplate#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#label OceancdVerificationTemplate#label}.
 
 ---
 
@@ -1735,7 +1735,7 @@ public readonly metricStat: OceancdVerificationTemplateMetricsProviderCloudWatch
 
 metric_stat block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_stat OceancdVerificationTemplate#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_stat OceancdVerificationTemplate#metric_stat}
 
 ---
 
@@ -1747,7 +1747,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#period OceancdVerificationTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#period OceancdVerificationTemplate#period}.
 
 ---
 
@@ -1759,7 +1759,7 @@ public readonly returnData: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#return_data OceancdVerificationTemplate#return_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#return_data OceancdVerificationTemplate#return_data}.
 
 ---
 
@@ -1778,9 +1778,9 @@ const oceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetri
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.metric">metric</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric">OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric</a></code> | metric block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.metricPeriod">metricPeriod</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_period OceancdVerificationTemplate#metric_period}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.stat">stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#stat OceancdVerificationTemplate#stat}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#unit OceancdVerificationTemplate#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.metricPeriod">metricPeriod</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_period OceancdVerificationTemplate#metric_period}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.stat">stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#stat OceancdVerificationTemplate#stat}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStat.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#unit OceancdVerificationTemplate#unit}. |
 
 ---
 
@@ -1794,7 +1794,7 @@ public readonly metric: OceancdVerificationTemplateMetricsProviderCloudWatchMetr
 
 metric block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric OceancdVerificationTemplate#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric OceancdVerificationTemplate#metric}
 
 ---
 
@@ -1806,7 +1806,7 @@ public readonly metricPeriod: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_period OceancdVerificationTemplate#metric_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_period OceancdVerificationTemplate#metric_period}.
 
 ---
 
@@ -1818,7 +1818,7 @@ public readonly stat: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#stat OceancdVerificationTemplate#stat}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#stat OceancdVerificationTemplate#stat}.
 
 ---
 
@@ -1830,7 +1830,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#unit OceancdVerificationTemplate#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#unit OceancdVerificationTemplate#unit}.
 
 ---
 
@@ -1848,9 +1848,9 @@ const oceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_name OceancdVerificationTemplate#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_name OceancdVerificationTemplate#metric_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric.property.dimensions">dimensions</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions">OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions</a>[]</code> | dimensions block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#namespace OceancdVerificationTemplate#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetric.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#namespace OceancdVerificationTemplate#namespace}. |
 
 ---
 
@@ -1862,7 +1862,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#metric_name OceancdVerificationTemplate#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#metric_name OceancdVerificationTemplate#metric_name}.
 
 ---
 
@@ -1876,7 +1876,7 @@ public readonly dimensions: IResolvable | OceancdVerificationTemplateMetricsProv
 
 dimensions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dimensions OceancdVerificationTemplate#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dimensions OceancdVerificationTemplate#dimensions}
 
 ---
 
@@ -1888,7 +1888,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#namespace OceancdVerificationTemplate#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#namespace OceancdVerificationTemplate#namespace}.
 
 ---
 
@@ -1906,8 +1906,8 @@ const oceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions.property.dimensionName">dimensionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dimension_name OceancdVerificationTemplate#dimension_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions.property.dimensionValue">dimensionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dimension_value OceancdVerificationTemplate#dimension_value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions.property.dimensionName">dimensionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dimension_name OceancdVerificationTemplate#dimension_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderCloudWatchMetricDataQueriesMetricStatMetricDimensions.property.dimensionValue">dimensionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dimension_value OceancdVerificationTemplate#dimension_value}. |
 
 ---
 
@@ -1919,7 +1919,7 @@ public readonly dimensionName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dimension_name OceancdVerificationTemplate#dimension_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dimension_name OceancdVerificationTemplate#dimension_name}.
 
 ---
 
@@ -1931,7 +1931,7 @@ public readonly dimensionValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#dimension_value OceancdVerificationTemplate#dimension_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#dimension_value OceancdVerificationTemplate#dimension_value}.
 
 ---
 
@@ -1949,8 +1949,8 @@ const oceancdVerificationTemplateMetricsProviderDatadog: oceancdVerificationTemp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderDatadog.property.datadogQuery">datadogQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderDatadog.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderDatadog.property.datadogQuery">datadogQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderDatadog.property.duration">duration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}. |
 
 ---
 
@@ -1962,7 +1962,7 @@ public readonly datadogQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#datadog_query OceancdVerificationTemplate#datadog_query}.
 
 ---
 
@@ -1974,7 +1974,7 @@ public readonly duration: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#duration OceancdVerificationTemplate#duration}.
 
 ---
 
@@ -1992,11 +1992,11 @@ const oceancdVerificationTemplateMetricsProviderJenkins: oceancdVerificationTemp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.jenkinsInterval">jenkinsInterval</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#jenkins_interval OceancdVerificationTemplate#jenkins_interval}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.pipelineName">pipelineName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#pipeline_name OceancdVerificationTemplate#pipeline_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.timeout">timeout</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#timeout OceancdVerificationTemplate#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.jenkinsInterval">jenkinsInterval</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#jenkins_interval OceancdVerificationTemplate#jenkins_interval}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.pipelineName">pipelineName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#pipeline_name OceancdVerificationTemplate#pipeline_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.timeout">timeout</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#timeout OceancdVerificationTemplate#timeout}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.jenkinsParameters">jenkinsParameters</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters">OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters</a></code> | jenkins_parameters block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.tlsVerification">tlsVerification</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#tls_verification OceancdVerificationTemplate#tls_verification}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkins.property.tlsVerification">tlsVerification</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#tls_verification OceancdVerificationTemplate#tls_verification}. |
 
 ---
 
@@ -2008,7 +2008,7 @@ public readonly jenkinsInterval: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#jenkins_interval OceancdVerificationTemplate#jenkins_interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#jenkins_interval OceancdVerificationTemplate#jenkins_interval}.
 
 ---
 
@@ -2020,7 +2020,7 @@ public readonly pipelineName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#pipeline_name OceancdVerificationTemplate#pipeline_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#pipeline_name OceancdVerificationTemplate#pipeline_name}.
 
 ---
 
@@ -2032,7 +2032,7 @@ public readonly timeout: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#timeout OceancdVerificationTemplate#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#timeout OceancdVerificationTemplate#timeout}.
 
 ---
 
@@ -2046,7 +2046,7 @@ public readonly jenkinsParameters: OceancdVerificationTemplateMetricsProviderJen
 
 jenkins_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#jenkins_parameters OceancdVerificationTemplate#jenkins_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#jenkins_parameters OceancdVerificationTemplate#jenkins_parameters}
 
 ---
 
@@ -2058,7 +2058,7 @@ public readonly tlsVerification: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#tls_verification OceancdVerificationTemplate#tls_verification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#tls_verification OceancdVerificationTemplate#tls_verification}.
 
 ---
 
@@ -2076,8 +2076,8 @@ const oceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters: oceanc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters.property.parameterKey">parameterKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#parameter_key OceancdVerificationTemplate#parameter_key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters.property.parameterValue">parameterValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#parameter_value OceancdVerificationTemplate#parameter_value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters.property.parameterKey">parameterKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#parameter_key OceancdVerificationTemplate#parameter_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJenkinsJenkinsParameters.property.parameterValue">parameterValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#parameter_value OceancdVerificationTemplate#parameter_value}. |
 
 ---
 
@@ -2089,7 +2089,7 @@ public readonly parameterKey: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#parameter_key OceancdVerificationTemplate#parameter_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#parameter_key OceancdVerificationTemplate#parameter_key}.
 
 ---
 
@@ -2101,7 +2101,7 @@ public readonly parameterValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#parameter_value OceancdVerificationTemplate#parameter_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#parameter_value OceancdVerificationTemplate#parameter_value}.
 
 ---
 
@@ -2133,7 +2133,7 @@ public readonly spec: IResolvable | OceancdVerificationTemplateMetricsProviderJo
 
 spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#spec OceancdVerificationTemplate#spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#spec OceancdVerificationTemplate#spec}
 
 ---
 
@@ -2152,7 +2152,7 @@ const oceancdVerificationTemplateMetricsProviderJobSpec: oceancdVerificationTemp
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpec.property.jobTemplate">jobTemplate</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplate">OceancdVerificationTemplateMetricsProviderJobSpecJobTemplate</a>[]</code> | job_template block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpec.property.backoffLimit">backoffLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#backoff_limit OceancdVerificationTemplate#backoff_limit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpec.property.backoffLimit">backoffLimit</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#backoff_limit OceancdVerificationTemplate#backoff_limit}. |
 
 ---
 
@@ -2166,7 +2166,7 @@ public readonly jobTemplate: IResolvable | OceancdVerificationTemplateMetricsPro
 
 job_template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#job_template OceancdVerificationTemplate#job_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#job_template OceancdVerificationTemplate#job_template}
 
 ---
 
@@ -2178,7 +2178,7 @@ public readonly backoffLimit: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#backoff_limit OceancdVerificationTemplate#backoff_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#backoff_limit OceancdVerificationTemplate#backoff_limit}.
 
 ---
 
@@ -2210,7 +2210,7 @@ public readonly templateSpec: IResolvable | OceancdVerificationTemplateMetricsPr
 
 template_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#template_spec OceancdVerificationTemplate#template_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#template_spec OceancdVerificationTemplate#template_spec}
 
 ---
 
@@ -2229,7 +2229,7 @@ const oceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpec: 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpec.property.containers">containers</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers">OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers</a>[]</code> | containers block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpec.property.restartPolicy">restartPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#restart_policy OceancdVerificationTemplate#restart_policy}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpec.property.restartPolicy">restartPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#restart_policy OceancdVerificationTemplate#restart_policy}. |
 
 ---
 
@@ -2243,7 +2243,7 @@ public readonly containers: IResolvable | OceancdVerificationTemplateMetricsProv
 
 containers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#containers OceancdVerificationTemplate#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#containers OceancdVerificationTemplate#containers}
 
 ---
 
@@ -2255,7 +2255,7 @@ public readonly restartPolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#restart_policy OceancdVerificationTemplate#restart_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#restart_policy OceancdVerificationTemplate#restart_policy}.
 
 ---
 
@@ -2273,9 +2273,9 @@ const oceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.command">command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#command OceancdVerificationTemplate#command}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.containerName">containerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#container_name OceancdVerificationTemplate#container_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.image">image</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#image OceancdVerificationTemplate#image}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.command">command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#command OceancdVerificationTemplate#command}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.containerName">containerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#container_name OceancdVerificationTemplate#container_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderJobSpecJobTemplateTemplateSpecContainers.property.image">image</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#image OceancdVerificationTemplate#image}. |
 
 ---
 
@@ -2287,7 +2287,7 @@ public readonly command: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#command OceancdVerificationTemplate#command}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#command OceancdVerificationTemplate#command}.
 
 ---
 
@@ -2299,7 +2299,7 @@ public readonly containerName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#container_name OceancdVerificationTemplate#container_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#container_name OceancdVerificationTemplate#container_name}.
 
 ---
 
@@ -2311,7 +2311,7 @@ public readonly image: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#image OceancdVerificationTemplate#image}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#image OceancdVerificationTemplate#image}.
 
 ---
 
@@ -2329,8 +2329,8 @@ const oceancdVerificationTemplateMetricsProviderNewRelic: oceancdVerificationTem
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderNewRelic.property.newRelicQuery">newRelicQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderNewRelic.property.profile">profile</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderNewRelic.property.newRelicQuery">newRelicQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderNewRelic.property.profile">profile</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}. |
 
 ---
 
@@ -2342,7 +2342,7 @@ public readonly newRelicQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#new_relic_query OceancdVerificationTemplate#new_relic_query}.
 
 ---
 
@@ -2354,7 +2354,7 @@ public readonly profile: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#profile OceancdVerificationTemplate#profile}.
 
 ---
 
@@ -2372,7 +2372,7 @@ const oceancdVerificationTemplateMetricsProviderPrometheus: oceancdVerificationT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderPrometheus.property.prometheusQuery">prometheusQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderPrometheus.property.prometheusQuery">prometheusQuery</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}. |
 
 ---
 
@@ -2384,7 +2384,7 @@ public readonly prometheusQuery: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#prometheus_query OceancdVerificationTemplate#prometheus_query}.
 
 ---
 
@@ -2402,12 +2402,12 @@ const oceancdVerificationTemplateMetricsProviderWeb: oceancdVerificationTemplate
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.url">url</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#url OceancdVerificationTemplate#url}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.body">body</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#body OceancdVerificationTemplate#body}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.insecure">insecure</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#insecure OceancdVerificationTemplate#insecure}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.jsonPath">jsonPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#json_path OceancdVerificationTemplate#json_path}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.method">method</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#method OceancdVerificationTemplate#method}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.timeoutSeconds">timeoutSeconds</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#timeout_seconds OceancdVerificationTemplate#timeout_seconds}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.url">url</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#url OceancdVerificationTemplate#url}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.body">body</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#body OceancdVerificationTemplate#body}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.insecure">insecure</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#insecure OceancdVerificationTemplate#insecure}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.jsonPath">jsonPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#json_path OceancdVerificationTemplate#json_path}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.method">method</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#method OceancdVerificationTemplate#method}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.timeoutSeconds">timeoutSeconds</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#timeout_seconds OceancdVerificationTemplate#timeout_seconds}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWeb.property.webHeader">webHeader</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWebWebHeader">OceancdVerificationTemplateMetricsProviderWebWebHeader</a>[]</code> | web_header block. |
 
 ---
@@ -2420,7 +2420,7 @@ public readonly url: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#url OceancdVerificationTemplate#url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#url OceancdVerificationTemplate#url}.
 
 ---
 
@@ -2432,7 +2432,7 @@ public readonly body: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#body OceancdVerificationTemplate#body}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#body OceancdVerificationTemplate#body}.
 
 ---
 
@@ -2444,7 +2444,7 @@ public readonly insecure: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#insecure OceancdVerificationTemplate#insecure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#insecure OceancdVerificationTemplate#insecure}.
 
 ---
 
@@ -2456,7 +2456,7 @@ public readonly jsonPath: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#json_path OceancdVerificationTemplate#json_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#json_path OceancdVerificationTemplate#json_path}.
 
 ---
 
@@ -2468,7 +2468,7 @@ public readonly method: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#method OceancdVerificationTemplate#method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#method OceancdVerificationTemplate#method}.
 
 ---
 
@@ -2480,7 +2480,7 @@ public readonly timeoutSeconds: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#timeout_seconds OceancdVerificationTemplate#timeout_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#timeout_seconds OceancdVerificationTemplate#timeout_seconds}.
 
 ---
 
@@ -2494,7 +2494,7 @@ public readonly webHeader: IResolvable | OceancdVerificationTemplateMetricsProvi
 
 web_header block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web_header OceancdVerificationTemplate#web_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web_header OceancdVerificationTemplate#web_header}
 
 ---
 
@@ -2512,8 +2512,8 @@ const oceancdVerificationTemplateMetricsProviderWebWebHeader: oceancdVerificatio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWebWebHeader.property.webHeaderKey">webHeaderKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web_header_key OceancdVerificationTemplate#web_header_key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWebWebHeader.property.webHeaderValue">webHeaderValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web_header_value OceancdVerificationTemplate#web_header_value}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWebWebHeader.property.webHeaderKey">webHeaderKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web_header_key OceancdVerificationTemplate#web_header_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationTemplate.OceancdVerificationTemplateMetricsProviderWebWebHeader.property.webHeaderValue">webHeaderValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web_header_value OceancdVerificationTemplate#web_header_value}. |
 
 ---
 
@@ -2525,7 +2525,7 @@ public readonly webHeaderKey: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web_header_key OceancdVerificationTemplate#web_header_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web_header_key OceancdVerificationTemplate#web_header_key}.
 
 ---
 
@@ -2537,7 +2537,7 @@ public readonly webHeaderValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.197.1/docs/resources/oceancd_verification_template#web_header_value OceancdVerificationTemplate#web_header_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/oceancd_verification_template#web_header_value OceancdVerificationTemplate#web_header_value}.
 
 ---
 
