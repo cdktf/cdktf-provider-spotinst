@@ -4,7 +4,7 @@
 
 ### DataIntegration <a name="DataIntegration" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration spotinst_data_integration}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration spotinst_data_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.dataIntegration.DataIntegration.Initializer"></a>
 
@@ -501,7 +501,7 @@ The construct id used in the generated config for the DataIntegration to import.
 
 The id of the existing DataIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -805,10 +805,10 @@ const dataIntegrationConfig: dataIntegration.DataIntegrationConfig = { ... }
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#name DataIntegration#name}. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#id DataIntegration#id}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#name DataIntegration#name}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#id DataIntegration#id}. |
 | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.s3">s3</a></code> | <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3">DataIntegrationS3</a></code> | s3 block. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#status DataIntegration#status}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationConfig.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#status DataIntegration#status}. |
 
 ---
 
@@ -890,7 +890,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#name DataIntegration#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#name DataIntegration#name}.
 
 ---
 
@@ -902,7 +902,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#id DataIntegration#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#id DataIntegration#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,7 +919,7 @@ public readonly s3: DataIntegrationS3;
 
 s3 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#s3 DataIntegration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#s3 DataIntegration#s3}
 
 ---
 
@@ -931,7 +931,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#status DataIntegration#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#status DataIntegration#status}.
 
 ---
 
@@ -949,8 +949,8 @@ const dataIntegrationS3: dataIntegration.DataIntegrationS3 = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}. |
-| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.subdir">subdir</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#subdir DataIntegration#subdir}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.bucketName">bucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}. |
+| <code><a href="#@cdktf/provider-spotinst.dataIntegration.DataIntegrationS3.property.subdir">subdir</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#subdir DataIntegration#subdir}. |
 
 ---
 
@@ -962,7 +962,7 @@ public readonly bucketName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#bucket_name DataIntegration#bucket_name}.
 
 ---
 
@@ -974,7 +974,7 @@ public readonly subdir: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.198.0/docs/resources/data_integration#subdir DataIntegration#subdir}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.199.0/docs/resources/data_integration#subdir DataIntegration#subdir}.
 
 ---
 
