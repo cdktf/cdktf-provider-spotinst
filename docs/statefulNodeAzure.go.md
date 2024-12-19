@@ -4,12 +4,12 @@
 
 ### StatefulNodeAzure <a name="StatefulNodeAzure" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzure(scope Construct, id *string, config StatefulNodeAzureConfig) StatefulNodeAzure
 ```
@@ -915,7 +915,7 @@ func ResetZones()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsConstruct(x interface{}) *bool
 ```
@@ -947,7 +947,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsTerraformElement(x interface{}) *bool
 ```
@@ -961,7 +961,7 @@ statefulnodeazure.StatefulNodeAzure_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_IsTerraformResource(x interface{}) *bool
 ```
@@ -975,7 +975,7 @@ statefulnodeazure.StatefulNodeAzure_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.StatefulNodeAzure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1004,7 +1004,7 @@ The construct id used in the generated config for the StatefulNodeAzure to impor
 
 The id of the existing StatefulNodeAzure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2150,7 +2150,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureAttachDataDisk {
 	DataDiskName: *string,
@@ -2166,12 +2166,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.storageAccountType">StorageAccountType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.lun">Lun</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.storageAccountType">StorageAccountType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.lun">Lun</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDisk.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}. |
 
 ---
 
@@ -2183,7 +2183,7 @@ DataDiskName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
 
 ---
 
@@ -2195,7 +2195,7 @@ DataDiskResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
 
 ---
 
@@ -2207,7 +2207,7 @@ SizeGb *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -2219,7 +2219,7 @@ StorageAccountType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}.
 
 ---
 
@@ -2231,7 +2231,7 @@ Lun *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
 
 ---
 
@@ -2243,7 +2243,7 @@ Zone *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}.
 
 ---
 
@@ -2252,7 +2252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureBootDiagnostics {
 	IsEnabled: interface{},
@@ -2265,9 +2265,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.storageUrl">StorageUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.storageUrl">StorageUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnostics.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -2279,7 +2279,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
 
 ---
 
@@ -2291,7 +2291,7 @@ StorageUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}.
 
 ---
 
@@ -2303,7 +2303,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -2312,7 +2312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureConfig {
 	Connection: interface{},
@@ -2329,8 +2329,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 	ShouldPersistDataDisks: interface{},
 	ShouldPersistNetwork: interface{},
 	ShouldPersistOsDisk: interface{},
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureStrategy,
-	VmSizes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureVmSizes,
+	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureStrategy,
+	VmSizes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes,
 	AttachDataDisk: interface{},
 	BootDiagnostics: interface{},
 	CustomData: *string,
@@ -2340,22 +2340,22 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 	Description: *string,
 	DetachDataDisk: interface{},
 	Extension: interface{},
-	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureHealth,
+	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureHealth,
 	Id: *string,
-	Image: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureImage,
+	Image: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureImage,
 	ImportVm: interface{},
 	LicenseType: *string,
 	LoadBalancer: interface{},
-	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureLogin,
+	Login: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureLogin,
 	ManagedServiceIdentities: interface{},
-	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureNetwork,
-	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureOsDisk,
+	Network: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureNetwork,
+	OsDisk: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk,
 	OsDiskPersistenceMode: *string,
 	PreferredZone: *string,
 	ProximityPlacementGroups: interface{},
 	SchedulingTask: interface{},
 	Secret: interface{},
-	Security: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureSecurity,
+	Security: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureSecurity,
 	ShouldPersistVm: interface{},
 	ShutdownScript: *string,
 	Signal: interface{},
@@ -2379,49 +2379,49 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.os">Os</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistDataDisks">ShouldPersistDataDisks</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistNetwork">ShouldPersistNetwork</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistOsDisk">ShouldPersistOsDisk</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.os">Os</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistDataDisks">ShouldPersistDataDisks</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistNetwork">ShouldPersistNetwork</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistOsDisk">ShouldPersistOsDisk</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.strategy">Strategy</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy">StatefulNodeAzureStrategy</a></code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmSizes">VmSizes</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes">StatefulNodeAzureVmSizes</a></code> | vm_sizes block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.attachDataDisk">AttachDataDisk</a></code> | <code>interface{}</code> | attach_data_disk block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.bootDiagnostics">BootDiagnostics</a></code> | <code>interface{}</code> | boot_diagnostics block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.customData">CustomData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.customData">CustomData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisk">DataDisk</a></code> | <code>interface{}</code> | data_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisksPersistenceMode">DataDisksPersistenceMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.dataDisksPersistenceMode">DataDisksPersistenceMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.delete">Delete</a></code> | <code>interface{}</code> | delete block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.detachDataDisk">DetachDataDisk</a></code> | <code>interface{}</code> | detach_data_disk block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.extension">Extension</a></code> | <code>interface{}</code> | extension block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.health">Health</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth">StatefulNodeAzureHealth</a></code> | health block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.image">Image</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImage">StatefulNodeAzureImage</a></code> | image block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.importVm">ImportVm</a></code> | <code>interface{}</code> | import_vm block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.licenseType">LicenseType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.licenseType">LicenseType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.loadBalancer">LoadBalancer</a></code> | <code>interface{}</code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.login">Login</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin">StatefulNodeAzureLogin</a></code> | login block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.managedServiceIdentities">ManagedServiceIdentities</a></code> | <code>interface{}</code> | managed_service_identities block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.network">Network</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork">StatefulNodeAzureNetwork</a></code> | network block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDisk">OsDisk</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk">StatefulNodeAzureOsDisk</a></code> | os_disk block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDiskPersistenceMode">OsDiskPersistenceMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredZone">PreferredZone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.osDiskPersistenceMode">OsDiskPersistenceMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.preferredZone">PreferredZone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.proximityPlacementGroups">ProximityPlacementGroups</a></code> | <code>interface{}</code> | proximity_placement_groups block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.schedulingTask">SchedulingTask</a></code> | <code>interface{}</code> | scheduling_task block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.secret">Secret</a></code> | <code>interface{}</code> | secret block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.security">Security</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity">StatefulNodeAzureSecurity</a></code> | security block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistVm">ShouldPersistVm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shouldPersistVm">ShouldPersistVm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.shutdownScript">ShutdownScript</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.signal">Signal</a></code> | <code>interface{}</code> | signal block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.tag">Tag</a></code> | <code>interface{}</code> | tag block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.updateState">UpdateState</a></code> | <code>interface{}</code> | update_state block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.userData">UserData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmName">VmName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmNamePrefix">VmNamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.zones">Zones</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.userData">UserData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmName">VmName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.vmNamePrefix">VmNamePrefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureConfig.property.zones">Zones</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}. |
 
 ---
 
@@ -2503,7 +2503,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -2515,7 +2515,7 @@ Os *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}.
 
 ---
 
@@ -2527,7 +2527,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}.
 
 ---
 
@@ -2539,7 +2539,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -2551,7 +2551,7 @@ ShouldPersistDataDisks interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}.
 
 ---
 
@@ -2563,7 +2563,7 @@ ShouldPersistNetwork interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}.
 
 ---
 
@@ -2575,7 +2575,7 @@ ShouldPersistOsDisk interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}.
 
 ---
 
@@ -2589,7 +2589,7 @@ Strategy StatefulNodeAzureStrategy
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
 
 ---
 
@@ -2603,7 +2603,7 @@ VmSizes StatefulNodeAzureVmSizes
 
 vm_sizes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_sizes StatefulNodeAzure#vm_sizes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_sizes StatefulNodeAzure#vm_sizes}
 
 ---
 
@@ -2617,7 +2617,7 @@ AttachDataDisk interface{}
 
 attach_data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
 
 ---
 
@@ -2631,7 +2631,7 @@ BootDiagnostics interface{}
 
 boot_diagnostics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
 
 ---
 
@@ -2643,7 +2643,7 @@ CustomData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}.
 
 ---
 
@@ -2657,7 +2657,7 @@ DataDisk interface{}
 
 data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
 
 ---
 
@@ -2669,7 +2669,7 @@ DataDisksPersistenceMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}.
 
 ---
 
@@ -2683,7 +2683,7 @@ Delete interface{}
 
 delete block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
 
 ---
 
@@ -2695,7 +2695,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}.
 
 ---
 
@@ -2709,7 +2709,7 @@ DetachDataDisk interface{}
 
 detach_data_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
 
 ---
 
@@ -2723,7 +2723,7 @@ Extension interface{}
 
 extension block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
 
 ---
 
@@ -2737,7 +2737,7 @@ Health StatefulNodeAzureHealth
 
 health block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
 
 ---
 
@@ -2749,7 +2749,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2766,7 +2766,7 @@ Image StatefulNodeAzureImage
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
 
 ---
 
@@ -2780,7 +2780,7 @@ ImportVm interface{}
 
 import_vm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
 
 ---
 
@@ -2792,7 +2792,7 @@ LicenseType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}.
 
 ---
 
@@ -2806,7 +2806,7 @@ LoadBalancer interface{}
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
 
 ---
 
@@ -2820,7 +2820,7 @@ Login StatefulNodeAzureLogin
 
 login block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
 
 ---
 
@@ -2834,7 +2834,7 @@ ManagedServiceIdentities interface{}
 
 managed_service_identities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
 
 ---
 
@@ -2848,7 +2848,7 @@ Network StatefulNodeAzureNetwork
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
 
 ---
 
@@ -2862,7 +2862,7 @@ OsDisk StatefulNodeAzureOsDisk
 
 os_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
 
 ---
 
@@ -2874,7 +2874,7 @@ OsDiskPersistenceMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}.
 
 ---
 
@@ -2886,7 +2886,7 @@ PreferredZone *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}.
 
 ---
 
@@ -2900,7 +2900,7 @@ ProximityPlacementGroups interface{}
 
 proximity_placement_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#proximity_placement_groups StatefulNodeAzure#proximity_placement_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#proximity_placement_groups StatefulNodeAzure#proximity_placement_groups}
 
 ---
 
@@ -2914,7 +2914,7 @@ SchedulingTask interface{}
 
 scheduling_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
 
 ---
 
@@ -2928,7 +2928,7 @@ Secret interface{}
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
 
 ---
 
@@ -2942,7 +2942,7 @@ Security StatefulNodeAzureSecurity
 
 security block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#security StatefulNodeAzure#security}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#security StatefulNodeAzure#security}
 
 ---
 
@@ -2954,7 +2954,7 @@ ShouldPersistVm interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_persist_vm StatefulNodeAzure#should_persist_vm}.
 
 ---
 
@@ -2966,7 +2966,7 @@ ShutdownScript *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}.
 
 ---
 
@@ -2980,7 +2980,7 @@ Signal interface{}
 
 signal block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
 
 ---
 
@@ -2994,7 +2994,7 @@ Tag interface{}
 
 tag block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
 
 ---
 
@@ -3008,7 +3008,7 @@ UpdateState interface{}
 
 update_state block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
 
 ---
 
@@ -3020,7 +3020,7 @@ UserData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}.
 
 ---
 
@@ -3032,7 +3032,7 @@ VmName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}.
 
 ---
 
@@ -3044,7 +3044,7 @@ VmNamePrefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}.
 
 ---
 
@@ -3056,7 +3056,7 @@ Zones *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}.
 
 ---
 
@@ -3065,7 +3065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDataDisk {
 	Lun: *f64,
@@ -3078,9 +3078,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.lun">Lun</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.lun">Lun</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDisk.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -3092,7 +3092,7 @@ Lun *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}.
 
 ---
 
@@ -3104,7 +3104,7 @@ SizeGb *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -3116,7 +3116,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -3125,18 +3125,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDelete {
-	DiskShouldDeallocate: interface{},
-	NetworkShouldDeallocate: interface{},
-	PublicIpShouldDeallocate: interface{},
 	ShouldTerminateVm: interface{},
-	SnapshotShouldDeallocate: interface{},
+	DiskShouldDeallocate: interface{},
 	DiskTtlInHours: *f64,
+	NetworkShouldDeallocate: interface{},
 	NetworkTtlInHours: *f64,
+	PublicIpShouldDeallocate: interface{},
 	PublicIpTtlInHours: *f64,
 	ShouldDeregisterFromLb: interface{},
+	ShouldRevertToOd: interface{},
+	SnapshotShouldDeallocate: interface{},
 	SnapshotTtlInHours: *f64,
 }
 ```
@@ -3145,52 +3146,17 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate">DiskShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate">NetworkShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate">PublicIpShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldTerminateVm">ShouldTerminateVm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate">SnapshotShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskTtlInHours">DiskTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkTtlInHours">NetworkTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpTtlInHours">PublicIpTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldDeregisterFromLb">ShouldDeregisterFromLb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotTtlInHours">SnapshotTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}. |
-
----
-
-##### `DiskShouldDeallocate`<sup>Required</sup> <a name="DiskShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate"></a>
-
-```go
-DiskShouldDeallocate interface{}
-```
-
-- *Type:* interface{}
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}.
-
----
-
-##### `NetworkShouldDeallocate`<sup>Required</sup> <a name="NetworkShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate"></a>
-
-```go
-NetworkShouldDeallocate interface{}
-```
-
-- *Type:* interface{}
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}.
-
----
-
-##### `PublicIpShouldDeallocate`<sup>Required</sup> <a name="PublicIpShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate"></a>
-
-```go
-PublicIpShouldDeallocate interface{}
-```
-
-- *Type:* interface{}
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}.
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldTerminateVm">ShouldTerminateVm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate">DiskShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskTtlInHours">DiskTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate">NetworkShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkTtlInHours">NetworkTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate">PublicIpShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpTtlInHours">PublicIpTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldDeregisterFromLb">ShouldDeregisterFromLb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldRevertToOd">ShouldRevertToOd</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_revert_to_od StatefulNodeAzure#should_revert_to_od}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate">SnapshotShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotTtlInHours">SnapshotTtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}. |
 
 ---
 
@@ -3202,19 +3168,19 @@ ShouldTerminateVm interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}.
 
 ---
 
-##### `SnapshotShouldDeallocate`<sup>Required</sup> <a name="SnapshotShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate"></a>
+##### `DiskShouldDeallocate`<sup>Optional</sup> <a name="DiskShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.diskShouldDeallocate"></a>
 
 ```go
-SnapshotShouldDeallocate interface{}
+DiskShouldDeallocate interface{}
 ```
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}.
 
 ---
 
@@ -3226,7 +3192,19 @@ DiskTtlInHours *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}.
+
+---
+
+##### `NetworkShouldDeallocate`<sup>Optional</sup> <a name="NetworkShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.networkShouldDeallocate"></a>
+
+```go
+NetworkShouldDeallocate interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}.
 
 ---
 
@@ -3238,7 +3216,19 @@ NetworkTtlInHours *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}.
+
+---
+
+##### `PublicIpShouldDeallocate`<sup>Optional</sup> <a name="PublicIpShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.publicIpShouldDeallocate"></a>
+
+```go
+PublicIpShouldDeallocate interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}.
 
 ---
 
@@ -3250,7 +3240,7 @@ PublicIpTtlInHours *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}.
 
 ---
 
@@ -3262,7 +3252,31 @@ ShouldDeregisterFromLb interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}.
+
+---
+
+##### `ShouldRevertToOd`<sup>Optional</sup> <a name="ShouldRevertToOd" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.shouldRevertToOd"></a>
+
+```go
+ShouldRevertToOd interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_revert_to_od StatefulNodeAzure#should_revert_to_od}.
+
+---
+
+##### `SnapshotShouldDeallocate`<sup>Optional</sup> <a name="SnapshotShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDelete.property.snapshotShouldDeallocate"></a>
+
+```go
+SnapshotShouldDeallocate interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}.
 
 ---
 
@@ -3274,7 +3288,7 @@ SnapshotTtlInHours *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}.
 
 ---
 
@@ -3283,7 +3297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureDetachDataDisk {
 	DataDiskName: *string,
@@ -3297,10 +3311,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.shouldDeallocate">ShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.ttlInHours">TtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskName">DataDiskName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.dataDiskResourceGroupName">DataDiskResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.shouldDeallocate">ShouldDeallocate</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDisk.property.ttlInHours">TtlInHours</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}. |
 
 ---
 
@@ -3312,7 +3326,7 @@ DataDiskName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}.
 
 ---
 
@@ -3324,7 +3338,7 @@ DataDiskResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}.
 
 ---
 
@@ -3336,7 +3350,7 @@ ShouldDeallocate interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}.
 
 ---
 
@@ -3348,7 +3362,7 @@ TtlInHours *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}.
 
 ---
 
@@ -3357,7 +3371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureExtension {
 	ApiVersion: *string,
@@ -3374,13 +3388,13 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.apiVersion">ApiVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publisher">Publisher</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.protectedSettings">ProtectedSettings</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publicSettings">PublicSettings</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.apiVersion">ApiVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.minorVersionAutoUpgrade">MinorVersionAutoUpgrade</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publisher">Publisher</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.protectedSettings">ProtectedSettings</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtension.property.publicSettings">PublicSettings</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}. |
 
 ---
 
@@ -3392,7 +3406,7 @@ ApiVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}.
 
 ---
 
@@ -3404,7 +3418,7 @@ MinorVersionAutoUpgrade interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}.
 
 ---
 
@@ -3416,7 +3430,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3428,7 +3442,7 @@ Publisher *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
 
 ---
 
@@ -3440,7 +3454,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -3452,7 +3466,7 @@ ProtectedSettings *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}.
 
 ---
 
@@ -3464,7 +3478,7 @@ PublicSettings *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}.
 
 ---
 
@@ -3473,7 +3487,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureHealth {
 	AutoHealing: interface{},
@@ -3487,10 +3501,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.autoHealing">AutoHealing</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.gracePeriod">GracePeriod</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.autoHealing">AutoHealing</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.healthCheckTypes">HealthCheckTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.gracePeriod">GracePeriod</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealth.property.unhealthyDuration">UnhealthyDuration</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}. |
 
 ---
 
@@ -3502,7 +3516,7 @@ AutoHealing interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}.
 
 ---
 
@@ -3514,7 +3528,7 @@ HealthCheckTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}.
 
 ---
 
@@ -3526,7 +3540,7 @@ GracePeriod *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}.
 
 ---
 
@@ -3538,7 +3552,7 @@ UnhealthyDuration *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}.
 
 ---
 
@@ -3547,7 +3561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImage {
 	CustomImage: interface{},
@@ -3576,7 +3590,7 @@ CustomImage interface{}
 
 custom_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
 
 ---
 
@@ -3590,7 +3604,7 @@ Gallery interface{}
 
 gallery block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
 
 ---
 
@@ -3604,7 +3618,7 @@ MarketplaceImage interface{}
 
 marketplace_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
 
 ---
 
@@ -3613,7 +3627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageCustomImage {
 	CustomImageResourceGroupName: *string,
@@ -3625,8 +3639,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.customImageResourceGroupName">CustomImageResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.customImageResourceGroupName">CustomImageResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImage.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
 
 ---
 
@@ -3638,7 +3652,7 @@ CustomImageResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}.
 
 ---
 
@@ -3650,7 +3664,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3659,7 +3673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageGallery {
 	GalleryName: *string,
@@ -3674,11 +3688,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryName">GalleryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryResourceGroupName">GalleryResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.imageName">ImageName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.versionName">VersionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.spotAccountId">SpotAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryName">GalleryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.galleryResourceGroupName">GalleryResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.imageName">ImageName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.versionName">VersionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGallery.property.spotAccountId">SpotAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}. |
 
 ---
 
@@ -3690,7 +3704,7 @@ GalleryName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}.
 
 ---
 
@@ -3702,7 +3716,7 @@ GalleryResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}.
 
 ---
 
@@ -3714,7 +3728,7 @@ ImageName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}.
 
 ---
 
@@ -3726,7 +3740,7 @@ VersionName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}.
 
 ---
 
@@ -3738,7 +3752,7 @@ SpotAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}.
 
 ---
 
@@ -3747,7 +3761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImageMarketplaceImage {
 	Offer: *string,
@@ -3761,10 +3775,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.offer">Offer</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.publisher">Publisher</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.sku">Sku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.version">Version</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.offer">Offer</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.publisher">Publisher</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.sku">Sku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImage.property.version">Version</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}. |
 
 ---
 
@@ -3776,7 +3790,7 @@ Offer *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}.
 
 ---
 
@@ -3788,7 +3802,7 @@ Publisher *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}.
 
 ---
 
@@ -3800,7 +3814,7 @@ Sku *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
 
 ---
 
@@ -3812,7 +3826,7 @@ Version *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}.
 
 ---
 
@@ -3821,7 +3835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureImportVm {
 	OriginalVmName: *string,
@@ -3835,10 +3849,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.originalVmName">OriginalVmName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourcesRetentionTime">ResourcesRetentionTime</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.originalVmName">OriginalVmName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVm.property.resourcesRetentionTime">ResourcesRetentionTime</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}. |
 
 ---
 
@@ -3850,7 +3864,7 @@ OriginalVmName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}.
 
 ---
 
@@ -3862,7 +3876,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -3874,7 +3888,7 @@ DrainingTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
 
 ---
 
@@ -3886,7 +3900,7 @@ ResourcesRetentionTime *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}.
 
 ---
 
@@ -3895,7 +3909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureLoadBalancer {
 	BackendPoolNames: *[]*string,
@@ -3910,11 +3924,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.sku">Sku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.backendPoolNames">BackendPoolNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancer.property.sku">Sku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}. |
 
 ---
 
@@ -3926,7 +3940,7 @@ BackendPoolNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}.
 
 ---
 
@@ -3938,7 +3952,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -3950,7 +3964,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -3962,7 +3976,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -3974,7 +3988,7 @@ Sku *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}.
 
 ---
 
@@ -3983,7 +3997,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureLogin {
 	UserName: *string,
@@ -3996,9 +4010,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.userName">UserName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.userName">UserName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.password">Password</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLogin.property.sshPublicKey">SshPublicKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}. |
 
 ---
 
@@ -4010,7 +4024,7 @@ UserName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}.
 
 ---
 
@@ -4022,7 +4036,7 @@ Password *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}.
 
 ---
 
@@ -4034,7 +4048,7 @@ SshPublicKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}.
 
 ---
 
@@ -4043,7 +4057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureManagedServiceIdentities {
 	Name: *string,
@@ -4055,8 +4069,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentities.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
 
 ---
 
@@ -4068,7 +4082,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4080,7 +4094,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -4089,7 +4103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetwork {
 	NetworkInterface: interface{},
@@ -4103,8 +4117,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkInterface">NetworkInterface</a></code> | <code>interface{}</code> | network_interface block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetwork.property.virtualNetworkName">VirtualNetworkName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}. |
 
 ---
 
@@ -4118,7 +4132,7 @@ NetworkInterface interface{}
 
 network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
 
 ---
 
@@ -4130,7 +4144,7 @@ NetworkResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4142,7 +4156,7 @@ VirtualNetworkName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}.
 
 ---
 
@@ -4151,7 +4165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterface {
 	IsPrimary: interface{},
@@ -4171,16 +4185,16 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.isPrimary">IsPrimary</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.subnetName">SubnetName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.additionalIpConfigurations">AdditionalIpConfigurations</a></code> | <code>interface{}</code> | additional_ip_configurations block. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.applicationSecurityGroups">ApplicationSecurityGroups</a></code> | <code>interface{}</code> | application_security_groups block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.assignPublicIp">AssignPublicIp</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.enableIpForwarding">EnableIpForwarding</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.networkSecurityGroup">NetworkSecurityGroup</a></code> | <code>interface{}</code> | network_security_group block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.privateIpAddresses">PrivateIpAddresses</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIps">PublicIps</a></code> | <code>interface{}</code> | public_ips block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIpSku">PublicIpSku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterface.property.publicIpSku">PublicIpSku</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}. |
 
 ---
 
@@ -4192,7 +4206,7 @@ IsPrimary interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}.
 
 ---
 
@@ -4204,7 +4218,7 @@ SubnetName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}.
 
 ---
 
@@ -4218,7 +4232,7 @@ AdditionalIpConfigurations interface{}
 
 additional_ip_configurations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
 
 ---
 
@@ -4232,7 +4246,7 @@ ApplicationSecurityGroups interface{}
 
 application_security_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
 
 ---
 
@@ -4244,7 +4258,7 @@ AssignPublicIp interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}.
 
 ---
 
@@ -4256,7 +4270,7 @@ EnableIpForwarding interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}.
 
 ---
 
@@ -4270,7 +4284,7 @@ NetworkSecurityGroup interface{}
 
 network_security_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
 
 ---
 
@@ -4282,7 +4296,7 @@ PrivateIpAddresses *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}.
 
 ---
 
@@ -4296,7 +4310,7 @@ PublicIps interface{}
 
 public_ips block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
 
 ---
 
@@ -4308,7 +4322,7 @@ PublicIpSku *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}.
 
 ---
 
@@ -4317,7 +4331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations {
 	Name: *string,
@@ -4329,8 +4343,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.privateIpAddressVersion">PrivateIpAddressVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations.property.privateIpAddressVersion">PrivateIpAddressVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}. |
 
 ---
 
@@ -4342,7 +4356,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4354,7 +4368,7 @@ PrivateIpAddressVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}.
 
 ---
 
@@ -4363,7 +4377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups {
 	Name: *string,
@@ -4375,8 +4389,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4388,7 +4402,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4400,7 +4414,7 @@ NetworkResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4409,7 +4423,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup {
 	Name: *string,
@@ -4421,8 +4435,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4434,7 +4448,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4446,7 +4460,7 @@ NetworkResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4455,7 +4469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureNetworkNetworkInterfacePublicIps {
 	Name: *string,
@@ -4467,8 +4481,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIps.property.networkResourceGroupName">NetworkResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}. |
 
 ---
 
@@ -4480,7 +4494,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4492,7 +4506,7 @@ NetworkResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}.
 
 ---
 
@@ -4501,7 +4515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureOsDisk {
 	Type: *string,
@@ -4514,9 +4528,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.caching">Caching</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.caching">Caching</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDisk.property.sizeGb">SizeGb</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}. |
 
 ---
 
@@ -4528,7 +4542,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4540,7 +4554,7 @@ Caching *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}.
 
 ---
 
@@ -4552,7 +4566,7 @@ SizeGb *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}.
 
 ---
 
@@ -4561,7 +4575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureProximityPlacementGroups {
 	Name: *string,
@@ -4573,8 +4587,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroups.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroups.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroups.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroups.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
 
 ---
 
@@ -4586,7 +4600,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4598,7 +4612,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -4607,7 +4621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSchedulingTask {
 	CronExpression: *string,
@@ -4620,9 +4634,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTask.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -4634,7 +4648,7 @@ CronExpression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}.
 
 ---
 
@@ -4646,7 +4660,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}.
 
 ---
 
@@ -4658,7 +4672,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4667,7 +4681,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecret {
 	SourceVault: interface{},
@@ -4694,7 +4708,7 @@ SourceVault interface{}
 
 source_vault block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
 
 ---
 
@@ -4708,7 +4722,7 @@ VaultCertificates interface{}
 
 vault_certificates block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
 
 ---
 
@@ -4717,7 +4731,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecretSourceVault {
 	Name: *string,
@@ -4729,8 +4743,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVault.property.resourceGroupName">ResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}. |
 
 ---
 
@@ -4742,7 +4756,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}.
 
 ---
 
@@ -4754,7 +4768,7 @@ ResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}.
 
 ---
 
@@ -4763,7 +4777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecretVaultCertificates {
 	CertificateStore: *string,
@@ -4775,8 +4789,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateStore">CertificateStore</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateUrl">CertificateUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateStore">CertificateStore</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificates.property.certificateUrl">CertificateUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}. |
 
 ---
 
@@ -4788,7 +4802,7 @@ CertificateStore *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}.
 
 ---
 
@@ -4800,7 +4814,7 @@ CertificateUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}.
 
 ---
 
@@ -4809,7 +4823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSecurity {
 	ConfidentialOsDiskEncryption: interface{},
@@ -4824,11 +4838,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.confidentialOsDiskEncryption">ConfidentialOsDiskEncryption</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.encryptionAtHost">EncryptionAtHost</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.secureBootEnabled">SecureBootEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.securityType">SecurityType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.vtpmEnabled">VtpmEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.confidentialOsDiskEncryption">ConfidentialOsDiskEncryption</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.encryptionAtHost">EncryptionAtHost</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.secureBootEnabled">SecureBootEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.securityType">SecurityType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurity.property.vtpmEnabled">VtpmEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}. |
 
 ---
 
@@ -4840,7 +4854,7 @@ ConfidentialOsDiskEncryption interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}.
 
 ---
 
@@ -4852,7 +4866,7 @@ EncryptionAtHost interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}.
 
 ---
 
@@ -4864,7 +4878,7 @@ SecureBootEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}.
 
 ---
 
@@ -4876,7 +4890,7 @@ SecurityType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}.
 
 ---
 
@@ -4888,7 +4902,7 @@ VtpmEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}.
 
 ---
 
@@ -4897,7 +4911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureSignal {
 	Timeout: *f64,
@@ -4909,8 +4923,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.timeout">Timeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.timeout">Timeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignal.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}. |
 
 ---
 
@@ -4922,7 +4936,7 @@ Timeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}.
 
 ---
 
@@ -4934,7 +4948,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}.
 
 ---
 
@@ -4943,7 +4957,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategy {
 	FallbackToOnDemand: interface{},
@@ -4953,7 +4967,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 	OdWindows: *[]*string,
 	OptimizationWindows: *[]*string,
 	PreferredLifeCycle: *string,
-	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot,
+	RevertToSpot: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot,
 	VmAdmins: *[]*string,
 }
 ```
@@ -4962,15 +4976,15 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.fallbackToOnDemand">FallbackToOnDemand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.availabilityVsCost">AvailabilityVsCost</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.capacityReservation">CapacityReservation</a></code> | <code>interface{}</code> | capacity_reservation block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.odWindows">OdWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.optimizationWindows">OptimizationWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.preferredLifeCycle">PreferredLifeCycle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.odWindows">OdWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.optimizationWindows">OptimizationWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.preferredLifeCycle">PreferredLifeCycle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.revertToSpot">RevertToSpot</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot">StatefulNodeAzureStrategyRevertToSpot</a></code> | revert_to_spot block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.vmAdmins">VmAdmins</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategy.property.vmAdmins">VmAdmins</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}. |
 
 ---
 
@@ -4982,7 +4996,7 @@ FallbackToOnDemand interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}.
 
 ---
 
@@ -4994,7 +5008,7 @@ AvailabilityVsCost *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}.
 
 ---
 
@@ -5008,7 +5022,7 @@ CapacityReservation interface{}
 
 capacity_reservation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#capacity_reservation StatefulNodeAzure#capacity_reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#capacity_reservation StatefulNodeAzure#capacity_reservation}
 
 ---
 
@@ -5020,7 +5034,7 @@ DrainingTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}.
 
 ---
 
@@ -5032,7 +5046,7 @@ OdWindows *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}.
 
 ---
 
@@ -5044,7 +5058,7 @@ OptimizationWindows *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}.
 
 ---
 
@@ -5056,7 +5070,7 @@ PreferredLifeCycle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}.
 
 ---
 
@@ -5070,7 +5084,7 @@ RevertToSpot StatefulNodeAzureStrategyRevertToSpot
 
 revert_to_spot block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
 
 ---
 
@@ -5082,7 +5096,7 @@ VmAdmins *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}.
 
 ---
 
@@ -5091,7 +5105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategyCapacityReservation {
 	ShouldUtilize: interface{},
@@ -5104,8 +5118,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.property.shouldUtilize">ShouldUtilize</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.property.utilizationStrategy">UtilizationStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.property.shouldUtilize">ShouldUtilize</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.property.utilizationStrategy">UtilizationStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservation.property.capacityReservationGroups">CapacityReservationGroups</a></code> | <code>interface{}</code> | capacity_reservation_groups block. |
 
 ---
@@ -5118,7 +5132,7 @@ ShouldUtilize interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}.
 
 ---
 
@@ -5130,7 +5144,7 @@ UtilizationStrategy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}.
 
 ---
 
@@ -5144,7 +5158,7 @@ CapacityReservationGroups interface{}
 
 capacity_reservation_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#capacity_reservation_groups StatefulNodeAzure#capacity_reservation_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#capacity_reservation_groups StatefulNodeAzure#capacity_reservation_groups}
 
 ---
 
@@ -5153,7 +5167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups {
 	CrgName: *string,
@@ -5166,9 +5180,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgName">CrgName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgResourceGroupName">CrgResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgShouldPrioritize">CrgShouldPrioritize</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgName">CrgName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgResourceGroupName">CrgResourceGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups.property.crgShouldPrioritize">CrgShouldPrioritize</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}. |
 
 ---
 
@@ -5180,7 +5194,7 @@ CrgName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}.
 
 ---
 
@@ -5192,7 +5206,7 @@ CrgResourceGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}.
 
 ---
 
@@ -5204,7 +5218,7 @@ CrgShouldPrioritize interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}.
 
 ---
 
@@ -5213,7 +5227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureStrategyRevertToSpot {
 	PerformAt: *string,
@@ -5224,7 +5238,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.property.performAt">PerformAt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpot.property.performAt">PerformAt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}. |
 
 ---
 
@@ -5236,7 +5250,7 @@ PerformAt *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}.
 
 ---
 
@@ -5245,7 +5259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureTag {
 	TagKey: *string,
@@ -5257,8 +5271,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagKey">TagKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagValue">TagValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagKey">TagKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTag.property.tagValue">TagValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}. |
 
 ---
 
@@ -5270,7 +5284,7 @@ TagKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}.
 
 ---
 
@@ -5282,7 +5296,7 @@ TagValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}.
 
 ---
 
@@ -5291,7 +5305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureUpdateState {
 	State: *string,
@@ -5302,7 +5316,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateState.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}. |
 
 ---
 
@@ -5314,7 +5328,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}.
 
 ---
 
@@ -5323,13 +5337,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureVmSizes {
 	OdSizes: *[]*string,
 	ExcludedVmSizes: *[]*string,
 	PreferredSpotSizes: *[]*string,
-	SpotSizeAttributes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes,
+	SpotSizeAttributes: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes,
 	SpotSizes: *[]*string,
 }
 ```
@@ -5338,11 +5352,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.odSizes">OdSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.excludedVmSizes">ExcludedVmSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.odSizes">OdSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.excludedVmSizes">ExcludedVmSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.preferredSpotSizes">PreferredSpotSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.spotSizeAttributes">SpotSizeAttributes</a></code> | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes">StatefulNodeAzureVmSizesSpotSizeAttributes</a></code> | spot_size_attributes block. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.spotSizes">SpotSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizes.property.spotSizes">SpotSizes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}. |
 
 ---
 
@@ -5354,7 +5368,7 @@ OdSizes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}.
 
 ---
 
@@ -5366,7 +5380,7 @@ ExcludedVmSizes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}.
 
 ---
 
@@ -5378,7 +5392,7 @@ PreferredSpotSizes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}.
 
 ---
 
@@ -5392,7 +5406,7 @@ SpotSizeAttributes StatefulNodeAzureVmSizesSpotSizeAttributes
 
 spot_size_attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#spot_size_attributes StatefulNodeAzure#spot_size_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#spot_size_attributes StatefulNodeAzure#spot_size_attributes}
 
 ---
 
@@ -5404,7 +5418,7 @@ SpotSizes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}.
 
 ---
 
@@ -5413,7 +5427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 &statefulnodeazure.StatefulNodeAzureVmSizesSpotSizeAttributes {
 	MaxCpu: *f64,
@@ -5429,12 +5443,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxCpu">MaxCpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxMemory">MaxMemory</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxStorage">MaxStorage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minCpu">MinCpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minMemory">MinMemory</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}. |
-| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minStorage">MinStorage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxCpu">MaxCpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxMemory">MaxMemory</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.maxStorage">MaxStorage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minCpu">MinCpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minMemory">MinMemory</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributes.property.minStorage">MinStorage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}. |
 
 ---
 
@@ -5446,7 +5460,7 @@ MaxCpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}.
 
 ---
 
@@ -5458,7 +5472,7 @@ MaxMemory *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}.
 
 ---
 
@@ -5470,7 +5484,7 @@ MaxStorage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}.
 
 ---
 
@@ -5482,7 +5496,7 @@ MinCpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}.
 
 ---
 
@@ -5494,7 +5508,7 @@ MinMemory *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}.
 
 ---
 
@@ -5506,7 +5520,7 @@ MinStorage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.201.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.202.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}.
 
 ---
 
@@ -5517,7 +5531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureAttachDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureAttachDataDiskList
 ```
@@ -5677,7 +5691,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureAttachDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureAttachDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureAttachDataDiskOutputReference
 ```
@@ -6090,7 +6104,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureBootDiagnosticsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureBootDiagnosticsList
 ```
@@ -6250,7 +6264,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureBootDiagnosticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureBootDiagnosticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureBootDiagnosticsOutputReference
 ```
@@ -6604,7 +6618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDataDiskList
 ```
@@ -6764,7 +6778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDataDiskOutputReference
 ```
@@ -7097,7 +7111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDeleteList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDeleteList
 ```
@@ -7257,7 +7271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDeleteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDeleteOutputReference
 ```
@@ -7320,10 +7334,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetDiskShouldDeallocate">ResetDiskShouldDeallocate</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetDiskTtlInHours">ResetDiskTtlInHours</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetNetworkShouldDeallocate">ResetNetworkShouldDeallocate</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetNetworkTtlInHours">ResetNetworkTtlInHours</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetPublicIpShouldDeallocate">ResetPublicIpShouldDeallocate</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetPublicIpTtlInHours">ResetPublicIpTtlInHours</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetShouldDeregisterFromLb">ResetShouldDeregisterFromLb</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetShouldRevertToOd">ResetShouldRevertToOd</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetSnapshotShouldDeallocate">ResetSnapshotShouldDeallocate</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetSnapshotTtlInHours">ResetSnapshotTtlInHours</a></code> | *No description.* |
 
 ---
@@ -7478,16 +7497,34 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetDiskShouldDeallocate` <a name="ResetDiskShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetDiskShouldDeallocate"></a>
+
+```go
+func ResetDiskShouldDeallocate()
+```
+
 ##### `ResetDiskTtlInHours` <a name="ResetDiskTtlInHours" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetDiskTtlInHours"></a>
 
 ```go
 func ResetDiskTtlInHours()
 ```
 
+##### `ResetNetworkShouldDeallocate` <a name="ResetNetworkShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetNetworkShouldDeallocate"></a>
+
+```go
+func ResetNetworkShouldDeallocate()
+```
+
 ##### `ResetNetworkTtlInHours` <a name="ResetNetworkTtlInHours" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetNetworkTtlInHours"></a>
 
 ```go
 func ResetNetworkTtlInHours()
+```
+
+##### `ResetPublicIpShouldDeallocate` <a name="ResetPublicIpShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetPublicIpShouldDeallocate"></a>
+
+```go
+func ResetPublicIpShouldDeallocate()
 ```
 
 ##### `ResetPublicIpTtlInHours` <a name="ResetPublicIpTtlInHours" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetPublicIpTtlInHours"></a>
@@ -7500,6 +7537,18 @@ func ResetPublicIpTtlInHours()
 
 ```go
 func ResetShouldDeregisterFromLb()
+```
+
+##### `ResetShouldRevertToOd` <a name="ResetShouldRevertToOd" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetShouldRevertToOd"></a>
+
+```go
+func ResetShouldRevertToOd()
+```
+
+##### `ResetSnapshotShouldDeallocate` <a name="ResetSnapshotShouldDeallocate" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetSnapshotShouldDeallocate"></a>
+
+```go
+func ResetSnapshotShouldDeallocate()
 ```
 
 ##### `ResetSnapshotTtlInHours` <a name="ResetSnapshotTtlInHours" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.resetSnapshotTtlInHours"></a>
@@ -7522,6 +7571,7 @@ func ResetSnapshotTtlInHours()
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.publicIpShouldDeallocateInput">PublicIpShouldDeallocateInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.publicIpTtlInHoursInput">PublicIpTtlInHoursInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldDeregisterFromLbInput">ShouldDeregisterFromLbInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldRevertToOdInput">ShouldRevertToOdInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldTerminateVmInput">ShouldTerminateVmInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotShouldDeallocateInput">SnapshotShouldDeallocateInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotTtlInHoursInput">SnapshotTtlInHoursInput</a></code> | <code>*f64</code> | *No description.* |
@@ -7532,6 +7582,7 @@ func ResetSnapshotTtlInHours()
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.publicIpShouldDeallocate">PublicIpShouldDeallocate</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.publicIpTtlInHours">PublicIpTtlInHours</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldDeregisterFromLb">ShouldDeregisterFromLb</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldRevertToOd">ShouldRevertToOd</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldTerminateVm">ShouldTerminateVm</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotShouldDeallocate">SnapshotShouldDeallocate</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.snapshotTtlInHours">SnapshotTtlInHours</a></code> | <code>*f64</code> | *No description.* |
@@ -7627,6 +7678,16 @@ func PublicIpTtlInHoursInput() *f64
 
 ```go
 func ShouldDeregisterFromLbInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ShouldRevertToOdInput`<sup>Optional</sup> <a name="ShouldRevertToOdInput" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldRevertToOdInput"></a>
+
+```go
+func ShouldRevertToOdInput() interface{}
 ```
 
 - *Type:* interface{}
@@ -7733,6 +7794,16 @@ func ShouldDeregisterFromLb() interface{}
 
 ---
 
+##### `ShouldRevertToOd`<sup>Required</sup> <a name="ShouldRevertToOd" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldRevertToOd"></a>
+
+```go
+func ShouldRevertToOd() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `ShouldTerminateVm`<sup>Required</sup> <a name="ShouldTerminateVm" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDeleteOutputReference.property.shouldTerminateVm"></a>
 
 ```go
@@ -7779,7 +7850,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDetachDataDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureDetachDataDiskList
 ```
@@ -7939,7 +8010,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureDetachDataDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureDetachDataDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureDetachDataDiskOutputReference
 ```
@@ -8301,7 +8372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureExtensionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureExtensionList
 ```
@@ -8461,7 +8532,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureExtensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureExtensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureExtensionOutputReference
 ```
@@ -8896,7 +8967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureHealthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureHealthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureHealthOutputReference
 ```
@@ -9247,7 +9318,7 @@ func InternalValue() StatefulNodeAzureHealth
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageCustomImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageCustomImageList
 ```
@@ -9407,7 +9478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageCustomImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageCustomImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageCustomImageOutputReference
 ```
@@ -9718,7 +9789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageGalleryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageGalleryList
 ```
@@ -9878,7 +9949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageGalleryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageGalleryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageGalleryOutputReference
 ```
@@ -10262,7 +10333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageMarketplaceImageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImageMarketplaceImageList
 ```
@@ -10422,7 +10493,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageMarketplaceImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageMarketplaceImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImageMarketplaceImageOutputReference
 ```
@@ -10777,7 +10848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureImageOutputReference
 ```
@@ -11152,7 +11223,7 @@ func InternalValue() StatefulNodeAzureImage
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImportVmList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureImportVmList
 ```
@@ -11312,7 +11383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureImportVmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureImportVmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureImportVmOutputReference
 ```
@@ -11681,7 +11752,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureLoadBalancerList
 ```
@@ -11841,7 +11912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureLoadBalancerOutputReference
 ```
@@ -12225,7 +12296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureLoginOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureLoginOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureLoginOutputReference
 ```
@@ -12554,7 +12625,7 @@ func InternalValue() StatefulNodeAzureLogin
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureManagedServiceIdentitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureManagedServiceIdentitiesList
 ```
@@ -12714,7 +12785,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureManagedServiceIdentitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureManagedServiceIdentitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureManagedServiceIdentitiesOutputReference
 ```
@@ -13025,7 +13096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsList
 ```
@@ -13185,7 +13256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsOutputReference
 ```
@@ -13496,7 +13567,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsList
 ```
@@ -13656,7 +13727,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsOutputReference
 ```
@@ -13967,7 +14038,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceList
 ```
@@ -14127,7 +14198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList
 ```
@@ -14287,7 +14358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupOutputReference
 ```
@@ -14612,7 +14683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfaceOutputReference
 ```
@@ -15207,7 +15278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfacePublicIpsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureNetworkNetworkInterfacePublicIpsList
 ```
@@ -15367,7 +15438,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureNetworkNetworkInterfacePublicIpsOutputReference
 ```
@@ -15678,7 +15749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureNetworkOutputReference
 ```
@@ -16006,7 +16077,7 @@ func InternalValue() StatefulNodeAzureNetwork
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureOsDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureOsDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureOsDiskOutputReference
 ```
@@ -16335,7 +16406,7 @@ func InternalValue() StatefulNodeAzureOsDisk
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureProximityPlacementGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureProximityPlacementGroupsList
 ```
@@ -16495,7 +16566,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureProximityPlacementGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureProximityPlacementGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureProximityPlacementGroupsOutputReference
 ```
@@ -16806,7 +16877,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSchedulingTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSchedulingTaskList
 ```
@@ -16966,7 +17037,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSchedulingTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSchedulingTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSchedulingTaskOutputReference
 ```
@@ -17299,7 +17370,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretList
 ```
@@ -17459,7 +17530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretOutputReference
 ```
@@ -17796,7 +17867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretSourceVaultList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretSourceVaultList
 ```
@@ -17956,7 +18027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretSourceVaultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretSourceVaultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretSourceVaultOutputReference
 ```
@@ -18267,7 +18338,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretVaultCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSecretVaultCertificatesList
 ```
@@ -18427,7 +18498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecretVaultCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecretVaultCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSecretVaultCertificatesOutputReference
 ```
@@ -18752,7 +18823,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSecurityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSecurityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureSecurityOutputReference
 ```
@@ -19146,7 +19217,7 @@ func InternalValue() StatefulNodeAzureSecurity
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSignalList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureSignalList
 ```
@@ -19306,7 +19377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureSignalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureSignalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureSignalOutputReference
 ```
@@ -19617,7 +19688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsList
 ```
@@ -19777,7 +19848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroupsOutputReference
 ```
@@ -20117,7 +20188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyCapacityReservationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureStrategyCapacityReservationList
 ```
@@ -20277,7 +20348,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyCapacityReservationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyCapacityReservationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureStrategyCapacityReservationOutputReference
 ```
@@ -20630,7 +20701,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureStrategyOutputReference
 ```
@@ -21159,7 +21230,7 @@ func InternalValue() StatefulNodeAzureStrategy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureStrategyRevertToSpotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureStrategyRevertToSpotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureStrategyRevertToSpotOutputReference
 ```
@@ -21430,7 +21501,7 @@ func InternalValue() StatefulNodeAzureStrategyRevertToSpot
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureTagList
 ```
@@ -21590,7 +21661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureTagOutputReference
 ```
@@ -21908,7 +21979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureUpdateStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StatefulNodeAzureUpdateStateList
 ```
@@ -22068,7 +22139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureUpdateStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureUpdateStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StatefulNodeAzureUpdateStateOutputReference
 ```
@@ -22357,7 +22428,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureVmSizesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureVmSizesOutputReference
 ```
@@ -22757,7 +22828,7 @@ func InternalValue() StatefulNodeAzureVmSizes
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.statefulNodeAzure.StatefulNodeAzureVmSizesSpotSizeAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/statefulnodeazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/statefulnodeazure"
 
 statefulnodeazure.NewStatefulNodeAzureVmSizesSpotSizeAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) StatefulNodeAzureVmSizesSpotSizeAttributesOutputReference
 ```
