@@ -4,12 +4,12 @@
 
 ### OceancdStrategy <a name="OceancdStrategy" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategy(scope Construct, id *string, config OceancdStrategyConfig) OceancdStrategy
 ```
@@ -425,7 +425,7 @@ func ResetRolling()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.OceancdStrategy_IsConstruct(x interface{}) *bool
 ```
@@ -457,7 +457,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.OceancdStrategy_IsTerraformElement(x interface{}) *bool
 ```
@@ -471,7 +471,7 @@ oceancdstrategy.OceancdStrategy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.OceancdStrategy_IsTerraformResource(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ oceancdstrategy.OceancdStrategy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.OceancdStrategy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -514,7 +514,7 @@ The construct id used in the generated config for the OceancdStrategy to import.
 
 The id of the existing OceancdStrategy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,11 +802,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanary.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanary {
 	Steps: interface{},
-	BackgroundVerification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryBackgroundVerification,
+	BackgroundVerification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryBackgroundVerification,
 }
 ```
 
@@ -829,7 +829,7 @@ Steps interface{}
 
 steps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
 
 ---
 
@@ -843,7 +843,7 @@ BackgroundVerification OceancdStrategyCanaryBackgroundVerification
 
 background_verification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#background_verification OceancdStrategy#background_verification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#background_verification OceancdStrategy#background_verification}
 
 ---
 
@@ -852,7 +852,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryBackgroundVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryBackgroundVerification {
 	TemplateNames: *[]*string,
@@ -863,7 +863,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryBackgroundVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryBackgroundVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
 
 ---
 
@@ -875,7 +875,7 @@ TemplateNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
 
 ---
 
@@ -884,15 +884,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanarySteps {
-	Pause: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryStepsPause,
-	SetCanaryScale: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale,
-	SetHeaderRoute: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute,
+	Pause: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPause,
+	SetCanaryScale: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale,
+	SetHeaderRoute: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute,
 	SetWeight: *f64,
 	StepName: *string,
-	Verification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryStepsVerification,
+	Verification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerification,
 }
 ```
 
@@ -903,8 +903,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.pause">Pause</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPause">OceancdStrategyCanaryStepsPause</a></code> | pause block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.setCanaryScale">SetCanaryScale</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale">OceancdStrategyCanaryStepsSetCanaryScale</a></code> | set_canary_scale block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.setHeaderRoute">SetHeaderRoute</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute">OceancdStrategyCanaryStepsSetHeaderRoute</a></code> | set_header_route block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.setWeight">SetWeight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.stepName">StepName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.setWeight">SetWeight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.stepName">StepName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanarySteps.property.verification">Verification</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerification">OceancdStrategyCanaryStepsVerification</a></code> | verification block. |
 
 ---
@@ -919,7 +919,7 @@ Pause OceancdStrategyCanaryStepsPause
 
 pause block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
 
 ---
 
@@ -933,7 +933,7 @@ SetCanaryScale OceancdStrategyCanaryStepsSetCanaryScale
 
 set_canary_scale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#set_canary_scale OceancdStrategy#set_canary_scale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#set_canary_scale OceancdStrategy#set_canary_scale}
 
 ---
 
@@ -947,7 +947,7 @@ SetHeaderRoute OceancdStrategyCanaryStepsSetHeaderRoute
 
 set_header_route block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#set_header_route OceancdStrategy#set_header_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#set_header_route OceancdStrategy#set_header_route}
 
 ---
 
@@ -959,7 +959,7 @@ SetWeight *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}.
 
 ---
 
@@ -971,7 +971,7 @@ StepName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}.
 
 ---
 
@@ -985,7 +985,7 @@ Verification OceancdStrategyCanaryStepsVerification
 
 verification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
 
 ---
 
@@ -994,7 +994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPause.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsPause {
 	Duration: *string,
@@ -1005,7 +1005,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPause.property.duration">Duration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPause.property.duration">Duration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}. |
 
 ---
 
@@ -1017,7 +1017,7 @@ Duration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}.
 
 ---
 
@@ -1026,7 +1026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsSetCanaryScale {
 	MatchTrafficWeight: interface{},
@@ -1039,9 +1039,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.matchTrafficWeight">MatchTrafficWeight</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.replicas">Replicas</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.matchTrafficWeight">MatchTrafficWeight</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.replicas">Replicas</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScale.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}. |
 
 ---
 
@@ -1053,7 +1053,7 @@ MatchTrafficWeight interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}.
 
 ---
 
@@ -1065,7 +1065,7 @@ Replicas *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}.
 
 ---
 
@@ -1077,7 +1077,7 @@ Weight *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsSetHeaderRoute {
 	HeaderRouteName: *string,
@@ -1098,7 +1098,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute.property.headerRouteName">HeaderRouteName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute.property.headerRouteName">HeaderRouteName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRoute.property.match">Match</a></code> | <code>interface{}</code> | match block. |
 
 ---
@@ -1111,7 +1111,7 @@ HeaderRouteName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}.
 
 ---
 
@@ -1125,7 +1125,7 @@ Match interface{}
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#match OceancdStrategy#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#match OceancdStrategy#match}
 
 ---
 
@@ -1134,11 +1134,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatch {
 	HeaderName: *string,
-	HeaderValue: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue,
+	HeaderValue: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue,
 }
 ```
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatch.property.headerName">HeaderName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatch.property.headerName">HeaderName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatch.property.headerValue">HeaderValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue">OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue</a></code> | header_value block. |
 
 ---
@@ -1159,7 +1159,7 @@ HeaderName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}.
 
 ---
 
@@ -1173,7 +1173,7 @@ HeaderValue OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue
 
 header_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#header_value OceancdStrategy#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#header_value OceancdStrategy#header_value}
 
 ---
 
@@ -1182,7 +1182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue {
 	Exact: *string,
@@ -1195,9 +1195,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.exact">Exact</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.regex">Regex</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.exact">Exact</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue.property.regex">Regex</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}. |
 
 ---
 
@@ -1209,7 +1209,7 @@ Exact *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}.
 
 ---
 
@@ -1221,7 +1221,7 @@ Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}.
 
 ---
 
@@ -1233,7 +1233,7 @@ Regex *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}.
 
 ---
 
@@ -1242,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyCanaryStepsVerification {
 	TemplateNames: *[]*string,
@@ -1253,7 +1253,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
 
 ---
 
@@ -1265,7 +1265,7 @@ TemplateNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
 
 ---
 
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyConfig {
 	Connection: interface{},
@@ -1285,9 +1285,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	StrategyName: *string,
-	Canary: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyCanary,
+	Canary: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyCanary,
 	Id: *string,
-	Rolling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyRolling,
+	Rolling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyRolling,
 }
 ```
 
@@ -1302,9 +1302,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.strategyName">StrategyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.strategyName">StrategyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.canary">Canary</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanary">OceancdStrategyCanary</a></code> | canary block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyConfig.property.rolling">Rolling</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRolling">OceancdStrategyRolling</a></code> | rolling block. |
 
 ---
@@ -1387,7 +1387,7 @@ StrategyName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}.
 
 ---
 
@@ -1401,7 +1401,7 @@ Canary OceancdStrategyCanary
 
 canary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#canary OceancdStrategy#canary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#canary OceancdStrategy#canary}
 
 ---
 
@@ -1413,7 +1413,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1430,7 +1430,7 @@ Rolling OceancdStrategyRolling
 
 rolling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#rolling OceancdStrategy#rolling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#rolling OceancdStrategy#rolling}
 
 ---
 
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRolling.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyRolling {
 	Steps: interface{},
@@ -1464,7 +1464,7 @@ Steps interface{}
 
 steps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
 
 ---
 
@@ -1473,12 +1473,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyRollingSteps {
-	Pause: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyRollingStepsPause,
+	Pause: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyRollingStepsPause,
 	StepsName: *string,
-	Verification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdStrategy.OceancdStrategyRollingStepsVerification,
+	Verification: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerification,
 }
 ```
 
@@ -1487,7 +1487,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingSteps.property.pause">Pause</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsPause">OceancdStrategyRollingStepsPause</a></code> | pause block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingSteps.property.stepsName">StepsName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingSteps.property.stepsName">StepsName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingSteps.property.verification">Verification</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerification">OceancdStrategyRollingStepsVerification</a></code> | verification block. |
 
 ---
@@ -1502,7 +1502,7 @@ Pause OceancdStrategyRollingStepsPause
 
 pause block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
 
 ---
 
@@ -1514,7 +1514,7 @@ StepsName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}.
 
 ---
 
@@ -1528,7 +1528,7 @@ Verification OceancdStrategyRollingStepsVerification
 
 verification block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
 
 ---
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsPause.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyRollingStepsPause {
 	Duration: *string,
@@ -1548,7 +1548,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsPause.property.duration">Duration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsPause.property.duration">Duration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}. |
 
 ---
 
@@ -1560,7 +1560,7 @@ Duration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}.
 
 ---
 
@@ -1569,7 +1569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 &oceancdstrategy.OceancdStrategyRollingStepsVerification {
 	TemplateNames: *[]*string,
@@ -1580,7 +1580,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerification.property.templateNames">TemplateNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}. |
 
 ---
 
@@ -1592,7 +1592,7 @@ TemplateNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.203.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.204.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}.
 
 ---
 
@@ -1603,7 +1603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryBackgroundVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryBackgroundVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryBackgroundVerificationOutputReference
 ```
@@ -1874,7 +1874,7 @@ func InternalValue() OceancdStrategyCanaryBackgroundVerification
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryOutputReference
 ```
@@ -2200,7 +2200,7 @@ func InternalValue() OceancdStrategyCanary
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdStrategyCanaryStepsList
 ```
@@ -2360,7 +2360,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdStrategyCanaryStepsOutputReference
 ```
@@ -2853,7 +2853,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsPauseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsPauseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryStepsPauseOutputReference
 ```
@@ -3131,7 +3131,7 @@ func InternalValue() OceancdStrategyCanaryStepsPause
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetCanaryScaleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsSetCanaryScaleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryStepsSetCanaryScaleOutputReference
 ```
@@ -3467,7 +3467,7 @@ func InternalValue() OceancdStrategyCanaryStepsSetCanaryScale
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValueOutputReference
 ```
@@ -3803,7 +3803,7 @@ func InternalValue() OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsSetHeaderRouteMatchList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdStrategyCanaryStepsSetHeaderRouteMatchList
 ```
@@ -3963,7 +3963,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsSetHeaderRouteMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdStrategyCanaryStepsSetHeaderRouteMatchOutputReference
 ```
@@ -4287,7 +4287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsSetHeaderRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsSetHeaderRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryStepsSetHeaderRouteOutputReference
 ```
@@ -4593,7 +4593,7 @@ func InternalValue() OceancdStrategyCanaryStepsSetHeaderRoute
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyCanaryStepsVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyCanaryStepsVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyCanaryStepsVerificationOutputReference
 ```
@@ -4864,7 +4864,7 @@ func InternalValue() OceancdStrategyCanaryStepsVerification
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyRollingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyRollingOutputReference
 ```
@@ -5148,7 +5148,7 @@ func InternalValue() OceancdStrategyRolling
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyRollingStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdStrategyRollingStepsList
 ```
@@ -5308,7 +5308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyRollingStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdStrategyRollingStepsOutputReference
 ```
@@ -5688,7 +5688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsPauseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyRollingStepsPauseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyRollingStepsPauseOutputReference
 ```
@@ -5966,7 +5966,7 @@ func InternalValue() OceancdStrategyRollingStepsPause
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdStrategy.OceancdStrategyRollingStepsVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdstrategy"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdstrategy"
 
 oceancdstrategy.NewOceancdStrategyRollingStepsVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdStrategyRollingStepsVerificationOutputReference
 ```
