@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/spotinst/spotinst/1.205.0/docs/resources/elastigroup_azure_v3
 // generated from terraform resource schema
 
