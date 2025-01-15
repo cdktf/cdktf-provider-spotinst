@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np
+// https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,152 +13,164 @@ import * as cdktf from 'cdktf';
 
 export interface OceanAksNpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#aks_cluster_name OceanAksNp#aks_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#aks_cluster_name OceanAksNp#aks_cluster_name}
   */
   readonly aksClusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#aks_infrastructure_resource_group_name OceanAksNp#aks_infrastructure_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#aks_infrastructure_resource_group_name OceanAksNp#aks_infrastructure_resource_group_name}
   */
   readonly aksInfrastructureResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#aks_region OceanAksNp#aks_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#aks_region OceanAksNp#aks_region}
   */
   readonly aksRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#aks_resource_group_name OceanAksNp#aks_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#aks_resource_group_name OceanAksNp#aks_resource_group_name}
   */
   readonly aksResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#availability_zones OceanAksNp#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#availability_zones OceanAksNp#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#controller_cluster_id OceanAksNp#controller_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#controller_cluster_id OceanAksNp#controller_cluster_id}
   */
   readonly controllerClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#enable_node_public_ip OceanAksNp#enable_node_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#enable_node_public_ip OceanAksNp#enable_node_public_ip}
   */
   readonly enableNodePublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#fallback_to_ondemand OceanAksNp#fallback_to_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#fallback_to_ondemand OceanAksNp#fallback_to_ondemand}
   */
   readonly fallbackToOndemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#id OceanAksNp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#id OceanAksNp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#kubernetes_version OceanAksNp#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#kubernetes_version OceanAksNp#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#labels OceanAksNp#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#labels OceanAksNp#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_count OceanAksNp#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_count OceanAksNp#max_count}
   */
   readonly maxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_pods_per_node OceanAksNp#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_pods_per_node OceanAksNp#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_count OceanAksNp#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_count OceanAksNp#min_count}
   */
   readonly minCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#name OceanAksNp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#name OceanAksNp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#os_disk_size_gb OceanAksNp#os_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#os_disk_size_gb OceanAksNp#os_disk_size_gb}
   */
   readonly osDiskSizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#os_disk_type OceanAksNp#os_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#os_disk_type OceanAksNp#os_disk_type}
   */
   readonly osDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#os_sku OceanAksNp#os_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#os_sku OceanAksNp#os_sku}
   */
   readonly osSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#os_type OceanAksNp#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#os_type OceanAksNp#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#pod_subnet_ids OceanAksNp#pod_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#pod_subnet_ids OceanAksNp#pod_subnet_ids}
   */
   readonly podSubnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#spot_percentage OceanAksNp#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#spot_percentage OceanAksNp#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#tags OceanAksNp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#tags OceanAksNp#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#vnet_subnet_ids OceanAksNp#vnet_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vnet_subnet_ids OceanAksNp#vnet_subnet_ids}
   */
   readonly vnetSubnetIds?: string[];
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#autoscaler OceanAksNp#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#autoscaler OceanAksNp#autoscaler}
   */
   readonly autoscaler?: OceanAksNpAutoscaler;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#filters OceanAksNp#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#filters OceanAksNp#filters}
   */
   readonly filters?: OceanAksNpFilters;
   /**
   * headrooms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#headrooms OceanAksNp#headrooms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#headrooms OceanAksNp#headrooms}
   */
   readonly headrooms?: OceanAksNpHeadrooms[] | cdktf.IResolvable;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#health OceanAksNp#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#health OceanAksNp#health}
   */
   readonly health?: OceanAksNpHealth;
   /**
   * linux_os_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#linux_os_config OceanAksNp#linux_os_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#linux_os_config OceanAksNp#linux_os_config}
   */
   readonly linuxOsConfig?: OceanAksNpLinuxOsConfig[] | cdktf.IResolvable;
   /**
+  * logging block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#logging OceanAksNp#logging}
+  */
+  readonly logging?: OceanAksNpLogging;
+  /**
   * scheduling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#scheduling OceanAksNp#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#scheduling OceanAksNp#scheduling}
   */
   readonly scheduling?: OceanAksNpScheduling;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#taints OceanAksNp#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#taints OceanAksNp#taints}
   */
   readonly taints?: OceanAksNpTaints[] | cdktf.IResolvable;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#update_policy OceanAksNp#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#update_policy OceanAksNp#update_policy}
   */
   readonly updatePolicy?: OceanAksNpUpdatePolicy;
+  /**
+  * vng_template_scheduling block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vng_template_scheduling OceanAksNp#vng_template_scheduling}
+  */
+  readonly vngTemplateScheduling?: OceanAksNpVngTemplateScheduling;
 }
 export interface OceanAksNpAutoscalerAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_scale_down_percentage OceanAksNp#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_scale_down_percentage OceanAksNp#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -242,11 +254,11 @@ export class OceanAksNpAutoscalerAutoscaleDownOutputReference extends cdktf.Comp
 }
 export interface OceanAksNpAutoscalerAutoscaleHeadroomAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#percentage OceanAksNp#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#percentage OceanAksNp#percentage}
   */
   readonly percentage?: number;
 }
@@ -361,7 +373,7 @@ export interface OceanAksNpAutoscalerAutoscaleHeadroom {
   /**
   * automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#automatic OceanAksNp#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#automatic OceanAksNp#automatic}
   */
   readonly automatic?: OceanAksNpAutoscalerAutoscaleHeadroomAutomatic;
 }
@@ -445,11 +457,11 @@ export class OceanAksNpAutoscalerAutoscaleHeadroomOutputReference extends cdktf.
 }
 export interface OceanAksNpAutoscalerResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
   */
   readonly maxVcpu?: number;
 }
@@ -562,25 +574,25 @@ export class OceanAksNpAutoscalerResourceLimitsOutputReference extends cdktf.Com
 }
 export interface OceanAksNpAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#autoscale_is_enabled OceanAksNp#autoscale_is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#autoscale_is_enabled OceanAksNp#autoscale_is_enabled}
   */
   readonly autoscaleIsEnabled?: boolean | cdktf.IResolvable;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#autoscale_down OceanAksNp#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#autoscale_down OceanAksNp#autoscale_down}
   */
   readonly autoscaleDown?: OceanAksNpAutoscalerAutoscaleDown;
   /**
   * autoscale_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#autoscale_headroom OceanAksNp#autoscale_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#autoscale_headroom OceanAksNp#autoscale_headroom}
   */
   readonly autoscaleHeadroom?: OceanAksNpAutoscalerAutoscaleHeadroom;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#resource_limits OceanAksNp#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#resource_limits OceanAksNp#resource_limits}
   */
   readonly resourceLimits?: OceanAksNpAutoscalerResourceLimits;
 }
@@ -751,63 +763,63 @@ export class OceanAksNpAutoscalerOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#accelerated_networking OceanAksNp#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#accelerated_networking OceanAksNp#accelerated_networking}
   */
   readonly acceleratedNetworking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#architectures OceanAksNp#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#architectures OceanAksNp#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#disk_performance OceanAksNp#disk_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#disk_performance OceanAksNp#disk_performance}
   */
   readonly diskPerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#exclude_series OceanAksNp#exclude_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#exclude_series OceanAksNp#exclude_series}
   */
   readonly excludeSeries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#gpu_types OceanAksNp#gpu_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#gpu_types OceanAksNp#gpu_types}
   */
   readonly gpuTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_gpu OceanAksNp#max_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_gpu OceanAksNp#max_gpu}
   */
   readonly maxGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_memory_gib OceanAksNp#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#max_vcpu OceanAksNp#max_vcpu}
   */
   readonly maxVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_disk OceanAksNp#min_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_disk OceanAksNp#min_disk}
   */
   readonly minDisk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_gpu OceanAksNp#min_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_gpu OceanAksNp#min_gpu}
   */
   readonly minGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_memory_gib OceanAksNp#min_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_memory_gib OceanAksNp#min_memory_gib}
   */
   readonly minMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_nics OceanAksNp#min_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_nics OceanAksNp#min_nics}
   */
   readonly minNics?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#min_vcpu OceanAksNp#min_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#min_vcpu OceanAksNp#min_vcpu}
   */
   readonly minVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#series OceanAksNp#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#series OceanAksNp#series}
   */
   readonly series?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#vm_types OceanAksNp#vm_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vm_types OceanAksNp#vm_types}
   */
   readonly vmTypes?: string[];
 }
@@ -1297,19 +1309,19 @@ export class OceanAksNpFiltersOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpHeadrooms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#cpu_per_unit OceanAksNp#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#cpu_per_unit OceanAksNp#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#gpu_per_unit OceanAksNp#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#gpu_per_unit OceanAksNp#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#memory_per_unit OceanAksNp#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#memory_per_unit OceanAksNp#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#num_of_units OceanAksNp#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#num_of_units OceanAksNp#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -1512,7 +1524,7 @@ export class OceanAksNpHeadroomsList extends cdktf.ComplexList {
 }
 export interface OceanAksNpHealth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#grace_period OceanAksNp#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#grace_period OceanAksNp#grace_period}
   */
   readonly gracePeriod?: number;
 }
@@ -1596,7 +1608,7 @@ export class OceanAksNpHealthOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpLinuxOsConfigSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#vm_max_map_count OceanAksNp#vm_max_map_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vm_max_map_count OceanAksNp#vm_max_map_count}
   */
   readonly vmMaxMapCount?: number;
 }
@@ -1714,7 +1726,7 @@ export interface OceanAksNpLinuxOsConfig {
   /**
   * sysctls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#sysctls OceanAksNp#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#sysctls OceanAksNp#sysctls}
   */
   readonly sysctls?: OceanAksNpLinuxOsConfigSysctls[] | cdktf.IResolvable;
 }
@@ -1828,13 +1840,304 @@ export class OceanAksNpLinuxOsConfigList extends cdktf.ComplexList {
     return new OceanAksNpLinuxOsConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OceanAksNpLoggingExportAzureBlob {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#id OceanAksNp#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function oceanAksNpLoggingExportAzureBlobToTerraform(struct?: OceanAksNpLoggingExportAzureBlob | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function oceanAksNpLoggingExportAzureBlobToHclTerraform(struct?: OceanAksNpLoggingExportAzureBlob | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpLoggingExportAzureBlobOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OceanAksNpLoggingExportAzureBlob | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpLoggingExportAzureBlob | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+    }
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class OceanAksNpLoggingExportAzureBlobList extends cdktf.ComplexList {
+  public internalValue? : OceanAksNpLoggingExportAzureBlob[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OceanAksNpLoggingExportAzureBlobOutputReference {
+    return new OceanAksNpLoggingExportAzureBlobOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OceanAksNpLoggingExport {
+  /**
+  * azure_blob block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#azure_blob OceanAksNp#azure_blob}
+  */
+  readonly azureBlob?: OceanAksNpLoggingExportAzureBlob[] | cdktf.IResolvable;
+}
+
+export function oceanAksNpLoggingExportToTerraform(struct?: OceanAksNpLoggingExportOutputReference | OceanAksNpLoggingExport): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    azure_blob: cdktf.listMapper(oceanAksNpLoggingExportAzureBlobToTerraform, true)(struct!.azureBlob),
+  }
+}
+
+
+export function oceanAksNpLoggingExportToHclTerraform(struct?: OceanAksNpLoggingExportOutputReference | OceanAksNpLoggingExport): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    azure_blob: {
+      value: cdktf.listMapperHcl(oceanAksNpLoggingExportAzureBlobToHclTerraform, true)(struct!.azureBlob),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpLoggingExportAzureBlobList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpLoggingExportOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpLoggingExport | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._azureBlob?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azureBlob = this._azureBlob?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpLoggingExport | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._azureBlob.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._azureBlob.internalValue = value.azureBlob;
+    }
+  }
+
+  // azure_blob - computed: false, optional: true, required: false
+  private _azureBlob = new OceanAksNpLoggingExportAzureBlobList(this, "azure_blob", false);
+  public get azureBlob() {
+    return this._azureBlob;
+  }
+  public putAzureBlob(value: OceanAksNpLoggingExportAzureBlob[] | cdktf.IResolvable) {
+    this._azureBlob.internalValue = value;
+  }
+  public resetAzureBlob() {
+    this._azureBlob.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azureBlobInput() {
+    return this._azureBlob.internalValue;
+  }
+}
+export interface OceanAksNpLogging {
+  /**
+  * export block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#export OceanAksNp#export}
+  */
+  readonly export?: OceanAksNpLoggingExport;
+}
+
+export function oceanAksNpLoggingToTerraform(struct?: OceanAksNpLoggingOutputReference | OceanAksNpLogging): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    export: oceanAksNpLoggingExportToTerraform(struct!.export),
+  }
+}
+
+
+export function oceanAksNpLoggingToHclTerraform(struct?: OceanAksNpLoggingOutputReference | OceanAksNpLogging): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    export: {
+      value: oceanAksNpLoggingExportToHclTerraform(struct!.export),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpLoggingExportList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpLoggingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpLogging | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._export?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.export = this._export?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpLogging | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._export.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._export.internalValue = value.export;
+    }
+  }
+
+  // export - computed: false, optional: true, required: false
+  private _export = new OceanAksNpLoggingExportOutputReference(this, "export");
+  public get export() {
+    return this._export;
+  }
+  public putExport(value: OceanAksNpLoggingExport) {
+    this._export.internalValue = value;
+  }
+  public resetExport() {
+    this._export.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exportInput() {
+    return this._export.internalValue;
+  }
+}
 export interface OceanAksNpSchedulingShutdownHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
   */
   readonly timeWindows?: string[];
 }
@@ -1945,29 +2248,146 @@ export class OceanAksNpSchedulingShutdownHoursOutputReference extends cdktf.Comp
     return this._timeWindows;
   }
 }
+export interface OceanAksNpSchedulingSuspensionHours {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  */
+  readonly isEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
+  */
+  readonly timeWindows?: string[];
+}
+
+export function oceanAksNpSchedulingSuspensionHoursToTerraform(struct?: OceanAksNpSchedulingSuspensionHoursOutputReference | OceanAksNpSchedulingSuspensionHours): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
+  }
+}
+
+
+export function oceanAksNpSchedulingSuspensionHoursToHclTerraform(struct?: OceanAksNpSchedulingSuspensionHoursOutputReference | OceanAksNpSchedulingSuspensionHours): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    time_windows: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.timeWindows),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpSchedulingSuspensionHoursOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpSchedulingSuspensionHours | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._timeWindows !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeWindows = this._timeWindows;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpSchedulingSuspensionHours | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._isEnabled = undefined;
+      this._timeWindows = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._isEnabled = value.isEnabled;
+      this._timeWindows = value.timeWindows;
+    }
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // time_windows - computed: false, optional: true, required: false
+  private _timeWindows?: string[]; 
+  public get timeWindows() {
+    return this.getListAttribute('time_windows');
+  }
+  public set timeWindows(value: string[]) {
+    this._timeWindows = value;
+  }
+  public resetTimeWindows() {
+    this._timeWindows = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeWindowsInput() {
+    return this._timeWindows;
+  }
+}
 export interface OceanAksNpSchedulingTasksParametersParametersClusterRoll {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#batch_min_healthy_percentage OceanAksNp#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_min_healthy_percentage OceanAksNp#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#batch_size_percentage OceanAksNp#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_size_percentage OceanAksNp#batch_size_percentage}
   */
   readonly batchSizePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#comment OceanAksNp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#comment OceanAksNp#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#respect_pdb OceanAksNp#respect_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_pdb OceanAksNp#respect_pdb}
   */
   readonly respectPdb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#respect_restrict_scale_down OceanAksNp#respect_restrict_scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_restrict_scale_down OceanAksNp#respect_restrict_scale_down}
   */
   readonly respectRestrictScaleDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#vng_ids OceanAksNp#vng_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vng_ids OceanAksNp#vng_ids}
   */
   readonly vngIds?: string[];
 }
@@ -2194,13 +2614,387 @@ export class OceanAksNpSchedulingTasksParametersParametersClusterRollOutputRefer
     return this._vngIds;
   }
 }
+export interface OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_min_healthy_percentage OceanAksNp#batch_min_healthy_percentage}
+  */
+  readonly batchMinHealthyPercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_size_percentage OceanAksNp#batch_size_percentage}
+  */
+  readonly batchSizePercentage?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#comment OceanAksNp#comment}
+  */
+  readonly comment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_pdb OceanAksNp#respect_pdb}
+  */
+  readonly respectPdb?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_restrict_scale_down OceanAksNp#respect_restrict_scale_down}
+  */
+  readonly respectRestrictScaleDown?: boolean | cdktf.IResolvable;
+}
+
+export function oceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersToTerraform(struct?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference | OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    batch_min_healthy_percentage: cdktf.numberToTerraform(struct!.batchMinHealthyPercentage),
+    batch_size_percentage: cdktf.numberToTerraform(struct!.batchSizePercentage),
+    comment: cdktf.stringToTerraform(struct!.comment),
+    respect_pdb: cdktf.booleanToTerraform(struct!.respectPdb),
+    respect_restrict_scale_down: cdktf.booleanToTerraform(struct!.respectRestrictScaleDown),
+  }
+}
+
+
+export function oceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersToHclTerraform(struct?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference | OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    batch_min_healthy_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchMinHealthyPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    batch_size_percentage: {
+      value: cdktf.numberToHclTerraform(struct!.batchSizePercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    comment: {
+      value: cdktf.stringToHclTerraform(struct!.comment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    respect_pdb: {
+      value: cdktf.booleanToHclTerraform(struct!.respectPdb),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    respect_restrict_scale_down: {
+      value: cdktf.booleanToHclTerraform(struct!.respectRestrictScaleDown),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._batchMinHealthyPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchMinHealthyPercentage = this._batchMinHealthyPercentage;
+    }
+    if (this._batchSizePercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.batchSizePercentage = this._batchSizePercentage;
+    }
+    if (this._comment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comment = this._comment;
+    }
+    if (this._respectPdb !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectPdb = this._respectPdb;
+    }
+    if (this._respectRestrictScaleDown !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respectRestrictScaleDown = this._respectRestrictScaleDown;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._batchMinHealthyPercentage = undefined;
+      this._batchSizePercentage = undefined;
+      this._comment = undefined;
+      this._respectPdb = undefined;
+      this._respectRestrictScaleDown = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._batchMinHealthyPercentage = value.batchMinHealthyPercentage;
+      this._batchSizePercentage = value.batchSizePercentage;
+      this._comment = value.comment;
+      this._respectPdb = value.respectPdb;
+      this._respectRestrictScaleDown = value.respectRestrictScaleDown;
+    }
+  }
+
+  // batch_min_healthy_percentage - computed: false, optional: true, required: false
+  private _batchMinHealthyPercentage?: number; 
+  public get batchMinHealthyPercentage() {
+    return this.getNumberAttribute('batch_min_healthy_percentage');
+  }
+  public set batchMinHealthyPercentage(value: number) {
+    this._batchMinHealthyPercentage = value;
+  }
+  public resetBatchMinHealthyPercentage() {
+    this._batchMinHealthyPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchMinHealthyPercentageInput() {
+    return this._batchMinHealthyPercentage;
+  }
+
+  // batch_size_percentage - computed: false, optional: true, required: false
+  private _batchSizePercentage?: number; 
+  public get batchSizePercentage() {
+    return this.getNumberAttribute('batch_size_percentage');
+  }
+  public set batchSizePercentage(value: number) {
+    this._batchSizePercentage = value;
+  }
+  public resetBatchSizePercentage() {
+    this._batchSizePercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchSizePercentageInput() {
+    return this._batchSizePercentage;
+  }
+
+  // comment - computed: false, optional: true, required: false
+  private _comment?: string; 
+  public get comment() {
+    return this.getStringAttribute('comment');
+  }
+  public set comment(value: string) {
+    this._comment = value;
+  }
+  public resetComment() {
+    this._comment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentInput() {
+    return this._comment;
+  }
+
+  // respect_pdb - computed: false, optional: true, required: false
+  private _respectPdb?: boolean | cdktf.IResolvable; 
+  public get respectPdb() {
+    return this.getBooleanAttribute('respect_pdb');
+  }
+  public set respectPdb(value: boolean | cdktf.IResolvable) {
+    this._respectPdb = value;
+  }
+  public resetRespectPdb() {
+    this._respectPdb = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectPdbInput() {
+    return this._respectPdb;
+  }
+
+  // respect_restrict_scale_down - computed: false, optional: true, required: false
+  private _respectRestrictScaleDown?: boolean | cdktf.IResolvable; 
+  public get respectRestrictScaleDown() {
+    return this.getBooleanAttribute('respect_restrict_scale_down');
+  }
+  public set respectRestrictScaleDown(value: boolean | cdktf.IResolvable) {
+    this._respectRestrictScaleDown = value;
+  }
+  public resetRespectRestrictScaleDown() {
+    this._respectRestrictScaleDown = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respectRestrictScaleDownInput() {
+    return this._respectRestrictScaleDown;
+  }
+}
+export interface OceanAksNpSchedulingTasksParametersParametersUpgradeConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#apply_roll OceanAksNp#apply_roll}
+  */
+  readonly applyRoll?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#scope_version OceanAksNp#scope_version}
+  */
+  readonly scopeVersion?: string;
+  /**
+  * roll_parameters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#roll_parameters OceanAksNp#roll_parameters}
+  */
+  readonly rollParameters?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters;
+}
+
+export function oceanAksNpSchedulingTasksParametersParametersUpgradeConfigToTerraform(struct?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference | OceanAksNpSchedulingTasksParametersParametersUpgradeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    apply_roll: cdktf.booleanToTerraform(struct!.applyRoll),
+    scope_version: cdktf.stringToTerraform(struct!.scopeVersion),
+    roll_parameters: oceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersToTerraform(struct!.rollParameters),
+  }
+}
+
+
+export function oceanAksNpSchedulingTasksParametersParametersUpgradeConfigToHclTerraform(struct?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference | OceanAksNpSchedulingTasksParametersParametersUpgradeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    apply_roll: {
+      value: cdktf.booleanToHclTerraform(struct!.applyRoll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    scope_version: {
+      value: cdktf.stringToHclTerraform(struct!.scopeVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    roll_parameters: {
+      value: oceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersToHclTerraform(struct!.rollParameters),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpSchedulingTasksParametersParametersUpgradeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applyRoll !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applyRoll = this._applyRoll;
+    }
+    if (this._scopeVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeVersion = this._scopeVersion;
+    }
+    if (this._rollParameters?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollParameters = this._rollParameters?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpSchedulingTasksParametersParametersUpgradeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._applyRoll = undefined;
+      this._scopeVersion = undefined;
+      this._rollParameters.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._applyRoll = value.applyRoll;
+      this._scopeVersion = value.scopeVersion;
+      this._rollParameters.internalValue = value.rollParameters;
+    }
+  }
+
+  // apply_roll - computed: false, optional: true, required: false
+  private _applyRoll?: boolean | cdktf.IResolvable; 
+  public get applyRoll() {
+    return this.getBooleanAttribute('apply_roll');
+  }
+  public set applyRoll(value: boolean | cdktf.IResolvable) {
+    this._applyRoll = value;
+  }
+  public resetApplyRoll() {
+    this._applyRoll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applyRollInput() {
+    return this._applyRoll;
+  }
+
+  // scope_version - computed: false, optional: true, required: false
+  private _scopeVersion?: string; 
+  public get scopeVersion() {
+    return this.getStringAttribute('scope_version');
+  }
+  public set scopeVersion(value: string) {
+    this._scopeVersion = value;
+  }
+  public resetScopeVersion() {
+    this._scopeVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeVersionInput() {
+    return this._scopeVersion;
+  }
+
+  // roll_parameters - computed: false, optional: true, required: false
+  private _rollParameters = new OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference(this, "roll_parameters");
+  public get rollParameters() {
+    return this._rollParameters;
+  }
+  public putRollParameters(value: OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters) {
+    this._rollParameters.internalValue = value;
+  }
+  public resetRollParameters() {
+    this._rollParameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollParametersInput() {
+    return this._rollParameters.internalValue;
+  }
+}
 export interface OceanAksNpSchedulingTasksParameters {
   /**
   * parameters_cluster_roll block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#parameters_cluster_roll OceanAksNp#parameters_cluster_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#parameters_cluster_roll OceanAksNp#parameters_cluster_roll}
   */
   readonly parametersClusterRoll?: OceanAksNpSchedulingTasksParametersParametersClusterRoll;
+  /**
+  * parameters_upgrade_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#parameters_upgrade_config OceanAksNp#parameters_upgrade_config}
+  */
+  readonly parametersUpgradeConfig?: OceanAksNpSchedulingTasksParametersParametersUpgradeConfig;
 }
 
 export function oceanAksNpSchedulingTasksParametersToTerraform(struct?: OceanAksNpSchedulingTasksParametersOutputReference | OceanAksNpSchedulingTasksParameters): any {
@@ -2210,6 +3004,7 @@ export function oceanAksNpSchedulingTasksParametersToTerraform(struct?: OceanAks
   }
   return {
     parameters_cluster_roll: oceanAksNpSchedulingTasksParametersParametersClusterRollToTerraform(struct!.parametersClusterRoll),
+    parameters_upgrade_config: oceanAksNpSchedulingTasksParametersParametersUpgradeConfigToTerraform(struct!.parametersUpgradeConfig),
   }
 }
 
@@ -2225,6 +3020,12 @@ export function oceanAksNpSchedulingTasksParametersToHclTerraform(struct?: Ocean
       isBlock: true,
       type: "list",
       storageClassType: "OceanAksNpSchedulingTasksParametersParametersClusterRollList",
+    },
+    parameters_upgrade_config: {
+      value: oceanAksNpSchedulingTasksParametersParametersUpgradeConfigToHclTerraform(struct!.parametersUpgradeConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpSchedulingTasksParametersParametersUpgradeConfigList",
     },
   };
 
@@ -2250,6 +3051,10 @@ export class OceanAksNpSchedulingTasksParametersOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.parametersClusterRoll = this._parametersClusterRoll?.internalValue;
     }
+    if (this._parametersUpgradeConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parametersUpgradeConfig = this._parametersUpgradeConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2257,10 +3062,12 @@ export class OceanAksNpSchedulingTasksParametersOutputReference extends cdktf.Co
     if (value === undefined) {
       this.isEmptyObject = false;
       this._parametersClusterRoll.internalValue = undefined;
+      this._parametersUpgradeConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._parametersClusterRoll.internalValue = value.parametersClusterRoll;
+      this._parametersUpgradeConfig.internalValue = value.parametersUpgradeConfig;
     }
   }
 
@@ -2279,24 +3086,40 @@ export class OceanAksNpSchedulingTasksParametersOutputReference extends cdktf.Co
   public get parametersClusterRollInput() {
     return this._parametersClusterRoll.internalValue;
   }
+
+  // parameters_upgrade_config - computed: false, optional: true, required: false
+  private _parametersUpgradeConfig = new OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference(this, "parameters_upgrade_config");
+  public get parametersUpgradeConfig() {
+    return this._parametersUpgradeConfig;
+  }
+  public putParametersUpgradeConfig(value: OceanAksNpSchedulingTasksParametersParametersUpgradeConfig) {
+    this._parametersUpgradeConfig.internalValue = value;
+  }
+  public resetParametersUpgradeConfig() {
+    this._parametersUpgradeConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parametersUpgradeConfigInput() {
+    return this._parametersUpgradeConfig.internalValue;
+  }
 }
 export interface OceanAksNpSchedulingTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#cron_expression OceanAksNp#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#cron_expression OceanAksNp#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#task_type OceanAksNp#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#task_type OceanAksNp#task_type}
   */
   readonly taskType: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#parameters OceanAksNp#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#parameters OceanAksNp#parameters}
   */
   readonly parameters?: OceanAksNpSchedulingTasksParameters;
 }
@@ -2492,13 +3315,19 @@ export interface OceanAksNpScheduling {
   /**
   * shutdown_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#shutdown_hours OceanAksNp#shutdown_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#shutdown_hours OceanAksNp#shutdown_hours}
   */
   readonly shutdownHours?: OceanAksNpSchedulingShutdownHours;
   /**
+  * suspension_hours block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#suspension_hours OceanAksNp#suspension_hours}
+  */
+  readonly suspensionHours?: OceanAksNpSchedulingSuspensionHours;
+  /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#tasks OceanAksNp#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#tasks OceanAksNp#tasks}
   */
   readonly tasks?: OceanAksNpSchedulingTasks[] | cdktf.IResolvable;
 }
@@ -2510,6 +3339,7 @@ export function oceanAksNpSchedulingToTerraform(struct?: OceanAksNpSchedulingOut
   }
   return {
     shutdown_hours: oceanAksNpSchedulingShutdownHoursToTerraform(struct!.shutdownHours),
+    suspension_hours: oceanAksNpSchedulingSuspensionHoursToTerraform(struct!.suspensionHours),
     tasks: cdktf.listMapper(oceanAksNpSchedulingTasksToTerraform, true)(struct!.tasks),
   }
 }
@@ -2526,6 +3356,12 @@ export function oceanAksNpSchedulingToHclTerraform(struct?: OceanAksNpScheduling
       isBlock: true,
       type: "list",
       storageClassType: "OceanAksNpSchedulingShutdownHoursList",
+    },
+    suspension_hours: {
+      value: oceanAksNpSchedulingSuspensionHoursToHclTerraform(struct!.suspensionHours),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpSchedulingSuspensionHoursList",
     },
     tasks: {
       value: cdktf.listMapperHcl(oceanAksNpSchedulingTasksToHclTerraform, true)(struct!.tasks),
@@ -2557,6 +3393,10 @@ export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.shutdownHours = this._shutdownHours?.internalValue;
     }
+    if (this._suspensionHours?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suspensionHours = this._suspensionHours?.internalValue;
+    }
     if (this._tasks?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tasks = this._tasks?.internalValue;
@@ -2568,11 +3408,13 @@ export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._shutdownHours.internalValue = undefined;
+      this._suspensionHours.internalValue = undefined;
       this._tasks.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._shutdownHours.internalValue = value.shutdownHours;
+      this._suspensionHours.internalValue = value.suspensionHours;
       this._tasks.internalValue = value.tasks;
     }
   }
@@ -2593,6 +3435,22 @@ export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
     return this._shutdownHours.internalValue;
   }
 
+  // suspension_hours - computed: false, optional: true, required: false
+  private _suspensionHours = new OceanAksNpSchedulingSuspensionHoursOutputReference(this, "suspension_hours");
+  public get suspensionHours() {
+    return this._suspensionHours;
+  }
+  public putSuspensionHours(value: OceanAksNpSchedulingSuspensionHours) {
+    this._suspensionHours.internalValue = value;
+  }
+  public resetSuspensionHours() {
+    this._suspensionHours.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suspensionHoursInput() {
+    return this._suspensionHours.internalValue;
+  }
+
   // tasks - computed: false, optional: true, required: false
   private _tasks = new OceanAksNpSchedulingTasksList(this, "tasks", false);
   public get tasks() {
@@ -2611,15 +3469,15 @@ export class OceanAksNpSchedulingOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanAksNpTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#effect OceanAksNp#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#effect OceanAksNp#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#key OceanAksNp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#key OceanAksNp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#value OceanAksNp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#value OceanAksNp#value}
   */
   readonly value: string;
 }
@@ -2784,35 +3642,35 @@ export class OceanAksNpTaintsList extends cdktf.ComplexList {
 }
 export interface OceanAksNpUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#batch_min_healthy_percentage OceanAksNp#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_min_healthy_percentage OceanAksNp#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#batch_size_percentage OceanAksNp#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#batch_size_percentage OceanAksNp#batch_size_percentage}
   */
   readonly batchSizePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#comment OceanAksNp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#comment OceanAksNp#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#node_names OceanAksNp#node_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#node_names OceanAksNp#node_names}
   */
   readonly nodeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#node_pool_names OceanAksNp#node_pool_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#node_pool_names OceanAksNp#node_pool_names}
   */
   readonly nodePoolNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#respect_pdb OceanAksNp#respect_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_pdb OceanAksNp#respect_pdb}
   */
   readonly respectPdb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#respect_restrict_scale_down OceanAksNp#respect_restrict_scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#respect_restrict_scale_down OceanAksNp#respect_restrict_scale_down}
   */
   readonly respectRestrictScaleDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#vng_ids OceanAksNp#vng_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vng_ids OceanAksNp#vng_ids}
   */
   readonly vngIds?: string[];
 }
@@ -3099,17 +3957,17 @@ export class OceanAksNpUpdatePolicyRollConfigOutputReference extends cdktf.Compl
 }
 export interface OceanAksNpUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#conditioned_roll OceanAksNp#conditioned_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#conditioned_roll OceanAksNp#conditioned_roll}
   */
   readonly conditionedRoll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#should_roll OceanAksNp#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#should_roll OceanAksNp#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#roll_config OceanAksNp#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#roll_config OceanAksNp#roll_config}
   */
   readonly rollConfig?: OceanAksNpUpdatePolicyRollConfig;
 }
@@ -3246,9 +4104,212 @@ export class OceanAksNpUpdatePolicyOutputReference extends cdktf.ComplexObject {
     return this._rollConfig.internalValue;
   }
 }
+export interface OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#is_enabled OceanAksNp#is_enabled}
+  */
+  readonly isEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#time_windows OceanAksNp#time_windows}
+  */
+  readonly timeWindows?: string[];
+}
+
+export function oceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursToTerraform(struct?: OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference | OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    is_enabled: cdktf.booleanToTerraform(struct!.isEnabled),
+    time_windows: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.timeWindows),
+  }
+}
+
+
+export function oceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursToHclTerraform(struct?: OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference | OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    is_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.isEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    time_windows: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.timeWindows),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._isEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isEnabled = this._isEnabled;
+    }
+    if (this._timeWindows !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeWindows = this._timeWindows;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._isEnabled = undefined;
+      this._timeWindows = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._isEnabled = value.isEnabled;
+      this._timeWindows = value.timeWindows;
+    }
+  }
+
+  // is_enabled - computed: false, optional: true, required: false
+  private _isEnabled?: boolean | cdktf.IResolvable; 
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+  public set isEnabled(value: boolean | cdktf.IResolvable) {
+    this._isEnabled = value;
+  }
+  public resetIsEnabled() {
+    this._isEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isEnabledInput() {
+    return this._isEnabled;
+  }
+
+  // time_windows - computed: false, optional: true, required: false
+  private _timeWindows?: string[]; 
+  public get timeWindows() {
+    return this.getListAttribute('time_windows');
+  }
+  public set timeWindows(value: string[]) {
+    this._timeWindows = value;
+  }
+  public resetTimeWindows() {
+    this._timeWindows = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeWindowsInput() {
+    return this._timeWindows;
+  }
+}
+export interface OceanAksNpVngTemplateScheduling {
+  /**
+  * vng_template_shutdown_hours block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#vng_template_shutdown_hours OceanAksNp#vng_template_shutdown_hours}
+  */
+  readonly vngTemplateShutdownHours?: OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours;
+}
+
+export function oceanAksNpVngTemplateSchedulingToTerraform(struct?: OceanAksNpVngTemplateSchedulingOutputReference | OceanAksNpVngTemplateScheduling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vng_template_shutdown_hours: oceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursToTerraform(struct!.vngTemplateShutdownHours),
+  }
+}
+
+
+export function oceanAksNpVngTemplateSchedulingToHclTerraform(struct?: OceanAksNpVngTemplateSchedulingOutputReference | OceanAksNpVngTemplateScheduling): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vng_template_shutdown_hours: {
+      value: oceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursToHclTerraform(struct!.vngTemplateShutdownHours),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAksNpVngTemplateSchedulingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAksNpVngTemplateScheduling | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vngTemplateShutdownHours?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vngTemplateShutdownHours = this._vngTemplateShutdownHours?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAksNpVngTemplateScheduling | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._vngTemplateShutdownHours.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._vngTemplateShutdownHours.internalValue = value.vngTemplateShutdownHours;
+    }
+  }
+
+  // vng_template_shutdown_hours - computed: false, optional: true, required: false
+  private _vngTemplateShutdownHours = new OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference(this, "vng_template_shutdown_hours");
+  public get vngTemplateShutdownHours() {
+    return this._vngTemplateShutdownHours;
+  }
+  public putVngTemplateShutdownHours(value: OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours) {
+    this._vngTemplateShutdownHours.internalValue = value;
+  }
+  public resetVngTemplateShutdownHours() {
+    this._vngTemplateShutdownHours.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vngTemplateShutdownHoursInput() {
+    return this._vngTemplateShutdownHours.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np}
 */
 export class OceanAksNp extends cdktf.TerraformResource {
 
@@ -3264,7 +4325,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanAksNp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanAksNp to import
-  * @param importFromId The id of the existing OceanAksNp that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanAksNp that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanAksNp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3276,7 +4337,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.206.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.207.0/docs/resources/ocean_aks_np spotinst_ocean_aks_np} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3287,7 +4348,7 @@ export class OceanAksNp extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aks_np',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.206.0',
+        providerVersion: '1.207.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3326,9 +4387,11 @@ export class OceanAksNp extends cdktf.TerraformResource {
     this._headrooms.internalValue = config.headrooms;
     this._health.internalValue = config.health;
     this._linuxOsConfig.internalValue = config.linuxOsConfig;
+    this._logging.internalValue = config.logging;
     this._scheduling.internalValue = config.scheduling;
     this._taints.internalValue = config.taints;
     this._updatePolicy.internalValue = config.updatePolicy;
+    this._vngTemplateScheduling.internalValue = config.vngTemplateScheduling;
   }
 
   // ==========
@@ -3762,6 +4825,22 @@ export class OceanAksNp extends cdktf.TerraformResource {
     return this._linuxOsConfig.internalValue;
   }
 
+  // logging - computed: false, optional: true, required: false
+  private _logging = new OceanAksNpLoggingOutputReference(this, "logging");
+  public get logging() {
+    return this._logging;
+  }
+  public putLogging(value: OceanAksNpLogging) {
+    this._logging.internalValue = value;
+  }
+  public resetLogging() {
+    this._logging.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingInput() {
+    return this._logging.internalValue;
+  }
+
   // scheduling - computed: false, optional: true, required: false
   private _scheduling = new OceanAksNpSchedulingOutputReference(this, "scheduling");
   public get scheduling() {
@@ -3810,6 +4889,22 @@ export class OceanAksNp extends cdktf.TerraformResource {
     return this._updatePolicy.internalValue;
   }
 
+  // vng_template_scheduling - computed: false, optional: true, required: false
+  private _vngTemplateScheduling = new OceanAksNpVngTemplateSchedulingOutputReference(this, "vng_template_scheduling");
+  public get vngTemplateScheduling() {
+    return this._vngTemplateScheduling;
+  }
+  public putVngTemplateScheduling(value: OceanAksNpVngTemplateScheduling) {
+    this._vngTemplateScheduling.internalValue = value;
+  }
+  public resetVngTemplateScheduling() {
+    this._vngTemplateScheduling.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vngTemplateSchedulingInput() {
+    return this._vngTemplateScheduling.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -3844,9 +4939,11 @@ export class OceanAksNp extends cdktf.TerraformResource {
       headrooms: cdktf.listMapper(oceanAksNpHeadroomsToTerraform, true)(this._headrooms.internalValue),
       health: oceanAksNpHealthToTerraform(this._health.internalValue),
       linux_os_config: cdktf.listMapper(oceanAksNpLinuxOsConfigToTerraform, true)(this._linuxOsConfig.internalValue),
+      logging: oceanAksNpLoggingToTerraform(this._logging.internalValue),
       scheduling: oceanAksNpSchedulingToTerraform(this._scheduling.internalValue),
       taints: cdktf.listMapper(oceanAksNpTaintsToTerraform, true)(this._taints.internalValue),
       update_policy: oceanAksNpUpdatePolicyToTerraform(this._updatePolicy.internalValue),
+      vng_template_scheduling: oceanAksNpVngTemplateSchedulingToTerraform(this._vngTemplateScheduling.internalValue),
     };
   }
 
@@ -4020,6 +5117,12 @@ export class OceanAksNp extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "OceanAksNpLinuxOsConfigList",
       },
+      logging: {
+        value: oceanAksNpLoggingToHclTerraform(this._logging.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpLoggingList",
+      },
       scheduling: {
         value: oceanAksNpSchedulingToHclTerraform(this._scheduling.internalValue),
         isBlock: true,
@@ -4037,6 +5140,12 @@ export class OceanAksNp extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OceanAksNpUpdatePolicyList",
+      },
+      vng_template_scheduling: {
+        value: oceanAksNpVngTemplateSchedulingToHclTerraform(this._vngTemplateScheduling.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAksNpVngTemplateSchedulingList",
       },
     };
 
