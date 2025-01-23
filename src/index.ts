@@ -7,6 +7,7 @@
 export * as account from './account';
 export * as accountAws from './account-aws';
 export * as credentialsAws from './credentials-aws';
+export * as credentialsAzure from './credentials-azure';
 export * as credentialsGcp from './credentials-gcp';
 export * as dataIntegration from './data-integration';
 export * as elastigroupAws from './elastigroup-aws';

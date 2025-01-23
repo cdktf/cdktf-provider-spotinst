@@ -7,6 +7,7 @@
 Object.defineProperty(exports, 'account', { get: function () { return require('./account'); } });
 Object.defineProperty(exports, 'accountAws', { get: function () { return require('./account-aws'); } });
 Object.defineProperty(exports, 'credentialsAws', { get: function () { return require('./credentials-aws'); } });
+Object.defineProperty(exports, 'credentialsAzure', { get: function () { return require('./credentials-azure'); } });
 Object.defineProperty(exports, 'credentialsGcp', { get: function () { return require('./credentials-gcp'); } });
 Object.defineProperty(exports, 'dataIntegration', { get: function () { return require('./data-integration'); } });
 Object.defineProperty(exports, 'elastigroupAws', { get: function () { return require('./elastigroup-aws'); } });

@@ -7,6 +7,7 @@ The following submodules are available:
 - [account](./account.python.md)
 - [accountAws](./accountAws.python.md)
 - [credentialsAws](./credentialsAws.python.md)
+- [credentialsAzure](./credentialsAzure.python.md)
 - [credentialsGcp](./credentialsGcp.python.md)
 - [dataIntegration](./dataIntegration.python.md)
 - [elastigroupAws](./elastigroupAws.python.md)
