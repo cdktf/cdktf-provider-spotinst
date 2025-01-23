@@ -7,6 +7,7 @@ The following submodules are available:
 - [account](./account.typescript.md)
 - [accountAws](./accountAws.typescript.md)
 - [credentialsAws](./credentialsAws.typescript.md)
+- [credentialsAzure](./credentialsAzure.typescript.md)
 - [credentialsGcp](./credentialsGcp.typescript.md)
 - [dataIntegration](./dataIntegration.typescript.md)
 - [elastigroupAws](./elastigroupAws.typescript.md)

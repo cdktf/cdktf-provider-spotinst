@@ -7,6 +7,7 @@ The following submodules are available:
 - [account](./account.csharp.md)
 - [accountAws](./accountAws.csharp.md)
 - [credentialsAws](./credentialsAws.csharp.md)
+- [credentialsAzure](./credentialsAzure.csharp.md)
 - [credentialsGcp](./credentialsGcp.csharp.md)
 - [dataIntegration](./dataIntegration.csharp.md)
 - [elastigroupAws](./elastigroupAws.csharp.md)

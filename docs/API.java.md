@@ -7,6 +7,7 @@ The following submodules are available:
 - [account](./account.java.md)
 - [accountAws](./accountAws.java.md)
 - [credentialsAws](./credentialsAws.java.md)
+- [credentialsAzure](./credentialsAzure.java.md)
 - [credentialsGcp](./credentialsGcp.java.md)
 - [dataIntegration](./dataIntegration.java.md)
 - [elastigroupAws](./elastigroupAws.java.md)
