@@ -4,7 +4,7 @@
 
 ### OceanSpark <a name="OceanSpark" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark spotinst_ocean_spark}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark spotinst_ocean_spark}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer"></a>
 
@@ -30,6 +30,7 @@ OceanSpark.Builder.create(Construct scope, java.lang.String id)
 //  .logCollection(OceanSparkLogCollection)
 //  .spark(OceanSparkSpark)
 //  .webhook(OceanSparkWebhook)
+//  .workspaces(OceanSparkWorkspaces)
     .build();
 ```
 
@@ -44,13 +45,14 @@ OceanSpark.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.oceanClusterId">oceanClusterId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.oceanClusterId">oceanClusterId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.compute">compute</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute">OceanSparkCompute</a></code> | compute block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#id OceanSpark#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#id OceanSpark#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.ingress">ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | ingress block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.logCollection">logCollection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | log_collection block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | spark block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | webhook block. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.workspaces">workspaces</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a></code> | workspaces block. |
 
 ---
 
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 compute block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#compute OceanSpark#compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#compute OceanSpark#compute}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#id OceanSpark#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#id OceanSpark#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +151,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ingress block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ingress OceanSpark#ingress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ingress OceanSpark#ingress}
 
 ---
 
@@ -159,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 log_collection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
 
 ---
 
@@ -169,7 +171,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 spark block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#spark OceanSpark#spark}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#spark OceanSpark#spark}
 
 ---
 
@@ -179,7 +181,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 webhook block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+
+---
+
+##### `workspaces`<sup>Optional</sup> <a name="workspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.Initializer.parameter.workspaces"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a>
+
+workspaces block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#workspaces OceanSpark#workspaces}
 
 ---
 
@@ -215,12 +227,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putLogCollection">putLogCollection</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putSpark">putSpark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWebhook">putWebhook</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWorkspaces">putWorkspaces</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetCompute">resetCompute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetIngress">resetIngress</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetLogCollection">resetLogCollection</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetSpark">resetSpark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetWebhook">resetWebhook</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetWorkspaces">resetWorkspaces</a></code> | *No description.* |
 
 ---
 
@@ -574,6 +588,18 @@ public void putWebhook(OceanSparkWebhook value)
 
 ---
 
+##### `putWorkspaces` <a name="putWorkspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWorkspaces"></a>
+
+```java
+public void putWorkspaces(OceanSparkWorkspaces value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.putWorkspaces.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a>
+
+---
+
 ##### `resetCompute` <a name="resetCompute" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetCompute"></a>
 
 ```java
@@ -608,6 +634,12 @@ public void resetSpark()
 
 ```java
 public void resetWebhook()
+```
+
+##### `resetWorkspaces` <a name="resetWorkspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.resetWorkspaces"></a>
+
+```java
+public void resetWorkspaces()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -713,7 +745,7 @@ The construct id used in the generated config for the OceanSpark to import.
 
 The id of the existing OceanSpark that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -748,6 +780,7 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.logCollection">logCollection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollectionOutputReference">OceanSparkLogCollectionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSparkOutputReference">OceanSparkSparkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhookOutputReference">OceanSparkWebhookOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.workspaces">workspaces</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference">OceanSparkWorkspacesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.computeInput">computeInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute">OceanSparkCompute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.ingressInput">ingressInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | *No description.* |
@@ -755,6 +788,7 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.oceanClusterIdInput">oceanClusterIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.sparkInput">sparkInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.webhookInput">webhookInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.workspacesInput">workspacesInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.oceanClusterId">oceanClusterId</a></code> | <code>java.lang.String</code> | *No description.* |
 
@@ -952,6 +986,16 @@ public OceanSparkWebhookOutputReference getWebhook();
 
 ---
 
+##### `workspaces`<sup>Required</sup> <a name="workspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.workspaces"></a>
+
+```java
+public OceanSparkWorkspacesOutputReference getWorkspaces();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference">OceanSparkWorkspacesOutputReference</a>
+
+---
+
 ##### `computeInput`<sup>Optional</sup> <a name="computeInput" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.computeInput"></a>
 
 ```java
@@ -1022,6 +1066,16 @@ public OceanSparkWebhook getWebhookInput();
 
 ---
 
+##### `workspacesInput`<sup>Optional</sup> <a name="workspacesInput" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.workspacesInput"></a>
+
+```java
+public OceanSparkWorkspaces getWorkspacesInput();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a>
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-spotinst.oceanSpark.OceanSpark.property.id"></a>
 
 ```java
@@ -1081,8 +1135,8 @@ OceanSparkCompute.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.createVngs">createVngs</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.useTaints">useTaints</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.createVngs">createVngs</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute.property.useTaints">useTaints</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}. |
 
 ---
 
@@ -1094,7 +1148,7 @@ public java.lang.Object getCreateVngs();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}.
 
 ---
 
@@ -1106,7 +1160,7 @@ public java.lang.Object getUseTaints();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}.
 
 ---
 
@@ -1136,6 +1190,7 @@ OceanSparkConfig.builder()
 //  .logCollection(OceanSparkLogCollection)
 //  .spark(OceanSparkSpark)
 //  .webhook(OceanSparkWebhook)
+//  .workspaces(OceanSparkWorkspaces)
     .build();
 ```
 
@@ -1150,13 +1205,14 @@ OceanSparkConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.oceanClusterId">oceanClusterId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.oceanClusterId">oceanClusterId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.compute">compute</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkCompute">OceanSparkCompute</a></code> | compute block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#id OceanSpark#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#id OceanSpark#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.ingress">ingress</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress">OceanSparkIngress</a></code> | ingress block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.logCollection">logCollection</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection">OceanSparkLogCollection</a></code> | log_collection block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.spark">spark</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark">OceanSparkSpark</a></code> | spark block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.webhook">webhook</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a></code> | webhook block. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.workspaces">workspaces</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a></code> | workspaces block. |
 
 ---
 
@@ -1238,7 +1294,7 @@ public java.lang.String getOceanClusterId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}.
 
 ---
 
@@ -1252,7 +1308,7 @@ public OceanSparkCompute getCompute();
 
 compute block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#compute OceanSpark#compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#compute OceanSpark#compute}
 
 ---
 
@@ -1264,7 +1320,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#id OceanSpark#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#id OceanSpark#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1281,7 +1337,7 @@ public OceanSparkIngress getIngress();
 
 ingress block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#ingress OceanSpark#ingress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#ingress OceanSpark#ingress}
 
 ---
 
@@ -1295,7 +1351,7 @@ public OceanSparkLogCollection getLogCollection();
 
 log_collection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
 
 ---
 
@@ -1309,7 +1365,7 @@ public OceanSparkSpark getSpark();
 
 spark block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#spark OceanSpark#spark}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#spark OceanSpark#spark}
 
 ---
 
@@ -1323,7 +1379,21 @@ public OceanSparkWebhook getWebhook();
 
 webhook block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+
+---
+
+##### `workspaces`<sup>Optional</sup> <a name="workspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkConfig.property.workspaces"></a>
+
+```java
+public OceanSparkWorkspaces getWorkspaces();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a>
+
+workspaces block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#workspaces OceanSpark#workspaces}
 
 ---
 
@@ -1351,7 +1421,7 @@ OceanSparkIngress.builder()
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.customEndpoint">customEndpoint</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint">OceanSparkIngressCustomEndpoint</a></code> | custom_endpoint block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.loadBalancer">loadBalancer</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer">OceanSparkIngressLoadBalancer</a></code> | load_balancer block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.privateLink">privateLink</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink">OceanSparkIngressPrivateLink</a></code> | private_link block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.serviceAnnotations">serviceAnnotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngress.property.serviceAnnotations">serviceAnnotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
 
 ---
 
@@ -1365,7 +1435,7 @@ public OceanSparkIngressController getController();
 
 controller block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#controller OceanSpark#controller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#controller OceanSpark#controller}
 
 ---
 
@@ -1379,7 +1449,7 @@ public OceanSparkIngressCustomEndpoint getCustomEndpoint();
 
 custom_endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
 
 ---
 
@@ -1393,7 +1463,7 @@ public OceanSparkIngressLoadBalancer getLoadBalancer();
 
 load_balancer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
 
 ---
 
@@ -1407,7 +1477,7 @@ public OceanSparkIngressPrivateLink getPrivateLink();
 
 private_link block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#private_link OceanSpark#private_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#private_link OceanSpark#private_link}
 
 ---
 
@@ -1419,7 +1489,7 @@ public java.util.Map<java.lang.String, java.lang.String> getServiceAnnotations()
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
 
 ---
 
@@ -1440,7 +1510,7 @@ OceanSparkIngressController.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressController.property.managed">managed</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#managed OceanSpark#managed}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressController.property.managed">managed</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#managed OceanSpark#managed}. |
 
 ---
 
@@ -1452,7 +1522,7 @@ public java.lang.Object getManaged();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#managed OceanSpark#managed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#managed OceanSpark#managed}.
 
 ---
 
@@ -1474,8 +1544,8 @@ OceanSparkIngressCustomEndpoint.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.address">address</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#address OceanSpark#address}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.address">address</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#address OceanSpark#address}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressCustomEndpoint.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
 
 ---
 
@@ -1487,7 +1557,7 @@ public java.lang.String getAddress();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#address OceanSpark#address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#address OceanSpark#address}.
 
 ---
 
@@ -1499,7 +1569,7 @@ public java.lang.Object getEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
 
 ---
 
@@ -1522,9 +1592,9 @@ OceanSparkIngressLoadBalancer.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.managed">managed</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#managed OceanSpark#managed}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.serviceAnnotations">serviceAnnotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.targetGroupArn">targetGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.managed">managed</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#managed OceanSpark#managed}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.serviceAnnotations">serviceAnnotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressLoadBalancer.property.targetGroupArn">targetGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}. |
 
 ---
 
@@ -1536,7 +1606,7 @@ public java.lang.Object getManaged();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#managed OceanSpark#managed}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#managed OceanSpark#managed}.
 
 ---
 
@@ -1548,7 +1618,7 @@ public java.util.Map<java.lang.String, java.lang.String> getServiceAnnotations()
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}.
 
 ---
 
@@ -1560,7 +1630,7 @@ public java.lang.String getTargetGroupArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}.
 
 ---
 
@@ -1582,8 +1652,8 @@ OceanSparkIngressPrivateLink.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.vpcEndpointService">vpcEndpointService</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.enabled">enabled</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#enabled OceanSpark#enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkIngressPrivateLink.property.vpcEndpointService">vpcEndpointService</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}. |
 
 ---
 
@@ -1595,7 +1665,7 @@ public java.lang.Object getEnabled();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#enabled OceanSpark#enabled}.
 
 ---
 
@@ -1607,7 +1677,7 @@ public java.lang.String getVpcEndpointService();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}.
 
 ---
 
@@ -1628,7 +1698,7 @@ OceanSparkLogCollection.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection.property.collectAppLogs">collectAppLogs</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkLogCollection.property.collectAppLogs">collectAppLogs</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}. |
 
 ---
 
@@ -1640,7 +1710,7 @@ public java.lang.Object getCollectAppLogs();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}.
 
 ---
 
@@ -1660,7 +1730,7 @@ OceanSparkSpark.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces">additionalAppNamespaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkSpark.property.additionalAppNamespaces">additionalAppNamespaces</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}. |
 
 ---
 
@@ -1672,7 +1742,7 @@ public java.util.List<java.lang.String> getAdditionalAppNamespaces();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}.
 
 ---
 
@@ -1694,8 +1764,8 @@ OceanSparkWebhook.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.hostNetworkPorts">hostNetworkPorts</a></code> | <code>java.util.List<java.lang.Number></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.useHostNetwork">useHostNetwork</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.hostNetworkPorts">hostNetworkPorts</a></code> | <code>java.util.List<java.lang.Number></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook.property.useHostNetwork">useHostNetwork</a></code> | <code>java.lang.Boolean OR com.hashicorp.cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}. |
 
 ---
 
@@ -1707,7 +1777,7 @@ public java.util.List<java.lang.Number> getHostNetworkPorts();
 
 - *Type:* java.util.List<java.lang.Number>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}.
 
 ---
 
@@ -1719,7 +1789,111 @@ public java.lang.Object getUseHostNetwork();
 
 - *Type:* java.lang.Boolean OR com.hashicorp.cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.208.0/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}.
+
+---
+
+### OceanSparkWorkspaces <a name="OceanSparkWorkspaces" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspaces;
+
+OceanSparkWorkspaces.builder()
+//  .storage(OceanSparkWorkspacesStorage)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces.property.storage">storage</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a></code> | storage block. |
+
+---
+
+##### `storage`<sup>Optional</sup> <a name="storage" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces.property.storage"></a>
+
+```java
+public OceanSparkWorkspacesStorage getStorage();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a>
+
+storage block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#storage OceanSpark#storage}
+
+---
+
+### OceanSparkWorkspacesStorage <a name="OceanSparkWorkspacesStorage" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspacesStorage;
+
+OceanSparkWorkspacesStorage.builder()
+//  .defaults(OceanSparkWorkspacesStorageDefaults)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage.property.defaults">defaults</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a></code> | defaults block. |
+
+---
+
+##### `defaults`<sup>Optional</sup> <a name="defaults" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage.property.defaults"></a>
+
+```java
+public OceanSparkWorkspacesStorageDefaults getDefaults();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a>
+
+defaults block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#defaults OceanSpark#defaults}
+
+---
+
+### OceanSparkWorkspacesStorageDefaults <a name="OceanSparkWorkspacesStorageDefaults" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults"></a>
+
+#### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspacesStorageDefaults;
+
+OceanSparkWorkspacesStorageDefaults.builder()
+//  .storageClassName(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults.property.storageClassName">storageClassName</a></code> | <code>java.lang.String</code> | The name of the persistent volume storage class to use by default for new workspaces. |
+
+---
+
+##### `storageClassName`<sup>Optional</sup> <a name="storageClassName" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults.property.storageClassName"></a>
+
+```java
+public java.lang.String getStorageClassName();
+```
+
+- *Type:* java.lang.String
+
+The name of the persistent volume storage class to use by default for new workspaces.
+
+Leave it empty to use the cluster defaults.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.209.1/docs/resources/ocean_spark#storage_class_name OceanSpark#storage_class_name}
 
 ---
 
@@ -4565,6 +4739,866 @@ public OceanSparkWebhook getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWebhook">OceanSparkWebhook</a>
+
+---
+
+
+### OceanSparkWorkspacesOutputReference <a name="OceanSparkWorkspacesOutputReference" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspacesOutputReference;
+
+new OceanSparkWorkspacesOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>com.hashicorp.cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* com.hashicorp.cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.putStorage">putStorage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.resetStorage">resetStorage</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* com.hashicorp.cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putStorage` <a name="putStorage" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.putStorage"></a>
+
+```java
+public void putStorage(OceanSparkWorkspacesStorage value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.putStorage.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a>
+
+---
+
+##### `resetStorage` <a name="resetStorage" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.resetStorage"></a>
+
+```java
+public void resetStorage()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.storage">storage</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference">OceanSparkWorkspacesStorageOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.storageInput">storageInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storage`<sup>Required</sup> <a name="storage" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.storage"></a>
+
+```java
+public OceanSparkWorkspacesStorageOutputReference getStorage();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference">OceanSparkWorkspacesStorageOutputReference</a>
+
+---
+
+##### `storageInput`<sup>Optional</sup> <a name="storageInput" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.storageInput"></a>
+
+```java
+public OceanSparkWorkspacesStorage getStorageInput();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesOutputReference.property.internalValue"></a>
+
+```java
+public OceanSparkWorkspaces getInternalValue();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspaces">OceanSparkWorkspaces</a>
+
+---
+
+
+### OceanSparkWorkspacesStorageDefaultsOutputReference <a name="OceanSparkWorkspacesStorageDefaultsOutputReference" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspacesStorageDefaultsOutputReference;
+
+new OceanSparkWorkspacesStorageDefaultsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>com.hashicorp.cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* com.hashicorp.cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.resetStorageClassName">resetStorageClassName</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* com.hashicorp.cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetStorageClassName` <a name="resetStorageClassName" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.resetStorageClassName"></a>
+
+```java
+public void resetStorageClassName()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.storageClassNameInput">storageClassNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.storageClassName">storageClassName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storageClassNameInput`<sup>Optional</sup> <a name="storageClassNameInput" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.storageClassNameInput"></a>
+
+```java
+public java.lang.String getStorageClassNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `storageClassName`<sup>Required</sup> <a name="storageClassName" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.storageClassName"></a>
+
+```java
+public java.lang.String getStorageClassName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference.property.internalValue"></a>
+
+```java
+public OceanSparkWorkspacesStorageDefaults getInternalValue();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a>
+
+---
+
+
+### OceanSparkWorkspacesStorageOutputReference <a name="OceanSparkWorkspacesStorageOutputReference" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.Initializer"></a>
+
+```java
+import com.hashicorp.cdktf.providers.spotinst.ocean_spark.OceanSparkWorkspacesStorageOutputReference;
+
+new OceanSparkWorkspacesStorageOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>com.hashicorp.cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* com.hashicorp.cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.putDefaults">putDefaults</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.resetDefaults">resetDefaults</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.resolve.parameter._context"></a>
+
+- *Type:* com.hashicorp.cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putDefaults` <a name="putDefaults" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.putDefaults"></a>
+
+```java
+public void putDefaults(OceanSparkWorkspacesStorageDefaults value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.putDefaults.parameter.value"></a>
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a>
+
+---
+
+##### `resetDefaults` <a name="resetDefaults" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.resetDefaults"></a>
+
+```java
+public void resetDefaults()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.defaults">defaults</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference">OceanSparkWorkspacesStorageDefaultsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.defaultsInput">defaultsInput</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `defaults`<sup>Required</sup> <a name="defaults" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.defaults"></a>
+
+```java
+public OceanSparkWorkspacesStorageDefaultsOutputReference getDefaults();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaultsOutputReference">OceanSparkWorkspacesStorageDefaultsOutputReference</a>
+
+---
+
+##### `defaultsInput`<sup>Optional</sup> <a name="defaultsInput" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.defaultsInput"></a>
+
+```java
+public OceanSparkWorkspacesStorageDefaults getDefaultsInput();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageDefaults">OceanSparkWorkspacesStorageDefaults</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorageOutputReference.property.internalValue"></a>
+
+```java
+public OceanSparkWorkspacesStorage getInternalValue();
+```
+
+- *Type:* <a href="#@cdktf/provider-spotinst.oceanSpark.OceanSparkWorkspacesStorage">OceanSparkWorkspacesStorage</a>
 
 ---
 
