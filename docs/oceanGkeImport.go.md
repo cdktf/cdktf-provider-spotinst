@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImport(scope Construct, id *string, config OceanGkeImportConfig) OceanGkeImport
 ```
@@ -601,7 +601,7 @@ func ResetWhitelist()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsConstruct(x interface{}) *bool
 ```
@@ -633,7 +633,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsTerraformElement(x interface{}) *bool
 ```
@@ -647,7 +647,7 @@ oceangkeimport.OceanGkeImport_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsTerraformResource(x interface{}) *bool
 ```
@@ -661,7 +661,7 @@ oceangkeimport.OceanGkeImport_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1319,17 +1319,17 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscaler {
 	AutoHeadroomPercentage: *f64,
 	Cooldown: *f64,
-	Down: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown,
+	Down: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerDown,
 	EnableAutomaticAndManualHeadroom: interface{},
-	Headroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom,
+	Headroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerHeadroom,
 	IsAutoConfig: interface{},
 	IsEnabled: interface{},
-	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits,
+	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits,
 }
 ```
 
@@ -1455,7 +1455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerDown {
 	EvaluationPeriods: *f64,
@@ -1515,7 +1515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerHeadroom {
 	CpuPerUnit: *f64,
@@ -1589,7 +1589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerResourceLimits {
 	MaxMemoryGib: *f64,
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoUpdate {
 	IsEnabled: interface{},
@@ -1667,7 +1667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportBackendServices {
 	ServiceName: *string,
@@ -1743,7 +1743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportBackendServicesNamedPorts {
 	Name: *string,
@@ -1789,7 +1789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportConfig {
 	Connection: interface{},
@@ -1801,21 +1801,21 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 	Provisioners: *[]interface{},
 	ClusterName: *string,
 	Location: *string,
-	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscaler,
+	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscaler,
 	AutoUpdate: interface{},
 	BackendServices: interface{},
 	Blacklist: *[]*string,
 	ControllerClusterId: *string,
 	DesiredCapacity: *f64,
-	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportFilters,
+	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportFilters,
 	Id: *string,
 	MaxSize: *f64,
 	MinSize: *f64,
 	RootVolumeType: *string,
 	ScheduledTask: interface{},
-	ShieldedInstanceConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig,
+	ShieldedInstanceConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportShieldedInstanceConfig,
 	Strategy: interface{},
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportUpdatePolicy,
 	UseAsTemplateOnly: interface{},
 	Whitelist: *[]*string,
 }
@@ -2176,7 +2176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportFilters {
 	ExcludeFamilies: *[]*string,
@@ -2278,10 +2278,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTask {
-	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours,
+	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours,
 	Tasks: interface{},
 }
 ```
@@ -2328,7 +2328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskShutdownHours {
 	TimeWindows: *[]*string,
@@ -2374,13 +2374,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasks {
 	CronExpression: *string,
 	IsEnabled: interface{},
 	TaskType: *string,
-	TaskParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters,
+	TaskParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters,
 }
 ```
 
@@ -2450,10 +2450,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasksTaskParameters {
-	ClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll,
+	ClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll,
 }
 ```
 
@@ -2484,7 +2484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll {
 	BatchMinHealthyPercentage: *f64,
@@ -2558,7 +2558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -2604,7 +2604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportStrategy {
 	DrainingTimeout: *f64,
@@ -2678,12 +2678,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportUpdatePolicy {
 	ShouldRoll: interface{},
 	ConditionedRoll: interface{},
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig,
 }
 ```
 
@@ -2740,7 +2740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportUpdatePolicyRollConfig {
 	BatchSizePercentage: *f64,
@@ -2816,7 +2816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerDownOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() OceanGkeImportAutoscalerDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerHeadroomOutputReference
 ```
@@ -3517,7 +3517,7 @@ func InternalValue() OceanGkeImportAutoscalerHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerOutputReference
 ```
@@ -4037,7 +4037,7 @@ func InternalValue() OceanGkeImportAutoscaler
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerResourceLimitsOutputReference
 ```
@@ -4344,7 +4344,7 @@ func InternalValue() OceanGkeImportAutoscalerResourceLimits
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdateList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoUpdateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportAutoUpdateList
 ```
@@ -4504,7 +4504,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportAutoUpdateOutputReference
 ```
@@ -4800,7 +4800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportBackendServicesList
 ```
@@ -4960,7 +4960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesNamedPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportBackendServicesNamedPortsList
 ```
@@ -5120,7 +5120,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesNamedPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportBackendServicesNamedPortsOutputReference
 ```
@@ -5431,7 +5431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportBackendServicesOutputReference
 ```
@@ -5820,7 +5820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportFiltersOutputReference
 ```
@@ -6243,7 +6243,7 @@ func InternalValue() OceanGkeImportFilters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportScheduledTaskList
 ```
@@ -6403,7 +6403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportScheduledTaskOutputReference
 ```
@@ -6754,7 +6754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskShutdownHoursOutputReference
 ```
@@ -7054,7 +7054,7 @@ func InternalValue() OceanGkeImportScheduledTaskShutdownHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportScheduledTaskTasksList
 ```
@@ -7214,7 +7214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportScheduledTaskTasksOutputReference
 ```
@@ -7589,7 +7589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference
 ```
@@ -7954,7 +7954,7 @@ func InternalValue() OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksTaskParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskTasksTaskParametersOutputReference
 ```
@@ -8245,7 +8245,7 @@ func InternalValue() OceanGkeImportScheduledTaskTasksTaskParameters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportShieldedInstanceConfigOutputReference
 ```
@@ -8552,7 +8552,7 @@ func InternalValue() OceanGkeImportShieldedInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportStrategyList
 ```
@@ -8712,7 +8712,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportStrategyOutputReference
 ```
@@ -9095,7 +9095,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportUpdatePolicyOutputReference
 ```
@@ -9437,7 +9437,7 @@ func InternalValue() OceanGkeImportUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportUpdatePolicyRollConfigOutputReference
 ```
