@@ -4,12 +4,12 @@
 
 ### CredentialsAzure <a name="CredentialsAzure" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure spotinst_credentials_azure}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure spotinst_credentials_azure}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 credentialsazure.NewCredentialsAzure(scope Construct, id *string, config CredentialsAzureConfig) CredentialsAzure
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ credentialsazure.CredentialsAzure_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ credentialsazure.CredentialsAzure_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 credentialsazure.CredentialsAzure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -474,7 +474,7 @@ The construct id used in the generated config for the CredentialsAzure to import
 
 The id of the existing CredentialsAzure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
 
 &credentialsazure.CredentialsAzureConfig {
 	Connection: interface{},
@@ -836,12 +836,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/credentialsazur
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.subscriptionId">SubscriptionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.tenantId">TenantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#id CredentialsAzure#id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientSecret">ClientSecret</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.subscriptionId">SubscriptionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.tenantId">TenantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#id CredentialsAzure#id}. |
 
 ---
 
@@ -923,7 +923,7 @@ AccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}.
 
 ---
 
@@ -935,7 +935,7 @@ ClientId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}.
 
 ---
 
@@ -947,7 +947,7 @@ ClientSecret *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}.
 
 ---
 
@@ -959,7 +959,7 @@ SubscriptionId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}.
 
 ---
 
@@ -971,7 +971,7 @@ TenantId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}.
 
 ---
 
@@ -983,7 +983,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.210.0/docs/resources/credentials_azure#id CredentialsAzure#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.211.0/docs/resources/credentials_azure#id CredentialsAzure#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
