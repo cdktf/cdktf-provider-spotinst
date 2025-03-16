@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAws.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAws(scope Construct, id *string, config OceanAwsConfig) OceanAws
 ```
@@ -827,7 +827,7 @@ func ResetWhitelist()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAws.OceanAws.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.OceanAws_IsConstruct(x interface{}) *bool
 ```
@@ -859,7 +859,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAws.OceanAws.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.OceanAws_IsTerraformElement(x interface{}) *bool
 ```
@@ -873,7 +873,7 @@ oceanaws.OceanAws_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAws.OceanAws.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.OceanAws_IsTerraformResource(x interface{}) *bool
 ```
@@ -887,7 +887,7 @@ oceanaws.OceanAws_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanAws.OceanAws.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.OceanAws_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -2062,7 +2062,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAttachLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsAttachLoadBalancer {
 	Type: *string,
@@ -2122,18 +2122,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscaler.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsAutoscaler {
 	AutoHeadroomPercentage: *f64,
 	AutoscaleCooldown: *f64,
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsAutoscalerAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsAutoscalerAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsAutoscalerAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsAutoscalerAutoscaleHeadroom,
 	AutoscaleIsAutoConfig: interface{},
 	AutoscaleIsEnabled: interface{},
 	EnableAutomaticAndManualHeadroom: interface{},
 	ExtendedResourceDefinitions: *[]*string,
-	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsAutoscalerResourceLimits,
+	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsAutoscalerResourceLimits,
 }
 ```
 
@@ -2272,7 +2272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsAutoscalerAutoscaleDown {
 	EvaluationPeriods: *f64,
@@ -2332,7 +2332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsAutoscalerAutoscaleHeadroom {
 	CpuPerUnit: *f64,
@@ -2406,7 +2406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsAutoscalerResourceLimits {
 	MaxMemoryGib: *f64,
@@ -2452,11 +2452,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsBlockDeviceMappings {
 	DeviceName: *string,
-	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbs,
+	Ebs: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsBlockDeviceMappingsEbs,
 }
 ```
 
@@ -2500,12 +2500,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsBlockDeviceMappingsEbs {
 	DeleteOnTermination: interface{},
-	DynamicIops: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicIops,
-	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize,
+	DynamicIops: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicIops,
+	DynamicVolumeSize: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize,
 	Encrypted: interface{},
 	Iops: *f64,
 	KmsKeyId: *string,
@@ -2662,7 +2662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicIops.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsBlockDeviceMappingsEbsDynamicIops {
 	BaseSize: *f64,
@@ -2722,7 +2722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize {
 	BaseSize: *f64,
@@ -2782,7 +2782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsClusterOrientation {
 	AvailabilityVsCost: *string,
@@ -2814,7 +2814,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsConfig {
 	Connection: interface{},
@@ -2830,7 +2830,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
 	AssociateIpv6Address: interface{},
 	AssociatePublicIpAddress: interface{},
 	AttachLoadBalancer: interface{},
-	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsAutoscaler,
+	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsAutoscaler,
 	Blacklist: *[]*string,
 	BlockDeviceMappings: interface{},
 	ClusterOrientation: interface{},
@@ -2840,15 +2840,15 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
 	DrainingTimeout: *f64,
 	EbsOptimized: interface{},
 	FallbackToOndemand: interface{},
-	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsFilters,
+	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsFilters,
 	GracePeriod: *f64,
 	HealthCheckUnhealthyDurationBeforeReplacement: *f64,
 	IamInstanceProfile: *string,
 	Id: *string,
-	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsInstanceMetadataOptions,
+	InstanceMetadataOptions: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsInstanceMetadataOptions,
 	KeyName: *string,
 	LoadBalancers: interface{},
-	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsLogging,
+	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsLogging,
 	MaxSize: *f64,
 	MinSize: *f64,
 	Monitoring: interface{},
@@ -2857,11 +2857,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
 	ReservedEnis: *f64,
 	ResourceTagSpecification: interface{},
 	RootVolumeSize: *f64,
-	ScheduledTask: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTask,
+	ScheduledTask: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTask,
 	SpotPercentage: *f64,
 	SpreadNodesBy: *string,
 	Tags: interface{},
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsUpdatePolicy,
 	UseAsTemplateOnly: interface{},
 	UserData: *string,
 	UtilizeCommitments: interface{},
@@ -3547,7 +3547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsDetachLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsDetachLoadBalancer {
 	Type: *string,
@@ -3607,7 +3607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsFilters {
 	Architectures: *[]*string,
@@ -3891,7 +3891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsInstanceMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsInstanceMetadataOptions {
 	HttpTokens: *string,
@@ -3937,7 +3937,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancers.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsLoadBalancers {
 	Arn: *string,
@@ -3997,10 +3997,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsLogging {
-	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsLoggingExport,
+	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsLoggingExport,
 }
 ```
 
@@ -4031,7 +4031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsLoggingExport {
 	S3: interface{},
@@ -4065,7 +4065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsLoggingExportS3 {
 	Id: *string,
@@ -4100,7 +4100,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsResourceTagSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsResourceTagSpecification {
 	ShouldTagVolumes: interface{},
@@ -4132,10 +4132,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTask {
-	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTaskShutdownHours,
+	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTaskShutdownHours,
 	Tasks: interface{},
 }
 ```
@@ -4182,7 +4182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskShutdownHours {
 	TimeWindows: *[]*string,
@@ -4228,13 +4228,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskTasks {
 	CronExpression: *string,
 	IsEnabled: interface{},
 	TaskType: *string,
-	Parameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTaskTasksParameters,
+	Parameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTaskTasksParameters,
 }
 ```
 
@@ -4304,11 +4304,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskTasksParameters {
-	AmiAutoUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdate,
-	ParametersClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersParametersClusterRoll,
+	AmiAutoUpdate: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdate,
+	ParametersClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTaskTasksParametersParametersClusterRoll,
 }
 ```
 
@@ -4354,10 +4354,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdate {
-	AmiAutoUpdateClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRoll,
+	AmiAutoUpdateClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRoll,
 	ApplyRoll: interface{},
 	MinorVersion: interface{},
 	Patch: interface{},
@@ -4430,7 +4430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRoll.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRoll {
 	BatchMinHealthyPercentage: *f64,
@@ -4504,7 +4504,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersParametersClusterRoll.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsScheduledTaskTasksParametersParametersClusterRoll {
 	BatchMinHealthyPercentage: *f64,
@@ -4578,7 +4578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsTags {
 	Key: *string,
@@ -4624,14 +4624,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsUpdatePolicy {
 	ShouldRoll: interface{},
 	AutoApplyTags: interface{},
 	ConditionedRoll: interface{},
 	ConditionedRollParams: *[]*string,
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAws.OceanAwsUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAws.OceanAwsUpdatePolicyRollConfig,
 }
 ```
 
@@ -4714,7 +4714,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAws.OceanAwsUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 &oceanaws.OceanAwsUpdatePolicyRollConfig {
 	BatchSizePercentage: *f64,
@@ -4790,7 +4790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAttachLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAttachLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsAttachLoadBalancerList
 ```
@@ -4950,7 +4950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAttachLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAttachLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsAttachLoadBalancerOutputReference
 ```
@@ -5297,7 +5297,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAutoscalerAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsAutoscalerAutoscaleDownOutputReference
 ```
@@ -5633,7 +5633,7 @@ func InternalValue() OceanAwsAutoscalerAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAutoscalerAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsAutoscalerAutoscaleHeadroomOutputReference
 ```
@@ -5998,7 +5998,7 @@ func InternalValue() OceanAwsAutoscalerAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAutoscalerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsAutoscalerOutputReference
 ```
@@ -6547,7 +6547,7 @@ func InternalValue() OceanAwsAutoscaler
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsAutoscalerResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsAutoscalerResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsAutoscalerResourceLimitsOutputReference
 ```
@@ -6854,7 +6854,7 @@ func InternalValue() OceanAwsAutoscalerResourceLimits
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicIopsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsBlockDeviceMappingsEbsDynamicIopsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsBlockDeviceMappingsEbsDynamicIopsOutputReference
 ```
@@ -7169,7 +7169,7 @@ func InternalValue() OceanAwsBlockDeviceMappingsEbsDynamicIops
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference
 ```
@@ -7484,7 +7484,7 @@ func InternalValue() OceanAwsBlockDeviceMappingsEbsDynamicVolumeSize
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsBlockDeviceMappingsEbsOutputReference
 ```
@@ -8049,7 +8049,7 @@ func InternalValue() OceanAwsBlockDeviceMappingsEbs
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsBlockDeviceMappingsList
 ```
@@ -8209,7 +8209,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsBlockDeviceMappingsOutputReference
 ```
@@ -8547,7 +8547,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsClusterOrientationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsClusterOrientationList
 ```
@@ -8707,7 +8707,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsClusterOrientationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsClusterOrientationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsClusterOrientationOutputReference
 ```
@@ -9003,7 +9003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsDetachLoadBalancerList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsDetachLoadBalancerList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsDetachLoadBalancerList
 ```
@@ -9163,7 +9163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsDetachLoadBalancerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsDetachLoadBalancerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsDetachLoadBalancerOutputReference
 ```
@@ -9510,7 +9510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsFiltersOutputReference
 ```
@@ -10310,7 +10310,7 @@ func InternalValue() OceanAwsFilters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsInstanceMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsInstanceMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsInstanceMetadataOptionsOutputReference
 ```
@@ -10610,7 +10610,7 @@ func InternalValue() OceanAwsInstanceMetadataOptions
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoadBalancersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLoadBalancersList
 ```
@@ -10770,7 +10770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoadBalancersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoadBalancersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLoadBalancersOutputReference
 ```
@@ -11124,7 +11124,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoggingExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLoggingExportOutputReference
 ```
@@ -11415,7 +11415,7 @@ func InternalValue() OceanAwsLoggingExport
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3List.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoggingExportS3List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsLoggingExportS3List
 ```
@@ -11575,7 +11575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingExportS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoggingExportS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsLoggingExportS3OutputReference
 ```
@@ -11864,7 +11864,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsLoggingOutputReference
 ```
@@ -12155,7 +12155,7 @@ func InternalValue() OceanAwsLogging
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsResourceTagSpecificationList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsResourceTagSpecificationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsResourceTagSpecificationList
 ```
@@ -12315,7 +12315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsResourceTagSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsResourceTagSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsResourceTagSpecificationOutputReference
 ```
@@ -12611,7 +12611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskOutputReference
 ```
@@ -12944,7 +12944,7 @@ func InternalValue() OceanAwsScheduledTask
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskShutdownHoursOutputReference
 ```
@@ -13244,7 +13244,7 @@ func InternalValue() OceanAwsScheduledTaskShutdownHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsScheduledTaskTasksList
 ```
@@ -13404,7 +13404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsScheduledTaskTasksOutputReference
 ```
@@ -13779,7 +13779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRollOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRollOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpdateClusterRollOutputReference
 ```
@@ -14144,7 +14144,7 @@ func InternalValue() OceanAwsScheduledTaskTasksParametersAmiAutoUpdateAmiAutoUpd
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersAmiAutoUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksParametersAmiAutoUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskTasksParametersAmiAutoUpdateOutputReference
 ```
@@ -14522,7 +14522,7 @@ func InternalValue() OceanAwsScheduledTaskTasksParametersAmiAutoUpdate
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskTasksParametersOutputReference
 ```
@@ -14855,7 +14855,7 @@ func InternalValue() OceanAwsScheduledTaskTasksParameters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsScheduledTaskTasksParametersParametersClusterRollOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsScheduledTaskTasksParametersParametersClusterRollOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsScheduledTaskTasksParametersParametersClusterRollOutputReference
 ```
@@ -15220,7 +15220,7 @@ func InternalValue() OceanAwsScheduledTaskTasksParametersParametersClusterRoll
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAwsTagsList
 ```
@@ -15380,7 +15380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAwsTagsOutputReference
 ```
@@ -15691,7 +15691,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsUpdatePolicyOutputReference
 ```
@@ -16091,7 +16091,7 @@ func InternalValue() OceanAwsUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAws.OceanAwsUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaws"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaws"
 
 oceanaws.NewOceanAwsUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAwsUpdatePolicyRollConfigOutputReference
 ```
