@@ -4,12 +4,12 @@
 
 ### OceanGkeImport <a name="OceanGkeImport" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import spotinst_ocean_gke_import}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import spotinst_ocean_gke_import}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImport(scope Construct, id *string, config OceanGkeImportConfig) OceanGkeImport
 ```
@@ -601,7 +601,7 @@ func ResetWhitelist()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsConstruct(x interface{}) *bool
 ```
@@ -633,7 +633,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsTerraformElement(x interface{}) *bool
 ```
@@ -647,7 +647,7 @@ oceangkeimport.OceanGkeImport_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_IsTerraformResource(x interface{}) *bool
 ```
@@ -661,7 +661,7 @@ oceangkeimport.OceanGkeImport_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.OceanGkeImport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -690,7 +690,7 @@ The construct id used in the generated config for the OceanGkeImport to import.
 
 The id of the existing OceanGkeImport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1319,17 +1319,17 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscaler {
 	AutoHeadroomPercentage: *f64,
 	Cooldown: *f64,
-	Down: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerDown,
+	Down: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown,
 	EnableAutomaticAndManualHeadroom: interface{},
-	Headroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerHeadroom,
+	Headroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom,
 	IsAutoConfig: interface{},
 	IsEnabled: interface{},
-	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits,
+	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits,
 }
 ```
 
@@ -1337,13 +1337,13 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.autoHeadroomPercentage">AutoHeadroomPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.cooldown">Cooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.autoHeadroomPercentage">AutoHeadroomPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.cooldown">Cooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.down">Down</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown">OceanGkeImportAutoscalerDown</a></code> | down block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.enableAutomaticAndManualHeadroom">EnableAutomaticAndManualHeadroom</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.enableAutomaticAndManualHeadroom">EnableAutomaticAndManualHeadroom</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.headroom">Headroom</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom">OceanGkeImportAutoscalerHeadroom</a></code> | headroom block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.isAutoConfig">IsAutoConfig</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.isAutoConfig">IsAutoConfig</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler.property.resourceLimits">ResourceLimits</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits">OceanGkeImportAutoscalerResourceLimits</a></code> | resource_limits block. |
 
 ---
@@ -1356,7 +1356,7 @@ AutoHeadroomPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#auto_headroom_percentage OceanGkeImport#auto_headroom_percentage}.
 
 ---
 
@@ -1368,7 +1368,7 @@ Cooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cooldown OceanGkeImport#cooldown}.
 
 ---
 
@@ -1382,7 +1382,7 @@ Down OceanGkeImportAutoscalerDown
 
 down block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#down OceanGkeImport#down}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#down OceanGkeImport#down}
 
 ---
 
@@ -1394,7 +1394,7 @@ EnableAutomaticAndManualHeadroom interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_automatic_and_manual_headroom OceanGkeImport#enable_automatic_and_manual_headroom}.
 
 ---
 
@@ -1408,7 +1408,7 @@ Headroom OceanGkeImportAutoscalerHeadroom
 
 headroom block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#headroom OceanGkeImport#headroom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#headroom OceanGkeImport#headroom}
 
 ---
 
@@ -1420,7 +1420,7 @@ IsAutoConfig interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_auto_config OceanGkeImport#is_auto_config}.
 
 ---
 
@@ -1432,7 +1432,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
 
 ---
 
@@ -1446,7 +1446,7 @@ ResourceLimits OceanGkeImportAutoscalerResourceLimits
 
 resource_limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#resource_limits OceanGkeImport#resource_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#resource_limits OceanGkeImport#resource_limits}
 
 ---
 
@@ -1455,7 +1455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerDown {
 	EvaluationPeriods: *f64,
@@ -1468,9 +1468,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.isAggressiveScaleDownEnabled">IsAggressiveScaleDownEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_aggressive_scale_down_enabled OceanGkeImport#is_aggressive_scale_down_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.evaluationPeriods">EvaluationPeriods</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.isAggressiveScaleDownEnabled">IsAggressiveScaleDownEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_aggressive_scale_down_enabled OceanGkeImport#is_aggressive_scale_down_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDown.property.maxScaleDownPercentage">MaxScaleDownPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}. |
 
 ---
 
@@ -1482,7 +1482,7 @@ EvaluationPeriods *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#evaluation_periods OceanGkeImport#evaluation_periods}.
 
 ---
 
@@ -1494,7 +1494,7 @@ IsAggressiveScaleDownEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_aggressive_scale_down_enabled OceanGkeImport#is_aggressive_scale_down_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_aggressive_scale_down_enabled OceanGkeImport#is_aggressive_scale_down_enabled}.
 
 ---
 
@@ -1506,7 +1506,7 @@ MaxScaleDownPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_scale_down_percentage OceanGkeImport#max_scale_down_percentage}.
 
 ---
 
@@ -1515,7 +1515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerHeadroom {
 	CpuPerUnit: *f64,
@@ -1529,10 +1529,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.cpuPerUnit">CpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.gpuPerUnit">GpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.memoryPerUnit">MemoryPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.numOfUnits">NumOfUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.cpuPerUnit">CpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.gpuPerUnit">GpuPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.memoryPerUnit">MemoryPerUnit</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroom.property.numOfUnits">NumOfUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}. |
 
 ---
 
@@ -1544,7 +1544,7 @@ CpuPerUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cpu_per_unit OceanGkeImport#cpu_per_unit}.
 
 ---
 
@@ -1556,7 +1556,7 @@ GpuPerUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#gpu_per_unit OceanGkeImport#gpu_per_unit}.
 
 ---
 
@@ -1568,7 +1568,7 @@ MemoryPerUnit *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#memory_per_unit OceanGkeImport#memory_per_unit}.
 
 ---
 
@@ -1580,7 +1580,7 @@ NumOfUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#num_of_units OceanGkeImport#num_of_units}.
 
 ---
 
@@ -1589,7 +1589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoscalerResourceLimits {
 	MaxMemoryGib: *f64,
@@ -1601,8 +1601,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimits.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}. |
 
 ---
 
@@ -1614,7 +1614,7 @@ MaxMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}.
 
 ---
 
@@ -1626,7 +1626,7 @@ MaxVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}.
 
 ---
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportAutoUpdate {
 	IsEnabled: interface{},
@@ -1646,7 +1646,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdate.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdate.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
 
 ---
 
@@ -1658,7 +1658,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
 
 ---
 
@@ -1667,7 +1667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportBackendServices {
 	ServiceName: *string,
@@ -1681,10 +1681,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.serviceName">ServiceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.locationType">LocationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.serviceName">ServiceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.locationType">LocationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.namedPorts">NamedPorts</a></code> | <code>interface{}</code> | named_ports block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.scheme">Scheme</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServices.property.scheme">Scheme</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}. |
 
 ---
 
@@ -1696,7 +1696,7 @@ ServiceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#service_name OceanGkeImport#service_name}.
 
 ---
 
@@ -1708,7 +1708,7 @@ LocationType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#location_type OceanGkeImport#location_type}.
 
 ---
 
@@ -1722,7 +1722,7 @@ NamedPorts interface{}
 
 named_ports block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#named_ports OceanGkeImport#named_ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#named_ports OceanGkeImport#named_ports}
 
 ---
 
@@ -1734,7 +1734,7 @@ Scheme *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#scheme OceanGkeImport#scheme}.
 
 ---
 
@@ -1743,7 +1743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportBackendServicesNamedPorts {
 	Name: *string,
@@ -1755,8 +1755,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#name OceanGkeImport#name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.property.ports">Ports</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#name OceanGkeImport#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPorts.property.ports">Ports</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}. |
 
 ---
 
@@ -1768,7 +1768,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#name OceanGkeImport#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#name OceanGkeImport#name}.
 
 ---
 
@@ -1780,7 +1780,7 @@ Ports *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#ports OceanGkeImport#ports}.
 
 ---
 
@@ -1789,7 +1789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportConfig {
 	Connection: interface{},
@@ -1801,21 +1801,21 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 	Provisioners: *[]interface{},
 	ClusterName: *string,
 	Location: *string,
-	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportAutoscaler,
+	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportAutoscaler,
 	AutoUpdate: interface{},
 	BackendServices: interface{},
 	Blacklist: *[]*string,
 	ControllerClusterId: *string,
 	DesiredCapacity: *f64,
-	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportFilters,
+	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportFilters,
 	Id: *string,
 	MaxSize: *f64,
 	MinSize: *f64,
 	RootVolumeType: *string,
 	ScheduledTask: interface{},
-	ShieldedInstanceConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportShieldedInstanceConfig,
+	ShieldedInstanceConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig,
 	Strategy: interface{},
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy,
 	UseAsTemplateOnly: interface{},
 	Whitelist: *[]*string,
 }
@@ -1832,25 +1832,25 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.clusterName">ClusterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#location OceanGkeImport#location}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.clusterName">ClusterName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#location OceanGkeImport#location}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.autoscaler">Autoscaler</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscaler">OceanGkeImportAutoscaler</a></code> | autoscaler block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.autoUpdate">AutoUpdate</a></code> | <code>interface{}</code> | auto_update block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.backendServices">BackendServices</a></code> | <code>interface{}</code> | backend_services block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.blacklist">Blacklist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.controllerClusterId">ControllerClusterId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.blacklist">Blacklist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.controllerClusterId">ControllerClusterId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.filters">Filters</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters">OceanGkeImportFilters</a></code> | filters block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#id OceanGkeImport#id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.maxSize">MaxSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.minSize">MinSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.rootVolumeType">RootVolumeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#id OceanGkeImport#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.maxSize">MaxSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.minSize">MinSize</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.rootVolumeType">RootVolumeType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.scheduledTask">ScheduledTask</a></code> | <code>interface{}</code> | scheduled_task block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.shieldedInstanceConfig">ShieldedInstanceConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig">OceanGkeImportShieldedInstanceConfig</a></code> | shielded_instance_config block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.strategy">Strategy</a></code> | <code>interface{}</code> | strategy block. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.updatePolicy">UpdatePolicy</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy">OceanGkeImportUpdatePolicy</a></code> | update_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.useAsTemplateOnly">UseAsTemplateOnly</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.whitelist">Whitelist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.useAsTemplateOnly">UseAsTemplateOnly</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportConfig.property.whitelist">Whitelist</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}. |
 
 ---
 
@@ -1932,7 +1932,7 @@ ClusterName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cluster_name OceanGkeImport#cluster_name}.
 
 ---
 
@@ -1944,7 +1944,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#location OceanGkeImport#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#location OceanGkeImport#location}.
 
 ---
 
@@ -1958,7 +1958,7 @@ Autoscaler OceanGkeImportAutoscaler
 
 autoscaler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#autoscaler OceanGkeImport#autoscaler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#autoscaler OceanGkeImport#autoscaler}
 
 ---
 
@@ -1972,7 +1972,7 @@ AutoUpdate interface{}
 
 auto_update block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#auto_update OceanGkeImport#auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#auto_update OceanGkeImport#auto_update}
 
 ---
 
@@ -1986,7 +1986,7 @@ BackendServices interface{}
 
 backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#backend_services OceanGkeImport#backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#backend_services OceanGkeImport#backend_services}
 
 ---
 
@@ -1998,7 +1998,7 @@ Blacklist *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#blacklist OceanGkeImport#blacklist}.
 
 ---
 
@@ -2010,7 +2010,7 @@ ControllerClusterId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#controller_cluster_id OceanGkeImport#controller_cluster_id}.
 
 ---
 
@@ -2022,7 +2022,7 @@ DesiredCapacity *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#desired_capacity OceanGkeImport#desired_capacity}.
 
 ---
 
@@ -2036,7 +2036,7 @@ Filters OceanGkeImportFilters
 
 filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#filters OceanGkeImport#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#filters OceanGkeImport#filters}
 
 ---
 
@@ -2048,7 +2048,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#id OceanGkeImport#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#id OceanGkeImport#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2063,7 +2063,7 @@ MaxSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_size OceanGkeImport#max_size}.
 
 ---
 
@@ -2075,7 +2075,7 @@ MinSize *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_size OceanGkeImport#min_size}.
 
 ---
 
@@ -2087,7 +2087,7 @@ RootVolumeType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#root_volume_type OceanGkeImport#root_volume_type}.
 
 ---
 
@@ -2101,7 +2101,7 @@ ScheduledTask interface{}
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#scheduled_task OceanGkeImport#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#scheduled_task OceanGkeImport#scheduled_task}
 
 ---
 
@@ -2115,7 +2115,7 @@ ShieldedInstanceConfig OceanGkeImportShieldedInstanceConfig
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#shielded_instance_config OceanGkeImport#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#shielded_instance_config OceanGkeImport#shielded_instance_config}
 
 ---
 
@@ -2129,7 +2129,7 @@ Strategy interface{}
 
 strategy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#strategy OceanGkeImport#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#strategy OceanGkeImport#strategy}
 
 ---
 
@@ -2143,7 +2143,7 @@ UpdatePolicy OceanGkeImportUpdatePolicy
 
 update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#update_policy OceanGkeImport#update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#update_policy OceanGkeImport#update_policy}
 
 ---
 
@@ -2155,7 +2155,7 @@ UseAsTemplateOnly interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#use_as_template_only OceanGkeImport#use_as_template_only}.
 
 ---
 
@@ -2167,7 +2167,7 @@ Whitelist *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#whitelist OceanGkeImport#whitelist}.
 
 ---
 
@@ -2176,7 +2176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportFilters {
 	ExcludeFamilies: *[]*string,
@@ -2192,12 +2192,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.excludeFamilies">ExcludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#exclude_families OceanGkeImport#exclude_families}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.includeFamilies">IncludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#include_families OceanGkeImport#include_families}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.minMemoryGib">MinMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_memory_gib OceanGkeImport#min_memory_gib}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.minVcpu">MinVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_vcpu OceanGkeImport#min_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.excludeFamilies">ExcludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#exclude_families OceanGkeImport#exclude_families}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.includeFamilies">IncludeFamilies</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#include_families OceanGkeImport#include_families}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.maxMemoryGib">MaxMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.maxVcpu">MaxVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.minMemoryGib">MinMemoryGib</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_memory_gib OceanGkeImport#min_memory_gib}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFilters.property.minVcpu">MinVcpu</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_vcpu OceanGkeImport#min_vcpu}. |
 
 ---
 
@@ -2209,7 +2209,7 @@ ExcludeFamilies *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#exclude_families OceanGkeImport#exclude_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#exclude_families OceanGkeImport#exclude_families}.
 
 ---
 
@@ -2221,7 +2221,7 @@ IncludeFamilies *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#include_families OceanGkeImport#include_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#include_families OceanGkeImport#include_families}.
 
 ---
 
@@ -2233,7 +2233,7 @@ MaxMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_memory_gib OceanGkeImport#max_memory_gib}.
 
 ---
 
@@ -2245,7 +2245,7 @@ MaxVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#max_vcpu OceanGkeImport#max_vcpu}.
 
 ---
 
@@ -2257,7 +2257,7 @@ MinMemoryGib *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_memory_gib OceanGkeImport#min_memory_gib}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_memory_gib OceanGkeImport#min_memory_gib}.
 
 ---
 
@@ -2269,7 +2269,7 @@ MinVcpu *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#min_vcpu OceanGkeImport#min_vcpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#min_vcpu OceanGkeImport#min_vcpu}.
 
 ---
 
@@ -2278,10 +2278,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTask.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTask {
-	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours,
+	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours,
 	Tasks: interface{},
 }
 ```
@@ -2305,7 +2305,7 @@ ShutdownHours OceanGkeImportScheduledTaskShutdownHours
 
 shutdown_hours block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#shutdown_hours OceanGkeImport#shutdown_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#shutdown_hours OceanGkeImport#shutdown_hours}
 
 ---
 
@@ -2319,7 +2319,7 @@ Tasks interface{}
 
 tasks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#tasks OceanGkeImport#tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#tasks OceanGkeImport#tasks}
 
 ---
 
@@ -2328,7 +2328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskShutdownHours {
 	TimeWindows: *[]*string,
@@ -2340,8 +2340,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.property.timeWindows">TimeWindows</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHours.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
 
 ---
 
@@ -2353,7 +2353,7 @@ TimeWindows *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#time_windows OceanGkeImport#time_windows}.
 
 ---
 
@@ -2365,7 +2365,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
 
 ---
 
@@ -2374,13 +2374,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasks {
 	CronExpression: *string,
 	IsEnabled: interface{},
 	TaskType: *string,
-	TaskParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters,
+	TaskParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters,
 }
 ```
 
@@ -2388,9 +2388,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.taskType">TaskType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.isEnabled">IsEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.taskType">TaskType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasks.property.taskParameters">TaskParameters</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters">OceanGkeImportScheduledTaskTasksTaskParameters</a></code> | task_parameters block. |
 
 ---
@@ -2403,7 +2403,7 @@ CronExpression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cron_expression OceanGkeImport#cron_expression}.
 
 ---
 
@@ -2415,7 +2415,7 @@ IsEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#is_enabled OceanGkeImport#is_enabled}.
 
 ---
 
@@ -2427,7 +2427,7 @@ TaskType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#task_type OceanGkeImport#task_type}.
 
 ---
 
@@ -2441,7 +2441,7 @@ TaskParameters OceanGkeImportScheduledTaskTasksTaskParameters
 
 task_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#task_parameters OceanGkeImport#task_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#task_parameters OceanGkeImport#task_parameters}
 
 ---
 
@@ -2450,10 +2450,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasksTaskParameters {
-	ClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll,
+	ClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll,
 }
 ```
 
@@ -2475,7 +2475,7 @@ ClusterRoll OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll
 
 cluster_roll block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#cluster_roll OceanGkeImport#cluster_roll}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#cluster_roll OceanGkeImport#cluster_roll}
 
 ---
 
@@ -2484,7 +2484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll {
 	BatchMinHealthyPercentage: *f64,
@@ -2498,10 +2498,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.comment">Comment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.respectPdb">RespectPdb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.comment">Comment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll.property.respectPdb">RespectPdb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}. |
 
 ---
 
@@ -2513,7 +2513,7 @@ BatchMinHealthyPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}.
 
 ---
 
@@ -2525,7 +2525,7 @@ BatchSizePercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}.
 
 ---
 
@@ -2537,7 +2537,7 @@ Comment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#comment OceanGkeImport#comment}.
 
 ---
 
@@ -2549,7 +2549,7 @@ RespectPdb interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}.
 
 ---
 
@@ -2558,7 +2558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -2570,8 +2570,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.property.enableIntegrityMonitoring">EnableIntegrityMonitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.property.enableSecureBoot">EnableSecureBoot</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.property.enableIntegrityMonitoring">EnableIntegrityMonitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfig.property.enableSecureBoot">EnableSecureBoot</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}. |
 
 ---
 
@@ -2583,7 +2583,7 @@ EnableIntegrityMonitoring interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_integrity_monitoring OceanGkeImport#enable_integrity_monitoring}.
 
 ---
 
@@ -2595,7 +2595,7 @@ EnableSecureBoot interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#enable_secure_boot OceanGkeImport#enable_secure_boot}.
 
 ---
 
@@ -2604,7 +2604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportStrategy {
 	DrainingTimeout: *f64,
@@ -2618,10 +2618,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.preemptiblePercentage">PreemptiblePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.provisioningModel">ProvisioningModel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.shouldUtilizeCommitments">ShouldUtilizeCommitments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.drainingTimeout">DrainingTimeout</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.preemptiblePercentage">PreemptiblePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.provisioningModel">ProvisioningModel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategy.property.shouldUtilizeCommitments">ShouldUtilizeCommitments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}. |
 
 ---
 
@@ -2633,7 +2633,7 @@ DrainingTimeout *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#draining_timeout OceanGkeImport#draining_timeout}.
 
 ---
 
@@ -2645,7 +2645,7 @@ PreemptiblePercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#preemptible_percentage OceanGkeImport#preemptible_percentage}.
 
 ---
 
@@ -2657,7 +2657,7 @@ ProvisioningModel *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#provisioning_model OceanGkeImport#provisioning_model}.
 
 ---
 
@@ -2669,7 +2669,7 @@ ShouldUtilizeCommitments interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#should_utilize_commitments OceanGkeImport#should_utilize_commitments}.
 
 ---
 
@@ -2678,12 +2678,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportUpdatePolicy {
 	ShouldRoll: interface{},
 	ConditionedRoll: interface{},
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig,
 }
 ```
 
@@ -2691,8 +2691,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.property.conditionedRoll">ConditionedRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.property.shouldRoll">ShouldRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.property.conditionedRoll">ConditionedRoll</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}. |
 | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicy.property.rollConfig">RollConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig">OceanGkeImportUpdatePolicyRollConfig</a></code> | roll_config block. |
 
 ---
@@ -2705,7 +2705,7 @@ ShouldRoll interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#should_roll OceanGkeImport#should_roll}.
 
 ---
 
@@ -2717,7 +2717,7 @@ ConditionedRoll interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#conditioned_roll OceanGkeImport#conditioned_roll}.
 
 ---
 
@@ -2731,7 +2731,7 @@ RollConfig OceanGkeImportUpdatePolicyRollConfig
 
 roll_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#roll_config OceanGkeImport#roll_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#roll_config OceanGkeImport#roll_config}
 
 ---
 
@@ -2740,7 +2740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 &oceangkeimport.OceanGkeImportUpdatePolicyRollConfig {
 	BatchSizePercentage: *f64,
@@ -2754,10 +2754,10 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.launchSpecIds">LaunchSpecIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.respectPdb">RespectPdb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.batchSizePercentage">BatchSizePercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.batchMinHealthyPercentage">BatchMinHealthyPercentage</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.launchSpecIds">LaunchSpecIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfig.property.respectPdb">RespectPdb</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}. |
 
 ---
 
@@ -2769,7 +2769,7 @@ BatchSizePercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_size_percentage OceanGkeImport#batch_size_percentage}.
 
 ---
 
@@ -2781,7 +2781,7 @@ BatchMinHealthyPercentage *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#batch_min_healthy_percentage OceanGkeImport#batch_min_healthy_percentage}.
 
 ---
 
@@ -2793,7 +2793,7 @@ LaunchSpecIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#launch_spec_ids OceanGkeImport#launch_spec_ids}.
 
 ---
 
@@ -2805,7 +2805,7 @@ RespectPdb interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.0/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_gke_import#respect_pdb OceanGkeImport#respect_pdb}.
 
 ---
 
@@ -2816,7 +2816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerDownOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() OceanGkeImportAutoscalerDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerHeadroomOutputReference
 ```
@@ -3517,7 +3517,7 @@ func InternalValue() OceanGkeImportAutoscalerHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerOutputReference
 ```
@@ -4037,7 +4037,7 @@ func InternalValue() OceanGkeImportAutoscaler
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoscalerResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoscalerResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportAutoscalerResourceLimitsOutputReference
 ```
@@ -4344,7 +4344,7 @@ func InternalValue() OceanGkeImportAutoscalerResourceLimits
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdateList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoUpdateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportAutoUpdateList
 ```
@@ -4504,7 +4504,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportAutoUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportAutoUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportAutoUpdateOutputReference
 ```
@@ -4800,7 +4800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportBackendServicesList
 ```
@@ -4960,7 +4960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesNamedPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportBackendServicesNamedPortsList
 ```
@@ -5120,7 +5120,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesNamedPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesNamedPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportBackendServicesNamedPortsOutputReference
 ```
@@ -5431,7 +5431,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportBackendServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportBackendServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportBackendServicesOutputReference
 ```
@@ -5820,7 +5820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportFiltersOutputReference
 ```
@@ -6243,7 +6243,7 @@ func InternalValue() OceanGkeImportFilters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportScheduledTaskList
 ```
@@ -6403,7 +6403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportScheduledTaskOutputReference
 ```
@@ -6754,7 +6754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskShutdownHoursOutputReference
 ```
@@ -7054,7 +7054,7 @@ func InternalValue() OceanGkeImportScheduledTaskShutdownHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportScheduledTaskTasksList
 ```
@@ -7214,7 +7214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportScheduledTaskTasksOutputReference
 ```
@@ -7589,7 +7589,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskTasksTaskParametersClusterRollOutputReference
 ```
@@ -7954,7 +7954,7 @@ func InternalValue() OceanGkeImportScheduledTaskTasksTaskParametersClusterRoll
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportScheduledTaskTasksTaskParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportScheduledTaskTasksTaskParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportScheduledTaskTasksTaskParametersOutputReference
 ```
@@ -8245,7 +8245,7 @@ func InternalValue() OceanGkeImportScheduledTaskTasksTaskParameters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportShieldedInstanceConfigOutputReference
 ```
@@ -8552,7 +8552,7 @@ func InternalValue() OceanGkeImportShieldedInstanceConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanGkeImportStrategyList
 ```
@@ -8712,7 +8712,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanGkeImportStrategyOutputReference
 ```
@@ -9095,7 +9095,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportUpdatePolicyOutputReference
 ```
@@ -9437,7 +9437,7 @@ func InternalValue() OceanGkeImportUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanGkeImport.OceanGkeImportUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceangkeimport"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceangkeimport"
 
 oceangkeimport.NewOceanGkeImportUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanGkeImportUpdatePolicyRollConfigOutputReference
 ```
