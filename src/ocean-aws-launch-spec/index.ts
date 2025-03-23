@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec
+// https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,186 +13,192 @@ import * as cdktf from 'cdktf';
 
 export interface OceanAwsLaunchSpecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#associate_public_ip_address OceanAwsLaunchSpec#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#associate_public_ip_address OceanAwsLaunchSpec#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#iam_instance_profile OceanAwsLaunchSpec#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#iam_instance_profile OceanAwsLaunchSpec#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#id OceanAwsLaunchSpec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#id OceanAwsLaunchSpec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#instance_types OceanAwsLaunchSpec#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#instance_types OceanAwsLaunchSpec#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#name OceanAwsLaunchSpec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#name OceanAwsLaunchSpec#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#ocean_id OceanAwsLaunchSpec#ocean_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#ocean_id OceanAwsLaunchSpec#ocean_id}
   */
   readonly oceanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#preferred_od_types OceanAwsLaunchSpec#preferred_od_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#preferred_od_types OceanAwsLaunchSpec#preferred_od_types}
   */
   readonly preferredOdTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#preferred_spot_types OceanAwsLaunchSpec#preferred_spot_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#preferred_spot_types OceanAwsLaunchSpec#preferred_spot_types}
   */
   readonly preferredSpotTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#reserved_enis OceanAwsLaunchSpec#reserved_enis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#reserved_enis OceanAwsLaunchSpec#reserved_enis}
   */
   readonly reservedEnis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#restrict_scale_down OceanAwsLaunchSpec#restrict_scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#restrict_scale_down OceanAwsLaunchSpec#restrict_scale_down}
   */
   readonly restrictScaleDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#root_volume_size OceanAwsLaunchSpec#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#root_volume_size OceanAwsLaunchSpec#root_volume_size}
   */
   readonly rootVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#security_groups OceanAwsLaunchSpec#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#security_groups OceanAwsLaunchSpec#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#subnet_ids OceanAwsLaunchSpec#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#subnet_ids OceanAwsLaunchSpec#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#user_data OceanAwsLaunchSpec#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#user_data OceanAwsLaunchSpec#user_data}
   */
   readonly userData?: string;
   /**
   * autoscale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#autoscale_down OceanAwsLaunchSpec#autoscale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#autoscale_down OceanAwsLaunchSpec#autoscale_down}
   */
   readonly autoscaleDown?: OceanAwsLaunchSpecAutoscaleDown[] | cdktf.IResolvable;
   /**
   * autoscale_headrooms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#autoscale_headrooms OceanAwsLaunchSpec#autoscale_headrooms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#autoscale_headrooms OceanAwsLaunchSpec#autoscale_headrooms}
   */
   readonly autoscaleHeadrooms?: OceanAwsLaunchSpecAutoscaleHeadrooms[] | cdktf.IResolvable;
   /**
   * autoscale_headrooms_automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#autoscale_headrooms_automatic OceanAwsLaunchSpec#autoscale_headrooms_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#autoscale_headrooms_automatic OceanAwsLaunchSpec#autoscale_headrooms_automatic}
   */
   readonly autoscaleHeadroomsAutomatic?: OceanAwsLaunchSpecAutoscaleHeadroomsAutomatic[] | cdktf.IResolvable;
   /**
   * block_device_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#block_device_mappings OceanAwsLaunchSpec#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#block_device_mappings OceanAwsLaunchSpec#block_device_mappings}
   */
   readonly blockDeviceMappings?: OceanAwsLaunchSpecBlockDeviceMappings[] | cdktf.IResolvable;
   /**
   * create_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#create_options OceanAwsLaunchSpec#create_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#create_options OceanAwsLaunchSpec#create_options}
   */
   readonly createOptions?: OceanAwsLaunchSpecCreateOptions;
   /**
   * delete_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#delete_options OceanAwsLaunchSpec#delete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#delete_options OceanAwsLaunchSpec#delete_options}
   */
   readonly deleteOptions?: OceanAwsLaunchSpecDeleteOptions;
   /**
   * elastic_ip_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#elastic_ip_pool OceanAwsLaunchSpec#elastic_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#elastic_ip_pool OceanAwsLaunchSpec#elastic_ip_pool}
   */
   readonly elasticIpPool?: OceanAwsLaunchSpecElasticIpPool[] | cdktf.IResolvable;
   /**
   * ephemeral_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#ephemeral_storage OceanAwsLaunchSpec#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#ephemeral_storage OceanAwsLaunchSpec#ephemeral_storage}
   */
   readonly ephemeralStorage?: OceanAwsLaunchSpecEphemeralStorage[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#images OceanAwsLaunchSpec#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#images OceanAwsLaunchSpec#images}
   */
   readonly images?: OceanAwsLaunchSpecImages[] | cdktf.IResolvable;
   /**
   * instance_metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#instance_metadata_options OceanAwsLaunchSpec#instance_metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#instance_metadata_options OceanAwsLaunchSpec#instance_metadata_options}
   */
   readonly instanceMetadataOptions?: OceanAwsLaunchSpecInstanceMetadataOptions;
   /**
+  * instance_store_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#instance_store_policy OceanAwsLaunchSpec#instance_store_policy}
+  */
+  readonly instanceStorePolicy?: OceanAwsLaunchSpecInstanceStorePolicy;
+  /**
   * instance_types_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#instance_types_filters OceanAwsLaunchSpec#instance_types_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#instance_types_filters OceanAwsLaunchSpec#instance_types_filters}
   */
   readonly instanceTypesFilters?: OceanAwsLaunchSpecInstanceTypesFilters;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#labels OceanAwsLaunchSpec#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#labels OceanAwsLaunchSpec#labels}
   */
   readonly labels?: OceanAwsLaunchSpecLabels[] | cdktf.IResolvable;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#resource_limits OceanAwsLaunchSpec#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#resource_limits OceanAwsLaunchSpec#resource_limits}
   */
   readonly resourceLimits?: OceanAwsLaunchSpecResourceLimits[] | cdktf.IResolvable;
   /**
   * scheduling_shutdown_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#scheduling_shutdown_hours OceanAwsLaunchSpec#scheduling_shutdown_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#scheduling_shutdown_hours OceanAwsLaunchSpec#scheduling_shutdown_hours}
   */
   readonly schedulingShutdownHours?: OceanAwsLaunchSpecSchedulingShutdownHours;
   /**
   * scheduling_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#scheduling_task OceanAwsLaunchSpec#scheduling_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#scheduling_task OceanAwsLaunchSpec#scheduling_task}
   */
   readonly schedulingTask?: OceanAwsLaunchSpecSchedulingTask[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#strategy OceanAwsLaunchSpec#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#strategy OceanAwsLaunchSpec#strategy}
   */
   readonly strategy?: OceanAwsLaunchSpecStrategy[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#tags OceanAwsLaunchSpec#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#tags OceanAwsLaunchSpec#tags}
   */
   readonly tags?: OceanAwsLaunchSpecTags[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#taints OceanAwsLaunchSpec#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#taints OceanAwsLaunchSpec#taints}
   */
   readonly taints?: OceanAwsLaunchSpecTaints[] | cdktf.IResolvable;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#update_policy OceanAwsLaunchSpec#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#update_policy OceanAwsLaunchSpec#update_policy}
   */
   readonly updatePolicy?: OceanAwsLaunchSpecUpdatePolicy;
 }
 export interface OceanAwsLaunchSpecAutoscaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_scale_down_percentage OceanAwsLaunchSpec#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_scale_down_percentage OceanAwsLaunchSpec#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -308,19 +314,19 @@ export class OceanAwsLaunchSpecAutoscaleDownList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecAutoscaleHeadrooms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#cpu_per_unit OceanAwsLaunchSpec#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#cpu_per_unit OceanAwsLaunchSpec#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#gpu_per_unit OceanAwsLaunchSpec#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#gpu_per_unit OceanAwsLaunchSpec#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#memory_per_unit OceanAwsLaunchSpec#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#memory_per_unit OceanAwsLaunchSpec#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#num_of_units OceanAwsLaunchSpec#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#num_of_units OceanAwsLaunchSpec#num_of_units}
   */
   readonly numOfUnits: number;
 }
@@ -520,7 +526,7 @@ export class OceanAwsLaunchSpecAutoscaleHeadroomsList extends cdktf.ComplexList 
 }
 export interface OceanAwsLaunchSpecAutoscaleHeadroomsAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#auto_headroom_percentage OceanAwsLaunchSpec#auto_headroom_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#auto_headroom_percentage OceanAwsLaunchSpec#auto_headroom_percentage}
   */
   readonly autoHeadroomPercentage?: number;
 }
@@ -636,15 +642,15 @@ export class OceanAwsLaunchSpecAutoscaleHeadroomsAutomaticList extends cdktf.Com
 }
 export interface OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#base_size OceanAwsLaunchSpec#base_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#base_size OceanAwsLaunchSpec#base_size}
   */
   readonly baseSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#resource OceanAwsLaunchSpec#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#resource OceanAwsLaunchSpec#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#size_per_resource_unit OceanAwsLaunchSpec#size_per_resource_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#size_per_resource_unit OceanAwsLaunchSpec#size_per_resource_unit}
   */
   readonly sizePerResourceUnit: number;
 }
@@ -777,41 +783,41 @@ export class OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSizeOutputRefe
 }
 export interface OceanAwsLaunchSpecBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#delete_on_termination OceanAwsLaunchSpec#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#delete_on_termination OceanAwsLaunchSpec#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#encrypted OceanAwsLaunchSpec#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#encrypted OceanAwsLaunchSpec#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#iops OceanAwsLaunchSpec#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#iops OceanAwsLaunchSpec#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#kms_key_id OceanAwsLaunchSpec#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#kms_key_id OceanAwsLaunchSpec#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#snapshot_id OceanAwsLaunchSpec#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#snapshot_id OceanAwsLaunchSpec#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#throughput OceanAwsLaunchSpec#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#throughput OceanAwsLaunchSpec#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#volume_size OceanAwsLaunchSpec#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#volume_size OceanAwsLaunchSpec#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#volume_type OceanAwsLaunchSpec#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#volume_type OceanAwsLaunchSpec#volume_type}
   */
   readonly volumeType?: string;
   /**
   * dynamic_volume_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#dynamic_volume_size OceanAwsLaunchSpec#dynamic_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#dynamic_volume_size OceanAwsLaunchSpec#dynamic_volume_size}
   */
   readonly dynamicVolumeSize?: OceanAwsLaunchSpecBlockDeviceMappingsEbsDynamicVolumeSize;
 }
@@ -1127,21 +1133,21 @@ export class OceanAwsLaunchSpecBlockDeviceMappingsEbsOutputReference extends cdk
 }
 export interface OceanAwsLaunchSpecBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#device_name OceanAwsLaunchSpec#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#device_name OceanAwsLaunchSpec#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#no_device OceanAwsLaunchSpec#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#no_device OceanAwsLaunchSpec#no_device}
   */
   readonly noDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#virtual_name OceanAwsLaunchSpec#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#virtual_name OceanAwsLaunchSpec#virtual_name}
   */
   readonly virtualName?: string;
   /**
   * ebs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#ebs OceanAwsLaunchSpec#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#ebs OceanAwsLaunchSpec#ebs}
   */
   readonly ebs?: OceanAwsLaunchSpecBlockDeviceMappingsEbs;
 }
@@ -1344,7 +1350,7 @@ export class OceanAwsLaunchSpecBlockDeviceMappingsList extends cdktf.ComplexList
 }
 export interface OceanAwsLaunchSpecCreateOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#initial_nodes OceanAwsLaunchSpec#initial_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#initial_nodes OceanAwsLaunchSpec#initial_nodes}
   */
   readonly initialNodes?: number;
 }
@@ -1428,11 +1434,11 @@ export class OceanAwsLaunchSpecCreateOptionsOutputReference extends cdktf.Comple
 }
 export interface OceanAwsLaunchSpecDeleteOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#delete_nodes OceanAwsLaunchSpec#delete_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#delete_nodes OceanAwsLaunchSpec#delete_nodes}
   */
   readonly deleteNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#force_delete OceanAwsLaunchSpec#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#force_delete OceanAwsLaunchSpec#force_delete}
   */
   readonly forceDelete: boolean | cdktf.IResolvable;
 }
@@ -1542,11 +1548,11 @@ export class OceanAwsLaunchSpecDeleteOptionsOutputReference extends cdktf.Comple
 }
 export interface OceanAwsLaunchSpecElasticIpPoolTagSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#tag_key OceanAwsLaunchSpec#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#tag_key OceanAwsLaunchSpec#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#tag_value OceanAwsLaunchSpec#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#tag_value OceanAwsLaunchSpec#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -1658,7 +1664,7 @@ export interface OceanAwsLaunchSpecElasticIpPool {
   /**
   * tag_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#tag_selector OceanAwsLaunchSpec#tag_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#tag_selector OceanAwsLaunchSpec#tag_selector}
   */
   readonly tagSelector?: OceanAwsLaunchSpecElasticIpPoolTagSelector;
 }
@@ -1774,7 +1780,7 @@ export class OceanAwsLaunchSpecElasticIpPoolList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#ephemeral_storage_device_name OceanAwsLaunchSpec#ephemeral_storage_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#ephemeral_storage_device_name OceanAwsLaunchSpec#ephemeral_storage_device_name}
   */
   readonly ephemeralStorageDeviceName?: string;
 }
@@ -1890,7 +1896,7 @@ export class OceanAwsLaunchSpecEphemeralStorageList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#image_id OceanAwsLaunchSpec#image_id}
   */
   readonly imageId?: string;
 }
@@ -2006,11 +2012,11 @@ export class OceanAwsLaunchSpecImagesList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecInstanceMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#http_put_response_hop_limit OceanAwsLaunchSpec#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#http_put_response_hop_limit OceanAwsLaunchSpec#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#http_tokens OceanAwsLaunchSpec#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#http_tokens OceanAwsLaunchSpec#http_tokens}
   */
   readonly httpTokens: string;
 }
@@ -2118,77 +2124,161 @@ export class OceanAwsLaunchSpecInstanceMetadataOptionsOutputReference extends cd
     return this._httpTokens;
   }
 }
+export interface OceanAwsLaunchSpecInstanceStorePolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#instance_store_policy_type OceanAwsLaunchSpec#instance_store_policy_type}
+  */
+  readonly instanceStorePolicyType?: string;
+}
+
+export function oceanAwsLaunchSpecInstanceStorePolicyToTerraform(struct?: OceanAwsLaunchSpecInstanceStorePolicyOutputReference | OceanAwsLaunchSpecInstanceStorePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    instance_store_policy_type: cdktf.stringToTerraform(struct!.instanceStorePolicyType),
+  }
+}
+
+
+export function oceanAwsLaunchSpecInstanceStorePolicyToHclTerraform(struct?: OceanAwsLaunchSpecInstanceStorePolicyOutputReference | OceanAwsLaunchSpecInstanceStorePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    instance_store_policy_type: {
+      value: cdktf.stringToHclTerraform(struct!.instanceStorePolicyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OceanAwsLaunchSpecInstanceStorePolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OceanAwsLaunchSpecInstanceStorePolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceStorePolicyType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceStorePolicyType = this._instanceStorePolicyType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OceanAwsLaunchSpecInstanceStorePolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._instanceStorePolicyType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._instanceStorePolicyType = value.instanceStorePolicyType;
+    }
+  }
+
+  // instance_store_policy_type - computed: false, optional: true, required: false
+  private _instanceStorePolicyType?: string; 
+  public get instanceStorePolicyType() {
+    return this.getStringAttribute('instance_store_policy_type');
+  }
+  public set instanceStorePolicyType(value: string) {
+    this._instanceStorePolicyType = value;
+  }
+  public resetInstanceStorePolicyType() {
+    this._instanceStorePolicyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceStorePolicyTypeInput() {
+    return this._instanceStorePolicyType;
+  }
+}
 export interface OceanAwsLaunchSpecInstanceTypesFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#categories OceanAwsLaunchSpec#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#categories OceanAwsLaunchSpec#categories}
   */
   readonly categories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#disk_types OceanAwsLaunchSpec#disk_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#disk_types OceanAwsLaunchSpec#disk_types}
   */
   readonly diskTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#exclude_families OceanAwsLaunchSpec#exclude_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#exclude_families OceanAwsLaunchSpec#exclude_families}
   */
   readonly excludeFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#exclude_metal OceanAwsLaunchSpec#exclude_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#exclude_metal OceanAwsLaunchSpec#exclude_metal}
   */
   readonly excludeMetal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#hypervisor OceanAwsLaunchSpec#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#hypervisor OceanAwsLaunchSpec#hypervisor}
   */
   readonly hypervisor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#include_families OceanAwsLaunchSpec#include_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#include_families OceanAwsLaunchSpec#include_families}
   */
   readonly includeFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#is_ena_supported OceanAwsLaunchSpec#is_ena_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#is_ena_supported OceanAwsLaunchSpec#is_ena_supported}
   */
   readonly isEnaSupported?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_gpu OceanAwsLaunchSpec#max_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_gpu OceanAwsLaunchSpec#max_gpu}
   */
   readonly maxGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_memory_gib OceanAwsLaunchSpec#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_memory_gib OceanAwsLaunchSpec#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_network_performance OceanAwsLaunchSpec#max_network_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_network_performance OceanAwsLaunchSpec#max_network_performance}
   */
   readonly maxNetworkPerformance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_vcpu OceanAwsLaunchSpec#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_vcpu OceanAwsLaunchSpec#max_vcpu}
   */
   readonly maxVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_enis OceanAwsLaunchSpec#min_enis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_enis OceanAwsLaunchSpec#min_enis}
   */
   readonly minEnis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_gpu OceanAwsLaunchSpec#min_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_gpu OceanAwsLaunchSpec#min_gpu}
   */
   readonly minGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_memory_gib OceanAwsLaunchSpec#min_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_memory_gib OceanAwsLaunchSpec#min_memory_gib}
   */
   readonly minMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_network_performance OceanAwsLaunchSpec#min_network_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_network_performance OceanAwsLaunchSpec#min_network_performance}
   */
   readonly minNetworkPerformance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_vcpu OceanAwsLaunchSpec#min_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_vcpu OceanAwsLaunchSpec#min_vcpu}
   */
   readonly minVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#root_device_types OceanAwsLaunchSpec#root_device_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#root_device_types OceanAwsLaunchSpec#root_device_types}
   */
   readonly rootDeviceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#virtualization_types OceanAwsLaunchSpec#virtualization_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#virtualization_types OceanAwsLaunchSpec#virtualization_types}
   */
   readonly virtualizationTypes?: string[];
 }
@@ -2765,11 +2855,11 @@ export class OceanAwsLaunchSpecInstanceTypesFiltersOutputReference extends cdktf
 }
 export interface OceanAwsLaunchSpecLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
   */
   readonly value: string;
 }
@@ -2908,11 +2998,11 @@ export class OceanAwsLaunchSpecLabelsList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#max_instance_count OceanAwsLaunchSpec#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#max_instance_count OceanAwsLaunchSpec#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#min_instance_count OceanAwsLaunchSpec#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#min_instance_count OceanAwsLaunchSpec#min_instance_count}
   */
   readonly minInstanceCount?: number;
 }
@@ -3057,11 +3147,11 @@ export class OceanAwsLaunchSpecResourceLimitsList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecSchedulingShutdownHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#is_enabled OceanAwsLaunchSpec#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#is_enabled OceanAwsLaunchSpec#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#time_windows OceanAwsLaunchSpec#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#time_windows OceanAwsLaunchSpec#time_windows}
   */
   readonly timeWindows: string[];
 }
@@ -3171,19 +3261,19 @@ export class OceanAwsLaunchSpecSchedulingShutdownHoursOutputReference extends cd
 }
 export interface OceanAwsLaunchSpecSchedulingTaskTaskHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#cpu_per_unit OceanAwsLaunchSpec#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#cpu_per_unit OceanAwsLaunchSpec#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#gpu_per_unit OceanAwsLaunchSpec#gpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#gpu_per_unit OceanAwsLaunchSpec#gpu_per_unit}
   */
   readonly gpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#memory_per_unit OceanAwsLaunchSpec#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#memory_per_unit OceanAwsLaunchSpec#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#num_of_units OceanAwsLaunchSpec#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#num_of_units OceanAwsLaunchSpec#num_of_units}
   */
   readonly numOfUnits: number;
 }
@@ -3383,21 +3473,21 @@ export class OceanAwsLaunchSpecSchedulingTaskTaskHeadroomList extends cdktf.Comp
 }
 export interface OceanAwsLaunchSpecSchedulingTask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#cron_expression OceanAwsLaunchSpec#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#cron_expression OceanAwsLaunchSpec#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#is_enabled OceanAwsLaunchSpec#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#is_enabled OceanAwsLaunchSpec#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#task_type OceanAwsLaunchSpec#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#task_type OceanAwsLaunchSpec#task_type}
   */
   readonly taskType: string;
   /**
   * task_headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#task_headroom OceanAwsLaunchSpec#task_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#task_headroom OceanAwsLaunchSpec#task_headroom}
   */
   readonly taskHeadroom?: OceanAwsLaunchSpecSchedulingTaskTaskHeadroom[] | cdktf.IResolvable;
 }
@@ -3591,19 +3681,19 @@ export class OceanAwsLaunchSpecSchedulingTaskList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#draining_timeout OceanAwsLaunchSpec#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#draining_timeout OceanAwsLaunchSpec#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#spot_percentage OceanAwsLaunchSpec#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#spot_percentage OceanAwsLaunchSpec#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#utilize_commitments OceanAwsLaunchSpec#utilize_commitments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#utilize_commitments OceanAwsLaunchSpec#utilize_commitments}
   */
   readonly utilizeCommitments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#utilize_reserved_instances OceanAwsLaunchSpec#utilize_reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#utilize_reserved_instances OceanAwsLaunchSpec#utilize_reserved_instances}
   */
   readonly utilizeReservedInstances?: boolean | cdktf.IResolvable;
 }
@@ -3806,11 +3896,11 @@ export class OceanAwsLaunchSpecStrategyList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
   */
   readonly value: string;
 }
@@ -3949,15 +4039,15 @@ export class OceanAwsLaunchSpecTagsList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#effect OceanAwsLaunchSpec#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#effect OceanAwsLaunchSpec#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#key OceanAwsLaunchSpec#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#value OceanAwsLaunchSpec#value}
   */
   readonly value: string;
 }
@@ -4122,11 +4212,11 @@ export class OceanAwsLaunchSpecTaintsList extends cdktf.ComplexList {
 }
 export interface OceanAwsLaunchSpecUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#batch_size_percentage OceanAwsLaunchSpec#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#batch_size_percentage OceanAwsLaunchSpec#batch_size_percentage}
   */
   readonly batchSizePercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#respect_pdb OceanAwsLaunchSpec#respect_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#respect_pdb OceanAwsLaunchSpec#respect_pdb}
   */
   readonly respectPdb?: boolean | cdktf.IResolvable;
 }
@@ -4236,13 +4326,13 @@ export class OceanAwsLaunchSpecUpdatePolicyRollConfigOutputReference extends cdk
 }
 export interface OceanAwsLaunchSpecUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#should_roll OceanAwsLaunchSpec#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#should_roll OceanAwsLaunchSpec#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#roll_config OceanAwsLaunchSpec#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#roll_config OceanAwsLaunchSpec#roll_config}
   */
   readonly rollConfig?: OceanAwsLaunchSpecUpdatePolicyRollConfig;
 }
@@ -4352,7 +4442,7 @@ export class OceanAwsLaunchSpecUpdatePolicyOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec spotinst_ocean_aws_launch_spec}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec spotinst_ocean_aws_launch_spec}
 */
 export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
 
@@ -4368,7 +4458,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanAwsLaunchSpec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanAwsLaunchSpec to import
-  * @param importFromId The id of the existing OceanAwsLaunchSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanAwsLaunchSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanAwsLaunchSpec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4380,7 +4470,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/ocean_aws_launch_spec spotinst_ocean_aws_launch_spec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_aws_launch_spec spotinst_ocean_aws_launch_spec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4391,7 +4481,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_aws_launch_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.213.1',
+        providerVersion: '1.214.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -4427,6 +4517,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
     this._ephemeralStorage.internalValue = config.ephemeralStorage;
     this._images.internalValue = config.images;
     this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
+    this._instanceStorePolicy.internalValue = config.instanceStorePolicy;
     this._instanceTypesFilters.internalValue = config.instanceTypesFilters;
     this._labels.internalValue = config.labels;
     this._resourceLimits.internalValue = config.resourceLimits;
@@ -4839,6 +4930,22 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
     return this._instanceMetadataOptions.internalValue;
   }
 
+  // instance_store_policy - computed: false, optional: true, required: false
+  private _instanceStorePolicy = new OceanAwsLaunchSpecInstanceStorePolicyOutputReference(this, "instance_store_policy");
+  public get instanceStorePolicy() {
+    return this._instanceStorePolicy;
+  }
+  public putInstanceStorePolicy(value: OceanAwsLaunchSpecInstanceStorePolicy) {
+    this._instanceStorePolicy.internalValue = value;
+  }
+  public resetInstanceStorePolicy() {
+    this._instanceStorePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceStorePolicyInput() {
+    return this._instanceStorePolicy.internalValue;
+  }
+
   // instance_types_filters - computed: false, optional: true, required: false
   private _instanceTypesFilters = new OceanAwsLaunchSpecInstanceTypesFiltersOutputReference(this, "instance_types_filters");
   public get instanceTypesFilters() {
@@ -5014,6 +5121,7 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
       ephemeral_storage: cdktf.listMapper(oceanAwsLaunchSpecEphemeralStorageToTerraform, true)(this._ephemeralStorage.internalValue),
       images: cdktf.listMapper(oceanAwsLaunchSpecImagesToTerraform, true)(this._images.internalValue),
       instance_metadata_options: oceanAwsLaunchSpecInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
+      instance_store_policy: oceanAwsLaunchSpecInstanceStorePolicyToTerraform(this._instanceStorePolicy.internalValue),
       instance_types_filters: oceanAwsLaunchSpecInstanceTypesFiltersToTerraform(this._instanceTypesFilters.internalValue),
       labels: cdktf.listMapper(oceanAwsLaunchSpecLabelsToTerraform, true)(this._labels.internalValue),
       resource_limits: cdktf.listMapper(oceanAwsLaunchSpecResourceLimitsToTerraform, true)(this._resourceLimits.internalValue),
@@ -5177,6 +5285,12 @@ export class OceanAwsLaunchSpec extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OceanAwsLaunchSpecInstanceMetadataOptionsList",
+      },
+      instance_store_policy: {
+        value: oceanAwsLaunchSpecInstanceStorePolicyToHclTerraform(this._instanceStorePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OceanAwsLaunchSpecInstanceStorePolicyList",
       },
       instance_types_filters: {
         value: oceanAwsLaunchSpecInstanceTypesFiltersToHclTerraform(this._instanceTypesFilters.internalValue),

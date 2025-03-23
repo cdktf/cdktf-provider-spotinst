@@ -4,7 +4,7 @@
 
 ### AccountAws <a name="AccountAws" id="@cdktf/provider-spotinst.accountAws.AccountAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws spotinst_account_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws spotinst_account_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.accountAws.AccountAws.Initializer"></a>
 
@@ -39,8 +39,8 @@ AccountAws.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#name AccountAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#id AccountAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#name AccountAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAws.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#id AccountAws#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#name AccountAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#name AccountAws#name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#id AccountAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#id AccountAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -553,7 +553,7 @@ The construct id used in the generated config for the AccountAws to import.
 
 The id of the existing AccountAws that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -827,8 +827,8 @@ AccountAwsConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#name AccountAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#id AccountAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#name AccountAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.accountAws.AccountAwsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#id AccountAws#id}. |
 
 ---
 
@@ -910,7 +910,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#name AccountAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#name AccountAws#name}.
 
 ---
 
@@ -922,7 +922,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.213.1/docs/resources/account_aws#id AccountAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/account_aws#id AccountAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
