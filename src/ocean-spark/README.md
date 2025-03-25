@@ -1,3 +1,3 @@
 # `spotinst_ocean_spark`
 
-Refer to the Terraform Registry for docs: [`spotinst_ocean_spark`](https://registry.terraform.io/providers/spotinst/spotinst/1.214.0/docs/resources/ocean_spark).
+Refer to the Terraform Registry for docs: [`spotinst_ocean_spark`](https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/ocean_spark).
