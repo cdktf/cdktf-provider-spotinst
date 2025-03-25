@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNp.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNp(scope Construct, id *string, config OceanAksNpConfig) OceanAksNp
 ```
@@ -690,7 +690,7 @@ func ResetVngTemplateScheduling()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNp.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.OceanAksNp_IsConstruct(x interface{}) *bool
 ```
@@ -722,7 +722,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.OceanAksNp_IsTerraformElement(x interface{}) *bool
 ```
@@ -736,7 +736,7 @@ oceanaksnp.OceanAksNp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.OceanAksNp_IsTerraformResource(x interface{}) *bool
 ```
@@ -750,7 +750,7 @@ oceanaksnp.OceanAksNp_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.OceanAksNp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1705,13 +1705,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscaler.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpAutoscaler {
-	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleDown,
-	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroom,
+	AutoscaleDown: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpAutoscalerAutoscaleDown,
+	AutoscaleHeadroom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroom,
 	AutoscaleIsEnabled: interface{},
-	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpAutoscalerResourceLimits,
+	ResourceLimits: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpAutoscalerResourceLimits,
 }
 ```
 
@@ -1785,7 +1785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleDown.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpAutoscalerAutoscaleDown {
 	MaxScaleDownPercentage: *f64,
@@ -1817,10 +1817,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpAutoscalerAutoscaleHeadroom {
-	Automatic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroomAutomatic,
+	Automatic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroomAutomatic,
 }
 ```
 
@@ -1851,7 +1851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroomAutomatic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpAutoscalerAutoscaleHeadroomAutomatic {
 	IsEnabled: interface{},
@@ -1897,7 +1897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpAutoscalerResourceLimits {
 	MaxMemoryGib: *f64,
@@ -1943,7 +1943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpConfig {
 	Connection: interface{},
@@ -1960,17 +1960,17 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
 	AvailabilityZones: *[]*string,
 	ControllerClusterId: *string,
 	Name: *string,
-	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpAutoscaler,
+	Autoscaler: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpAutoscaler,
 	EnableNodePublicIp: interface{},
 	FallbackToOndemand: interface{},
-	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpFilters,
+	Filters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpFilters,
 	Headrooms: interface{},
-	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpHealth,
+	Health: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpHealth,
 	Id: *string,
 	KubernetesVersion: *string,
 	Labels: *map[string]*string,
 	LinuxOsConfig: interface{},
-	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpLogging,
+	Logging: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpLogging,
 	MaxCount: *f64,
 	MaxPodsPerNode: *f64,
 	MinCount: *f64,
@@ -1979,13 +1979,13 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
 	OsSku: *string,
 	OsType: *string,
 	PodSubnetIds: *[]*string,
-	Scheduling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpScheduling,
+	Scheduling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpScheduling,
 	SpotPercentage: *f64,
 	Tags: *map[string]*string,
 	Taints: interface{},
-	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpUpdatePolicy,
+	UpdatePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpUpdatePolicy,
 	VnetSubnetIds: *[]*string,
-	VngTemplateScheduling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpVngTemplateScheduling,
+	VngTemplateScheduling: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpVngTemplateScheduling,
 }
 ```
 
@@ -2530,7 +2530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpFilters {
 	AcceleratedNetworking: *string,
@@ -2758,7 +2758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpHeadrooms.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpHeadrooms {
 	CpuPerUnit: *f64,
@@ -2832,7 +2832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpHealth.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpHealth {
 	GracePeriod: *f64,
@@ -2864,7 +2864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpLinuxOsConfig {
 	Sysctls: interface{},
@@ -2898,7 +2898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfigSysctls.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpLinuxOsConfigSysctls {
 	VmMaxMapCount: *f64,
@@ -2930,10 +2930,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpLogging {
-	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpLoggingExport,
+	Export: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpLoggingExport,
 }
 ```
 
@@ -2964,7 +2964,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingExport.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpLoggingExport {
 	AzureBlob: interface{},
@@ -2998,7 +2998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingExportAzureBlob.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpLoggingExportAzureBlob {
 	Id: *string,
@@ -3033,11 +3033,11 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpScheduling {
-	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingShutdownHours,
-	SuspensionHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingSuspensionHours,
+	ShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingShutdownHours,
+	SuspensionHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingSuspensionHours,
 	Tasks: interface{},
 }
 ```
@@ -3099,7 +3099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingShutdownHours {
 	IsEnabled: interface{},
@@ -3145,7 +3145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingSuspensionHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingSuspensionHours {
 	IsEnabled: interface{},
@@ -3191,13 +3191,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingTasks {
 	CronExpression: *string,
 	IsEnabled: interface{},
 	TaskType: *string,
-	Parameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingTasksParameters,
+	Parameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingTasksParameters,
 }
 ```
 
@@ -3267,11 +3267,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingTasksParameters {
-	ParametersClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersClusterRoll,
-	ParametersUpgradeConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfig,
+	ParametersClusterRoll: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersClusterRoll,
+	ParametersUpgradeConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfig,
 }
 ```
 
@@ -3317,7 +3317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersClusterRoll.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingTasksParametersParametersClusterRoll {
 	BatchMinHealthyPercentage: *f64,
@@ -3419,11 +3419,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfig {
 	ApplyRoll: interface{},
-	RollParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters,
+	RollParameters: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters,
 	ScopeVersion: *string,
 }
 ```
@@ -3481,7 +3481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParameters {
 	BatchMinHealthyPercentage: *f64,
@@ -3569,7 +3569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpTaints.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpTaints {
 	Effect: *string,
@@ -3629,12 +3629,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpUpdatePolicy {
 	ShouldRoll: interface{},
 	ConditionedRoll: interface{},
-	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpUpdatePolicyRollConfig,
+	RollConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpUpdatePolicyRollConfig,
 }
 ```
 
@@ -3691,7 +3691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpUpdatePolicyRollConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpUpdatePolicyRollConfig {
 	BatchMinHealthyPercentage: *f64,
@@ -3821,10 +3821,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpVngTemplateScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpVngTemplateScheduling {
-	VngTemplateShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceanAksNp.OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours,
+	VngTemplateShutdownHours: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceanAksNp.OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours,
 }
 ```
 
@@ -3855,7 +3855,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 &oceanaksnp.OceanAksNpVngTemplateSchedulingVngTemplateShutdownHours {
 	IsEnabled: interface{},
@@ -3903,7 +3903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleDownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpAutoscalerAutoscaleDownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpAutoscalerAutoscaleDownOutputReference
 ```
@@ -4181,7 +4181,7 @@ func InternalValue() OceanAksNpAutoscalerAutoscaleDown
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroomAutomaticOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpAutoscalerAutoscaleHeadroomAutomaticOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpAutoscalerAutoscaleHeadroomAutomaticOutputReference
 ```
@@ -4488,7 +4488,7 @@ func InternalValue() OceanAksNpAutoscalerAutoscaleHeadroomAutomatic
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerAutoscaleHeadroomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpAutoscalerAutoscaleHeadroomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpAutoscalerAutoscaleHeadroomOutputReference
 ```
@@ -4779,7 +4779,7 @@ func InternalValue() OceanAksNpAutoscalerAutoscaleHeadroom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpAutoscalerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpAutoscalerOutputReference
 ```
@@ -5183,7 +5183,7 @@ func InternalValue() OceanAksNpAutoscaler
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpAutoscalerResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpAutoscalerResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpAutoscalerResourceLimitsOutputReference
 ```
@@ -5490,7 +5490,7 @@ func InternalValue() OceanAksNpAutoscalerResourceLimits
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpFiltersOutputReference
 ```
@@ -6174,7 +6174,7 @@ func InternalValue() OceanAksNpFilters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpHeadroomsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpHeadroomsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpHeadroomsList
 ```
@@ -6334,7 +6334,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpHeadroomsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpHeadroomsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpHeadroomsOutputReference
 ```
@@ -6717,7 +6717,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpHealthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpHealthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpHealthOutputReference
 ```
@@ -6995,7 +6995,7 @@ func InternalValue() OceanAksNpHealth
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLinuxOsConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpLinuxOsConfigList
 ```
@@ -7155,7 +7155,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLinuxOsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpLinuxOsConfigOutputReference
 ```
@@ -7464,7 +7464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfigSysctlsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLinuxOsConfigSysctlsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpLinuxOsConfigSysctlsList
 ```
@@ -7624,7 +7624,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLinuxOsConfigSysctlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLinuxOsConfigSysctlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpLinuxOsConfigSysctlsOutputReference
 ```
@@ -7920,7 +7920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingExportAzureBlobList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLoggingExportAzureBlobList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpLoggingExportAzureBlobList
 ```
@@ -8080,7 +8080,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingExportAzureBlobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLoggingExportAzureBlobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpLoggingExportAzureBlobOutputReference
 ```
@@ -8376,7 +8376,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingExportOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLoggingExportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpLoggingExportOutputReference
 ```
@@ -8667,7 +8667,7 @@ func InternalValue() OceanAksNpLoggingExport
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpLoggingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpLoggingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpLoggingOutputReference
 ```
@@ -8958,7 +8958,7 @@ func InternalValue() OceanAksNpLogging
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingOutputReference
 ```
@@ -9333,7 +9333,7 @@ func InternalValue() OceanAksNpScheduling
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingShutdownHoursOutputReference
 ```
@@ -9640,7 +9640,7 @@ func InternalValue() OceanAksNpSchedulingShutdownHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingSuspensionHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingSuspensionHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingSuspensionHoursOutputReference
 ```
@@ -9947,7 +9947,7 @@ func InternalValue() OceanAksNpSchedulingSuspensionHours
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpSchedulingTasksList
 ```
@@ -10107,7 +10107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpSchedulingTasksOutputReference
 ```
@@ -10482,7 +10482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingTasksParametersOutputReference
 ```
@@ -10815,7 +10815,7 @@ func InternalValue() OceanAksNpSchedulingTasksParameters
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersClusterRollOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksParametersParametersClusterRollOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingTasksParametersParametersClusterRollOutputReference
 ```
@@ -11238,7 +11238,7 @@ func InternalValue() OceanAksNpSchedulingTasksParametersParametersClusterRoll
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingTasksParametersParametersUpgradeConfigOutputReference
 ```
@@ -11587,7 +11587,7 @@ func InternalValue() OceanAksNpSchedulingTasksParametersParametersUpgradeConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpSchedulingTasksParametersParametersUpgradeConfigRollParametersOutputReference
 ```
@@ -11981,7 +11981,7 @@ func InternalValue() OceanAksNpSchedulingTasksParametersParametersUpgradeConfigR
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpTaintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpTaintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceanAksNpTaintsList
 ```
@@ -12141,7 +12141,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpTaintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpTaintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceanAksNpTaintsOutputReference
 ```
@@ -12474,7 +12474,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpUpdatePolicyOutputReference
 ```
@@ -12816,7 +12816,7 @@ func InternalValue() OceanAksNpUpdatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpUpdatePolicyRollConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpUpdatePolicyRollConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpUpdatePolicyRollConfigOutputReference
 ```
@@ -13297,7 +13297,7 @@ func InternalValue() OceanAksNpUpdatePolicyRollConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpVngTemplateSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpVngTemplateSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpVngTemplateSchedulingOutputReference
 ```
@@ -13588,7 +13588,7 @@ func InternalValue() OceanAksNpVngTemplateScheduling
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceanAksNp.OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceanaksnp"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceanaksnp"
 
 oceanaksnp.NewOceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceanAksNpVngTemplateSchedulingVngTemplateShutdownHoursOutputReference
 ```
