@@ -4,12 +4,12 @@
 
 ### OceancdVerificationProvider <a name="OceancdVerificationProvider" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProvider(scope Construct, id *string, config OceancdVerificationProviderConfig) OceancdVerificationProvider
 ```
@@ -485,7 +485,7 @@ func ResetPrometheus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.OceancdVerificationProvider_IsConstruct(x interface{}) *bool
 ```
@@ -517,7 +517,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.OceancdVerificationProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -531,7 +531,7 @@ oceancdverificationprovider.OceancdVerificationProvider_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.OceancdVerificationProvider_IsTerraformResource(x interface{}) *bool
 ```
@@ -545,7 +545,7 @@ oceancdverificationprovider.OceancdVerificationProvider_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.OceancdVerificationProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -574,7 +574,7 @@ The construct id used in the generated config for the OceancdVerificationProvide
 
 The id of the existing OceancdVerificationProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderCloudWatch {
 	IamArn: *string,
@@ -961,7 +961,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch.property.iamArn">IamArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch.property.iamArn">IamArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}. |
 
 ---
 
@@ -973,7 +973,7 @@ IamArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}.
 
 ---
 
@@ -982,7 +982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderConfig {
 	Connection: interface{},
@@ -994,12 +994,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 	Provisioners: *[]interface{},
 	ClusterIds: *[]*string,
 	Name: *string,
-	CloudWatch: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch,
-	Datadog: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdVerificationProvider.OceancdVerificationProviderDatadog,
+	CloudWatch: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch,
+	Datadog: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog,
 	Id: *string,
-	Jenkins: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdVerificationProvider.OceancdVerificationProviderJenkins,
-	NewRelic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdVerificationProvider.OceancdVerificationProviderNewRelic,
-	Prometheus: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13.oceancdVerificationProvider.OceancdVerificationProviderPrometheus,
+	Jenkins: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins,
+	NewRelic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic,
+	Prometheus: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheus,
 }
 ```
 
@@ -1014,11 +1014,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.clusterIds">ClusterIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.clusterIds">ClusterIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.cloudWatch">CloudWatch</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatch">OceancdVerificationProviderCloudWatch</a></code> | cloud_watch block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.datadog">Datadog</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog">OceancdVerificationProviderDatadog</a></code> | datadog block. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.jenkins">Jenkins</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins">OceancdVerificationProviderJenkins</a></code> | jenkins block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.newRelic">NewRelic</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic">OceancdVerificationProviderNewRelic</a></code> | new_relic block. |
 | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderConfig.property.prometheus">Prometheus</a></code> | <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheus">OceancdVerificationProviderPrometheus</a></code> | prometheus block. |
@@ -1103,7 +1103,7 @@ ClusterIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}.
 
 ---
 
@@ -1115,7 +1115,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}.
 
 ---
 
@@ -1129,7 +1129,7 @@ CloudWatch OceancdVerificationProviderCloudWatch
 
 cloud_watch block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#cloud_watch OceancdVerificationProvider#cloud_watch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#cloud_watch OceancdVerificationProvider#cloud_watch}
 
 ---
 
@@ -1143,7 +1143,7 @@ Datadog OceancdVerificationProviderDatadog
 
 datadog block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#datadog OceancdVerificationProvider#datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#datadog OceancdVerificationProvider#datadog}
 
 ---
 
@@ -1155,7 +1155,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1172,7 +1172,7 @@ Jenkins OceancdVerificationProviderJenkins
 
 jenkins block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#jenkins OceancdVerificationProvider#jenkins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#jenkins OceancdVerificationProvider#jenkins}
 
 ---
 
@@ -1186,7 +1186,7 @@ NewRelic OceancdVerificationProviderNewRelic
 
 new_relic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#new_relic OceancdVerificationProvider#new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#new_relic OceancdVerificationProvider#new_relic}
 
 ---
 
@@ -1200,7 +1200,7 @@ Prometheus OceancdVerificationProviderPrometheus
 
 prometheus block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#prometheus OceancdVerificationProvider#prometheus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#prometheus OceancdVerificationProvider#prometheus}
 
 ---
 
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderDatadog {
 	Address: *string,
@@ -1222,9 +1222,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.address">Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.apiKey">ApiKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.appKey">AppKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.address">Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.apiKey">ApiKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadog.property.appKey">AppKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}. |
 
 ---
 
@@ -1236,7 +1236,7 @@ Address *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}.
 
 ---
 
@@ -1248,7 +1248,7 @@ ApiKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}.
 
 ---
 
@@ -1260,7 +1260,7 @@ AppKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}.
 
 ---
 
@@ -1269,7 +1269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderJenkins {
 	ApiToken: *string,
@@ -1282,9 +1282,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.apiToken">ApiToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.baseUrl">BaseUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.apiToken">ApiToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.baseUrl">BaseUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkins.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}. |
 
 ---
 
@@ -1296,7 +1296,7 @@ ApiToken *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}.
 
 ---
 
@@ -1308,7 +1308,7 @@ BaseUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}.
 
 ---
 
@@ -1320,7 +1320,7 @@ Username *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}.
 
 ---
 
@@ -1329,7 +1329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderNewRelic {
 	AccountId: *string,
@@ -1344,11 +1344,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.personalApiKey">PersonalApiKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.baseUrlNerdGraph">BaseUrlNerdGraph</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.baseUrlRest">BaseUrlRest</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}. |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.accountId">AccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.personalApiKey">PersonalApiKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.baseUrlNerdGraph">BaseUrlNerdGraph</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.baseUrlRest">BaseUrlRest</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelic.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}. |
 
 ---
 
@@ -1360,7 +1360,7 @@ AccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}.
 
 ---
 
@@ -1372,7 +1372,7 @@ PersonalApiKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}.
 
 ---
 
@@ -1384,7 +1384,7 @@ BaseUrlNerdGraph *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}.
 
 ---
 
@@ -1396,7 +1396,7 @@ BaseUrlRest *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}.
 
 ---
 
@@ -1408,7 +1408,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}.
 
 ---
 
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheus.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 &oceancdverificationprovider.OceancdVerificationProviderPrometheus {
 	Address: *string,
@@ -1428,7 +1428,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverifica
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheus.property.address">Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}. |
+| <code><a href="#@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheus.property.address">Address</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}. |
 
 ---
 
@@ -1440,7 +1440,7 @@ Address *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.215.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}.
 
 ---
 
@@ -1451,7 +1451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderCloudWatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProviderCloudWatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdVerificationProviderCloudWatchOutputReference
 ```
@@ -1722,7 +1722,7 @@ func InternalValue() OceancdVerificationProviderCloudWatch
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderDatadogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProviderDatadogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdVerificationProviderDatadogOutputReference
 ```
@@ -2037,7 +2037,7 @@ func InternalValue() OceancdVerificationProviderDatadog
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderJenkinsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProviderJenkinsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdVerificationProviderJenkinsOutputReference
 ```
@@ -2352,7 +2352,7 @@ func InternalValue() OceancdVerificationProviderJenkins
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProviderNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdVerificationProviderNewRelicOutputReference
 ```
@@ -2732,7 +2732,7 @@ func InternalValue() OceancdVerificationProviderNewRelic
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdVerificationProvider.OceancdVerificationProviderPrometheusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v13/oceancdverificationprovider"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdverificationprovider"
 
 oceancdverificationprovider.NewOceancdVerificationProviderPrometheusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdVerificationProviderPrometheusOutputReference
 ```
