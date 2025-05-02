@@ -4,7 +4,7 @@
 
 ### MrscalerAws <a name="MrscalerAws" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws spotinst_mrscaler_aws}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws spotinst_mrscaler_aws}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.mrscalerAws.MrscalerAws.Initializer"></a>
 
@@ -1088,7 +1088,7 @@ The construct id used in the generated config for the MrscalerAws to import.
 
 The id of the existing MrscalerAws that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2650,9 +2650,9 @@ const mrscalerAwsApplications: mrscalerAws.MrscalerAwsApplications = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#name MrscalerAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.args">args</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#args MrscalerAws#args}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.version">version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#version MrscalerAws#version}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#name MrscalerAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.args">args</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#args MrscalerAws#args}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications.property.version">version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#version MrscalerAws#version}. |
 
 ---
 
@@ -2664,7 +2664,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#name MrscalerAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#name MrscalerAws#name}.
 
 ---
 
@@ -2676,7 +2676,7 @@ public readonly args: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#args MrscalerAws#args}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#args MrscalerAws#args}.
 
 ---
 
@@ -2688,7 +2688,7 @@ public readonly version: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#version MrscalerAws#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#version MrscalerAws#version}.
 
 ---
 
@@ -2706,8 +2706,8 @@ const mrscalerAwsBootstrapActionsFile: mrscalerAws.MrscalerAwsBootstrapActionsFi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
 
 ---
 
@@ -2719,7 +2719,7 @@ public readonly bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
 
 ---
 
@@ -2731,7 +2731,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}.
 
 ---
 
@@ -2756,67 +2756,67 @@ const mrscalerAwsConfig: mrscalerAws.MrscalerAwsConfig = { ... }
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#name MrscalerAws#name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.strategy">strategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#strategy MrscalerAws#strategy}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalInfo">additionalInfo</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_info MrscalerAws#additional_info}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalPrimarySecurityGroups">additionalPrimarySecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_primary_security_groups MrscalerAws#additional_primary_security_groups}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalReplicaSecurityGroups">additionalReplicaSecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_replica_security_groups MrscalerAws#additional_replica_security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#name MrscalerAws#name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.strategy">strategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#strategy MrscalerAws#strategy}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalInfo">additionalInfo</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_info MrscalerAws#additional_info}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalPrimarySecurityGroups">additionalPrimarySecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_primary_security_groups MrscalerAws#additional_primary_security_groups}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.additionalReplicaSecurityGroups">additionalReplicaSecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_replica_security_groups MrscalerAws#additional_replica_security_groups}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.applications">applications</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsApplications">MrscalerAwsApplications</a>[]</code> | applications block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#availability_zones MrscalerAws#availability_zones}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#availability_zones MrscalerAws#availability_zones}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.bootstrapActionsFile">bootstrapActionsFile</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsBootstrapActionsFile">MrscalerAwsBootstrapActionsFile</a>[]</code> | bootstrap_actions_file block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.clusterId">clusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cluster_id MrscalerAws#cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.clusterId">clusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cluster_id MrscalerAws#cluster_id}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.configurationsFile">configurationsFile</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile">MrscalerAwsConfigurationsFile</a>[]</code> | configurations_file block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreDesiredCapacity">coreDesiredCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_desired_capacity MrscalerAws#core_desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreDesiredCapacity">coreDesiredCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_desired_capacity MrscalerAws#core_desired_capacity}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreEbsBlockDevice">coreEbsBlockDevice</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice">MrscalerAwsCoreEbsBlockDevice</a>[]</code> | core_ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreEbsOptimized">coreEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_ebs_optimized MrscalerAws#core_ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreInstanceTypes">coreInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_instance_types MrscalerAws#core_instance_types}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreLifecycle">coreLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_lifecycle MrscalerAws#core_lifecycle}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreMaxSize">coreMaxSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_max_size MrscalerAws#core_max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreMinSize">coreMinSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_min_size MrscalerAws#core_min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreEbsOptimized">coreEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_ebs_optimized MrscalerAws#core_ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreInstanceTypes">coreInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_instance_types MrscalerAws#core_instance_types}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreLifecycle">coreLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_lifecycle MrscalerAws#core_lifecycle}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreMaxSize">coreMaxSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_max_size MrscalerAws#core_max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreMinSize">coreMinSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_min_size MrscalerAws#core_min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreScalingDownPolicy">coreScalingDownPolicy</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy">MrscalerAwsCoreScalingDownPolicy</a>[]</code> | core_scaling_down_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreScalingUpPolicy">coreScalingUpPolicy</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy">MrscalerAwsCoreScalingUpPolicy</a>[]</code> | core_scaling_up_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreUnit">coreUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_unit MrscalerAws#core_unit}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.customAmiId">customAmiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#custom_ami_id MrscalerAws#custom_ami_id}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#description MrscalerAws#description}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.ebsRootVolumeSize">ebsRootVolumeSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#ebs_root_volume_size MrscalerAws#ebs_root_volume_size}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.ec2KeyName">ec2KeyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#ec2_key_name MrscalerAws#ec2_key_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.exposeClusterId">exposeClusterId</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#expose_cluster_id MrscalerAws#expose_cluster_id}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#id MrscalerAws#id}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.coreUnit">coreUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_unit MrscalerAws#core_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.customAmiId">customAmiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#custom_ami_id MrscalerAws#custom_ami_id}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#description MrscalerAws#description}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.ebsRootVolumeSize">ebsRootVolumeSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#ebs_root_volume_size MrscalerAws#ebs_root_volume_size}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.ec2KeyName">ec2KeyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#ec2_key_name MrscalerAws#ec2_key_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.exposeClusterId">exposeClusterId</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#expose_cluster_id MrscalerAws#expose_cluster_id}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#id MrscalerAws#id}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.instanceWeights">instanceWeights</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights">MrscalerAwsInstanceWeights</a>[]</code> | instance_weights block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.jobFlowRole">jobFlowRole</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#job_flow_role MrscalerAws#job_flow_role}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.keepJobFlowAlive">keepJobFlowAlive</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#keep_job_flow_alive MrscalerAws#keep_job_flow_alive}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.logUri">logUri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#log_uri MrscalerAws#log_uri}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.managedPrimarySecurityGroup">managedPrimarySecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#managed_primary_security_group MrscalerAws#managed_primary_security_group}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.managedReplicaSecurityGroup">managedReplicaSecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#managed_replica_security_group MrscalerAws#managed_replica_security_group}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.jobFlowRole">jobFlowRole</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#job_flow_role MrscalerAws#job_flow_role}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.keepJobFlowAlive">keepJobFlowAlive</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#keep_job_flow_alive MrscalerAws#keep_job_flow_alive}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.logUri">logUri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#log_uri MrscalerAws#log_uri}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.managedPrimarySecurityGroup">managedPrimarySecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#managed_primary_security_group MrscalerAws#managed_primary_security_group}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.managedReplicaSecurityGroup">managedReplicaSecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#managed_replica_security_group MrscalerAws#managed_replica_security_group}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterEbsBlockDevice">masterEbsBlockDevice</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice">MrscalerAwsMasterEbsBlockDevice</a>[]</code> | master_ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterEbsOptimized">masterEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_ebs_optimized MrscalerAws#master_ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterInstanceTypes">masterInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_instance_types MrscalerAws#master_instance_types}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterLifecycle">masterLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_lifecycle MrscalerAws#master_lifecycle}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterTarget">masterTarget</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_target MrscalerAws#master_target}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterEbsOptimized">masterEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_ebs_optimized MrscalerAws#master_ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterInstanceTypes">masterInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_instance_types MrscalerAws#master_instance_types}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterLifecycle">masterLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_lifecycle MrscalerAws#master_lifecycle}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.masterTarget">masterTarget</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_target MrscalerAws#master_target}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.provisioningTimeout">provisioningTimeout</a></code> | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout">MrscalerAwsProvisioningTimeout</a></code> | provisioning_timeout block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#region MrscalerAws#region}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.releaseLabel">releaseLabel</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#release_label MrscalerAws#release_label}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.repoUpgradeOnBoot">repoUpgradeOnBoot</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#repo_upgrade_on_boot MrscalerAws#repo_upgrade_on_boot}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.retries">retries</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#retries MrscalerAws#retries}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#region MrscalerAws#region}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.releaseLabel">releaseLabel</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#release_label MrscalerAws#release_label}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.repoUpgradeOnBoot">repoUpgradeOnBoot</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#repo_upgrade_on_boot MrscalerAws#repo_upgrade_on_boot}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.retries">retries</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#retries MrscalerAws#retries}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.scheduledTask">scheduledTask</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask">MrscalerAwsScheduledTask</a>[]</code> | scheduled_task block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.securityConfig">securityConfig</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#security_config MrscalerAws#security_config}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.serviceAccessSecurityGroup">serviceAccessSecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#service_access_security_group MrscalerAws#service_access_security_group}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.serviceRole">serviceRole</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#service_role MrscalerAws#service_role}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.securityConfig">securityConfig</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#security_config MrscalerAws#security_config}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.serviceAccessSecurityGroup">serviceAccessSecurityGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#service_access_security_group MrscalerAws#service_access_security_group}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.serviceRole">serviceRole</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#service_role MrscalerAws#service_role}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.stepsFile">stepsFile</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile">MrscalerAwsStepsFile</a>[]</code> | steps_file block. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.tags">tags</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags">MrscalerAwsTags</a>[]</code> | tags block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskDesiredCapacity">taskDesiredCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_desired_capacity MrscalerAws#task_desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskDesiredCapacity">taskDesiredCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_desired_capacity MrscalerAws#task_desired_capacity}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskEbsBlockDevice">taskEbsBlockDevice</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice">MrscalerAwsTaskEbsBlockDevice</a>[]</code> | task_ebs_block_device block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskEbsOptimized">taskEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_ebs_optimized MrscalerAws#task_ebs_optimized}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskInstanceTypes">taskInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_instance_types MrscalerAws#task_instance_types}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskLifecycle">taskLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_lifecycle MrscalerAws#task_lifecycle}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskMaxSize">taskMaxSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_max_size MrscalerAws#task_max_size}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskMinSize">taskMinSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_min_size MrscalerAws#task_min_size}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskEbsOptimized">taskEbsOptimized</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_ebs_optimized MrscalerAws#task_ebs_optimized}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskInstanceTypes">taskInstanceTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_instance_types MrscalerAws#task_instance_types}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskLifecycle">taskLifecycle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_lifecycle MrscalerAws#task_lifecycle}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskMaxSize">taskMaxSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_max_size MrscalerAws#task_max_size}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskMinSize">taskMinSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_min_size MrscalerAws#task_min_size}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskScalingDownPolicy">taskScalingDownPolicy</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy">MrscalerAwsTaskScalingDownPolicy</a>[]</code> | task_scaling_down_policy block. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskScalingUpPolicy">taskScalingUpPolicy</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy">MrscalerAwsTaskScalingUpPolicy</a>[]</code> | task_scaling_up_policy block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskUnit">taskUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_unit MrscalerAws#task_unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.taskUnit">taskUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_unit MrscalerAws#task_unit}. |
 | <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.terminationPolicies">terminationPolicies</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPolicies">MrscalerAwsTerminationPolicies</a>[]</code> | termination_policies block. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.terminationProtected">terminationProtected</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#termination_protected MrscalerAws#termination_protected}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.visibleToAllUsers">visibleToAllUsers</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#visible_to_all_users MrscalerAws#visible_to_all_users}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.terminationProtected">terminationProtected</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#termination_protected MrscalerAws#termination_protected}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfig.property.visibleToAllUsers">visibleToAllUsers</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#visible_to_all_users MrscalerAws#visible_to_all_users}. |
 
 ---
 
@@ -2898,7 +2898,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#name MrscalerAws#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#name MrscalerAws#name}.
 
 ---
 
@@ -2910,7 +2910,7 @@ public readonly strategy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#strategy MrscalerAws#strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#strategy MrscalerAws#strategy}.
 
 ---
 
@@ -2922,7 +2922,7 @@ public readonly additionalInfo: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_info MrscalerAws#additional_info}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_info MrscalerAws#additional_info}.
 
 ---
 
@@ -2934,7 +2934,7 @@ public readonly additionalPrimarySecurityGroups: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_primary_security_groups MrscalerAws#additional_primary_security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_primary_security_groups MrscalerAws#additional_primary_security_groups}.
 
 ---
 
@@ -2946,7 +2946,7 @@ public readonly additionalReplicaSecurityGroups: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#additional_replica_security_groups MrscalerAws#additional_replica_security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#additional_replica_security_groups MrscalerAws#additional_replica_security_groups}.
 
 ---
 
@@ -2960,7 +2960,7 @@ public readonly applications: IResolvable | MrscalerAwsApplications[];
 
 applications block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#applications MrscalerAws#applications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#applications MrscalerAws#applications}
 
 ---
 
@@ -2972,7 +2972,7 @@ public readonly availabilityZones: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#availability_zones MrscalerAws#availability_zones}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#availability_zones MrscalerAws#availability_zones}.
 
 ---
 
@@ -2986,7 +2986,7 @@ public readonly bootstrapActionsFile: IResolvable | MrscalerAwsBootstrapActionsF
 
 bootstrap_actions_file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bootstrap_actions_file MrscalerAws#bootstrap_actions_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bootstrap_actions_file MrscalerAws#bootstrap_actions_file}
 
 ---
 
@@ -2998,7 +2998,7 @@ public readonly clusterId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cluster_id MrscalerAws#cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cluster_id MrscalerAws#cluster_id}.
 
 ---
 
@@ -3012,7 +3012,7 @@ public readonly configurationsFile: IResolvable | MrscalerAwsConfigurationsFile[
 
 configurations_file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#configurations_file MrscalerAws#configurations_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#configurations_file MrscalerAws#configurations_file}
 
 ---
 
@@ -3024,7 +3024,7 @@ public readonly coreDesiredCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_desired_capacity MrscalerAws#core_desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_desired_capacity MrscalerAws#core_desired_capacity}.
 
 ---
 
@@ -3038,7 +3038,7 @@ public readonly coreEbsBlockDevice: IResolvable | MrscalerAwsCoreEbsBlockDevice[
 
 core_ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_ebs_block_device MrscalerAws#core_ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_ebs_block_device MrscalerAws#core_ebs_block_device}
 
 ---
 
@@ -3050,7 +3050,7 @@ public readonly coreEbsOptimized: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_ebs_optimized MrscalerAws#core_ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_ebs_optimized MrscalerAws#core_ebs_optimized}.
 
 ---
 
@@ -3062,7 +3062,7 @@ public readonly coreInstanceTypes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_instance_types MrscalerAws#core_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_instance_types MrscalerAws#core_instance_types}.
 
 ---
 
@@ -3074,7 +3074,7 @@ public readonly coreLifecycle: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_lifecycle MrscalerAws#core_lifecycle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_lifecycle MrscalerAws#core_lifecycle}.
 
 ---
 
@@ -3086,7 +3086,7 @@ public readonly coreMaxSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_max_size MrscalerAws#core_max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_max_size MrscalerAws#core_max_size}.
 
 ---
 
@@ -3098,7 +3098,7 @@ public readonly coreMinSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_min_size MrscalerAws#core_min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_min_size MrscalerAws#core_min_size}.
 
 ---
 
@@ -3112,7 +3112,7 @@ public readonly coreScalingDownPolicy: IResolvable | MrscalerAwsCoreScalingDownP
 
 core_scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_scaling_down_policy MrscalerAws#core_scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_scaling_down_policy MrscalerAws#core_scaling_down_policy}
 
 ---
 
@@ -3126,7 +3126,7 @@ public readonly coreScalingUpPolicy: IResolvable | MrscalerAwsCoreScalingUpPolic
 
 core_scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_scaling_up_policy MrscalerAws#core_scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_scaling_up_policy MrscalerAws#core_scaling_up_policy}
 
 ---
 
@@ -3138,7 +3138,7 @@ public readonly coreUnit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#core_unit MrscalerAws#core_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#core_unit MrscalerAws#core_unit}.
 
 ---
 
@@ -3150,7 +3150,7 @@ public readonly customAmiId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#custom_ami_id MrscalerAws#custom_ami_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#custom_ami_id MrscalerAws#custom_ami_id}.
 
 ---
 
@@ -3162,7 +3162,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#description MrscalerAws#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#description MrscalerAws#description}.
 
 ---
 
@@ -3174,7 +3174,7 @@ public readonly ebsRootVolumeSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#ebs_root_volume_size MrscalerAws#ebs_root_volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#ebs_root_volume_size MrscalerAws#ebs_root_volume_size}.
 
 ---
 
@@ -3186,7 +3186,7 @@ public readonly ec2KeyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#ec2_key_name MrscalerAws#ec2_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#ec2_key_name MrscalerAws#ec2_key_name}.
 
 ---
 
@@ -3198,7 +3198,7 @@ public readonly exposeClusterId: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#expose_cluster_id MrscalerAws#expose_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#expose_cluster_id MrscalerAws#expose_cluster_id}.
 
 ---
 
@@ -3210,7 +3210,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#id MrscalerAws#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#id MrscalerAws#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3227,7 +3227,7 @@ public readonly instanceWeights: IResolvable | MrscalerAwsInstanceWeights[];
 
 instance_weights block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#instance_weights MrscalerAws#instance_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#instance_weights MrscalerAws#instance_weights}
 
 ---
 
@@ -3239,7 +3239,7 @@ public readonly jobFlowRole: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#job_flow_role MrscalerAws#job_flow_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#job_flow_role MrscalerAws#job_flow_role}.
 
 ---
 
@@ -3251,7 +3251,7 @@ public readonly keepJobFlowAlive: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#keep_job_flow_alive MrscalerAws#keep_job_flow_alive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#keep_job_flow_alive MrscalerAws#keep_job_flow_alive}.
 
 ---
 
@@ -3263,7 +3263,7 @@ public readonly logUri: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#log_uri MrscalerAws#log_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#log_uri MrscalerAws#log_uri}.
 
 ---
 
@@ -3275,7 +3275,7 @@ public readonly managedPrimarySecurityGroup: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#managed_primary_security_group MrscalerAws#managed_primary_security_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#managed_primary_security_group MrscalerAws#managed_primary_security_group}.
 
 ---
 
@@ -3287,7 +3287,7 @@ public readonly managedReplicaSecurityGroup: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#managed_replica_security_group MrscalerAws#managed_replica_security_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#managed_replica_security_group MrscalerAws#managed_replica_security_group}.
 
 ---
 
@@ -3301,7 +3301,7 @@ public readonly masterEbsBlockDevice: IResolvable | MrscalerAwsMasterEbsBlockDev
 
 master_ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_ebs_block_device MrscalerAws#master_ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_ebs_block_device MrscalerAws#master_ebs_block_device}
 
 ---
 
@@ -3313,7 +3313,7 @@ public readonly masterEbsOptimized: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_ebs_optimized MrscalerAws#master_ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_ebs_optimized MrscalerAws#master_ebs_optimized}.
 
 ---
 
@@ -3325,7 +3325,7 @@ public readonly masterInstanceTypes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_instance_types MrscalerAws#master_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_instance_types MrscalerAws#master_instance_types}.
 
 ---
 
@@ -3337,7 +3337,7 @@ public readonly masterLifecycle: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_lifecycle MrscalerAws#master_lifecycle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_lifecycle MrscalerAws#master_lifecycle}.
 
 ---
 
@@ -3349,7 +3349,7 @@ public readonly masterTarget: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#master_target MrscalerAws#master_target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#master_target MrscalerAws#master_target}.
 
 ---
 
@@ -3363,7 +3363,7 @@ public readonly provisioningTimeout: MrscalerAwsProvisioningTimeout;
 
 provisioning_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#provisioning_timeout MrscalerAws#provisioning_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#provisioning_timeout MrscalerAws#provisioning_timeout}
 
 ---
 
@@ -3375,7 +3375,7 @@ public readonly region: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#region MrscalerAws#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#region MrscalerAws#region}.
 
 ---
 
@@ -3387,7 +3387,7 @@ public readonly releaseLabel: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#release_label MrscalerAws#release_label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#release_label MrscalerAws#release_label}.
 
 ---
 
@@ -3399,7 +3399,7 @@ public readonly repoUpgradeOnBoot: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#repo_upgrade_on_boot MrscalerAws#repo_upgrade_on_boot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#repo_upgrade_on_boot MrscalerAws#repo_upgrade_on_boot}.
 
 ---
 
@@ -3411,7 +3411,7 @@ public readonly retries: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#retries MrscalerAws#retries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#retries MrscalerAws#retries}.
 
 ---
 
@@ -3425,7 +3425,7 @@ public readonly scheduledTask: IResolvable | MrscalerAwsScheduledTask[];
 
 scheduled_task block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#scheduled_task MrscalerAws#scheduled_task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#scheduled_task MrscalerAws#scheduled_task}
 
 ---
 
@@ -3437,7 +3437,7 @@ public readonly securityConfig: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#security_config MrscalerAws#security_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#security_config MrscalerAws#security_config}.
 
 ---
 
@@ -3449,7 +3449,7 @@ public readonly serviceAccessSecurityGroup: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#service_access_security_group MrscalerAws#service_access_security_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#service_access_security_group MrscalerAws#service_access_security_group}.
 
 ---
 
@@ -3461,7 +3461,7 @@ public readonly serviceRole: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#service_role MrscalerAws#service_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#service_role MrscalerAws#service_role}.
 
 ---
 
@@ -3475,7 +3475,7 @@ public readonly stepsFile: IResolvable | MrscalerAwsStepsFile[];
 
 steps_file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#steps_file MrscalerAws#steps_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#steps_file MrscalerAws#steps_file}
 
 ---
 
@@ -3489,7 +3489,7 @@ public readonly tags: IResolvable | MrscalerAwsTags[];
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#tags MrscalerAws#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#tags MrscalerAws#tags}
 
 ---
 
@@ -3501,7 +3501,7 @@ public readonly taskDesiredCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_desired_capacity MrscalerAws#task_desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_desired_capacity MrscalerAws#task_desired_capacity}.
 
 ---
 
@@ -3515,7 +3515,7 @@ public readonly taskEbsBlockDevice: IResolvable | MrscalerAwsTaskEbsBlockDevice[
 
 task_ebs_block_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_ebs_block_device MrscalerAws#task_ebs_block_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_ebs_block_device MrscalerAws#task_ebs_block_device}
 
 ---
 
@@ -3527,7 +3527,7 @@ public readonly taskEbsOptimized: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_ebs_optimized MrscalerAws#task_ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_ebs_optimized MrscalerAws#task_ebs_optimized}.
 
 ---
 
@@ -3539,7 +3539,7 @@ public readonly taskInstanceTypes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_instance_types MrscalerAws#task_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_instance_types MrscalerAws#task_instance_types}.
 
 ---
 
@@ -3551,7 +3551,7 @@ public readonly taskLifecycle: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_lifecycle MrscalerAws#task_lifecycle}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_lifecycle MrscalerAws#task_lifecycle}.
 
 ---
 
@@ -3563,7 +3563,7 @@ public readonly taskMaxSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_max_size MrscalerAws#task_max_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_max_size MrscalerAws#task_max_size}.
 
 ---
 
@@ -3575,7 +3575,7 @@ public readonly taskMinSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_min_size MrscalerAws#task_min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_min_size MrscalerAws#task_min_size}.
 
 ---
 
@@ -3589,7 +3589,7 @@ public readonly taskScalingDownPolicy: IResolvable | MrscalerAwsTaskScalingDownP
 
 task_scaling_down_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_scaling_down_policy MrscalerAws#task_scaling_down_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_scaling_down_policy MrscalerAws#task_scaling_down_policy}
 
 ---
 
@@ -3603,7 +3603,7 @@ public readonly taskScalingUpPolicy: IResolvable | MrscalerAwsTaskScalingUpPolic
 
 task_scaling_up_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_scaling_up_policy MrscalerAws#task_scaling_up_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_scaling_up_policy MrscalerAws#task_scaling_up_policy}
 
 ---
 
@@ -3615,7 +3615,7 @@ public readonly taskUnit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_unit MrscalerAws#task_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_unit MrscalerAws#task_unit}.
 
 ---
 
@@ -3629,7 +3629,7 @@ public readonly terminationPolicies: IResolvable | MrscalerAwsTerminationPolicie
 
 termination_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#termination_policies MrscalerAws#termination_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#termination_policies MrscalerAws#termination_policies}
 
 ---
 
@@ -3641,7 +3641,7 @@ public readonly terminationProtected: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#termination_protected MrscalerAws#termination_protected}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#termination_protected MrscalerAws#termination_protected}.
 
 ---
 
@@ -3653,7 +3653,7 @@ public readonly visibleToAllUsers: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#visible_to_all_users MrscalerAws#visible_to_all_users}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#visible_to_all_users MrscalerAws#visible_to_all_users}.
 
 ---
 
@@ -3671,8 +3671,8 @@ const mrscalerAwsConfigurationsFile: mrscalerAws.MrscalerAwsConfigurationsFile =
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsConfigurationsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
 
 ---
 
@@ -3684,7 +3684,7 @@ public readonly bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
 
 ---
 
@@ -3696,7 +3696,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}.
 
 ---
 
@@ -3714,10 +3714,10 @@ const mrscalerAwsCoreEbsBlockDevice: mrscalerAws.MrscalerAwsCoreEbsBlockDevice =
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
 
 ---
 
@@ -3729,7 +3729,7 @@ public readonly sizeInGb: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
 
 ---
 
@@ -3741,7 +3741,7 @@ public readonly volumeType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
 
 ---
 
@@ -3753,7 +3753,7 @@ public readonly iops: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
 
 ---
 
@@ -3765,7 +3765,7 @@ public readonly volumesPerInstance: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
 
 ---
 
@@ -3783,24 +3783,24 @@ const mrscalerAwsCoreScalingDownPolicy: mrscalerAws.MrscalerAwsCoreScalingDownPo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingDownPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
 
 ---
 
@@ -3812,7 +3812,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
 
 ---
 
@@ -3824,7 +3824,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
 
 ---
 
@@ -3836,7 +3836,7 @@ public readonly policyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
 
 ---
 
@@ -3848,7 +3848,7 @@ public readonly threshold: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
 
 ---
 
@@ -3860,7 +3860,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
 
 ---
 
@@ -3872,7 +3872,7 @@ public readonly actionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
 
 ---
 
@@ -3884,7 +3884,7 @@ public readonly adjustment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
 
 ---
 
@@ -3896,7 +3896,7 @@ public readonly cooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
 
 ---
 
@@ -3908,7 +3908,7 @@ public readonly dimensions: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
 
 ---
 
@@ -3920,7 +3920,7 @@ public readonly evaluationPeriods: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
 
 ---
 
@@ -3932,7 +3932,7 @@ public readonly maximum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
 
 ---
 
@@ -3944,7 +3944,7 @@ public readonly maxTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
 
 ---
 
@@ -3956,7 +3956,7 @@ public readonly minimum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
 
 ---
 
@@ -3968,7 +3968,7 @@ public readonly minTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
 
 ---
 
@@ -3980,7 +3980,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
 
 ---
 
@@ -3992,7 +3992,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}.
 
 ---
 
@@ -4004,7 +4004,7 @@ public readonly statistic: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
 
 ---
 
@@ -4016,7 +4016,7 @@ public readonly target: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}.
 
 ---
 
@@ -4034,24 +4034,24 @@ const mrscalerAwsCoreScalingUpPolicy: mrscalerAws.MrscalerAwsCoreScalingUpPolicy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsCoreScalingUpPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
 
 ---
 
@@ -4063,7 +4063,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
 
 ---
 
@@ -4075,7 +4075,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
 
 ---
 
@@ -4087,7 +4087,7 @@ public readonly policyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
 
 ---
 
@@ -4099,7 +4099,7 @@ public readonly threshold: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
 
 ---
 
@@ -4111,7 +4111,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
 
 ---
 
@@ -4123,7 +4123,7 @@ public readonly actionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
 
 ---
 
@@ -4135,7 +4135,7 @@ public readonly adjustment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
 
 ---
 
@@ -4147,7 +4147,7 @@ public readonly cooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
 
 ---
 
@@ -4159,7 +4159,7 @@ public readonly dimensions: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
 
 ---
 
@@ -4171,7 +4171,7 @@ public readonly evaluationPeriods: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
 
 ---
 
@@ -4183,7 +4183,7 @@ public readonly maximum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
 
 ---
 
@@ -4195,7 +4195,7 @@ public readonly maxTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
 
 ---
 
@@ -4207,7 +4207,7 @@ public readonly minimum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
 
 ---
 
@@ -4219,7 +4219,7 @@ public readonly minTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
 
 ---
 
@@ -4231,7 +4231,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
 
 ---
 
@@ -4243,7 +4243,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}.
 
 ---
 
@@ -4255,7 +4255,7 @@ public readonly statistic: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
 
 ---
 
@@ -4267,7 +4267,7 @@ public readonly target: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}.
 
 ---
 
@@ -4285,8 +4285,8 @@ const mrscalerAwsInstanceWeights: mrscalerAws.MrscalerAwsInstanceWeights = { ...
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights.property.instanceType">instanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#instance_type MrscalerAws#instance_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights.property.weightedCapacity">weightedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#weighted_capacity MrscalerAws#weighted_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights.property.instanceType">instanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#instance_type MrscalerAws#instance_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsInstanceWeights.property.weightedCapacity">weightedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#weighted_capacity MrscalerAws#weighted_capacity}. |
 
 ---
 
@@ -4298,7 +4298,7 @@ public readonly instanceType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#instance_type MrscalerAws#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#instance_type MrscalerAws#instance_type}.
 
 ---
 
@@ -4310,7 +4310,7 @@ public readonly weightedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#weighted_capacity MrscalerAws#weighted_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#weighted_capacity MrscalerAws#weighted_capacity}.
 
 ---
 
@@ -4328,10 +4328,10 @@ const mrscalerAwsMasterEbsBlockDevice: mrscalerAws.MrscalerAwsMasterEbsBlockDevi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsMasterEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
 
 ---
 
@@ -4343,7 +4343,7 @@ public readonly sizeInGb: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
 
 ---
 
@@ -4355,7 +4355,7 @@ public readonly volumeType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
 
 ---
 
@@ -4367,7 +4367,7 @@ public readonly iops: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
 
 ---
 
@@ -4379,7 +4379,7 @@ public readonly volumesPerInstance: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
 
 ---
 
@@ -4397,8 +4397,8 @@ const mrscalerAwsProvisioningTimeout: mrscalerAws.MrscalerAwsProvisioningTimeout
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout.property.timeout">timeout</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#timeout MrscalerAws#timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout.property.timeoutAction">timeoutAction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#timeout_action MrscalerAws#timeout_action}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout.property.timeout">timeout</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#timeout MrscalerAws#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsProvisioningTimeout.property.timeoutAction">timeoutAction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#timeout_action MrscalerAws#timeout_action}. |
 
 ---
 
@@ -4410,7 +4410,7 @@ public readonly timeout: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#timeout MrscalerAws#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#timeout MrscalerAws#timeout}.
 
 ---
 
@@ -4422,7 +4422,7 @@ public readonly timeoutAction: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#timeout_action MrscalerAws#timeout_action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#timeout_action MrscalerAws#timeout_action}.
 
 ---
 
@@ -4440,13 +4440,13 @@ const mrscalerAwsScheduledTask: mrscalerAws.MrscalerAwsScheduledTask = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.cron">cron</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cron MrscalerAws#cron}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.instanceGroupType">instanceGroupType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#instance_group_type MrscalerAws#instance_group_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.taskType">taskType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_type MrscalerAws#task_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.desiredCapacity">desiredCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#desired_capacity MrscalerAws#desired_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.isEnabled">isEnabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#is_enabled MrscalerAws#is_enabled}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.maxCapacity">maxCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_capacity MrscalerAws#max_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.minCapacity">minCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_capacity MrscalerAws#min_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.cron">cron</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cron MrscalerAws#cron}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.instanceGroupType">instanceGroupType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#instance_group_type MrscalerAws#instance_group_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.taskType">taskType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_type MrscalerAws#task_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.desiredCapacity">desiredCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#desired_capacity MrscalerAws#desired_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.isEnabled">isEnabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#is_enabled MrscalerAws#is_enabled}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.maxCapacity">maxCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_capacity MrscalerAws#max_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsScheduledTask.property.minCapacity">minCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_capacity MrscalerAws#min_capacity}. |
 
 ---
 
@@ -4458,7 +4458,7 @@ public readonly cron: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cron MrscalerAws#cron}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cron MrscalerAws#cron}.
 
 ---
 
@@ -4470,7 +4470,7 @@ public readonly instanceGroupType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#instance_group_type MrscalerAws#instance_group_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#instance_group_type MrscalerAws#instance_group_type}.
 
 ---
 
@@ -4482,7 +4482,7 @@ public readonly taskType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#task_type MrscalerAws#task_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#task_type MrscalerAws#task_type}.
 
 ---
 
@@ -4494,7 +4494,7 @@ public readonly desiredCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#desired_capacity MrscalerAws#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#desired_capacity MrscalerAws#desired_capacity}.
 
 ---
 
@@ -4506,7 +4506,7 @@ public readonly isEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#is_enabled MrscalerAws#is_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#is_enabled MrscalerAws#is_enabled}.
 
 ---
 
@@ -4518,7 +4518,7 @@ public readonly maxCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_capacity MrscalerAws#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_capacity MrscalerAws#max_capacity}.
 
 ---
 
@@ -4530,7 +4530,7 @@ public readonly minCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_capacity MrscalerAws#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_capacity MrscalerAws#min_capacity}.
 
 ---
 
@@ -4548,8 +4548,8 @@ const mrscalerAwsStepsFile: mrscalerAws.MrscalerAwsStepsFile = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsStepsFile.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
 
 ---
 
@@ -4561,7 +4561,7 @@ public readonly bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#bucket MrscalerAws#bucket}.
 
 ---
 
@@ -4573,7 +4573,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}.
 
 ---
 
@@ -4591,8 +4591,8 @@ const mrscalerAwsTags: mrscalerAws.MrscalerAwsTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#value MrscalerAws#value}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#value MrscalerAws#value}. |
 
 ---
 
@@ -4604,7 +4604,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#key MrscalerAws#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#key MrscalerAws#key}.
 
 ---
 
@@ -4616,7 +4616,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#value MrscalerAws#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#value MrscalerAws#value}.
 
 ---
 
@@ -4634,10 +4634,10 @@ const mrscalerAwsTaskEbsBlockDevice: mrscalerAws.MrscalerAwsTaskEbsBlockDevice =
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.sizeInGb">sizeInGb</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.volumeType">volumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.iops">iops</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskEbsBlockDevice.property.volumesPerInstance">volumesPerInstance</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}. |
 
 ---
 
@@ -4649,7 +4649,7 @@ public readonly sizeInGb: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#size_in_gb MrscalerAws#size_in_gb}.
 
 ---
 
@@ -4661,7 +4661,7 @@ public readonly volumeType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volume_type MrscalerAws#volume_type}.
 
 ---
 
@@ -4673,7 +4673,7 @@ public readonly iops: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#iops MrscalerAws#iops}.
 
 ---
 
@@ -4685,7 +4685,7 @@ public readonly volumesPerInstance: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#volumes_per_instance MrscalerAws#volumes_per_instance}.
 
 ---
 
@@ -4703,24 +4703,24 @@ const mrscalerAwsTaskScalingDownPolicy: mrscalerAws.MrscalerAwsTaskScalingDownPo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingDownPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
 
 ---
 
@@ -4732,7 +4732,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
 
 ---
 
@@ -4744,7 +4744,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
 
 ---
 
@@ -4756,7 +4756,7 @@ public readonly policyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
 
 ---
 
@@ -4768,7 +4768,7 @@ public readonly threshold: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
 
 ---
 
@@ -4780,7 +4780,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
 
 ---
 
@@ -4792,7 +4792,7 @@ public readonly actionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
 
 ---
 
@@ -4804,7 +4804,7 @@ public readonly adjustment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
 
 ---
 
@@ -4816,7 +4816,7 @@ public readonly cooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
 
 ---
 
@@ -4828,7 +4828,7 @@ public readonly dimensions: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
 
 ---
 
@@ -4840,7 +4840,7 @@ public readonly evaluationPeriods: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
 
 ---
 
@@ -4852,7 +4852,7 @@ public readonly maximum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
 
 ---
 
@@ -4864,7 +4864,7 @@ public readonly maxTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
 
 ---
 
@@ -4876,7 +4876,7 @@ public readonly minimum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
 
 ---
 
@@ -4888,7 +4888,7 @@ public readonly minTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
 
 ---
 
@@ -4900,7 +4900,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
 
 ---
 
@@ -4912,7 +4912,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}.
 
 ---
 
@@ -4924,7 +4924,7 @@ public readonly statistic: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
 
 ---
 
@@ -4936,7 +4936,7 @@ public readonly target: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}.
 
 ---
 
@@ -4954,24 +4954,24 @@ const mrscalerAwsTaskScalingUpPolicy: mrscalerAws.MrscalerAwsTaskScalingUpPolicy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.actionType">actionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.adjustment">adjustment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.cooldown">cooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.dimensions">dimensions</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.maximum">maximum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.maxTargetCapacity">maxTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.minimum">minimum</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.minTargetCapacity">minTargetCapacity</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTaskScalingUpPolicy.property.target">target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}. |
 
 ---
 
@@ -4983,7 +4983,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
 
 ---
 
@@ -4995,7 +4995,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
 
 ---
 
@@ -5007,7 +5007,7 @@ public readonly policyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#policy_name MrscalerAws#policy_name}.
 
 ---
 
@@ -5019,7 +5019,7 @@ public readonly threshold: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
 
 ---
 
@@ -5031,7 +5031,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
 
 ---
 
@@ -5043,7 +5043,7 @@ public readonly actionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#action_type MrscalerAws#action_type}.
 
 ---
 
@@ -5055,7 +5055,7 @@ public readonly adjustment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#adjustment MrscalerAws#adjustment}.
 
 ---
 
@@ -5067,7 +5067,7 @@ public readonly cooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#cooldown MrscalerAws#cooldown}.
 
 ---
 
@@ -5079,7 +5079,7 @@ public readonly dimensions: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#dimensions MrscalerAws#dimensions}.
 
 ---
 
@@ -5091,7 +5091,7 @@ public readonly evaluationPeriods: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
 
 ---
 
@@ -5103,7 +5103,7 @@ public readonly maximum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#maximum MrscalerAws#maximum}.
 
 ---
 
@@ -5115,7 +5115,7 @@ public readonly maxTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#max_target_capacity MrscalerAws#max_target_capacity}.
 
 ---
 
@@ -5127,7 +5127,7 @@ public readonly minimum: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#minimum MrscalerAws#minimum}.
 
 ---
 
@@ -5139,7 +5139,7 @@ public readonly minTargetCapacity: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#min_target_capacity MrscalerAws#min_target_capacity}.
 
 ---
 
@@ -5151,7 +5151,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
 
 ---
 
@@ -5163,7 +5163,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}.
 
 ---
 
@@ -5175,7 +5175,7 @@ public readonly statistic: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
 
 ---
 
@@ -5187,7 +5187,7 @@ public readonly target: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#target MrscalerAws#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#target MrscalerAws#target}.
 
 ---
 
@@ -5219,7 +5219,7 @@ public readonly statements: IResolvable | MrscalerAwsTerminationPoliciesStatemen
 
 statements block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statements MrscalerAws#statements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statements MrscalerAws#statements}
 
 ---
 
@@ -5237,14 +5237,14 @@ const mrscalerAwsTerminationPoliciesStatements: mrscalerAws.MrscalerAwsTerminati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
-| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.metricName">metricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.namespace">namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.threshold">threshold</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.evaluationPeriods">evaluationPeriods</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.period">period</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.statistic">statistic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}. |
+| <code><a href="#@cdktf/provider-spotinst.mrscalerAws.MrscalerAwsTerminationPoliciesStatements.property.unit">unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}. |
 
 ---
 
@@ -5256,7 +5256,7 @@ public readonly metricName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#metric_name MrscalerAws#metric_name}.
 
 ---
 
@@ -5268,7 +5268,7 @@ public readonly namespace: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#namespace MrscalerAws#namespace}.
 
 ---
 
@@ -5280,7 +5280,7 @@ public readonly threshold: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#threshold MrscalerAws#threshold}.
 
 ---
 
@@ -5292,7 +5292,7 @@ public readonly evaluationPeriods: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#evaluation_periods MrscalerAws#evaluation_periods}.
 
 ---
 
@@ -5304,7 +5304,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#operator MrscalerAws#operator}.
 
 ---
 
@@ -5316,7 +5316,7 @@ public readonly period: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#period MrscalerAws#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#period MrscalerAws#period}.
 
 ---
 
@@ -5328,7 +5328,7 @@ public readonly statistic: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#statistic MrscalerAws#statistic}.
 
 ---
 
@@ -5340,7 +5340,7 @@ public readonly unit: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.216.2/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.217.0/docs/resources/mrscaler_aws#unit MrscalerAws#unit}.
 
 ---
 
