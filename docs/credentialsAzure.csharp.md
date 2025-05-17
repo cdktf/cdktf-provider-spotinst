@@ -4,7 +4,7 @@
 
 ### CredentialsAzure <a name="CredentialsAzure" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure spotinst_credentials_azure}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure spotinst_credentials_azure}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.Initializer"></a>
 
@@ -73,6 +73,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.resetExpirationDate">ResetExpirationDate</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.resetId">ResetId</a></code> | *No description.* |
 
 ---
@@ -365,6 +366,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `ResetExpirationDate` <a name="ResetExpirationDate" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.resetExpirationDate"></a>
+
+```csharp
+private void ResetExpirationDate()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.resetId"></a>
 
 ```csharp
@@ -474,7 +481,7 @@ The construct id used in the generated config for the CredentialsAzure to import
 
 The id of the existing CredentialsAzure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -507,12 +514,14 @@ Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.accountIdInput">AccountIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.clientIdInput">ClientIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.clientSecretInput">ClientSecretInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.expirationDateInput">ExpirationDateInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.subscriptionIdInput">SubscriptionIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.tenantIdInput">TenantIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.accountId">AccountId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.clientId">ClientId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.clientSecret">ClientSecret</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.expirationDate">ExpirationDate</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.subscriptionId">SubscriptionId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.tenantId">TenantId</a></code> | <code>string</code> | *No description.* |
@@ -691,6 +700,16 @@ public string ClientSecretInput { get; }
 
 ---
 
+##### `ExpirationDateInput`<sup>Optional</sup> <a name="ExpirationDateInput" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.expirationDateInput"></a>
+
+```csharp
+public string ExpirationDateInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.idInput"></a>
 
 ```csharp
@@ -745,6 +764,16 @@ public string ClientId { get; }
 
 ```csharp
 public string ClientSecret { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ExpirationDate`<sup>Required</sup> <a name="ExpirationDate" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.property.expirationDate"></a>
+
+```csharp
+public string ExpirationDate { get; }
 ```
 
 - *Type:* string
@@ -821,6 +850,7 @@ new CredentialsAzureConfig {
     string ClientSecret,
     string SubscriptionId,
     string TenantId,
+    string ExpirationDate = null,
     string Id = null
 };
 ```
@@ -836,12 +866,13 @@ new CredentialsAzureConfig {
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientId">ClientId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientSecret">ClientSecret</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.subscriptionId">SubscriptionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.tenantId">TenantId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}. |
-| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#id CredentialsAzure#id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientId">ClientId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.clientSecret">ClientSecret</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.subscriptionId">SubscriptionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.tenantId">TenantId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.expirationDate">ExpirationDate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#expiration_date CredentialsAzure#expiration_date}. |
+| <code><a href="#@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#id CredentialsAzure#id}. |
 
 ---
 
@@ -923,7 +954,7 @@ public string AccountId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#account_id CredentialsAzure#account_id}.
 
 ---
 
@@ -935,7 +966,7 @@ public string ClientId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#client_id CredentialsAzure#client_id}.
 
 ---
 
@@ -947,7 +978,7 @@ public string ClientSecret { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#client_secret CredentialsAzure#client_secret}.
 
 ---
 
@@ -959,7 +990,7 @@ public string SubscriptionId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#subscription_id CredentialsAzure#subscription_id}.
 
 ---
 
@@ -971,7 +1002,19 @@ public string TenantId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#tenant_id CredentialsAzure#tenant_id}.
+
+---
+
+##### `ExpirationDate`<sup>Optional</sup> <a name="ExpirationDate" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.property.expirationDate"></a>
+
+```csharp
+public string ExpirationDate { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#expiration_date CredentialsAzure#expiration_date}.
 
 ---
 
@@ -983,7 +1026,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.219.0/docs/resources/credentials_azure#id CredentialsAzure#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.220.0/docs/resources/credentials_azure#id CredentialsAzure#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
