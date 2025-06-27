@@ -1,3 +1,3 @@
 # `spotinst_credentials_azure`
 
-Refer to the Terraform Registry for docs: [`spotinst_credentials_azure`](https://registry.terraform.io/providers/spotinst/spotinst/1.220.3/docs/resources/credentials_azure).
+Refer to the Terraform Registry for docs: [`spotinst_credentials_azure`](https://registry.terraform.io/providers/spotinst/spotinst/1.220.4/docs/resources/credentials_azure).
