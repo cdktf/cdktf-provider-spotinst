@@ -19,6 +19,7 @@ The following submodules are available:
 - [healthCheck](./healthCheck.python.md)
 - [managedInstanceAws](./managedInstanceAws.python.md)
 - [mrscalerAws](./mrscalerAws.python.md)
+- [notificationCenter](./notificationCenter.python.md)
 - [oceanAksNp](./oceanAksNp.python.md)
 - [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.python.md)
 - [oceanAws](./oceanAws.python.md)

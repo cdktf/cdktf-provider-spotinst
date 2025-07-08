@@ -19,6 +19,7 @@ The following submodules are available:
 - [healthCheck](./healthCheck.csharp.md)
 - [managedInstanceAws](./managedInstanceAws.csharp.md)
 - [mrscalerAws](./mrscalerAws.csharp.md)
+- [notificationCenter](./notificationCenter.csharp.md)
 - [oceanAksNp](./oceanAksNp.csharp.md)
 - [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.csharp.md)
 - [oceanAws](./oceanAws.csharp.md)

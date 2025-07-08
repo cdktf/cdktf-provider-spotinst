@@ -19,6 +19,7 @@ The following submodules are available:
 - [healthCheck](./healthCheck.java.md)
 - [managedInstanceAws](./managedInstanceAws.java.md)
 - [mrscalerAws](./mrscalerAws.java.md)
+- [notificationCenter](./notificationCenter.java.md)
 - [oceanAksNp](./oceanAksNp.java.md)
 - [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.java.md)
 - [oceanAws](./oceanAws.java.md)

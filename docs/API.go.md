@@ -19,6 +19,7 @@ The following submodules are available:
 - [healthCheck](./healthCheck.go.md)
 - [managedInstanceAws](./managedInstanceAws.go.md)
 - [mrscalerAws](./mrscalerAws.go.md)
+- [notificationCenter](./notificationCenter.go.md)
 - [oceanAksNp](./oceanAksNp.go.md)
 - [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.go.md)
 - [oceanAws](./oceanAws.go.md)
