@@ -19,6 +19,7 @@ export * as elastigroupGke from './elastigroup-gke';
 export * as healthCheck from './health-check';
 export * as managedInstanceAws from './managed-instance-aws';
 export * as mrscalerAws from './mrscaler-aws';
+export * as notificationCenter from './notification-center';
 export * as oceanAksNp from './ocean-aks-np';
 export * as oceanAksNpVirtualNodeGroup from './ocean-aks-np-virtual-node-group';
 export * as oceanAws from './ocean-aws';

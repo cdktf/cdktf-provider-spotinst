@@ -19,6 +19,7 @@ The following submodules are available:
 - [healthCheck](./healthCheck.typescript.md)
 - [managedInstanceAws](./managedInstanceAws.typescript.md)
 - [mrscalerAws](./mrscalerAws.typescript.md)
+- [notificationCenter](./notificationCenter.typescript.md)
 - [oceanAksNp](./oceanAksNp.typescript.md)
 - [oceanAksNpVirtualNodeGroup](./oceanAksNpVirtualNodeGroup.typescript.md)
 - [oceanAws](./oceanAws.typescript.md)

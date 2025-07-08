@@ -19,6 +19,7 @@ Object.defineProperty(exports, 'elastigroupGke', { get: function () { return req
 Object.defineProperty(exports, 'healthCheck', { get: function () { return require('./health-check'); } });
 Object.defineProperty(exports, 'managedInstanceAws', { get: function () { return require('./managed-instance-aws'); } });
 Object.defineProperty(exports, 'mrscalerAws', { get: function () { return require('./mrscaler-aws'); } });
+Object.defineProperty(exports, 'notificationCenter', { get: function () { return require('./notification-center'); } });
 Object.defineProperty(exports, 'oceanAksNp', { get: function () { return require('./ocean-aks-np'); } });
 Object.defineProperty(exports, 'oceanAksNpVirtualNodeGroup', { get: function () { return require('./ocean-aks-np-virtual-node-group'); } });
 Object.defineProperty(exports, 'oceanAws', { get: function () { return require('./ocean-aws'); } });
