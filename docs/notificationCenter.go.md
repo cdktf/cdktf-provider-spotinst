@@ -4,7 +4,7 @@
 
 ### NotificationCenter <a name="NotificationCenter" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center spotinst_notification_center}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center spotinst_notification_center}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.Initializer"></a>
 
@@ -548,7 +548,7 @@ The construct id used in the generated config for the NotificationCenter to impo
 
 The id of the existing NotificationCenter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -940,8 +940,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.events">Events</a></code> | <code>interface{}</code> | events block. |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.dynamicRules">DynamicRules</a></code> | <code>interface{}</code> | dynamic_rules block. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.resourceIds">ResourceIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.shouldIncludeAllResources">ShouldIncludeAllResources</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.resourceIds">ResourceIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.property.shouldIncludeAllResources">ShouldIncludeAllResources</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}. |
 
 ---
 
@@ -955,7 +955,7 @@ Events interface{}
 
 events block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#events NotificationCenter#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#events NotificationCenter#events}
 
 ---
 
@@ -969,7 +969,7 @@ DynamicRules interface{}
 
 dynamic_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#dynamic_rules NotificationCenter#dynamic_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#dynamic_rules NotificationCenter#dynamic_rules}
 
 ---
 
@@ -981,7 +981,7 @@ ResourceIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}.
 
 ---
 
@@ -993,7 +993,7 @@ ShouldIncludeAllResources interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}.
 
 ---
 
@@ -1027,7 +1027,7 @@ FilterConditions interface{}
 
 filter_conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#filter_conditions NotificationCenter#filter_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#filter_conditions NotificationCenter#filter_conditions}
 
 ---
 
@@ -1049,9 +1049,9 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#expression NotificationCenter#expression}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.identifier">Identifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#identifier NotificationCenter#identifier}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.operator">Operator</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#operator NotificationCenter#operator}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#expression NotificationCenter#expression}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.identifier">Identifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#identifier NotificationCenter#identifier}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.property.operator">Operator</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#operator NotificationCenter#operator}. |
 
 ---
 
@@ -1063,7 +1063,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#expression NotificationCenter#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#expression NotificationCenter#expression}.
 
 ---
 
@@ -1075,7 +1075,7 @@ Identifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#identifier NotificationCenter#identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#identifier NotificationCenter#identifier}.
 
 ---
 
@@ -1087,7 +1087,7 @@ Operator *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#operator NotificationCenter#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#operator NotificationCenter#operator}.
 
 ---
 
@@ -1108,8 +1108,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEvents.property.event">Event</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#event NotificationCenter#event}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEvents.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#event_type NotificationCenter#event_type}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEvents.property.event">Event</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#event NotificationCenter#event}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEvents.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#event_type NotificationCenter#event_type}. |
 
 ---
 
@@ -1121,7 +1121,7 @@ Event *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#event NotificationCenter#event}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#event NotificationCenter#event}.
 
 ---
 
@@ -1133,7 +1133,7 @@ EventType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#event_type NotificationCenter#event_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#event_type NotificationCenter#event_type}.
 
 ---
 
@@ -1175,11 +1175,11 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.computePolicyConfig">ComputePolicyConfig</a></code> | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig">NotificationCenterComputePolicyConfig</a></code> | compute_policy_config block. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.privacyLevel">PrivacyLevel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#description NotificationCenter#description}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#id NotificationCenter#id}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#is_active NotificationCenter#is_active}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#name NotificationCenter#name}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.privacyLevel">PrivacyLevel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#description NotificationCenter#description}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#id NotificationCenter#id}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.isActive">IsActive</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#is_active NotificationCenter#is_active}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#name NotificationCenter#name}. |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.registeredUsers">RegisteredUsers</a></code> | <code>interface{}</code> | registered_users block. |
 | <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.property.subscriptions">Subscriptions</a></code> | <code>interface{}</code> | subscriptions block. |
 
@@ -1265,7 +1265,7 @@ ComputePolicyConfig NotificationCenterComputePolicyConfig
 
 compute_policy_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#compute_policy_config NotificationCenter#compute_policy_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#compute_policy_config NotificationCenter#compute_policy_config}
 
 ---
 
@@ -1277,7 +1277,7 @@ PrivacyLevel *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}.
 
 ---
 
@@ -1289,7 +1289,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#description NotificationCenter#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#description NotificationCenter#description}.
 
 ---
 
@@ -1301,7 +1301,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#id NotificationCenter#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#id NotificationCenter#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1316,7 +1316,7 @@ IsActive interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#is_active NotificationCenter#is_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#is_active NotificationCenter#is_active}.
 
 ---
 
@@ -1328,7 +1328,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#name NotificationCenter#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#name NotificationCenter#name}.
 
 ---
 
@@ -1342,7 +1342,7 @@ RegisteredUsers interface{}
 
 registered_users block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#registered_users NotificationCenter#registered_users}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#registered_users NotificationCenter#registered_users}
 
 ---
 
@@ -1356,7 +1356,7 @@ Subscriptions interface{}
 
 subscriptions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#subscriptions NotificationCenter#subscriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#subscriptions NotificationCenter#subscriptions}
 
 ---
 
@@ -1377,8 +1377,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsers.property.subscriptionTypes">SubscriptionTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsers.property.userEmail">UserEmail</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#user_email NotificationCenter#user_email}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsers.property.subscriptionTypes">SubscriptionTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsers.property.userEmail">UserEmail</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#user_email NotificationCenter#user_email}. |
 
 ---
 
@@ -1390,7 +1390,7 @@ SubscriptionTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}.
 
 ---
 
@@ -1402,7 +1402,7 @@ UserEmail *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#user_email NotificationCenter#user_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#user_email NotificationCenter#user_email}.
 
 ---
 
@@ -1423,8 +1423,8 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptions.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#endpoint NotificationCenter#endpoint}. |
-| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptions.property.subscriptionType">SubscriptionType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptions.property.endpoint">Endpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#endpoint NotificationCenter#endpoint}. |
+| <code><a href="#@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptions.property.subscriptionType">SubscriptionType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}. |
 
 ---
 
@@ -1436,7 +1436,7 @@ Endpoint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#endpoint NotificationCenter#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#endpoint NotificationCenter#endpoint}.
 
 ---
 
@@ -1448,7 +1448,7 @@ SubscriptionType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.222.1/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.223.0/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}.
 
 ---
 
