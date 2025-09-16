@@ -4,7 +4,7 @@
 
 ### HealthCheck <a name="HealthCheck" id="@cdktf/provider-spotinst.healthCheck.HealthCheck"></a>
 
-Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check spotinst_health_check}.
+Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check spotinst_health_check}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer"></a>
 
@@ -43,12 +43,12 @@ HealthCheck.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.proxyAddress">proxyAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.resourceId">resourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#resource_id HealthCheck#resource_id}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.proxyAddress">proxyAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.resourceId">resourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#resource_id HealthCheck#resource_id}. |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.check">check</a></code> | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck">HealthCheckCheck</a></code> | check block. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#id HealthCheck#id}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#name HealthCheck#name}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.proxyPort">proxyPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#id HealthCheck#id}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#name HealthCheck#name}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheck.Initializer.parameter.proxyPort">proxyPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#resource_id HealthCheck#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#resource_id HealthCheck#resource_id}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#check HealthCheck#check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#check HealthCheck#check}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#id HealthCheck#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#id HealthCheck#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#name HealthCheck#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#name HealthCheck#name}.
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}.
 
 ---
 
@@ -629,7 +629,7 @@ The construct id used in the generated config for the HealthCheck to import.
 
 The id of the existing HealthCheck that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -980,15 +980,15 @@ HealthCheckCheck.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.healthy">healthy</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#healthy HealthCheck#healthy}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.interval">interval</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#interval HealthCheck#interval}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#port HealthCheck#port}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#protocol HealthCheck#protocol}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.unhealthy">unhealthy</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#unhealthy HealthCheck#unhealthy}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.endpoint">endpoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#endpoint HealthCheck#endpoint}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.endPoint">endPoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#end_point HealthCheck#end_point}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.timeout">timeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#timeout HealthCheck#timeout}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.timeOut">timeOut</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#time_out HealthCheck#time_out}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.healthy">healthy</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#healthy HealthCheck#healthy}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.interval">interval</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#interval HealthCheck#interval}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.port">port</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#port HealthCheck#port}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#protocol HealthCheck#protocol}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.unhealthy">unhealthy</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#unhealthy HealthCheck#unhealthy}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.endpoint">endpoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#endpoint HealthCheck#endpoint}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.endPoint">endPoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#end_point HealthCheck#end_point}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.timeout">timeout</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#timeout HealthCheck#timeout}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck.property.timeOut">timeOut</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#time_out HealthCheck#time_out}. |
 
 ---
 
@@ -1000,7 +1000,7 @@ public java.lang.Number getHealthy();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#healthy HealthCheck#healthy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#healthy HealthCheck#healthy}.
 
 ---
 
@@ -1012,7 +1012,7 @@ public java.lang.Number getInterval();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#interval HealthCheck#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#interval HealthCheck#interval}.
 
 ---
 
@@ -1024,7 +1024,7 @@ public java.lang.Number getPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#port HealthCheck#port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#port HealthCheck#port}.
 
 ---
 
@@ -1036,7 +1036,7 @@ public java.lang.String getProtocol();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#protocol HealthCheck#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#protocol HealthCheck#protocol}.
 
 ---
 
@@ -1048,7 +1048,7 @@ public java.lang.Number getUnhealthy();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#unhealthy HealthCheck#unhealthy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#unhealthy HealthCheck#unhealthy}.
 
 ---
 
@@ -1060,7 +1060,7 @@ public java.lang.String getEndpoint();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#endpoint HealthCheck#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#endpoint HealthCheck#endpoint}.
 
 ---
 
@@ -1072,7 +1072,7 @@ public java.lang.String getEndPoint();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#end_point HealthCheck#end_point}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#end_point HealthCheck#end_point}.
 
 ---
 
@@ -1084,7 +1084,7 @@ public java.lang.Number getTimeout();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#timeout HealthCheck#timeout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#timeout HealthCheck#timeout}.
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.Number getTimeOut();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#time_out HealthCheck#time_out}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#time_out HealthCheck#time_out}.
 
 ---
 
@@ -1139,12 +1139,12 @@ HealthCheckConfig.builder()
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.proxyAddress">proxyAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.resourceId">resourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#resource_id HealthCheck#resource_id}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.proxyAddress">proxyAddress</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.resourceId">resourceId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#resource_id HealthCheck#resource_id}. |
 | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.check">check</a></code> | <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckCheck">HealthCheckCheck</a></code> | check block. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#id HealthCheck#id}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#name HealthCheck#name}. |
-| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.proxyPort">proxyPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#id HealthCheck#id}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#name HealthCheck#name}. |
+| <code><a href="#@cdktf/provider-spotinst.healthCheck.HealthCheckConfig.property.proxyPort">proxyPort</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}. |
 
 ---
 
@@ -1226,7 +1226,7 @@ public java.lang.String getProxyAddress();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_address HealthCheck#proxy_address}.
 
 ---
 
@@ -1238,7 +1238,7 @@ public java.lang.String getResourceId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#resource_id HealthCheck#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#resource_id HealthCheck#resource_id}.
 
 ---
 
@@ -1252,7 +1252,7 @@ public HealthCheckCheck getCheck();
 
 check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#check HealthCheck#check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#check HealthCheck#check}
 
 ---
 
@@ -1264,7 +1264,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#id HealthCheck#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#id HealthCheck#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1279,7 +1279,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#name HealthCheck#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#name HealthCheck#name}.
 
 ---
 
@@ -1291,7 +1291,7 @@ public java.lang.Number getProxyPort();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.227.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.228.0/docs/resources/health_check#proxy_port HealthCheck#proxy_port}.
 
 ---
 
