@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenter(scope Construct, id *string, config NotificationCenterConfig) NotificationCenter
 ```
@@ -459,7 +459,7 @@ func ResetSubscriptions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NotificationCenter_IsConstruct(x interface{}) *bool
 ```
@@ -491,7 +491,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NotificationCenter_IsTerraformElement(x interface{}) *bool
 ```
@@ -505,7 +505,7 @@ notificationcenter.NotificationCenter_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NotificationCenter_IsTerraformResource(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ notificationcenter.NotificationCenter_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NotificationCenter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterComputePolicyConfig {
 	Events: interface{},
@@ -1002,7 +1002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRules.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterComputePolicyConfigDynamicRules {
 	FilterConditions: interface{},
@@ -1036,7 +1036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditions {
 	Expression: *string,
@@ -1096,7 +1096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterComputePolicyConfigEvents {
 	Event: *string,
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterConfig {
 	Connection: interface{},
@@ -1152,7 +1152,7 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcen
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	ComputePolicyConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.notificationCenter.NotificationCenterComputePolicyConfig,
+	ComputePolicyConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.notificationCenter.NotificationCenterComputePolicyConfig,
 	PrivacyLevel: *string,
 	Description: *string,
 	Id: *string,
@@ -1365,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterRegisteredUsers {
 	SubscriptionTypes: *[]*string,
@@ -1411,7 +1411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 &notificationcenter.NotificationCenterSubscriptions {
 	Endpoint: *string,
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigDynamicRulesFilterConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NotificationCenterComputePolicyConfigDynamicRulesFilterConditionsList
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesFilterConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigDynamicRulesFilterConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NotificationCenterComputePolicyConfigDynamicRulesFilterConditionsOutputReference
 ```
@@ -1973,7 +1973,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigDynamicRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NotificationCenterComputePolicyConfigDynamicRulesList
 ```
@@ -2133,7 +2133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigDynamicRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigDynamicRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NotificationCenterComputePolicyConfigDynamicRulesOutputReference
 ```
@@ -2442,7 +2442,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NotificationCenterComputePolicyConfigEventsList
 ```
@@ -2602,7 +2602,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NotificationCenterComputePolicyConfigEventsOutputReference
 ```
@@ -2927,7 +2927,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterComputePolicyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterComputePolicyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NotificationCenterComputePolicyConfigOutputReference
 ```
@@ -3311,7 +3311,7 @@ func InternalValue() NotificationCenterComputePolicyConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsersList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterRegisteredUsersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NotificationCenterRegisteredUsersList
 ```
@@ -3471,7 +3471,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterRegisteredUsersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterRegisteredUsersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NotificationCenterRegisteredUsersOutputReference
 ```
@@ -3796,7 +3796,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterSubscriptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NotificationCenterSubscriptionsList
 ```
@@ -3956,7 +3956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.notificationCenter.NotificationCenterSubscriptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/notificationcenter"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/notificationcenter"
 
 notificationcenter.NewNotificationCenterSubscriptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NotificationCenterSubscriptionsOutputReference
 ```
