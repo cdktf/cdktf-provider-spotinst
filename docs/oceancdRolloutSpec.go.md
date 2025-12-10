@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpec(scope Construct, id *string, config OceancdRolloutSpecConfig) OceancdRolloutSpec
 ```
@@ -478,7 +478,7 @@ func ResetTraffic()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpec.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.OceancdRolloutSpec_IsConstruct(x interface{}) *bool
 ```
@@ -510,7 +510,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.OceancdRolloutSpec_IsTerraformElement(x interface{}) *bool
 ```
@@ -524,7 +524,7 @@ oceancdrolloutspec.OceancdRolloutSpec_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.OceancdRolloutSpec_IsTerraformResource(x interface{}) *bool
 ```
@@ -538,7 +538,7 @@ oceancdrolloutspec.OceancdRolloutSpec_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpec.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.OceancdRolloutSpec_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -921,7 +921,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecConfig {
 	Connection: interface{},
@@ -932,12 +932,12 @@ import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	RolloutSpecName: *string,
-	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategy,
-	FailurePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecFailurePolicy,
+	Strategy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecStrategy,
+	FailurePolicy: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecFailurePolicy,
 	Id: *string,
-	SpotDeployment: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeployment,
+	SpotDeployment: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecSpotDeployment,
 	SpotDeployments: interface{},
-	Traffic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTraffic,
+	Traffic: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTraffic,
 }
 ```
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecFailurePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecFailurePolicy {
 	Action: *string,
@@ -1166,7 +1166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecSpotDeployment {
 	SpotDeploymentClusterId: *string,
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeployments.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecSpotDeployments {
 	SpotDeploymentsClusterId: *string,
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecStrategy {
 	StrategyName: *string,
@@ -1334,12 +1334,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgs.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecStrategyArgs {
 	ArgName: *string,
 	ArgValue: *string,
-	ValueFrom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFrom,
+	ValueFrom: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFrom,
 }
 ```
 
@@ -1396,10 +1396,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFrom.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecStrategyArgsValueFrom {
-	FieldRef: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFromFieldRef,
+	FieldRef: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFromFieldRef,
 }
 ```
 
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFromFieldRef.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecStrategyArgsValueFromFieldRef {
 	FieldPath: *string,
@@ -1462,16 +1462,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTraffic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTraffic {
-	Alb: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlb,
-	Ambassador: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAmbassador,
+	Alb: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlb,
+	Ambassador: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficAmbassador,
 	CanaryService: *string,
-	Istio: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstio,
-	Nginx: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginx,
-	PingPong: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficPingPong,
-	Smi: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficSmi,
+	Istio: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstio,
+	Nginx: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginx,
+	PingPong: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficPingPong,
+	Smi: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficSmi,
 	StableService: *string,
 }
 ```
@@ -1604,14 +1604,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlb.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficAlb {
 	AlbIngress: *string,
 	AlbRootService: *string,
 	ServicePort: *f64,
 	AlbAnnotationPrefix: *string,
-	StickinessConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlbStickinessConfig,
+	StickinessConfig: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlbStickinessConfig,
 }
 ```
 
@@ -1694,7 +1694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlbStickinessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficAlbStickinessConfig {
 	DurationSeconds: *f64,
@@ -1740,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAmbassador.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficAmbassador {
 	Mappings: *[]*string,
@@ -1772,11 +1772,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstio.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficIstio {
 	VirtualServices: interface{},
-	DestinationRule: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioDestinationRule,
+	DestinationRule: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioDestinationRule,
 }
 ```
 
@@ -1822,7 +1822,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioDestinationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficIstioDestinationRule {
 	CanarySubsetName: *string,
@@ -1882,7 +1882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServices.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficIstioVirtualServices {
 	VirtualServiceName: *string,
@@ -1944,7 +1944,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutes {
 	Port: *f64,
@@ -1990,11 +1990,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginx.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficNginx {
 	StableIngress: *string,
-	AdditionalIngressAnnotation: github.com/cdktf/cdktf-provider-spotinst-go/spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation,
+	AdditionalIngressAnnotation: github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation,
 	NginxAnnotationPrefix: *string,
 }
 ```
@@ -2052,7 +2052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation {
 	CanaryByHeader: *string,
@@ -2098,7 +2098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficPingPong.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficPingPong {
 	PingService: *string,
@@ -2144,7 +2144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficSmi.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 &oceancdrolloutspec.OceancdRolloutSpecTrafficSmi {
 	SmiRootService: *string,
@@ -2192,7 +2192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spoti
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecFailurePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecFailurePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecFailurePolicyOutputReference
 ```
@@ -2463,7 +2463,7 @@ func InternalValue() OceancdRolloutSpecFailurePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecSpotDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecSpotDeploymentOutputReference
 ```
@@ -2799,7 +2799,7 @@ func InternalValue() OceancdRolloutSpecSpotDeployment
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeploymentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecSpotDeploymentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdRolloutSpecSpotDeploymentsList
 ```
@@ -2959,7 +2959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecSpotDeploymentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecSpotDeploymentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdRolloutSpecSpotDeploymentsOutputReference
 ```
@@ -3313,7 +3313,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecStrategyArgsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdRolloutSpecStrategyArgsList
 ```
@@ -3473,7 +3473,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecStrategyArgsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdRolloutSpecStrategyArgsOutputReference
 ```
@@ -3833,7 +3833,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFromFieldRefOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecStrategyArgsValueFromFieldRefOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecStrategyArgsValueFromFieldRefOutputReference
 ```
@@ -4104,7 +4104,7 @@ func InternalValue() OceancdRolloutSpecStrategyArgsValueFromFieldRef
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyArgsValueFromOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecStrategyArgsValueFromOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecStrategyArgsValueFromOutputReference
 ```
@@ -4388,7 +4388,7 @@ func InternalValue() OceancdRolloutSpecStrategyArgsValueFrom
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecStrategyOutputReference
 ```
@@ -4701,7 +4701,7 @@ func InternalValue() OceancdRolloutSpecStrategy
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficAlbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficAlbOutputReference
 ```
@@ -5087,7 +5087,7 @@ func InternalValue() OceancdRolloutSpecTrafficAlb
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAlbStickinessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficAlbStickinessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficAlbStickinessConfigOutputReference
 ```
@@ -5394,7 +5394,7 @@ func InternalValue() OceancdRolloutSpecTrafficAlbStickinessConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficAmbassadorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficAmbassadorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficAmbassadorOutputReference
 ```
@@ -5665,7 +5665,7 @@ func InternalValue() OceancdRolloutSpecTrafficAmbassador
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioDestinationRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioDestinationRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficIstioDestinationRuleOutputReference
 ```
@@ -5980,7 +5980,7 @@ func InternalValue() OceancdRolloutSpecTrafficIstioDestinationRule
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficIstioOutputReference
 ```
@@ -6306,7 +6306,7 @@ func InternalValue() OceancdRolloutSpecTrafficIstio
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioVirtualServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdRolloutSpecTrafficIstioVirtualServicesList
 ```
@@ -6466,7 +6466,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioVirtualServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdRolloutSpecTrafficIstioVirtualServicesOutputReference
 ```
@@ -6826,7 +6826,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesList
 ```
@@ -6986,7 +6986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesOutputReference
 ```
@@ -7311,7 +7311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficNginxAdditionalIngressAnnotationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotationOutputReference
 ```
@@ -7618,7 +7618,7 @@ func InternalValue() OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficNginxOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficNginxOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficNginxOutputReference
 ```
@@ -7960,7 +7960,7 @@ func InternalValue() OceancdRolloutSpecTrafficNginx
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficOutputReference
 ```
@@ -8519,7 +8519,7 @@ func InternalValue() OceancdRolloutSpecTraffic
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficPingPongOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficPingPongOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficPingPongOutputReference
 ```
@@ -8812,7 +8812,7 @@ func InternalValue() OceancdRolloutSpecTrafficPingPong
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.oceancdRolloutSpec.OceancdRolloutSpecTrafficSmiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/oceancdrolloutspec"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/oceancdrolloutspec"
 
 oceancdrolloutspec.NewOceancdRolloutSpecTrafficSmiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OceancdRolloutSpecTrafficSmiOutputReference
 ```

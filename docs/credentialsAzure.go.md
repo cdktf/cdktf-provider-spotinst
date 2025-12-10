@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.
 #### Initializers <a name="Initializers" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 credentialsazure.NewCredentialsAzure(scope Construct, id *string, config CredentialsAzureConfig) CredentialsAzure
 ```
@@ -392,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ credentialsazure.CredentialsAzure_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 credentialsazure.CredentialsAzure_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ credentialsazure.CredentialsAzure_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 credentialsazure.CredentialsAzure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-spotinst.credentialsAzure.CredentialsAzureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/credentialsazure"
+import "github.com/cdktf/cdktf-provider-spotinst-go/spotinst/v14/credentialsazure"
 
 &credentialsazure.CredentialsAzureConfig {
 	Connection: interface{},
